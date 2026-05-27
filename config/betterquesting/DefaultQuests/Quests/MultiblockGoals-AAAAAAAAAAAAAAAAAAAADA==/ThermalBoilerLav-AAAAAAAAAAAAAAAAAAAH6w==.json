@@ -21,7 +21,7 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 875,
+        "Damage:2": 15557,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -75,7 +75,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 875,
+          "Damage:2": 15557,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
@@ -84,12 +84,6 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "miscutils:itemLavaFilter"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 11,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.2"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -112,6 +106,53 @@
               "mMeta:3": 0
             }
           }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 27,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "1:10": {
+          "Count:3": 17,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "2:10": {
+          "Count:3": 17,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:blockFrameGtMaragingSteel350"
+        },
+        "4:10": {
+          "Count:3": 6,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "5:10": {
+          "Count:3": 6,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

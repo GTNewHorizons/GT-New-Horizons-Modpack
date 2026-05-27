@@ -25,7 +25,7 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 31069,
+        "Damage:2": 15554,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -74,7 +74,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31069,
+          "Damage:2": 15554,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -90,45 +90,46 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 20,
+          "Count:3": 53,
           "Damage:2": 5,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.5"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 91,
+          "Count:3": 37,
+          "Damage:2": 305,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 31778,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 31779,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.blockframes"
         },
         "2:10": {
-          "Count:3": 1,
-          "Damage:2": 31780,
+          "Count:3": 18,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "3:10": {
+          "Count:3": 12,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "4:10": {
+          "Count:3": 6,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:blockFenceIron"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings5"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

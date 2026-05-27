@@ -97,18 +97,6 @@
               "MaxDamage:4": 50
             }
           }
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 32,
-          "OreDict:8": "",
-          "id:8": "miscutils:item.BasicGenericChemItem",
-          "tag:10": {
-            "catalyst:10": {
-              "Damage:4": 0,
-              "MaxDamage:4": 50
-            }
-          }
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

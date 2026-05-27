@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "It\u0027s, like, faster than a normal one I guess? But uses power.",
+      "desc:8": "It\u0027s, like, faster than a normal one I guess? But uses power.\n\nIf you would prefer to use steam instead, then the multiblock is also a good option.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -38,7 +38,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -84,6 +84,23 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 261,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 31087,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

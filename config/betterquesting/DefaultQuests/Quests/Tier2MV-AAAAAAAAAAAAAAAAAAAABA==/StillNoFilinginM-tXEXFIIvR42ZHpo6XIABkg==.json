@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1081
+      "questIDLow:4": 896
     }
   },
   "properties:10": {
@@ -17,21 +17,19 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Or 4? Need to store ludicrous amounts of cobble? Stone dust? Saplings? Super chests are the thing to use. A Super Chest I can store 4 million items, worry free. You will need to take items out manually 64 at a time, or use conveyors etc. to extract them.",
-      "globalShare:1": 1,
+      "desc:8": "The MV Lathe isn\u0027t a completely necessary upgrade (assuming you can get ahold of an Exquisite Green Sapphire), but it will grant you a boost in productivity nonetheless should you choose to invest in one.",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 135,
+        "Damage:2": 292,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lOne in a Million",
+      "name:8": "§6§lStill No Filing in MV",
       "particle_count:3": -1,
-      "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -42,8 +40,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1907,
+  "questIDHigh:4": -5372487503625369715,
+  "questIDLow:4": -7413318361154584174,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -83,7 +81,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 135,
+          "Damage:2": 292,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
