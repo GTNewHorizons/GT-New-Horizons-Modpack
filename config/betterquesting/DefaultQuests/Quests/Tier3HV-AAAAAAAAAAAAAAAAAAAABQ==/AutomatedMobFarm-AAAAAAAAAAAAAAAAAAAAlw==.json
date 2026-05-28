@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Of course... zombies love that... disgusting liquid (nutrient distillation). While using a small amount per hit, he will attack everything that is within his range with a weapon you give him. That also includes players, so be careful. Rumors are there might be a weapon that will never break when used in this \"machine\"...\n\n[note]BTW you need to be at \u003e 75% to run it.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lAutomated Mob Farming",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

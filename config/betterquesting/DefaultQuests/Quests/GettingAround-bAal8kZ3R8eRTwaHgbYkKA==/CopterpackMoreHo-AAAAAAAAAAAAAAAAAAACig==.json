@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The copterpack is the first jetpack with a hover mode. It uses several different types of fuels to power it.\n\nBuckets of creosote, lava, oil, diesel, cetane, ethanol, and fuel will work.\n\nEquip your jetpack and hit Shift and the adventure backpack\u0027s action-key. You can also switch between hover and normal mode.\n\nMax flying height is limited to Y-200.\n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.\n\n[note]Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -28,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 1,
       "name:8": "Copterpack, More \u0027Hover\u0027 than \u0027Jet\u0027",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

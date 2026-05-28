@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Ever wanted to order 10 million billion billion chests and noticed that your crafting storage was just not big enough?\n\nWell, here is your solution, provided to you by the good folks over at GTNHCorp (Name Pending).\n\nThe §cSingularity Crafting Storage§r has a storage of 9,223,372,036,854,775,807 Bytes, which, if you can\u0027t read numbers, is a lot.\n\nEnjoy crafting one :) You\u0027ll need to kill some Chaos Guardians for it.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Yet Another Singularity?!?!",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

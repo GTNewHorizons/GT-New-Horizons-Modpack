@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Another rocket, another set of planets. Get to work already, that\u0027s why you made it, right?\n\nThere\u0027s only two new planets this time, Proteus and Triton. They\u0027re both moons of Neptune.\n\nThe new veins are Neutronium, Niobium, and Thorium. The ores are: Adamantium, Gallium, Naquadah, Neutronium, Niobium, Plutonium-241, Titanium, Uranium 235, Uranium-238, and Yttrium.\n\nYou can get Black Plutonium from small ores on Triton.\n\nYou should pick up some planet blocks while you\u0027re visiting.\n\nThe schematic is on Proteus.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lWhere No One Has Gone Before",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

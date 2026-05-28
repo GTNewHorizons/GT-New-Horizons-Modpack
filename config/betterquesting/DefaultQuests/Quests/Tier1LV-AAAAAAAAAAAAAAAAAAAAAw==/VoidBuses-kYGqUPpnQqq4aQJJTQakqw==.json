@@ -16,6 +16,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Another good use for Trash Cans is combining them in the Assembler with either an Output Bus or an Output Hatch to create a Void Bus or Void Hatch. These handy buses allow you to instantly void any desired item or fluid output from a multiblock.\n\nYou may or may not find these useful now, depending on whether you are taking advantage of steam multiblocks, but you will definitely find them useful later when you start creating electric multiblocks.",
       "globalShare:1": 0,
       "icon:10": {
@@ -28,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lVoid Buses",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

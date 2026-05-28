@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "A buffer of 64 per slot is never big enough. Just look at red alloy ingot for example. It can only hold 16 recipes worth of redstone at once. You don\u0027t really want the items to just zoom around the pipes while waiting for the machine to make room... You want to have a big chest buffering items to be processed.\n\nIntroducing the Satellite Logistics Pipes. It provides additional input into the recipe incorporating it.\n\nThe pipe runs on a numerical frequency system, with the whole server sharing the number pool. This ensures that 2 separate systems can be connected to each other without conflict.\n\nYou can \"connect\" a crafting module with one satellite pipe by selecting the correct frequency of the satellite part. Multiple modules can connect to a single satellite pipe.\n\nSatellite pipe inputs are the 3 gray slots on the right of the 9 slots of the module. Only items in the 3 gray slots will be sent to satellite pipes.\n\n§cNote: Ensure your satellite pipe has any frequency other than 0. A satellite pipe with frequency 0 will not work.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Satellites! Wait,... They don\u0027t Orbit...",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

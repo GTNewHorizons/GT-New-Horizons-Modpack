@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Given the fact that I will be able to craft this device, it needs some kind of \"plug\" to get the power out. I need something to conduct immense amounts of power. I thought about superconductors, but they don\u0027t fit with the crystal casing material I have in mind. I need 2 different crystals, one for positive and one for negative charge.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lIt Needs a Power Plug...",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

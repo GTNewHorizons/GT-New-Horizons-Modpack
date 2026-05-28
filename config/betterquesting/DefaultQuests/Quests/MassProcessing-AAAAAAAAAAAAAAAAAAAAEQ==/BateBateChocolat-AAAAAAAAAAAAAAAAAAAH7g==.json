@@ -5,13 +5,22 @@
       "questIDLow:4": 1410
     },
     "1:10": {
-      "questIDHigh:4": 4924712871570456639,
-      "questIDLow:4": -6208773058821867190
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1416
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Abuela, will you teach us the chocolate song?\nCon mucho gusto\nWill you sing the chocolate song with us?\nGreat, sing along with Abuela!\n\nBate bate chocolate\nBate bate chocolate\nBate bate chocolate\nBate bate chocolate\n\nMix your chocolate, chocolate\nMix your chocolate, chocolate\nBate bate chocolate\nBate bate chocolate\n\nAside from mixing chocolate, the Industrial Mixing Machine offers §6§l8§r parallels per voltage tier and an additional §2§l100%§r speed boost per tier of Item Pipe Casing.\n\n[note]Eventually, when you unlock §9UIV§r tiered glass, this can be given multi-amp hatches![/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lBate Bate Chocolate",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

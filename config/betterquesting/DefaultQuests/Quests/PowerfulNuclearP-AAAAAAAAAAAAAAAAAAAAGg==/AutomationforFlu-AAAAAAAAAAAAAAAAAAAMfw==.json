@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "If you\u0027ve looked at the wiki setups, you might have seen some that seem harder to automate than others. Particularly, that one with two kinds of Uranium Rods. More than filling empty slots with Reactor Platings to force all the inputs to move to the specific slots where the rods must go, this one needs each rod to go in a specific slot!\n\nThe solution for this is a GT cover. The Robot Arm does the same action of moving items around as the Conveyor, but it moves to specific slots. With this, you can move the Dual Rod to where it needs to be, and the Quad Rods can fill the remaining slots as intended. If you\u0027re using other setups, you can use a similar logic to do your automation.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Automation for Fluid Nukes",
+      "particle_count:3": -1,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

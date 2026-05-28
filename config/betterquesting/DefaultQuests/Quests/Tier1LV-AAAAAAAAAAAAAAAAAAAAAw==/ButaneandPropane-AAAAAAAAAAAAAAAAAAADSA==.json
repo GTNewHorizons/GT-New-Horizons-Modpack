@@ -23,6 +23,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "You can crack and distill a lot of different fluids out of your already distilled products, such as Butane, Butene, Butadiene, Benzene, Ethane, Ethylene, Helium, Hydrogen, Methane, Octane, Propane, Propene, Toluene, and even more Light Fuel, Heavy Fuel, or Naphtha. You can then crack them down even further too sometimes. Many of these are only used for power. Go check out the spreadsheet for more details than this quest can encompass.\n\nFor now, get some Butane and Propane.",
       "globalShare:1": 1,
       "icon:10": {
@@ -36,6 +45,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lButane and Propane",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,

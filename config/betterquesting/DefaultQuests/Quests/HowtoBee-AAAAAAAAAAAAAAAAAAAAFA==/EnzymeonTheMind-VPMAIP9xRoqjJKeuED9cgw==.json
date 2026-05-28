@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Both the Genepool and the Isolator will require Enzyme. This is a resource you will want to passively generate for continuous gene research. It will require Bacteria and sugar. Bacteria can be created from (fluid) Growth Medium and Wheat in an Incubator. If you then have a bunch of Growth Medium, you can keep using that instead to stretch out that Bacteria forever. It\u0027s kind of like a sourdough starter.\n\nFor sugar, there\u0027s plenty of ways to passively generate that, including from bees!",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Enzyme on The Mind",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

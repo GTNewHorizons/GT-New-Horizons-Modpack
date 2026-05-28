@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "A Carbon crossbow limb is 1/3 the durability of the magnalium limb, but hits a lot harder and shoots a little faster. But you\u0027ll want to carry around a tinker table and extra ingots to repair it constantly, and watch that you don\u0027t break it in the middle of combat!",
       "globalShare:1": 1,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lBrittle But Hits Like a Sledgehammer...",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "As you may have noticed, you cannot turn clay into bricks directly. Well, to be fair, it wasn\u0027t a good recipe anyway. You\u0027ll probably end up with something bread-shaped.\n\nIn order to make bricks, you need a form. Get yourself a knife by putting flint above a stick on the crafting grid. With a knife, you can cut a brick sized piece out and craft a blank pattern. It\u0027s as easy as that.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lForming Press v0.1",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Impossible! But if you really want to get rid of excess items, make yourself a trashcan. If you want to be really fancy, you can use a hopper with a lever next to it to make sure you only throw away items you really want. I mean, §lI\u0027ve§r never thrown away a tool accidentally, nope, never me.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lToo Much Junk??",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -45,8 +55,15 @@
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
-        },
-        "1:10": {
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",

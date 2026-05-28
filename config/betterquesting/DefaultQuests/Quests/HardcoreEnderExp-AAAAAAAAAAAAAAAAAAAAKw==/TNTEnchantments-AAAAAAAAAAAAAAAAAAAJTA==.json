@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Enhanced TNT is a special version of vanilla TNT with one or more special effects (enhancements).\n\nThe way to make enhanced TNT is to right-click with End Powder in your Hand to modify your TNT. You can continue adding as many effects to one TNT as you want.\n\nEnhancements:\nNo block damage (Feather)\nTNT explodes with no Block damage.\n\nNo Entity damage (Slime)\nTNT explodes with no Entity damage.\n\nExtra Damage (Gunpowder)\nTNT explodes with extra damage.\n\nTrap (Redstone)\nTNT explodes when hostile mob touches or walks over the TNT block.\n\nNo Clip (Enderpearls)\nTNT falls through solid blocks and explodes after a few seconds.\n\nFire (Igneous Rock)\nTNT explodes with a big fire spread.\n\nNo fuse (Redstone Torch)\nTNT explodes immediately.",
       "globalShare:1": 1,
       "icon:10": {
@@ -26,6 +35,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "TNT Enchantments",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

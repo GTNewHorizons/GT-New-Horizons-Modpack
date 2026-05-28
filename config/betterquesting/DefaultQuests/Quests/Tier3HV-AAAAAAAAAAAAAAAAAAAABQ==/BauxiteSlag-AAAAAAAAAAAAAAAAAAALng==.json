@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Now the slurry can be separated in a chemical process. Besides the Alumina which we get directly, the most important part is the Bauxite Slag which we will process further. You can also centrifuge the Sluice Juice for some extra byproducts.\n\nIf you don\u0027t have Aluminum Hydroxide yet, look around a bit in NEI. You can get it from Sodium Aluminate or from either Ruby, Sapphire, or Green Sapphire Slurry.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lBauxite Slag",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

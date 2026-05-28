@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "This device will turn on (or off) a redstone signal based on how much of an item, fluid, or energy you specify you have in your network. The \u0027Level Type\u0027 will toggle between Item / Fluid mode and Energy mode.\n\nTo add an item, left-click your desired item into the blank space between the 1000 numbers to add, click again while holding nothing to remove. \n\nTo add a fluid, left-control-click a cell containing your desired fluid into the blank space, removable in the same fashion.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Redstone Based on Storage Level",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

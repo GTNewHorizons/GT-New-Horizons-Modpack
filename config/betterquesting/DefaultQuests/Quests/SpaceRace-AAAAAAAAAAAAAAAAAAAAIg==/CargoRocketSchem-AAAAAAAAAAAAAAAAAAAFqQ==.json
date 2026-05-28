@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Cargo Rocket has the capability to transport solid items between dimensions, and is a perfect way to transport items between dimensions without relying on ender chests.\n\nThis rocket can be loaded with 2000L of Rocket Fuel. The safe fuel level is 80 percent.\n\nYou can fill up the right slots with chests to increase the storage space to 36 and 54 slots.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Cargo Rocket Schematic",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

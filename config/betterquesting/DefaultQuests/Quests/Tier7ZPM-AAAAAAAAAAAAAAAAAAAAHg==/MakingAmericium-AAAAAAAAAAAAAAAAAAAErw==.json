@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "To upgrade your reactor further and to make UV motors, you will need to get some americium. The recipe is pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. However, to get there you will need a lot of americium already, so better make sure you are producing enough lutetium.\n\nLet\u0027s start with just 48 ingots. Enough for a single UV motor.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lMaking Americium",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

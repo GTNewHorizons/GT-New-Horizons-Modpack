@@ -8,7 +8,16 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A faster alternative to steel production is to use the arc furnace and smelt iron ingots (or dust) into wrought iron ingots. Then macerate them to dust and smelt them very fast in the EBF to steel.\n\nOf course, you\u0027ll need enough oxygen to do so.",
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "A faster alternative to Steel production is to use the arc furnace and smelt Iron Ingots (or dust) into Cast Iron Ingots. Then macerate them to dust and smelt them very fast in the EBF to Steel.\n\nOf course, you\u0027ll need enough Carbon/Coal/Charcoal dust to do so.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lFaster Steel Production",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

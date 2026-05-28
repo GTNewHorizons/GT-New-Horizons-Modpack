@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Weeds will show up from time to time on empty single or double crop sticks. They will spread from there and sicken all your precious crops, so clear weeds with your spade (or fist) before you start desiring to reload the last backup. \n\nUsing smaller fields will make things a lot easier, at least until you can make Weed-Ex, so if you forget about them you only lose one or two seeds. If your crops have already become sick, you\u0027ll need Plant-Cure to heal them. Otherwise you\u0027ll just have to risk breaking them if you want the seeds back before then.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Weeds",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

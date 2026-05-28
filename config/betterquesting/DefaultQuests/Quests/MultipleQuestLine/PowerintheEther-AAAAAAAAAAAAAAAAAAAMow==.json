@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "These new hatches allow you to wirelessly store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy hatches. \n\nAdditionally, the wireless covers can be used for singleblock machines such as a World Accelerator or a BioLab.\n\nThe wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.\n\nYou can share a wireless network with others by adding them to your network with §5/gt global_energy_join §3user1§r §2user2§r. This will make §3user1§r use §2user2\u0027s§r energy when interacting with the global network. You can leave a network at any time by doing §5/gt global_energy_join§r §4your_name your_name§r.\n\nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.\n\n[note]If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§l§nPower in the Ether",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

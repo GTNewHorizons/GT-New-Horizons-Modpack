@@ -16,6 +16,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Rockets require heavy duty plates for the main hull. Let\u0027s craft 13 tier 4 heavy duty plates out of tier 3 plates and compressed ice plates.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,6 +38,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Tier 4 Heavy Duty Plates",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -71,8 +81,8 @@
           "tag:10": {
             "ench:9": {
               "0:10": {
-                "id:4": 35,
-                "lvl:4": 3
+                "id:2": 35,
+                "lvl:2": 3
               }
             }
           }

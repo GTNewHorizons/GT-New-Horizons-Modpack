@@ -8,11 +8,20 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "If you want energy from Lava and the byproducts, the Thermal Boiler is the perfect solution. It processes Lava super fast for Steam, and with a Lava Filter will provide some centrifuged lava byproducts as well. A great source of Copper, Silver, Gold, Tin, Tantalum, and Tungstate, better outputs than regular lava processing in a Centrifuge.\n\nYou can get even better efficiency pairing it with a Large Heat Exchanger. The LHE will turn normal vanilla Lava into Pahoehoe Lava, which will provide Steam and byproducts in the Thermal Boiler. Win/Win/Win!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 875,
+        "Damage:2": 15557,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lThermal Boiler - Lava you long time",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -65,7 +75,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 875,
+          "Damage:2": 15557,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
@@ -73,18 +83,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemLavaFilter",
-          "tag:10": {
-            "LavaFilter:10": {
-              "Damage:4": 0
-            }
-          }
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 11,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.2"
+          "id:8": "miscutils:itemLavaFilter"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -107,6 +106,53 @@
               "mMeta:3": 0
             }
           }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 27,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "1:10": {
+          "Count:3": 17,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "2:10": {
+          "Count:3": 17,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:blockFrameGtMaragingSteel350"
+        },
+        "4:10": {
+          "Count:3": 6,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "5:10": {
+          "Count:3": 6,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

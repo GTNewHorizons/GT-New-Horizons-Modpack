@@ -18,6 +18,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "In order to compress singularities and eventually infinity catalysts, you\u0027ll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you\u0027ll need something even stronger...\n\n[note]Note that singularity recipes require extreme amounts of items! Consider using Compressed Buses, Quantum Buses, or ME Stocking Input Buses to fit everything in there.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -30,6 +39,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§l§nNeutronium Compressor",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

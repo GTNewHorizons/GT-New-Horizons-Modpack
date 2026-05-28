@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "It is possible to run MV machines while still in LV - build a transformer and use 4 power sources 32 EU/t to power one 128 EU/t machine.\n\nIt transforms power up or down, depending on the mode, which you can switch with a soft mallet. Step-up means 4A LV in, 1A MV out, while step-down means the reverse.\n\nMake sure you understand the following if you prefer your base not being a crater:\nA step-down mode is the default one. In this mode, the large dot is the input. In a step-up mode, it\u0027s the output. Do not mix it up. LV machines that receive MV power will explode.\n\nIf the transformer is connected to power, or was in the past, then do not change the mode with stuff connected. It\u0027s better to break and place it again to get rid of the stored power rather than rotate it with the wrench and blow things up. Make sure to also disconnect the nearby wires with a wire cutter.\n\nAs a reminder, machines don\u0027t blow up if they are given more amps than they can consume. They blow up from higher voltage tier.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Low Voltage Transformer",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

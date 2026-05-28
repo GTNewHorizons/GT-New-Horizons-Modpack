@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Have you ever seen a slime and thought \"I\u0027d love to eat that\"? The narslimmus has.\n\nIt needs to be planted somewhere slimes can naturally appear, but if you can find a good place for a narslimmus it\u0027ll consume those slimes and give you a good amount of mana in return.",
       "globalShare:1": 0,
       "icon:10": {
@@ -23,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Mmmmmm, Slimy!",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -24,6 +24,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "With Ethanol or Methanol and Seed Oil or Fish Oil you can make Bio Diesel. Its burn value is 320,000 EU per cell, less than regular Diesel, but more renewable. Diesel or Bio Diesel are needed for Cetane-Boosted Diesel.",
       "globalShare:1": 1,
       "icon:10": {
@@ -37,6 +46,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lBio Diesel Fuel",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,

@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Jelly sandwiches are a great food source with decent saturation and are easy to make. Almost any fruit can be converted to jelly with sugar and a saucepan. There are a few different nut butters available. Peanuts can be found in Ground Gardens in forest, mountain, or taiga style biomes. Cashews are trees located in jungles or swamps. Chestnuts can be found in warmer forests. Pistachios can be found in jungles. Many of these saplings are also available for trade from villagers.\n\nTo keep all your recipes together, you can use either a Kitchen multiblock if you want to see all recipes available to you, or a Forestry Worktable if you\u0027re fine with the limit of nine recipes.\n\nSome sandwiches have better saturation than others, so be sure to check before buying that sapling!",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Just Like Mom Used to Make",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

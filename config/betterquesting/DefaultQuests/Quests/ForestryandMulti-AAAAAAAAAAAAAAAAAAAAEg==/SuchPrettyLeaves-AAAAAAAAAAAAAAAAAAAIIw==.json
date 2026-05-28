@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you have entered MV you can begin breeding Forestry trees the smart way. Start by getting a Treealyzer, and scan the vanilla trees. They will transform into the forestry versions. You will need to gather honey or honeydew drops from bee combs to power the Treealyzer.\n\nIf you want to bulk scan saplings, you can feed them through a GT scanner filled with honey.\n\nYou can also try the Genetics mod to modify them. It\u0027s on the first bee tab.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Such Pretty Leaves...",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

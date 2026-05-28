@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "We get it, this isn\u0027t the most exciting piece of the puzzle. However, the §5§nFundamentals Package§r is essential to the entire operation.\n\nAllowing things such as:\n- Part Preparation for your surface mounted devices\n- Wafer Cutting for your advanced silicon parts among others\n- Wire Tracing for all your fine wires\n- Superconductor Splitting for your most expensive circuits\n- Encasement Wrapping for all your mainframe needs\n- Board Immersion for the base of your circuits*\n\n§oNote*: The Full-Board Immersion Device requires a proper setup to ensure fluid purity. Read the owner\u0027s manual (tooltip) to see how to properly utilize this module.§r\n\n",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§l§nNAC§r§5§n™§r§5§n§l: Fundamentals Package",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

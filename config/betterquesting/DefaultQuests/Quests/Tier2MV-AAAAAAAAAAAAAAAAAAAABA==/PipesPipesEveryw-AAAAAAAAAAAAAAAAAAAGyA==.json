@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you\u0027re in MV, you\u0027ll want to start automating Polyethylene, Oxygen, Nitrogen, Hydrogen, Rubber, Charcoal, etc. Faster item pipes will help with transporting items quicker around your base. For now, use your spiffy new extruder to craft some brass item pipes.\n\nThe reward - restrictive item pipes - allow you to prioritize destinations. Locations on the other side of a restrictive pipe are treated as much further away than locations on the same side of a pipe. Very handy when you want overflow (or non-matching) items to go somewhere else!\n\nFor higher tiers, look up \"item pipe\" in NEI or use the wiki: [url]https://wiki.gtnewhorizons.com/wiki/Fluid_%26_Item_Pipes[/url]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lPipes, Pipes Everywhere",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

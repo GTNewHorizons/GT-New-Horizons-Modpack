@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Factory Labeler allows you to assign unique names to anything that can be connected to a Manager - making it easy to identify when you are setting up commands.\n\nType in the text box to set a label or to searched stored labels - click any stored entry to select it, double-click to edit it. Closing the GUI will set the Labeler to whatever was in the text box at that time.\n\nLeft-click to set labels, right-click to open the gui. Setting a blank label will remove any existing labels.\n\n[note]May or may not be buggy. Will lose the label in MP when relogging, but works fine in SP. It\u0027ll still work until you need to change it though. Have fun![/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -31,6 +40,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Naming Names",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

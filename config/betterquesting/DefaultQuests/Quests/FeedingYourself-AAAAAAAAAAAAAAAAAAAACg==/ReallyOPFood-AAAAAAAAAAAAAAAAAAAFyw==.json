@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "You\u0027ve heard about Dezil\u0027s Marshmallow, a really OP food which can be found from time to time in chests. What about I show you a way to cook this stuff yourself?\n\nAfter you\u0027ve mastered the flowing spirit in the dream dimension (witchery), put a bit of flour, sugar, salis mundus and draconium dust in your IV Mixer.\nThe recipe starts when you give flowing spirit to it and gives you malformed slush, a very stinky and disgusting piece of...something.\n\nBe careful, you\u0027ll get blindness II when holding it in your hand.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Really OP Food",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

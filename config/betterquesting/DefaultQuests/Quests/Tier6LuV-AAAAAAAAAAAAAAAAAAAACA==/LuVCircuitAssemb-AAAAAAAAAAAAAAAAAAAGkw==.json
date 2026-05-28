@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "You may have noticed that the circuits you\u0027re thinking of crafting cost way more, 6x more. This is intended for circuits needing LuV+ voltage. You now need to craft your circuits in the Circuit Assembly Line or CAL if you don\u0027t want to pay out the ears in materials. You\u0027ll still need to craft your first ones using the normal Circuit Assembler though.\n\nOnce you\u0027ve done that, you can make an imprint for use in the CAL to set it to make that (and only that) type of circuit.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lLuV Circuit Assembler",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The second thing you\u0027ll need is a cauldron. It is used to craft most of the basic items, like mutandis. It requires anointing paste, which you will need an MV mixer to make. It is made by placing a regular Cauldron in the world, and then using Anointing Paste on it.\n\nTo brew a potion, cast a ritual or create an item, the cauldron must first be filled with water. This can be achieved by using three buckets of water on it, pumping water into it using pipes, or by using a Dispenser containing a Brew of Endless Water.\n\nOnce a cauldron is full of water, it must boil. Lighting a fire beneath the cauldron is the only way for this to happen. Using a netherrack block will guarantee the fire does not go out, although if it does go out, it may be set to boil again without any consequences (unlike brewing in a Kettle!).\n\nWhen the water is boiling, ingredients may be added to the Cauldron (one after another), to create the desired effect. The book, Witches\u0027 Brews gives a complete overview of all ingredients and what they can do when added to a brew.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "...Cauldron Bubble",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

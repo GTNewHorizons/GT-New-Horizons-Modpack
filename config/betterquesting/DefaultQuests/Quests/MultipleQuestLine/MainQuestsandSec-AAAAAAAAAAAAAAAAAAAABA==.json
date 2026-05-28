@@ -8,7 +8,16 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you\u0027ve made it this far, you might notice how the two new quests look different.\n\nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can\u0027t progress, go back to previous tiers and look for uncompleted main quests.\n\nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nWhat are the coins for? Starting in Stone Age, you can use them to purchase things in a Vending Machine.\n\nIn case you started in a bad biome, here\u0027s enough coins to purchase some saplings once you get to the Vending Machine.",
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Now that you\u0027ve made it this far, you might notice how the two new quests look different.\n\nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can\u0027t progress, go back to previous tiers and look for uncompleted main quests.\n\nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nWhat are the coins for? Starting in Stone Age, you can use them to purchase things in a Vending Machine.\n\nIn case you started in a bad biome, here\u0027s enough coins to purchase some saplings once you get to the Vending Machine.\n\n[note]Don\u0027t like the style of the book? Change things up by selecting a new theme on the main menu. You can also customize the quest notifications you receive.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lMain Quests and Secondary Quests",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -45,8 +55,15 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:cooked_beef"
-        },
-        "1:10": {
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",

@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Basic Pipes can interact with adjacent blocks, but they also don\u0027t do much on their own.\n\nLogistics Pipes has modules that provide the pipes with more complex functions, but the Basic Logistics Pipes can\u0027t make use of them.\n\nTo make use of the modules, there are special pipes called Chassis.\n\nThere are multiple tiers of Chassis in Logistics Pipes. For now, a Mk 1, which can hold 1 module, will work.\n\nYou can insert modules directly in the chassis by right-clicking said chassis with the module. But if you need to take modules out of a chassis or configure a module in one, you need to right-click the chassis with a wrench to access its UI.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Chassis",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

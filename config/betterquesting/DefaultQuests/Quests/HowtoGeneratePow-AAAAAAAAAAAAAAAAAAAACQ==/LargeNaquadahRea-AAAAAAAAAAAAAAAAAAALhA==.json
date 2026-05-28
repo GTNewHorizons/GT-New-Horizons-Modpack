@@ -8,11 +8,20 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The multi block version of the naquadah reactor, but it is completely different from the single block ones.\n\nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel information in NEI.\n\nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.\n\n[warn]It will explode with more than one types of fuel in its hatches.[/warn]\n\nYou can input in coolant to increase efficiency.\nIC2 Coolant: 1.05x\nSuper Coolant: 1.5x\nCryotheum: 2.75x\nTachyon Rich Temporal Fluid: 5.00x\n\nYou can also input boosters to increase power.\nMolten Caesium: 2x\nMolten Uranium-235: 3x\nMolten Naquadah: 4x\nMolten Atomic Separation Catalyst: 16x\nSpatially Enlarged Fluid: 64x\nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The boosters work like \u0027parallels\u0027 for your reactor.\n\nIt also supports §9Tec§1Tech§r\u0027s Multi-Amp Dynamo hatches and laser hatches.\n\n[note]PS: This generator can produce up to 664 billion EU/t with the best coolant, boosters and fuel available.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 12732,
+        "Damage:2": 15537,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lLarge Naquadah Reactor",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -43,31 +53,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 77,
-          "Damage:2": 12,
+          "Count:3": 1,
+          "Damage:2": 15537,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings3"
-        },
-        "1:10": {
-          "Count:3": 6,
-          "Damage:2": 15,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
-        },
-        "2:10": {
-          "Count:3": 48,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "GoodGenerator:MAR_Casing"
-        },
-        "3:10": {
-          "Count:3": 36,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "GoodGenerator:radiationProtectionSteelFrame"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -78,13 +70,25 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 12732,
+          "Count:3": 140,
+          "Damage:2": 15,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.blockcasings13"
+        },
+        "1:10": {
+          "Count:3": 81,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:MAR_Casing"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:radiationProtectionSteelFrame"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

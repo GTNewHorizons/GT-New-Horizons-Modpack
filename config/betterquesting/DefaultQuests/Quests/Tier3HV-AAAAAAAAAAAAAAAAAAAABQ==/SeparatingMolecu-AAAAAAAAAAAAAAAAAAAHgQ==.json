@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Many centrifuging recipes are slow. You better upgrade your machines.\n\nThere are many interesting things you can centrifuge outside your normal ore processing or Methane production. Glowstone, Redstone, Soul Sand, Lava, Ashes, Planet Dusts, Compressed Air, etc. Make sure to look around a bit.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lSeparating Molecules",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -36,10 +46,17 @@
   "questIDLow:4": 1921,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 1,
+      "ignoreDisabled:1": 0,
       "index:3": 0,
-      "questID:8": "AAAAAAAAAAAAAAAAAAAFKg\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion"
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
     },
     "1:10": {
       "ignoreDisabled:1": 0,
@@ -48,17 +65,17 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        },
-        "1:10": {
-          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFKg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
     }
   },
   "tasks:9": {

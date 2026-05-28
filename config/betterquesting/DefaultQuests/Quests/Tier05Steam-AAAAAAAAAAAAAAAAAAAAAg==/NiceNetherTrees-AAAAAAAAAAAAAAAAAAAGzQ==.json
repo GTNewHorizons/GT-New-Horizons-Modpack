@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "There are a few very useful Nether trees out there which give resources like Redstone, Gunpowder, Bone meal or Fertilizer.\n\nGo and get a few trees like Bloodwood, Fusewood, Darkwood or Ghostwood out of the Nether.\n\nThese trees can be planted like normal trees, except for Bloodwood. That has to be planted on a ceiling and will grow down instead of up.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lNice Nether Trees",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

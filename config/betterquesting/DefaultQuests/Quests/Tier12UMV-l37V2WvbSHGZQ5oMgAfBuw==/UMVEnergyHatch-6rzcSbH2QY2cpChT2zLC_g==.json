@@ -1,6 +1,10 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": -1259711472911957508,
+      "questIDLow:4": -7085580672393101304
+    },
+    "1:10": {
       "questIDHigh:4": -5718780453217481644,
       "questIDLow:4": -4972516930668425636
     }
@@ -8,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The penultimate energy hatch.\n\nHopefully you know what to upgrade first.\n\n[note]Have you checked out wireless energy hatches yet?[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§l§nUMV Energy Hatch",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

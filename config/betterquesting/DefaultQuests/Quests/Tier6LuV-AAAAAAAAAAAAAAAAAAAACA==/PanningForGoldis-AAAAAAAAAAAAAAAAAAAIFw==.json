@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you\u0027ve reached LuV you can make the god-tier prospector - The Electric Prospector. This handheld machine can provide detailed information on ores in the area, and return maps of how much UG fluid and what type is in each chunk.\n\nNote that the range is determined by the tier and material (the durability seems to not matter). You can select an ore from the list to show only that ore, or double-click to switch dark/light mode.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lPanning For Gold is For Chumps",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

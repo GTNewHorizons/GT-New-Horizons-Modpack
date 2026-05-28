@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Need lots of oxygen or hydrogen? Maybe you just want to rip apart materials for tons of aluminium? Both are perfect tasks for this multiblock.\n\nThe §5§lIndustrial Electrolyzer§r is much more effective than its singleblock variant. It offers §6§l4§r parallels per voltage tier, a §2§l2.8x§r speed increase, and a §3§l10%§r EU discount on all recipes. Sounds like a good deal to me!",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lZzzZZZzzzZtt",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

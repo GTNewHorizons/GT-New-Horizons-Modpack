@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The item broadcaster is a chip that tells everything in the pipe system what items it has in the connecting inventory and if another chip needs anything it will send it to them. Right-click it to set the items it will transmit. If you leave it empty and set to blacklist it will transmit everything.\n\nDefinitely use one in combination with an item overflow chip on your default storage chest. That way overflow will end up in the chest, but will be usable by the rest of your system.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Item Broadcaster",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Nano Mainframe is the first LuV Circuit, and the end of this circuit line produced in EV. To craft the Tier 2 Rocket and reach Mars, Phobos and Deimos, you need to reach this circuit and make 8 of it.\n\nAfter that, you will be able to progress into IV much more easily, but you will need two more circuits to make the IV Circuit Assembling Machine.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lNano Mainframe",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

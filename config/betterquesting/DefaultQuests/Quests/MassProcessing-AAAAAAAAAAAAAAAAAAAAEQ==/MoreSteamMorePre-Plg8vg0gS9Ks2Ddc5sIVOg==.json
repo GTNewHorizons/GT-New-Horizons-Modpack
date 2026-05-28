@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...\n\nLet\u0027s just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the other Steam Multiblocks. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.\n\nOnce the multi forms, provide lots of steam to get lots of compressed items.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lMore Steam, More Pressure!",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -99,26 +109,38 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 30,
+          "Count:3": 27,
           "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings"
         },
         "1:10": {
+          "Count:3": 10,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "2:10": {
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:iron_block"
+        },
+        "3:10": {
           "Count:3": 1,
-          "Damage:2": 31046,
+          "Damage:2": 31040,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "2:10": {
+        "4:10": {
           "Count:3": 1,
           "Damage:2": 31047,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "3:10": {
+        "5:10": {
           "Count:3": 1,
-          "Damage:2": 31040,
+          "Damage:2": 31046,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

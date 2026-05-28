@@ -12,7 +12,16 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Why not recycle your old Tier 1 rocket to get components for your new tier 2 rocket? Put your old rocket in an arc furnace or plasma arc furnace to get back lots of materials.\n\nMake sure you don\u0027t need it anymore first!",
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Why not recycle your old Tier 1 rocket to get components for your new tier 2 rocket? Put your old rocket in an arc furnace to get back lots of materials.\n\nMake sure you don\u0027t need it anymore first!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Recycle Your Rocket and Save the Environment",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

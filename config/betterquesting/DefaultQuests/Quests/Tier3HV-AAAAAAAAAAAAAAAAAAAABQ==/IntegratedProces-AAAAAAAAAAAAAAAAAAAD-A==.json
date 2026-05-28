@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "This is the start of the first 4-circuit circuit line. This one doesn\u0027t really have a consistent naming scheme unlike the later ones, but it still works the same way, aside from the fact that you get your first EV §oand§r IV circuits from it, all the rest only have 1 new tier of circuit. Because of this you\u0027ll need to make 2 new CAs to finish it.\n\nThe first one is the Integrated Processor, the final type of MV circuits. You also don\u0027t need to craft any other circuits to make it, so it\u0027s the cheapest. This repeats each circuit tier.\n\n[note]This and all circuits past it need a cleanroom.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lIntegrated Processor",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

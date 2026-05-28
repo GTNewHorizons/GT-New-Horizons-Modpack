@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Alternatively, you might choose to only process Thorium for its main output, Lutetium. This is important because Lutetium is required to make Americium in a Fusion Reactor down the line, and that is a recipe you will need to do in order to progress. Your objective is to breed Thorium into Lutetium, which means you might want to focus on a breeder reactor.\n\nWhat is a breeder reactor? In this case, it\u0027s an IC2 nuke designed to consume as much Thorium as possible. The main cost here is the amount of chambers or nuke components you\u0027ll have to make. Check the wiki for designs, which are easier to understand there: [url]https://gtnh.miraheze.org/wiki/Nuclear_Reactors[/url].\n\nTo complete this quest, you\u0027ll need to get Lutetium from one cycle of the any reactor setup. Which setup you choose is up to you, of course.",
       "globalShare:1": 0,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Thorium as Breeding Fuel",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

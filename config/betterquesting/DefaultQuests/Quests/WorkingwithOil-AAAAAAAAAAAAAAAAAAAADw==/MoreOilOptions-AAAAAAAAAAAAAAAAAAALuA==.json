@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Alongside the Oil Drilling Rig, there are other sources you can explore. For Heavy Oil, a good source might be Oilsands Ore, which is found in rare veins at high altitudes. If you find one, you will have a large amount of Heavy Fuel to make Diesel with after processing.\n\nThere are also renewable sources of Oil, namely from crops and bees. The Oilberry crop can produce it indefinitely. There are also Refined Bees, but they are much harder to obtain.\n\nYou can also get more out of the Oil by cracking it in specific ways. Lightly Hydro-Cracked Heavy Fuel, for example, gives 60% of the input amount as Light Fuel, which can be helpful if you have an excess of Heavy, and not enough Light to make Diesel.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "More Oil Options",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

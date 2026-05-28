@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Oxygen Sealer is a machine that fills a room with oxygen (although the oxygen is generally not visible) up to around 800-1000 blocks (the amount stacks with multiple sealers within close proximity) allowing the user to breathe without Oxygen Gear. Unlike the Oxygen Bubble Distributor, the Oxygen Sealer confines the oxygen to the room it is in. The sealer must be supplied with power and sufficient oxygen. See Oxygen Collector for supplying oxygen.\n\nThe sealer will only work in a room that is completely sealed off from outer space. This can be achieved with either a completely closed off room, or with an Air Lock. The sealer must have nothing above it to block its vents. It is designed to check for a proper seal about every 5 seconds, so be sure to give it time to seal.\n\nEach sealer requires at least 320 air points per second to work continuously or it will fail.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Oxygen Sealer",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

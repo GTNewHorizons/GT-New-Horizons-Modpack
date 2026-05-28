@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Tin ingots can be created by smelting Tin, Cassiterite, or Cassiterite Sand ore. Tin and Cassiterite ores are only found at high altitudes, but Cassiterite Sand ore is plentiful near the surface.\n\nIf you get lucky and find a high altitude Tin/Cassiterite vein, save one of the Cassiterite ore to find a Mica vein later on using the ore finder wand.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lTin",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

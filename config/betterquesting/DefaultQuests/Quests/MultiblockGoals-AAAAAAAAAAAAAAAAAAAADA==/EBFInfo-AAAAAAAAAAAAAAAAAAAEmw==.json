@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "You can use a scanner to manually check how your EBF works, or you can make an information panel from nuclear control and always see the status. Make a GT sensor kit and use it on the EBF controller. Place the sensor card in your info panel. Enable it with a redstone signal.\n\nThe GregTech sensor card can monitor GregTech machines like the EBF, Turbines, and Pyrolyse ovens. This is handy for keeping an eye on maintenance issues for multiblocks.\n\nIf you want to put the panels far from the machines they are monitoring, you will need range upgrades.\n\n[note]There\u0027s also a more advanced version.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lEBF Info",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

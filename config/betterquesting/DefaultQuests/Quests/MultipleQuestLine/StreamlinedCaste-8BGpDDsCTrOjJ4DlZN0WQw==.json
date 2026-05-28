@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The §5§lStreamlined Casters§r (SC) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.\n\nThe SC module functions as a powerful §2150%§r speed bonus for the Foundry. If that\u0027s not enough for you, you can further amplify by another §2150%§r for every SC module you install.\n\nIf this module paired with §5Superdense Casting Basins§r (SCB) module, you will unlock the \"§6Optimum Production§r\" bonus for §36§r extra parallels per voltage tier and a further §275%§r speed increase.\n\n[note]This bonus is stackable with bonuses obtained from other modules you will unlock in the future![/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§l§nStreamlined Casters",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

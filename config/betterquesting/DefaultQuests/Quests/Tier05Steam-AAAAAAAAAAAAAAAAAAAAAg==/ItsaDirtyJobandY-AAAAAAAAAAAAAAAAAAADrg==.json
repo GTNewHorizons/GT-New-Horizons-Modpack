@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Plunger is used to clear liquids from pipes. It can also be used on a machine to remove up to 1000mb of fluid from its internal buffer. So you don\u0027t have to wrench your machine and re-place it. It can be crafted from a rod of the desired material and rubber sheets.",
       "globalShare:1": 1,
       "icon:10": {
@@ -28,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lIt\u0027s a Dirty Job, and You\u0027re Going to Do It",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -43,19 +53,6 @@
   "questIDLow:4": 942,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "harvestcraft:oldworldveggiesoupItem"
-        }
-      }
-    },
-    "1:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 1,
@@ -74,9 +71,22 @@
       "index:3": 1,
       "rewardID:8": "bq_standard:choice"
     },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 3,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:oldworldveggiesoupItem"
+        }
+      }
+    },
     "2:10": {
       "ignoreDisabled:1": 0,
-      "index:3": 2,
+      "index:3": 4,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {

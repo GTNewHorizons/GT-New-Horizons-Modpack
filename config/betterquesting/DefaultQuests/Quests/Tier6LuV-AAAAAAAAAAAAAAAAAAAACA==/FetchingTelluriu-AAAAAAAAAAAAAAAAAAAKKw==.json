@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "For Tellurium, you can do it these ways:\n\n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets\n2) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite\n3) Toxic Everglades\n4) Once you have a Void Miner, you can place it in the Overworld to obtain Tellurium.\n5) Process Platinum Ore in an Isamill Grinder \u0026 Flotation Cell for the froth, then set in a Vacuum Furnace.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lFetching Tellurium",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

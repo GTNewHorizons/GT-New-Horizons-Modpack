@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "There is more than one way to get steam for your machines. This completely optional questline shows you some alternative methods for producing steam.\n\n§3For the ones that need glass, you\u0027ll need to progress a few more quests to see how to do so, though you can also make it now if you know how to use NEI to find the recipe.",
       "globalShare:1": 1,
       "icon:10": {
@@ -26,6 +35,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lSteam Alternatives",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

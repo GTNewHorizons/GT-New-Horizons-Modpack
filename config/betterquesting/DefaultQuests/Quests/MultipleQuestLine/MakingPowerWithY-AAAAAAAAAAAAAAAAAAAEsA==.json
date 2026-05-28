@@ -8,11 +8,20 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you have a reactor, it\u0027s time to utilize it to create power.\n\nThe simplest plasma you can make for power is Helium plasma, but it also provides a lot of power. Deuterium is renewable from water, and you can get Helium-3 from Endstone.\n\nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you\u0027re outputting. For Helium plasma, you will want a 4A LuV Dynamo or above.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1153,
+        "Damage:2": 15528,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lMaking Power With Your Plasma",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -103,30 +113,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 18,
+          "Damage:2": 15528,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 31325,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
-        },
-        "2:10": {
-          "Count:3": 2,
-          "Damage:2": 5204,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "3:10": {
-          "Count:3": 2,
-          "Damage:2": 32090,
-          "OreDict:8": "circuitUltimate",
-          "id:8": "gregtech:gt.metaitem.03"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -137,30 +129,24 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 90,
+          "Count:3": 14,
+          "Damage:2": 316,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.blockframes"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 51,
+          "Count:3": 12,
+          "Damage:2": 15,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.blockcasings2"
         },
         "2:10": {
-          "Count:3": 1,
-          "Damage:2": 61,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "3:10": {
-          "Count:3": 29,
+          "Count:3": 11,
           "Damage:2": 12,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings4"
         },
-        "4:10": {
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 15201,
           "OreDict:8": "",
@@ -168,23 +154,6 @@
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 1153,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

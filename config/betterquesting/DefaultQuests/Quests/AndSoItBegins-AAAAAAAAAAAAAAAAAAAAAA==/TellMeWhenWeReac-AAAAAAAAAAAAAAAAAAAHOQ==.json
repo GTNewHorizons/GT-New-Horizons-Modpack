@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Jumping all the time is exhausting and makes you really hungry.\nTo reduce your food depletion, you might want to use stairs instead.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lTell Me When We Reach 20",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -45,6 +55,12 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:ladder"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:suaderoItem"
         }
       }
     },
@@ -58,12 +74,6 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinForestry"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "harvestcraft:suaderoItem"
         }
       }
     }

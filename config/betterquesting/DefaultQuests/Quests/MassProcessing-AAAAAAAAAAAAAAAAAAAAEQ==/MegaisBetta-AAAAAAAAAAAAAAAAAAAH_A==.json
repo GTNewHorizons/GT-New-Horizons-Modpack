@@ -1,6 +1,10 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    },
+    "1:10": {
       "questIDHigh:4": -4584086443345950462,
       "questIDLow:4": -8420616239779406480
     }
@@ -8,11 +12,20 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "For someone who needs to blast a truly §lridiculous§r amount of stuff, this is the machine for you. This monster machine can handle up to 256 parallel recipes at a time.\n\nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.",
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "For someone who needs to blast a truly §lridiculous§r amount of stuff, the §5§lExothermic Hearth§r is the machine for you. This monster machine can handle up to §6§l256§r parallel recipes at a time.\n\nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches, however, you need at least §2§nUV§r glass.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 12730,
+        "Damage:2": 15517,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -21,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lMega is Betta",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -46,7 +60,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 12730,
+          "Damage:2": 15517,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -62,24 +76,66 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1007,
-          "Damage:2": 0,
+          "Count:3": 1918,
+          "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "gregtech:gt.blockcasings14"
         },
         "1:10": {
+          "Count:3": 925,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings"
+        },
+        "2:10": {
           "Count:3": 864,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings5"
         },
-        "2:10": {
-          "Count:3": 443,
+        "3:10": {
+          "Count:3": 780,
           "Damage:2": 11,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings"
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
         },
-        "3:10": {
+        "4:10": {
+          "Count:3": 426,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "5:10": {
+          "Count:3": 332,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "6:10": {
+          "Count:3": 308,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings11"
+        },
+        "7:10": {
+          "Count:3": 280,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        },
+        "8:10": {
+          "Count:3": 131,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "9:10": {
+          "Count:3": 56,
+          "Damage:2": 163,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "10:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",

@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The most dense steam available. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.\n\nThis turbine has unexpected bugs related to the integer limit, when using the best turbine materials in the pack. There might also be other limitations when trying to move billions of SC Steam per tick from one place to another. Be wary of bugs when trying to use this XL turbine with endgame turbine materials.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lXL Turbo SC Steam Turbine",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -43,25 +53,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 392,
-          "Damage:2": 15,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
-        },
-        "1:10": {
-          "Count:3": 30,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
-        },
-        "2:10": {
-          "Count:3": 12,
-          "Damage:2": 30010,
+          "Count:3": 1,
+          "Damage:2": 15521,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -72,13 +70,43 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 31076,
+          "Count:3": 439,
+          "Damage:2": 15,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "1:10": {
+          "Count:3": 100,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings11"
+        },
+        "2:10": {
+          "Count:3": 36,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "3:10": {
+          "Count:3": 34,
+          "Damage:2": 324,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "4:10": {
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.cyclotron_coils"
+        },
+        "5:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

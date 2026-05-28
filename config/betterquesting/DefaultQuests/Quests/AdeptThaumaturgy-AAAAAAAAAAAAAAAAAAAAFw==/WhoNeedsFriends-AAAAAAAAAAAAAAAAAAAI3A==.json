@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Luggage is better than a dumb old traveling trunk. It automatically picks up dropped items, saving you time while mining. It\u0027s near-invulnerable, including in lava. It will follow you like an eager puppy, to the ends of the earth - but you probably should pick her up before changing dimensions. A lightning strike can provide more room. Shift-right-clicking will turn it back into an item without losing its contents. Look for her in the GTNH tab of the Thaumonomicon.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Who Needs Friends?",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -48,8 +58,8 @@
           "tag:10": {
             "ench:9": {
               "0:10": {
-                "id:4": 35,
-                "lvl:4": 3
+                "id:2": 35,
+                "lvl:2": 3
               }
             }
           }

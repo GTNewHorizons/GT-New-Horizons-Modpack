@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Hardcore darkness is a pain, but now the night will be bright. Or at least, your perception will be that it is, mobs can still spawn! Be careful, the mobs aren\u0027t any weaker.\n\nIf you want, you can make a longer-lasting potion out of the Potion of Night Vision. Also, you should probably make them in batches of 3 so you don\u0027t waste materials.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "The Night\u0027s Not Dark Anymore",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

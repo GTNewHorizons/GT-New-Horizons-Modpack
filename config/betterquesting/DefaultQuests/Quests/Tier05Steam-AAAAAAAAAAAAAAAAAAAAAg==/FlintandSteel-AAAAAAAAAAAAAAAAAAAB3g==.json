@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "After you make steel you are able to craft flint and steel. I guess you\u0027ll want to travel to the Nether as soon as possible but be aware; the Nether is a very dangerous place.\n\nNote: The ball of moss gives a tinker\u0027s tool self-repair. But if the tool is completely broken, it won\u0027t repair it.\n\nNote that the flint and steel can take a few times to work.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lFlint and Steel",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -36,8 +46,27 @@
   "questIDLow:4": 478,
   "rewards:9": {
     "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:obsidian"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
       "ignoreDisabled:1": 0,
-      "index:3": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 3,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -60,28 +89,9 @@
         }
       }
     },
-    "1:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:obsidian"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      },
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:choice"
-    },
     "2:10": {
       "ignoreDisabled:1": 0,
-      "index:3": 2,
+      "index:3": 4,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {

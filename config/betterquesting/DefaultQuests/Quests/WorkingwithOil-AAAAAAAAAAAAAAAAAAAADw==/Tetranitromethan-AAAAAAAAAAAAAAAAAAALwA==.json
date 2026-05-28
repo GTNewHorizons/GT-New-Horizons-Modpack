@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "If both Nitric Acid and Ethenone are automated, then you can now get TNM effortlessly!\n\nIf you look at the recipe, you\u0027ll see that you need a lot more Nitric Acid than anything else. Given that Ammonia is the most power-hungry recipe, this is what will cut down into the fuel efficiency at the end, but not nearly enough to discourage the creation and use of CBD. Not only that, but if you check the uses of TNM, you\u0027ll see that you can treat Biodiesel the same way, although at a higher cost due to its lower fuel value, if you happened to have it.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Tetranitromethane as Additive",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

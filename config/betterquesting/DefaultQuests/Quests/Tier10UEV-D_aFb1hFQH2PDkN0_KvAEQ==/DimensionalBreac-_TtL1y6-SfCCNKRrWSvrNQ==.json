@@ -2,21 +2,30 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -5094892507915006940,
-      "questIDLow:4": -5115695210744173999,
-      "type:1": 1
+      "questIDLow:4": -5115695210744173999
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 3236
+      "questIDLow:4": 2588
     },
     "2:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2588
+      "questIDHigh:4": -7258147845490913659,
+      "questIDLow:4": -8867368593153737538,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "At last, you have done it. The DTPF is a mighty multiblock fueled by large amounts of power and catalyst. Running it constantly for 8 hours or longer reduces catalyst consumption by 50%, so you will want to find a way to automate this to save on expensive catalyst.\n\nYou will need 2112 coil blocks in total. Accepted coil tiers are\n\n- Awakened Draconium\n- Infinity\n- Hypogen\n- Eternal\n\nWhile you can start with Awakened Draconium coils, you will need at least infinity coils to make tesseracts for UIV, so it may be worth it to skip to those immediately\n\n[note]Perhaps it can be used to bake exotic cookies?[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,6 +38,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§l§nDimensional Breach Imminent",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -5,13 +5,22 @@
       "questIDLow:4": -8754088215918060056
     },
     "1:10": {
-      "questIDHigh:4": 6240105828909796885,
-      "questIDLow:4": -6772057045989436864
+      "questIDHigh:4": 3444976875835902800,
+      "questIDLow:4": -8039439592690034003
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Using your new optically enhanced boards and chips, you\u0027ve managed to create what looks like the perfect CPU! Surely this will be able to handle even the advanced computations you need to perform to breach dimensional boundaries.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§l§nThe Perfect CPU?",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

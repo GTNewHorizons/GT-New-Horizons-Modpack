@@ -13,6 +13,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. Only works on GT items?\n\n§3Was more useful before NBT disassembly data was removed, but good riddance I (and basically everyone) say.\n\nLead is plentiful in the Twilight Forest. Or if you are desperate, small ores can be found in the Nether.",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 1,
       "name:8": "§c§lI Know His Name!",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

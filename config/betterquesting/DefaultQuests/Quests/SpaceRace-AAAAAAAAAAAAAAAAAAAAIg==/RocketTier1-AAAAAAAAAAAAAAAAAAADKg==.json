@@ -28,6 +28,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.\n\n[note]If you\u0027ve crafted the rocket with a chest, there\u0027s a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.[/note]\n\n[note]Holding the rocket in your hand will unlock all pre-requisite quests in addition to this one. This also works for all of the following rockets.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -41,6 +50,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Rocket Tier 1",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

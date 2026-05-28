@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "A Curse is a magical powder that attaches itself to an area of blocks, a mob, or a player, crafted using living matter, End Powder and specific ingredients.\n\nIt can be either placed right on a block or an entity, or thrown. If it gets thrown into a group of entities, it will have a chance to hit more than one at the same time.\n\nCurses eventually disappear, but they can be made eternal by crafting them with stardust and an arcane shard. Eternal Curses will stay forever on blocks and mobs, and longer than normal Curses on players.\n\nCurses placed on blocks are only visible to the player who cast it, and for a short duration to players affected by it.\n\nGetting very close to a Curse makes it visible without having it affect you, but it requires extreme carefulness.\n\nIt is possible to remove Curses by using a Potion of Purity.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Curses",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

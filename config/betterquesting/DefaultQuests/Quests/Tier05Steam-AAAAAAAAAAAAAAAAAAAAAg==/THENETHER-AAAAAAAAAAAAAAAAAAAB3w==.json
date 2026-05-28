@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Now more dangerous with extra hardcore infernal mobs. Have fun and take care. Remember that the flint and steel can take a few times to work, but there are other ways to make fire ...\n\nBe sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?\n\nAlso, §lwhen§r you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area §lfirst§r so that you don\u0027t end up dying over and over and making a mess.\n\nWatch out for some mobs! They\u0027ll take minimal damage from any weapon that is not their weakness. So if you seem to not be doing much damage, you probably aren\u0027t! Think about other options to hurt/kill the monster.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lTHE NETHER",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -36,8 +46,45 @@
   "questIDLow:4": 479,
   "rewards:9": {
     "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:flint_and_steel"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "TConstruct:materials"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 99,
+          "OreDict:8": "",
+          "id:8": "minecraft:spawn_egg"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 97,
+          "OreDict:8": "",
+          "id:8": "minecraft:spawn_egg"
+        }
+      },
       "ignoreDisabled:1": 0,
-      "index:3": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 3,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -114,46 +161,9 @@
         }
       }
     },
-    "1:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:flint_and_steel"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 7,
-          "OreDict:8": "",
-          "id:8": "TConstruct:materials"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 99,
-          "OreDict:8": "",
-          "id:8": "minecraft:spawn_egg"
-        },
-        "4:10": {
-          "Count:3": 1,
-          "Damage:2": 97,
-          "OreDict:8": "",
-          "id:8": "minecraft:spawn_egg"
-        }
-      },
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:choice"
-    },
     "2:10": {
       "ignoreDisabled:1": 0,
-      "index:3": 2,
+      "index:3": 4,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {

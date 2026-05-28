@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "In the MV tier, Oil gets a big boost in its effectiveness, and becomes a fantastic powergen option for anyone wanting to switch off Steam, if they haven\u0027t done it already. It becomes difficult to use Steam as the only power source in this tier, so you should find a more reliable way to get power.\n\nOf course, you might already be using Light Fuel as your power source of choice, but a different question might have popped up in your mind by now: is there a better way to get Oil? Perhaps you have run short, or perhaps not. Either way, there is a multi unlocked in this tier that can greatly facilitate the automation of Oil input into your Distillery. That multi is the Oil Drilling Rig, which can pump it from below bedrock, but only if there is some in the current chunk, which means that you will have to scan the chunks around you to find it.\n\nThere is a quest for this rig in the Multiblock Goals tab. Go check it out!",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Oil Drilling Rig",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "IV brings forth GT++ multis, including an upgrade for the Distillation Tower called the Dangote Distillus. Its structure is exactly the same as the DT, but it requires a muffler hatch and uses a different controller with a more expensive recipe.\n\nIt\u0027s also locked behind an IV Chemical Plant, which makes it a very expensive craft if it is the only use you have for that plant.\n\nThat said, it solves the issue of DTs being slow, and those are the backbone of many renewable setups. How many quad DTs are you going to need for reliable IV/LuV power, you might ask? Just go for it.\n\n[note]You can also use it to do single block Distillery recipes that can\u0027t be done in the DT, like making Sodium Potassium. However, that requires a max height tower.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lBet On The Distillus",
+      "particle_count:3": -1,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

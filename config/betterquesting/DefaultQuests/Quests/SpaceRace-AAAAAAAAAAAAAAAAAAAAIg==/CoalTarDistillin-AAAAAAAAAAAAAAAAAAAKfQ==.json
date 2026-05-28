@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The next tier of rocket fuel is Dense Hydrazine. To start, let\u0027s make Phthalic Acid.\n\nThere are two ways to make Phthalic Acid. One is explored here, the other in the IV quest tab. However, we don\u0027t just need the Coal Tar for that, we also need it for Anthracene!\n\nIn order to distill Coal Tar, you need to get some first. To do so, run Charcoal, Lignite, Coal, or Coal Coke though either the Industrial Coke Oven or the Pyrolyse Oven.\n\nSince you need multiple products, use a Distillery Tower to get them all. Everything other than Naphtha is used to make Rocket Fuels.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lCoal Tar Distilling",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

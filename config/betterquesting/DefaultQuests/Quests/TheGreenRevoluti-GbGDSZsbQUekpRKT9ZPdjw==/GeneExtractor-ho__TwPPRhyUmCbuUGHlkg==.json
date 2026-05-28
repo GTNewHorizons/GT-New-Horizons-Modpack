@@ -21,6 +21,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Crop Gene Extractor and Crop Synthesizers can be made in §5EV§r and allows you to create new seeds using UU-Matter and a few Data Orbs.\n\n§lCrop Gene Extractor§r\nThe §nCrop Gene Extractor§r is used to extract \"Genes\" from a crop. You can control which gene is extracted from a crop by using a programmed circuit:\n1. Species\n2. Growth\n3. Gain\n4. Resistance\n\nExtracting will usually have a base recipe time of 150 seconds (with the exception of the species gene, taking 300 seconds at base)\n\n§lCrop Synthesizer§r§r\nThe §nCrop Synthesizer§r is used to create new seeds from the extracted genes at the cost of some UU-Matter.\n\nThe UU-Matter cost will depend on the stats and tier of the seed being synthesized.\n- 750L per crop tier.\n- 100L per stat point on the seed.\n\n[note]Using the Crop Synthesizer is the only way to obtain and replicate maxed out Primordial Berry seeds.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -33,6 +42,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Gene Extractor",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "You\u0027ll need to find a bunch of vanilla trees to start your breeding program. To convert them directly to Forestry trees, you can use a Treealyzer - but you\u0027ll need a carpenter and aluminium from MV for that. Alternatively, you can just grow a bunch of vanilla trees and surround them by good pollination bees in bee housing. Spectacles will help you see the fertilized leaves to harvest with your Grafter or Branch Cutter.\n\nCompleting the quests will require scanned trees, but you can progress on breeding while waiting for your GT Scanner or Treealyzer to be made.",
       "globalShare:1": 1,
       "icon:10": {
@@ -93,6 +102,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Speak For the Trees",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "To make Wetware Circuits, you\u0027ll need to make a Wetware Lifesupport Circuit Board. Making this board is quite a different process than making all the other Circuit Boards you\u0027ve made, because making it actually requires materials!\n\nTo actually use it in circuits, you need to etch it. I guess by now, you know how to etch a circuit board, so I won\u0027t tell you and you have to use NEI :P",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§l§nThe Board that Keeps Life",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

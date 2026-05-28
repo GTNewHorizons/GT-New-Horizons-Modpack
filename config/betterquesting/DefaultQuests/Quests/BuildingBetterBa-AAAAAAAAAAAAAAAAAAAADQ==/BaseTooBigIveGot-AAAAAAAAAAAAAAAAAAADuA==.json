@@ -20,6 +20,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Keeping a base spread apart for pollution or explosion prevention can really wear you out, so why not make some concrete to get around faster?\n\nHarvest some Marble and centrifuge it into Calcite, and mix up some concrete in your Mixer. Next output it into a Fluid Solidifier with a block mold to make concrete blocks.\n\nYou\u0027ll move faster on top of these blocks. They can even be turned into bricks to prevent unwanted spawns! Hint: 10 buckets of wet mix converts to exactly 160 blocks. These blocks can also be Chiseled into different varieties.",
       "globalShare:1": 1,
       "icon:10": {
@@ -33,6 +42,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lBase Too Big? I\u0027ve Got a Fix For You!",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

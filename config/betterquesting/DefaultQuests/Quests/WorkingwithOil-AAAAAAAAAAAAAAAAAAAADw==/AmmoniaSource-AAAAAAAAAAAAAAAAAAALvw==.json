@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "One of the components of Tetranitromethane is Nitric Acid, which is made from Nitrogen Dioxide, and this from Nitrogen Oxide, which is ultimately created from Ammonia. You can do a small Chemical Reactor chain to do this line of recipes, but the better option is to make an LCR and use the circuit 24 recipe to turn Ammonia and Oxygen directly into Nitric Acid.\n\nYou\u0027ll still need to automate Ammonia, though, and there are two main ways of doing this. One of the options is to create it directly from Nitrogen and Hydrogen, but this recipe consumes a lot of EU. The other option is to switch to the biological side of things and get it from the DT recipe of Fermented Biomass, but this requires a whole another setup with sapling automation, a Pyrolyse Oven and some other machines, so don\u0027t do it unless you\u0027re interested in getting the other outputs of that recipe. It, however, might be a good option if you don\u0027t have those yet. Either way, automate your Ammonia.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Ammonia Source",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

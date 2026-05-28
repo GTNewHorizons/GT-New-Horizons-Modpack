@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The ME Terminal is an interface which gives you access to an ME network\u0027s networked storage. It has the ability to sort and search, as well as filter by using a view cell. If inserting and taking fluid from the terminal, be sure to hold the control key when you click with a fluid storage container.\n\nThe ME Crafting Terminal is the upgraded version of the ME terminal which has an integrated crafting grid with access to an ME network\u0027s networked storage.\n\nThe ME Interface Terminal gives remote access to all interface pattern slots on your network separated by which type of machine they are on. It will show the type of machine in the terminal, however you can name the ME interface in the inscriber or an anvil to alter the name displayed in the ME interface terminal. If you use Ender Chests to send stuff elsewhere to be processed a lot, this may help with reducing confusion. You can also search for a specific device.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Basic Terminals",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

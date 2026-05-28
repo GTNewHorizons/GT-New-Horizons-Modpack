@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "While one reactor is nice and all, why not make another? This time you can use the MK3 americium recipe to make it easier.\n\nCosting just 1 ingot of Plutonium, and 2 cells of hydrogen, this recipe is much easier and faster than the MK2 version. By making americium plasma, then putting it through a turbine, you will get americium in the liquid state. You will need at least 132 plates for the controller and the fusion machine casings.\n\nPlus, free power!",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§l§nTime for Another Reactor",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

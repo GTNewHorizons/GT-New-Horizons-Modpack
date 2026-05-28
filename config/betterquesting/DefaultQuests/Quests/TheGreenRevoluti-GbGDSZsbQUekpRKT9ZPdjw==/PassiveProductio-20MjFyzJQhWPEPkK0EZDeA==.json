@@ -8,7 +8,16 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "One of the main reasons for getting into CropsNH is the passive production of resources. \r\n\r\nThe many crops attached to this quest will generally provide you the direct resource you are looking for. This can be perfect for getting that extra bit of aluminium you need to push through MV, or for generating a passive amount of basic minerals long before any other techniques become available.\n\n§4Keep in mind the sub-soil requirements for these crops especially. §rTo passively produce aluminium, you will first need blocks of aluminium or bauxite ore.",
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "One of the main reasons for getting into CropsNH is the passive production of resources.\n\nThe many crops attached to this quest will generally provide you the direct resource you are looking for. This can be perfect for getting that extra bit of aluminium you need to push through MV, or for generating a passive amount of basic minerals long before any other techniques become available.\n\n§4Keep in mind the sub-soil requirements for these crops especially. §rTo passively produce aluminium, you will first need blocks of aluminium or bauxite ore.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Passive Production",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

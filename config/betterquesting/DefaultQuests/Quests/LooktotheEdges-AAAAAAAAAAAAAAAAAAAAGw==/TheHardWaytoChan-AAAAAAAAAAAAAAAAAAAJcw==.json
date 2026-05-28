@@ -13,6 +13,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Ok, to have a ritual with a size greater than zero, you need to get Coven Witches to acknowledge you and then agree to help you out. To get them to deign to speak with you, you can either infuse yourself or bind a familiar. In this quest line we\u0027ll be covering binding a familiar, but for the people who want to do infusion, you just need to make the appropriate item: Ghost of the Light, Soul of the World, Spirit of Otherwhere, or Infernal Animus, and do the appropriate Rite of Infusion. Be sure to have a Death Protection Poppet to protect you, because the ritual kills you. If playing hardcore, definitely test in a separate world first.\n\nTo bind a familiar, first summon a Demon and tear out its heart. No, seriously, go do it. Use an Arthana with Looting III for the best chances. If you don\u0027t know how to summon one, refer to page 49/50 of the Circle Magic book for the correct Rite of Summoning.\n\nYou\u0027ll need a Mutating Sprig for the next part.",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "The Hard Way to Change Biomes",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

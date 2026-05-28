@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Exploring some dungeons or fighting mobs probably gave you a lot of XP. Better use it to get iron, copper, tin, or other useful dusts before you die.\n\nPlace your tank on the ground and a drain on top. Now you can fill it with XP.\n\nBy the way, you discovered that while the seared tank doesn\u0027t hold much, it doesn\u0027t lose contents when broken, and full tanks can stack. I wonder if that information is useful...",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lXP Usage?!",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

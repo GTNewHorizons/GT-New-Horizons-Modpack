@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "This one is not as specialized as Toluene is. It\u0027s also more likely that you will be producing it in a Chemical Reactor, or working around it with recipes, if you choose not to use Oil or Benzene for some reason. You\u0027re here, though, so you have all of the possibilities, and all of the advantages of skipping through steps in several important chemical lines that accept Phenol, one of the first being epoxy resin. If you check NEI, you can more easily see where this chemical can come in handy.\n\nIt is true, though, that it isn\u0027t as required in HV as Toluene is. Since both of them are good power options alongside Benzene, it\u0027s preferable that you burn this one for power between the two, if you have to. In the best situation, you won\u0027t need to, but it\u0027s also acceptable to burn all of the Benzene and some Phenol, while the Toluene gets converted into its gelled form to make several stacks of TNT. Don\u0027t discredit the amount of power you can get from this.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Phenol\u0027s Width",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "§n§rFinally! You can hack bees*! You have two choices, and you will only ever need one. Either way you go, you will hatch the modified drone using an Incubator that\u0027s been loaded with Bacteria Vector afterwards.\n\nBoth scale their requirements by the number of genes you intend to apply to a single Larvae.\n\n§nThe Inoculator§r\n\nRun Time: 10 minutes per gene\nRF Cost: 600,000 RF per gene\nRF/t: 50\nBacteria Vector: 15 mB per gene.\n\nThis one has a lower power and recipe cost at the expense of needing Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms. The consumption for Bacteria Vector is quite low.\n\nIt is also §oslooooow§... \n§r\n§nThe Splicer§r\n\nRun Time: 1 minute per gene\nRF Cost: 12,000,000 RF per gene\nRF/t: §l1,000\n§r\nThe Splicer is much like the Inoculator in function, however it has the benefit of not requiring any liquid. Its power consumption is terrifying compared to the Inoculator, but overall it only consumes twice the RF despite gobbling it much faster.\n\n*or trees and flowers via their pollen, or butterflies via their caterpillars.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Droning On",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

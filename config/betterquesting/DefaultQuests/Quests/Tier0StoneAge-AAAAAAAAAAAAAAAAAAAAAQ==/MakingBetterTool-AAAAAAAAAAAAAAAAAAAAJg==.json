@@ -16,6 +16,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "With zinc and copper, you can create a material with a higher melting temperature - Brass - which can be used to cast better tools.\n\nFor that, you need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don\u0027t count towards the quest.\n\nAlternatively, there are also one-time-use clay casts available.\n\nYou can then use your fancy bronze to make better tools with a higher mining level.\n\nRemember, you need to use the pickaxe a bit to gather mining XP if you want the full mining level on your bronze pickaxe. Certain tool upgrades can give that directly if you have an upgrade slot available.",
       "globalShare:1": 1,
       "icon:10": {
@@ -60,6 +69,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lMaking Better Tools",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

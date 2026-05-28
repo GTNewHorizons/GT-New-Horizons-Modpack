@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Rare Earth processing may have been ignored, but you believe your new Dehydrator can finally make it worthwhile. First, you need to use some Sulfuric Acid to melt off any impurities in a Chemical Bath, leaving you with Crushed Rare Earth (I). After that you need to process it like a normal ore until you get Rare Earth (I) Dust.\n\nAfter running the Dust through your Dehydrator, you get a number of strange materials, only some of which you recognize. But if you run these materials through an Electrolyzer or through the Dehydrator again, you may get some use out of them. Some of them may take quite a few to do so, but you §ohave§r been stockpiling, right? You\u0027ll need 204 Rare Earth.\n\nYou believe if you had more powerful acids and machines, you could extract even more valuable materials out of the Rare Earth.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lEven Rarer Earths",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Let\u0027s craft a personal chunkloader. It will load a 3x3 chunk area. You need ender fragments, ender pearls, or coins to power the chunkloader.\n\nPersonal anchors can be powered with ender fragments for 1h, ender pearls for 4 hours, and a varying amount depending on the coin used.\n\nPersonal Anchors§r are loaded once the owner visits, and stays loaded while the player is logged in.\n\nPassive Anchors§r are loaded once the owner visits, and stays loaded until the server resets.\n\nWorld Anchors§r are always loaded, even after a server reset.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lPersonal Chunkloading",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

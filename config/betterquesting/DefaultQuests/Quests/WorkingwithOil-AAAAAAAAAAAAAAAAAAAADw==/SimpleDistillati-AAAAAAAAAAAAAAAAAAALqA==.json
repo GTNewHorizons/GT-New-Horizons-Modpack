@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "As rich as Oil is, it\u0027s hardly useful for anything in this state. One of the most important parts in the processing chain is distillation, which separates the components of this black mixture by the difference in their boiling points. You can do this in a Distillery, starting in LV, but for now only one of the fractions can be obtained at a time: you must choose which one you want.\n\nLighter fractions are generally more useful than heavier ones, but that doesn\u0027t mean that lightest is best. For now, going for Sulfuric Light Fuel is the best option, since it will become a good source of power after being treated. Don\u0027t use unprocessed oil to power these machines, stick to Steam until you can use something better.\n\n[note]You can find info about the other fractions in the LV tab![/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Simple Distillation",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Tired of having to replace tools all the time because they constantly break? Now that you can make batteries, it\u0027s time to make some electric versions of the Screwdriver and Wrench! Charge them up like Batteries, and they\u0027ll last much longer than the non-electric versions of these tools.\n\nYou can use Lithium Batteries, or if you\u0027re on a budget, Cadmium or Sodium Batteries instead. This does reduce their energy capacity though. Later on, Vibrant Alloy will make excellent tools with great durability. There are, however, a multitude of other great materials that you may have access to, so take a look around in NEI and decide for yourself.\n\nThere are also MV and HV versions, though they require that you can process Aluminium or Stainless Steel, respectively.",
       "globalShare:1": 1,
       "icon:10": {
@@ -32,6 +41,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lBlack and Decker",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

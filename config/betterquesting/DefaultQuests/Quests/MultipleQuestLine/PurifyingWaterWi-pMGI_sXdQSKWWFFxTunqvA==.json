@@ -16,6 +16,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "As usual, before you can make use of your Americium to make better wafers, you will need better water. This time, we\u0027re going to use plasma to rapidly heat up the water and then cool it back down.\n\nSome of the mechanics may seem similar to how you set up the pH neutralization process, maybe you can expand on what you learned there?\n\n[note]This multiblock is very picky about where its plasma and coolant input hatches go. If you can\u0027t figure out why it\u0027s not forming, chances are you forgot to place these hatches in the correct location. Use the hologram projector to see where they go.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -28,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§l§nPurifying Water With Plasma",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

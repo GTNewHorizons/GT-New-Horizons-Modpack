@@ -12,7 +12,16 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Compartments are fancy chests with extra features that make them much easier to navigate.\r\n\r\nTheir inventory is split into different folders, which can be named and color-coded. They also come with a search feature that allows you to search for items in any of the compartment\u0027s folders.\r\n\r\nThe largest compartment can store up to 400 stacks of items.\r\n\r\n[note]Place a compartment next to a crafting station for easy access to its entire storage space![/note]",
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Compartments are fancy chests with extra features that make them much easier to navigate.\n\nTheir inventory is split into different folders, which can be named and color-coded. They also come with a search feature that allows you to search for items in any of the compartment\u0027s folders.\n\nThe largest compartment can store up to 400 stacks of items.\n\n[note]Place a compartment next to a crafting station for easy access to its entire storage space![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lChests Had Quite the Glow-up!",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

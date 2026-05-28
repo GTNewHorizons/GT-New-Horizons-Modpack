@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Does anyone else wonder why these chemicals have numbers in the name? No? Just me? Moving on, to make it, combine Phthalic Anhydride and Ethylbenzene in the Chemical Plant to make 2-Ethylanthraquinone.\n\nBTW the other recipe that makes this is used later in the processing chain. You can loop the 2-Ethylanthraquinone so you don\u0027t have to make more if you don\u0027t want to scale up.\n\n[note]You need Palladium for the next quest.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§l2-Ethylanthraquinone",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

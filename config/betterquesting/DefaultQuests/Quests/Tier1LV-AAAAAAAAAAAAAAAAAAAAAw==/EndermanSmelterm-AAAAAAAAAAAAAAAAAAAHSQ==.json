@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Need enderpearls? Getting them by killing endermen can be dangerous. Instead of doing that, put an enderman into a smeltery with hot fluids and use a gem cast to get guaranteed pearls.\n\nThe higher the hit points, the longer they\u0027ll last, so the more pearls you get. If you can find a regenerating enderman, or an enderman spawner, you\u0027ll have all the pearls you would ever want. Later on with EnderIO you can even create your own powered spawner to make endermen on-demand. Or just place it in the End and move the mobs inside.\n\nUse a nametag on a regenerating enderman to make sure he doesn\u0027t despawn. You\u0027ll want to keep him from seeing the sky or else he\u0027ll teleport away.\n\nIf you haven\u0027t found a regen enderman yet, you can buy enderman spawn eggs to put into your smeltery with coins. Maybe you\u0027ll get lucky and get a regenerating one. As a slightly more volatile alternative, an ender creeper works too.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lEnderman Smelterman",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -49,8 +59,15 @@
           "Damage:2": 58,
           "OreDict:8": "",
           "id:8": "minecraft:spawn_egg"
-        },
-        "1:10": {
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
           "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": "",

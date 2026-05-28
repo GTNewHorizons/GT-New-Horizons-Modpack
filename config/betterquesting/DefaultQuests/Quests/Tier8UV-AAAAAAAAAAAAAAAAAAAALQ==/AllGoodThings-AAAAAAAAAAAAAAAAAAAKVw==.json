@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "So you\u0027ve built your T7 rocket. Great, there\u0027s only one more left. Until then, the new places you can visit are: Haumea, the Kuiper Belt, Makemake, and Pluto.\n\nPluto is just before the Kuiper Belt, and Haumea and Makemake are just after.\n\nThe new veins are Black Plutonium, Garnet, Red Garnet. The ores are: Black Plutonium, Borax, Chrysotile, Garnet Sand, Nether Star, Realgar, Red Garnet, and Yellow Garnet.\n\nDon\u0027t forget the planet blocks!\n\nThe last schematic is on Pluto. This is also the last dungeon.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§l§nAll Good Things...",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

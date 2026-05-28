@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you\u0027ve reached ZPM, you\u0027re going to have to resort to means other than mere laser engraving for your photolithography needs.\n\nOf course, we\u0027re going overkill right away, requiring a full-on particle accelerator setup to produce the ultra-coherent ultra-high-energy light used to etch more advanced ICs.\n\nTo begin with, you\u0027ll need a Source Chamber to produce electrons (at pitifully low energies, of course). Check out NEI for the available recipes, you\u0027ll want the one with the hand-drawn icon.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lNo More (IC) Engraving",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

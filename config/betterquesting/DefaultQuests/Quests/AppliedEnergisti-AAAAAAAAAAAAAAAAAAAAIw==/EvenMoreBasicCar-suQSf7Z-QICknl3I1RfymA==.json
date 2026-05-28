@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "[quest]Overflow Void and Sticky Cards[/quest]\n\n§6Overflow Void Card:§r \n\nOverflow Void Cards will cause the ME Storage Cell to void excess inputs.\n\n§6Sticky Card:§r \n\nSticky Cards are useful if you want your ME System to only store a filtered item in one location across your entire network.\n\n[warn]Be careful where you use sticky cards, as they can cause your passive systems to jam.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Even More Basic Cards! ",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

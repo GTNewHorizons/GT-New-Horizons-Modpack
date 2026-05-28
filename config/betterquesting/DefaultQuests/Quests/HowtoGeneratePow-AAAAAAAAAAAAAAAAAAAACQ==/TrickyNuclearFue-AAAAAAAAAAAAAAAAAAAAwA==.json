@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Under normal conditions, produces the same amount of power as uranium, but MOX produces more power the more you let the reactor heat up. Try to come up with a heat-neutral design as close to the limit as possible to take advantage of this. It lasts 1/2 the time, and produces more heat once the reactor is over 50%. A fuel for all the engineers out there.\n\n[note]You\u0027ll need to run a uranium reactor for a while to get some plutonium if you don\u0027t have another way to get it. Remember that there\u0027s more than 1 type![/note]\n\n[warn]Make sure to test in creative and/or use protection against explosions![/warn]",
       "globalShare:1": 1,
       "icon:10": {
@@ -22,6 +31,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lTricky Nuclear Fuel: MOX",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

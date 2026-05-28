@@ -1,0 +1,124 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2793
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1245
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "This is a multiblock acid generator available at EV and above. It takes in volatile acids and bases to produce energy through a highly exothermic chemical reaction. These include hydroxides of various alkali metals, giving your LNE a boost of efficiency from 150% up to 500%! Using higher-tier bases also has a reduced rate of consumption, but producing them at a passive rate may prove to be a challenge.\r\n\r\nHowever, you can\u0027t just get away with burning acids like that! Burning any acids will produce Toxic Residue based on the fuel value and liters burnt for each tick. Acids with a higher fuel value will produce more Toxic Residue per liter, but overall they still produce less residue than acids with a lower fuel value for the same amount of EU. When Toxic Residue gets too high, the engine will EXPLODE! (As compensation, the engine supports TecTech Dynamo Hatches) \r\n\r\nHow do you avoid that, then? Firstly, the Toxic Residue will naturally decay. The rate of decay is based on the existing amount of Toxic Residue and also acts every tick. However, it is not very fast, so you will want to boost it. This is done through robot arms as they can help clean the surface of the LNE. Using higher-tier robot arms and multiple robot arms can help clean it faster, though be careful as they may be consumed! The rate of decay and the overall capacity of Toxic Residue is based on the tier of your multiblock, which are unlocked at EV, IV and LuV respectively. Using alkali to boost your multiblock also does not affect the rate of Toxic Residue build-up, so make sure to select the highest tier you can get! Finally, Toxic Residue increases randomly, so you can use a Toxic Residue Sensor Hatch to help detect a sudden increase and automate your engine accordingly.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31088,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§8§lWell, It Doesn\u0027t Produce Any Pollution...",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -4311283478734943907,
+  "questIDLow:4": -5247155466511128476,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 32652,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 18,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCellEmpty"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 31088,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 41,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings12"
+        },
+        "1:10": {
+          "Count:3": 34,
+          "Damage:2": 473,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "2:10": {
+          "Count:3": 15,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3019,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

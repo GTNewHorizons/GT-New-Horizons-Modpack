@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Moon\u0027s day-night cycle is 2h 40min long, equaling 8 Overworld days and it is linked to the Moon phases seen on the Overworld. The daytime on the moon lasts from a full moon to the next new moon (4 Overworld days, equaling 1h 20min) and, logically, the nighttime lasts from the new moon to the next full moon.\n\nSince the 1st Overworld night is full moon, you can safely land within the 1st 4 Overworld days, and then the next 4 Overworld days are more dangerous since hostile mobs will be able to spawn in the dark, and so on. If you miscount, the moon phases can tell you when it is daytime or nighttime on the moon. Full moon is the start of the moon day, new (or dark) moon is the start of the moon night.\n\nDuring the nighttime, the environment light levels get very low, allowing hostile mobs to spawn on the surface.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Moon Day and Night time",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

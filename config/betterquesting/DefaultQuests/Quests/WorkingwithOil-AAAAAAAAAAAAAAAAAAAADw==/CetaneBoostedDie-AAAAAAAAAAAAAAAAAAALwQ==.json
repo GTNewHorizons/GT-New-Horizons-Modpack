@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "If you made it here, then you should be ready to make Cetane-Boosted Diesel flow into your generators by itself. Congratulations!\n\nOil is still the best power option in HV, building up from what you used in LV. This CBD you\u0027ve made will help fuel your EBFs, get into space and then handle the increased power needs that EV will throw at you, especially if you want to make an AE2 network for quick automation. Your singleblock generators are at the lowest efficiency yet, 85%, but the fuel you use now has a fuel value of 1 million EU per bucket, a very powerful liquid compared to any other you could make at this time.\n\nI\u0027ll see you on EV. Good luck when you make it there.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Cetane-Boosted Diesel",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

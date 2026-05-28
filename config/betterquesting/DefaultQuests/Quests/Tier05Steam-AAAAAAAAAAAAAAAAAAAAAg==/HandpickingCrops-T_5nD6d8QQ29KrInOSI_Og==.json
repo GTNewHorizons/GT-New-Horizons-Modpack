@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "By making a scythe you are now able to clear 3x3 blocks of vegetation, and to harvest 5x5 tiles of crops! The harvesting ability works on most non-magical crops, including crops on cropsticks!\n\n§6The quest should accept the tool whatever materials you used.",
       "globalShare:1": 0,
       "icon:10": {
@@ -51,6 +60,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lHandpicking Crops is So Old School",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

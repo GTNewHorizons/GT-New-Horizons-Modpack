@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Another HV multi, and another Stainless Steel sink. Not only that, but it needs 16 coils to work! There is a quest about this multi in the Multiblock Goals tab, as per usual.\n\nDespite being expensive, this is an important multiblock to build. It does the cracking recipes like the Chemical Reactor does, and you might even be tempted to make an LCR for this purpose, since it\u0027s cheap and can do many recipes at once, but the Oil Cracker is much more efficient and gives several bonuses when used (check the tooltip for more information). As it stands, it\u0027s a higher initial investment that will pay off in the long run, many times over, and in this pack everything takes a long time, so get on it!",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Oil Cracker",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

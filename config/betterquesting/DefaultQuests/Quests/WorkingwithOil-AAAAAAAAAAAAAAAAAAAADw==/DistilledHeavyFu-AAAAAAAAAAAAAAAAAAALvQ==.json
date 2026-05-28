@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "You don\u0027t always have to crack the base fuels to get useful chemicals out of them. The best example of this is Heavy Fuel, whose recipe only has 3 outputs, but they\u0027re all excellent. This is the perfect format for a Distillation Tower automation, so get on it as soon as you can, you won\u0027t regret it!\n\nAs a sidenote, all of these are power-dense, and can be used for power if you stockpile a lot of them. Benzene is the first one you should use for this purpose, if you wish to do it, because the other two are core chemicals for required progression in HV and EV. However, Benzene can also turn into several useful chemicals, so don\u0027t burn it all for power.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Distilled Heavy Fuel",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

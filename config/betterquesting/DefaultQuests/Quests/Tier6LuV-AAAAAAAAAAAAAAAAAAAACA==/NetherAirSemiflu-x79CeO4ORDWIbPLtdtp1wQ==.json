@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Ever take a deep breath while roaming the nether and start to feel lightheaded or dizzy? Turns out that\u0027s from the highly toxic air. There may be no saving our lungs, but at least we can take advantage of this dense air for our own material gain!\n\nIf you haven\u0027t already been taking advantage of the Nether Air for it\u0027s sulfurous properties, (talking to you, Nitrobenzene lovers) you\u0027ll need to take advantage of it now for making §4Nether Semifluid§r.\n\nSetup a §5§lVacuum Freezer§r in the nether and attach an§2§l Air Intake Hatch§r to start collecting the Nether Air. You can move onto the next step once you\u0027ve started Semifluid production. ",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lNether Air \u0026 Semifluid",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

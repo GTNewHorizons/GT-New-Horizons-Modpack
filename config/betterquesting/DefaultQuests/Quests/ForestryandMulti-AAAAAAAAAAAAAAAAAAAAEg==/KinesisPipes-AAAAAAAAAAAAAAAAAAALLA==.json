@@ -20,6 +20,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "To transfer RF power more than 1 block, you\u0027ll want some kinesis pipes. Use a wooden one first to connect to the pipe network, then other types to transfer it. That said, they seem to be lossy somewhat, so conduits are better, if more expensive. Also, you need capacitors to store the RF anyway.",
       "globalShare:1": 0,
       "icon:10": {
@@ -32,6 +41,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Kinesis Pipes",
+      "particle_count:3": -1,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

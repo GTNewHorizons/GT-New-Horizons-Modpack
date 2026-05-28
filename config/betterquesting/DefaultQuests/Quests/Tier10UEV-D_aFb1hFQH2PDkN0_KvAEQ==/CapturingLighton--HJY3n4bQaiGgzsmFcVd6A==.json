@@ -1,10 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3282
+    },
+    "1:10": {
       "questIDHigh:4": 2302674002717395266,
       "questIDLow:4": -8724430134020257656
     },
-    "1:10": {
+    "2:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3273
     }
@@ -12,6 +16,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Using various carefully picked materials, you\u0027ve managed to create a circuit board that will be able to contain the flows of photons in these new circuit parts.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§l§nCapturing Light on a Circuit Board",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

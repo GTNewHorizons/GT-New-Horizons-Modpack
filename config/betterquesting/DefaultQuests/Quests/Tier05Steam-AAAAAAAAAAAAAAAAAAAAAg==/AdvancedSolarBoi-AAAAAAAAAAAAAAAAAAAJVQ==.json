@@ -18,6 +18,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Once you have some Steam machines, you can make Advanced Solar Boilers. They have more Steam output per second. Otherwise they are the same as Simple Solar Boilers.\n\nFill it with Water on the bottom side to produce Steam. Unlike the other Boilers, this only outputs Steam on the output port side.\n\nHint: The Advanced Solar Boiler calcifies and becomes less efficient over time - but it will only drop to 120L/s, not 40L/s, like the Simple Solar Boiler. Later on you can consider using Distilled Water to avoid calcification.\n\n[note]You\u0027ll need Silver from the Twilight Forest (LV+) or from small ores for this.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -31,6 +40,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lAdvanced Solar Boilers",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

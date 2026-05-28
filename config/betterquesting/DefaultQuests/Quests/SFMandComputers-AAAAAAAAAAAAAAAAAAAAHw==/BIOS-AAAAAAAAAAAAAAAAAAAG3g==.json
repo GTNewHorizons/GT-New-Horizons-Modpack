@@ -9,6 +9,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The ROM disks are necessary to get your computer to start, they\u0027re also what you use to run a drone off from.\n\nYour BIOS go onto these little disks, get a blank one and write the basic BIOS onto it.\n\nYou can do this later when you make more computers by flashing your existing BIOS onto new cards or combining a blank with the manual.",
       "globalShare:1": 1,
       "icon:10": {
@@ -22,6 +31,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "BIOS",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

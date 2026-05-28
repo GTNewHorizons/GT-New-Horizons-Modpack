@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "This is the most powerful combustion engine that has ever been built. In fact, it\u0027s not only that, but also a Gas Turbine and a Rocket Fuel Generator!\n\nThe Universal Chemical Fuel Engine burns fuel with some additives, as did its predecessors, but it runs at a lower efficiency. The 150% value is a mathematical limit, you cannot reach it without supplying infinite fuel, but this engine compensates by running as fast as fuel is input into it, without the maximum EU/t limitation the others had. The only two things you have to make sure of are that you supply enough Combustion Promoter to keep efficiency up (I\u0027ll let you figure the best ratio on your own, but 1:4 promoter:fuel is decent), and that the dynamo can support the EU/t that the generator is outputting.\n\n[warn]You will need an Assembly Line to craft the dynamo needed to complete this quest. You better burn enough HOG to make it worth![/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Universal Fuel Power",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

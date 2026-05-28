@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Distillation Pattern Encoder allows you to automatically melt down items in your alchemical furnace to provide essentia.\nFirst, place something that is already scanned in the device, along with a blank pattern. You can create the pattern by clicking the button, or click the different aspects to select one that is not the highest. This will create a pattern of item -\u003e essentia. Then use an ME Interface pointing at a furnace with the pattern in it. You can now craft that type of essentia the same way you would a normal craft, but through the Essentia Terminal.\n\n[warn]There isn\u0027t a way to have the system craft essentia on demand for a craft, unfortunately.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Ordering Essentia",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

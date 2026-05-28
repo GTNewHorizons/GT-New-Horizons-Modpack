@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "What... What am I doing here? Where am I?! What is this place?! Oh those headaches... (It seems that the pulsating pearl you just found cured your brain from... something. Something old, probably some kind of trap to keep away unworthy ones.)\n\n§3/iskamiunlocked will tell you if you have successfully unlocked Kami. If not, try researching the Thaumium Crowbar and the Cursed Spirits Blade. Or other stuff on the vanilla pages. Or in TT. It\u0027s not really reliable anymore with all the mods and such.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "The Power of Creation",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Let\u0027s face it... nobody (sane) wants to do all of their research manually!\n\nNow that you\u0027ve learned how to collect nodes and create a wand recharging pedestal you can make the research completer. This quest shows the minimum required blocks but the structure can be up to 13 in length.\n\nThis machine will consume EU and eat nodes placed in the center of it in exchange for completing research notes given to it. If you\u0027re using a long machine it\u0027s highly recommended you use node stabilizers underneath your nodes to prevent them from destroying each other.\n\n[note]Of course you need to §lresearch§r the Research Completer, you\u0027ll find it in the electro-magic tools tab.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Research Completer",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

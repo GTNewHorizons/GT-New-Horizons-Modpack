@@ -8,7 +8,16 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Plant Cure is used to cure sickly crops. Crops will get sick in two scenarios:\n\n1. A weed has grown and overtaken the crop.\n2. A crop does not reach minimum environmental requirements.\n\r\nYou must spray the cure manually, it will apply a minimal amount of fertilizer so that crops don\u0027t immediately become sickly again.",
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Plant Cure is used to cure sickly crops. Crops will get sick in two scenarios:\n\n1. A weed has grown and overtaken the crop.\n2. A crop does not reach minimum environmental requirements.\n\nYou must spray the cure manually, it will apply a minimal amount of fertilizer so that crops don\u0027t immediately become sickly again.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Plant Diseases",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

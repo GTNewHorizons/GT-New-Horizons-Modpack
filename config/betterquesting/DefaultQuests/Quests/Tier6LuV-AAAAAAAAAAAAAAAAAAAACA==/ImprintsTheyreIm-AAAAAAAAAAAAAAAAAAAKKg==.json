@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you\u0027ve finally gotten all the materials to make your imprints, you can make them as you get your new circuits. You\u0027ll need to slice the circuits for the imprint in a Cutting Machine using a Slicer Blade.\n\nTo use the imprints, place them in the CAL controller\u0027s item slot. The CAL will be imprinted once you turn it on. You can see what it\u0027s imprinted with by using a portable scanner on the controller. You can also swap out controllers if you\u0027re too lazy to make more CALs.\n\n[note]If you already have an imprint for an earlier version of a recipe, you don\u0027t need to make another, it works with both recipes.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lImprints, They\u0027re Important",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

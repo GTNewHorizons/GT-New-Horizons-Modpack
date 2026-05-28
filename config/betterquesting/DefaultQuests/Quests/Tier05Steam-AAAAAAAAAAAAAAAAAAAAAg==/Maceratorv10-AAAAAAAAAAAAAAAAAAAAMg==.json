@@ -8,7 +8,16 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Finally you are able to make a device that will replace your mortar. However, the \"no-durability\" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.\n\nThe macerator will double your ore output. Put ores through it instead of smelting directly.\n\n§3NOTE: Remember, don\u0027t block the output port and don\u0027t stand behind it.§r",
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Finally you are able to make a device that will replace your mortar. However, the \"no-durability\" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.\n\nThe macerator will double your ore output. Put ores through it instead of smelting directly.\n\n§3NOTE: Remember, don\u0027t block the output port and don\u0027t stand behind it.§r\n\n[warn]The Steam Macerator and each tier up to HV only have one output slot, so they cannot produce bonus outputs![/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 1,
       "name:8": "§c§lMacerator v1.0!",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

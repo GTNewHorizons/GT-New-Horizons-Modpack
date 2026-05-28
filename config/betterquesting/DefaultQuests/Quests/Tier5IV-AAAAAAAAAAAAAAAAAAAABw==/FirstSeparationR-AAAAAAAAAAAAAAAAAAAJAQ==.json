@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Platinum Group processing line (AKA Platline) is a multi-step complicated process. Because of its complexity, and how much you need, you should have a processing line running all the time. You should be able to comprehend it better after doing these quests. Or maybe you set it up already, and you\u0027re siphoning off some of the results? Either way.\n\nAs a first step in getting Rhodium, Ruthenium, Iridium, and Osmium, we will split apart the Rhodium from the other metals in an EBF with the Potassium Disulfate you made previously.\n\nThe amounts for this step are pretty annoying, blame Bart for that.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lFirst Separation - Rhodium",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

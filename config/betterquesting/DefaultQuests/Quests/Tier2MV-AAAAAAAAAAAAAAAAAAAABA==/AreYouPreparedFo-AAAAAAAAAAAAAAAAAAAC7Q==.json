@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Stainless steel will be the tier material for HV. Use an MV mixer to produce the dust.\n\nManganese can be acquired as ore byproducts from spessartine, pyrolusite and tantalite ore. You can also pull them apart to get even more. Alternatively you can take apart Red Garnet dusts. If you get desperate, you can buy some ore from the Vending Machine.\n\nChrome can be electrolyzed out of ruby dust. You can get ruby dust from redstone if the ruby in redstone veins isn\u0027t enough.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lAre You Prepared For HV?",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

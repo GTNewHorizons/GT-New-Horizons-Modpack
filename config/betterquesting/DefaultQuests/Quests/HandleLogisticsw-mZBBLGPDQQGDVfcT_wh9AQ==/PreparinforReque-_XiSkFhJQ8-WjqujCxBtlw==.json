@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Logistics Pipes have automation capability in place, but first, it needs to know what inventory that items inside can be used for requests.\n\nThe Provider module does this job nicely. When you open the interface of the module, there is a 3*3 grid. You can pick what items that the module can provide, or you can leave it empty as \"everything in the inventory can be provided for requests\".",
       "globalShare:1": 0,
       "icon:10": {
@@ -38,6 +47,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Preparin\u0027 for Requestin\u0027",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

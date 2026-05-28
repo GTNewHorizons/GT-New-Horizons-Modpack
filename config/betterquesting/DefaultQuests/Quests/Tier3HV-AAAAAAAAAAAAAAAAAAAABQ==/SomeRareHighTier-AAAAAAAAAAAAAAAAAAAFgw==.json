@@ -12,6 +12,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction from Chalcopyrite and Pentlandite using sulfuric acid. You don\u0027t have the technology to process them properly right now but later on you need large amounts of them.\n\nNote that this is not the proper method to get rare metals. This means none of them are pure, and cannot be utilized without the platline method, aside from EBF-ing platinum. Proper Platinum processing is EV, but you\u0027ll have to wait until IV to use the rest. Collecting a lot of it now (especially using this method) might not be a great idea depending on how long that will be.\n\n[note]A Chemical Bath also extracts Platinum from Nickel Ore if you use Mercury. Time to head back to the Twilight Forest![/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lSome Rare High Tier Metals",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

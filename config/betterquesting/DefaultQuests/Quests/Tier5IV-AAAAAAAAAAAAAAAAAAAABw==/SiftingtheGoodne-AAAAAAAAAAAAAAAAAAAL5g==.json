@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "Yes, you\u0027re seeing right. A fluid sifting recipe! A lot of the materials here won\u0027t be good sources in any way, but they\u0027re literally better than nothing.\n\nMonazite Sulfate isn\u0027t an actual compound btw, just a term for a collection of rare earth sulfates and other things.\n\nI\u0027ll only ask for the primary output as who wants to worry about chances?",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lSifting the Goodness Out",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

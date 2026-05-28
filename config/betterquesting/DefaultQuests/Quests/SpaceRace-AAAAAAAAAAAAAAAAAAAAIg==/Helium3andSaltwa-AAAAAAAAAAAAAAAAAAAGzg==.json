@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Moon is rich in Helium 3 because the Sun has been embedding it in the upper layer of moon by the solar wind over billions of years.\n\nSalt water is also available in smaller quantities. You can get chlorine out of it. You will want plenty of chlorine for processing Rutile to get Titanium.\n\nThere are more planets and moons with gas and fluids underneath the surface. Bring along a multiblock fluid drill to recover these fluids.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lHelium 3 and Saltwater on Moon",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

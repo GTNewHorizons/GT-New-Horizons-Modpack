@@ -13,6 +13,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The ultimate gas inhaler in GTNH. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.\n\n[warn]This turbine does not accept Benzene.[/warn] To use it with your Benzene setup, you have to upgrade it to Nitrobenzene. Further changes will be made to this turbine to favor more high-tier gases, instead of spamming Benzene, Methane or other trivial options.",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lXL Turbo Gas Turbine",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -48,25 +58,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 392,
-          "Damage:2": 3,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
-        },
-        "1:10": {
-          "Count:3": 30,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
-        },
-        "2:10": {
-          "Count:3": 12,
-          "Damage:2": 30010,
+          "Count:3": 1,
+          "Damage:2": 15522,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -77,13 +75,55 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 31073,
+          "Count:3": 345,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "1:10": {
+          "Count:3": 104,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "2:10": {
+          "Count:3": 80,
+          "Damage:2": 306,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "3:10": {
+          "Count:3": 76,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "4:10": {
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.cyclotron_coils"
+        },
+        "5:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "6:10": {
+          "Count:3": 7,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "7:10": {
+          "Count:3": 4,
+          "Damage:2": 91,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

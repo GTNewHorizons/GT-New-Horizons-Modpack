@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "To make the Circuit Assembly Line imprints you\u0027ll need a bunch of new materials.\n\nTo start, let\u0027s get some raw materials, Prasiolite, Cubic Zirconia, and Tellurium.\n\nYou also need some other materials, but I don\u0027t need to explain those, do I?\n\n[note]If the materials are too much of a pain, you can replicate some of them once you have one of it.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -23,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lFetch Quests",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

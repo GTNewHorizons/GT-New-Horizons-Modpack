@@ -8,11 +8,20 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "When all you have is a machine full of knives, everything starts looking like bread.",
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "When all you have is a machine full of knives, everything starts looking like bread.\n\nIn order for the §5§lIndustrial Cutting Factory§r to function, it will need to have a sawblade put into it. The performance of the machine is directly correlated with the quality of the sawblade put in.\n\nThe first type of sawblade available to craft is the §lTungsten Titanium Carbide Sawblade§r. It gives you §6§l2§r parallels per voltage tier, a §2§l2.5x§r speed boost, and a §3§l10%§r EU discount. \n\n",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 992,
+        "Damage:2": 15540,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lBest Thing Since Sliced Bread",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -66,7 +76,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 992,
+          "Damage:2": 15540,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -88,10 +98,57 @@
           "id:8": "miscutils:gtplusplus.blockcasings.2"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 91,
+          "Count:3": 18,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "miscutils:blockFrameGtTantalumCarbide"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "3:10": {
+          "Count:3": 13,
+          "Damage:2": 334,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32102,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32103,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32104,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32105,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

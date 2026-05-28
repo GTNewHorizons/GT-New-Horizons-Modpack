@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "These basic upgrades to the Alveary make it more powerful.\n\nFrame Housing - Automation-enabled frame slot for the Alveary. Uses §55 durability§r every bee tick (27s). If it runs out on that tick, it has no effect.\nAlveary Stabilizer - Prevents the bees from mutating into another species. Ideal for breeding traits into a line.\nAlveary Transmission - Power input for upgrades that use power.\nAlveary Sieve - Instead of the pollen from a bee fertilizing a nearby tree, it is stored here and can be manually applied. Requires manually placing woven silk in the inventory.\nSwarmer - Creates additional Ignoble queens in hives around the Alveary. These are genetic copies of the original. This uses Royal Jelly or Aromatic Lumps. The latter are more effective.\n\n[note]Note that all upgrade blocks must be in the bottom 2 layers. The center block also cannot be an upgrade block, though the bottom center can.[/note]\n\n[warn]When using power, the transmission block will suck down entire amps to fill a tiny amount. Use the EnderIO capacitors or something similar to prevent this.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Upgrading the Alveary",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,15 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
       "desc:8": "The Rainmaker is a Forestry block capable of stopping/producing rain \u0026 creating thunderstorms.\n\nThe Rainmaker has no GUI, but can be right clicked with §a3§r different capsules:\n\n§cIodine Capsule:§r Produces Rain\n\n§cPhosphoric Iodine Capsule:§r Produces a Thunderstorm\n\n§cDissipation Charge:§r Stops Rain\n\nThe Rainmaker requires around ~30 seconds after activation for the §9rain§r and §9thunderstorm§r to start.\n\nThe dissipation charge will stop the rain after a few seconds until the next activation. ",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "THE RAINMAKER",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
