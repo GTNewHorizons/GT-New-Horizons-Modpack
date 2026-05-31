@@ -13,7 +13,7 @@ QUEST_LINES_ORDER_PATH = DEFAULT_QUESTS_DIR_PATH / 'QuestLinesOrder.txt'
 QUEST_LINES_DIR_PATH = DEFAULT_QUESTS_DIR_PATH / 'QuestLines'
 QUESTS_DIR_PATH = DEFAULT_QUESTS_DIR_PATH / 'Quests'
 
-BQ_LANG_DIR_PATH = CONFIG_DIR_PATH / 'txloader' / 'load' / 'betterquesting' / 'lang'
+BQ_LANG_DIR_PATH = CONFIG_DIR_PATH / 'txloader' / 'forceload' / 'betterquesting' / 'lang'
 TEMPLATE_LANG_PATH = BQ_LANG_DIR_PATH / 'template.lang'
 
 DIR_NAME_NO_QUEST_LINE = 'NoQuestLine'

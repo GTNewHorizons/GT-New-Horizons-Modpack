@@ -112,8 +112,8 @@ https://try.github.io/
 
 # Translating the Questbook
 
-1. Whenever the questbook data is updated in GitHub, our automated workflow will update `config/txloader/load/betterquesting/lang/template.lang`, which is a template for translating the questbook. By itself, this file does nothing, since it just contains the default English text for the quests.
+1. Whenever the questbook data is updated in GitHub, our automated workflow will update `config/txloader/forceload/betterquesting/lang/template.lang`, which is a template for translating the questbook. By itself, this file does nothing, since it just contains the default English text for the quests.
 2. NOTE: `template.lang` will be regenerated automatically, so you shouldn't manually modify it, nor include it in your PRs.
-3. Translators can work off of the translation keys in `template.lang` to create a translated lang file. Such files will go in the same directory; e.g., `config/txloader/load/betterquesting/lang/zh_CN.lang` for Chinese translations.
+3. Translators can work off of the translation keys in `template.lang` to create a translated lang file. Such files will go in the same directory; e.g., `config/txloader/forceload/betterquesting/lang/zh_CN.lang` for Chinese translations.
 4. If you're modifying quests and want an updated `template.lang` without going to the trouble of pushing to GitHub, you can run `/bq_admin default exportlang` to generate a `template.lang` based on your current quest data. This file can be found in `config/betterquesting/DefaultQuests/template.lang`. Do NOT commit this file to GitHub!
 5. The command in (4) also makes it possible to perform the translation directly in the questbook in-game. Write the translated text directly into the questbook, export `template.lang`, and then extract the translated entries manually. The `diff` command would probably be helpful here, diffing against the original `template.lang`.
