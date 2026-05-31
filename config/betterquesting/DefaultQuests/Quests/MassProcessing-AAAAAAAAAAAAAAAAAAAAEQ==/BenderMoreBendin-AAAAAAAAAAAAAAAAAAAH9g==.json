@@ -86,16 +86,16 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 18,
-          "Damage:2": 14,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings12"
-        },
-        "1:10": {
-          "Count:3": 14,
+          "Count:3": 15,
           "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "miscutils:miscutils.blockcasings"
+        },
+        "1:10": {
+          "Count:3": 9,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings12"
         },
         "2:10": {
           "Count:3": 6,

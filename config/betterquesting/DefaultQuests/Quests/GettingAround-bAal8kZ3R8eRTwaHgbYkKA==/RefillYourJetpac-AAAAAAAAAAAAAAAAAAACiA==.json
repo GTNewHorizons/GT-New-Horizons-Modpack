@@ -112,7 +112,7 @@
           "id:8": "ProjRed|Core:projectred.core.part"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,

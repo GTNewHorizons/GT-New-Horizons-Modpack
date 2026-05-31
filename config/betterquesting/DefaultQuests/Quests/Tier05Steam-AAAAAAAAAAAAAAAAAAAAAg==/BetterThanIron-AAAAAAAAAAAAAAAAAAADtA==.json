@@ -58,7 +58,8 @@
           "tag:10": {
             "GT.ToolStats:10": {
               "MaxDamage:4": 38400,
-              "PrimaryMaterial:8": "WroughtIron",
+              "Mode:1": 0,
+              "PrimaryMaterial:8": "CastIron",
               "SecondaryMaterial:8": "Wood"
             },
             "ench:9": {
@@ -77,8 +78,9 @@
           "tag:10": {
             "GT.ToolStats:10": {
               "MaxDamage:4": 38400,
-              "PrimaryMaterial:8": "WroughtIron",
-              "SecondaryMaterial:8": "WroughtIron"
+              "Mode:1": 0,
+              "PrimaryMaterial:8": "CastIron",
+              "SecondaryMaterial:8": "CastIron"
             }
           }
         },
