@@ -674,7 +674,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADrg.desc=The Plunger is used to clear li
 
 # Quest: Better Than Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.name=§c§lBetter Than Iron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make Cast Iron, you either need to use a Tinkers' Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Cast Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. %n%nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. %n%nLater on, you can use an Arc Furnace to make Cast Iron Ingots directly.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make Cast Iron, you either need to use a Tinkers' Smeltery to melt some Iron Ingots down and cast them into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Then put these in a furnace to get Cast Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite; look for Iron Ore in Chalcopyrite veins) can be smelted directly into iron nuggets. %n%nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. %n%nLater on, you can use an Arc Furnace to make Cast Iron Ingots directly.
 
 # Quest: New Source of Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.name=§c§lNew Source of Glowstone
@@ -698,7 +698,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZQ.desc=Are your upgraded cobblestone o
 
 # Quest: Obzinite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.name=§c§lObzinite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.desc=It's upgrade time again. You could in principle make obzinite by mixing obsidian, steel and zinc in the smeltery. But to get a much better yield, you can show you are a GregTech hero and search NEI for an alternate recipe using dusts. Obzinite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Obzinite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.desc=It's upgrade time again. You can make Obzinite by mixing obsidian, steel, and zinc in the smeltery. Obzinite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Obzinite as liquid in your smeltery; you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.%n%n[note]Later in LV you can get a better yield by using a Mixer.[/note]
 
 # Quest: Reinforced X? Unbreakable
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZw.name=§c§lReinforced X? Unbreakable
@@ -1127,7 +1127,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=The arc furnace is an alternati
 
 # Quest: Faster Steel Production
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.name=§2§lFaster Steel Production
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.desc=A faster alternative to Steel production is to use the arc furnace and smelt Iron Ingots (or dust) into Cast Iron Ingots. Then macerate them to dust and smelt them very fast in the EBF to Steel.%n%nOf course, you'll need enough Carbon/Coal/Charcoal dust to do so.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.desc=A faster alternative to Steel production is to use the Arc Furnace and smelt Iron Ingots (or Iron Dust) into Cast Iron Ingots. Then macerate them into dust and smelt the dust into Steel very quickly in the EBF.%n%nOf course, you'll need enough Carbon/Coal/Charcoal dust to do so.
 
 # Quest: LV Extruder
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACoQ.name=§2§lLV Extruder
@@ -2418,7 +2418,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABg.desc=Welcome to EV! You have suc
 
 # Quest: The Redstone Sniffer
 betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.name=§8§lThe Redstone Sniffer
-betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.desc=Ever wonder where your redstone transmitters are? Or wish they were labeled? Maybe your teammate placed one down, didn't tell you, and now you're stuck wondering what private frequency they placed?%n%nNow, you have a way to do all of that.%n%nIntroducing the §6Redstone Sniffer§r!%n%nFor §cregular wireless redstone§r, the sniffer will list all currently used frequencies, tell you whether that frequency is private, and gives you an option to label it.%n%nFor §cadvanced wireless covers§r, the sniffer will additionally tell you where that cover is currently located, including in other dimensions, and offers you the option to also highlight or teleport to it. 
+betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.desc=Ever wonder where your redstone transmitters are? Or wish they were labeled? Maybe your teammate placed one down, didn't tell you, and now you're stuck wondering what private frequency they placed it on?%n%nNow, you have a way to do all of that.%n%nIntroducing the §6Redstone Sniffer§r!%n%nFor §cregular wireless redstone§r, the sniffer will list all currently used frequencies, tell you whether that frequency is private, and give you an option to label it.%n%nFor §cadvanced wireless covers§r, the sniffer will additionally tell you where that cover is currently located, including in other dimensions, and offer you the option to highlight it (and teleport to it if you have OP).
 
 # Quest: Raw Carbon Fiber
 betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.name=§8§lRaw Carbon Fiber
@@ -2430,7 +2430,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1A.desc=Literally. You can grind the ro
 
 # Quest: Tier 4 (EV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAsA.name=§8§lTier 4 (EV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAsA.desc=The main goal here is to get a tier 2 rocket, and reach Mars. You also might want to rethink your power setup, as more and more machines will be upgraded. This quest set will teach you about a couple of options you have regarding power production.%n%nMultiblock goals includes quests for the large gas turbine, large combustion engine, and multiblock ore drill.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAsA.desc=The main goal here is to get a tier 2 rocket and reach Mars. You also might want to rethink your power setup, as more and more machines will be upgraded. This quest set will teach you about a couple of options you have regarding power production, but it's recommended that you check out the §nHow to Generate Power§r tab for more options and information.%n%n§nMultiblock Goals§r will also have newly unlocked quests for multiblocks like the Ore Drilling Plant.
 
 # Quest: Dimensional Goal: Mars
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAug.name=§8§lDimensional Goal: Mars
@@ -5041,7 +5041,7 @@ betterquesting.quest.5K0m6kADSVqZuouYNTEYWw.desc=A great source of tin.%n%nTine 
 
 # Quest: Nightshade
 betterquesting.quest.5KieQ6A4R1CGnGQd4CuQXw.name=Nightshade
-betterquesting.quest.5KieQ6A4R1CGnGQd4CuQXw.desc=With the intense amount of magical energy the Nightshade eminates, you will need an Industrial Farm to produce and harvest it.
+betterquesting.quest.5KieQ6A4R1CGnGQd4CuQXw.desc=With the intense amount of magical energy the Nightshade emanates, you will need an Industrial Farm to produce and harvest it.%n%n[note]You can optionally just right-click Magic Essence into a cropstick instead of breeding the seed.[/note]
 
 # Quest: Environmental Upgrades
 betterquesting.quest.5vhRsuqOTjeLbozeMGcweA.name=Environmental Upgrades
@@ -5241,7 +5241,7 @@ betterquesting.quest.Bx86-2AfQKadFFMHdh3now.desc=Oh hey, don't void that stuff, 
 
 # Quest: Lucky!
 betterquesting.quest.E3P20_dFSUiPdVSkma2iTA.name=Lucky!
-betterquesting.quest.E3P20_dFSUiPdVSkma2iTA.desc=Lazulia will produce lapis dust but not crystals.
+betterquesting.quest.E3P20_dFSUiPdVSkma2iTA.desc=Lazulia will produce Lapis Lazuli and Lapis Dust.
 
 # Quest: Not A Mandrake
 betterquesting.quest.ECvjvBNURz-spVF95wOiJw.name=Not A Mandrake
@@ -5379,9 +5379,9 @@ betterquesting.quest.SkvqyNIlQDmTBfLCsmDepQ.desc=Easy jungle wood!
 betterquesting.quest.T4bs_MnkTX6Ugox2AkwQtg.name=Caffeine
 betterquesting.quest.T4bs_MnkTX6Ugox2AkwQtg.desc=I promise you won't be dissapointed, so try some coffee. Yes, more than one at a time.%n%n[warn]Just, don't drink too much[/warn]
 
-# Quest: Pams Who?
-betterquesting.quest.UJX_NTRpQb-V2IW4_CbUlA.name=Pams Who?
-betterquesting.quest.UJX_NTRpQb-V2IW4_CbUlA.desc=Lots and lots of food crops. While they may be less useful then other species you can grow, when compared to basic food crops the ability to stat these guys should make them pretty nice no matter the reason you need them.
+# Quest: Pam's Who?
+betterquesting.quest.UJX_NTRpQb-V2IW4_CbUlA.name=Pam's Who?
+betterquesting.quest.UJX_NTRpQb-V2IW4_CbUlA.desc=Lots and lots of food crops. While they may be less useful than other species you can grow, when compared to basic food crops the ability to stat these guys should make them pretty nice no matter the reason you need them.
 
 # Quest: Bamboo "Bonsai"
 betterquesting.quest.UXgyj5YwReqPhaolpqlSdQ.name=Bamboo "Bonsai"
@@ -6316,7 +6316,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.desc=Chisel can also transform Concr
 
 # Quest: Basic Builder's Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.name=§c§lBasic Builder's Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.desc=The only thing going for the stone builder's wand is that it's cheap. It doesn't offer much in special modes, and doesn't last long either. But you can make a lot!%n%nTo use, right-click on a block while holding more of that block in your inventory. An outline will show you what it will do.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.desc=The only thing going for the stone builder's wand is that it's cheap. It doesn't offer much in special modes, and doesn't last long either. But you can make a lot!%n%nTo use, right-click on a block while holding more of that block in your inventory. An outline will show you what it will do.%n%n[note]Tip: /wandoops will undo any block placements you make with the wand, just in case you misclick.[/note]
 
 # Quest: Low-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.name=§c§lLow-Tier Wand
@@ -14743,7 +14743,7 @@ betterquesting.quest.EUgSnkUkT-6CHxpWCNWrbg.desc=The Infinity Egg is the best po
 
 # Quest: Superdense Casting Basins
 betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.name=§5§l§nSuperdense Casting Basins
-betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.desc=The §5§lSuperdense Casting Basin§r (SCB) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SCB adds §312§r parallels per voltage tier and reduces the minimum number of Foundry casings by §236§r, giving you space for more inputs. %n%nIf this module paired with the §5Streamlined Casters§r (SC) module, you will unlock "§6Optimum Production§r", a bonus giving §36§r extra parallels per voltage tier and a §275%%§r speed increase.
+betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.desc=The §5§lSuperdense Casting Basin§r (SCB) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SCB adds §312§r parallels per voltage tier and reduces the minimum number of Foundry casings by §236§r, giving you space for more inputs. %n%nIf this module is paired with the §5Streamlined Casters§r (SC) module, you will unlock "§6Optimum Production§r", a bonus giving §36§r extra parallels per voltage tier and a §275%%§r speed increase.
 
 # Quest: Infinite Water Cell
 betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=§2§l§nInfinite Water Cell
@@ -14911,7 +14911,7 @@ betterquesting.quest.ykz6BsyOTl2m_xfS28ofXA.desc=This tablet holds the power of 
 
 # Quest: Exo-Foundry
 betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.name=§5§l§nExo-Foundry
-betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.desc=You didn't think we were going to force you to use the Mass Solidifier for the rest of the game did you? Imagine being compelled to make hundreds of those for gate... that would just be cruel!%n%n§lIntroducing the Exo-Foundry!§r %n%nThe §5§lExo-Foundry§r is a direct upgrade to the §5Mass Solidifier§r, and just a few of them will be powerful enough to support your infrastructure for the rest of the game. But let's start off with one for now.%n%nThere are three separate tiers, and seven different modules. Each tier allows you to place more modules on the machine starting with two at T1 and ending with four at T3. Each module has it's own special set of abilities and you can combine them in unique ways to get a Foundry with the best fit for your infrastructure.%n%nThe questbook will explain the function of each module type, however the best way to view the information altogether is to use the GUI of the Foundry itself and the tooltips visible on the individual blocks. %n%n[note]For even more information regarding the precise mathematics of module combinations and interactions you can also check out the Wiki: [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
+betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.desc=You didn't think we were going to force you to use the Mass Solidifier for the rest of the game, did you? Imagine being compelled to make hundreds of those for gate... that would just be cruel!%n%n§lIntroducing the Exo-Foundry!§r %n%nThe §5§lExo-Foundry§r is a direct upgrade to the §5Mass Solidifier§r, and just a few of them will be powerful enough to support your infrastructure for the rest of the game. But let's start off with one for now.%n%nThere are three separate tiers, and seven different modules. Each tier allows you to place more modules on the machine, starting with two at T1 and ending with four at T3. Each module has its own special set of abilities, and you can combine them in unique ways to get a Foundry that best fits your infrastructure.%n%nThe questbook will explain the function of each module type, but the best way to view all of the information together is to use the GUI of the Foundry itself and the tooltips visible on the individual blocks. %n%n[note]For even more information regarding the precise mathematics of module combinations and interactions, you can also check out the Wiki: [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
 
 
 ### Quests in no quest lines ###
