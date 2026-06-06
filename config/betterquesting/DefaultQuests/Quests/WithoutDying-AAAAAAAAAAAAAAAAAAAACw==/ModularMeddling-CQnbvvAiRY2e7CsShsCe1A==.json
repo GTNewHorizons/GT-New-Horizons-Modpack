@@ -1,0 +1,132 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 778
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 780
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Interested in powerful customizable armor that you can modify as you advance? Look no further than §6§r§l\u0026z\u0026zMechanical Armor§r! \n\nIn order to begin tinkering, you\u0027ll need a workspace for modifying modular equipment along with a set of Mechanical Armor. The armor is essentially useless on its own, but gains additional features through modification. Each piece of armor is composed of three parts:\n\n§nAugments: §rAugments add a wide variety of useful features to the armor. Augments are categorized into one of 3 types: §6Protection§r, §aMovement§r, and §dUtility§r. Augments can only be inserted into slots corresponding to their category.\n\n§nFrames:§r The armor\u0027s frame determines the protection value of the armor along with how many slots it contains for augments.\n\n§nEnergy Cores:§r The energy core determines how much energy the armor stores, what charging tier it is, and which augments can be equipped.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gregtech:itemChestplateMech",
+        "tag:10": {
+          "active:9": {},
+          "augments:10": {
+            "0:10": {},
+            "1:10": {},
+            "2:10": {},
+            "3:10": {}
+          },
+          "charge:6": 1.0E8,
+          "core:8": "Living",
+          "frame:8": "Adaptive"
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Modular Meddling",
+      "particle_count:3": -1,
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 651293234250794381,
+  "questIDLow:4": -6995168762643046700,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12071,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:itemHelmetMech",
+          "tag:10": {
+            "core:8": "None",
+            "frame:8": "None"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:itemChestplateMech",
+          "tag:10": {
+            "core:8": "None",
+            "frame:8": "None"
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:itemLeggingsMech",
+          "tag:10": {
+            "core:8": "None",
+            "frame:8": "None"
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:itemBootsMech",
+          "tag:10": {
+            "core:8": "None",
+            "frame:8": "None"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
