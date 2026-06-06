@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.8.0 is out 2025-09-27
+Version 2.8.9-beta is out 2026-06
 
 ## What is GT New Horizons?
 
