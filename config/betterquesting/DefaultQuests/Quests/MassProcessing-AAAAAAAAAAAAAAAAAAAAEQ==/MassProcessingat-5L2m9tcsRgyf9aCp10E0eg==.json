@@ -1,12 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 1162181130482500484,
-      "questIDLow:4": -8199803816494517045
+      "questIDHigh:4": -4584086443345950462,
+      "questIDLow:4": -8420616239779406480
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2610
+      "questIDLow:4": 2613
     }
   },
   "properties:10": {
@@ -21,18 +21,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "In ZPM, you now have the ability to construct very powerful mega machines. These absolute titans will boost your production to levels never-before-seen, at a price.\n\n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization.[/note]",
+      "desc:8": "Now that you\u0027ve reached UV, you\u0027re going to start unlocking some extremely powerful processing multis. You\u0027ll want to create them as soon as possible because things are about to start getting very expensive...",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 8,
+        "Damage:2": 1,
         "OreDict:8": "",
-        "id:8": "miscutils:miscutils.blockcasings"
+        "id:8": "Avaritia:Resource_Block"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lMegalomania",
+      "name:8": "§2§l§nMass Processing at UV and Beyond!",
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -44,8 +44,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -4584086443345950462,
-  "questIDLow:4": -8420616239779406480,
+  "questIDHigh:4": -1964230283361499636,
+  "questIDLow:4": -6920448601063607174,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {

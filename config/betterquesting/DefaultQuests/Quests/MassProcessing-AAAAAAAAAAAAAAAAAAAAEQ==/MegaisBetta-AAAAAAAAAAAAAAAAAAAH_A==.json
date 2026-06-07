@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "For someone who needs to blast a truly §lridiculous§r amount of stuff, the §5§lExothermic Hearth§r is the machine for you. This monster machine can handle up to §6§l256§r parallel recipes at a time.\n\nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches, however, you need at least §2§nUV§r glass.",
+      "desc:8": "For someone who needs to blast a truly §lridiculous§r amount of stuff, the §5§lExothermic Hearth§r is the machine for you. This monster machine can handle up to §6§l256§r parallel recipes at a time.\n\nIf allowed to heat up fully, the machine will run with §6§l2x§r as many parallels (though that takes around 30 minutes). You can optionally provide it §c§l250L/s§r of Pyrotheum to speed up this process by §2§l6x§r.\n\nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches, however, you need at least §2§nUV§r glass.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -33,7 +33,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lMega is Betta",
+      "name:8": "§b§lMega is Betta",
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",

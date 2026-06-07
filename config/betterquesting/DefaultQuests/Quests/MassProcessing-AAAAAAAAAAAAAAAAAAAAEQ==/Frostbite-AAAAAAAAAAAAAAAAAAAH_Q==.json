@@ -1,6 +1,10 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    },
+    "1:10": {
       "questIDHigh:4": -4584086443345950462,
       "questIDLow:4": -8420616239779406480
     }
@@ -17,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The §5§lEndothermic Fridge§r can process up to §6§l256§r parallels!",
+      "desc:8": "The §5§lEndothermic Fridge§r can process up to §6§l256§r parallels! You can also optionally provide §9§l250L/s§r of Cryotheum to the machine to give it a §2§l5x§r speed boost.\n\n[note]Eventually, you will be able to upgrade this to its T2 variant.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -29,7 +33,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lFrostbite!",
+      "name:8": "§b§lFrostbite!",
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",

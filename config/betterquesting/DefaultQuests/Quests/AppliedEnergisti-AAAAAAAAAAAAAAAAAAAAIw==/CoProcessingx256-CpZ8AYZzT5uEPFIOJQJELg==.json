@@ -1,8 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": -7350891746090071171,
+      "questIDLow:4": -8472010944693294394
+    },
+    "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1246
+      "questIDLow:4": 1710
     }
   },
   "properties:10": {
@@ -17,21 +21,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Ever wonder where your redstone transmitters are? Or wish they were labeled? Maybe your teammate placed one down, didn\u0027t tell you, and now you\u0027re stuck wondering what private frequency they placed it on?\n\nNow, you have a way to do all of that.\n\nIntroducing the §6Redstone Sniffer§r!\n\nFor §cregular wireless redstone§r, the sniffer will list all currently used frequencies, tell you whether that frequency is private, and give you an option to label it.\n\nFor §cadvanced wireless covers§r, the sniffer will additionally tell you where that cover is currently located, including in other dimensions, and offer you the option to highlight it (and teleport to it if you have OP).",
+      "desc:8": "These are starting to get a little pricey...",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 1,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.Item_Redstone_Sniffer",
-        "tag:10": {
-          "last_page:3": 1
-        }
+        "id:8": "appliedenergistics2:tile.BlockAdvancedCraftingUnit"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§8§lThe Redstone Sniffer",
+      "name:8": "Co-Processing x256",
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -43,8 +44,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -3190394247917321884,
-  "questIDLow:4": -7880854746900516763,
+  "questIDHigh:4": 762933532878393243,
+  "questIDLow:4": -8918162941396499410,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -52,10 +53,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 7,
+          "Count:3": 10,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }
@@ -71,12 +72,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.Item_Redstone_Sniffer",
-          "tag:10": {
-            "last_page:3": 1
-          }
+          "id:8": "appliedenergistics2:tile.BlockAdvancedCraftingUnit"
         }
       },
       "taskID:8": "bq_standard:retrieval"

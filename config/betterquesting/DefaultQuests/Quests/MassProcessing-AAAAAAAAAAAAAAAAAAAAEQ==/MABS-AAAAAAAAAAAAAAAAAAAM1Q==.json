@@ -1,12 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -4584086443345950462,
-      "questIDLow:4": -8420616239779406480
-    },
-    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2628
+    },
+    "1:10": {
+      "questIDHigh:4": -1964230283361499636,
+      "questIDLow:4": -6920448601063607174
     }
   },
   "properties:10": {
@@ -32,7 +32,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lMABS",
+      "name:8": "§2§l§nMABS",
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
