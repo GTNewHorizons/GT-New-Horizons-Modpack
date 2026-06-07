@@ -1,8 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 1162181130482500484,
+      "questIDLow:4": -8199803816494517045
+    },
+    "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 160
+      "questIDLow:4": 2610
     }
   },
   "properties:10": {
@@ -17,18 +21,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "In HV, you now technically have the ability to construct Megas for some machines. These absolute titans will boost your production to levels never-before-seen, at a price. These multiblocks have two major benefits:\n-They innately have 256 parallels.\n-They can use TecTech exotic hatches, allowing you to empty out tremendous amounts of power into them.\n\n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization.[/note]",
+      "desc:8": "In ZPM, you now have the ability to construct very powerful mega machines. These absolute titans will boost your production to levels never-before-seen, at a price.\n\n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 12730,
+        "Damage:2": 8,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "miscutils:miscutils.blockcasings"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lMegalomania",
+      "name:8": "§b§lMegalomania",
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

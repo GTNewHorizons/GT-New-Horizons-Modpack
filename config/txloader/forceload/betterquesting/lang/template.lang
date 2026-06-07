@@ -5909,6 +5909,10 @@ betterquesting.quest.vv296Z3mSUqkQEaiJqQcOw.desc=The Electric Jetpack may be use
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.name=...Without Dying
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.desc=In order to not die constantly, you'll need weapons and armor. There's also utility stuff adventure backpacks and static defenses for your base.
 
+# Quest: More Augmentation
+betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.name=More Augmentation
+betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.desc=A new energy core means more powerful augments. This quest lists all Tier 2 augments.%n%nSome standouts:%n%n-Milk Infusion (§dUtility§r, Helmet): Constantly clear negative status effects.%n-Astronaut's Equipment (§6Protection§r, Any): Gain space suit capability.%n-Adaptive Jetpack Stabilizers (§aMovement§r, Chestplate): Allow your jetpack to hover perfectly without descending.
+
 # Quest: Protect Your Base: Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0A.name=§a§lProtect Your Base: Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0A.desc=The small parts for the powerful turrets.
@@ -6091,7 +6095,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5Q.desc=Your Dark Steel armor can be up
 
 # Quest: Carbon Parts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw.name=Carbon Parts
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw.desc=These are the first parts you will need for your beloved nano armor.%n%n[note]To actually complete the nano armor you will need EV circuits and nano crystals (see Storing and Transforming EU).[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw.desc=These are the first parts you will need for your beloved nano armor.%n%n[note]To actually complete the nano armor, you will need EV circuits and nano crystals (see Storing and Transforming EU).[/note]%n%n[warn]IC2 is slowly being removed from the modpack! Check out the nearby quest "Modular Meddling" for the replacement.[/warn]
 
 # Quest: Seeing Things Brighter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADCA.name=Seeing Things Brighter
@@ -6249,9 +6253,41 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAw.desc=Why use plates when you can mak
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRw.name=Quantum Chestplate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRw.desc=QuantumSuit Bodyarmor allows for flight just like its predecessor, but when you hold shift+space instead of going down you will go slightly up.%nThe next tier - GraviChestPlate - will get rid of this problem altogether.
 
+# Quest: Supreme Mechanical Armor
+betterquesting.quest.BFkQt-DcRhmReOUsVWtrqA.name=Supreme Mechanical Armor
+betterquesting.quest.BFkQt-DcRhmReOUsVWtrqA.desc=At ZPM, you've almost reached the peak of personal defense technology. New augments await!%n%nThe living energy core will allow your armor to charge at ZPM voltage and equip tier 3 augments.%n%nThe frames in this tier provide 7 augment slots. Pushing the limits of modularity, every frame now has at least one prismatic slot.
+
+# Quest: Modular Meddling
+betterquesting.quest.CQnbvvAiRY2e7CsShsCe1A.name=Modular Meddling
+betterquesting.quest.CQnbvvAiRY2e7CsShsCe1A.desc=Interested in powerful, customizable armor that you can modify as you advance? Look no further than §6§r§l&z&zMechanical Armor§r!%n%nIn order to begin tinkering, you'll need a workspace for modifying modular equipment along with a set of Mechanical Armor. The armor is essentially useless on its own, but gains additional features through modification. Each piece of armor is composed of three parts:%n%n§nAugments: §rAugments add a wide variety of useful features to the armor. Augments are categorized into one of three types: §6Protection§r, §aMovement§r, and §dUtility§r. Augments can only be inserted into slots corresponding to their category.%n%n§nFrames:§r The armor's frame determines the protection value of the armor along with how many slots it contains for augments.%n%n§nEnergy Cores:§r The energy core determines how much energy the armor stores, its charging tier, and which augments can be equipped.
+
+# Quest: Even More Augmentation
+betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.name=Even More Augmentation
+betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.desc=There are currently only three new augments available in Tier 3, but they are very powerful.%n%n-Energy Grid Defense (§6Protection§r, Chestplate): Gain a forcefield that can completely block most damage at the cost of a huge amount of EU.%n-Gravitational Control Module (§aMovement§r, Chestplate): Creative flight.%n-Inertial Dampeners (§aMovement§r, Chestplate): Enable inertia canceling, allowing you to stop instantly while flying.
+
+# Quest: Basic Mechanical Armor
+betterquesting.quest.Ta-VKcQFSpejtRIkB650qg.name=Basic Mechanical Armor
+betterquesting.quest.Ta-VKcQFSpejtRIkB650qg.desc=To turn your mechanical exoskeleton from a hunk of useless metal into a power suit, you'll need a core and a frame.%n%nThe basic energy core will allow your armor to charge at HV voltage and equip tier 1 augments.%n%nThe first three frames all give 3 augment slots spread among the categories. Choose based on what augments you need to equip!
+
+# Quest: Perfected Energy Core
+betterquesting.quest.YXYbS-DuTuK7ISAjGV874A.name=Perfected Energy Core
+betterquesting.quest.YXYbS-DuTuK7ISAjGV874A.desc=Sick of your Mechanical Armor running out of batteries? Try strapping a miniaturized singularity to your chest! It's entirely safe.%n%nThis final energy core will provide infinite energy to the Mechanical Armor and allow any augment to be equipped.
+
+# Quest: Augmentation
+betterquesting.quest.hwvNowyHS7WJOK4xDcUw0A.name=Augmentation
+betterquesting.quest.hwvNowyHS7WJOK4xDcUw0A.desc=Now that you have a frame and a core, you can get to work adding new features to your Mechanical Armor. This quest lists all Tier 1 augments.%n%nSome standouts:%n%n-Optical Brightness Adjuster (§dUtility§r, Helmet): Enable toggleable night vision.%n-Protective Lining (§6Protection§r, Any): Gain full hazmat protection.%n-Electric Jetpack (§aMovement§r, Chestplate): Jetpack!
+
 # Quest: Mob Repellators
 betterquesting.quest.tgH86mIERWKIh8OAleKrSw.name=Mob Repellators
 betterquesting.quest.tgH86mIERWKIh8OAleKrSw.desc=First available in LV, the Mob Repellator prevents mobs from spawning in its radius. It works without power, but with it has a higher range.%n%n[note]You only need one to complete the quest.[/note]
+
+# Quest: Advanced Mechanical Armor
+betterquesting.quest.z7sXK-B1SSyRD9ukAs1JEw.name=Advanced Mechanical Armor
+betterquesting.quest.z7sXK-B1SSyRD9ukAs1JEw.desc=Now that you're in IV, you can unlock the next set of upgrades for Mechanical Armor, gaining more slots and new augments.%n%nThe quantum energy core will allow your armor to charge at IV voltage and equip tier 2 augments.%n%nThe frames in this tier provide 5 augment slots. The adaptive frame uniquely has a §6Pri§asma§dtic§r slot that will accept an augment of any category!
+
+# Quest: Perfected Armor Frame
+betterquesting.quest.zWyFqJfWTGKjw63-EG7DDw.name=Perfected Armor Frame
+betterquesting.quest.zWyFqJfWTGKjw63-EG7DDw.desc=Tired of being constrained by augment slots? The constantly shifting properties of Infinity make it an ideal material for a modular frame.%n%nThis final frame provides 5 slots of every category, including prismatic.
 
 
 ## Quest Line: Building Better Bases
@@ -7337,6 +7373,10 @@ betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=Start your own local brewery wi
 betterquesting.quest.4-HZ9i5AQ4qLN7cgSDaL3Q.name=§9§lThis Kinda Burns...
 betterquesting.quest.4-HZ9i5AQ4qLN7cgSDaL3Q.desc=The §5§lIndustrial Chemical Bath§r will significantly increase the efficiency of your ore processing. It grants a §2§l5x§r speed boost and §6§l4§r parallels per voltage tier compared to its singleblock counterpart.
 
+# Quest: Mass Processing at UV and Beyond!
+betterquesting.quest.5L2m9tcsRgyf9aCp10E0eg.name=§2§l§nMass Processing at UV and Beyond!
+betterquesting.quest.5L2m9tcsRgyf9aCp10E0eg.desc=Now that you've reached UV, you're going to start unlocking some extremely powerful processing multis. You'll want to create them as soon as possible because things are about to start getting very expensive...
+
 # Quest: Fits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=§9§lFits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=Making machines for every mold sounds tiring... fortunately, the Mass Solidifier multiblock can handle any number of molds by using §lSolidifier Hatches§r.%n%n[note]The Mass Solidifier also speeds up as it is running, making it more efficient to do large batches.[/note]
@@ -7422,12 +7462,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.name=§9§lBezos Would Be Proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.desc=The §5§lAmazon Warehousing Depot§r is the ultimate multiblock for all your packing needs. Got tiny and small dusts coming out of your ears? This is the machine for you.%n%nThe AWD offers a very generous §6§l16§r parallels per voltage tier, as well as a §2§l2-8x§r speed bonus (depending on item pipe casing tier) and a §3§l25%%§r EU discount on all recipes.%n%n[note]Glass tier is irrelevant; use what works best for you![/note]
 
 # Quest: Mega is Betta
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.name=§6§lMega is Betta
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.desc=For someone who needs to blast a truly §lridiculous§r amount of stuff, the §5§lExothermic Hearth§r is the machine for you. This monster machine can handle up to §6§l256§r parallel recipes at a time.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches, however, you need at least §2§nUV§r glass.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.name=§b§lMega is Betta
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.desc=For someone who needs to blast a truly §lridiculous§r amount of stuff, the §5§lExothermic Hearth§r is the machine for you. This monster machine can handle up to §6§l256§r parallel recipes at a time.%n%nIf allowed to heat up fully, the machine will run with §6§l2x§r as many parallels (though that takes around 30 minutes). You can optionally provide it §c§l250L/s§r of Pyrotheum to speed up this process by §2§l6x§r.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches, however, you need at least §2§nUV§r glass.
 
 # Quest: Frostbite!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.name=§6§lFrostbite!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.desc=The §5§lEndothermic Fridge§r can process up to §6§l256§r parallels!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.name=§b§lFrostbite!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.desc=The §5§lEndothermic Fridge§r can process up to §6§l256§r parallels! You can also optionally provide §9§l250L/s§r of Cryotheum to the machine to give it a §2§l5x§r speed boost.%n%n[note]Eventually, you will be able to upgrade this to its T2 variant.[/note]
 
 # Quest: Empty The Oceans
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.name=§9§lEmpty The Oceans
@@ -7438,8 +7478,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.name=§b§lPutting All Those Workers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.desc=The large scale auto-assembler will put things together for you, in volume. This multi is available in ZPM.%n%n[note]While it unlocks much later, has much fewer parallels, and has no TT energy hatch support in contrast to the Precise Assembler, it has one upside: If you use two energy hatches you can craft items of the next tier.[/note]
 
 # Quest: Tower of Babylon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.name=§6§lTower of Babylon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.desc=Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Block tall Multiblock.%n%nThis can handle up to 256 Recipes at once.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.name=§d§lTower of Babylon
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.desc=Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Block tall Multiblock.%n%nThis can handle up to §6§l256§r Recipes at once and provides a different set of bonuses depending on which distillation mode is active.
 
 # Quest: Circuit Assembly Line
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.name=§d§lCircuit Assembly Line
@@ -7462,16 +7502,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.name=§c§lSteamy Mincer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=This is an upgraded version of your trusty ol' Steam Macerator. As a 3x3 Multiblock, it might seem expensive if you're in the Steam Age. However, the processing time per ore is so low that you can sustain your beginner's ore processing system with it!%n%nThe main reason to switch from this is the HV Macerator, which unlocks a slot for additional byproducts gained from the macerating step of ore processing. The Steam Grinder, in comparison, will only return the first item shown in the recipe output. However, this will do just fine until HV!%n%n§3The Steam Grinder can only process recipes up to LV Tier.
 
 # Quest: MABS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.name=§6§lMABS
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.name=§2§l§nMABS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.desc=This unholy union between Mega and GT++ must be the work of some madman. It is the ultimate metallurgical furnace to make your alloys with up to 256 parallels. Using better coils and glass also boosts its speed and reduces energy costs!%n%nThe glass tier limits both the energy hatch tier and the recipe tier. As with other multis, UEV glass unlocks all tiers and UV glass is needed for lasers.%n%nGlass tiers gate recipe tiers, for example UHV recipes need UHV glass.
 
 # Quest: Another Chemical Multiblock?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.name=§6§lAnother Chemical Multiblock?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.name=§d§lAnother Chemical Multiblock?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.desc=You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can't make it faster after using your best energy hatches available.%n%nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.%n%nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
 
-# Quest: Mass Processing in LuV and Beyond
-betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.name=§d§lMass Processing in LuV and Beyond
-betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.desc=As you enter LuV and beyond, fewer mass processing multiblocks are available as you replace old setups with new systems and scale up the multiblocks you've already built - there are still some important upgrades in these higher tiers, though.%n%nDefinitely don't miss out on the Circuit Assembly Line or you'll be kicking yourself later.%n%nBe a true GT engineer and finish out your collection!
+# Quest: Mass Processing in LuV
+betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.name=§d§lMass Processing in LuV
+betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.desc=As you enter LuV, fewer mass processing multiblocks are available as you replace old setups with new systems and scale up the multiblocks you've already built - there are still some important upgrades in these higher tiers, though.%n%nDefinitely don't miss out on the Circuit Assembly Line or you'll be kicking yourself later.
 
 # Quest: Clean Implosions?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=§4§l§nClean Implosions?!
@@ -7574,8 +7614,8 @@ betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.name=§8§lExtreme Voltage Multibloc
 betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=You might already have a Steam Multiblock or the Large Sifter. But in EV, IV, and the following tiers you unlock multiblocks for (almost) every GT machine. And some more on top of that!%n%nMost of them are made to do the same GT processing as the singleblock machines you've been using, but much faster. The multis can have up to three bonuses: energy savings, faster recipe time and parallels, which mean that a single recipe cycle can craft multiple items at once, if the power provided is enough to sustain it.%n%nThe variety of structures and intricacies of these new multis can go far beyond simpler multis like the EBF, LCR or VF. While some are simple cuboids, others come with more diverse mechanics and conditions to work properly. In return, they can be extremely powerful, so keep an eye out for them!
 
 # Quest: Megalomania
-betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=§6§lMegalomania
-betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=In HV, you now technically have the ability to construct Megas for some machines. These absolute titans will boost your production to levels never-before-seen, at a price. These multiblocks have two major benefits:%n-They innately have 256 parallels.%n-They can use TecTech exotic hatches, allowing you to empty out tremendous amounts of power into them.%n%n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization.[/note]
+betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=§b§lMegalomania
+betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=In ZPM, you now have the ability to construct very powerful mega machines. These absolute titans will boost your production to levels never-before-seen, at a price.%n%n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization.[/note]
 
 # Quest: Pressure Washing!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=§c§lPressure Washing!
@@ -10621,11 +10661,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKww.desc=This is the main purpose of AE2
 
 # Quest: Applied Greg?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.name=Applied Greg?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME Buses are combination of technology and...other technology. Don't give me that look, it is, OK? With these, you can now directly I/O items between GregTech multiblock and ME network. They have §osignificantly§r less lag, so please start using them as soon as possible on servers.%n%nYou just pop off your GT bus + ME bus or ME interface combination, and replace both with the new bus and connect a ME cable directly to it. It uses 1 channel, same as the other options.%n%nThe output bus and hatch have limited output space. If you need more, you can upgrade them either by crafting them with storage components or putting a cell inside. A digital singularity cell will make the cache near infinite.%n%nNote that the output bus must eject each item from its cache §oin order§r. If it cannot eject the topmost item, it will be stuck and cannot eject any other items.%n%nIf voiding is turned off, the multiblock will not void when the ME Outputs are full.%n%n[note]For usage in some machines, i.e. the advanced assembly line, the configured item must be in the first slot in order for the multi to work.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME Buses are combination of technology and...other technology. Don't give me that look, it is, OK? With these, you can now directly I/O items between GregTech multiblock and ME network. They have §osignificantly§r less lag, so please start using them as soon as possible on servers.%n%nYou just pop off your GT bus + ME bus or ME interface combination, and replace both with the new bus and connect a ME cable directly to it. It uses 1 channel, same as the other options.%n%nThe output bus and hatch have limited output space. If you need more, you can upgrade them either by crafting them with storage components or putting a cell inside. A digital singularity cell will make the cache near infinite.%n%nNote that the output bus must eject each item from its cache §oin order§r. If it cannot eject the topmost item, it will be stuck and cannot eject any other items.%n%nIf voiding is turned off, the multiblock will not void when the ME Outputs are full.%n%nInside of the ME Output bus you have the option to enable §2Cache Mode§r which will fill the storage cell rather than sending the items to the ME network. §9Checking Mode§r will verify the inserted storage cell can accept the output before the machine starts.%n%n[note]For usage in some machines, i.e. the advanced assembly line, the configured item must be in the first slot in order for the multi to work.[/note]
 
 # Quest: Starting Your AE2 Journey
 betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.name=Starting Your AE2 Journey
 betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.desc=§nApplied Energistics 2 is an integral part of GTNH gameplay. %n§r%nAE2 is the primary networking and logistics management mod in GTNH for Items, Fluids, and Crafting. You will use it starting from EV and onward for most automations you perform. Given the sheer density of this modpack there are a variety of unique tools and features added specifically to aid in your adventure. Most of these tools are covered in this quest tab.%n%nThere is a lot to learn, but don't feel overburdened! Your abilities will continue to grow the more time you spend with it. There are a wide variety of helpful resources to take advantage of in addition to this book when it comes to learning:%n%n§21. The Wiki: §r[url]https://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url]%n%n- The Wiki has a lot of great starter information on what various systems do. They also have a lot of machine specific automation tutorials so be sure to check the Wiki if you're struggling or want a point of reference.%n%n§22. The Discord: §r[url]https://discord.gg/gtnh[/url]%n%n- The Discord is full of experienced AE2ers', check out #ae2-help to find plenty of people who will take time to help you figure something out.%n%n§23. Video Tutorials: §r[url]https://www.youtube.com/watch?v=LUYVmIAEC-I[/url]%n%n- There are a lot of great GTNH content creators who make high quality video tutorials for this. Here is a link to AE2 Fundamentals by IX. There's an advanced version as well.
+
+# Quest: Co-Processing x256
+betterquesting.quest.CpZ8AYZzT5uEPFIOJQJELg.name=Co-Processing x256
+betterquesting.quest.CpZ8AYZzT5uEPFIOJQJELg.desc=These are starting to get a little pricey...
 
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k Essentia Storage Cell
@@ -10675,6 +10719,10 @@ betterquesting.quest.SDGKHP7fQx-c3gUBv4DwuQ.desc=Ever wanted to order 10 million
 betterquesting.quest.TP2PEGHQRnGKgKYFziEjrg.name=Cards for AE2 Nerds!
 betterquesting.quest.TP2PEGHQRnGKgKYFziEjrg.desc=[quest]Equal Distribution, Fake Crafting, Locking, and Advanced Blocking Cards![/quest]%n%n§6Equal Distribution Card:§r%n%nThe Equal Distribution Card will evenly divide a cell's capacity between types or partitions.%n%n§6Fake Crafting Card:§r %n%nThe Fake Crafting Card will tell your ME System to complete a craft without expecting the final resulting item. %n%nThis can be handy for creating fake patterns for entire multiblocks or setups by collecting the individual items needed in one craft.%n%nThe card can only be inserted into:%n%n§cME Dual Interface%nME Interface%nP2P Tunnel - ME Dual Interface§r %n%n§6Locking Card:§r %n%nThe Locking Card allows an interface to optionally block new crafts from being started for one of the following conditions:%n%n§cWhile Redstone is low%nWhile Redstone is high%nAfter a craft has been pushed, until a redstone pulse is received%nAfter a craft has been pushed, until the results have returned to the same interface§r%n%n§6Advanced Blocking Card:§r%n%nThe Advanced Blocking Card is able to ignore non-consumables in a subnet for more complicated automations. %n%nIn a standard subnet, where two interfaces are facing each other, the Advanced Blocking Card is to be §9placed on the §lsubnet interface.§f
 
+# Quest: Co-Processing x1024
+betterquesting.quest.W4TwVdR1RIqmcYrC2eD2Fg.name=Co-Processing x1024
+betterquesting.quest.W4TwVdR1RIqmcYrC2eD2Fg.desc=No Description
+
 # Quest: 256k Essentia Component
 betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.name=256k Essentia Component
 betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.desc=Same as 1k.
@@ -10711,6 +10759,10 @@ betterquesting.quest.krGyRorETXqDuJdbU3K5tA.desc=[warn]Caution! Use with utmost 
 betterquesting.quest.lLjNj5KXT2WLn_r7E_Ctsw.name=Block Container
 betterquesting.quest.lLjNj5KXT2WLn_r7E_Ctsw.desc=Block Container Cells are a special variant of cell. They are unique because, despite using a 1k storage component, each one can hold up to 520k items rather than just 8.13k!%n%nOf course, all of that power comes with the limitation that they can only store one type of item, so they aren’t quite as flexible. They are great for bulk storage or for scenarios where you might want only one item per drive- Assembly Line automation for example.
 
+# Quest: Co-Processing x64
+betterquesting.quest.mfxi51PzS32KbV7utFWqxg.name=Co-Processing x64
+betterquesting.quest.mfxi51PzS32KbV7utFWqxg.desc=It gets even more compact??
+
 # Quest: ...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.desc=Now with fluid support!
@@ -10746,6 +10798,10 @@ betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.desc=The Wireless Connector also has
 # Quest: 1024k Essentia Storage Cell
 betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1024k Essentia Storage Cell
 betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.desc=These hold 2,097,152 units of essentia.%n%nAnd can hold 36 types.
+
+# Quest: Co-Processing x4096
+betterquesting.quest.ugaI2UIOTHiplk6JSlxBKQ.name=Co-Processing x4096
+betterquesting.quest.ugaI2UIOTHiplk6JSlxBKQ.desc=No Description
 
 # Quest: Essentia Quantum Storage
 betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.name=Essentia Quantum Storage
@@ -10814,7 +10870,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_g.desc=Also known as labware. Be prepa
 
 # Quest: Genetic Imprinter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.name=Genetic Imprinter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.desc=With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.%n%nThe machine has a 20%% chance to downgrade pristine bees into ignoble bees and a 40%% chance to kill ignoble bees.%n%nOne labware is consumed per operation.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.desc=With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.%n%nThe machine has a 40%% chance to kill ignoble bees.%n%nOne labware is consumed per operation.
 
 # Quest: Genetic Transposer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.name=Genetic Transposer
@@ -14355,7 +14411,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=If you found enough gold, you c
 
 # Quest: Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.name=Moron's Guide to Better Trees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.desc=Forestry trees have a variety of attributes. Once you get a tree with a useful attribute, you can breed that attribute into other tree species. This way you can get an ultimate tree that combines all the attributes you want - including the type of fruit! You can also extract the genes with Gendustry if you can make the machines.%n%n[warn]Please do your Forestry tree-breeding indoors or underground because butterflies cause lag.[/warn]%n%nKeep in mind that for quests, you will need to breed the species "pure", not a hybrid. You should probably save the crossbreeding until after you get all the good ones.%n%nFor faster tree breeding, enclose your trees so that butterflies cannot escape, and breed bees with better traits for area and pollination speed. There's also frames too if you can afford it. The sieve may also help if you want to do it more exactly if you can make an alveary. You need either bees or butterflies, trees won't pollinate each other.%n%nTrees have the following characteristics:%n§eSaplings/Fertility§r: chance of getting a sapling from a destroyed leaf. Good for making into biomass or other uses. Balsa, Gooseberry and Sweetgum are what you want.%n%nAllele     Drop Chance%nLowest   1%%%nLower    2.5%%%nLow       3.5%%%nAverage 5%%%nHigh      10%%%n%n[warn]Maturation/Matures[/warn]: the growth speed of a sapling into a tree. Important if you plan to cut it down right away for logs. Golden Raspberry is the fastest.%n%nAllele    Time%nSlowest  10%nSlower   7%nSlow      5%nAverage 4%nFast      3%nFaster   2%nFastest  ?%n%n§dHeight§r: controls how high the tree grows. Giant Sequoia is the best, though it may be a little §otoo§r large.%n%nAllele    Value%nSmallest  25%%%nSmaller   50%%%nSmall      75%%%nAverage 100%%%nLarge    125%%%nLarger   150%%%nLargest  175%%%nGigantic  BIG%n%n§bGirth§r: the width of your tree. Wider trees have more leaves and logs, but will also need more saplings to begin growing. All saplings must be the same species and girth. The sapling in the NW corner determines the stats of the new tree, and is where bone meal must be applied to mature the tree. The Giant Sequoia is best here too.%n%nAllele/Size%n1x1%n2x2%n3x3%n4x4%n%nYield: chances of getting a fruit from a destroyed leaf. Orchard Apple and Chili Pepper are the best here.%n%nAllele     Drop Chance%nLowest   2.5%%%nLower    5%%%nLow       10%%%nAverage 20%%%nHigh       30%%%nHigher    ?%%%n%n§6Sappiness§r: controls two things: (1) the rate at which fruit ripens on leaves, and (2) the amount of biomass a sapling produces in the Forestry Fermenter. Each game tick, a leaf block with fruit has a probability of ripening by one step, and higher sappiness values correspond to a higher ripening chance. You can boost the Fermenter's output by using honey or fruit juice. Blue Mahoe and Red Maple are the best. NEI doesn't show recipes for analyzed saplings, and probably hybrids too, in the fermenter.%n%nAllele     Sappiness  Ripening Speed%nLowest    0.10          1x%nLower     0.20          2x%nLow        0.30          3x%nAverage  0.40          4x%nHigh        0.60          6x%nHigher    0.80          8x%nHighest   1.00         10x%n%nAllele     Fermenter Biomass (water)%nLowest    50mB%nLower     100mB%nLow        150mB%nAverage  200mB%nHigh        300mB%n%n[warn]Fireproof[/warn]: applies to the wood. Only the Coast and Giant Sequoia have this.%n%n§7Effect§r: not used in trees, so it's None for any.%n%nBelow is more information on some other parameters:%n%n§2Growth§r: Sipiri trees have Tropical instead of Light, can only be bred in a Biome with temperature 90%%-190%% and humidity 90%%-200%%, and can only grow in 120%%-190%% temp and 90%%-200%% humidity. All other trees just need light to grow.%n%n[note]Territory/Soil[/note]: all trees have Average, whatever that means. Probably something related to the below that never really got used.%n%n§eTolerates§r: if it can be planted on sand or not. Only Desert Acacia and Grandidier's Baobab have this. The trait is either Plains or Plains, Desert.%n%n§5Supports§r: what kind of fruits it can theoretically have. Determined by Species. Only fruits from families listed under this trait can be produced by the tree, regardless of what appears under the tree's Fruits trait. There are a number of trees from the Extra Trees mod that support all 4 types, but none from Forestry itself.%n%n§aFruit§r: determines what fruit or nut it produces. Each fruit/nut provides different advantages:%nPlum and Cherry Plum only produces 100L Fruit Juice, but have a 60%% chance of producing Mulch in the Fluid Extractor or Squeezer.%nPapaya produces 600L Fruit Juice, but only has a 10%% chance to produce Mulch.%nCoconuts produce 300L Seed Oil, but only have a 25%% chance to produce Mulch.%nUse a Forestry Multifarm so you don't have to break the leaf block to get the fruit/nut. Set it to Manual Orchard, and place everything first.%n%n§bFamily§r: Tells you what family of the fruit listed under the Fruits trait is: Pomes, Prunes, Nuts or Jungle.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.desc=Forestry trees have a variety of attributes. Once you get a tree with a useful attribute, you can breed that attribute into other tree species. This way you can get an ultimate tree that combines all the attributes you want - including the type of fruit! You can also extract the genes with Gendustry if you can make the machines.%n%n[warn]Please do your Forestry tree-breeding indoors or underground because butterflies cause lag.[/warn]%n%nKeep in mind that for quests, you will need to breed the species "pure", not a hybrid. You should probably save the crossbreeding until after you get all the good ones.%n%nFor faster tree breeding, enclose your trees so that butterflies cannot escape, and breed bees with better traits for area and pollination speed. There's also frames too if you can afford it. The sieve may also help if you want to do it more exactly if you can make an alveary. You need either bees or butterflies, trees won't pollinate each other.%n%nTrees have the following characteristics:%n§2Saplings/Fertility§r: chance of getting a sapling from a destroyed leaf. Good for making into biomass or other uses. Balsa, Gooseberry and Sweetgum are what you want.%n%nAllele     Drop Chance%nLowest   1%%%nLower    2.5%%%nLow       3.5%%%nAverage 5%%%nHigh      10%%%n%n[warn]Maturation/Matures[/warn]: the growth speed of a sapling into a tree. Important if you plan to cut it down right away for logs. Golden Raspberry is the fastest.%n%nAllele    Time%nSlowest  10%nSlower   7%nSlow      5%nAverage 4%nFast      3%nFaster   2%nFastest  ?%n%n§dHeight§r: controls how high the tree grows. Giant Sequoia is the best, though it may be a little §otoo§r large.%n%nAllele    Value%nSmallest  25%%%nSmaller   50%%%nSmall      75%%%nAverage 100%%%nLarge    125%%%nLarger   150%%%nLargest  175%%%nGigantic  BIG%n%n§bGirth§r: the width of your tree. Wider trees have more leaves and logs, but will also need more saplings to begin growing. All saplings must be the same species and girth. The sapling in the NW corner determines the stats of the new tree, and is where bone meal must be applied to mature the tree. The Giant Sequoia is best here too.%n%nAllele/Size%n1x1%n2x2%n3x3%n4x4%n%nYield: chances of getting a fruit from a destroyed leaf. Orchard Apple and Chili Pepper are the best here.%n%nAllele     Drop Chance%nLowest   2.5%%%nLower    5%%%nLow       10%%%nAverage 20%%%nHigh       30%%%nHigher    ?%%%n%n§6Sappiness§r: controls two things: (1) the rate at which fruit ripens on leaves, and (2) the amount of biomass a sapling produces in the Forestry Fermenter. Each game tick, a leaf block with fruit has a probability of ripening by one step, and higher sappiness values correspond to a higher ripening chance. You can boost the Fermenter's output by using honey or fruit juice. Blue Mahoe and Red Maple are the best. NEI doesn't show recipes for analyzed saplings, and probably hybrids too, in the fermenter.%n%nAllele     Sappiness  Ripening Speed%nLowest    0.10          1x%nLower     0.20          2x%nLow        0.30          3x%nAverage  0.40          4x%nHigh        0.60          6x%nHigher    0.80          8x%nHighest   1.00         10x%n%nAllele     Fermenter Biomass (water)%nLowest    50mB%nLower     100mB%nLow        150mB%nAverage  200mB%nHigh        300mB%n%n[warn]Fireproof[/warn]: applies to the wood. Only the Coast and Giant Sequoia have this.%n%n§7Effect§r: not used in trees, so it's None for any.%n%nBelow is more information on some other parameters:%n%n§2Growth§r: Sipiri trees have Tropical instead of Light, can only be bred in a Biome with temperature 90%%-190%% and humidity 90%%-200%%, and can only grow in 120%%-190%% temp and 90%%-200%% humidity. All other trees just need light to grow.%n%n[note]Territory/Soil[/note]: all trees have Average, whatever that means. Probably something related to the below that never really got used.%n%n§3Tolerates§r: if it can be planted on sand or not. Only Desert Acacia and Grandidier's Baobab have this. The trait is either Plains or Plains, Desert.%n%n§5Supports§r: what kind of fruits it can theoretically have. Determined by Species. Only fruits from families listed under this trait can be produced by the tree, regardless of what appears under the tree's Fruits trait. There are a number of trees from the Extra Trees mod that support all 4 types, but none from Forestry itself.%n%n§aFruit§r: determines what fruit or nut it produces. Each fruit/nut provides different advantages:%nPlum and Cherry Plum only produces 100L Fruit Juice, but have a 60%% chance of producing Mulch in the Fluid Extractor or Squeezer.%nPapaya produces 600L Fruit Juice, but only has a 10%% chance to produce Mulch.%nCoconuts produce 300L Seed Oil, but only have a 25%% chance to produce Mulch.%nUse a Forestry Multifarm so you don't have to break the leaf block to get the fruit/nut. Set it to Manual Orchard, and place everything first.%n%n§bFamily§r: Tells you what family of the fruit listed under the Fruits trait is: Pomes, Prunes, Nuts or Jungle.
 
 # Quest: Kinetic Power HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcQ.name=§5§lKinetic Power HV
@@ -14610,7 +14666,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw.name=§b§lTransform and...Stay Put 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw.desc=Active Transformers will transform power up or down at only a 0.004%% power loss, making using several in a row obsolete, if you can afford it. Unfortunately, it's kinda expensive. On the other hand, you can use it to turn your lasers from your laser hatches, which is probably a better use.%n%nIt doesn't need a Maintenance Hatch, just the I/O Hatches.
 
 # Quest: What Even is This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.name=§6§lWhat Even is This?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.name=§d§lWhat Even is This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.desc=In addition to being a dehydrator multi, it's also a Vacuum Furnace, for which no singleblock exists. It's supposed to be used with the IsaMill Grinding Machine multi and the Flotation Cell Regulator multi for the purposes of ore milling, an advanced method of ore processing that needs a lot of infrastructure, but which gives many new outputs for each ore it supports.%n%n[note]This multi is LuV now![/note]
 
 # Quest: Dyson Swarm Ground Unit

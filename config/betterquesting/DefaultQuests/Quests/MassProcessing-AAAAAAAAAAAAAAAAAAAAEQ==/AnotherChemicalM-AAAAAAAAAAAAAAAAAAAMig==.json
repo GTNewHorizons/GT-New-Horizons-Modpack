@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -4584086443345950462,
-      "questIDLow:4": -8420616239779406480
+      "questIDHigh:4": 1162181130482500484,
+      "questIDLow:4": -8199803816494517045
     },
     "1:10": {
       "questIDHigh:4": 0,
@@ -32,7 +32,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lAnother Chemical Multiblock?",
+      "name:8": "§d§lAnother Chemical Multiblock?",
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
