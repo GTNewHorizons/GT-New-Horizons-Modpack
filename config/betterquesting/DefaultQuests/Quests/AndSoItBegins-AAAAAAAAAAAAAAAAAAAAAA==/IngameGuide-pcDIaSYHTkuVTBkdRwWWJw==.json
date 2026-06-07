@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Check out the in-game guide! It\u0027ll tell you what\u0027s new in each version and has in-depth tutorials, visualizations and more details then you\u0027ll find anywhere else in the pack!\n\nTo use it, you must first activate it in your resource packs!\n\nTo open it, use this Guide item and/or bind the §aO§ppen Guide Home§r hotkey.\n\n[img height\u003d200]midnight:textures/gui/guide-nh-pictures/guide-nh-image.png[/img]",
+      "desc:8": "Check out the in-game guide! It\u0027ll tell you what\u0027s new in each version and has in-depth tutorials, visualizations, and more details than you\u0027ll find anywhere else in the pack!\n\nTo use it, you must first activate it in your resource packs!\n\nTo open it, use this Guide item and/or bind the §aOpen Guide Home§r hotkey.\n\n[img height\u003d200]midnight:textures/gui/guide-nh-pictures/guide-nh-image.png[/img]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
