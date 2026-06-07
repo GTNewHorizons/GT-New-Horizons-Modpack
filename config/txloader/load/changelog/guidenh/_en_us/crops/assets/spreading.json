@@ -1,0 +1,164 @@
+{
+  "totalTime": 600,
+  "keyframes": [
+    {
+      "time": 0,
+      "label": "Start",
+      "camera": {
+        "zoom": 4.0,
+        "rotX": 20.0,
+        "rotY": 100.0,
+        "rotZ": 0.0,
+        "offX": 0.0,
+        "offY": 0.0
+      },
+      "layer": null,
+      "modifyTileNBT": [
+        {
+          "x": 0, "y": 1, "z": 0,
+          "path": "progress",
+          "value": "1200"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "text",
+          "text": "To spread crops, place 2 crop sticks on the same valid farmland adjacent to the crop you want to spread",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCCCFF"
+        }
+      ]
+    },
+    {
+      "time": 120,
+      "label": "First Spread",
+      "camera": {
+        "rotY": 70.0
+      },
+      "layer": null,
+      "blockChanges": [
+        {
+        "x": 0, "y": 1, "z": 1, "block": "cropsnh:cropSticks", "particles": false,
+          "nbt": "{progress:0,fert:0,water:0,weedEX:0,crop:{amount:1,crop:cropsnh:bonsaiOak,ga:1,gr:1,re:1,scan:1}}"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "text",
+          "text": "If the plant is able to grow on the adjacent crop sticks, they will attempt to spread to that crop stick",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCCCFF"
+        }
+      ]
+    },
+    {
+      "time": 240,
+      "label": "Spread Stats",
+      "camera": {
+        "rotY": 50.0
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "The stats of the spread crop will likely change, and you can use a Plant Lens to find them out!",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCCCFF"
+        },
+        {
+          "type": "text",
+          "text": "If not fertilized, the stats will all change in the range of -2 -> +4. This is +0 -> +4 if fertilized",
+          "independent": true,
+          "xOffset": -20,
+          "yOffset": 60,
+          "maxWidth": 180,
+          "color": "0xFF00FFFF"
+        },
+        {
+         "type": "input",
+          "x": 0, "y": 1, "z": 1,
+          "inputType": "rmb",
+          "item": "cropsnh:fertilizer"
+        }
+      ]
+    },
+    {
+      "time": 360,
+      "label": "Weeds",
+      "camera": {
+        "rotY": -110.0
+      },
+      "layer": null,
+      "blockChanges": [
+        {
+          "x": 0, "y": 0, "z": -1, "block": "minecraft:grass", "particles": true
+        },
+        {
+
+          "x": 0, "y": 1, "z": -1, "block": "cropsnh:cropSticks", "particles": false,
+          "nbt": "{progress:0,fert:0,water:0,weedEX:0,crop:{amount:1,crop:cropsnh:weed,ga:1,gr:1,re:1,scan:1}}"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Weeds will always randomly pop up on cropsticks (and doubles!) unless they have **Weed-Ex**",
+          "independent": true,
+          "xOffset": -20,
+          "yOffset": 60,
+          "maxWidth": 180,
+          "color": "0xFFFF0088"
+        },
+        {
+          "type": "box",
+          "minX": 0.05, "minY": 1.05, "minZ": -0.05,
+          "maxX": 0.95, "maxY": 1.95, "maxZ": -0.95,
+          "color": "ox88FF0088",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 480,
+      "label": "Sickness",
+      "camera": {
+        "rotY": -130.0
+      },
+      "layer": null,
+      "modifyTileNBT": [
+        {
+          "x": 0, "y":1, "z": 0,
+          "path": "sick",
+          "value": "true"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Weeds will spread sickness to surrounding plants. This can be cured with **Plant Cure**",
+          "independent": true,
+          "xOffset": -20,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFFF0088"
+        },
+        {
+          "type": "text",
+          "text": "Plants can also get sick if their basic requirements are not met, such as wrong water levels, or wrong biome",
+          "independent": true,
+          "xOffset": -20,
+          "yOffset": 60,
+          "maxWidth": 180,
+          "color": "0xFFFF0088"
+        }
+      ]
+    }
+  ]
+}

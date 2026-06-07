@@ -1,0 +1,11 @@
+{
+    DataVersion: 3337,
+    size: [1, 1, 1],
+    data: [
+        {pos: [0, 0, 0], state: "ae2:cable_bus{light_level:9,waterlogged:false}", nbt: {hasRedstone: 2, id: "ae2:cable_bus", north: {filter_type: "ALL", gn: {g: 27333L, k: -1L, p: 0}, id: "ae2:pattern_encoding_terminal", mode: "CRAFTING", sort_by: "NAME", sort_direction: "ASCENDING", spin: 0b, substitute: 0b, substituteFluids: 1b, view_mode: "ALL", visual: {missingChannel: 0b, powered: 1b}}, visual: {}}}
+    ],
+    entities: [],
+    palette: [
+        "ae2:cable_bus{light_level:9,waterlogged:false}"
+    ]
+}
