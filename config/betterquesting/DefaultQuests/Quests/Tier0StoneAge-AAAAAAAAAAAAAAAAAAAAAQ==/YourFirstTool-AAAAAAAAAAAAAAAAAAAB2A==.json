@@ -142,6 +142,7 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
@@ -159,6 +160,7 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -194,6 +196,7 @@
       "ignoreNBT:1": 0,
       "index:3": 2,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
@@ -217,6 +220,7 @@
       "ignoreNBT:1": 0,
       "index:3": 3,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -258,6 +262,7 @@
       "ignoreNBT:1": 1,
       "index:3": 4,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
