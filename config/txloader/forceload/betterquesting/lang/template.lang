@@ -5909,6 +5909,10 @@ betterquesting.quest.vv296Z3mSUqkQEaiJqQcOw.desc=The Electric Jetpack may be use
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.name=...Without Dying
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.desc=In order to not die constantly, you'll need weapons and armor. There's also utility stuff adventure backpacks and static defenses for your base.
 
+# Quest: More Augmentation
+betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.name=More Augmentation
+betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.desc=A new energy core means more powerful augments. This quest lists all Tier 2 augments.%n%nSome standouts:%n%n-Milk Infusion (§dUtility§r, Helmet): Constantly clear negative status effects.%n-Astronaut's Equipment (§6Protection§r, Any): Gain space suit capability.%n-Adaptive Jetpack Stabilizers (§aMovement§r, Chestplate): Allow your jetpack to hover perfectly without descending.
+
 # Quest: Protect Your Base: Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0A.name=§a§lProtect Your Base: Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0A.desc=The small parts for the powerful turrets.
@@ -6091,7 +6095,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5Q.desc=Your Dark Steel armor can be up
 
 # Quest: Carbon Parts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw.name=Carbon Parts
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw.desc=These are the first parts you will need for your beloved nano armor.%n%n[note]To actually complete the nano armor you will need EV circuits and nano crystals (see Storing and Transforming EU).[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw.desc=These are the first parts you will need for your beloved nano armor.%n%n[note]To actually complete the nano armor, you will need EV circuits and nano crystals (see Storing and Transforming EU).[/note]%n%n[warn]IC2 is slowly being removed from the modpack! Check out the nearby quest "Modular Meddling" for the replacement.[/warn]
 
 # Quest: Seeing Things Brighter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADCA.name=Seeing Things Brighter
@@ -6249,9 +6253,41 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAw.desc=Why use plates when you can mak
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRw.name=Quantum Chestplate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRw.desc=QuantumSuit Bodyarmor allows for flight just like its predecessor, but when you hold shift+space instead of going down you will go slightly up.%nThe next tier - GraviChestPlate - will get rid of this problem altogether.
 
+# Quest: Supreme Mechanical Armor
+betterquesting.quest.BFkQt-DcRhmReOUsVWtrqA.name=Supreme Mechanical Armor
+betterquesting.quest.BFkQt-DcRhmReOUsVWtrqA.desc=At ZPM, you've almost reached the peak of personal defense technology. New augments await!%n%nThe living energy core will allow your armor to charge at ZPM voltage and equip tier 3 augments.%n%nThe frames in this tier provide 7 augment slots. Pushing the limits of modularity, every frame now has at least one prismatic slot.
+
+# Quest: Modular Meddling
+betterquesting.quest.CQnbvvAiRY2e7CsShsCe1A.name=Modular Meddling
+betterquesting.quest.CQnbvvAiRY2e7CsShsCe1A.desc=Interested in powerful, customizable armor that you can modify as you advance? Look no further than §6§r§l&z&zMechanical Armor§r!%n%nIn order to begin tinkering, you'll need a workspace for modifying modular equipment along with a set of Mechanical Armor. The armor is essentially useless on its own, but gains additional features through modification. Each piece of armor is composed of three parts:%n%n§nAugments: §rAugments add a wide variety of useful features to the armor. Augments are categorized into one of three types: §6Protection§r, §aMovement§r, and §dUtility§r. Augments can only be inserted into slots corresponding to their category.%n%n§nFrames:§r The armor's frame determines the protection value of the armor along with how many slots it contains for augments.%n%n§nEnergy Cores:§r The energy core determines how much energy the armor stores, its charging tier, and which augments can be equipped.
+
+# Quest: Even More Augmentation
+betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.name=Even More Augmentation
+betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.desc=There are currently only three new augments available in Tier 3, but they are very powerful.%n%n-Energy Grid Defense (§6Protection§r, Chestplate): Gain a forcefield that can completely block most damage at the cost of a huge amount of EU.%n-Gravitational Control Module (§aMovement§r, Chestplate): Creative flight.%n-Inertial Dampeners (§aMovement§r, Chestplate): Enable inertia canceling, allowing you to stop instantly while flying.
+
+# Quest: Basic Mechanical Armor
+betterquesting.quest.Ta-VKcQFSpejtRIkB650qg.name=Basic Mechanical Armor
+betterquesting.quest.Ta-VKcQFSpejtRIkB650qg.desc=To turn your mechanical exoskeleton from a hunk of useless metal into a power suit, you'll need a core and a frame.%n%nThe basic energy core will allow your armor to charge at HV voltage and equip tier 1 augments.%n%nThe first three frames all give 3 augment slots spread among the categories. Choose based on what augments you need to equip!
+
+# Quest: Perfected Energy Core
+betterquesting.quest.YXYbS-DuTuK7ISAjGV874A.name=Perfected Energy Core
+betterquesting.quest.YXYbS-DuTuK7ISAjGV874A.desc=Sick of your Mechanical Armor running out of batteries? Try strapping a miniaturized singularity to your chest! It's entirely safe.%n%nThis final energy core will provide infinite energy to the Mechanical Armor and allow any augment to be equipped.
+
+# Quest: Augmentation
+betterquesting.quest.hwvNowyHS7WJOK4xDcUw0A.name=Augmentation
+betterquesting.quest.hwvNowyHS7WJOK4xDcUw0A.desc=Now that you have a frame and a core, you can get to work adding new features to your Mechanical Armor. This quest lists all Tier 1 augments.%n%nSome standouts:%n%n-Optical Brightness Adjuster (§dUtility§r, Helmet): Enable toggleable night vision.%n-Protective Lining (§6Protection§r, Any): Gain full hazmat protection.%n-Electric Jetpack (§aMovement§r, Chestplate): Jetpack!
+
 # Quest: Mob Repellators
 betterquesting.quest.tgH86mIERWKIh8OAleKrSw.name=Mob Repellators
 betterquesting.quest.tgH86mIERWKIh8OAleKrSw.desc=First available in LV, the Mob Repellator prevents mobs from spawning in its radius. It works without power, but with it has a higher range.%n%n[note]You only need one to complete the quest.[/note]
+
+# Quest: Advanced Mechanical Armor
+betterquesting.quest.z7sXK-B1SSyRD9ukAs1JEw.name=Advanced Mechanical Armor
+betterquesting.quest.z7sXK-B1SSyRD9ukAs1JEw.desc=Now that you're in IV, you can unlock the next set of upgrades for Mechanical Armor, gaining more slots and new augments.%n%nThe quantum energy core will allow your armor to charge at IV voltage and equip tier 2 augments.%n%nThe frames in this tier provide 5 augment slots. The adaptive frame uniquely has a §6Pri§asma§dtic§r slot that will accept an augment of any category!
+
+# Quest: Perfected Armor Frame
+betterquesting.quest.zWyFqJfWTGKjw63-EG7DDw.name=Perfected Armor Frame
+betterquesting.quest.zWyFqJfWTGKjw63-EG7DDw.desc=Tired of being constrained by augment slots? The constantly shifting properties of Infinity make it an ideal material for a modular frame.%n%nThis final frame provides 5 slots of every category, including prismatic.
 
 
 ## Quest Line: Building Better Bases
