@@ -182,7 +182,7 @@
 	<ToolTip ItemName="TConstruct:SearedBlock:1" ToolTip="customtooltip.smeltery_purity_warning" NBT=""/>
 	<ToolTip ItemName="TConstruct:SearedBlock:2" ToolTip="customtooltip.smeltery_purity_warning" NBT=""/>
 	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="customtooltip.smeltery_purity_warning" NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="customtooltip.ic2_crop_berries" NBT="" MetaStart="0" MetaEnd="5"/>
+	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="customtooltip.crops_nh_oreberries" NBT="" MetaStart="0" MetaEnd="5"/>
 
 //Cubic Zirconia
 	<ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="customtooltip.check_ebf_recipe" NBT=""/>
