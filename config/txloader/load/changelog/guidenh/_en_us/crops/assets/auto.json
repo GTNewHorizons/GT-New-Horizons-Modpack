@@ -1,0 +1,148 @@
+{
+  "totalTime": 600,
+  "keyframes": [
+    {
+      "time": 0,
+      "label": "Automation Setup",
+      "camera": {
+        "zoom": 3.0,
+        "rotX": 20.0,
+        "rotY": 100.0,
+        "rotZ": 0.0,
+        "offX": -75.0,
+        "offY": -90.0
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "One of the easiest methods of automation is the **Crop Manager**. The LV version works in an **11x5x11** region",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCCCFF"
+        }
+      ]
+    },
+    {
+      "time": 120,
+      "label": "Soil Setup",
+      "camera": {
+        "rotY": 140
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Add one layer of sub-soil blocks (if required)",
+          "independent": true,
+          "yOffset": 80,
+          "maxWidth": 180,
+          "color": "0xFFFF0000"
+        },
+        {
+          "type": "box",
+          "minX": 0.05, "minY": 0.05, "minZ": 0.05,
+          "maxX": 4.95, "maxY": 0.95, "maxZ": 4.95,
+          "color": "0xFFFF0000",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        },
+        {
+          "type": "text",
+          "text": "Add a second layer with the correct soil type for your plants. These <Color id='GREEN'>Bauxia</Color> plants need Stone!",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFF00FF00"
+        },
+        {
+          "type": "box",
+          "minX": 0.05, "minY": 1.05, "minZ": 0.05,
+          "maxX": 4.95, "maxY": 1.95, "maxZ": 4.95,
+          "color": "0xFF00FF00",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 240,
+      "label": "Water",
+      "camera": {
+        "rotY": 170
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Provide water through a pipe (or any other method) to help hydrate your crops",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFF0000FF"
+        },
+        {
+          "type": "box",
+          "minX": 3.05, "minY": 3.3, "minZ": 2.25,
+          "maxX": 5.75, "maxY": 3.7, "maxZ": 2.75,
+          "color": "0xFF0000FF",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 360,
+      "label": "Power",
+      "camera": {
+        "rotY": 0
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Provide power to the side of the crop manager. Make sure you get your voltage and ampage correct!",
+          "independent": true,
+          "yOffset": 80,
+          "maxWidth": 180,
+          "color": "0xFFFF00FF"
+        },
+        {
+          "type": "box",
+          "minX": 2.05, "minY": 5.05, "minZ": 4.05,
+          "maxX": 2.95, "maxY": 5.95, "maxZ": 4.95,
+          "color": "0xFFFF00FF",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 480,
+      "label": "Output Items",
+      "camera": {
+        "rotY": -210
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Output items using a conveyor or any other extraction method to a storage area",
+          "independent": true,
+          "yOffset": 90,
+          "maxWidth": 120,
+          "color": "0xFF00FFFF"
+        },
+        {
+          "type": "box",
+          "minX": 2.25, "minY": 4.05, "minZ": 2.25,
+          "maxX": 2.75, "maxY": 6.85, "maxZ": 2.75,
+          "color": "0xFF00FFFF",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    }
+  ]
+}

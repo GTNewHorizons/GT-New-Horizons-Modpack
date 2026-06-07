@@ -1,0 +1,11 @@
+{
+    DataVersion: 3337,
+    size: [1, 1, 1],
+    data: [
+        {pos: [0, 0, 0], state: "ae2:me_chest{facing:north,lights_on:true,spin:0}", nbt: {filter_type: "ALL", id: "ae2:me_chest", internalCurrentPower: 0.0d, inv: {item0: {}, item1: {Count: 1b, id: "ae2:item_storage_cell_4k", tag: {amts: [L; 1L], ic: 1L, keys: [{"#t": "ae2:i", id: "minecraft:redstone"}]}}}, paintedColor: 16b, priority: 0, proxy: {g: 136046L, k: -1L, p: 0}, sort_by: "NAME", sort_direction: "ASCENDING", view_mode: "ALL", visual: {cellId: "ae2:item_storage_cell_4k", cellStatus: "NOT_EMPTY", color: "TRANSPARENT", powered: 1b}}}
+    ],
+    entities: [],
+    palette: [
+        "ae2:me_chest{facing:north,lights_on:true,spin:0}"
+    ]
+}

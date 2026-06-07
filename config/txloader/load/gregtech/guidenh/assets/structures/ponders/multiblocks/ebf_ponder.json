@@ -1,0 +1,318 @@
+{
+  "totalTime": 680,
+  "keyframes": [
+    {
+      "time": 0,
+      "label": "Overview",
+      "camera": {
+        "zoom": 2,
+        "rotX": 25.0,
+        "rotY": 225.0,
+        "rotZ": 0.0,
+        "offX": 0.0,
+        "offY": 0.0
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "The Electric Blast Furnace is your first electric multiblock, used to blast new materials that require higher heat levels.",
+          "independent": true,
+          "maxWidth": 200,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 60,
+      "label": "The Controller",
+      "camera": {
+        "rotY": 225.0,
+        "offX": -0.5
+      },
+      "cameraEaseTicks": 20,
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [0, 0, 1],
+          "color": "0xFF00FF00",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 1.5,
+          "text": "The EBF Controller is placed in the center of the bottom layer's front face.",
+          "maxWidth": 200,
+          "color": "0xFF00FF00",
+          "connectorSide": "right",
+          "connectorOffset": 8,
+          "connectorLength": 24
+        }
+      ]
+    },
+    {
+      "time": 130,
+      "label": "Hatches and Casings",
+      "camera": {
+        "rotY": 135.0,
+        "offX": 0.0
+      },
+      "cameraEaseTicks": 20,
+      "annotations": [
+        {
+          "type": "box",
+          "minX": 0.0,
+          "minY": 0.0,
+          "minZ": 0.0,
+          "maxX": 3.0,
+          "maxY": 1.0,
+          "maxZ": 3.0,
+          "color": "0xFFFFAA00",
+          "lineWidth": 1.5
+        },
+        {
+          "type": "text",
+          "x": 1.5,
+          "y": 1.0,
+          "z": 1.5,
+          "text": "The rest of the 3x3 base contains Heat Proof Machine Casings with I/O Buses, I/O Hatches, Energy Hatches, and a Maintenance Hatch.",
+          "maxWidth": 200,
+          "color": "0xFFFFAA00",
+          "connectorSide": "bottom"
+        }
+      ]
+    },
+    {
+      "time": 210,
+      "label": "Heating Coils",
+      "camera": {
+        "rotY": 225.0
+      },
+      "annotations": [
+        {
+          "type": "box",
+          "minX": 0.0,
+          "minY": 1.0,
+          "minZ": 0.0,
+          "maxX": 3.0,
+          "maxY": 3.0,
+          "maxZ": 3.0,
+          "color": "0xFFFF4444",
+          "lineWidth": 1.5
+        },
+        {
+          "type": "text",
+          "x": 1.5,
+          "y": 3.0,
+          "z": 1.5,
+          "text": "Above the base are two layers of Heating Coils, each forming a 3x3 hollow ring.",
+          "maxWidth": 200,
+          "color": "0xFFFF4444",
+          "connectorSide": "bottom"
+        }
+      ]
+    },
+    {
+      "time": 270,
+      "label": "Hollow Center",
+      "camera": {
+        "rotX": 15.0,
+        "rotY": 210.0
+      },
+      "cameraEaseTicks": 10,
+      "blockChanges": [
+        { "x": 0, "y": 1, "z": 2, "block": "minecraft:air" },
+        { "x": 1, "y": 1, "z": 2, "block": "minecraft:air" },
+        { "x": 2, "y": 1, "z": 2, "block": "minecraft:air" },
+        { "x": 0, "y": 2, "z": 2, "block": "minecraft:air" },
+        { "x": 1, "y": 2, "z": 2, "block": "minecraft:air" },
+        { "x": 2, "y": 2, "z": 2, "block": "minecraft:air" }
+      ],
+      "annotations": [
+        {
+          "type": "box",
+          "minX": 1.0,
+          "minY": 1.0,
+          "minZ": 1.0,
+          "maxX": 2.0,
+          "maxY": 3.0,
+          "maxZ": 2.0,
+          "color": "0xFFFFAA44",
+          "lineWidth": 2.0
+        },
+        {
+          "type": "text",
+          "x": 1.5,
+          "y": 2.0,
+          "z": 1.5,
+          "text": "The center 1x2x1 space inside the coils must be left hollow for it to be valid.",
+          "maxWidth": 200,
+          "color": "0xFFFFAA44",
+          "connectorSide": "right",
+          "connectorOffset": 4,
+          "connectorLength": 16
+        }
+      ]
+    },
+    {
+      "time": 350,
+      "label": "Top Layer and Muffler",
+      "camera": {
+        "rotX": 25.0,
+        "rotY": 315.0
+      },
+      "blockChanges": [
+        { "x": 0, "y": 1, "z": 2, "block": "gregtech:gt.blockcasings5" },
+        { "x": 1, "y": 1, "z": 2, "block": "gregtech:gt.blockcasings5" },
+        { "x": 2, "y": 1, "z": 2, "block": "gregtech:gt.blockcasings5" },
+        { "x": 0, "y": 2, "z": 2, "block": "gregtech:gt.blockcasings5" },
+        { "x": 1, "y": 2, "z": 2, "block": "gregtech:gt.blockcasings5" },
+        { "x": 2, "y": 2, "z": 2, "block": "gregtech:gt.blockcasings5" }
+      ],
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [1, 3, 1],
+          "color": "0xFF44AAFF",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "text",
+          "x": 1.5,
+          "y": 4.0,
+          "z": 1.5,
+          "text": "The top layer is a 3x3 of casings with a Muffler Hatch in the very center to vent pollution.",
+          "maxWidth": 200,
+          "color": "0xFF44AAFF",
+          "connectorSide": "bottom"
+        }
+      ]
+    },
+    {
+      "time": 430,
+      "label": "Gas Recovery",
+      "camera": {
+        "rotY": 315.0
+      },
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Optionally, you can also add an output hatch on the top layer to capture gas from your muffler hatch.",
+          "independent": true,
+          "maxWidth": 200,
+          "color": "0xFFE0E0E0"
+        }
+      ]
+    },
+    {
+      "time": 510,
+      "label": "Rain Protection",
+      "camera": {
+        "rotY": 225.0,
+        "zoom": 1.4,
+        "offY": -1.0,
+        "offX": 1.2
+      },
+      "cameraEaseTicks": 30,
+      "blockChanges": [
+        { "x": -1, "y": 5, "z": -1, "block": "minecraft:glass" },
+        { "x": -1, "y": 5, "z": 0, "block": "minecraft:glass" },
+        { "x": -1, "y": 5, "z": 1, "block": "minecraft:glass" },
+        { "x": -1, "y": 5, "z": 2, "block": "minecraft:glass" },
+        { "x": -1, "y": 5, "z": 3, "block": "minecraft:glass" },
+        { "x": 0, "y": 5, "z": -1, "block": "minecraft:glass" },
+        { "x": 0, "y": 5, "z": 0, "block": "minecraft:glass" },
+        { "x": 0, "y": 5, "z": 1, "block": "minecraft:glass" },
+        { "x": 0, "y": 5, "z": 2, "block": "minecraft:glass" },
+        { "x": 0, "y": 5, "z": 3, "block": "minecraft:glass" },
+        { "x": 1, "y": 5, "z": -1, "block": "minecraft:glass" },
+        { "x": 1, "y": 5, "z": 0, "block": "minecraft:glass" },
+        { "x": 1, "y": 5, "z": 1, "block": "minecraft:glass" },
+        { "x": 1, "y": 5, "z": 2, "block": "minecraft:glass" },
+        { "x": 1, "y": 5, "z": 3, "block": "minecraft:glass" },
+        { "x": 2, "y": 5, "z": -1, "block": "minecraft:glass" },
+        { "x": 2, "y": 5, "z": 0, "block": "minecraft:glass" },
+        { "x": 2, "y": 5, "z": 1, "block": "minecraft:glass" },
+        { "x": 2, "y": 5, "z": 2, "block": "minecraft:glass" },
+        { "x": 2, "y": 5, "z": 3, "block": "minecraft:glass" },
+        { "x": 3, "y": 5, "z": -1, "block": "minecraft:glass" },
+        { "x": 3, "y": 5, "z": 0, "block": "minecraft:glass" },
+        { "x": 3, "y": 5, "z": 1, "block": "minecraft:glass" },
+        { "x": 3, "y": 5, "z": 2, "block": "minecraft:glass" },
+        { "x": 3, "y": 5, "z": 3, "block": "minecraft:glass" }
+      ],
+      "annotations": [
+        {
+          "type": "box",
+          "minX": -1.0,
+          "minY": 5.0,
+          "minZ": -1.0,
+          "maxX": 4.0,
+          "maxY": 6.0,
+          "maxZ": 4.0,
+          "color": "0x8066CCFF",
+          "lineWidth": 1.5
+        },
+        {
+          "type": "text",
+          "x": 1.5,
+          "y": 6.5,
+          "z": 1.5,
+          "text": "Protect your EBF with a roof! Otherwise, your energy hatches will explode upon contact with rain.",
+          "maxWidth": 200,
+          "color": "0xFF66CCFF",
+          "connectorSide": "right",
+          "connectorOffset": 12,
+          "connectorLength": 16
+        }
+      ]
+    },
+    {
+      "time": 600,
+      "label": "Operation",
+      "camera": {
+        "rotX": 25.0,
+        "rotY": 225.0,
+        "zoom": 1.6,
+        "offY": 0.0,
+        "offX": 0.0
+      },
+      "cameraEaseTicks": 30,
+      "annotations": [
+        {
+          "type": "block",
+          "pos": [0, 0, 1],
+          "color": "0xFF00FF00",
+          "lineWidth": 2.0,
+          "alwaysOnTop": true
+        },
+        {
+          "type": "input",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 1.5,
+          "inputType": "rmb",
+          "item": "minecraft:iron_dust"
+        },
+        {
+          "type": "text",
+          "text": "Supply power and items, ensure maintenance is fixed, and the EBF will begin blasting!",
+          "independent": true,
+          "yOffset": 60,
+          "maxWidth": 200,
+          "color": "0xFFFFFFFF"
+        }
+      ]
+    },
+    {
+      "time": 680,
+      "camera": {
+        "rotY": 225.0
+      }
+    }
+  ]
+}

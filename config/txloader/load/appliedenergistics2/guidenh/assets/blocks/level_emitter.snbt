@@ -1,0 +1,11 @@
+{
+    DataVersion: 3337,
+    size: [1, 1, 1],
+    data: [
+        {pos: [0, 0, 0], state: "ae2:cable_bus{light_level:0,waterlogged:false}", nbt: {cable: {gn: {g: 27333L, k: -1L, p: 0}, id: "ae2:fluix_glass_cable", visual: {channelsDown: 0, connections: ["down"], missingChannel: 0b, powered: 1b}}, hasRedstone: 2, id: "ae2:cable_bus", up: {craft_via_redstone: "NO", fuzzy_mode: "IGNORE_ALL", gn: {g: 27333L, k: -1L, p: 0}, id: "ae2:level_emitter", lastReportedValue: 0L, prevState: 1b, redstone_emitter: "HIGH_SIGNAL", reportingValue: 0L, visual: {missingChannel: 0b, on: 1b, powered: 1b}}, visual: {}}}
+    ],
+    entities: [],
+    palette: [
+        "ae2:cable_bus{light_level:0,waterlogged:false}"
+    ]
+}
