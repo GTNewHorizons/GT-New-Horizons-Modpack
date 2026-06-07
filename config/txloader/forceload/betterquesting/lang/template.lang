@@ -129,6 +129,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft works in chunks - the
 betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.name=§9§lPermanent Offhand!
 betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=The modern offhand slot has been backported.%n%nThis feature also works with any item that opens a GUI, like a backpack for example. This makes inventory management easier and helps with certain tedious tasks.%n%nDefault Keybind to swap between mainhand and offhand: §9F§r%n%n[note]You can also toggle various Torch Tweaks in Backhand's mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]
 
+# Quest: In-game Guide
+betterquesting.quest.pcDIaSYHTkuVTBkdRwWWJw.name=In-game Guide
+betterquesting.quest.pcDIaSYHTkuVTBkdRwWWJw.desc=Check out the in-game guide! It'll tell you what's new in each version and has in-depth tutorials, visualizations, and more details than you'll find anywhere else in the pack!%n%nTo use it, you must first activate it in your resource packs!%n%nTo open it, use this Guide item and/or bind the §aOpen Guide Home§r hotkey.%n%n[img height=200]midnight:textures/gui/guide-nh-pictures/guide-nh-image.png[/img]
+
 
 ## Quest Line: Tips and Tricks
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.name=Tips and Tricks
