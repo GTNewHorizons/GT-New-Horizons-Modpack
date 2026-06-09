@@ -97,7 +97,7 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -118,7 +118,7 @@
           "id:8": "gregtech:gt.augmentinertiacanceling"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

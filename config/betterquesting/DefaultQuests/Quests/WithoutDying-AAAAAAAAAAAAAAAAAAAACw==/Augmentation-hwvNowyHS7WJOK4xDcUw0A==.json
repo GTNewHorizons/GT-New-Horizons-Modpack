@@ -97,7 +97,7 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -115,43 +115,43 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentfallprotection"
+          "id:8": "gregtech:gt.augmentwaterbreathing"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentswimspeed"
+          "id:8": "gregtech:gt.augmentfallprotection"
         },
         "4:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentjetpack"
+          "id:8": "gregtech:gt.augmentswimspeed"
         },
         "5:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentnightvision"
+          "id:8": "gregtech:gt.augmentjetpack"
         },
         "6:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentgogglesofrevealing"
+          "id:8": "gregtech:gt.augmentnightvision"
         },
         "7:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentholoinventory"
+          "id:8": "gregtech:gt.augmentgogglesofrevealing"
         },
         "8:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentwaterbreathing"
+          "id:8": "gregtech:gt.augmentholoinventory"
         },
         "9:10": {
           "Count:3": 1,
@@ -160,7 +160,7 @@
           "id:8": "gregtech:gt.augmentapiarist"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
