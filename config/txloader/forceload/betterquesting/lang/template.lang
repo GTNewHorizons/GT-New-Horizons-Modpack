@@ -357,7 +357,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADsw.desc=An early game protection moat c
 
 # Quest: Redstone? Haste!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaQ.name=§a§lRedstone? Haste!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaQ.desc=Mining and digging can be soooo slow. Get some redstone on your pick, shovel or axe to make it faster. You can use the Crafting Station to upgrade your tool 8 dust at a time. Later when you get a compressor you can use blocks to do 9 per block.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaQ.desc=Mining and digging can be soooo slow. Get some redstone on your pick, shovel, or axe to make it faster. You can use a Tool Station or a Crafting Station to upgrade your tools.
 
 # Quest: Divine Rod of the Gods?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4A.name=§a§lDivine Rod of the Gods?
@@ -1812,7 +1812,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG0A.desc=More advanced recipes need an M
 
 # Quest: Fish Oil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCA.name=§6§lFish Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCA.desc=Got Fish?%n%n[note]There are rumors of a weird crop in the shape of a fish...%n%nOtherwise look under Fishing Farming Cooking tab for fish catching options.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCA.desc=Got Fish?%n%n[note]There are rumors of a weird crop in the shape of a fish...%n%nOtherwise, look under the Feeding Yourself tab for fish catching options.[/note]
 
 # Quest: Press All the Things in MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCw.name=§6§lPress All the Things in MV
@@ -2771,7 +2771,7 @@ betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.desc=Oh look, the latest and greates
 
 # Quest: Tier 5 (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.name=§9§lTier 5 (IV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.desc=IV-Level. You will need Tungstensteel for machines. Suggested planets and moons to visit: Mars, Phobos, Deimos.%n%nMake sure to get a set of TPV coils for your EBF.%n%nYou should've learned "how to GregTech" by now. If not, go clean up the machine craters in your base...%n%nMany multiblock machines unlock at this tier. Make sure you have an Alloy Blast Smelter ready to go and check the Multiblock Madness tab.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.desc=IV-Level. You will need Tungstensteel for machines. Suggested planets and moons to visit: Mars, Phobos, Deimos.%n%nMake sure to get a set of TPV coils for your EBF.%n%nYou should've learned "how to GregTech" by now. If not, go clean up the machine craters in your base...%n%nMany multiblock machines unlock at this tier. Make sure you have an Alloy Blast Smelter ready to go and check the Mass Processing tab.
 
 # Quest: On Your Way to Asteroids and Other Rocket Tier 3 DIMs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1w.name=§9§lOn Your Way to Asteroids and Other Rocket Tier 3 DIMs
@@ -4618,7 +4618,7 @@ betterquesting.quest.Qjg1J4kuS-6937dCEUqHUw.desc=As additional rings are placed 
 
 # Quest: Magnetic Monopole Matter
 betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.name=§c§l§nMagnetic Monopole Matter
-betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavors; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realize that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.%n%n[note]Required for UXV components, Magmatter is the second material the Heliofusion Exoticizer can create, and will require a second module. Read the Godforge Information in the UI for more information on how to automate this.[/note]%n%n[note]The creation of Magmatter requires the END upgrade.[/note]%n%n[note]Congrats! You can now move on to the UXV tier![/note]
+betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavors; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realize that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.%n%n[note]Required for UXV components, Magmatter is the second material the Heliofusion Exoticizer can create, and will require a second module. Read the Godforge Information in the UI for more information on how to automate this.[/note]%n%n[note]The creation of Magmatter requires the EE upgrade.[/note]%n%n[note]Congrats! You can now move on to the UXV tier![/note]
 
 # Quest: Convergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=§c§l§nConvergence
@@ -4787,7 +4787,7 @@ betterquesting.quest.Uj0PvsNCQw-aWaEOvlFpow.desc=At last... salvation from the e
 
 # Quest: Rule of Threes
 betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.name=§4§l§nRule of Threes
-betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.desc=The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.%n%n[note]Adding a third and final ring to your Godforge allows for 4 additional modules, as well as allowing you to pick all three paths in the split paths part of the upgrade tree, allowing for a fully upgraded Godforge.[/note]%n%n[note]Usage of a third ring requires the EE upgrade.[/note]
+betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.desc=The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.%n%n[note]Adding a third and final ring to your Godforge allows for 4 additional modules, as well as allowing you to pick all three paths in the split paths part of the upgrade tree, allowing for a fully upgraded Godforge.[/note]%n%n[note]Usage of a third ring requires the END upgrade.[/note]
 
 # Quest: Simulating a Solar System
 betterquesting.quest.hNdNrT_aSKaYi_TnT7cowA.name=§4§l§nSimulating a Solar System
@@ -7565,6 +7565,10 @@ betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=This is the advanced assembly l
 betterquesting.quest._dFgSThoQTWgM696ykr2Gw.name=§d§lAdvanced Autoclaving
 betterquesting.quest._dFgSThoQTWgM696ykr2Gw.desc=In LuV, you can make the Industrial Autoclave. This is a huge multiblock with many scaling factors - it is also extremely powerful. You'll definitely want to pick one of these up to process crystal chips quickly for the crystal circuit line.%n%n[note]Coils, pipe casings, and item pipe casings are all extremely important to this multi's scaling. Use the best ones you have![/note]
 
+# Quest: Megalomania
+betterquesting.quest.a6S75xGeQ4uu1qR1deuOfQ.name=§b§lMegalomania
+betterquesting.quest.a6S75xGeQ4uu1qR1deuOfQ.desc=In ZPM, you now have the ability to construct very powerful mega machines. These absolute titans will boost your production to levels never-before-seen, at a price.%n%n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization.[/note]
+
 # Quest: ...With The Power of Science!
 betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.name=§b§l...With The Power of Science!
 betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.desc=This multiblock will allow you to use all that UU-Matter that your Matter Fabricator makes, not that you don't have anything else to do with it...%n%n[note]This multi is traditionally UV, but can technically be made in ZPM.[/note]
@@ -7575,7 +7579,7 @@ betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.desc=When you need to polarize magne
 
 # Quest: Cracking the World
 betterquesting.quest.d5Fxz8ClQQCXy9GN_m9BrA.name=§6§lCracking the World
-betterquesting.quest.d5Fxz8ClQQCXy9GN_m9BrA.desc=How much oil do you need? Or maybe it's Naquadah Fuel you're after, or Radox... either way, this massive structure can handle it, boasting 256 parallels.
+betterquesting.quest.d5Fxz8ClQQCXy9GN_m9BrA.desc=How much oil do you need? Maybe you're after Naquadah Fuel or Radox. Either way, this massive structure can handle it, boasting §6§l256§r parallels.
 
 # Quest: An End To Deforestation
 betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.name=§9§lAn End To Deforestation
@@ -7616,10 +7620,6 @@ betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.desc=Sick of having to swap out lens
 # Quest: Extreme Voltage Multiblocks
 betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.name=§8§lExtreme Voltage Multiblocks
 betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=You might already have a Steam Multiblock or the Large Sifter. But in EV, IV, and the following tiers you unlock multiblocks for (almost) every GT machine. And some more on top of that!%n%nMost of them are made to do the same GT processing as the singleblock machines you've been using, but much faster. The multis can have up to three bonuses: energy savings, faster recipe time and parallels, which mean that a single recipe cycle can craft multiple items at once, if the power provided is enough to sustain it.%n%nThe variety of structures and intricacies of these new multis can go far beyond simpler multis like the EBF, LCR or VF. While some are simple cuboids, others come with more diverse mechanics and conditions to work properly. In return, they can be extremely powerful, so keep an eye out for them!
-
-# Quest: Megalomania
-betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=§b§lMegalomania
-betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=In ZPM, you now have the ability to construct very powerful mega machines. These absolute titans will boost your production to levels never-before-seen, at a price.%n%n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization.[/note]
 
 # Quest: Pressure Washing!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=§c§lPressure Washing!
