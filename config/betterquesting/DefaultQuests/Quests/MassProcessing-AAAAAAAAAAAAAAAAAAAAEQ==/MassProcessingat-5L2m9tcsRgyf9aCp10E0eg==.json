@@ -5,6 +5,10 @@
       "questIDLow:4": -8420616239779406480
     },
     "1:10": {
+      "questIDHigh:4": 7756531059346260875,
+      "questIDLow:4": -5848306241697509763
+    },
+    "2:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2613
     }
@@ -33,6 +37,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§l§nMass Processing at UV and Beyond!",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

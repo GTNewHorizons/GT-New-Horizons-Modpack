@@ -7,6 +7,10 @@
     "1:10": {
       "questIDHigh:4": -4584086443345950462,
       "questIDLow:4": -8420616239779406480
+    },
+    "2:10": {
+      "questIDHigh:4": 7756531059346260875,
+      "questIDLow:4": -5848306241697509763
     }
   },
   "properties:10": {
@@ -34,6 +38,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lPutting All Those Workers Out of Jobs",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
@@ -56,7 +74,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 8,
+          "Damage:2": 42,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -71,6 +89,7 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -88,6 +107,7 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 19,

@@ -1,0 +1,106 @@
+{
+  "totalTime": 480,
+  "keyframes": [
+    {
+      "time": 0,
+      "label": "Automation Setup",
+      "camera": {
+        "zoom": 3.0,
+        "rotX": 20.0,
+        "rotY": 280.0,
+        "rotZ": 0.0,
+        "offX": -25.0,
+        "offY": -50.0
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Coke Ovens can be fully automated with a simple set-up and some of the new Coke Oven Hatches!",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCCCFF"
+        }
+      ]
+    },
+    {
+      "time": 120,
+      "label": "Inputs",
+      "camera": {
+        "rotY": 270
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Inputs can be sent to one of the hatches using hoppers or conveyor belts",
+          "independent": true,
+          "yOffset": 80,
+          "maxWidth": 180,
+          "color": "#0xFF00FF00"
+        },
+        {
+          "type": "box",
+          "minX": 2.05, "minY": 2.05, "minZ": 6.05,
+          "maxX": 2.95, "maxY": 2.95, "maxZ": 8.95,
+          "color": "#0xFF00FF00",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 240,
+      "label": "Automating Item Outputs",
+      "camera": {
+        "rotY": 245
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Items can be extracted to storage. Coke Oven Hatches automatically push items into pipes!",
+          "independent": true,
+          "yOffset": 80,
+          "maxWidth": 180,
+          "color": "#0xFFFFCCCC"
+        },
+        {
+          "type": "box",
+          "minX": 2.05, "minY": 2.05, "minZ": 5.05,
+          "maxX": 2.95, "maxY": 4.95, "maxZ": 5.95,
+          "color": "0xFFFFCCCC",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    },
+    {
+      "time": 360,
+      "label": "Automating Fluid Outputs",
+      "camera": {
+        "rotY": 270
+      },
+      "layer": null,
+      "annotations": [
+        {
+          "type": "text",
+          "text": "Creosote can be extracted via another hatch with a pipe connected",
+          "independent": true,
+          "yOffset": -80,
+          "maxWidth": 180,
+          "color": "0xFFCCFFCC"
+        },
+        {
+          "type": "box",
+          "minX": 0.05, "minY": 0.05, "minZ": 0.05,
+          "maxX": 2.95, "maxY": 4.95, "maxZ": 4.95,
+          "color": "xFFCCFFCC",
+          "lineWidth": 1.5,
+          "alwaysOnTop": false
+        }
+      ]
+    }
+  ]
+}
