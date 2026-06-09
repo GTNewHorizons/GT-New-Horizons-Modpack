@@ -33,6 +33,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lMegalomania",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -44,8 +58,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -4584086443345950462,
-  "questIDLow:4": -8420616239779406480,
+  "questIDHigh:4": 7756531059346260875,
+  "questIDLow:4": -5848306241697509763,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
