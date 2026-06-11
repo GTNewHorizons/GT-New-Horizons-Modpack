@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Radon is needed for EV emitters and sensors.\n\nIf you can get some Plutonium 239 and Uranium 238, you can use the chemical reactor recipe and keep cycling the Plutonium around to get more.\n\nUsing the LCR recipe is recommended, as it is more efficient and faster due to the LCR being able to perform perfect overclocks.",
+      "desc:8": "Radon is needed for EV emitters and sensors.\n\nIf you can get some Plutonium 239 and Uranium 238, you can use the chemical reactor recipe and keep cycling the Plutonium around to get more.\n\nUsing the LCR recipe is recommended, as it is more efficient and faster due to the LCR being able to perform 4/4 OC.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
