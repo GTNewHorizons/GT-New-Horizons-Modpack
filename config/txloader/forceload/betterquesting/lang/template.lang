@@ -2403,6 +2403,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALoQ.desc=Then heat up the slurry you mad
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.name=§5§lGetting the most out of your Bauxite.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.desc=If processed correctly you can get a lot more Gallium out of your Bauxite compared to just using the Thermal Centrifuge. You will also get large amounts of Rutile and Alumina.%n%nFirst, make some Bauxite Slurry.
 
+# Quest: Fluoro-who now?
+betterquesting.quest.EnwtQDaiQEWhwc7G6oJHWQ.name=§5§lFluoro-who now?§r§5§r
+betterquesting.quest.EnwtQDaiQEWhwc7G6oJHWQ.desc=§2Fluorophlogopite§2§r is the industrial answer to Mica-based foils, and something you'll want to start investing in as higher tier coils cost increasingly more foil to make.%n%nThe recipe for making Raw Fluorophlogopite Dust is done in the MV mixer. While all of the new dusts involved may look a little daunting, they're not that bad. You will need the following:%n%n- Some variant of quartz dust: Any one of Quartz Sand, Quartzite, Nether Quartz, or Certus Quartz%n- Alumina%n- Potassiumfluorosilicate, which is made in two steps by combining Rock Salt, Hydrofluoric Acid, and Raw Silicon%n- Potassium Carbonate, made by combining Potassium Dust and Oxygen (or Potash to cover both) with Carbon Dioxide in a Chemical Reactor%n%nThe exact ratios of each ingredient depend on the form of quartz that you're using, as does the exact amount of raw dust that you get from the recipe.%n%n[note]Technically, this process is entirely optional, but highly recommended. The raw dust is also used in ZPM, but Mica can be substituted for that use case if you would like.[/note]
+
+# Quest: Melting and Refreezing
+betterquesting.quest.RSeerR8bQ6advk1NkOU8NQ.name=§5§lMelting and Refreezing§r§r
+betterquesting.quest.RSeerR8bQ6advk1NkOU8NQ.desc=The second half of this process is a bit unusual: first, we have to melt the raw dust in an EBF with some molten Magnesia to get molten Unformed Fluorophlogopite. Then, we find that a fluid solidifier isn't good enough, so we need to use our Vacuum Freezer to solidify the molten material in a plate mold.%n%nYou can simply use your new HV Bender to bend the plates into a foil, and there we have it! No more scouring the planet for rare Mica veins every time you want to make more coils!
+
 # Quest: Ender Fluid Conduits
 betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.name=Ender Fluid Conduits
 betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.desc=Ender Fluid Conduits are an advanced fluid transport system available at HV tier. They have many useful abilities, such as filtering specific fluids and routing them by color channel.%n%nTheir main advantage is the ability to create a large unified fluid network, which makes complex setups much easier to manage. As you use them, you’ll quickly see how convenient they are at this stage of the game.%n%n[note]However, be careful: large conduit networks with too many nodes can cause TPS lag. Use them wisely, avoid overbuilding, and consider switching to AE2-based fluid handling for large-scale systems.[/note]
@@ -3861,7 +3869,7 @@ betterquesting.quest.ydavD3O5QcKvxk2wIDtakw.desc=After you've gotten ahold of so
 
 # Quest: Prismatic Naquadah
 betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.name=§b§lPrismatic Naquadah
-betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.desc=Woah, a new metal?%n%nBy combining the forces of your newly created §2Enriched Naquqdah§r and §2Prismatic Acid§r in the §5§lAlloy Blast Smelter§r, you find that a new metal forms; §3Prismatic Naquadah§r. %n%n[warn]This extremely strong, yet shockingly pliant material will be used in quite a few different structures and materials going forth.[/warn]
+betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.desc=Woah, a new metal?%n%nBy combining the forces of your newly created §2Enriched Naquadah§r and §2Prismatic Acid§r in the §5§lAlloy Blast Smelter§r, you find that a new metal forms; §3Prismatic Naquadah§r. %n%n[warn]This extremely strong, yet shockingly pliant material will be used in quite a few different structures and materials going forth.[/warn]
 
 
 ## Quest Line: Tier 8 - UV
