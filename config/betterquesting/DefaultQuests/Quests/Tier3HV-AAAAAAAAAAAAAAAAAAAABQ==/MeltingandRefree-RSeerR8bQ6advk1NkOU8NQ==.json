@@ -2,12 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 88,
-      "type:1": 1
+      "questIDLow:4": 81
     },
     "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 479
+      "questIDHigh:4": 1331989343612584005,
+      "questIDLow:4": -6790919409364744359
     }
   },
   "properties:10": {
@@ -22,19 +21,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it\u0027s in the nether...at the bottom of the lava ocean!\n\nHere are some tips for finding it:\n\n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won\u0027t have any. Can you think of ways to check the lava depth, and what\u0027s down there?\n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you\u0027ll be able to see underneath it - surely there must be a hovering jetpack?\n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.\n\nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!\n\n[warn]Please click the checkbox below to confirm that you are ready to handle being given the reward for this quest, and to deal with any fires that it may cause.[/warn]",
-      "globalShare:1": 1,
+      "desc:8": "The second half of this process is a bit unusual: first, we have to melt the raw dust in an EBF with some molten Magnesia to get molten Unformed Fluorophlogopite. Then, we find that a fluid solidifier isn\u0027t good enough, so we need to use our Vacuum Freezer to solidify the molten material in a plate mold.\n\nYou can simply use your new HV Bender to bend the plates into a foil, and there we have it! No more scouring the planet for rare Mica veins every time you want to make more coils!",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2347,
+        "Damage:2": 104,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "bartworks:gt.bwMetaGeneratedplate"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lFirestone Ore/Dust",
+      "name:8": "§5§lMelting and Refreezing§r§r",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -50,7 +48,6 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
-      "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -61,8 +58,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1279,
+  "questIDHigh:4": 4983125979097154470,
+  "questIDLow:4": -7080136568641078219,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -70,29 +67,16 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 5,
+          "Count:3": 16,
+          "Damage:2": 104,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "bartworks:gt.bwMetaGeneratedplate"
         },
         "1:10": {
-          "Count:3": 16,
-          "Damage:2": 2347,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 25,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -102,23 +86,43 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 2347,
+          "Count:3": 54,
+          "Damage:2": 102,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGenerateddust"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 2621,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "index:3": 1,
-      "taskID:8": "bq_standard:checkbox"
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 104,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedplate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
