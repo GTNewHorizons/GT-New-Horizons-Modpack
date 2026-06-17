@@ -7129,24 +7129,24 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.name=§6§lPlaying With the Big Boys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.desc=This facility will process certain chemical recipes you'll need later on, like Rocket Fuels. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a minecart load of resources, so start mining!%n%nCatalysts are needed in some recipes, place them in the Catalyst Housing. They use durability, this includes ones that don't look like it.%n%n[note]You can make Silicon Carbide in the mixer, you don't need the ABS.[/note]%n%nValid solid casings: (Determines CP Tier for recipes)%n1 Strong Bronze Machine Casing%n2 Solid Steel Machine Casing%n3 Sturdy Aluminium Machine Casing%n4 Clean Stainless Steel Machine Casing%n5 Stable Titanium Machine Casing%n6 Robust Tungstensteel Casing%n7 Vigorous Laurenium Machine Casing%n8 Rugged Botmium Machine Casing%n%nValid machine casings: (Determines maximum hatch/bus tier)%nLV-UHV Machine Casing, UHV unlocks any hatch/bus.%n%nValid pipe casings: (+2 Parallels, -20%% chance to consume catalyst durability per pipe casing starting with 2 parallels and 100%% chance for the first one.)%nBronze%nSteel%nTitanium%nTungstensteel%n%nAll coils from Cupronickel to Eternal are valid. Each one increases speed by +50%%, starting at 50%% speed for Cupronickel.%n%n[note]Additionally: If you have at least Awakened Draconium Coils and Tungstensteel pipe casings, then no catalyst is consumed at all![/note]
 
 # Quest: Better Glass Upgrade, EV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_A.name=§6§lBetter Glass Upgrade, EV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_A.desc=The next tier of Borosilicate glass is Titanium (4). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_A.name=§8§lBetter Glass Upgrade, EV Glass
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_A.desc=The next tier of Borosilicate glass is Titanium. Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest: IV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_Q.name=§6§lIV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_Q.desc=The next tier of Borosilicate glass is Tungstensteel (5). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.%n%n[note]PS: If you just want to use it to make machines, check out the Thorium Yttrium glass blocks.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_Q.name=§9§lIV Glass
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_Q.desc=The next tier of Borosilicate glass is Tungstensteel. Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.%n%n[note]PS: If you just want to use it to make machines, check out the Thorium Yttrium glass blocks.[/note]
 
 # Quest: LuV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_g.name=§6§lLuV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_g.desc=The next tier of Borosilicate glass is Rhodium-Plated Palladium (6). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_g.name=§d§lLuV Glass
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_g.desc=The next tier of Borosilicate glass is Rhodium-Plated Palladium. Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest: ZPM Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_w.name=§6§lZPM Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_w.desc=The next tier of Borosilicate glass is Iridium (7). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_w.name=§b§lZPM Glass
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_w.desc=The next tier of Borosilicate glass is Iridium. Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest: UV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAA.name=§6§lUV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAA.desc=The next tier of Borosilicate glass is Osmium (8). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAA.name=§2§l§nUV Glass
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAA.desc=The next tier of Borosilicate glass is Osmium. Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest: Bacterial Vat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAQ.name=§6§lBacterial Vat
@@ -7276,6 +7276,10 @@ betterquesting.quest.NVgXYF-TQvqYnLn1NLM6pw.desc=[quest]The Solar Factory![/ques
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.name=§6§lSynchrotron (No Relation to the Catalyst)
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=To actually produce some light for photolithography, you'll need to accelerate your electrons in a Synchrotron. Like with the LINAC, providing it with coolant is necessary to keep it running.%n%nYou can increase the energy of the produced photons by increasing EU/t, or increasing the tier of all four Antenna Casings inside.%n%nTo improve focus, you can use a better coolant, and the output amount increases with both EU/t and antennae tier.%n%nYes, you need all four energy hatches.
 
+# Quest: UXV Glass
+betterquesting.quest.QpsC-ERsQHGoqzzSdWAx_A.name=§4§l§nUXV Glass
+betterquesting.quest.QpsC-ERsQHGoqzzSdWAx_A.desc=The final, and by far most expensive tier of Borosilicate glass is Universium.%n%nEnjoy the bonus for gathering 32 ;)
+
 # Quest: Stern-Gerlach, Perhaps?
 betterquesting.quest.RLJR8nFySzSaZLeCRsabDg.name=§6§lStern-Gerlach, Perhaps?
 betterquesting.quest.RLJR8nFySzSaZLeCRsabDg.desc=The Beam Splitter allows you to sort your particle beams. The LHC produces output particles randomly, and this machine allows you to sort them into different lanes using the Filtered Beamline Output Hatch. It also divides the Amount of any particle packet by the number of valid output spots.%n%n[note]For example, if you set one output to protons and two outputs to electrons, then a mixed input beam (with all particles having an Amount of 100) will be sorted into 3 beams - one of protons (Amount 100) and two of electrons (each Amount 50).[/note]
@@ -7317,8 +7321,8 @@ betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.name=§6§lDigging Deep for Water
 betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.desc=Is the Water Tank not cutting it anymore? Have you set up in a dry biome and are in desperate need of more water? Fear not, for the Steam Water Pump can solve your issues! This Multiblock is able to produce large amounts of Water if fed with Steam (1500L/s).%n%nLike other Steam Multiblocks, it can be upgraded by using Steel Frame Boxes instead of Bronze ones, which doubles the Water output at no additional Steam cost.%n%n§4It is, however, still dependent on how humid the Biome you are in is, so keep that in mind.§r%n%n§9Hint: You can find small lead ore in the Nether or full ingots on the lowest floor of roguelike dungeons if you're lucky!§r%n%n[note]P.S. The optional quest item count includes the cost for the controller. [/note]
 
 # Quest: UMV Glass
-betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.name=§6§lUMV Glass
-betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.desc=The next tier of Borosilicate glass is Transcendent (12).
+betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.name=§c§l§nUMV Glass
+betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.desc=The next tier of Borosilicate glass is Hexanite.
 
 # Quest: Filtered Beamline Output Hatch
 betterquesting.quest.mqv5zPKRTdmfDUQH_-b1-A.name=§6§lFiltered Beamline Output Hatch
@@ -7329,8 +7333,8 @@ betterquesting.quest.n7yjRSr0R7O2agebw73FGA.name=§6§lComponent Assembly Line
 betterquesting.quest.n7yjRSr0R7O2agebw73FGA.desc=Check the NEI pages to see all the nice recipes this machine can handle for you. Great to craft GT components in bulk.
 
 # Quest: UEV Glass
-betterquesting.quest.pbLvv9tvQaKGp2Y2usPMSw.name=§6§lUEV Glass
-betterquesting.quest.pbLvv9tvQaKGp2Y2usPMSw.desc=The next tier of Borosilicate glass is Cosmic Neutronium (10).
+betterquesting.quest.pbLvv9tvQaKGp2Y2usPMSw.name=§5§l§nUEV Glass
+betterquesting.quest.pbLvv9tvQaKGp2Y2usPMSw.desc=The next tier of Borosilicate glass is Infinity.
 
 # Quest: A Not So Useful Scanner...
 betterquesting.quest.pd68ySXjTD6yW1MN6x6swg.name=§6§lA Not So Useful Scanner...
@@ -7341,12 +7345,12 @@ betterquesting.quest.prKPwVNgSgOE1NGPiEEF-g.name=§6§lDrones are not Drones!
 betterquesting.quest.prKPwVNgSgOE1NGPiEEF-g.desc=...but they can be as industrious as bees. These new electric friends are great companions for Multiblock machines: maintenance, control, management—they can do it all.%n%nThe §5§lDrone Centre§r is a newly designed machine. It doesn't need power; just put a drone into it and it will start running.%nOnce running, the drone will automatically scan for a '§lDrone Downlink Module§r' (replacing maintenance hatches on Multiblock machines) within a certain range and attempt to establish a connection with the host. If successful, you can remotely control this Multiblock machine from the Drone Centre GUI! Additionally, you can rename the machine for easier identification.%n%n[note]You can rename it either by right-clicking the Drone Downlink Module or in the Drone Centre GUI.[/note]%n%nPlacing more advanced drones will increase the range of the Drone Centre, with no limit on the number of drones.%n%n[warn]Note that drones may crash during operation—the probability decreases from Tier 1 to Tier 3, and Tier 3 Anti-Gravity Drones never crash.%nAdditionally, if the machine host is too far from the Drone Centre, the GUI remote control function will be disabled, but the turn-all-on/off button and maintenance functions will still work.[/warn]%n§6§l%nMaybe one day, our drones can control machines on other planets...drive engine online!§r%n%n[note]The Hempcrete can be any color![/note]
 
 # Quest: UIV Glass
-betterquesting.quest.qnXgpGxbRc-nHbshgUs1jA.name=§6§lUIV Glass
-betterquesting.quest.qnXgpGxbRc-nHbshgUs1jA.desc=The next tier of Borosilicate glass is Infinity (11).
+betterquesting.quest.qnXgpGxbRc-nHbshgUs1jA.name=§9§l§nUIV Glass
+betterquesting.quest.qnXgpGxbRc-nHbshgUs1jA.desc=The next tier of Borosilicate glass is Transcendent.
 
 # Quest: UHV Glass
-betterquesting.quest.r9VceRoLQr-bpZq_EVu1Ig.name=§6§lUHV Glass
-betterquesting.quest.r9VceRoLQr-bpZq_EVu1Ig.desc=The next tier of Borosilicate glass is Neutronium (9).
+betterquesting.quest.r9VceRoLQr-bpZq_EVu1Ig.name=§4§l§nUHV Glass
+betterquesting.quest.r9VceRoLQr-bpZq_EVu1Ig.desc=The next tier of Borosilicate glass is Neutronium.
 
 # Quest: Draconic Development
 betterquesting.quest.rZCrzZ3QTni28BdPZf2-0w.name=§6§lDraconic Development
