@@ -30,7 +30,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The next tier of Borosilicate glass is Titanium (4). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.",
+      "desc:8": "The next tier of Borosilicate glass is Titanium. Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -42,7 +42,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lBetter Glass Upgrade, EV Glass",
+      "name:8": "§8§lBetter Glass Upgrade, EV Glass",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
