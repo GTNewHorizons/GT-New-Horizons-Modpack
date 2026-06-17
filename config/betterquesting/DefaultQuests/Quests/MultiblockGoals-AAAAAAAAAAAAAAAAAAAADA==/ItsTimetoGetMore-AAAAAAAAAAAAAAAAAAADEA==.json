@@ -121,19 +121,19 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 33,
+          "Count:3": 27,
           "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings"
         },
         "1:10": {
-          "Count:3": 11,
+          "Count:3": 15,
           "Damage:2": 13,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings3"
         },
         "2:10": {
-          "Count:3": 2,
+          "Count:3": 4,
           "Damage:2": 12,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings2"
