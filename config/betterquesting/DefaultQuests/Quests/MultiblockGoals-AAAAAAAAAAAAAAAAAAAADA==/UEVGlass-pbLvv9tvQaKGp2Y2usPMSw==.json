@@ -17,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The next tier of Borosilicate glass is Cosmic Neutronium (10).",
+      "desc:8": "The next tier of Borosilicate glass is Infinity.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 14,
+        "Damage:2": 7,
         "OreDict:8": "",
-        "id:8": "bartworks:BW_GlasBlocks"
+        "id:8": "bartworks:BW_TieredGlass"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lUEV Glass",
+      "name:8": "§5§l§nUEV Glass",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -69,9 +69,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 14,
+          "Damage:2": 7,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "bartworks:BW_TieredGlass"
         }
       },
       "taskID:8": "bq_standard:retrieval"
