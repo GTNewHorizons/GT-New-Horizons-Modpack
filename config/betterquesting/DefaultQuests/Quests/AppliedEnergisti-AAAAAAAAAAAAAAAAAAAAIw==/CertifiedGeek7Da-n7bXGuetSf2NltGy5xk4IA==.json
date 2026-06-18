@@ -1,12 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 3587583899075169145,
-      "questIDLow:4": -4864680771139843687
-    },
-    "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1302
+      "questIDLow:4": 1292
     }
   },
   "properties:10": {
@@ -21,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Now that you\u0027ve unlocked ME interfaces you can use this new technology to uplink with your Vending Machine!\n\nThe §5Vending Uplink Hatch§r can replace any of the pipe casing blocks and be connected directly to your AE network for automatically pulling required items.\n\nIt will also allow the Vending Machine access to coins in your AE network. When purchasing, it will prioritize using the coins in the wallet first, but then it will pull from AE. The number of coins in the UI is representative of both the coins in your wallet and the coins in your ME system when this hatch is installed.\n\n[note]Will work for both consumable and non-consumable items.[/note]",
+      "desc:8": "Needing to go to the terminal all the time to access your items can be a real pain. You ought to setup a Wireless Access Point (WAP) on your system to allieviate that inconvenience.\n\nThe WAP allows for both Wireless Terminals and the Matter Manipulator to see the contents of your system. You must have at least one WAP on your system for wireless to function. \n\nRange and power usage is determined based on the number of Wireless Boosters installed in the WAP. A network can have any number of WAPs with any number of Wireless Boosters in each one, allowing you to optimize power usage and range by altering your setup.\n\n[note]After setting this up, look to the next quest for getting a Wireless Terminal.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2742,
+        "Damage:2": 42,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "appliedenergistics2:item.ItemMultiMaterial"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Vending Uplink Hatch",
+      "name:8": "Certified Geek, 7 Days a Week",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -58,16 +54,16 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -253403345468175306,
-  "questIDLow:4": -5528882106423578030,
+  "questIDHigh:4": -6938121665361655299,
+  "questIDLow:4": -8244171501543540704,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
+          "Count:3": 8,
+          "Damage:2": 11028,
           "OreDict:8": "",
-          "id:8": "appliedenergistics2:tile.BlockInterface"
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
           "Count:3": 1,
@@ -86,7 +82,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinTechnicianII"
@@ -106,9 +102,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2742,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "appliedenergistics2:tile.BlockWireless"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 42,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         }
       },
       "taskID:8": "bq_standard:retrieval"

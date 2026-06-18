@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "A block designed to do one thing, store storage cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space. ME drives show their contents and the storage cell status on the front of the drive face.\n\nRed - Indicates the storage cell is full.\nOrange - Indicates the storage cell cannot hold any more types, but it can store more items.\nGreen - Indicates the cell can hold more types, or more items.\nBlack - Indicates there is no channel, or power is offline.\n\nIt\u0027s important to note, that without an ME Network this block does nothing. It\u0027s only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each storage cell stored inside it.\n\nAbout Priority: Many devices in AE2 have a priority setting, this determines what gets items first. This is useful in some situations, but not so much in others. Higher number \u003d higher priority.",
+      "desc:8": "The ME Drive is designed to do one thing, store storage cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space. ME drives show their contents and the storage cell status on the front of the drive face.\n\nThe ME Chest which you used to craft the Drive is very similar, except it can only store 1 cell (though, it comes with an in-built terminal!).\n\nRed - Indicates the storage cell is full.\nOrange - Indicates the storage cell cannot hold any more types, but it can store more items.\nGreen - Indicates the cell can hold more types, or more items.\nBlack - Indicates there is no channel, or power is offline.\n\nIt\u0027s important to note, that without an ME Network this block does nothing. It\u0027s only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each storage cell stored inside it.\n\nAbout Priority: Many devices in AE2 have a priority setting, this determines what gets items first. This is useful in some situations, but not so much in others. Higher number \u003d higher priority.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -107,8 +107,26 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:tile.BlockChest"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
