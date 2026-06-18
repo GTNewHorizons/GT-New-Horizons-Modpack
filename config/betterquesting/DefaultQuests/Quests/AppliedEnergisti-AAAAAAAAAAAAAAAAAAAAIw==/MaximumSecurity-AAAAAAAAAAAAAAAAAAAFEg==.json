@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 74
+      "questIDLow:4": 1292
     }
   },
   "properties:10": {
@@ -17,18 +17,19 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "You can hunt endermen the Vanilla way to get a chance at Ender Pearls, you can purchase Endermen spawn eggs, or try your luck in the End.\n\nOr you can get cruel, and stuff one into a smeltery to melt it down into delicious Liquid Ender and cast pearls from it.\n\nYou monster.\n\nSome of the dungeons have Spawner of Enderman, so you can do whatever you want with it.\n\nTo prevent endermen from teleporting, make sure to cover the smeltery so they don\u0027t see the sky.\n\nIf you manage to put a regenerating endermen in there, tag it so it doesn\u0027t despawn, and make sure your smeltery is not in a claimed chunk on a server.\n\n[note]The Smeltery must contain liquid in it already in order to hurt the Enderman and generate liquid ender![/note]",
-      "globalShare:1": 0,
+      "desc:8": "Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.\n\nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides network level security.\n\nThe player who places the ME security terminal has full control over the network and cannot exclude themselves any rights. By adding a blank biometric card you define a default behavior for every player who has no biometric card registered.\n\nIn addition to security on the software layer, you can link up your wireless terminal with the network and access it wirelessly if you have that setup already.\n\nIf you have one on your main network, your subnets may also need one to have access to your main network, but this is not always the case depending on how you set it up.",
+      "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "minecraft:ender_pearl"
+        "id:8": "appliedenergistics2:tile.BlockSecurity"
       },
+      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lObtaining Ender Pearls",
+      "name:8": "Maximum Security",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -56,19 +57,25 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 2404,
+  "questIDLow:4": 1298,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
+          "Count:3": 32,
+          "Damage:2": 140,
           "OreDict:8": "",
-          "id:8": "minecraft:ender_pearl"
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         },
         "1:10": {
+          "Count:3": 16,
+          "Damage:2": 16,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
+        },
+        "2:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 37,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -83,10 +90,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 20,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinSurvivor"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -96,52 +103,16 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10,
-          "OreDict:8": "",
-          "id:8": "TConstruct:woodPattern"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 10,
-          "OreDict:8": "",
-          "id:8": "TConstruct:metalPattern"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:ender_pearl"
+          "id:8": "appliedenergistics2:tile.BlockSecurity"
         }
       },
       "taskID:8": "bq_standard:retrieval"

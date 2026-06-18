@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "A low tech method to cool down the hot coolant is to use vent covers. Just place the cover on any GregTech block which can contain IC2 coolant and place water in front. The easiest might be just a tank or pipe. This will help until you have access to a Large Heat Exchanger or a Vacuum Freezer.\n\nAn advanced or overclocked reactor vent is much faster than a basic heat vent and can work without a water block in front of it, albeit slower. Unfortunately, you can\u0027t make those yet, but you can keep that in mind for later.",
+      "desc:8": "A low-tech method to cool down the hot coolant is to use vent covers. Place the cover directly on the side of the Chem Bath next to a water source block and watch it work its magic. The cover can be used on any GT machine or fluid buffer if you\u0027d prefer another setup.\n\nThis will help until you have access to a Large Heat Exchanger to make the process quicker, or a Vacuum Freezer to skip it altogether.\n\nAn advanced or overclocked reactor vent is much faster than a basic heat vent and can work without a water block in front of it, albeit slower. Unfortunately, you can\u0027t make those yet, but you can keep that in mind for later.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
