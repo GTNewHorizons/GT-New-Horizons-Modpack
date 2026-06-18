@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Needing to go to the terminal all the time to access your items can be a real pain. You ought to setup a Wireless Access Point (WAP) on your system to allieviate that inconvenience.\n\nThe WAP allows for both Wireless Terminals and the Matter Manipulator to see the contents of your system. You must have at least one WAP on your system for wireless to function. \n\nRange and power usage is determined based on the number of Wireless Boosters installed in the WAP. A network can have any number of WAPs with any number of Wireless Boosters in each one, allowing you to optimize power usage and range by altering your setup.\n\n[note]After setting this up, look to the next quest for getting a Wireless Terminal.[/note]",
+      "desc:8": "Needing to go to the terminal all the time to access your items can be a real pain. You ought to set up a Wireless Access Point (WAP) on your system to alleviate that inconvenience.\n\nThe WAP allows for both Wireless Terminals and the Matter Manipulator to see the contents of your system. You must have at least one WAP on your system for wireless to function. \n\nRange and power usage is determined based on the number of Wireless Boosters installed in the WAP. A network can have any number of WAPs with any number of Wireless Boosters in each one, allowing you to optimize power usage and range by altering your setup.\n\n[note]After setting this up, look to the next quest for getting a Wireless Terminal.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
