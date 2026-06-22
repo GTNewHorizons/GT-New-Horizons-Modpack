@@ -9,14 +9,14 @@
     "keys": {
       "A": "gregtech:gt.blockcasings2",
       "B": "gregtech:gt.blockcasings3",
-      "C": "IC2:blockAlloyGlass",
+      "C": "gregtech:gt.blockglass1",
       "D": "gregtech:gt.blockcasings2",
       "~": "gregtech:gt.blockmachines"
     },
     "metadata": {
       "A": 0,
       "B": 10,
-      "C": 0,
+      "C": 10,
       "D": 5,
       "~": 1170
     },

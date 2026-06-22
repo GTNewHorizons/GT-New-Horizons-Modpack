@@ -588,7 +588,7 @@
         <Loot Identifier="b859c01a-7061-4615-8fbe-0b686acdf63e" ItemName="GalacticraftCore:item.basicItem:9" Amount="8" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="5691bc40-4ce9-4127-aa67-5c63bd48c015" ItemName="GalacticraftCore:item.basicItem:10" Amount="8" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="1df808c2-b8e2-4500-8f01-6602f459a203" ItemName="GalacticraftCore:item.basicItem:11" Amount="8" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="4a01fce0-e25c-40d8-9675-25a23bbeb5ac" ItemName="IC2:blockAlloyGlass" Amount="16" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4a01fce0-e25c-40d8-9675-25a23bbeb5ac" ItemName="gregtech:gt.blockglass1:10" Amount="16" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="fb8949c6-bb52-45d6-bec3-3b26b6166a9a" ItemName="gregtech:gt.metaitem.01:32729" Amount="30" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="67fb6c6e-ccd8-4721-ae74-3fe193c32813" ItemName="IC2:itemFuelRod" Amount="64" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9d036b30-f0f7-4f7f-90a9-c7def8d5e7a4" ItemName="ExtraUtilities:decorativeBlock1:1" Amount="4" NBTTag="" Chance="60" LimitedDropCount="0" RandomAmount="false"/>
