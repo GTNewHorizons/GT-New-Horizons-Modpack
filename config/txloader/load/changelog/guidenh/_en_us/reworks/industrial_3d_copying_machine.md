@@ -34,7 +34,7 @@ Unique to the <Color id="GREEN">Industrial 3D Copying Machine</Color> is the chi
 - 18 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
-- 1 <ItemLink id="IC2:blockFenceIron"/><ItemImage id="IC2:blockFenceIron"/>
+- 1 <ItemLink id="gregtech:gt.blockfencemetal:0"/><ItemImage id="gregtech:gt.blockfencemetal:0"/>
 - 1 <ItemLink id="gregtech:gt.blockcasings5"/><ItemImage id="gregtech:gt.blockcasings5"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
