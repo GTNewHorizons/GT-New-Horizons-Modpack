@@ -128,9 +128,9 @@
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 0,
+          "Damage:2": 10,
           "OreDict:8": "",
-          "id:8": "IC2:blockAlloyGlass"
+          "id:8": "gregtech:gt.blockglass1"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
