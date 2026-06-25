@@ -49,9 +49,10 @@ jobs:
             exit 1
           fi
           echo "Selected GTNH-Guide-Pack release: $GUIDE_TAG"
+          # --dir keeps the asset's versioned name (GTNH-Guide-Pack-<version>.zip).
           gh release download "$GUIDE_TAG" --repo "$GUIDE_REPO" \
             --pattern '*.zip' \
-            --output resourcepacks/GTNH-Guide-Pack.zip
+            --dir resourcepacks
 
       - name: Prepare release folder
         run: |
