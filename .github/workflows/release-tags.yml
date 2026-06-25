@@ -23,6 +23,36 @@ jobs:
       - name: Set release version
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
+      - name: Bundle matching GTNH-Guide-Pack release
+        if: contains(github.ref_name, '-nightly-')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GUIDE_REPO: GTNewHorizons/GTNH-Guide-Pack
+        run: |
+          set -euo pipefail
+          if [[ "${RELEASE_VERSION}" == *-pre ]]; then
+            # Experimental modpack release: newest guide release of any tag.
+            GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
+              --json tagName,createdAt,isDraft \
+              --jq '[.[] | select(.isDraft | not)]
+                    | sort_by(.createdAt) | reverse | .[0].tagName // empty')
+          else
+            # Daily modpack release: newest guide release whose tag is not -pre.
+            GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
+              --json tagName,createdAt,isDraft \
+              --jq '[.[] | select(.isDraft | not)
+                          | select(.tagName | endswith("-pre") | not)]
+                    | sort_by(.createdAt) | reverse | .[0].tagName // empty')
+          fi
+          if [[ -z "$GUIDE_TAG" ]]; then
+            echo "No matching GTNH-Guide-Pack release found" >&2
+            exit 1
+          fi
+          echo "Selected GTNH-Guide-Pack release: $GUIDE_TAG"
+          gh release download "$GUIDE_TAG" --repo "$GUIDE_REPO" \
+            --pattern '*.zip' \
+            --output resourcepacks/GTNH-Guide-Pack.zip
+
       - name: Prepare release folder
         run: |
           mkdir -p release
