@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Niobium-Titanium isn\u0027t used for much, but it does make a decent LuV-capable cable. It can also be used to make an HV Field Generator... let\u0027s make enough for one right now!",
+      "desc:8": "Niobium-Titanium isn\u0027t used for much, but it can be used to make a decent \nLuV-capable cable. You\u0027ll also need it later to craft the IV Superconductor, \nthe HV Field Generator, and a variety of other components.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -25,7 +25,7 @@
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.01"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lNiobium-Titanium",
