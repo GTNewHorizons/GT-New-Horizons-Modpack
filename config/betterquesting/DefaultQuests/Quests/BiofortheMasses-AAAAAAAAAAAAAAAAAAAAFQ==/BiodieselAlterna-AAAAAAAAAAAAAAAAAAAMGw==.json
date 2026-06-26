@@ -143,6 +143,24 @@
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
+          "id:8": "cropsnh:goldfish"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
           "id:8": "minecraft:fish"
         }
       },
