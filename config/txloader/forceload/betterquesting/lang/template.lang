@@ -2750,7 +2750,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=Your good old singleblock Molec
 
 # Quest: Niobium-Titanium
 betterquesting.quest.EYcEN-yhRDyXfOGtQjWyLg.name=§8§lNiobium-Titanium
-betterquesting.quest.EYcEN-yhRDyXfOGtQjWyLg.desc=Niobium-Titanium isn't used for much, but it does make a decent LuV-capable cable. It can also be used to make an HV Field Generator... let's make enough for one right now!
+betterquesting.quest.EYcEN-yhRDyXfOGtQjWyLg.desc=Niobium-Titanium isn't used for much, but it can be used to make a decent LuV-capable cable. You'll also need it later to craft the IV Superconductor, the HV Field Generator, and a variety of other components.
 
 # Quest: Four fluids in the one Hatch!
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.name=§8§lFour fluids in the one Hatch!
@@ -2784,10 +2784,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.desc=IV-Level. You will need Tungste
 # Quest: On Your Way to Asteroids and Other Rocket Tier 3 DIMs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1w.name=§9§lOn Your Way to Asteroids and Other Rocket Tier 3 DIMs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1w.desc=There's some good stuff in the asteroids, so you should stop by. Especially for the naquadah.
-
-# Quest: Niobium-Titanium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8g.name=§9§lNiobium-Titanium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8g.desc=Niobium-Titanium becomes more important in LuV Tier. It needs an EV Mixer to mix and an Electric Blast Furnace with TPV heating coils.
 
 # Quest: Callisto Trip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_Q.name=§9§lCallisto Trip
@@ -8659,7 +8655,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGg.desc=Having walked into MV, you are 
 
 # Quest: Biodiesel Alternative
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGw.name=Biodiesel Alternative
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGw.desc=Trees are not the only source of power for the renewable enjoyer, though. You can continue to expand your wood production to sustain yourself, but you can also avoid the Charcoal business altogether! There are some naturally-sourced, energetic oils that can be processed into a greener alternative of what oil pumping can lead you to, in this tier. While crude oil turns into Diesel, this oil turns into Biodiesel!%n%nIn general, Biodiesel has less power per bucket than Diesel, which is its main drawback, to compensate for the renewable sources. You could source both of them from plants, but Oilberries are slow compared to the option you might use, Canola flowers or Goldfish. They are an excellent source of Seed Oil or Fish Oil, and their output scales with their stats!%n%nBetween the two, Goldfish have a faster fluid extraction recipe, so they are often recommended for that reason, although it's not a dealbreaker. It's recommended that you get high-statted crops if you want to follow this route, although it is not a necessity, because there are other options that never go into these crops.%n%nHow many options are there, really? There are many, but they can be divided into 3 categories, and that's what the quest tasks focus on: CropsNH with a Crop Manager, regular crops in a Multifarm or automatic fishing in a fish trap. All of them are sources of a biological oil, either Seed Oil or Fish Oil, which can then be processed into Biodiesel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGw.desc=Trees are not the only source of power for the renewable enjoyer. You can continue expanding your wood production, but you can also skip the Charcoal business entirely. Instead of refining crude oil into Diesel, you can produce Biodiesel from renewable biological oils.%n%nBiodiesel generally provides less energy per bucket than Diesel, which is the tradeoff for using renewable resources.%n%nThere are several ways to produce the required Seed Oil or Fish Oil:%n%nCropsNH: Grow high-stat Canola or Oilberries. Canola is generally preferred due to its higher throughput than most other seeds.%n%nRegular farming: Automate crops such as Peanuts or other seed-producing crops to obtain Seed Oil without using CropsNH.%n%nFishing: Catch Cod or other fish to obtain Fish Oil.%n%nAnother good option is to farm Goldfish with CropsNH, which yields at least twice as much oil per extraction operation.%n%n[note]Crop stats improve the output of CropsNH plants, making them worthwhile if you choose that route, but they are by no means required. Whether you use CropsNH, conventional farming, or automated fishing, all three paths ultimately produce biological oil that can be refined into Biodiesel.[/note]
 
 # Quest: The Two Alcohols
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHA.name=The Two Alcohols
