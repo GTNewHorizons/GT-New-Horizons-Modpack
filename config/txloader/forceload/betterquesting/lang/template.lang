@@ -2750,7 +2750,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=Your good old singleblock Molec
 
 # Quest: Niobium-Titanium
 betterquesting.quest.EYcEN-yhRDyXfOGtQjWyLg.name=§8§lNiobium-Titanium
-betterquesting.quest.EYcEN-yhRDyXfOGtQjWyLg.desc=Niobium-Titanium isn't used for much, but it does make a decent LuV-capable cable. It can also be used to make an HV Field Generator... let's make enough for one right now!
+betterquesting.quest.EYcEN-yhRDyXfOGtQjWyLg.desc=Niobium-Titanium isn't used for much, but it can be used to make a decent LuV-capable cable. You'll also need it later to craft the IV Superconductor, the HV Field Generator, and a variety of other components.
 
 # Quest: Four fluids in the one Hatch!
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.name=§8§lFour fluids in the one Hatch!
@@ -2784,10 +2784,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.desc=IV-Level. You will need Tungste
 # Quest: On Your Way to Asteroids and Other Rocket Tier 3 DIMs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1w.name=§9§lOn Your Way to Asteroids and Other Rocket Tier 3 DIMs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1w.desc=There's some good stuff in the asteroids, so you should stop by. Especially for the naquadah.
-
-# Quest: Niobium-Titanium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8g.name=§9§lNiobium-Titanium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8g.desc=Niobium-Titanium becomes more important in LuV Tier. It needs an EV Mixer to mix and an Electric Blast Furnace with TPV heating coils.
 
 # Quest: Callisto Trip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_Q.name=§9§lCallisto Trip
