@@ -35,12 +35,14 @@ jobs:
             GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
               --json tagName,createdAt,isDraft \
               --jq '[.[] | select(.isDraft | not)]
+                    | select(.tagName != "guide-page-lang-dev-build")
                     | sort_by(.createdAt) | reverse | .[0].tagName // empty')
           else
             # Daily modpack release: newest guide release whose tag is not -pre.
             GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
               --json tagName,createdAt,isDraft \
               --jq '[.[] | select(.isDraft | not)
+                          | select(.tagName != "guide-page-lang-dev-build")
                           | select(.tagName | endswith("-pre") | not)]
                     | sort_by(.createdAt) | reverse | .[0].tagName // empty')
           fi
