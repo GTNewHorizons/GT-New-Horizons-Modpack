@@ -35,12 +35,14 @@ jobs:
             GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
               --json tagName,createdAt,isDraft \
               --jq '[.[] | select(.isDraft | not)]
+                    | select(.tagName != "guide-page-lang-dev-build")
                     | sort_by(.createdAt) | reverse | .[0].tagName // empty')
           else
             # Daily modpack release: newest guide release whose tag is not -pre.
             GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
               --json tagName,createdAt,isDraft \
               --jq '[.[] | select(.isDraft | not)
+                          | select(.tagName != "guide-page-lang-dev-build")
                           | select(.tagName | endswith("-pre") | not)]
                     | sort_by(.createdAt) | reverse | .[0].tagName // empty')
           fi
@@ -49,10 +51,17 @@ jobs:
             exit 1
           fi
           echo "Selected GTNH-Guide-Pack release: $GUIDE_TAG"
-          # --dir keeps the asset's versioned name (GTNH-Guide-Pack-<version>.zip).
+          mkdir -p config/guidenh
+          rm -f config/guidenh/DefaultGuide.zip
           gh release download "$GUIDE_TAG" --repo "$GUIDE_REPO" \
             --pattern '*.zip' \
-            --dir resourcepacks
+            --dir config/guidenh
+          GUIDE_ZIP=$(find config/guidenh -maxdepth 1 -type f -name '*.zip' ! -name 'DefaultGuide.zip' | head -n 1)
+          if [[ -z "$GUIDE_ZIP" ]]; then
+            echo "Downloaded GTNH-Guide-Pack zip asset was not found" >&2
+            exit 1
+          fi
+          mv "$GUIDE_ZIP" config/guidenh/DefaultGuide.zip
 
       - name: Prepare release folder
         run: |
