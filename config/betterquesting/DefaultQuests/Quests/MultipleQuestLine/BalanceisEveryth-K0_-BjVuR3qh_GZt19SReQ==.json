@@ -1,0 +1,126 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2214821378463936942,
+      "questIDLow:4": -6770209432224401378
+    },
+    "1:10": {
+      "questIDHigh:4": -4847611916767573432,
+      "questIDLow:4": -5258609888143859259
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "You already transcended dimensions, but as your power demands spike to absurd levels, maybe it\u0027s time to transcend matter!\n\nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The  Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.\n\nBut it\u0027s a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.\n\nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in its 16 Antimatter Hatches and consumes equal amounts of Proto Matter.\n\nEach cycle, the base production of antimatter per hatch is:\n(1/16)*(§3Antimatter§r)^(0.5 + §6§nC§r).\nThen each hatch will pull a random number from a normal distribution of 0.2 + §b§nA§r and a variance of 1, multiplying the base production with it, meaning the total antimatter change may be negative.\n\nThis causes an imbalance between the hatches. To properly automate the antimatter production, it\u0027s vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!\n\nProper use of stabilization fluids can significantly reduce energy usage and boost production:\n\nIt consumes 10,000,000 + (§3Antimatter§r * 1000)^(1.5 - §2§nM§r) EU/t passively\nMagnetic Stabilization Fluids can mitigate the passive instability and have its §2exponent§r reduced:\nMolten Purified Tengam Exponent \u003d §2§n0.1§r\nTachyon-Rich Fluid Exponent \u003d §2§n0.2§r\nMolten Magmatter Exponent \u003d §2§n0.3§r\n\nFor each cycle, the SSASS uses (§3Antimatter§r * 10000)^(1.5 - §5§nG§r) EU\nBy regulating the gravity containment of the forge, this §5exponent§r can also be reduced:\nMolten Spacetime Exponent \u003d §5§n0.05§r\nSpatially Enlarged Fluid Exponent \u003d §5§n0.10§r\nMolten Eternity Exponent \u003d §5§n0.15§r\n\nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the §6exponent§r in the production formula:\nMolten Shirabon Exponent \u003d §6§n0.05§r\nMolten MHDCSM Exponent \u003d §6§n0.10§r\n\nBy inserting fluids with high energy potential, it\u0027s possible to alter antimatter\u0027s flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the §baverage§r of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.\nDepleted Naquadah Fuel Mk V average \u003d §b§n0.05§r\nDepleted Naquadah Fuel Mk VI average \u003d §b§n0.10§r",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32027,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§9§l§nBalance is Everything",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3120992369410721658,
+  "questIDLow:4": -6774427117513567879,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32027,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 32029,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 512,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:antimatterContainmentCasing"
+        },
+        "1:10": {
+          "Count:3": 2274,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:magneticFluxCasing"
+        },
+        "2:10": {
+          "Count:3": 623,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:gravityStabilizationCasing"
+        },
+        "3:10": {
+          "Count:3": 126,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:protomatterActivationCoil"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}
