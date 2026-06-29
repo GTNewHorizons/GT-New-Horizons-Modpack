@@ -652,8 +652,8 @@
         <Loot Identifier="2efe6804-f85a-4285-ae88-74ba0a65900e" ItemName="gregtech:gt.metaitem.01:32462" Amount="8" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="8db6ff19-cc39-4258-9306-a2206e4f4a8e" ItemName="gregtech:gt.metaitem.01:32463" Amount="8" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="3f48c54d-ec5b-4b6e-a173-ebf59450bd3d" ItemName="gregtech:gt.metaitem.01:32464" Amount="8" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="464c3f3a-5891-45f4-8e01-a1fb70a2029e" ItemName="bartworks:BW_GlasBlocks" Amount="32" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="38e59098-ce4d-4e72-b0d2-f38ef48988c3" ItemName="bartworks:BW_GlasBlocks:12" Amount="4" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="464c3f3a-5891-45f4-8e01-a1fb70a2029e" ItemName="bartworks:BW_TieredGlass" Amount="32" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="38e59098-ce4d-4e72-b0d2-f38ef48988c3" ItemName="bartworks:BW_TieredGlass:12" Amount="4" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="da109015-cf44-4977-9e58-7fc7021c3b20" ItemName="gregtech:gt.metaitem.01:32707" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b76609c7-178a-4fce-a8e5-1dc65163e4f1" ItemName="gregtech:gt.metaitem.01:32708" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b72814dc-81f4-4d3c-a93f-f3aff1e516b8" ItemName="gregtech:gt.blockmachines:1686" Amount="16" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -718,8 +718,8 @@
         <Loot Identifier="3f48c54d-ec5b-4b6e-a173-ebf59450bd3d" ItemName="gregtech:gt.metaitem.01:32464" Amount="10" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="3f48c54d-ec5b-4b6e-a173-ebf59450bd3d" ItemName="gregtech:gt.metaitem.01:19389" Amount="21" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="3f48c54d-ec5b-4b6e-a173-ebf59450bd3d" ItemName="gregtech:gt.metaitem.01:19390" Amount="21" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="464c3f3a-5891-45f4-8e01-a1fb70a2029e" ItemName="bartworks:BW_GlasBlocks:1" Amount="16" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="38e59098-ce4d-4e72-b0d2-f38ef48988c3" ItemName="bartworks:BW_GlasBlocks:2" Amount="4" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="464c3f3a-5891-45f4-8e01-a1fb70a2029e" ItemName="bartworks:BW_TieredGlass:1" Amount="16" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="38e59098-ce4d-4e72-b0d2-f38ef48988c3" ItemName="bartworks:BW_TieredGlass:2" Amount="4" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b72814dc-81f4-4d3c-a93f-f3aff1e516b8" ItemName="gregtech:gt.blockmachines:1706" Amount="16" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="a8ee0332-3a29-4e83-9ff6-ce5451526cf5" ItemName="gregtech:gt.blockmachines:1707" Amount="8" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d6bacd18-71ba-48c7-8e02-deb5ebd7c085" ItemName="gregtech:gt.blockmachines:1708" Amount="4" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -782,8 +782,8 @@
         <Loot Identifier="3f48c54d-ec5b-4b6e-a173-ebf59450bd3d" ItemName="gregtech:gt.metaitem.01:32464" Amount="16" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="aada72a8-e78a-469e-963a-41aff130e671" ItemName="dreamcraft:HeavyDutyAlloyIngotT4" Amount="12" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="3f48c54d-ec5b-4b6e-a173-ebf59450bd3d" ItemName="gregtech:gt.metaitem.01:19391" Amount="18" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="464c3f3a-5891-45f4-8e01-a1fb70a2029e" ItemName="bartworks:BW_GlasBlocks:2" Amount="8" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="38e59098-ce4d-4e72-b0d2-f38ef48988c3" ItemName="bartworks:BW_GlasBlocks:3" Amount="4" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="464c3f3a-5891-45f4-8e01-a1fb70a2029e" ItemName="bartworks:BW_TieredGlass:2" Amount="8" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="38e59098-ce4d-4e72-b0d2-f38ef48988c3" ItemName="bartworks:BW_TieredGlass:3" Amount="4" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c9629ad5-70bf-4ad3-9a75-275e61562027" ItemName="gregtech:gt.blockmachines:5730" Amount="64" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="bbe0c6e5-c060-49bb-8347-8430f3d6ac4e" ItemName="gregtech:gt.blockmachines:5731" Amount="32" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="4049becf-f5dc-42cc-89cd-9f6444146cda" ItemName="gregtech:gt.blockmachines:5732" Amount="16" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -807,14 +807,14 @@
     <LootGroup GroupMetaID="43" GroupName="dreamcraft.lootbag.group.tier_8_uv" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true" TrashGroup="42" LootbagIcon="enhancedlootbags:uv">
         <Loot Identifier="3393d621-5bd9-4a02-ba05-aa23ef65fce7" ItemName="dreamcraft:RawNeutronium" Amount="64" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="4ea57b7d-cd75-4729-9d81-2e53d959402b" ItemName="dreamcraft:HeavyDutyAlloyIngotT6" Amount="16" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="60fc9ed4-c01a-4da3-b646-b75f2f93f7e9" ItemName="bartworks:BW_GlasBlocks:4" Amount="32" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="60fc9ed4-c01a-4da3-b646-b75f2f93f7e9" ItemName="bartworks:BW_TieredGlass:4" Amount="32" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f98f3a5b-ec77-497a-9f18-7a3ff806bdc3" ItemName="EnderStorage:enderChest:4096" Amount="4" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="92564e7a-faa3-4137-b01a-aab786d267c0" ItemName="EnderStorage:enderChest" Amount="4" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="3095e227-4fef-4f0e-a8c2-8ec28cecb52a" ItemName="EnderIO:item.stellar_sword" Amount="1" NBTTag="{enderio.darksteel.upgrade.travel:{upgradeItem:{id:5557s,Count:1b,registryName:&quot;EnderIO:itemMaterial&quot;,Damage:8s},level_cost:30,unlocalized_name:&quot;enderio.darksteel.upgrade.travel&quot;},enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:5555s,Count:1b,registryName:&quot;EnderIO:itemBasicCapacitor&quot;,Damage:3s},maxOuput:25000,level_cost:25,unlocalized_name:&quot;enderio.darksteel.upgrade.empowered_five&quot;,maxInput:25000,capacity:2500000,energy:2500000}}" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="38cbea2a-9933-425f-b56e-8757406579b6" ItemName="EnderIO:blockTransceiver" Amount="8" NBTTag="" Chance="120" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="be2961c2-455d-4afb-b772-7da833fdf681" ItemName="minecraft:fish:3" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="ae3ff8a8-a04e-41b5-9c89-6fab694e668c" ItemName="minecraft:clay_ball" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="20da76ed-815e-4975-bf48-b82c034c98ab" ItemName="bartworks:BW_GlasBlocks:3" Amount="64" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="20da76ed-815e-4975-bf48-b82c034c98ab" ItemName="bartworks:BW_TieredGlass:3" Amount="64" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f1e7dfd4-ded6-4754-8473-989df05d523b" ItemName="tectech:gt.blockcasingsTT:1" Amount="48" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="dd12967e-3603-4d5b-a0b2-77af6982fb60" ItemName="tectech:gt.blockcasingsTT:3" Amount="16" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="7e4e92e3-5145-4851-92c0-b76ca005555e" ItemName="gregtech:gt.metaitem.03:32096" Amount="32" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
