@@ -2,10 +2,6 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1744
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 1148
     }
   },
@@ -21,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "You can make ethylene several different ways\n\n- Ethanol and sulfuric acid in a Chemical Reactor\n- Ethanol in a Chemical Dehydrator\n- Distilling various gases (i.e. wood gas) in a Distillery\n- Obtain it from Oil in the Working with Oil tab\n\n[note]You will need much more than 12 cells later on so keep that in mind.[/note]",
+      "desc:8": "You can make ethylene several different ways\n\n- Ethanol and sulfuric acid in an MV Chemical Reactor\n- Ethanol in a Chemical Dehydrator\n- Distilling various gases (i.e. wood gas) in a Distillery\n- Obtain it from Oil in the Working with Oil tab\n\n[note]You will need much more than 12 cells later on so keep that in mind.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -50,7 +46,7 @@
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,

@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The §5§lIndustrial Centrifuge§r is the best solution for handling the thousands of ores being produced by the multiblock ore drill. You will eventually want to have an array of these running, though one or two is fine to start.\n\nThis multiblock gives you §6§l6§r parallels per voltage tier, operates at §2§l2.25x§r the speed, and grants a §3§l10%§r EU discount. This makes it a far better alternative to both singleblock Centrifuges and the Steam Separator. ",
+      "desc:8": "The §5§lIndustrial Centrifuge§r is the best solution for handling the thousands of ores being produced by the multiblock ore drill. You will eventually want to have an array of these running, though one or two is fine to start.\n\nThis multiblock gives you §6§l4-8§r parallels per voltage tier, operates at §2§l2-3x§r the speed, and grants a §3§l10%§r EU discount. This makes it a far better alternative to both singleblock Centrifuges and the Steam Separator.\n\nThe parallel and speed modifiers start at minimum, and ascend to their maximums as the Centrifuge gains momentum.\n\nThe Centrifuge will gain 1% momentum every 10 ticks while running §3\n(50s to go from 0% -\u003e 100%)§r\n\nOn the other hand, it will lose 2% momentum every 5 ticks while idle\n§3(12.5s to go from 100% -\u003e 0%)§r",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
