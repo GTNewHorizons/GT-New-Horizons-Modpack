@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Energy Clusters have different health levels, which affect the regeneration (or leaking) speed.\n\nClusters can be moved using Energy Wand. Moving them too far or across dimensions can have negative effect on their health.\n\nBlocks that use Energy will take it from Clusters up to 16 blocks away, and from the environment if placed in the End.\n\nItems that use Energy automatically refill in the End, or can be used on a Cluster to start and stop draining the Energy.",
+      "desc:8": "Energy Clusters, the little glowing orbs you may have seen floating around, have different health levels, which affect the regeneration (or leaking) speed.\n\nClusters can be moved using Energy Wand. Moving them too far or across dimensions can have negative effects on their health.\n\nBlocks that use Energy will take it from Clusters up to 16 blocks away, and from the environment if placed in the End.\n\nItems that use Energy automatically refill in the End, or can be used on a Cluster to start and stop draining the Energy.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -46,7 +46,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Energy Wand",
+      "name:8": "Energy Clusters and the Energy Wand",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,

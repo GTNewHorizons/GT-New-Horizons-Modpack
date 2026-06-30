@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The Biome Compass is a special type of compass, which points to the nearest Biome Islands as long one exists and the player is in the End. Right-clicking will scroll through all existing biomes.\n\nHolding the compass shows all biomes of the selected type as markers on the screen. The markers are small rectangles with the color of the selected biome, the rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).",
+      "desc:8": "The Biome Compass is a special type of compass, which points to the nearest Biome Islands as long one exists and the player is in the End. Right-clicking will scroll through all existing biomes.\n\nHolding the compass shows all biomes of the selected type as markers on the screen. The markers are small rectangles with the color of the selected biome, the rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).\n\n[note]The Fiery Island is orange, the Enchanted Island (both variants) is purple, and the Infested Island is dark red.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
