@@ -98,7 +98,7 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -107,6 +107,48 @@
           "id:8": "cropsnh:cropsnh.environmentalEnhancementUnit"
         },
         "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.environmentalEnhancementUnit"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.environmentalEnhancementUnit"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.environmentalEnhancementUnit"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.environmentalEnhancementUnit"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.environmentalEnhancementUnit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
