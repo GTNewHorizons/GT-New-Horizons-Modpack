@@ -354,7 +354,6 @@
         <Loot Identifier="af0bb6bc-f1c0-41bf-9c5d-55729bb558f8" ItemName="StevesCarts:CartModule:15" Amount="1" NBTTag="{Data:100b}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d4d0bd4a-be1b-4d74-8bbb-692907d17db7" ItemName="StevesCarts:CartModule:4" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="6c58e526-4315-452b-b6f2-5572cb68f6a7" ItemName="gregtech:gt.metaitem.01:11880" Amount="32" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ccbdd4e4-b411-45a2-a16e-f1b16df595d5" ItemName="cropsnh:spade" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0e5127ea-3944-4cc7-863d-f60828e9cf35" ItemName="cropsnh:genericSeed" Amount="4" NBTTag="{crop:&quot;cropsnh:stickyCane&quot;,ga:10b,gr:10b,re:10b,scan:1b}" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c40910d5-100a-47c4-834b-a3aef02b598b" ItemName="cropsnh:genericSeed" Amount="4" NBTTag="{crop:&quot;cropsnh:ferrofern&quot;,ga:10b,gr:10b,re:10b,scan:1b}" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="76ffa3cb-94c6-4183-8fef-67e6bd225434" ItemName="cropsnh:genericSeed" Amount="4" NBTTag="{crop:&quot;cropsnh:gaiaWart&quot;,ga:10b,gr:10b,re:10b,scan:1b}" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
