@@ -354,8 +354,10 @@
         <Loot Identifier="af0bb6bc-f1c0-41bf-9c5d-55729bb558f8" ItemName="StevesCarts:CartModule:15" Amount="1" NBTTag="{Data:100b}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d4d0bd4a-be1b-4d74-8bbb-692907d17db7" ItemName="StevesCarts:CartModule:4" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="6c58e526-4315-452b-b6f2-5572cb68f6a7" ItemName="gregtech:gt.metaitem.01:11880" Amount="32" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ccbdd4e4-b411-45a2-a16e-f1b16df595d5" ItemName="cropsnh:spade" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0e5127ea-3944-4cc7-863d-f60828e9cf35" ItemName="cropsnh:genericSeed" Amount="4" NBTTag="{crop:&quot;cropsnh:stickyCane&quot;,ga:10b,gr:10b,re:10b,scan:1b}" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c40910d5-100a-47c4-834b-a3aef02b598b" ItemName="cropsnh:genericSeed" Amount="4" NBTTag="{crop:&quot;cropsnh:ferrofern&quot;,ga:10b,gr:10b,re:10b,scan:1b}" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="76ffa3cb-94c6-4183-8fef-67e6bd225434" ItemName="cropsnh:genericSeed" Amount="4" NBTTag="{crop:&quot;cropsnh:gaiaWart&quot;,ga:10b,gr:10b,re:10b,scan:1b}" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="11d6c2aa-61cb-415f-9656-f19008d3d188" ItemName="cropsnh:genericSeed" Amount="4" NBTTag="{crop:&quot;cropsnh:coppon&quot;,ga:10b,gr:10b,re:10b,scan:1b}" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0c4d5372-f250-4928-abd8-9e6233dde792" ItemName="StevesCarts:CartModule:45" Amount="1" NBTTag="" Chance="34" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="5e27fcd2-d34b-4048-8475-c02943248eda" ItemName="StevesCarts:CartModule:37" Amount="1" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -1917,6 +1919,7 @@
         <Loot Identifier="0fd649bc-d947-47c5-bf50-12625012c6bb" ItemName="minecraft:netherrack" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="8c1acbb9-2e46-457c-b219-6b906c684d14" ItemName="gregtech:gt.metaitem.01:32519" Amount="1" NBTTag="{GT.ItemCharge:50000L}" Chance="30" ItemGroup="batbuff" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="a068d666-06dd-4e4a-a11e-976afb2f5d54" ItemName="gregtech:gt.metaitem.01:32751" Amount="1" NBTTag="" Chance="30" ItemGroup="batbuff" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ccb15598-1e4b-4b6f-97cb-3cfc0dbd0d4f" ItemName="gregtech:gt.blockmachines:161" Amount="1" NBTTag="" Chance="30" ItemGroup="batbuff" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="a1a23061-f7b3-4939-a8ee-ff2a2faf0747" ItemName="gregtech:gt.blockores2:89" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9c38e21c-6dc8-41c5-90a6-45d013595628" ItemName="gregtech:gt.blockores2:54" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d248dba9-0590-4d13-9cc5-1d87f7734dd0" ItemName="gregtech:gt.blockores2:34" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -2191,5 +2194,11 @@
         <Loot Identifier="11149d59-38f6-4d01-a3e7-c0b663b071f7" ItemName="HardcoreEnderExpansion:igneous_rock" Amount="8" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="520f3be7-2624-483b-b9b2-fe343a9a134d" ItemName="HardcoreEnderExpansion:adventurers_diary" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="04ea856f-6638-493c-bbe1-1a2a82b529f6" ItemName="HardcoreEnderExpansion:enhanced_brewing_stand" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="59" GroupName="dreamcraft.lootbag.group.crops_farmhand" Rarity="0" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="0" LootbagIcon="enhancedlootbags:crops">
+        <Loot Identifier="baa7c784-3b1f-40bb-8778-d30a89ccf68b" ItemName="cropsnh:spade" Amount="1" NBTTag="" Chance="175" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="60" GroupName="dreamcraft.lootbag.group.crops_agriculturalist" Rarity="1" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="0" LootbagIcon="enhancedlootbags:crops">
+        <Loot Identifier="baa7c784-3b1f-40bb-8778-d30a89ccf68b" ItemName="cropsnh:spade" Amount="1" NBTTag="" Chance="175" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
