@@ -2195,4 +2195,10 @@
         <Loot Identifier="520f3be7-2624-483b-b9b2-fe343a9a134d" ItemName="HardcoreEnderExpansion:adventurers_diary" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="04ea856f-6638-493c-bbe1-1a2a82b529f6" ItemName="HardcoreEnderExpansion:enhanced_brewing_stand" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
+    <LootGroup GroupMetaID="59" GroupName="dreamcraft.lootbag.group.crops_farmhand" Rarity="0" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="0" LootbagIcon="enhancedlootbags:crops">
+        <Loot Identifier="baa7c784-3b1f-40bb-8778-d30a89ccf68b" ItemName="cropsnh:spade" Amount="1" NBTTag="" Chance="175" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="60" GroupName="dreamcraft.lootbag.group.crops_agriculturalist" Rarity="1" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="0" LootbagIcon="enhancedlootbags:crops">
+        <Loot Identifier="baa7c784-3b1f-40bb-8778-d30a89ccf68b" ItemName="cropsnh:spade" Amount="1" NBTTag="" Chance="175" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
+    </LootGroup>
 </LootGroups>
