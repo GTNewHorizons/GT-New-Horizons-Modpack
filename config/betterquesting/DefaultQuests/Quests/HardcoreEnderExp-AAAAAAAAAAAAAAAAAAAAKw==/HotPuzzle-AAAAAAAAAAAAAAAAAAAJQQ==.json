@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Some of the islands have a Dungeon Puzzle inside them, usually nearby the surface and with a small cave leading to it. The dungeon consists of special blocks which the player can interact with by throwing Igneous Rock, causing a chain reaction during which the lit blocks will become unlit, unlit blocks will become lit and the walls will propagate the reaction into adjacent blocks.\n\nOnce all of the blocks are lit, a Fire Fiend is spawned below. It will make its way to the surface, breaking the dungeon in the process.",
+      "desc:8": "Some of the islands have a Dungeon Puzzle inside them, usually near the surface and with a small cave leading to it. The dungeon consists of special blocks which the player can interact with by throwing Igneous Rock, causing a chain reaction during which the lit blocks will become unlit, unlit blocks will become lit and the walls will propagate the reaction into adjacent blocks.\n\nOnce all of the blocks are lit, a Fire Fiend is spawned below. It will make its way to the surface, breaking the dungeon in the process.\n\n[warn]Kill it with... well, probably not fire![/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
