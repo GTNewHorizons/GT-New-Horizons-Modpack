@@ -1899,12 +1899,12 @@
         <Loot Identifier="de4dcd37-6644-4eba-a642-082032825f92" ItemName="cropsnh:cropSticks" Amount="128" NBTTag="" Chance="200" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0cfd6add-0cc0-433a-aa8b-81f4cc6a948a" ItemName="cropsnh:fertilizer" Amount="64" NBTTag="" Chance="200" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cb04848a-6c2d-4ee5-86d7-e460c8dcddbd" ItemName="RandomThings:fertilizedDirt_tilled" Amount="8" NBTTag="" Chance="180" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="3062e3e5-820e-473d-9e1c-9d8945fff3f9" ItemName="cropsnh:spade" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
-        <Loot Identifier="66be798f-c599-4db9-8624-ce9c349c0510" ItemName="ExtraUtilities:watering_can:1" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
-        <Loot Identifier="7ceb57e6-7e9e-4d9b-ba16-4d2de17beb71" ItemName="cropsnh:plantLens" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
+        <Loot Identifier="eadd48cd-306f-462e-aa58-99d046471bc4" ItemName="TConstruct:materials:26" Amount="1" NBTTag="" Chance="150" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
+        <Loot Identifier="3062e3e5-820e-473d-9e1c-9d8945fff3f9" ItemName="cropsnh:spade" Amount="1" NBTTag="" Chance="130" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
+        <Loot Identifier="66be798f-c599-4db9-8624-ce9c349c0510" ItemName="ExtraUtilities:watering_can:1" Amount="1" NBTTag="" Chance="130" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
+        <Loot Identifier="7ceb57e6-7e9e-4d9b-ba16-4d2de17beb71" ItemName="cropsnh:plantLens" Amount="1" NBTTag="" Chance="130" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="490994f6-ef2a-4070-b49b-84d45462ffbb" ItemName="cropsnh:plantCure" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="e08e4b8d-a34b-47ea-b597-8a06b42c8d1e" ItemName="cropsnh:weedEX" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
-        <Loot Identifier="eadd48cd-306f-462e-aa58-99d046471bc4" ItemName="TConstruct:materials:26" Amount="1" NBTTag="" Chance="150" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="235020a4-c90f-40a1-bcef-0318e85c2e4d" ItemName="gregtech:gt.blockores2:89" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="1484596d-b700-4183-b7de-c6cf5add09d5" ItemName="gregtech:gt.blockores2:810" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="8d38338e-9322-4390-8877-9fbaf6a7e831" ItemName="gregtech:gt.blockores2:32" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -2200,33 +2200,33 @@
         <Loot Identifier="520f3be7-2624-483b-b9b2-fe343a9a134d" ItemName="HardcoreEnderExpansion:adventurers_diary" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="04ea856f-6638-493c-bbe1-1a2a82b529f6" ItemName="HardcoreEnderExpansion:enhanced_brewing_stand" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="59" GroupName="dreamcraft.lootbag.group.crops_agriculturalist" Rarity="1" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="0" LootbagIcon="enhancedlootbags:crops">
-        <Loot Identifier="af2798fd-32d2-4093-9c0d-5830d79bcef9" ItemName="gregtech:gt.metaitem.01:32405" Amount="1" NBTTag="{GT.FluidContent:{Amount:8000,FluidName:&quot;hydrochloricacid_gt5u&quot;}}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ba2d768a-550d-419b-9611-2ca860bfc4ae" ItemName="gregtech:gt.metaitem.01:32405" Amount="1" NBTTag="{GT.FluidContent:{Amount:8000,FluidName:&quot;cropsnh.fertilizer&quot;}}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="6d21f0b3-cb9d-4e5c-a44b-52b9a35fc4eb" ItemName="gregtech:gt.metaitem.01:32405" Amount="1" NBTTag="{GT.FluidContent:{Amount:8000,FluidName:&quot;sulfuricacid&quot;}}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="3a274ebe-c50d-4d0d-b0bf-58bf0bb8cea2" ItemName="gregtech:gt.metaitem.01:32405" Amount="1" NBTTag="{GT.FluidContent:{Amount:8000,FluidName:&quot;hydrofluoricacid_gt5u&quot;}}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="dba19b88-3363-4fe7-a57a-4db355394ae2" ItemName="gregtech:gt.metaitem.01:32751" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="730f0862-b62e-411a-b19c-a68aec840326" ItemName="gregtech:gt.metaitem.01:32519" Amount="1" NBTTag="{GT.ItemCharge:49615L}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="fcb17473-09bb-423c-822d-ad109021f913" ItemName="cropsnh:environmentalModule" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="4644fc17-371b-4e88-b48d-72133e3addcb" ItemName="gregtech:gt.blockmachines:28001" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="59" GroupName="dreamcraft.lootbag.group.crops_agriculturalist" Rarity="1" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="51" LootbagIcon="enhancedlootbags:crops">
+        <Loot Identifier="4644fc17-371b-4e88-b48d-72133e3addcb" ItemName="gregtech:gt.blockmachines:28001" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
+        <Loot Identifier="dba19b88-3363-4fe7-a57a-4db355394ae2" ItemName="gregtech:gt.metaitem.01:32751" Amount="1" NBTTag="" Chance="30" ItemGroup="solbat" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="730f0862-b62e-411a-b19c-a68aec840326" ItemName="gregtech:gt.metaitem.01:32519" Amount="1" NBTTag="{GT.ItemCharge:49615L}" Chance="30" ItemGroup="solbat" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="fcb17473-09bb-423c-822d-ad109021f913" ItemName="cropsnh:environmentalModule" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="1906ae22-c05a-4f30-bc5a-c5c214dae96a" ItemName="TConstruct:oreBerries:1" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="63b1514e-5487-46b6-a78c-24c1df2be4fa" ItemName="TConstruct:oreBerries:4" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="71363976-d6b8-4fe7-862f-c7007a665983" ItemName="TConstruct:oreBerries:3" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="92730c9b-1041-4ff9-9056-f0c88766a2eb" ItemName="TConstruct:oreBerries:2" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="94813250-d989-4949-bbf5-a60874abacd9" ItemName="TConstruct:oreBerries" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="bb12ade1-382e-4bb2-8e42-ae6fe6edfadb" ItemName="TConstruct:slime.sapling" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="334563a7-76e9-4bf1-ba1c-d601762523a4" ItemName="TConstruct:CraftedSoil:3" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="12ea28af-423d-4d14-b4f3-d07800ca87ca" ItemName="minecraft:netherrack" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="cd51ddf1-4af0-47b2-bd5c-66c273b3be1f" ItemName="minecraft:soul_sand" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="e55f7f17-df8f-42c7-82ae-07f7b73ace27" ItemName="minecraft:end_stone" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="f22b42b4-3186-4586-8ccd-0ef72b01a464" ItemName="gregtech:gt.blockores2:501" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="09a5c12e-44fa-41e4-a502-7d572710ea1b" ItemName="gregtech:gt.blockores2:901" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ffedc603-6481-428d-869a-8486915f8802" ItemName="gregtech:gt.blockores2:839" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="50b6a833-0842-41d7-ab51-e35fed178661" ItemName="gregtech:gt.blockores2:503" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="866ef710-826b-47d9-9d42-6e2d583e06aa" ItemName="gregtech:gt.blockores2:502" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="1e1c7d34-2541-4fe7-bbea-f9910a72edb5" ItemName="gregtech:gt.blockores2:54" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="4a08fab9-215b-4f6e-9d4e-ee568183e5e6" ItemName="gregtech:gt.blockores2:34" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="878705d1-60e1-40b9-8f19-8de9d7770616" ItemName="gregtech:gt.blockores2:943" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="75a8a1fd-564a-471a-9f15-f62234cb0806" ItemName="gregtech:gt.blockores2:19" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="334563a7-76e9-4bf1-ba1c-d601762523a4" ItemName="TConstruct:CraftedSoil:3" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="12ea28af-423d-4d14-b4f3-d07800ca87ca" ItemName="minecraft:netherrack" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cd51ddf1-4af0-47b2-bd5c-66c273b3be1f" ItemName="minecraft:soul_sand" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e55f7f17-df8f-42c7-82ae-07f7b73ace27" ItemName="minecraft:end_stone" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f22b42b4-3186-4586-8ccd-0ef72b01a464" ItemName="gregtech:gt.blockores2:501" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="09a5c12e-44fa-41e4-a502-7d572710ea1b" ItemName="gregtech:gt.blockores2:901" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ffedc603-6481-428d-869a-8486915f8802" ItemName="gregtech:gt.blockores2:839" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="50b6a833-0842-41d7-ab51-e35fed178661" ItemName="gregtech:gt.blockores2:503" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="866ef710-826b-47d9-9d42-6e2d583e06aa" ItemName="gregtech:gt.blockores2:502" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4a08fab9-215b-4f6e-9d4e-ee568183e5e6" ItemName="gregtech:gt.blockores2:34" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="878705d1-60e1-40b9-8f19-8de9d7770616" ItemName="gregtech:gt.blockores2:943" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="75a8a1fd-564a-471a-9f15-f62234cb0806" ItemName="gregtech:gt.blockores2:19" Amount="1" NBTTag="" Chance="115" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1e1c7d34-2541-4fe7-bbea-f9910a72edb5" ItemName="gregtech:gt.blockores2:54" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="af2798fd-32d2-4093-9c0d-5830d79bcef9" ItemName="gregtech:gt.metaitem.01:32405" Amount="1" NBTTag="{GT.FluidContent:{Amount:8000,FluidName:&quot;hydrochloricacid_gt5u&quot;}}" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ba2d768a-550d-419b-9611-2ca860bfc4ae" ItemName="gregtech:gt.metaitem.01:32405" Amount="1" NBTTag="{GT.FluidContent:{Amount:8000,FluidName:&quot;cropsnh.fertilizer&quot;}}" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6d21f0b3-cb9d-4e5c-a44b-52b9a35fc4eb" ItemName="gregtech:gt.metaitem.01:32405" Amount="1" NBTTag="{GT.FluidContent:{Amount:8000,FluidName:&quot;sulfuricacid&quot;}}" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3a274ebe-c50d-4d0d-b0bf-58bf0bb8cea2" ItemName="gregtech:gt.metaitem.01:32405" Amount="1" NBTTag="{GT.FluidContent:{Amount:8000,FluidName:&quot;hydrofluoricacid_gt5u&quot;}}" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
