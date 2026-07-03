@@ -124,51 +124,21 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 8,
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "HardcoreEnderExpansion:end_stone_terrain"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:cinder"
         },
         "1:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:igneous_rock_ore"
-        },
-        "2:10": {
-          "Count:3": 2,
-          "Damage:2": 11,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:crossed_decoration"
-        },
-        "3:10": {
-          "Count:3": 2,
-          "Damage:2": 6,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:crossed_decoration"
+          "id:8": "HardcoreEnderExpansion:cinder"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
-    "2:10": {
+    "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
