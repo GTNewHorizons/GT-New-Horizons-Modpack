@@ -2210,7 +2210,7 @@
         <Loot Identifier="71363976-d6b8-4fe7-862f-c7007a665983" ItemName="TConstruct:oreBerries:3" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="92730c9b-1041-4ff9-9056-f0c88766a2eb" ItemName="TConstruct:oreBerries:2" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="94813250-d989-4949-bbf5-a60874abacd9" ItemName="TConstruct:oreBerries" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="bb12ade1-382e-4bb2-8e42-ae6fe6edfadb" ItemName="TConstruct:slime.sapling" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bb12ade1-382e-4bb2-8e42-ae6fe6edfadb" ItemName="TConstruct:slime.sapling" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="334563a7-76e9-4bf1-ba1c-d601762523a4" ItemName="TConstruct:CraftedSoil:3" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="12ea28af-423d-4d14-b4f3-d07800ca87ca" ItemName="minecraft:netherrack" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cd51ddf1-4af0-47b2-bd5c-66c273b3be1f" ItemName="minecraft:soul_sand" Amount="1" NBTTag="" Chance="125" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
