@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "To create a Dragon Essence Altar, a player has to use Dragon Essence on the Basic Essence Altar (right-click the altar with the Essence).\n\nAfter that, the Altar will request 8 random items to be fed into it.\nDragon Essence Altar may request the following items: Obsidian, Stone Bricks, Map, Book, Bookshelf, Iron Fence, End Stone, Ender Pearl, Eye of Ender, Enderman Head.\n\nAfter this you can store more Essence inside the Altar.",
+      "desc:8": "To create a Dragon Essence Altar, a player has to use Dragon Essence on the Basic Essence Altar (right-click the altar with the Essence).\n\nAfter that, the Altar will request 8 random items to be fed into it, one at a time.\n\nThe Dragon Essence Altar may request the following items: Obsidian, Stone Bricks, Map, Book, Bookshelf, Iron Bars, End Stone, Ender Pearl, Eye of Ender, Enderman Head.\n\nAfter this, the Altar will transform into a Dragon Essence Altar, and now you can store more Essence inside the Altar.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -29,7 +29,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Essence Altar Dragon Infused",
+      "name:8": "Dragon Essence Altar",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -128,6 +128,12 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "HardcoreEnderExpansion:essence_altar"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:essence"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -142,79 +148,73 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:essence"
-        },
-        "1:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:ender_pearl"
         },
-        "2:10": {
+        "1:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:ender_eye"
         },
-        "3:10": {
+        "2:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:map"
         },
-        "4:10": {
+        "3:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:iron_bars"
         },
-        "5:10": {
+        "4:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:book"
         },
-        "6:10": {
+        "5:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:obsidian"
         },
-        "7:10": {
+        "6:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:bookshelf"
         },
-        "8:10": {
+        "7:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:stonebrick"
         },
-        "9:10": {
+        "8:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:end_stone"
         },
-        "10:10": {
+        "9:10": {
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "HardcoreEnderExpansion:essence"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 2,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
