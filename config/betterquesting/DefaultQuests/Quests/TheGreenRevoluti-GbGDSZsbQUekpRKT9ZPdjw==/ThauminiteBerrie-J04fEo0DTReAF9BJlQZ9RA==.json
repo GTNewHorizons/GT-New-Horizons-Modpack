@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": 4894867707481048112,
       "questIDLow:4": -5357559570736815524
+    },
+    "1:10": {
+      "questIDHigh:4": 579420945032495629,
+      "questIDLow:4": -8670597739683462194
     }
   },
   "properties:10": {
@@ -70,7 +74,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 51,
+          "Damage:2": 59,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         },

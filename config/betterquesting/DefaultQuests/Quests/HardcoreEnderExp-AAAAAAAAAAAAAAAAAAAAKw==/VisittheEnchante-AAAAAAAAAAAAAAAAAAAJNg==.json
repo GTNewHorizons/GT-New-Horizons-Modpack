@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "A very flat biome with small amount of caves.\n\nIt can be found with the HEE Biome Compass.\n\nThere are two variations - Homeland and Laboratory.\n\nHomeland has lakes of Ender Goo, piles of Falling Obsidian and a strange Obsidian road-like structure.\n\nYou can often find Homeland Cache, a floating transparent cube that can be broken. Endermen Baby Endermen and Ender Guardians spawn there.",
+      "desc:8": "A very flat biome with small amount of caves.\n\nThe Homeland variant has lakes of Ender Goo, piles of Falling Obsidian and a strange Obsidian road-like structure.\n\nYou can often find a Homeland Cache, a floating transparent cube that can be broken for some goodies, most importantly Arcane Shards. Endermen, Baby Endermen, and Ender Guardians spawn here.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -29,7 +29,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Visit the Enchanted Island",
+      "name:8": "Visit the (Enchanted) Homeland Island",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -124,7 +124,7 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 8,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "HardcoreEnderExpansion:end_stone_terrain"
