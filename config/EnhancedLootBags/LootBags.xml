@@ -1889,7 +1889,7 @@
         <Loot Identifier="1881733e-8259-4eab-ae1c-109c3ecc46c0" ItemName="OpenComputers:item:66" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c380e9ed-8f24-4cae-9015-7a71f68b5f91" ItemName="computronics:computronics.ocParts:7" Amount="1" NBTTag="{oc:data:{}}" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="51" GroupName="dreamcraft.lootbag.group.crops_farmhand" Rarity="0" MinItems="2" MaxItems="4" CombineTrashGroup="true" TrashGroup="0" LootbagIcon="enhancedlootbags:crops">
+    <LootGroup GroupMetaID="51" GroupName="dreamcraft.lootbag.group.crops_farmhand" Rarity="0" MinItems="2" MaxItems="4" CombineTrashGroup="true" TrashGroup="0" LootbagIcon="enhancedlootbags:crops1">
         <Loot Identifier="de4dcd37-6644-4eba-a642-082032825f92" ItemName="cropsnh:cropSticks" Amount="128" NBTTag="" Chance="300" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0cfd6add-0cc0-433a-aa8b-81f4cc6a948a" ItemName="cropsnh:fertilizer" Amount="64" NBTTag="" Chance="300" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="490994f6-ef2a-4070-b49b-84d45462ffbb" ItemName="cropsnh:plantCure" Amount="1" NBTTag="" Chance="300" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
@@ -2194,7 +2194,7 @@
         <Loot Identifier="520f3be7-2624-483b-b9b2-fe343a9a134d" ItemName="HardcoreEnderExpansion:adventurers_diary" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="04ea856f-6638-493c-bbe1-1a2a82b529f6" ItemName="HardcoreEnderExpansion:enhanced_brewing_stand" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="59" GroupName="dreamcraft.lootbag.group.crops_agriculturalist" Rarity="1" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="51" LootbagIcon="enhancedlootbags:crops">
+    <LootGroup GroupMetaID="59" GroupName="dreamcraft.lootbag.group.crops_agriculturalist" Rarity="1" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="51" LootbagIcon="enhancedlootbags:crops2">
         <Loot Identifier="4644fc17-371b-4e88-b48d-72133e3addcb" ItemName="gregtech:gt.blockmachines:28001" Amount="1" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="dba19b88-3363-4fe7-a57a-4db355394ae2" ItemName="gregtech:gt.metaitem.01:32751" Amount="1" NBTTag="" Chance="30" ItemGroup="solbat" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="730f0862-b62e-411a-b19c-a68aec840326" ItemName="gregtech:gt.metaitem.01:32519" Amount="1" NBTTag="{GT.ItemCharge:49615L}" Chance="30" ItemGroup="solbat" LimitedDropCount="1" RandomAmount="false"/>
