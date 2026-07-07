@@ -1,12 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1493
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2877
+      "questIDHigh:4": 9021009189442178359,
+      "questIDLow:4": -6081001806696611432
     }
   },
   "properties:10": {
@@ -21,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Your latest research into Applied Greg has uncovered a way to integrate the ME interface\u0027s pattern processing ability directly inside of input buses: §lCrafting Input Buses§r! These allow you to directly place patterns into your input bus. Input buses alone lack sufficient item space and computational power to process items coming from your ME network, requiring additional storage and circuits. This task also requires the precision of the Assembly Line.\n\nYou can even place non-consumable items like lenses and molds inside! However, consumable items won\u0027t do anything.\n\nYou still lack technology sophisticated enough to directly process patterns containing fluids; they are just not good for electronics.\n\nEach Crafting Input Bus is fully isolated from other buses and hatches, so you may have to change your patterns.\n\nThe following improvements will be unlocked in later tiers:\n\n[warn]Crafting Input Buffer[/warn] is §9§owaterproof§r, supporting patterns with fluids. §lUEV-Tier§r\n\n[warn]Crafting Input Proxy[/warn] can wirelessly connect to any Crafting Input Bus or Buffer, allowing many multiblocks to share the same patterns. §lUIV-Tier§r",
+      "desc:8": "It may not actually store any energy but it\u0027ll still be useful for some other endgame items.",
       "globalShare:1": 0,
       "icon:10": {
-        "Count:3": 64,
-        "Damage:2": 2715,
+        "Count:3": 1,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "SGCraft:ic2Capacitor"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Cribs",
+      "name:8": "§6§l§nYou\u0027ll Only Need a Few of These",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -58,8 +54,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -2121010054702348431,
-  "questIDLow:4": -5429883527448864555,
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2594,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -73,9 +69,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2715,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "SGCraft:ic2Capacitor"
         }
       },
       "taskID:8": "bq_standard:retrieval"
