@@ -1,4 +1,4 @@
-name: Compress Default Meteor Configs
+name: Compress Legacy Ore Textures
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch: { }
 
 jobs:
-  meteors:
+  textures:
     name: Compress Legacy Ore Textures
     permissions:
       contents: write
