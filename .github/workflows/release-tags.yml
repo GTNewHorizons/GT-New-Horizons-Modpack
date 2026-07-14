@@ -62,6 +62,15 @@ jobs:
           fi
           mv "$GUIDE_ZIP" config/guidenh/DefaultGuide.zip
 
+      - name: Stamp questbook version
+        env:
+          QB_VERSION_BASE: 2110
+          QB_VERSION_BASE_REF: f94b1919aa1dd24c113db27e9ba36d20ce92746a
+        run: |
+          python .github/scripts/stamp-qb-version.py \
+            --base-version "$QB_VERSION_BASE" \
+            --base-ref "$QB_VERSION_BASE_REF"
+
       - name: Prepare release folder
         run: |
           mkdir -p release
