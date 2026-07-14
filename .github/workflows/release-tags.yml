@@ -72,7 +72,8 @@ jobs:
               -x changelog.py \
               -x ".git/*" \
               -x ".github/*" \
-              -x "release/*"
+              -x "release/*" \
+              -x "raw/*"
 
       - name: Release under current tag
         uses: "marvinpinto/action-automatic-releases@latest"
