@@ -24,7 +24,6 @@ jobs:
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
       - name: Bundle matching GTNH-Guide-Pack release
-        if: contains(github.ref_name, '-nightly-')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GUIDE_REPO: GTNewHorizons/GTNH-Guide-Pack
@@ -63,6 +62,15 @@ jobs:
           fi
           mv "$GUIDE_ZIP" config/guidenh/DefaultGuide.zip
 
+      - name: Stamp questbook version
+        env:
+          QB_VERSION_BASE: 2110
+          QB_VERSION_BASE_REF: f94b1919aa1dd24c113db27e9ba36d20ce92746a
+        run: |
+          python .github/scripts/stamp-qb-version.py \
+            --base-version "$QB_VERSION_BASE" \
+            --base-ref "$QB_VERSION_BASE_REF"
+
       - name: Prepare release folder
         run: |
           mkdir -p release
@@ -73,7 +81,8 @@ jobs:
               -x changelog.py \
               -x ".git/*" \
               -x ".github/*" \
-              -x "release/*"
+              -x "release/*" \
+              -x "raw/*"
 
       - name: Release under current tag
         uses: "marvinpinto/action-automatic-releases@latest"
