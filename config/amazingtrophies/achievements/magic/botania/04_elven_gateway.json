@@ -1,7 +1,7 @@
 {
   "id": "elven_gateway",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "Botania:alfheimPortal"
   },
   "page": "GT New Horizons",

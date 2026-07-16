@@ -1,7 +1,7 @@
 {
   "id": "platinum_ingot",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "gregtech:gt.metaitem.01",
     "meta": 11085
   },

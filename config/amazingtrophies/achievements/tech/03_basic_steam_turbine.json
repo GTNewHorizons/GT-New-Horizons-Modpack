@@ -1,7 +1,7 @@
 {
   "id": "basic_steam_turbine",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "gregtech:gt.blockmachines",
     "meta": 1120
   },

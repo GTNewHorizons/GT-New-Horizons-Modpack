@@ -1,7 +1,7 @@
 {
   "id": "eldritch_eye",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "Thaumcraft:ItemEldritchObject",
     "meta": 0
   },

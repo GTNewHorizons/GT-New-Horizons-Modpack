@@ -1,7 +1,7 @@
 {
   "id": "runic_altar",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "Botania:runeAltar"
   },
   "page": "GT New Horizons",

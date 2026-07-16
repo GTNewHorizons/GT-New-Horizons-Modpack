@@ -1,7 +1,7 @@
 {
   "id": "sacrificial_knife",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "AWWayofTime:sacrificialKnife"
   },
   "page": "GT New Horizons",
