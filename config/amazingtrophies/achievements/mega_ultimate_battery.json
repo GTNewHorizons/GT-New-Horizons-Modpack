@@ -1,7 +1,7 @@
 {
   "id": "mega_ultimate_battery",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "gregtech:gt.metaitem.01",
     "meta": 32146,
     "nbt": "{GT.ItemCharge: 9223372036854775807L}"

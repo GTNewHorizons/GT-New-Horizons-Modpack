@@ -1,7 +1,7 @@
 {
   "id": "bound_pickaxe",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "AWWayofTime:boundPickaxe"
   },
   "page": "GT New Horizons",

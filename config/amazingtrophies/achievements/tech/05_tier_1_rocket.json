@@ -1,7 +1,7 @@
 {
   "id": "tier_1_rocket",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "GalacticraftCore:item.spaceship"
   },
   "page": "GT New Horizons",

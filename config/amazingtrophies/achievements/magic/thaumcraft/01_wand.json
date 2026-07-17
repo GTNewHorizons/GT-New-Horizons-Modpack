@@ -1,7 +1,7 @@
 {
   "id": "wand",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "Thaumcraft:WandCasting"
   },
   "page": "GT New Horizons",
