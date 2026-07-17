@@ -1,7 +1,7 @@
 {
   "id": "blood_altar",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "AWWayofTime:Altar"
   },
   "page": "GT New Horizons",

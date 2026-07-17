@@ -1,7 +1,7 @@
 {
   "id": "octuple_solar_panel",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "EMT:EMTSolars4",
     "meta": 12
   },
