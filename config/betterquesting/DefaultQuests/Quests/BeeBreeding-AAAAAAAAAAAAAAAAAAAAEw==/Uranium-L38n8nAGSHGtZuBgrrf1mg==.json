@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Radioactive Alert. Anyway it will feed you with Miranda and Oberon dusts at the same time,very nice!",
+      "desc:8": "Radioactivity alert! This bee provides Miranda and Oberon dust at the same time. Very nice!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -102,7 +102,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Uranium",
+      "name:8": "Uranus",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
