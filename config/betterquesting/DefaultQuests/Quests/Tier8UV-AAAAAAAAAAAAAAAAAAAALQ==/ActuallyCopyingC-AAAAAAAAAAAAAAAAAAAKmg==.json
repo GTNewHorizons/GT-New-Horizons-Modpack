@@ -137,27 +137,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Breedable:1": 1,
-            "Color:11": [
-              149,
-              132,
-              75
-            ],
-            "DNA:10": {
-              "Chance:3": 10000,
-              "Name:8": "Escherichia koli",
-              "Rarity:1": 1,
-              "Tier:3": 0
-            },
-            "Fluid:8": "escherichiakolifluid",
-            "Name:8": "Escherichia koli",
-            "Plasmid:10": {
-              "Chance:3": 10000,
-              "Name:8": "Escherichia koli",
-              "Rarity:1": 1,
-              "Tier:3": 0
-            },
-            "Rarety:1": 1
+            "Name:8": "Escherichia koli"
           }
         }
       },

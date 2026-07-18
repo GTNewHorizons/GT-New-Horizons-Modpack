@@ -137,26 +137,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Breedable:1": 0,
-            "Color:11": [
-              29,
-              149,
-              50
-            ],
-            "DNA:10": {
-              "Chance:3": 1500,
-              "Name:8": "Mutagen",
-              "Rarity:1": 3,
-              "Tier:3": 2
-            },
-            "Name:8": "Mutagen Bacteria a Spatio",
-            "Plasmid:10": {
-              "Chance:3": 1500,
-              "Name:8": "Mutagen",
-              "Rarity:1": 3,
-              "Tier:3": 2
-            },
-            "Rarety:1": 3
+            "Name:8": "Mutagen Bacteria a Spatio"
           }
         }
       },
