@@ -97,26 +97,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Breedable:1": 0,
-            "Color:11": [
-              26,
-              59,
-              137
-            ],
-            "DNA:10": {
-              "Chance:3": 750,
-              "Name:8": "StemCellBac",
-              "Rarity:1": 3,
-              "Tier:3": 3
-            },
-            "Name:8": "Derivantur Cellula Evolutionis",
-            "Plasmid:10": {
-              "Chance:3": 750,
-              "Name:8": "StemCellBac",
-              "Rarity:1": 3,
-              "Tier:3": 3
-            },
-            "Rarety:1": 3
+            "Name:8": "Derivantur Cellula Evolutionis"
           }
         }
       },

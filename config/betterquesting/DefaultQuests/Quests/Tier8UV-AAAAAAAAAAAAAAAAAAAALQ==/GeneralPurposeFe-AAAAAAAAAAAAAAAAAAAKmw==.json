@@ -25,27 +25,7 @@
         "OreDict:8": "",
         "id:8": "bartworks:BioLabParts",
         "tag:10": {
-          "Breedable:1": 1,
-          "Color:11": [
-            127,
-            69,
-            26
-          ],
-          "DNA:10": {
-            "Chance:3": 10000,
-            "Name:8": "beta-Lactamase",
-            "Rarity:1": 1,
-            "Tier:3": 0
-          },
-          "Fluid:8": "saccharomycesescherichiafluid",
-          "Name:8": "Saccharomyces escherichia",
-          "Plasmid:10": {
-            "Chance:3": 7500,
-            "Name:8": "Saccharomyces cerevisiae",
-            "Rarity:1": 0,
-            "Tier:3": 0
-          },
-          "Rarety:1": 2
+          "Name:8": "Saccharomyces escherichia"
         }
       },
       "isMain:1": 0,
@@ -96,27 +76,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Breedable:1": 1,
-            "Color:11": [
-              149,
-              132,
-              75
-            ],
-            "DNA:10": {
-              "Chance:3": 10000,
-              "Name:8": "Escherichia koli",
-              "Rarity:1": 1,
-              "Tier:3": 0
-            },
-            "Fluid:8": "escherichiakolifluid",
-            "Name:8": "Escherichia koli",
-            "Plasmid:10": {
-              "Chance:3": 10000,
-              "Name:8": "Escherichia koli",
-              "Rarity:1": 1,
-              "Tier:3": 0
-            },
-            "Rarety:1": 1
+            "Name:8": "Escherichia koli"
           }
         },
         "1:10": {
@@ -125,10 +85,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Chance:3": 10000,
-            "Name:8": "beta-Lactamase",
-            "Rarity:1": 1,
-            "Tier:3": 0
+            "Name:8": "beta-Lactamase"
           }
         },
         "2:10": {
@@ -159,27 +116,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Breedable:1": 1,
-            "Color:11": [
-              255,
-              248,
-              200
-            ],
-            "DNA:10": {
-              "Chance:3": 7500,
-              "Name:8": "Saccharomyces cerevisiae",
-              "Rarity:1": 0,
-              "Tier:3": 0
-            },
-            "Fluid:8": "saccharomycescerevisiaefluid",
-            "Name:8": "Saccharomyces cerevisiae",
-            "Plasmid:10": {
-              "Chance:3": 7500,
-              "Name:8": "Saccharomyces cerevisiae",
-              "Rarity:1": 0,
-              "Tier:3": 0
-            },
-            "Rarety:1": 0
+            "Name:8": "Saccharomyces cerevisiae"
           }
         },
         "1:10": {
@@ -188,10 +125,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Chance:3": 7500,
-            "Name:8": "Saccharomyces cerevisiae",
-            "Rarity:1": 0,
-            "Tier:3": 0
+            "Name:8": "Saccharomyces cerevisiae"
           }
         },
         "2:10": {
@@ -290,10 +224,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Chance:3": 7500,
-            "Name:8": "Saccharomyces cerevisiae",
-            "Rarity:1": 0,
-            "Tier:3": 0
+            "Name:8": "Saccharomyces cerevisiae"
           }
         }
       },
@@ -314,26 +245,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Breedable:1": 0,
-            "Color:11": [
-              110,
-              40,
-              25
-            ],
-            "DNA:10": {
-              "Chance:3": 10000,
-              "Name:8": "beta-Lactamase",
-              "Rarity:1": 1,
-              "Tier:3": 0
-            },
-            "Name:8": "Escherichia cadaver",
-            "Plasmid:10": {
-              "Chance:3": 10000,
-              "Name:8": "beta-Lactamase",
-              "Rarity:1": 1,
-              "Tier:3": 0
-            },
-            "Rarety:1": 1
+            "Name:8": "Escherichia cadaver"
           }
         },
         "1:10": {
@@ -342,10 +254,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Chance:3": 7500,
-            "Name:8": "Saccharomyces cerevisiae",
-            "Rarity:1": 0,
-            "Tier:3": 0
+            "Name:8": "Saccharomyces cerevisiae"
           }
         },
         "2:10": {
@@ -396,27 +305,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Breedable:1": 1,
-            "Color:11": [
-              127,
-              69,
-              26
-            ],
-            "DNA:10": {
-              "Chance:3": 10000,
-              "Name:8": "Escherichia koli",
-              "Rarity:1": 1,
-              "Tier:3": 0
-            },
-            "Fluid:8": "saccharomycesescherichiafluid",
-            "Name:8": "Saccharomyces escherichia",
-            "Plasmid:10": {
-              "Chance:3": 7500,
-              "Name:8": "Saccharomyces cerevisiae",
-              "Rarity:1": 0,
-              "Tier:3": 0
-            },
-            "Rarety:1": 2
+            "Name:8": "Saccharomyces escherichia"
           }
         }
       },
