@@ -22,7 +22,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Barnarda dust",
+      "desc:8": "This bee produces Barnarda dust.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -33,75 +33,11 @@
           "Genome:10": {
             "Chromosomes:9": {
               "0:10": {
-                "Slot:1": 0,
                 "UID0:8": "gregtech.bee.speciesBarnarda",
                 "UID1:8": "gregtech.bee.speciesBarnarda"
-              },
-              "1:10": {
-                "Slot:1": 1,
-                "UID0:8": "forestry.speedFastest",
-                "UID1:8": "forestry.speedFastest"
-              },
-              "2:10": {
-                "Slot:1": 2,
-                "UID0:8": "forestry.lifespanShortest",
-                "UID1:8": "forestry.lifespanShortest"
-              },
-              "3:10": {
-                "Slot:1": 3,
-                "UID0:8": "forestry.fertilityNormal",
-                "UID1:8": "forestry.fertilityNormal"
-              },
-              "4:10": {
-                "Slot:1": 4,
-                "UID0:8": "forestry.toleranceBoth1",
-                "UID1:8": "forestry.toleranceBoth1"
-              },
-              "5:10": {
-                "Slot:1": 5,
-                "UID0:8": "forestry.boolFalse",
-                "UID1:8": "forestry.boolFalse"
-              },
-              "6:10": {
-                "Slot:1": 7,
-                "UID0:8": "forestry.toleranceNone",
-                "UID1:8": "forestry.toleranceNone"
-              },
-              "7:10": {
-                "Slot:1": 8,
-                "UID0:8": "forestry.boolTrue",
-                "UID1:8": "forestry.boolTrue"
-              },
-              "8:10": {
-                "Slot:1": 9,
-                "UID0:8": "forestry.boolFalse",
-                "UID1:8": "forestry.boolFalse"
-              },
-              "9:10": {
-                "Slot:1": 10,
-                "UID0:8": "extrabees.flower.rock",
-                "UID1:8": "extrabees.flower.rock"
-              },
-              "10:10": {
-                "Slot:1": 11,
-                "UID0:8": "forestry.floweringFastest",
-                "UID1:8": "forestry.floweringFastest"
-              },
-              "11:10": {
-                "Slot:1": 12,
-                "UID0:8": "forestry.territoryLarger",
-                "UID1:8": "forestry.territoryLarger"
-              },
-              "12:10": {
-                "Slot:1": 13,
-                "UID0:8": "forestry.effectNone",
-                "UID1:8": "forestry.effectNone"
               }
             }
-          },
-          "Health:3": 10,
-          "IsAnalyzed:1": 1,
-          "MaxH:3": 10
+          }
         }
       },
       "isMain:1": 0,

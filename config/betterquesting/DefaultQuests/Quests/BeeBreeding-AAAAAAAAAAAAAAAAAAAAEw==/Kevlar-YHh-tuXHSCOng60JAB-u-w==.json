@@ -22,7 +22,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "\u0026q\u0026q\u0026q§6\u0026z\u0026zFINALLY YOU GOT THIS,TOPTIER BEES EVOLUTION COMPLETE!!!! §r\u0026q§r§r\r\n§r\r\nKevlar is very useful material for ages UV -\u003e UMV. \r\n§f§3\r\n[note]This Bee is a way to skip all those 100500 processing steps.[/note]§f\u0026z§r§r§r",
+      "desc:8": "At last, you have reached the highest tier of bee evolution!\n\nKevlar is a very useful material from UV through UMV.\n\n[note]This bee lets you skip the many processing steps normally required to produce Kevlar.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -33,144 +33,11 @@
           "Genome:10": {
             "Chromosomes:9": {
               "0:10": {
-                "Slot:1": 0,
                 "UID0:8": "gregtech.bee.speciesKevlar",
                 "UID1:8": "gregtech.bee.speciesKevlar"
-              },
-              "1:10": {
-                "Slot:1": 1,
-                "UID0:8": "forestry.speedSlowest",
-                "UID1:8": "forestry.speedSlowest"
-              },
-              "2:10": {
-                "Slot:1": 2,
-                "UID0:8": "forestry.lifespanLongest",
-                "UID1:8": "forestry.lifespanLongest"
-              },
-              "3:10": {
-                "Slot:1": 3,
-                "UID0:8": "forestry.fertilityNormal",
-                "UID1:8": "forestry.fertilityNormal"
-              },
-              "4:10": {
-                "Slot:1": 4,
-                "UID0:8": "forestry.toleranceNone",
-                "UID1:8": "forestry.toleranceNone"
-              },
-              "5:10": {
-                "Slot:1": 5,
-                "UID0:8": "forestry.boolTrue",
-                "UID1:8": "forestry.boolTrue"
-              },
-              "6:10": {
-                "Slot:1": 7,
-                "UID0:8": "forestry.toleranceBoth1",
-                "UID1:8": "forestry.toleranceBoth1"
-              },
-              "7:10": {
-                "Slot:1": 8,
-                "UID0:8": "forestry.boolFalse",
-                "UID1:8": "forestry.boolFalse"
-              },
-              "8:10": {
-                "Slot:1": 9,
-                "UID0:8": "forestry.boolFalse",
-                "UID1:8": "forestry.boolFalse"
-              },
-              "9:10": {
-                "Slot:1": 10,
-                "UID0:8": "forestry.flowersSnow",
-                "UID1:8": "forestry.flowersSnow"
-              },
-              "10:10": {
-                "Slot:1": 11,
-                "UID0:8": "forestry.floweringAverage",
-                "UID1:8": "forestry.floweringAverage"
-              },
-              "11:10": {
-                "Slot:1": 12,
-                "UID0:8": "forestry.territoryAverage",
-                "UID1:8": "forestry.territoryAverage"
-              },
-              "12:10": {
-                "Slot:1": 13,
-                "UID0:8": "forestry.effectSnowing",
-                "UID1:8": "forestry.effectSnowing"
               }
             }
-          },
-          "Health:3": 70,
-          "IsAnalyzed:1": 0,
-          "Mate:10": {
-            "Chromosomes:9": {
-              "0:10": {
-                "Slot:1": 0,
-                "UID0:8": "gregtech.bee.speciesKevlar",
-                "UID1:8": "gregtech.bee.speciesKevlar"
-              },
-              "1:10": {
-                "Slot:1": 1,
-                "UID0:8": "forestry.speedSlowest",
-                "UID1:8": "forestry.speedSlowest"
-              },
-              "2:10": {
-                "Slot:1": 2,
-                "UID0:8": "forestry.lifespanLongest",
-                "UID1:8": "forestry.lifespanLongest"
-              },
-              "3:10": {
-                "Slot:1": 3,
-                "UID0:8": "forestry.fertilityNormal",
-                "UID1:8": "forestry.fertilityNormal"
-              },
-              "4:10": {
-                "Slot:1": 4,
-                "UID0:8": "forestry.toleranceNone",
-                "UID1:8": "forestry.toleranceNone"
-              },
-              "5:10": {
-                "Slot:1": 5,
-                "UID0:8": "forestry.boolTrue",
-                "UID1:8": "forestry.boolTrue"
-              },
-              "6:10": {
-                "Slot:1": 7,
-                "UID0:8": "forestry.toleranceBoth1",
-                "UID1:8": "forestry.toleranceBoth1"
-              },
-              "7:10": {
-                "Slot:1": 8,
-                "UID0:8": "forestry.boolFalse",
-                "UID1:8": "forestry.boolFalse"
-              },
-              "8:10": {
-                "Slot:1": 9,
-                "UID0:8": "forestry.boolFalse",
-                "UID1:8": "forestry.boolFalse"
-              },
-              "9:10": {
-                "Slot:1": 10,
-                "UID0:8": "forestry.flowersSnow",
-                "UID1:8": "forestry.flowersSnow"
-              },
-              "10:10": {
-                "Slot:1": 11,
-                "UID0:8": "forestry.floweringAverage",
-                "UID1:8": "forestry.floweringAverage"
-              },
-              "11:10": {
-                "Slot:1": 12,
-                "UID0:8": "forestry.territoryAverage",
-                "UID1:8": "forestry.territoryAverage"
-              },
-              "12:10": {
-                "Slot:1": 13,
-                "UID0:8": "forestry.effectSnowing",
-                "UID1:8": "forestry.effectSnowing"
-              }
-            }
-          },
-          "MaxH:3": 70
+          }
         }
       },
       "isMain:1": 0,
