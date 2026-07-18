@@ -11165,6 +11165,10 @@ betterquesting.quest.t4W99zCeT8qQIqbNyaCE_Q.desc=The Binnie's Genetics machines 
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEw.name=Be(e) Breeding
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEw.desc=Breeding Bees for Better Bling (experimental, may cause honey leakage)
 
+# Quest: MakeMake
+betterquesting.quest.0pW02AJaQL-_IffLjNEqaQ.name=MakeMake
+betterquesting.quest.0pW02AJaQL-_IffLjNEqaQ.desc=The MakeMake bee allows you to obtain resources from MakeMake.%n%n[note]MakeMake dust provides Infinity and niobium. Why not let bees handle it?[/note]
+
 # Quest: Barren
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABNA.name=Barren
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABNA.desc=The Barren Bee. Not much better.
@@ -11795,7 +11799,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4g.desc=Critical for your Ichor product
 
 # Quest: Space Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.name=Space Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an industrious with a heroic bee to obtain a space bee. You need the temperature to be icy for that.%n%nJust one small step for you, but a giant leap for beekind.%n%n[note]This is the starting point for many space related bees. Maybe check out NEI to see what you can aim for.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an Industrious bee with a Heroic bee to obtain a Space bee. The temperature must be Icy.%n%nJust one small step for you, but a giant leap for beekind.%n%n[note]This is the starting point for many space-related bees. Check NEI to see what you can aim for.[/note]
 
 # Quest: Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=Energium
@@ -11805,37 +11809,97 @@ betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energiu
 betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.name=Attuned
 betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.desc=You're now getting into Magic Bees, and one of its mundane bee species is the Attuned species. These are scooped out of Deep Hives that you can find in the Overworld. These hives are a pain to find, so you should consider just buying hives with coins until you get a princess and a drone. However, if you are a real masochist or completionist try-hard, then here's some information about where they spawn:%n%n* From Y=1 to Y=25%n* In stone, surrounded on 5 sides. Not just vanilla stone.%n* In biomes tagged with one or more of:%n   * MOUNTAINS: Actual mountains may not count. It's the biome type that counts.%n      * Example: Canyon.%n   * HILLS: Again, actual hills don't count.%n      * Example: Snowy Coniferous Forest.%n   * MAGICAL: Unlike the others, they do have some ethereal aspect.%n      * Examples: Magical Forest is obvious, but also Cherry Blossom Grove counts.%n* Surrounded by a small redstone vein. This often fills any open space around them.%n%nThey also like to just kind of show up whatever-what-the-heck in other biomes. Our beekeeping intern found a Deep Hive in a Lush Desert:%n%nLush Desert [HOT, DRY, SAVANNA, LUSH, SANDY]%n%nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv inside of it. Any listed biome that has the tags of HILLS, MOUNTAINS, and/or MAGICAL can generate Deep Hives. You can feed these biomes into a Nature's Compass and see if there are any nearby.%n%nProspector's Scanners will pick up the little ore pockets for these (traces, small samples). If you had one of those end-game ones with a display, it would come up as a few red pixels. Larger ones are probably just regular ore veins. The ore finding wand doesn't do a good job from the surface. Chasing lava veins and tunnels helps. Ore veins filled with redstone will saturate either tool.%n%nOf course, just buying hives is the low-effort way.%n%n[note]Beekeeper's Notes:%n%nIf you get real bad luck and wind up with an ignoble princess, then just get a bunch of drones out of it and convert some other pristine princess afterwards. However, using base princesses will compel the bees to turn into the Common species. There are two choices:%n%n1. Use an Alveary with an Alveary Stabilizer to block mutations.%n2. Create a princess that doesn't line up with the Attuned species' breeding possibilities before starting.[/note]
 
+# Quest: Uranus
+betterquesting.quest.L38n8nAGSHGtZuBgrrf1mg.name=Uranus
+betterquesting.quest.L38n8nAGSHGtZuBgrrf1mg.desc=Radioactive alert! The Uranus bee allows you to obtain resources from Uranus and its moons.
+
+# Quest: Moon
+betterquesting.quest.Mrfvj2-bQ4SGkFsdtNzI1A.name=Moon
+betterquesting.quest.Mrfvj2-bQ4SGkFsdtNzI1A.desc=The Moon bee allows you to obtain resources from the Moon.
+
 # Quest: Salt
 betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.name=Salt
 betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.desc=At this point, you may have noticed that these higher-tier metal combs can't be extracted with a centrifuge. Instead, you need to pass them through a chemical reactor with some hydrochloric acid. This will leave you in a pickle. Here you are, trying to reach post-scarcity, and now you're limited by chlorine.%n%nSpeaking of pickles, hydrochloric acid is kind of like a pickle, right? After all, you make both with salt! The salt bee is perfect for this. Well, the apatite bee line can get you some salt and also some phosphorus for phosphoric acid, but you have to start on ash bees first. Meanwhile, you'll likely take care of the salt bee's pre-requisites on your way through getting all the major ores.%n%nBreed them from clay and aluminium bees on top of a block of salt.%n%nThey will produce salt combs, borax dust, slag combs, and trace lithium combs. The salt combs will require at least an MV-tier centrifuge, but at least it doesn't require processing with acid in a chemical reactor!%n%n[note]Breeder's Notes:%n%nThere are two challenges with this bee:%n%n1. The 5%% chance of mutation. You may consider trying the escritoire minigame to get a boost to this chance. If so, favor aluminium drones because you're probably on your way to the other bees derived from aluminium ancestry, and they all only have a 5%% chance anyways. They could all use a little boost.%n%n2. The humidity swing between clay and aluminium species. Clay bees want it wet, and both aluminium and salt bees want it completely arid. If you can't manipulate the climate or the tolerances of any of the bees, consider starting by plugging clay drones into a modest princess. This has a good chance to get you a clay princess that prefers a dryer climate. You can then do all your breeding exclusively in an arid biome.%n%n[/note]
+
+# Quest: Barnarda
+betterquesting.quest.Ni8HtEo3SuGvXHXa7N7uoA.name=Barnarda
+betterquesting.quest.Ni8HtEo3SuGvXHXa7N7uoA.desc=This bee produces Barnarda dust.
 
 # Quest: Glowstone
 betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.name=Glowstone
 betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.desc=The Glowstone Princess isn't as picky as her peers. There are no breeding requirements besides the species being Gold and Redstone. Hooray!
 
+# Quest: Infinity
+betterquesting.quest.S8uP6eAqQ0Wc8ouKTvq2Hg.name=Infinity
+betterquesting.quest.S8uP6eAqQ0Wc8ouKTvq2Hg.desc=This bee lets you produce molten Infinity in the DTPF!%n%n[note]Faster than an Infiniti drives on the road![/note]
+
 # Quest: Infernal
 betterquesting.quest.SlWASRc9TkKi7H0KiDPAlQ.name=Infernal
 betterquesting.quest.SlWASRc9TkKi7H0KiDPAlQ.desc=Infernal bees are mundane: you get them from hives, and they have no ancestors.%n%nInfernal hives are in The Nether, surrounded by nether quartz. Avoid large nether quartz blobs in ore chunks. Instead, look for little pockets of nether quartz. Any ghast-infested, open area will show a few dabs of them. Alternately, if you're tunneling around, you'll inevitably bump into some of these small pockets.%n%nZombie pigmen will get mad if they spot you nibbling on their quartz, so consider just breaking away the netherrack around the quartz to see that it's a solid cluster that could surround a hive. If so, you are just one or two mining hammer swings away from a likely infernal hive.%n%nThere's another way to get these hives: §obuy them with coins! Ka-ching!%n§o§r%nTheir molten combs are nice for a mundane bee. They centrifuge down to refractory wax, which can be used for fireproof wood and refractory capsules.%n%n[warn]Infernal bees have an aggressive trait, so they'll damage entities--namely, you--when you are within their territory. You want an apiarist's suit before you start working with them. Alternately, if you set them up in an isolated spot, you can just run real fast. This isn't sustainable for all types of aggressive bees, by the way.[/warn]%n%n[note]Breeder's Notes: You can run these bees in the Overworld if you can find a hot/arid climate. When in doubt, place an apiary and look at what it claims the climate is in the upper right of its GUI. Even if the bee isn't jubilant, but you can get drones out of them for breeding. Then you don't have to run back and forth to The Nether to run a cycle with a fussy queen while cross-breeding.%n%nUse nether wart to keep them happy, and don't forget some soul sand!%n%nThey don't cross breed with other mundane bees into stuff like Common and Cultivated bees, so you can convert another mundane princess to an Infernal princess if you have the drones. Just take some care with this. For example, if you try this with an Arctic princess, you could wind up with an Infernal princess that needs a scorching/arid climate, but also needs snow to pollinate.%n[/note]
+
+# Quest: Trinium
+betterquesting.quest.V3flGsmJS0KdoLi63cw0lw.name=Trinium
+betterquesting.quest.V3flGsmJS0KdoLi63cw0lw.desc=The Trinium bee allows you to obtain Trinium.%n%n[note]There is no planet named Trinium, but this bee still provides a very useful ZPM material.[/note]
 
 # Quest: Sunnarium
 betterquesting.quest.VoQgq6UvTZmo3tpUIZs4Rg.name=Sunnarium
 betterquesting.quest.VoQgq6UvTZmo3tpUIZs4Rg.desc=Not only does this bee produce more Glowstone than its parent species, but it's also capable of producing Sunnarium. However, this requires some technical progress: to breed this bee, you will need to place a Superconducting Coil Block beneath it.
 
+# Quest: Kevlar
+betterquesting.quest.YHh-tuXHSCOng60JAB-u-w.name=Kevlar
+betterquesting.quest.YHh-tuXHSCOng60JAB-u-w.desc=At last, you have reached the highest tier of bee evolution!%n%nKevlar is a very useful material from UV through UMV.%n%n[note]This bee lets you skip the many processing steps normally required to produce Kevlar.[/note]
+
 # Quest: Pyrotheum
 betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.name=Pyrotheum
 betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.desc=Blazing Pyrotheum is needed in large quantities to satisfy the unquenchable thirst of your Volcani. This Bee produces Pyrotheum Dust directly - all you need to do is fluid-extract it (after reaching this point in the breeding chain, of course).%n%nBreed these bees from Energy and Redstone Bees. They aren't picky about conditions, requiring only Hellish temperature. Yay!
+
+# Quest: Oriharukon
+betterquesting.quest.ZViN0XrYRwmXV0P60dODWg.name=Oriharukon
+betterquesting.quest.ZViN0XrYRwmXV0P60dODWg.desc=An infinite source of Oriharukon for producing Melodic Alloy.
+
+# Quest: Cosmic Neutronium
+betterquesting.quest._-pwbrvZQVu63dm85nDNsw.name=Cosmic Neutronium
+betterquesting.quest._-pwbrvZQVu63dm85nDNsw.desc=You have finally obtained this new bee, and it is a game-changer! Its combs are especially useful for processing cosmic neutronium in the DTPF, making the recipe run twice as fast.
+
+# Quest: Enceladus
+betterquesting.quest.akUvx1lTTwavvywH38qDtQ.name=Enceladus
+betterquesting.quest.akUvx1lTTwavvywH38qDtQ.desc=The Enceladus bee allows you to obtain resources found on Enceladus, one of Saturn's moons.
+
+# Quest: Saturn
+betterquesting.quest.bBpkCzjZSuimdCrJo3pBrA.name=Saturn
+betterquesting.quest.bBpkCzjZSuimdCrJo3pBrA.desc=The Saturn bee allows you to obtain resources from Saturn.
+
+# Quest: Barnarda F
+betterquesting.quest.csd4ls5qRbSctFw65k9juw.name=Barnarda F
+betterquesting.quest.csd4ls5qRbSctFw65k9juw.desc=Barnarda F - Press F
 
 # Quest: Gold
 betterquesting.quest.jvKBzB6tRpCQGlnboQxSAA.name=Gold
 betterquesting.quest.jvKBzB6tRpCQGlnboQxSAA.desc=There are a plethora of ways to acquire gold, but here's one more for the dedicated apiarist. This breeding chain will eventually allow you to reach Sunnarium. You'll need a Block of Gold and a biome with a hot temperature. Breed them from Copper and Lead.
 
+# Quest: Pluto
+betterquesting.quest.m6IZ4sQnQrekZK6pkb5dOg.name=Pluto
+betterquesting.quest.m6IZ4sQnQrekZK6pkb5dOg.desc=The Pluto bee allows you to obtain resources from Pluto.%n%n[note]Pluto is Kruto![/note]
+
+# Quest: Neptune
+betterquesting.quest.mxb6nh1rQDS5d6WWov5ULQ.name=Neptune
+betterquesting.quest.mxb6nh1rQDS5d6WWov5ULQ.desc=The Neptune bee allows you to obtain resources from Triton and Proteus.
+
 # Quest: Essentia
 betterquesting.quest.noSgUClGTO6zMgENR9pwtw.name=Essentia
 betterquesting.quest.noSgUClGTO6zMgENR9pwtw.desc=This bee produces nothing directly but instead sacrifices its lifetime to generate liquid essentia for all your magical needs. To do so, however, it requires an Apimancer's Drainer beneath its housing.%n%nThe speed at which the bee produces essentia is affected by its production speed. You have to right-click the drainer with a filled phial of the desired essentia to lock it to that type.%n%nYou can breed them from chaotic and ordered bees.%n%n§3You can also place up to 9 drainers beneath a single alveary as long as the blocks at the bottom are plain alveary blocks.
 
+# Quest: Mars
+betterquesting.quest.oofRxeE1QBSGyew83metLg.name=Mars
+betterquesting.quest.oofRxeE1QBSGyew83metLg.desc=Even Elon Musk will envy you after you obtain this bee.
+
 # Quest: Lapotron
 betterquesting.quest.rKrpOyRHRvSF7TeFSskG_A.name=Lapotron
 betterquesting.quest.rKrpOyRHRvSF7TeFSskG_A.desc=This magnificent breed of Bee produces a whole plethora of useful resources, including endless amounts of Lapis, Energium, and Lapotron Dust. However, they are somewhat picky when it comes to breeding; you'll need Energium and Lapis Bees as parents, and the process must take place on the Moon under icy temperatures.
+
+# Quest: Jupiter
+betterquesting.quest.riyWivmcQDypqdGXh3ZRbQ.name=Jupiter
+betterquesting.quest.riyWivmcQDypqdGXh3ZRbQ.desc=The Jupiter bee allows you to obtain resources from Jupiter.
 
 # Quest: Furious
 betterquesting.quest.v-1MbhJWRuiGFBX8KEvsUg.name=Furious
@@ -11844,6 +11908,14 @@ betterquesting.quest.v-1MbhJWRuiGFBX8KEvsUg.desc=If you want to pursue the breed
 # Quest: Volcanic
 betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.name=Volcanic
 betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.desc=One step closer to your goal, these bees can be bred from Furious and Demonic Bees while inside the Nether. Just like their Furious counterparts, they will spawn fire charges while working.
+
+# Quest: Oberon
+betterquesting.quest.zMRva-UMR1-ZlN73PLW3Lw.name=Oberon
+betterquesting.quest.zMRva-UMR1-ZlN73PLW3Lw.desc=The Oberon bee allows you to obtain resources from Oberon.
+
+# Quest: Infinity Catalyst
+betterquesting.quest.zpsHTWA-SfKTyAeJNUMZZA.name=Infinity Catalyst
+betterquesting.quest.zpsHTWA-SfKTyAeJNUMZZA.desc=An Infinity Catalyst bee for your late-game Infinity needs.
 
 
 ## Quest Line: Hardcore End(er) Expansion
