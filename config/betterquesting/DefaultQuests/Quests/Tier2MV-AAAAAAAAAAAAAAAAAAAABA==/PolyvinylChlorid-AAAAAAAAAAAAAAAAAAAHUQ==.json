@@ -121,7 +121,7 @@
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 84,
+          "Count:3": 83,
           "Damage:2": 30013,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
@@ -139,7 +139,7 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 125,
+          "Count:3": 124,
           "Damage:2": 649,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.99"
