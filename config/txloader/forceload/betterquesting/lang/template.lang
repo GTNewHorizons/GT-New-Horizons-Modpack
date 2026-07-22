@@ -103,7 +103,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFww.desc=What the...? You noticed that s
 
 # Quest: Creeping Dread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.name=§9§lCreeping Dread
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.desc=Creepers can make you have a baaaad time.%n%nDrowning Creeper - when it explodes, it surrounds you in a ball of cobble filled with water. Not only do you have to escape, but the cobble is infested with silverfish! And those silverfish are all infernal! The best way to deal with it is to first escape up or down. If you have to clear the cobble ball, first clear the water. Surrounding the cobble with a dirt moat will keep the silverfish inside and unable to hide. Put down punjis, quicksand, or lava, and/or spectral glass. Make a wall with a 1x1 window and use that to break the cobbles - fishing silverfish is especially dangerous.%n%nEnder Creeper - Randomly teleports you a short distance - possibly deep underground.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.desc=Creepers can make you have a baaaad time.%n%nDrowning Creeper - when it explodes, it surrounds you in a ball of cobble filled with water. Not only do you have to escape, but the cobble is infested with silverfish! And those silverfish are all infernal! The best way to deal with it is to first escape up or down. If you have to clear the cobble ball, first clear the water. Surrounding the cobble with a dirt moat will keep the silverfish inside and unable to hide. Put down punjis, quicksand, or lava, and/or spectral glass. Make a wall with a 1x1 window and use that to break the cobbles - fishing silverfish is especially dangerous.%n%nConcussion Creeper - Randomly teleports you a short distance - possibly deep underground.
 
 # Quest: Caught in the Web
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMw.name=§9§lCaught in the Web
@@ -301,7 +301,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB5g.desc=You have found a way to make le
 
 # Quest: Need More Space?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB5w.name=§a§lNeed More Space?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB5w.desc=As you might know: tanned leather is more resistant and good enough for a backpack. Let's get a digger's backpack and a miner's backpack. Each pack holds different items. So use both for your first true back-packed mining experience.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB5w.desc=As you might know: tanned leather is more resistant and good enough for a backpack. Let's get a digger's backpack and a miner's backpack. Each pack holds different items. So use both for your first true back-packed mining experience.%n%nSome tips:%n- You can change a backpack's mode with Sneak + Right Click while holding it. Default mode picks up items from the ground, Resupply mode fills matching stacks in your inventory from the backpack, and Locked mode prevents the backpack from accepting items.%n%n- You can hover over a backpack in your inventory and press the "Activate item in inventory" hotkey (G by default) to open it directly. This does not work while the backpack is in your hotbar.%n%n- While holding a backpack, you can use Sneak + Right Click on a chest, drawer, or any other block face that accepts items to transfer the backpack's contents into that inventory. This can be used to empty backpacks quickly.
 
 # Quest: You Need Them All!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB6A.name=§a§lYou Need Them All!
@@ -365,7 +365,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4A.desc=The Ore Finder Wand reduces the
 
 # Quest: A Better Crafting Table
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.name=§a§lA Better Crafting Table
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.desc=Tired of your stuff falling out of your crafting table every time you walk away? This fancy table from Tinker's Construct has slots to hold the items in your recipe.%n%nYou can also use it to upgrade tools with 8 modifiers at a time. Very handy for Redstone additional speed and Lapis looting!%n%nWhen it's placed next to a vanilla chest, it will even show the chest's inventory in the crafting window. Single or double vanilla chests only, please.%n%nCut it again for a sleek, low profile version.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.desc=Tired of your stuff falling out of your crafting table every time you walk away? This fancy table from Tinker's Construct has slots to hold the items in your recipe.%n%nYou can also use it to upgrade tools with modifiers like Redstone for additional speed and Lapis for fortune/looting!%n%nWhen it's placed next to a vanilla chest, it will even show the chest's inventory in the crafting window. Single or double vanilla chests only, please.%n%nCut it again for a sleek, low profile version.
 
 # Quest: All the Finest Cuts of Meat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxA.name=§a§lAll the Finest Cuts of Meat
@@ -1892,7 +1892,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdg.desc=Now that you have an MV extrude
 
 # Quest: Gut-Enough For You? Bet You Thought Newspapers Were Dead!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeQ.name=§6§lGut-Enough For You? Bet You Thought Newspapers Were Dead!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeQ.desc=When used together, the Typesetting Table and Printing Press allow you to duplicate enchanted books. You'll need a lot of XP, so either build a mob grinder or get farming. A Fortune III book, for example, requires 40 levels to convert into an enchanted plate.%n%nTo use the §lTypesetting Table§r, place a print press chase in the top slot and an enchanted book in the bottom left slot. Sneak right-click the enchanted book to convert it into an enchanted plate if you have enough XP.%n%nTo use the §lPrinting Press§r, place an enchanted plate in the center of the machine, ink sacs on the top metal plate, and books on the bottom left side of the counter. It immediately starts processing without any power or redstone signal.%n%nWearing Reading Glasses, Tinted Glasses, or a Monocle will display more information about these blocks when looking at them.%n%nEach enchanted plate can make three enchanted books before breaking, but the trick is to make two books and then repair it in a Thaumic Restorer for unlimited uses.%n%n[note]You'll need some Thaumium ingots. You can get into Thaumcraft, find some in a chest, or try breeding the Magic Metal Berry crop.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeQ.desc=When used together, the Typesetting Table and Printing Press allow you to duplicate enchanted books. You'll need a lot of XP, so either build a mob grinder or get farming. A Fortune III book, for example, requires 40 levels to convert into an enchanted plate.%n%nTo use the §lTypesetting Table§r, place a print press chase in the top slot and an enchanted book in the bottom left slot. Sneak right-click the enchanted book to convert it into an enchanted plate if you have enough XP.%n%nTo use the §lPrinting Press§r, place an enchanted plate in the center of the machine, ink sacs on the top metal plate, and books on the bottom left side of the counter. It immediately starts processing without any power or redstone signal.%n%nWearing Reading Glasses, Tinted Glasses, or a Monocle will display more information about these blocks when looking at them.%n%nEach enchanted plate can make three enchanted books before breaking, but the trick is to make two books and then repair it in a Thaumic Restorer for unlimited uses.%n%n[note]You'll need some Thaumium ingots. You can get into Thaumcraft, find some in a chest, or try breeding the Thaumium oreberry crop.[/note]
 
 # Quest: Do You Feel Unlucky?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeg.name=§6§lDo You Feel Unlucky?
@@ -2863,7 +2863,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.desc=ASoCs. Advanced system on a chi
 
 # Quest: Polybenzimidazole
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.name=§9§lPolybenzimidazole
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=Polybenzimidazole or PBI is a synthetic fiber needed in ZPM Hulls and in high tier solar panels, and can also be used to make some other items more efficiently. It has many steps to produce it. Let's start with chlorobenzene, but keep in mind you'll need to complete the other non-platline IV-tier chemical quests too.%n%n§6Already automated PBI? Hold 256 sheets to skip this questline.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=Polybenzimidazole or PBI is a synthetic fiber needed in ZPM Hulls and in high tier solar panels, and can also be used to make some other items more efficiently. It has many steps to produce it. Let's start with chlorobenzene, but keep in mind you'll need to complete the other non-platline IV-tier chemical quests too.%n%n§3Already automated PBI? Hold 128 sheets to skip this questline.
 
 # Quest: Nitration Mixture
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnA.name=§9§lNitration Mixture
@@ -3283,7 +3283,7 @@ betterquesting.quest.n22vWzZHSu6Gn63EBV1FUw.desc=Congratulations! You have compl
 
 # Quest: Thorium 232?
 betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.name=§9§lThorium 232?
-betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.desc=So you were looking at Thorium 232 and wondering how to make it?%n%nYou could centrifuge it at a horrible chance rate with a long recipe but there are better ways of obtaining it.%n%nThe better ways are processing chains that can be made in three different paths with the third path being unlocked at a further stage after obtaining Fusion with the Neutron Activator.%n%nThe first path requires the chemical plant multiblock that you might not be familiar with. It's the fastest and with only two steps to obtain the Thorium 232, but requires borax which can only be obtained (for now) through mining salt veins as a byproduct or through bees (probably the better option if you already have some).%n%nThe second path is a six step processing chain that requires Chemical Reactors, a Centrifuge, and an EBF. Even though it is longer it offers much better conversion ratio (75%% instead of 25%% in chemical plant), instead of borax it requires 100L of fluorine per dust (nitric acid can be fully recycled) so it can be scaled better than borax.
+betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.desc=So you were looking at Thorium 232 and wondering how to make it?%n%nYou could centrifuge it using a long recipe with a horrible output chance, but there are better ways to obtain it.%n%nThere are three processing paths, although the third is not unlocked until after you unlock Fusion and gain access to the Neutron Activator.%n%nThe first path requires the Chemical Plant multiblock, which you may not be familiar with. It is the fastest path, requiring only two steps to obtain Thorium 232, but it requires borax. You can obtain borax by mining salt veins (as a byproduct), from bees, or through CropsNH.%n%nThe second path is a six-step processing chain that requires Chemical Reactors, a Centrifuge, and an EBF. Although it is longer, it offers a much better conversion ratio (75%%, rather than 25%% in the Chemical Plant). Instead of borax, it requires 100 L of fluorine per dust; the nitric acid can be fully recycled, so this path scales better than the borax route.
 
 # Quest: Getting Samarium in LuV
 betterquesting.quest.tu5Lk_jKQR-qgTYD1o3sLg.name=§9§lGetting Samarium in LuV
@@ -3332,7 +3332,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvA.desc=Nuclear fusion is the next majo
 
 # Quest: Getting Europium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvQ.name=§d§lGetting Europium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvQ.desc=To make a mk2 reactor, ender quarry, T5 rocket, unlock ZPM, or other things, you will need europium. Once you make a t5 rocket you will be able to find this as part of a very rare ore. Until then you need to produce it in the reactor. But it's probably not worth it to look for the ore anyway.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvQ.desc=To make a mk2 reactor, ender quarry, T5 rocket, unlock ZPM, or other things, you will need europium. Once you make a t5 rocket you will be able to find this as part of a very rare ore. Until then you need to produce it in the reactor. But it's probably not worth it to look for the ore anyway.%n%n[note]Now that you have produced europium, you can process the Europium III Oxide from your Monaline if you built one.[/note]
 
 # Quest: Now You're Really Gonna Hate This 1-4 in LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0Q.name=§d§lNow You're Really Gonna Hate This 1-4 in LuV
@@ -3438,9 +3438,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLA.desc=For Cubic Zirconia, you'll need
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLQ.name=§d§lFetching Prasiolite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLQ.desc=For Prasiolite you'll want to put Quartzite and Amethyst in an EBF to get Flawed Prasiolite. You'll need to either use the Implosion Compressor or Precision Laser Engraver to up the quality to Exquisite. You'll also need the dust version as well, so don't convert them all.%n%nYou can find Amethyst in caves on the Overworld, but for the amount you'll need, you might want to make a stop on Venus.%n%nIf you have a T5 rocket, you can get the ore from Ross128ba directly and run it through the sifter.
 
-# Quest: RNG is Definitely Good Game Design
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLg.name=§d§lRNG is Definitely Good Game Design
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLg.desc=Once you've collected all the materials, you'll need to make Magneto Resonatic Dust and Circuit Compound Mk3 in a Mixer.%n%nCombine these in the Forming Press to make Raw Imprint Supporting Boards.%n%nYou then craft those into Imprint Supporting Boards in an Autoclave in a Cleanroom with Soldering Alloy. Unfortunately, there's only a 75%% chance of succeeding, so I had you collect extra materials. You can use the leftovers for your next imprint.
+# Quest: Imprint Supporting Boards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLg.name=§d§lImprint Supporting Boards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLg.desc=Once you've collected all the materials, you'll need to make Magneto Resonatic Dust and Circuit Compound Mk3 in a Mixer.%n%nCombine these in the Forming Press to make Raw Imprint Supporting Boards.%n%nYou then craft those into Imprint Supporting Boards in an Autoclave in a Cleanroom with Soldering Alloy.
 
 # Quest: Naquadah Alloy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLw.name=§d§lNaquadah Alloy
@@ -3853,7 +3853,7 @@ betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.desc=The advanced machines you are n
 
 # Quest: Prismatic Naquadah Composite Sheet
 betterquesting.quest.sHI1n7unRWecpNcyBAgUfw.name=§b§lPrismatic Naquadah Composite Sheet
-betterquesting.quest.sHI1n7unRWecpNcyBAgUfw.desc=§5§lDehydrating§r this §2Prismatic Naquqdah Composite Slurry§r over the top of §2Tungsten Carbide§r & §2Lead foil§r creates a completely §3Radiation-Proof Composite Sheet§r. This will prove to be very useful in protecting your environment from radiation emitting structures.
+betterquesting.quest.sHI1n7unRWecpNcyBAgUfw.desc=§5§lDehydrating§r this §2Prismatic Naquadah Composite Slurry§r over the top of §2Tungsten Carbide§r & §2Lead foil§r creates a completely §3Radiation-Proof Composite Sheet§r. This will prove to be very useful in protecting your environment from radiation-emitting structures.
 
 # Quest: Prismatic Crystal
 betterquesting.quest.xQE-vyLyTeCn0SEIHjbkNQ.name=§b§lPrismatic Crystal
@@ -4002,7 +4002,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmQ.desc=After getting your sample you n
 
 # Quest: Actually Copying Cultures
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmg.name=§2§l§nActually Copying Cultures
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmg.desc=To copy a culture, you'll need%n1) A Sterilized Petri Dish%n2) A Plasma Membrane (made from Stemcells, or gotten while making EnzymesSollution)%n3) Stemcells%n4) A Data Orb with the appropriate data on it%n5) Liquid DNA%n6) A UV Bio Lab%n7) A Clonal Cellular Synthesis Module%n%nYou can change out the Data Orb for one with whatever culture you wish to copy. Keep in mind that it might be easier to make a second culture the normal way, and that there's generally an alternative recipe that uses the fluid it produces to make it with a higher chance.%n%nPS: This recipe is the only one in NEI that uses this module, so you can find it if you look, but the number will change, so I can't specify which page.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmg.desc=To copy a culture, you'll need:%n%n1) A Sterilized Petri Dish%n2) A Plasma Membrane (made from Stemcells, or gotten while making EnzymesSollution)%n3) Stemcells%n4) A Data Orb with the appropriate data on it%n5) Liquid DNA%n6) A UV Bio Lab%n7) A Clonal Cellular Synthesis Module%n%nYou can change out the Data Orb for one with whatever culture you wish to copy. Keep in mind that it might be easier to make a second culture the normal way, and that there's generally an alternative recipe that uses the fluid it produces to make it with a higher chance.%n%nPS: This recipe is the only one in NEI that uses this module, so you can find it if you look, but the number will change, so I can't specify which page.
 
 # Quest: General Purpose Fermenting Bacteria
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmw.name=§2§l§nGeneral Purpose Fermenting Bacteria
@@ -7070,7 +7070,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.desc=If you want to make more advanc
 
 # Quest: A Very Useful Scanner
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.name=§6§lA Very Useful Scanner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.desc=The portable scanner is a tool capable of showing advanced information about almost every block in the game. In order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.%n%nIt can scan crops by right-clicking it to fully scan it, unlike a cropnalyzer which needs a seed bag in your inventory, and takes multiple goes. Crops that were scanned in the world will drop a scanned seed bag.%n%nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load - be sure to check the full chat window for additional details.%n%nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value. It also gives information about pollution level in the chunk the scanned block belongs to.%n%nIn addition it shows when the cleanroom has reached its 100 percent efficiency level.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.desc=The portable scanner is a tool capable of showing advanced information about almost every block in the game. In order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.%n%nIt can scan crops by right-clicking them.%n%nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load - be sure to check the full chat window for additional details.%n%nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value. It also gives information about pollution level in the chunk the scanned block belongs to.%n%nIn addition it shows when the cleanroom has reached its 100 percent efficiency level.
 
 # Quest: The 'Water Problems' Are Solved
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADug.name=§6§lThe 'Water Problems' Are Solved
@@ -7118,7 +7118,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFQ.desc=Once you build your vacuum free
 
 # Quest: Playing With the Big Boys, Chemically
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.name=§6§lPlaying With the Big Boys, Chemically
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.desc=This facility will process certain chemical recipes you'll need later on, like Rocket Fuels. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a minecart load of resources, so start mining!%n%nCatalysts are needed in some recipes, place them in the Catalyst Housing. They use durability, this includes ones that don't look like it.%n%n[note]You can make Silicon Carbide in the mixer, you don't need the ABS.[/note]%n%nValid solid casings: (Determines CP Tier for recipes)%n1 Strong Bronze Machine Casing%n2 Solid Steel Machine Casing%n3 Sturdy Aluminium Machine Casing%n4 Clean Stainless Steel Machine Casing%n5 Stable Titanium Machine Casing%n6 Robust Tungstensteel Casing%n7 Vigorous Laurenium Machine Casing%n8 Rugged Botmium Machine Casing%n%nValid machine casings: (Determines maximum hatch/bus tier)%nLV-UHV Machine Casing, UHV unlocks any hatch/bus.%n%nValid pipe casings: (+2 Parallels, -20%% chance to consume catalyst durability per pipe casing starting with 2 parallels and 100%% chance for the first one.)%nBronze%nSteel%nTitanium%nTungstensteel%n%nAll coils from Cupronickel to Eternal are valid. Each one increases speed by +50%%, starting at 50%% speed for Cupronickel.%n%n[note]Additionally: If you have at least Awakened Draconium Coils and Tungstensteel pipe casings, then no catalyst is consumed at all![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.desc=This facility will process certain chemical recipes you'll need later on, like Rocket Fuels. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a minecart load of resources, so start mining!%n%nCatalysts are needed in some recipes, place them in the Catalyst Housing. They use durability, this includes ones that don't look like it.%n%n[note]You can make Silicon Carbide in the mixer, you don't need the ABS.[/note]%n%nValid solid casings: (Determines Chemical Plant Tier for recipes)%n1 Strong Bronze Machine Casing%n2 Solid Steel Machine Casing%n3 Sturdy Aluminium Machine Casing%n4 Clean Stainless Steel Machine Casing%n5 Stable Titanium Machine Casing%n6 Robust Tungstensteel Casing%n7 Vigorous Laurenium Machine Casing%n8 Rugged Botmium Machine Casing%n%nValid machine casings: (Determines maximum hatch/bus tier)%nLV-UHV Machine Casing, UHV unlocks any hatch/bus.%n%nValid pipe casings: (+2 Parallels, -20%% chance to consume catalyst durability per pipe casing starting with 2 parallels and 100%% chance for the first one.)%nBronze%nSteel%nTitanium%nTungstensteel%n%nAll coils from Cupronickel to Eternal are valid. Each one increases speed by +50%%, starting at 50%% speed for Cupronickel.%n%n[note]Additionally: If you have at least Awakened Draconium Coils and Tungstensteel pipe casings, then no catalyst is consumed at all![/note]
 
 # Quest: Better Glass Upgrade, EV Glass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_A.name=§8§lBetter Glass Upgrade, EV Glass
@@ -7194,7 +7194,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALTQ.desc=To process more advanced materi
 
 # Quest: Neutron Activator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.name=§6§lNeutron Activator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.desc=The Neutron Activator is a unique machine that you will use for processing Naquadah, and eventually Naquadah Fuel should you choose to do so.%n%nUnlike traditional multis, instead of using a regular energy hatch, this machine relies on a Neutron Accelerator that will need to be regulated by a Sensor Hatch. §3(The Neutron Accelerator needs to be provided power just like an energy hatch)§r%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerators aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.%n%n§dYou can enable batch mode with wire cutters.§r%n%n[note]The more height/speed casings you have, the more inefficient the EU->eV conversion becomes, so you then need more power. The math is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.desc=The Neutron Activator is a unique machine that you will use for processing Naquadah, and eventually Naquadah Fuel should you choose to do so.%n%nUnlike traditional multis, instead of using a regular energy hatch, this machine relies on a Neutron Accelerator that will need to be regulated by a Sensor Hatch. §3(The Neutron Accelerator needs to be provided power just like an energy hatch)§r%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerators aren't running, NKE will decrease 72keV/s.%n%n§dYou can enable batch mode with wire cutters.§r%n%n[note]The more height/speed casings you have, the more inefficient the EU->eV conversion becomes, so you then need more power. The math is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.[/note]
 
 # Quest: Neutron Sensor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.name=§6§lNeutron Sensor
@@ -7296,8 +7296,8 @@ betterquesting.quest.bLz_cD33RE24mtOb2aLxXg.desc=The Decay Warehouse stores a si
 betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.name=§6§lDon't Lose That Multiblock Miner!
 betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.desc=It's easy to lose Ore Drilling Plants. You're a busy engineer, you know? You can't be bothered to remember trifling things like "where, in what galactic backwater did I last place my miner." You could do something boring like "write down the location of the miner" or "put up a sign with the miner's location in my ore processing area," but there's a better way.%n%nEnter the Metrics Transmitter Cover. This cover, when attached to a multiblock miner (or any GregTech machine), spawns in a GregTech Advanced Sensor Card paired to the host machine. This card, when inserted into a NuclearCraft Industrial Information Panel, will receive runtime information transmitted by the host machine, including its current location. Additionally, it returns the same information that its lower-tech sibling, the GregTech Sensor Kit, provides. Unlike the GregTech Sensor Kit, the Metrics Transmitter Cover §nworks interdimensionally and at any range without the need of range upgrades.§r In addition, since covers remain on machines when they are dismantled, the paired sensor card §nwill continue to work even if the host machine is relocated, and never needs to be recalibrated.§r This makes it perfect for the Ore Drilling Plant and Oil/Gas/Fluid Drilling Rig, which are deployed in the field and often have to be relocated.%n%nHowever, like always, there's a catch. If the Metrics Transmitter Cover is detached from its host machine, §nthe paired sensor card will be destroyed.§r Maybe you shouldn't be using a crowbar around sensitive electronics...
 
-# Quest: Using that Algae
-betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.name=§6§lUsing that Algae
+# Quest: Using That Algae
+betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.name=§6§lUsing That Algae
 betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.desc=So you've created the Chemical Plant, and an Algae Farm, excellent! Time to make some use of it instead of letting it sit there collecting. There's quite a few recipes you can make with Algae, but we'll start with a more simple one.%n%nFor this you'll need some Brown Algae and some Green Algae. This means you need at minimum HV machine casings for the bottom of the Algae Farm. HV will produce up to 8 brown algae every 35 seconds, but can at worst case produce 2 in 105 seconds, while EV will produce at best 20 every 30 seconds, and at worst 12 in 90 seconds.%n%nOnce you have some Green and Brown Algae, you'll have to put them in a tier 2 Chemical Plant (steel based) with some distilled water, and you'll get back Sulfuric Acid. Cheap to produce once you have it all set up, a bit expensive to get there though! There's another Sulfuric acid recipe you can use as well later on, but it'll cost higher tier Algae and a higher tier Chemical Plant.
 
 # Quest: A Little More Sigma (Squared)
@@ -7362,7 +7362,7 @@ betterquesting.quest.vK1Ed8HPTTms4QxfaA_P8Q.desc=With access to even more advanc
 
 # Quest: More Algae Uses
 betterquesting.quest.wgxwGsMBScCIIWzrgyfb8w.name=§6§lMore Algae Uses
-betterquesting.quest.wgxwGsMBScCIIWzrgyfb8w.desc=Now that you have Titanium, why not make about 79 EV machine casings for some cheap Ammonia? The ratio is about 50mb to one Golden-Brown Algae. At EV you have a 10%% chance to get 8 about every 30 seconds. It also does not require a Chemical Plant, but it will require an MV Assembler and an MV Fluid Extractor at minimum.
+betterquesting.quest.wgxwGsMBScCIIWzrgyfb8w.desc=Now that you have an Algae Pond, why not create Golden-Brown Algae for some cheap Ammonia? The ratio is about 50 mB of Ammonia per Golden-Brown Algae. At EV, each cycle has a 90%% chance to produce 4 Golden-Brown Algae and takes 60 seconds.%n%nThis process does not require a Chemical Plant, but it does require an MV Assembler and an MV Fluid Extractor at minimum.
 
 
 ## Quest Line: Mass Processing
@@ -8506,7 +8506,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALsw.desc=This sulfuric waste that came o
 
 # Quest: Oil Reservoirs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALtA.name=Oil Reservoirs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALtA.desc=Unlike the oil spouts that are visible on the surface, the underground reservoirs cannot be seen or measured without the use of specific tools.%nThe main quest for prospecting "Analyzing the Soil" is in the LV tab.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALtA.desc=Unlike the oil spouts that are visible on the surface, the underground reservoirs cannot be seen or measured without the use of specific tools like the Handheld Prospector.%n%nThe main quest for prospecting "Analyzing the Soil" is in the LV tab.
 
 # Quest: More Hydrogen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALtQ.name=More Hydrogen
@@ -8518,7 +8518,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALtg.desc=There is a better way to get fu
 
 # Quest: Diesel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALtw.name=Diesel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALtw.desc=Finally, the oil of the gods. At least, early gods.%n%nDiesel, as a power source, has widely been known as the optimal choice all the way up to EV, when you unlock the ability to make nukes. It can be further upgraded into Cetane-Boosted Diesel in HV, by adding another chemical chain to it, but a fuel value of 480k EU on a fuel that needs so few machines to be made is quite exceptional. It should be automated as soon as possible, to ensure that you won't run out of power when you need it the most.%n%nAt this stage, you can use either LV or MV Diesel Generators. Using the LV ones will mean you need to make more of them, and more pollution, but they have 95%% fuel efficiency compared to MV's 90%%. It's a difference, but an automated Diesel setup is unlikely to be affected by a 5%% change in efficiency.%n%nAs you progress, fuel will become more and more power-dense, but also need more steps automated. The next tier is much harder than this one, so get ready!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALtw.desc=Finally, the oil of the gods. At least, early gods.%n%nDiesel, as a power source, has widely been known as the optimal choice all the way up to EV, when you unlock the ability to make nukes. It can be further upgraded into Cetane-Boosted Diesel in HV, by adding another chemical chain to it, but a fuel value of 480k EU on a fuel that needs so few machines to be made is quite exceptional. It should be automated as soon as possible, to ensure that you won't run out of power when you need it the most.%n%nAt this stage, you can use either LV or MV Combustion Generators. Using the LV ones will mean you need to make more of them, and more pollution, but they have 95%% fuel efficiency compared to MV's 90%%. It's a difference, but an automated Diesel setup is unlikely to be affected by a 5%% change in efficiency.%n%nAs you progress, fuel will become more and more power-dense, but also need more steps automated. The next tier is much harder than this one, so get ready!
 
 # Quest: More Oil Options
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALuA.name=More Oil Options
@@ -9461,7 +9461,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar s
 
 # Quest: RP-1 Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=§9§lRP-1 Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.desc=One option to fuel your T1 and T2 rocket is RP-1 Rocket Fuel. First, you'll need either Diesel or Coal Tar. Coal Tar is the better option in the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.%n%n[note]If you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore.[/note]%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T4 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nSince there is no oxygen in space, you will also need an oxidizer. But since the Galacticraft rocket can only take one fluid we have simplified that a bit. Just combine Liquid Oxygen and RP-1 to make the fully functional RP-1 Rocket Fuel.%n%nIf you're confused about how to use/make the Chemical Plant, refer to the manual with the same name or the quest in the GT++ quest tab.%n%n[note]PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.desc=One option to fuel your T1 and T2 rocket is RP-1 Rocket Fuel. First, you'll need either Diesel or Coal Tar. Coal Tar is the better option in the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.%n%n[note]If you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore.[/note]%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T4 240 EU/t recipe, so you'll need to make the Chemical Plant out of Stainless Steel and HV Machine Casings.%n%nSince there is no oxygen in space, you will also need an oxidizer. But since the Galacticraft rocket can only take one fluid we have simplified that a bit. Just combine Liquid Oxygen and RP-1 to make the fully functional RP-1 Rocket Fuel.%n%nIf you're confused about how to use/make the Chemical Plant, refer to the manual with the same name or the quest in the GT++ quest tab.%n%n[note]PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.[/note]
 
 # Quest: Coal Tar Distilling
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.name=§9§lCoal Tar Distilling
@@ -10453,7 +10453,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8Q.desc=The Essentia and Infusion Provi
 
 # Quest: Ordering Essentia
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8g.name=Ordering Essentia
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8g.desc=The Distillation Pattern Encoder allows you to automatically melt down items in your alchemical furnace to provide essentia.%nFirst, place something that is already scanned in the device, along with a blank pattern. You can create the pattern by clicking the button, or click the different aspects to select one that is not the highest. This will create a pattern of item -> essentia. Then use an ME Interface pointing at a furnace with the pattern in it. You can now craft that type of essentia the same way you would a normal craft, but through the Essentia Terminal.%n%n[warn]There isn't a way to have the system craft essentia on demand for a craft, unfortunately.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8g.desc=The Distillation Pattern Encoder allows you to automatically melt down items in your alchemical furnace to provide essentia.%nFirst, place something that is already scanned in the device, along with a blank pattern. You can create the pattern by clicking the button, or click the different aspects to select one that is not the highest. This will create a pattern of item -> essentia. Then use an ME Interface pointing at a furnace with the pattern in it. You can now craft that type of essentia the same way you would a normal craft.%n%n[warn]There isn't a way to have the system craft essentia on demand for a craft, unfortunately.[/warn]
 
 # Quest: Autocrafting Magic Stuff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8w.name=Autocrafting Magic Stuff
@@ -12133,7 +12133,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w.desc=All the things you've discovere
 
 # Quest: Improving Your Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.name=Improving Your Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.desc=Your wand does a great job in storing and releasing vis as you please. However, those iron caps are... §oweak§r. If you don't pay enough attention to it, it might hurt the node. They also make crafting harder. Maybe you should try to improve it with caps made out of a more valuable material. Like... gold, perhaps?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.desc=Your wand does a great job in storing and releasing vis as you please. However, those iron caps are... §oweak§r. They also make crafting harder. Maybe you should try to improve it with caps made out of a more valuable material. Like... gold, perhaps?%n%n[note]You'll want the discount from these gold caps to make your next wand![/note]
 
 # Quest: Getting Shards
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.name=Getting Shards
@@ -12213,7 +12213,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_w.desc=And lava! It's an excellent mag
 
 # Quest: Not Coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABAA.name=Not Coal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAA.desc=Way better. More than Lignite even. It even speeds up the dissolving of items in an alchemical furnace.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAA.desc=Way better. More than Lignite even. It even speeds up the dissolving of items in an alchemical furnace & can be used in the BBF.
 
 # Quest: Save the Squids, We Must
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABAQ.name=Save the Squids, We Must
@@ -12809,6 +12809,10 @@ betterquesting.quest.u2VAsYrLRE-JvHOMy132lQ.desc=Maintaining multiblocks can be 
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGA.name=Kaaami, Haaaami, ... HA!
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGA.desc=Ultimate (magical) POWER!!!
 
+# Quest: Lord of the Rings?
+betterquesting.quest.775_Z_nVQ0mk_ez5HJ15eg.name=Lord of the Rings?
+betterquesting.quest.775_Z_nVQ0mk_ez5HJ15eg.desc=Finally, a shot at real power!%n%nUsing the Primordial Pearl, you can now create Master Rings. These rings grant you a very generous vis discount corresponding to their type.%n%nRumor has it that they can be combined into a very powerful ring...%n%n[note]The pearl is not consumed when crafting these rings.[/note]
+
 # Quest: The Power of Gods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABMw.name=The Power of Gods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABMw.desc=The pearl you've found has some interesting effects on you. Not only are the voices almost gone, somehow it has also expanded your perception. You can "feel" the magic around you. This is definitely worth some further investigation.
@@ -12925,9 +12929,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqA.desc=This is the best non-endgame/cr
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRw.name=These Items Will Not 'Be Back'
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRw.desc=One of the more useful things you can do with the pearl is to make a better Alchemical Furnace. You can melt items into essentia way faster with this.%n%n[note]The pearl is not used up, nor does it take durability damage from this craft.[/note]
 
+# Quest: Master Sky Rings
+betterquesting.quest.B8wl-jDeRKurSwRIOFwxWA.name=Master Sky Rings
+betterquesting.quest.B8wl-jDeRKurSwRIOFwxWA.desc=Remember when I mentioned that these could be used to create a more powerful ring? Well, the rumor is true.%n%nMake 16 of each type of Master Sky Ring to continue down this path, but beware the journey that lies ahead!%n%n[note]If you've already reached the end of this recipe line, just hold the ring and it will skip these quests![/note]
+
 # Quest: Large Essentia Smeltery
 betterquesting.quest.GoTATpPcQAuqGyfJG_dI-Q.name=Large Essentia Smeltery
 betterquesting.quest.GoTATpPcQAuqGyfJG_dI-Q.desc=The §5§lLarge Essentia Smeltery§r is the GT version of the Alchemical Furnace which supercedes the Advanced Alchemical Furnace and is extremely fast at melting down items into essentia.%n%nUnlike its predecessor which required centi-vis alone for power, this will also require electricity. The amount of electricity required is specified by the tier of the Essentia Diffusion Cell and the amount of parallels the machine has.%n%nNovice -> EV%nAdept -> IV%nMaster -> LuV%nGrandmaster -> ZPM%n%nThe amount of parallels made available to the machine is determined by both the Essentia Diffusion Cell tier and the length:%n§3Parallels = (2^Tier * (Length-1))§r
+
+# Quest: Runeforged Thaumaturge's Ring
+betterquesting.quest.LEdLGZmUQRajQVkXPr9HgQ.name=Runeforged Thaumaturge's Ring
+betterquesting.quest.LEdLGZmUQRajQVkXPr9HgQ.desc=At last... behold the power of the Runeforged Thaumaturge's Ring.%n%nIt grants an unbelievable §5§l10%%§r discount on all primal aspects, along with additional runic shielding. Only the most powerful thaumaturges could even hope to wield it.%n%nThe shielding is so strong that it naturally blocks the effects of Poison and Wither.%n%n[warn]Unlike before, the pearl will be consumed when crafting these rings.[/warn]
+
+# Quest: Master Earth Rings
+betterquesting.quest.lff8G4UaSBqDMNDUmQBkFQ.name=Master Earth Rings
+betterquesting.quest.lff8G4UaSBqDMNDUmQBkFQ.desc=Remember when I mentioned that these could be used to create a more powerful ring? Well, the rumor is true.%n%nMake 16 of each type of Master Earth Ring to continue down this path, but beware the journey that lies ahead!%n%n[note]If you've already reached the end of this recipe line, just hold the ring and it will skip these quests![/note]
+
+# Quest: Ring of the Sky
+betterquesting.quest.sCq0JUgWRly6GZBEZsq38w.name=Ring of the Sky
+betterquesting.quest.sCq0JUgWRly6GZBEZsq38w.desc=The Ring of the Sky is a very powerful ring. In its highest form, it grants mastery over all three Sky Rings at once, a three-for-one combo!%n%n[note]These infusions are more powerful. They won't destroy your pearl, but they will drain it, requiring a separate infusion to recharge it before it can be reused.[/note]
+
+# Quest: Ring of the Earth
+betterquesting.quest.zXgHTuVzT2q5xOXO8r-HNg.name=Ring of the Earth
+betterquesting.quest.zXgHTuVzT2q5xOXO8r-HNg.desc=The Ring of the Earth is a very powerful ring. In its highest form, it grants mastery over all three Earth Rings at once, a three-for-one combo!%n%n[note]These infusions are more powerful. They won't destroy your pearl, but they will drain it, requiring a separate infusion to recharge it before it can be reused.[/note]
 
 
 ## Quest Line: Focus on Wand Foci & EMT
@@ -14339,7 +14363,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=In order to get aluminium ingot
 
 # Quest: A Quite Different Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.name=§c§lA Quite Different Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.desc=Regular chests can fill up rather quickly if you happen to collect mob drops like swords and/or armor. By using a cabinet, you can store up to 270 items of the same type. Also, it doesn't need a dolly - you can break it normally and it will retain contents.%n%nPerfect for storing Forestry saplings, bees, or really anything that shares an ID but won't stack because of NBT!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.desc=Regular chests can fill up rather quickly if you happen to collect mob drops like swords and/or armor. By using a cabinet, you can store up to 270 items of the same type. Also, it doesn't need a dolly - you can break it normally and it will retain contents.%n%nPerfect for storing Forestry saplings, bees, or really anything that shares an ID but won't stack because of NBT!%n%n[note]Due to a bug in Extra Utilities, Filing Cabinets may incorrectly accept stackable and non-stackable items with different item IDs. To ensure that your cabinets contain only the items you want to store, use an item filter when inserting items through automation.[/note]
 
 # Quest: Dark Steel Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA.name=§6§lDark Steel Tools
@@ -14651,7 +14675,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.desc=If you haven't noticed, this wo
 
 # Quest: Moron's Manual for Effective EBFing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.name=§6§lMoron's Manual for Effective EBFing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.desc=Welcome to the latest Moron's Manual, Effective EBFing! This manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from things pollution affects, like farmland. Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow. Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler hatch is placed on a middle block. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF. Especially at LV, those few blocks make a big difference! Every amp of energy traveling over a cable loses a little bit - and you'll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you're poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers' generators. If you make 9 slot battery buffers, you can fill them up over time to get longer running time until you get stable power.%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them such as chests or BC tanks. They will also void if they're full, so keep an eye on them!%n%nWhen building multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too. Not recommended for energy and maintenance hatches!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.desc=Welcome to the latest Moron's Manual, Effective EBFing! This manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from things pollution affects, like farmland. Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow. Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler hatch is placed on a middle block. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF. Especially at LV, those few blocks make a big difference! Every amp of energy traveling over a cable loses a little bit - and you'll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you're poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers' generators. If you make 9 slot battery buffers, you can fill them up over time to get longer running time until you get stable power.%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them such as chests or BC tanks.%n%nWhen building multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too. Not recommended for energy and maintenance hatches!
 
 # Quest: Circuit Programming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.name=§2§lCircuit Programming
@@ -14803,7 +14827,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push yo
 
 # Quest: Bet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=§9§lBet On The Distillus
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.desc=IV brings forth GT++ multis, including an upgrade for the Distillation Tower called the Dangote Distillus. Its structure is exactly the same as the DT, but it requires a muffler hatch and uses a different controller with a more expensive recipe.%n%nIt's also locked behind an IV Chemical Plant, which makes it a very expensive craft if it is the only use you have for that plant.%n%nThat said, it solves the issue of DTs being slow, and those are the backbone of many renewable setups. How many quad DTs are you going to need for reliable IV/LuV power, you might ask? Just go for it.%n%n[note]You can also use it to do single block Distillery recipes that can't be done in the DT, like making Sodium Potassium. However, that requires a max height tower.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.desc=IV brings forth GT++ multis, including an upgrade for the Distillation Tower called the Dangote Distillus. Its structure is exactly the same as the DT, but it requires a muffler hatch and uses a different controller with a more expensive recipe.%n%nIt's also locked behind a LuV Chemical Plant, which makes it a very expensive craft if it is the only use you have for that plant.%n%nThat said, it solves the issue of DTs being slow, and those are the backbone of many renewable setups. How many quad DTs are you going to need for reliable IV/LuV power, you might ask? Just go for it.%n%n[note]You can also use it to do single block Distillery recipes that can't be done in the DT, like making Sodium Potassium.[/note]
 
 # Quest: Faster Basic Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.name=§6§lFaster Basic Crops
@@ -14839,7 +14863,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.desc=These new hatches allow you to 
 
 # Quest: PCB Factory
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.name=§2§l§nPCB Factory
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.desc=Using a Chemical Reactor to create circuit boards has become quite inefficient... it's time for a proper solution! After some research you have found a more efficient method; a factory designed to print out circuit boards.%n%nThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also require a modification before they can be made, but that shouldn't be hard to achieve.%n%n§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.%n%n§1Formulas:%n- 10000/(TraceSize/100) Production%n- RecipeDuration/TraceSize^2 Time§r%n%n[note]Similar to the water line, additional modules of the PCB Factory can connect to one another using a Data Stick[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.desc=Using a Chemical Reactor to create circuit boards has become quite inefficient... it's time for a proper solution! After some research you have found a more efficient method; a factory designed to print out circuit boards.%n%nThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also require a modification before they can be made, but that shouldn't be hard to achieve.%n%n§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.%n%n§9Formulas:%n- 10000/(TraceSize/100) Production%n- RecipeDuration/TraceSize^2 Time§r%n%n[note]Similar to the water line, additional modules of the PCB Factory can connect to one another using a Data Stick[/note]
 
 # Quest: Bio Chamber
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyg.name=§2§l§nBio Chamber
@@ -14934,7 +14958,7 @@ betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§c§lThe future is here!
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.desc=EFR adds with it vanilla Barrels (not to be confused with JABBA barrels). These are essentially like chests, but they can be placed next to each other and opened with a block above them. And you can upgrade them! Great for those compact machine setups.
 
 # Quest: A Toolbox For All Your Tools
-betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.name=§2§lA Toolbox For All Your Tools
+betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.name=§6§lA Toolbox For All Your Tools
 betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.desc=As your factory grows, you will need to use your tools to build, configure, and dismantle machines. Crafting a toolbox to hold your tools will help.%n%nThe Field Engineer's Toolbox allows you to use a tool inside for building and configuring without taking the tool out of the box. Right click to open the toolbox and put tools in. Then, press the Pick Block bind (default: middle mouse button) to open a radial menu and select a tool. You can then use the toolbox as if it was that type of tool. Pressing Pick Block while looking at a block will also choose an appropriate tool for the job, skipping the radial menu. Sneak and press Pick Block to deselect a tool quickly.%n%nLater on, you can upgrade the toolbox with a battery. This allows the toolbox to recharge electric tools and unlocks the ability for machines and wireless chargers to charge the entire toolbox.%n%nToolboxes can also fix maintenance hatches, using the tools inside. Deselect the equipped tool (if any), then right click the maintenance hatch with the toolbox. All of the tools inside will be applied to the maintenance hatch, fixing any problems it might have.%n%nThe toolbox requires polyethylene, which is a fluid you likely haven't made before. It's up to you to figure out how to get it. Here's a hint: the black gushers of oil found around the world may be the key...
 
 # Quest: The Quest for Holy Water
@@ -14967,7 +14991,7 @@ betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach
 
 # Quest: Powerfail Notifications
 betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§lPowerfail Notifications
-betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratulations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use <§c/sp invite§r §1[Player Name]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratulations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use <§c/gtnhteam invite§r §1[Player Name]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
 
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=§5§l§nAbsolute Purity
@@ -15063,6 +15087,10 @@ betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.desc=You didn't think we were going 
 # Quest: Trigger: Nano Boots of the Traveller Skip
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.name=Trigger: Nano Boots of the Traveller Skip
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.desc=
+
+# Quest: Trigger: Runeforged Thaumaturge's Ring
+betterquesting.quest.5_Le4M2pQqGWfQcGHWXE0g.name=Trigger: Runeforged Thaumaturge's Ring
+betterquesting.quest.5_Le4M2pQqGWfQcGHWXE0g.desc=No Description
 
 # Quest: Trigger: Nightvision Goggle Skip
 betterquesting.quest.5bnuPY-USBW37JbkO5VzOw.name=Trigger: Nightvision Goggle Skip
@@ -15263,6 +15291,10 @@ betterquesting.quest.duath_FBQVqyzgYn4PicxA.desc=No Description
 # Quest: Trigger: SMD Inductor Skip
 betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.name=Trigger: SMD Inductor Skip
 betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.desc=No Description
+
+# Quest: Trigger: Division Sigil
+betterquesting.quest.ga66-32nQbOenvN_PQT0JQ.name=Trigger: Division Sigil
+betterquesting.quest.ga66-32nQbOenvN_PQT0JQ.desc=No Description
 
 # Quest: Trigger: Polyphenylene Sulfide Skip
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=Trigger: Polyphenylene Sulfide Skip

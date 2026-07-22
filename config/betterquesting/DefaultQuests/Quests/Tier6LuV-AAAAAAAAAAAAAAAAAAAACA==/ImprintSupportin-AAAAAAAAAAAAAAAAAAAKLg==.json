@@ -25,7 +25,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Once you\u0027ve collected all the materials, you\u0027ll need to make Magneto Resonatic Dust and Circuit Compound Mk3 in a Mixer.\n\nCombine these in the Forming Press to make Raw Imprint Supporting Boards.\n\nYou then craft those into Imprint Supporting Boards in an Autoclave in a Cleanroom with Soldering Alloy. Unfortunately, there\u0027s only a 75% chance of succeeding, so I had you collect extra materials. You can use the leftovers for your next imprint.",
+      "desc:8": "Once you\u0027ve collected all the materials, you\u0027ll need to make Magneto Resonatic Dust and Circuit Compound Mk3 in a Mixer.\n\nCombine these in the Forming Press to make Raw Imprint Supporting Boards.\n\nYou then craft those into Imprint Supporting Boards in an Autoclave in a Cleanroom with Soldering Alloy.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -36,7 +36,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§d§lRNG is Definitely Good Game Design",
+      "name:8": "§d§lImprint Supporting Boards",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -76,31 +76,31 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 2355,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
         },
         "2:10": {
-          "Count:3": 6,
+          "Count:3": 3,
           "Damage:2": 35,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
         },
         "3:10": {
-          "Count:3": 8,
+          "Count:3": 4,
           "Damage:2": 31,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
         },
         "4:10": {
-          "Count:3": 18,
+          "Count:3": 8,
           "Damage:2": 36,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
@@ -118,25 +118,25 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 12,
+          "Count:3": 6,
           "Damage:2": 2981,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 24,
+          "Count:3": 12,
           "Damage:2": 31,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
         },
         "2:10": {
-          "Count:3": 36,
+          "Count:3": 18,
           "Damage:2": 33,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
         },
         "3:10": {
-          "Count:3": 72,
+          "Count:3": 32,
           "Damage:2": 34,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
@@ -154,7 +154,7 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 18,
+          "Count:3": 8,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedItem0"

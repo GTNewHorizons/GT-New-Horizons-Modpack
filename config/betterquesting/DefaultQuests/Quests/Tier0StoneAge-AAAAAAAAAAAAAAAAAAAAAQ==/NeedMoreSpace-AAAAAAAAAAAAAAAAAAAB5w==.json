@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "As you might know: tanned leather is more resistant and good enough for a backpack. Let\u0027s get a digger\u0027s backpack and a miner\u0027s backpack. Each pack holds different items. So use both for your first true back-packed mining experience.",
+      "desc:8": "As you might know: tanned leather is more resistant and good enough for a backpack. Let\u0027s get a digger\u0027s backpack and a miner\u0027s backpack. Each pack holds different items. So use both for your first true back-packed mining experience.\n\nSome tips:\n- You can change a backpack\u0027s mode with Sneak + Right Click while holding it. Default mode picks up items from the ground, Resupply mode fills matching stacks in your inventory from the backpack, and Locked mode prevents the backpack from accepting items.\n\n- You can hover over a backpack in your inventory and press the \"Activate item in inventory\" hotkey (G by default) to open it directly. This does not work while the backpack is in your hotbar.\n\n- While holding a backpack, you can use Sneak + Right Click on a chest, drawer, or any other block face that accepts items to transfer the backpack\u0027s contents into that inventory. This can be used to empty backpacks quickly.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
