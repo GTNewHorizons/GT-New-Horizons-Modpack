@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Variables - Declaration vs Standard\nDeclaration is simply creating a variable with eligible blocks in it. This allows easy updating of workflows. For instance you could have a variable that contains 2 chests. You use it in a nifty for each loop and later add another chest. Simply update the variable and the for each loop will start using it.\n\nStandard variables are able to be inserted into the middle of a workflow (it has input/output) and thus can be modified on the run.\n\nPlease note that for each loop it will require an empty variable to work with. This is listed as \"Element\" in the loop.\n\nGlobal vs Local\nGlobal will keep changes to a variable that are done in the workflow, whereas local keeps anything done local to that part of the workflow.",
       "globalShare:1": 1,
       "icon:10": {
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "The Basics of SFM",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

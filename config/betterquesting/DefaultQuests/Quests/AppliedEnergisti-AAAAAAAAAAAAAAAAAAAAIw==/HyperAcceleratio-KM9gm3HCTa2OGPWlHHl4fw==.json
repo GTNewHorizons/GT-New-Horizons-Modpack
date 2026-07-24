@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Hyper-Acceleration cards are a faster version of the basic acceleration cards. \n\n[note]Hyper-Acceleration cards can only be placed in:[/note]\n\n§cME IO Port (3)\nME Fluid Import Bus (4)\nME Fluid Export Bus (4)\n\n§rIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: \n\n§61x Cards: 4,096 items/tick\n2x Cards: 32,768 items/tick\n3x Cards: 262,144 items/tick\n\n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:\n\n§61x Cards: 4,096,000 mb/tick\n2x Cards: 32,768,000 mb/tick\n3x Cards: 262,144,000 mb/tick",
+      "desc:8": "Hyper-Acceleration cards are a faster version of the basic acceleration cards. \n\n[note]Hyper-Acceleration cards can only be placed in:[/note]\n\n§cME IO Port (3)\nME Fluid Import Bus (4)\nME Fluid Export Bus (4)\n\n§rIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: \n\n§61x Cards: 4,096 items/tick\n2x Cards: 32,768 items/tick\n3x Cards: 262,144 items/tick\n\n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:\n\n§61x Cards: 4,096,000 mb/tick\n2x Cards: 32,768,000 mb/tick\n3x Cards: 262,144,000 mb/tick\n",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Hyper Acceleration!",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -79,7 +55,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "After distillation, the fluid you got still isn\u0027t that good. It can be used for power, but it\u0027s almost as bad as Oil itself unless you remove the sulfuric content it has. This applies for all the portions that can be distilled from Oil, and as such it\u0027s a required step regardless of which one you\u0027re working with.\n\nTo get clean Light Fuel, the sulfur needs to be drawn out with something that reacts with it, in a Chemical Reactor. What you need is Hydrogen, a relatively common gas that can be electrolyzed from water, or from specific ores (check NEI for all the possible sources). After reacting, you will get Hydrogen Sulfide and the clean Light Fuel, which can be further processed or burned for power at this stage.",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Desulfurizing",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -85,7 +61,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianI"
+          "id:8": "dreamcraft:item.CoinTechnicianI"
         }
       }
     }
@@ -98,7 +74,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -116,7 +91,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,

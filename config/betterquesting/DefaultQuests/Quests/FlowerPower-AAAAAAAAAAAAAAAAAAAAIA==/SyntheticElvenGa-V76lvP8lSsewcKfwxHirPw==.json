@@ -12,15 +12,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The Synthetic Elven Gateway is an advanced and easily automatable version of the normal Elven Gateway. As a result it is much quicker, less TPS intensive, and AE2 compatible.\n\nMuch like the Mana Fountain, the controller can be given mana via a mana spreader or spark \u0026 item input can happen from any face, while item output is restricted to the bottom.\n\n[note]While running, this uses more mana passively than a normal Elven Gateway does, so be sure you have adequate mana production![/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -33,21 +24,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Synthetic Elven Gateway",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -95,13 +71,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinFlowerIII"
+          "id:8": "dreamcraft:item.CoinFlowerIII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianIII"
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
         }
       }
     }
@@ -114,7 +90,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 68,
@@ -144,7 +119,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

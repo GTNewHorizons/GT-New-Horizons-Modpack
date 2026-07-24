@@ -12,15 +12,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The low pressure boiler tank is the easiest way to make steam with an RC boiler. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.\n\nExtract steam by attaching a pipe to the boiler tank.\n\n[note]This variant is very useful for inconsistent operation. It has lower efficiency but heats up significantly faster than the high pressure variant meaning the fuel will be used more efficiently at the beginning of the operation, the drawback is that this variant is 50% as efficient as the high pressure one is at max temperature. If instead you want to have a constant high-throughput steam generation use high pressure variant instead.[/note]\n\n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
@@ -34,21 +25,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lLow-Pressure Boiler Tank",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
@@ -69,7 +45,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:SteelBars"
+          "id:8": "dreamcraft:item.SteelBars"
         },
         "1:10": {
           "Count:3": 4,
@@ -103,7 +79,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -116,7 +92,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,

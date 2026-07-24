@@ -16,15 +16,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The NASA Workbench is used to craft your rockets and other related vehicles. Build it to start your journey into space.\n\n[note]Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.[/note]\n\n[note]Also, if you\u0027re having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.[/note]\n\n[warn]For ALL Rocket Quests: If you forget to complete a part quest before crafting the rocket, you can simply hold the completed rocket and those quests will autocomplete, no need to make duplicate parts.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -37,21 +28,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "NASA Workbench",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -74,13 +50,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinSpaceII"
+          "id:8": "dreamcraft:item.CoinSpaceII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -93,7 +69,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

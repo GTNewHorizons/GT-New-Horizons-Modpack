@@ -12,15 +12,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "There are two gas inputs that the Sparge Tower accepts: Helium and Fluorine. Each one works on different depleted salts (U Salt, T Salt, TB Salt) in a specific way. Helium works with U Salt to make the most valuable byproducts, while Fluorine works with the other two salts to make other byproducts and TF4, which is required to make the LFTR Fuel 3. Here, we\u0027ll focus on Helium and U Salt, and the other recipes will be covered on the powergen side of the branch.\n\nAll the U Salt you get from the LFTR, from any fuel, can be run through the Sparge Tower. It\u0027s an additional step that is slow, yet rewarding. The recipe is HV-tier, but it\u0027s recommended that you overclock it, and maybe even build multiple towers to accelerate it. All the U Salt you have should pass through these, because sparging it outputs almost every noble gas! Xenon, Neon, Argon, Krypton and Radon will be outputted over time, precious gases to speed up EBF recipes and save up lots of energy, and also for the Void Miner. Radon, on the other hand, is required to make Quantum Eyes, Quantum Stars and many other important items.\n\nEven though you get many gases, the speed at which you\u0027ll get them isn\u0027t great, since it depends on the speed at which LFTR fuel is being consumed. This should not be your only source of these gases, but it is a completely EU-free way to get them, considering the amount of energy the LFTR produces.",
       "globalShare:1": 0,
       "icon:10": {
@@ -33,21 +24,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Second Half of LFTR Breeding",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -69,7 +45,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
@@ -99,7 +74,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "You may have noticed big meteors everywhere, and maybe wondered if they\u0027re useful somehow? Well, they are, but not just yet. I\u0027ll give you a reward for collecting some now.\n\nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, you can\u0027t do AE2 without them. Though you can also just make them yourself in EV. Plus the chest is nice, and can be placed underneath blocks and still opened.\n\nIf all surface meteors have been raided, put some skystone in your Ore Finder to find underground ones, or wait until you can make a Meteorite Compass to find them.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,22 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lFallen From the Sky",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§2§lFallen From the Sky",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -95,13 +71,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinAdventure"
+          "id:8": "dreamcraft:item.CoinAdventure"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinDarkWizard"
+          "id:8": "dreamcraft:item.CoinDarkWizard"
         }
       }
     }
@@ -114,7 +90,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 256,

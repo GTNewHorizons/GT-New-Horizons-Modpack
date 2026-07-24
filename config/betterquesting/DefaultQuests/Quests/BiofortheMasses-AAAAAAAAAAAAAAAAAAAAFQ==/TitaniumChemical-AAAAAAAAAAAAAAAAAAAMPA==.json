@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "This is the difficult part in the whole process. The multi in which Nitrobenzene is crafted is the Exxonmobil Chemical Plant, also known as the Chemplant, and it is a gigantic 7x7x7 structure with 4 separate upgradable parts to it. Even worse, the outer structure uses multiblock Machine Casings, making the DT look cheap by comparison, and the inside needs a lot of the casings used to craft single blocks.\n\nThe difference between them is that the tier of the outer structure that you need is mentioned in the recipe you want to craft, and the tier of the inner structure is generally related to the EU/t of the recipe, minus one tier. This is because, like the EBF and the LCR, you can use 2 energy hatches, so this HV recipe can be made with MV energy hatches. Since the inner structure\u0027s tier decides the max tier of the hatches used in the Chemplant, you can make it out of MV machine casings, which use Aluminium.\n\nThe outer structure will still need many stacks of Titanium, so this is where most of your effort will go. Good luck.\n\n[note]Technically, you could also make Nitrobenzene in an LCR instead of a Chemplant. But it is less energy efficient and dilutes your acid. That option was only added for those too weak to handle a Chemplant.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Titanium Chemical Plant",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -86,13 +62,13 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianIII"
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
         },
         "3:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistIII"
+          "id:8": "dreamcraft:item.CoinChemistIII"
         }
       }
     }
@@ -105,7 +81,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -123,7 +98,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 80,

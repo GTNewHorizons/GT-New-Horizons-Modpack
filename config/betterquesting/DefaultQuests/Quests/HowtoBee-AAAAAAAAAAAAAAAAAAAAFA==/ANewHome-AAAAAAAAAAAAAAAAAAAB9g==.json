@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Now that you\u0027ve destroyed the poor bees\u0027 homes, you should build them a new one. The humble Bee House will not let your bees mutate into new species. But you\u0027ll need the combs anyways for better housing. The production rate isn\u0027t too bad, but they cannot be automated.\n\nOne tip - Put some vanilla saplings near the Bee Houses. Bee Houses give a natural boost of 3x to pollination vs better housing. The bees will pollinate them and you might get lucky and start getting some Forestry tree crossbreeding. Stick with Oak and Birch trees, they\u0027ll give you a nice mix of starter Forestry trees.\n\nOf course, if you do this without taking precautions, you may find yourself swarmed by laggy butterflies...\n\nYou may also notice that bees with the \u0027flower\u0027 type flower spread flowers. This can be used to get, say, lavender, among others. If you don\u0027t like them spreading them everywhere, replace the dirt/grass blocks, remove the trait, or reduce the pollination speed/territory.",
       "globalShare:1": 1,
       "icon:10": {
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "A New Home",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -87,7 +63,7 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinBees"
+          "id:8": "dreamcraft:item.CoinBees"
         }
       }
     }
@@ -100,7 +76,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

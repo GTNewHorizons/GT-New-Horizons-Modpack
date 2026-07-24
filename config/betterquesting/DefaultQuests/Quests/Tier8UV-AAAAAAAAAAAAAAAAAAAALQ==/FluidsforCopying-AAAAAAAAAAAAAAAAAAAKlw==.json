@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Ok, so let\u0027s say you\u0027ve made some kind of culture, but you want more of it? You only need one per Vat, but they\u0027re consumed when making DNA Samples, so you should probably learn how.\n\nTo start off, you\u0027ll need to get an eColi Culture.\n\nUse that to make the eColi Bacteria Fluid. [note](I know the name is completely different, deal with it)[/note]\n\nCentrifuge that to make Liquid DNA.\n\nAnd combine it with Radon in the Mixer to make FluorecentdDNA.\n\neColi Bacteria Fluid can also be Centrifuged for Plasma Membranes (10% chance) and EnzymesSollution, so do that as well.\n\nAnd then Centrifuge the EnzymesSollution again for Polymerase.\n\nYou should expect to need a significant amount of eColi Bacteria Fluid if you plan on copying a lot of cultures, or making the hard to make ones.\n\n[note]To search for items related to copying cultures, search for \u0027culture\u0027, \u0027dna sample\u0027, or \u0027plasmid\u0027. You can\u0027t do this for the Data Orbs, you have to check the uses of DNA Samples.[/note]\n\n§5A bunch of the fluids have incorrect spelling, don\u0027t blame me for it.",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,28 +16,33 @@
         "OreDict:8": "",
         "id:8": "bartworks:BioLabParts",
         "tag:10": {
-          "Name:8": "Escherichia koli"
+          "Breedable:1": 1,
+          "Color:11": [
+            149,
+            132,
+            75
+          ],
+          "DNA:10": {
+            "Chance:3": 10000,
+            "Name:8": "Escherichia koli",
+            "Rarity:1": 1,
+            "Tier:3": 0
+          },
+          "Fluid:8": "escherichiakolifluid",
+          "Name:8": "Escherichia koli",
+          "Plasmid:10": {
+            "Chance:3": 10000,
+            "Name:8": "Escherichia koli",
+            "Rarity:1": 1,
+            "Tier:3": 0
+          },
+          "Rarety:1": 1
         }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§l§nFluids for Copying Cultures",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "Fluids for Copying Cultures",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -68,7 +64,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -76,7 +71,27 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "Escherichia koli"
+            "Breedable:1": 1,
+            "Color:11": [
+              149,
+              132,
+              75
+            ],
+            "DNA:10": {
+              "Chance:3": 10000,
+              "Name:8": "Escherichia koli",
+              "Rarity:1": 1,
+              "Tier:3": 0
+            },
+            "Fluid:8": "escherichiakolifluid",
+            "Name:8": "Escherichia koli",
+            "Plasmid:10": {
+              "Chance:3": 10000,
+              "Name:8": "Escherichia koli",
+              "Rarity:1": 1,
+              "Tier:3": 0
+            },
+            "Rarety:1": 1
           }
         }
       },
@@ -89,7 +104,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -107,7 +121,6 @@
       "ignoreNBT:1": 1,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -131,11 +144,10 @@
       "ignoreNBT:1": 1,
       "index:3": 3,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 5,
+          "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts"
         },

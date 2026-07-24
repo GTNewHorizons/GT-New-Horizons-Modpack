@@ -12,42 +12,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Congratulations, with this final quest, you\u0027ll have beaten the hardest challenge in GregTech: New Horizons yet! \n\nThe whole GT:NH Team thanks you for your time spent on this modpack. You are now part of the top 0.5% of our community!\n\nNow that you made one gate, take this second gate and link them together! (Unless you want to craft the second yourself of course).\n\nDon\u0027t hesitate to share your base in #screenshot-brag channel of our Discord server, claim your stargate role, and if you have any feedback on the endgame progression, we will gladly appreciate it!\n\nI guess now it\u0027s time for you to go outside, touch grass, or... continue onwards?",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:MedalDerp"
+        "id:8": "dreamcraft:item.MedalDerp"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§l§nWhat, How?",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "What, How?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -67,43 +43,43 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 16,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:stargateRing"
         },
         "1:10": {
-          "Count:3": 14,
+          "Count:3": 7,
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "SGCraft:stargateRing"
         },
         "2:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:stargateBase"
         },
         "3:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:rfPowerUnit"
         },
         "4:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:sgIrisUpgrade"
         },
         "5:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:sgChevronUpgrade"
         },
         "6:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:stargateController"
@@ -114,12 +90,11 @@
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
-      "consume:1": 1,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,

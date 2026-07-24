@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 1162181130482500484,
-      "questIDLow:4": -8199803816494517045
+      "questIDHigh:4": -4584086443345950462,
+      "questIDLow:4": -8420616239779406480
     },
     "1:10": {
       "questIDHigh:4": 0,
@@ -12,42 +12,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 OC it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can\u0027t make it faster after using your best energy hatches available.\n\nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.\n\nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.\n\nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.",
+      "desc:8": "You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can\u0027t make it faster after using your best energy hatches available.\n\nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.\n\nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.\n\nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15515,
+        "Damage:2": 13366,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§d§lAnother Chemical Multiblock?",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§6§lAnother Chemical Multiblock?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -83,52 +59,15 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 15515,
+          "Damage:2": 13366,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 77,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
-        },
-        "1:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "bartworks:BW_TieredGlass"
-        },
-        "2:10": {
-          "Count:3": 28,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
-        },
-        "3:10": {
-          "Count:3": 7,
-          "Damage:2": 7,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

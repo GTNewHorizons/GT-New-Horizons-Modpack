@@ -13,16 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it\u0027s in the nether...at the bottom of the lava ocean!\n\nHere are some tips for finding it:\n\n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won\u0027t have any. Can you think of ways to check the lava depth, and what\u0027s down there?\n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you\u0027ll be able to see underneath it - surely there must be a hovering jetpack?\n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.\n\nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!\n\n[warn]Please click the checkbox below to confirm that you are ready to handle being given the reward for this quest, and to deal with any fires that it may cause.[/warn]",
+      "desc:8": "Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it\u0027s in the nether...at the bottom of the lava ocean!\n\nHere are some tips for finding it:\n\n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won\u0027t have any. Can you think of ways to check the lava depth, and what\u0027s down there?\n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you\u0027ll be able to see underneath it - surely there must be a hovering jetpack?\n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.\n\nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -35,21 +26,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lFirestone Ore/Dust",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -92,7 +68,7 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -105,7 +81,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -115,10 +90,6 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "taskID:8": "bq_standard:checkbox"
     }
   }
 }

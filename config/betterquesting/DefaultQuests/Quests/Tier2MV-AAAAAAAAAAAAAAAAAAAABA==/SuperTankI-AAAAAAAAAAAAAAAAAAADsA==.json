@@ -13,15 +13,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "This tank works the same as the smaller GT tanks, but holds way more. Specifically, 4,000,000L. Only make this for things you need tons of, LV circuits are expensive after all.\n\nNow you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.\n\n[note]A lot of nice functionality has been added to Super and Quantum tanks. You can now pick them up with a wrench without voiding the fluids! Super tanks (but not Quantum) will give you heavy debuffs though, so better prepare some milk.\n\nIf you actually want to void the fluids you can crouch while using the wrench.\n\nThey now also have optional automatic fluid output, fluid locking, overflow void mode, or full void mode. And all that with a nice and simple GUI. Quite the IMPACTful change I would say.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -35,21 +26,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lSuper Tank I",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -92,7 +68,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianI"
+          "id:8": "dreamcraft:item.CoinTechnicianI"
         }
       }
     }
@@ -105,7 +81,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -123,7 +98,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

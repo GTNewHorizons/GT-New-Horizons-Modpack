@@ -12,15 +12,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Thorium and Uranium have a lot of differences, but also a lot of similarities.\n\nIn general, Uranium is a better fuel, but fluid nukes do not follow that general rule. Because they do not output any EU/t, and simply convert heat to Hot Coolant, the difference between the two fuels becomes minimal and Thorium stands out as being much easier to get and turn into fuel rods. The maximum amount of heat you can safely move around in a reactor limits the amount of Uranium Fuel Rods you can use, which means that your HU value will not be as high as you would have wanted.\n\nFor regular and vacuum IC2 nukes, however, Uranium has a big advantage. Especially in vacuum nukes, which are the most powerful, the efficient cooling through the cells makes it so a lot of Uranium can be processed at once, which returns incredible amounts of EU/t. The different conversion from fuel to energy between fluid and vacuum means that Thorium is very good for fluid nukes, whereas Uranium is very good for vacuum nukes.",
       "globalShare:1": 0,
       "icon:10": {
@@ -33,21 +24,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Thorium vs. Uranium",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

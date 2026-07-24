@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The Grapple is a grappling hook and rope which can be thrown by a player, and then used to swing the player in the direction it was thrown. Useful for reaching places that are otherwise too high to jump to, or traveling around the Asteroids. [note](Or just, you know, fly.)[/note]\n\nRight-click to aim the Grapple at a block you want to reach, similar to aiming a Bow. Release the right-click - similar to firing an arrow from a bow - to grapple yourself in that direction.\n\nFor best results, aim the Grapple at a point 1 or 2 blocks higher than the point you want to reach.\n\nIf there is no safe platform to land at that point, you can fall back down and you will take fall damage, so it takes some skill to use the Grapple safely.\n\nTake care using the Grapple near a Nether Portal, End Portal or at a low height (less than Y30) on a Space Station. There can be strange consequences if it crosses into another dimension.",
       "globalShare:1": 1,
       "icon:10": {
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Grapple",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -71,7 +47,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:MeteoricIronString"
+          "id:8": "dreamcraft:item.MeteoricIronString"
         },
         "2:10": {
           "Count:3": 8,
@@ -99,7 +75,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -112,7 +88,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -127,7 +102,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:MeteoricIronString"
+          "id:8": "dreamcraft:item.MeteoricIronString"
         },
         "2:10": {
           "Count:3": 1,
@@ -145,7 +120,6 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "I guess you already turned some wood into charcoal and wonder what to do with all this creosote? Well, you can burn it in a normal Furnace to cook your food or anything else, or you can make some torches with it. You can save up on the Coal variants, while at the same time keeping the Coke Oven running for the items you really need.\n\nYou can use an Iron or Clay Bucket to pick up the Creosote, either through the icon in the machine\u0027s interface, or by right-clicking the Coke Oven with an empty bucket in hand.\n\nYou will eventually want to automate Coke Ovens, and that\u0027s when you can use it to generate power. This is mostly LV content, but the singleblock option is the GT++ Semifluid Generator, whereas the multiblock option is the Railcraft Liquid Fueled Boiler. You\u0027ll unlock the quests for these when the time comes.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,22 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lCreosote",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§2§lCreosote",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -87,7 +63,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -105,7 +80,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Your smeltery does a great job mixing metals into alloys, but it\u0027s not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets if you have steel.\n\nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...\n\n[note]NOTE: Like all steam machines, the output port is a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking the machine with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.[/note]\n\nYou can empty the machine by putting a hopper beneath it.\n\n[warn]WARNING: The Alloy Smelter recipes take a lot of steam.[/warn] Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent \"poor man\u0027s\" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel railcraft tank.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,22 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lMore Advanced Alloys",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§3§lMore Advanced Alloys",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -81,7 +57,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }

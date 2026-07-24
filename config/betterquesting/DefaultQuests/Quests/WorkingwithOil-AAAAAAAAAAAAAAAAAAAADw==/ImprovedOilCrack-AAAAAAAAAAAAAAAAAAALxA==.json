@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Have you built an Oil Cracker? Have you checked its coils? This multi gets a significant discount to EU/t when upgrading the coils, but it caps at TPV, at a maximum of 50% discount. If you are still using low-tier coils, this is a great time to upgrade them to Nichrome and enjoy a 40% discount. You could also do TPV directly.\n\nBy the way, you can wall-share Oil Crackers, just like DTs, LCRs and many other multis, and doing this will save on the amount of coils you need!\n\n[note]You only need to do one of the two tasks.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Improved Oil Cracker",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -90,7 +66,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "dreamcraft:item.CoinChemistII"
         }
       }
     }
@@ -103,7 +79,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
@@ -121,7 +96,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,

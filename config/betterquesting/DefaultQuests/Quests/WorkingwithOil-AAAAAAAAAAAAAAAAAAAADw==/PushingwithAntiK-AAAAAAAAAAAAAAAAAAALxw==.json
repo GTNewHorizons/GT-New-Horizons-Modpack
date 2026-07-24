@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "If you want your generators to last, you\u0027ll want to make this. In fact, since safety is always the priority, you can\u0027t make HOG without this Anti-Knock Agent, a mixture that keeps the fuel from damaging the engine even when it is this powerful. There are two paths to get this automated: one with an LCR recipe, and the other with a DT. The LCR option is cheaper to build, as per usual, but it consumes considerably more power than the DT path, so this quest will focus on the latter. As before, having an initial higher investment to save energy in the long run is the way to go.\n\nThe DT path is a cycle between a Mixer and the tower itself, where each distillation extracts a bit of Anti-Knock Agent from the MTBE Reaction Mixture, and will need to be mixed again. The two inputs needed for the setup are Butene and Methanol. Butene is obtainable from any of the max-height DT distillations, and Methanol from a mixture of Hydrogen and Carbon Dioxide/Carbon Monoxide. If you have a Fermented Biomass setup, you will already have CO2 ready to go, and Hydrogen can be sourced from a variety of ways.\n\nMake this cycle, and you\u0027ll have a safe fuel.",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Pushing with Anti-Knock Agent",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -78,7 +54,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "dreamcraft:item.CoinChemistII"
         }
       }
     }
@@ -91,7 +67,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 30,

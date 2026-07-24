@@ -3,24 +3,11 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 65
-    },
-    "1:10": {
-      "questIDHigh:4": 1061314381668699413,
-      "questIDLow:4": -5583348153901815662
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The Catwalks Mod adds several cosmetic blocks to deck out your factory.\n\nScaffolds and Builder\u0027s Scaffolds are useful for building up in the air before you get access to flight. They can be climbed like ladders, and break instantly when punched. You will also not fall off of them if you let go of movement keys while climbing. If you right-click the Builder\u0027s Scaffold with a solid block, the scaffold will be replaced by that block.\n\nCatwalks can connect to each other to form a wide passageway. You can decorate them by attaching Caution Tape or Rope Lights, the latter provide dim lighting.\n\nCaged Ladders give you a way to move up and down without a risk of falling off. Climbing them is much faster than vanilla ladders.\n\nSupport Columns are purely decorative. They connect to each other in all directions. They also work as ladders.\n\nSturdy Rails let you run minecart tracks across gaps without supports. Right-click the Sturdy Powered Rail with a Blowtorch to power it permanently, you don\u0027t need a redstone torch. If you don\u0027t have enough distractions already, use them to build a rollercoaster!\n\nThe Blowtorch lets you remove railings or even the floor from a catwalk by right-clicking. Use it to make an opening to let you walk onto the catwalk, or if you don\u0027t know what an \"OSHA violation\" is. The same function can be performed by a GT or Forge-compatible wrench, so you don\u0027t actually need to make this.",
       "globalShare:1": 0,
       "icon:10": {
@@ -32,22 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lCatwalks",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "Catwalks",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -83,7 +55,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -101,7 +72,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,

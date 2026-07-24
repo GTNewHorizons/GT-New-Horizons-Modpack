@@ -1,30 +1,18 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 960069936746873824,
-      "questIDLow:4": -5796823047327111175
+      "questIDHigh:4": -7949765678093284760,
+      "questIDLow:4": -7384462910267243515
     },
     "1:10": {
-      "questIDHigh:4": -433520487137982834,
-      "questIDLow:4": -4941146285800091061
-    },
-    "2:10": {
-      "questIDHigh:4": -5082536925275926677,
-      "questIDLow:4": -7995813544306558907
+      "questIDHigh:4": 960069936746873824,
+      "questIDLow:4": -5796823047327111175,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Reinforcing your casings with matter from white dwarfs was a good idea.\n\nYou can now accelerate a solar system until a black dwarf forms. This material will likely be key to observing and understanding what happens next.\n\nThis is the second of your three EOH materials. Use it to upgrade your casings to T7.\n\n[note]The EOH becomes power positive once all the casings are Tier 7.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -36,22 +24,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§l§nBlack Dwarf Matter",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "Black Dwarf Matter",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

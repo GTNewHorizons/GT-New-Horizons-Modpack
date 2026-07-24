@@ -2,34 +2,21 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1413
+      "questIDLow:4": 860
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 860
-    },
-    "2:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 861
+      "questIDLow:4": 1245
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The Extreme Combustion Engine is an upgrade to the Large Combustion Engine, the IV version that needs Tungstensteel instead of Titanium. The structure is essentially the same, and it\u0027s almost a 1:1 ratio between the two materials, so this is a good generator when you\u0027ve accumulated several stacks of Tungstensteel.\n\nThe caveat is that it only accepts High Octane Gasoline. This is the last and most powerful type of combustion fluid made from Oil, and it has the longest processing line of them all. As a reward, it has an excellent §a2.5M EU per bucket§r, and you can burn it here alongside some Liquid Oxygen for almost §a4 IV amps per tick.\n\n§cThe Liquid Oxygen is very important, because it greatly boosts the speed of the multi and the fuel efficiency as well.§r It needs 40 L/s, so you will need more than one Vacuum Freezer to supply it continuously: for an ECE that is always running, you will need a double Vacuum Freezer, 1 EV and 1 HV. You can run fewer freezers if you overclock them, if the ECE isn\u0027t working all the time or if you upgrade to a Cryogenic Freezer,",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15534,
+        "Damage:2": 2105,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -37,22 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lWhat Was That? I Can\u0027t Hear You Over the Engine!",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "What Was That? I Can\u0027t Hear You Over the Engine!",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -101,7 +73,7 @@
           "Count:3": 20,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -112,84 +84,52 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
+          "Count:3": 8,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "2:10": {
+          "Count:3": 19,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "3:10": {
           "Count:3": 1,
-          "Damage:2": 15534,
+          "Damage:2": 90,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 2,
+      "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 32,
-          "Damage:2": 473,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
-        },
-        "1:10": {
-          "Count:3": 31,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "2:10": {
-          "Count:3": 30,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
-        },
-        "3:10": {
-          "Count:3": 20,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
-        },
-        "4:10": {
-          "Count:3": 12,
-          "Damage:2": 15,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings3"
-        },
-        "5:10": {
-          "Count:3": 12,
-          "Damage:2": 4,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
-        },
-        "6:10": {
-          "Count:3": 6,
-          "Damage:2": 3,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
-        },
-        "7:10": {
-          "Count:3": 5,
-          "Damage:2": 12,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "8:10": {
           "Count:3": 1,
-          "Damage:2": 91,
+          "Damage:2": 2105,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

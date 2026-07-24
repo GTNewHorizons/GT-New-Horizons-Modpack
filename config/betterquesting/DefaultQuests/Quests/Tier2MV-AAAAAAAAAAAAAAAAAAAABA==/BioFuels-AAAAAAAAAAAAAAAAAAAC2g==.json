@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "You\u0027ve been using Steam, Creosote, or possibly Oil to generate power. It\u0027s time to start making Bio Diesel. The first step is to make Plantballs out of organic materials. You can use Wheat, Sugar Canes, Apples, Saplings or, well, practically anything. All CropsNH crops are 4:1 instead of an 8:1 ratio. Realistically, you\u0027ll probably just use saplings though, since you\u0027ll want/need a tree farm anyway.\n\nBe sure you have a Forestry Multifarm, Steve\u0027s Carts Farm, CropsNH Crop Sticks with a Crop Manager, or whatever, because you need plenty of bio materials for constant Bio Diesel production.",
+      "desc:8": "You\u0027ve been using steam, creosote, and possibly oil plus their byproducts to generate power. It\u0027s time to start making bio diesel. The first step is to make plant balls out of organic materials. You can use wheat, sugarcane, apples, saplings or, well, practically anything. Indigo blossoms are 4:1 and unlike the rest of the IC2 crops with the same ratio, not really useful for anything else. Realistically, you\u0027ll probably just use saplings though, since you\u0027ll want/need a tree farm anyway.\n\nBe sure you have a Forestry multifarm, Steve\u0027s Carts Farm, IC2 Crop Sticks with a harvester, or whatever, because you need plenty of bio materials for constant bio diesel production.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lBio Fuels",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -87,7 +63,7 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinFarmer"
+          "id:8": "dreamcraft:item.CoinFarmer"
         }
       }
     }
@@ -100,7 +76,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,

@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "We found the way... my precious. We found it! Only need 4 tasty eyes, and some magic to open the door. The secret door, they didn\u0027t see it. Hehehe! All the time. It was there... Aaaall the time!\n\n[note]While the Eldrich Portal is the traditional way to reach the Outer Lands, you can also reach them via Gadomancy\u0027s single use Gate of the Voidwalkers.[/note]",
+      "desc:8": "We found the way... my precious. We found it! Only need 4 tasty eyes, and some magic to open the door. The secret door, they didn\u0027t see it. Hehehe! All the time. It was there... Aaaall the time!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "The Dark Realm",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -52,7 +28,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -81,19 +57,19 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinSurvivorII"
+          "id:8": "dreamcraft:item.CoinSurvivorII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinAdventureII"
+          "id:8": "dreamcraft:item.CoinAdventureII"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinDarkWizardII"
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
         }
       }
     }
@@ -104,22 +80,6 @@
       "dimension:3": 50,
       "hideInfo:1": 0,
       "index:3": 0,
-      "invert:1": 0,
-      "name:8": "Visit \"Outer Lands\"",
-      "posX:3": 0,
-      "posY:3": 0,
-      "posZ:3": 0,
-      "range:3": -1,
-      "structure:8": "",
-      "taskID:8": "bq_standard:location",
-      "taxiCabDist:1": 0,
-      "visible:1": 0
-    },
-    "1:10": {
-      "biome:3": -1,
-      "dimension:3": 173,
-      "hideInfo:1": 0,
-      "index:3": 1,
       "invert:1": 0,
       "name:8": "Visit \"Outer Lands\"",
       "posX:3": 0,

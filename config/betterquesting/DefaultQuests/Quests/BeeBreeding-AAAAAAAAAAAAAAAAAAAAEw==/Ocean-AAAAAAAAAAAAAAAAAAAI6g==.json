@@ -9,16 +9,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "The Ocean bee is bred from Diligent and Water in an ocean-type biome. Note that this doesn\u0027t mean literally an ocean. It is any biome that has the OCEAN tag. The stock terrain generator does not generate oceans in The Overworld, but there are a few biomes that carry the tag.\n\nSkipping The Overworld, you might have luck trying in a Twilight Forest lake - you\u0027ll know you are in the right biome if you see Water Creepers!\n\nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a \"dumps\" directory in the root folder of the modpack with a biome.csv file inside of it. Try anything that has OCEAN tagged to it. You can feed these biomes into a Nature\u0027s Compass and see if there are any nearby.\n\nSome examples: Shield, Tropics, Twilight Lake, and Lush Swamp.\n\nIf you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.\n\n[note]You get more than one princess per purchase, so it\u0027s a useful way to get a few extra pristine princesses.[/note]",
+      "desc:8": "The Ocean bee can be hard to breed since some servers use a worldgen that prevents ocean biomes from appearing. You might have luck trying in a Twilight Forest lake - you\u0027ll know you are in the right biome if you see Water Creepers! If you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Coins tab. Breed them from Diligent and Water.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -42,21 +33,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Ocean",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -93,7 +69,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

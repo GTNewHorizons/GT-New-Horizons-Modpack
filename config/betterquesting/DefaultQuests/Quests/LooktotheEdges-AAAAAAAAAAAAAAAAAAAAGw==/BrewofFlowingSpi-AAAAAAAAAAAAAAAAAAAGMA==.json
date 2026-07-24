@@ -16,15 +16,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The Brew of Flowing Spirit captures the essence of the Spirit World in liquid form. It can only be brewed in the Spirit World!\n\nThe Brew can be thrown at the ground and the liquid will burst out (the source block can later be picked up in a bucket). Standing in the liquid will have a minor healing effect for most creatures. Demonic or undead creatures will be weakened. Nightmares standing in the liquid will lose their invulnerability effect!\n\nHaving a pool of flowing spirit near a Dream Weaver of Nightmares will decrease the chance of a nightmare by 10 percent for each source block (up to 3).",
       "globalShare:1": 1,
       "icon:10": {
@@ -38,21 +29,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Brew of Flowing Spirit",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -95,19 +71,19 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinWitchII"
+          "id:8": "dreamcraft:item.CoinWitchII"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinCookII"
+          "id:8": "dreamcraft:item.CoinCookII"
         },
         "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinDarkWizardII"
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
         }
       }
     }
@@ -136,7 +112,6 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -184,7 +159,6 @@
       "ignoreNBT:1": 0,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,

@@ -8,43 +8,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Literally. You can grind the rock of most planets, to get a chance for...stuff. It depends on the planet. Does consume quite a bit of power, but can really help you out.\n\nFor Tungstate, you can centrifuge previously macerated moon dust, macerate end stone with an HV+ macerator and then centrifuge it, or centrifuge endergoo (found all over the end, does not give back buckets).\n\nIf you want to make your rocket, you need to get at least a little before you can get to a planet with the ore. However, keep in mind that you\u0027ll need an EBF with TPV Coils to smelt Tungstensteel Dust into the ingot!\n\n[note]Do one of the tasks.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:MoonStoneDust"
+        "id:8": "dreamcraft:item.MoonStoneDust"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§8§lPulverize the Planet",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§a§lPulverize the Planet",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -87,7 +63,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinAdventureII"
+          "id:8": "dreamcraft:item.CoinAdventureII"
         }
       }
     }
@@ -100,13 +76,12 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:MoonStoneDust"
+          "id:8": "dreamcraft:item.MoonStoneDust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -118,7 +93,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
@@ -142,7 +116,6 @@
       "ignoreNBT:1": 1,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,

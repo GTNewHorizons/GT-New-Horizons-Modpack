@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The ME Storage Bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.\n\nThe storage via the ME Storage Bus is bidirectional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.\n\nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.\n\nThe storage bus will function with nearly any inventory block, including ME Interfaces, EFR barrels, JABBA Barrels, Storage Drawers, etc. They can also be used to route items passively into Buildcraft pipes.\n\nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full contents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.",
       "globalShare:1": 1,
       "icon:10": {
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Interfacing with Inventories",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -93,7 +69,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -106,7 +82,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,

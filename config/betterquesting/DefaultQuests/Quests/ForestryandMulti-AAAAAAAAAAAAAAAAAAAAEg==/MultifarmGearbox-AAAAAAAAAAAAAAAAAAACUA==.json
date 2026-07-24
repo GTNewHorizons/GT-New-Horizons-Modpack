@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "To power your farm and have it automatically harvest crops, you will need at least one farm gearbox to supply power. You can use either RF or EU. If you use EU, make sure to use a cable to allow conversion. Farm operations can be hastened with additional gearboxes.\n\nTesting has shown that splitting the amps to 4 gearboxes (4A ULV) works better than sending 1A LV to 4 gearboxes.\n\nA max sized CropsNH Crop farm (5x4x5) using all space possible with max stat seeds (31/31/31) on a fast crop needs only 6A ULV to keep up.\n\nSimilarly, a max sized small farm (3x4x3) using all space possible with max stat seeds (31/31/31) on a high tier, moderate speed crop needs only 4A ULV.\n\nSending more power to the same gearbox doesn\u0027t work. If it can get to max RF capacity but your farm can\u0027t keep up, sending more power won\u0027t help, so add more gearboxes.\n\nIn addition, you lose 2 EU from the energy emitting device for every Amp of ULV (which is only 8 to begin with), so it\u0027s not nearly as efficient as using LV or higher. Just keep in mind that more A to more gearboxes is better than to the same one.\n\nOf course, if you mix your slower crops with your faster ones, you aren\u0027t likely to need to min-max to this extent.",
+      "desc:8": "To power your farm and have it automatically harvest crops, you will need at least one farm gearbox to supply power. You can use either RF or EU. If you use EU, make sure to use a cable to allow conversion. Farm operations can be hastened with additional gearboxes.\n\nTesting has shown that splitting the amps to 4 gearboxes (4A ULV) works better than sending 1A LV to 4 gearboxes.\n\nA max sized IC2 Crop farm (5x4x5) using all space possible with max stat seeds (31/31/0) on a fast crop needs only 6A ULV to keep up.\n\nSimilarly, a max sized small farm (3x4x3) using all space possible with max stat seeds (31/31/0) on a high tier, moderate speed crop needs only 4A ULV.\n\nSending more power to the same gearbox doesn\u0027t work. If it can get to max RF capacity but your farm can\u0027t keep up, sending more power won\u0027t help, so add more gearboxes.\n\nIn addition, you lose 2 EU from the energy emitting device for every Amp of ULV (which is only 8 to begin with), so it\u0027s not nearly as efficient as using LV or higher. Just keep in mind that more A to more gearboxes is better than to the same one.\n\nOf course, if you mix your slower crops with your faster ones, you aren\u0027t likely to need to min-max to this extent.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -33,21 +24,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Multifarm: Gearbox",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -102,7 +78,7 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinFarmer"
+          "id:8": "dreamcraft:item.CoinFarmer"
         }
       }
     }
@@ -115,7 +91,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -154,7 +129,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,

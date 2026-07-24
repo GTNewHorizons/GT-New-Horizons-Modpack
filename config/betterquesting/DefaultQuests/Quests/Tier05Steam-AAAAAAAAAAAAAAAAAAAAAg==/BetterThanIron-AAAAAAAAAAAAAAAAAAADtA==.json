@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don\u0027t want to use steel up for that.\n\nTo make Cast Iron, you either need to use a Tinkers\u0027 Smeltery to melt some Iron Ingots down and cast them into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Then put these in a furnace to get Cast Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.\n\n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite; look for Iron Ore in Chalcopyrite veins) can be smelted directly into iron nuggets. \n\nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. \n\nLater on, you can use an Arc Furnace to make Cast Iron Ingots directly.",
+      "desc:8": "But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don\u0027t want to use steel up for that.\n\nTo make wrought iron, you either need to use a Tinkers\u0027 Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Wrought Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.\n\n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. \n\nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. \n\nLater on, you can use an Arc Furnace to make Wrought Iron Ingots directly.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -29,22 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lBetter Than Iron",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§3§lBetter Than Iron",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -72,8 +48,7 @@
           "tag:10": {
             "GT.ToolStats:10": {
               "MaxDamage:4": 38400,
-              "Mode:1": 0,
-              "PrimaryMaterial:8": "CastIron",
+              "PrimaryMaterial:8": "WroughtIron",
               "SecondaryMaterial:8": "Wood"
             },
             "ench:9": {
@@ -92,9 +67,8 @@
           "tag:10": {
             "GT.ToolStats:10": {
               "MaxDamage:4": 38400,
-              "Mode:1": 0,
-              "PrimaryMaterial:8": "CastIron",
-              "SecondaryMaterial:8": "CastIron"
+              "PrimaryMaterial:8": "WroughtIron",
+              "SecondaryMaterial:8": "WroughtIron"
             }
           }
         },
@@ -115,7 +89,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -128,7 +102,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 63,
@@ -146,7 +119,6 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 63,
@@ -164,7 +136,6 @@
       "ignoreNBT:1": 0,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 7,

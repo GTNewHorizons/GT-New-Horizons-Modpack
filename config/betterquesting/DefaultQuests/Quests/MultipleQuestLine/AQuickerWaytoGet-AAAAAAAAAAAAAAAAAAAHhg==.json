@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Are you ready for a longer trip? With your new lunch box, saddle, lead and of course a horse, we can start a small journey. Be sure to make paths over water, horses don\u0027t like going through deep water. If you get unseated in deep water, you can try getting on repeatedly and moving a small distance each time, this may be faster for small rivers. You can also try jumping over the deep parts if it isn\u0027t that big.\n\nIf you are playing single player or a local server, horses make a great way to get around. On non-local servers they can cause problems and desync if you have poor internet, or if the server doesn\u0027t have good TPS. Like all the official servers.\n\nYou can tie the lead to your horse and the fence to get it to stick around while you investigate something.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,22 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lA Quicker Way to Get Around",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§2§lA Quicker Way to Get Around",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -69,12 +45,6 @@
           "Damage:2": 100,
           "OreDict:8": "",
           "id:8": "minecraft:spawn_egg"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
@@ -84,10 +54,16 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinAdventure"
+          "id:8": "dreamcraft:item.CoinAdventure"
         }
       }
     }
@@ -100,7 +76,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

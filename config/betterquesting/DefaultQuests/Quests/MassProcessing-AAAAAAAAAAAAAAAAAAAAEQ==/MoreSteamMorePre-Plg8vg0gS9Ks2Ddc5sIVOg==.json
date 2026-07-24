@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...\n\nLet\u0027s just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the other Steam Multiblocks. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.\n\nOnce the multi forms, provide lots of steam to get lots of compressed items.",
       "globalShare:1": 0,
       "icon:10": {
@@ -28,22 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lMore Steam, More Pressure!",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "More steam, more pressure!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -91,7 +67,7 @@
           "Count:3": 50,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -104,7 +80,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -122,41 +97,28 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 27,
+          "Count:3": 34,
           "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings"
         },
         "1:10": {
-          "Count:3": 10,
-          "Damage:2": 12,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
-        },
-        "2:10": {
-          "Count:3": 6,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:iron_block"
-        },
-        "3:10": {
           "Count:3": 1,
-          "Damage:2": 31040,
+          "Damage:2": 31046,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "4:10": {
+        "2:10": {
           "Count:3": 1,
           "Damage:2": 31047,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "5:10": {
+        "3:10": {
           "Count:3": 1,
-          "Damage:2": 31046,
+          "Damage:2": 31040,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

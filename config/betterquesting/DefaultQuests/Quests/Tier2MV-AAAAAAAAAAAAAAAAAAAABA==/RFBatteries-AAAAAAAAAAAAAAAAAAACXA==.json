@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Basic Capacitor Banks are RF batteries which can store the RF power you generate. You can put many blocks together to enlarge your total battery capacity - they will merge into one battery.\n\nYou can also change the mode of each face using your wire cutters or yeta wrench instead of the GUI. One option is a nice display of input and output RF, but it has to be taller than it is wide.\n\nThese are great for interfacing with RF machines. GT wires will convert to RF, but they send a full amp packet no matter what. EnderIO machines properly accept it, but others like Genetics do not and waste most of the packet, so consider using them with any RF machine if it looks like you need it.",
       "globalShare:1": 1,
       "icon:10": {
@@ -34,21 +25,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lRF Batteries",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -91,13 +67,13 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinDarkWizard"
+          "id:8": "dreamcraft:item.CoinDarkWizard"
         },
         "1:10": {
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -110,7 +86,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
@@ -128,7 +103,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

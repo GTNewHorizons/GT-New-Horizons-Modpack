@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "You need steel? Uhh... fine. Let\u0027s get busy...\n\nThe Bricked Blast Furnace (BBF) can share walls with other ones, just like most GT multiblocks. How will this affect the air quality though...\n\nIf you are short on Stone Dust, you can get more by macerating cobblestone.\n\nIf you spawn near a biome with Hardened Clay you can macerate it to get the clay dust you need. You can also use brick blocks from Villages to get brick dust in the macerator.\n\nCrafting the Worktable from Forestry can make it easier as you can use all the buckets for crafting in one click.",
       "globalShare:1": 1,
       "icon:10": {
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lTime to Get Some Steel",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -87,7 +63,7 @@
           "Count:3": 50,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     },
@@ -125,7 +101,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1008,
@@ -155,7 +130,6 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 28,
@@ -179,7 +153,6 @@
       "ignoreNBT:1": 0,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
@@ -197,7 +170,6 @@
       "ignoreNBT:1": 0,
       "index:3": 3,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 72,
@@ -233,13 +205,12 @@
       "ignoreNBT:1": 0,
       "index:3": 4,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 432,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:UnfiredClayBrick"
+          "id:8": "dreamcraft:item.UnfiredClayBrick"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -251,7 +222,6 @@
       "ignoreNBT:1": 0,
       "index:3": 5,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 432,
@@ -269,7 +239,6 @@
       "ignoreNBT:1": 0,
       "index:3": 6,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 108,
@@ -293,7 +262,6 @@
       "ignoreNBT:1": 0,
       "index:3": 7,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 216,
@@ -311,7 +279,6 @@
       "ignoreNBT:1": 0,
       "index:3": 8,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 216,
@@ -329,7 +296,6 @@
       "ignoreNBT:1": 0,
       "index:3": 9,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 72,
@@ -347,7 +313,6 @@
       "ignoreNBT:1": 1,
       "index:3": 10,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
@@ -365,7 +330,6 @@
       "ignoreNBT:1": 0,
       "index:3": 11,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

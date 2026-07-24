@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Glass Fiber is used in Fiber Reinforced Boards for circuits. [note]For next tier. Go left for this tier\u0027s circuits.[/note]\n\nBorax can be extracted out of Salt ores. Electrolyze it to get Boron and mix it with Glass dust to get Borosilicate Glass Dust.\n\nThe ingots can be turned into glass fiber in the wiremill or extruder.\n\nYou can also use borosilicate to make higher tier glass for higher tier SB recipes, or for the blocks for the multis that need it.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,22 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§8§lGlass Fiber",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§a§lGlass Fiber",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -81,13 +57,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "dreamcraft:item.CoinChemistII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -100,7 +76,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 23,
@@ -118,7 +93,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -142,7 +116,6 @@
       "ignoreNBT:1": 1,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
@@ -160,7 +133,6 @@
       "ignoreNBT:1": 1,
       "index:3": 3,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
@@ -178,7 +150,6 @@
       "ignoreNBT:1": 1,
       "index:3": 4,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,

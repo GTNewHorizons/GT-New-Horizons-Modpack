@@ -5,57 +5,25 @@
       "questIDLow:4": 3236
     },
     "1:10": {
-      "questIDHigh:4": 8348724939136321554,
-      "questIDLow:4": -6966981174478510993
-    },
-    "2:10": {
-      "questIDHigh:4": -2365245945413417998,
-      "questIDLow:4": -8014877735925203463
-    },
-    "3:10": {
-      "questIDHigh:4": -541830234443857532,
-      "questIDLow:4": -5195393884836375387
+      "questIDHigh:4": 9111043962560858024,
+      "questIDLow:4": -7565512237463838538
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.\n\n[note]You will need a NAC to get started.[/note]\n\n[warn]Rumor has it these circuits may not be around for much longer...[/warn]",
+      "desc:8": "Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.\n\n[note]You will need an UMV powered Assembly Line to get started.[/note]\n\n[warn]Rumor has it these circuits may not be around for much longer...[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:PikoCircuit"
+        "id:8": "dreamcraft:item.PikoCircuit"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§l§nUMV Circuits",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "UMV Circuits",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -77,13 +45,12 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:PikoCircuit"
+          "id:8": "dreamcraft:item.PikoCircuit"
         }
       },
       "taskID:8": "bq_standard:retrieval"

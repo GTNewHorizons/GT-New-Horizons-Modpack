@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "As did all tiers until now, the EV tier introduces a new type of bigger, better liquid fuel to burn on engines, High-Octane Gasoline. However, this one doesn\u0027t use the previous fuel, and instead takes a different oil-based route, which means that the CBD you have is of no use in this processing chain.\n\nAlso as before, the amount of processing you will need is greatly increased, and you can expect to need a lot more DTs, Oil Crackers, LCRs and other machines. You will also have to automate the input of materials from other sources, since Oil cannot provide you with everything anymore. You can overclock the multis you have, or build more of them, your choice. In the end, you\u0027ll have a fuel that is 2.5x more powerful than CBD, at an impressive fuel value of 2.5 million EU, and more byproducts than you could ever imagine.\n\nYou might have to crack one of the four oil fractions into the other ones, and you will surely need to pump Oil faster and faster to keep up with the power needs that will come when jumping to IV. I do recommend you use AE2 to automate the setup, relying on fluid P2Ps to transport fluids around, because it will make your life easier, even if it\u0027s harder to start and learn the setup. Either way you go, don\u0027t forget, you have to automate it.\n\n[warn]Work on making these important EV multis to continue.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Superpowered Fuel",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -85,7 +61,7 @@
           "Count:3": 20,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -98,7 +74,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -116,11 +91,10 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 15533,
+          "Damage:2": 1171,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

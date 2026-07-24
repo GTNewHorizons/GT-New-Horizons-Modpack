@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The Distillation Tower you\u0027ve recently unlocked can bring forth many, many more outputs than what you\u0027ve done so far. If you look at NEI, you might see that there are other Charcoal-related fluids that have recipes in this multi, and this is the time to work with them: doing it all in singleblock Distilleries would be very wasteful.\n\nThe most important part about getting these fluids is the Pyrolyse Oven. If you haven\u0027t made one, it\u0027s highly recommended that you make at least one. You can upgrade both the energy hatch and the coils used in it to keep it up to speed with everything else, no need to build more than one. Aside from fulfilling the purpose of the Coke Oven, to cook Wood into Charcoal, it gives the choice of which of several fluids it also outputs as it does the processing. Most of the options are potentially useful, but a complete Benzene setup will prefer Charcoal Byproducts because they are, essentially, the complete product.\n\nATTENTION: This setup is technically HV, but it\u0027s quite expensive. It\u0027s fine if you move to EV first before you build this. It is in no way required to progress in HV.\n\nWith Charcoal Byproducts, the full setup involves DTing that into Wood Tar, Wood Vinegar and Wood Gas, and then DTing all of those into their respective outputs. With one tower for each, you will end up with a quad DT setup, very expensive overall in terms of Stainless Steel, but with huge savings compared to making 4 separate ones. Keep in mind, however, that they will not all have the same height. Additionally, Wood Gas is not as valuable as the other two (although it is a decent Ethylene source), so it\u0027s also a good idea to make 2 of the 4 DTs process that, and burn the Wood Gas for the little power it can provide.\n\nAs a final note, the towers do process things slowly. Add Distilleries, if you wish, to get specific outputs.",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Further Charcoal Distillation",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -86,13 +62,13 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         },
         "3:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "dreamcraft:item.CoinChemistII"
         }
       }
     }
@@ -105,7 +81,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,

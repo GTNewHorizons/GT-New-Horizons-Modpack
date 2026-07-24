@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Let\u0027s make a brand new plastic! The trees that you found on Barnarda C have very interesting properties. Still, you can\u0027t just use the extracted radox substance raw. Some serious refining steps are in order!\n\n§6You\u0027ll need it for a ton of stuff like UIV and UMV superconductors, UEV+ hatches, or parts of the Dyson Swarm.§r\n\nCompared to the previous plastics, most of the steps required here are not chemical reactions. They are also very slow, so you might want to use a mega multiblock to help with that. This production line also underlines the necessity of large-scale plasma production. You will only need more going forward.\n\n[note]Super Heavy Radox will be needed for Dimensionally Shifted Superfluid, so store some for later.[/note]\n\n[note]The Heavy Radox you get as a byproduct can be used for MkV Naquadah Fuel.[/note]",
+      "desc:8": "Let\u0027s make a brand new plastic! The trees that you found on Barnada C have very interesting properties. Still, you can\u0027t just use the extracted radox substance raw. Some serious refining steps are in order!\n\n§6You\u0027ll need it for a ton of stuff like UIV and UMV superconductors, UEV+ hatches, or parts of the Dyson Swarm.§r\n\nCompared to the previous plastics, most of the steps required here are not chemical reactions. They are also very slow, so you might want to use a mega multiblock to help with that. This production line also underlines the necessity of large-scale plasma production. You will only need more going forward.\n\n[note]Super Heavy Radox will be needed for Dimensionally Shifted Superfluid, so store some for later.[/note]\n\n[note]The Heavy Radox you get as a byproduct can be used for MkV Naquadah Fuel.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -25,25 +16,10 @@
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.01"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§4§l§nWait, PBI wasn\u0027t the last plastic?",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "Wait, PBI wasn\u0027t the last plastic?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -65,7 +41,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

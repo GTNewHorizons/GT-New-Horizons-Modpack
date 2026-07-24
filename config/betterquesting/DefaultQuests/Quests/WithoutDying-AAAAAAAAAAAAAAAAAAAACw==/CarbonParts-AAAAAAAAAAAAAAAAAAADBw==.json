@@ -12,43 +12,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "These are the first parts you will need for your beloved nano armor.\n\n[note]To actually complete the nano armor, you will need EV circuits and nano crystals (see Storing and Transforming EU).[/note]\n\n[warn]IC2 is slowly being removed from the modpack! Check out the nearby quest \"Modular Meddling\" for the replacement.[/warn]",
+      "desc:8": "These are the first parts you will need for your beloved nano armor.\n\n[note]To actually complete the nano armor you will need EV circuits and nano crystals (see Storing and Transforming EU).[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:CarbonPartChestplate"
+        "id:8": "dreamcraft:item.CarbonPartChestplate"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Carbon Parts",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
@@ -91,13 +67,13 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinSmith"
+          "id:8": "dreamcraft:item.CoinSmith"
         },
         "1:10": {
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinSurvivor"
+          "id:8": "dreamcraft:item.CoinSurvivor"
         }
       }
     }
@@ -110,7 +86,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
@@ -128,31 +103,30 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CarbonPartHelmet"
+          "id:8": "dreamcraft:item.CarbonPartHelmet"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CarbonPartChestplate"
+          "id:8": "dreamcraft:item.CarbonPartChestplate"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CarbonPartLeggings"
+          "id:8": "dreamcraft:item.CarbonPartLeggings"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CarbonPartBoots"
+          "id:8": "dreamcraft:item.CarbonPartBoots"
         }
       },
       "taskID:8": "bq_standard:retrieval"

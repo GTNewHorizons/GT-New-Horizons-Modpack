@@ -17,16 +17,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.\n\nThe §5§lTier 2§r Maceration stack has §2§l4x§r the speed and §6§l4x§r the parallels compared to the T1!",
+      "desc:8": "Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.\n\nThe Tier 2 Maceration stack has 4x more parallels!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -37,22 +28,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lT2 Maceration Stack ",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "T2 Maceration Stack ",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -88,64 +64,21 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32152,
           "OreDict:8": "",
           "id:8": "miscutils:MU-metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 87,
+        },
+        "1:10": {
+          "Count:3": 1,
           "Damage:2": 7,
           "OreDict:8": "",
           "id:8": "miscutils:miscutils.blockcasings"
-        },
-        "1:10": {
-          "Count:3": 20,
-          "Damage:2": 372,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
-        },
-        "2:10": {
-          "Count:3": 18,
-          "Damage:2": 3,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
-        },
-        "3:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blocktintedglass"
-        },
-        "4:10": {
-          "Count:3": 6,
-          "Damage:2": 10,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings3"
-        },
-        "5:10": {
-          "Count:3": 1,
-          "Damage:2": 91,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

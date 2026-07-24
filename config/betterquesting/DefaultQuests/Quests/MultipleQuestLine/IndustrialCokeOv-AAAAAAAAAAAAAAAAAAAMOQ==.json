@@ -12,42 +12,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the §5§lIndustrial Coke Oven§r (ICO) does not!\n\nWhat does it do? It\u0027s in the name, it\u0027s a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron \u0026 you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.\n\nIn EV you\u0027ll have to stick to the heat resistant casing, which offers §616§r parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to §632§r parallels.\n\nOptionally, you can add up to 15 slices to each Coke Oven for a boost in parallels. §6+8§r per slice when using Heat Resistant Casings, and §6+16§r per slice when using the Heat Proof Casings.\n\n[note]For now, coil tier is irrelevant to the machine\u0027s performance, but later on, upgrading to Infinity Coils+ allows for multi-amp hatches, and using Eternal Coils allows for unlimited slice addition.[/note]",
+      "desc:8": "Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!\n\nWhat does it do? It\u0027s in the name, it\u0027s a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron \u0026 you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.\n\nIn EV you\u0027ll have to stick to the heat resistant casing, which offers 18 parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to 30 parallels.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15543,
+        "Damage:2": 791,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§8§lIndustrial Coke Oven",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "Industrial Coke Oven",
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -89,7 +65,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianIII"
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
         }
       }
     }
@@ -102,13 +78,18 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 15543,
+          "Damage:2": 791,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -120,43 +101,29 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 46,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "miscutils:miscutils.blockcasings"
-        },
-        "1:10": {
-          "Count:3": 10,
-          "Damage:2": 305,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
-        },
-        "2:10": {
           "Count:3": 8,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "miscutils:miscutils.blockcasings"
-        },
-        "3:10": {
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 8,
-          "Damage:2": 0,
+          "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings5"
-        },
-        "4:10": {
-          "Count:3": 7,
-          "Damage:2": 13,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
-        },
-        "5:10": {
-          "Count:3": 1,
-          "Damage:2": 91,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "miscutils:miscutils.blockcasings"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The other half of TNM is Ethenone. Once again, DTs can make this easier for you, but Ethenone is pretty simple to figure out: either Acetic Acid or Acetone can make it, both of which are DT outputs, but Acetic Acid also needs Sulfuric Acid to make it.\n\nAcetone is easier, but either way works. One important thing to understand is that you only need a small, tiny amount of Ethenone when compared to other chemicals. When working with Biodiesel, 200L of Ethenone are enough for 9000L of CBD, which is equal to 9 million EU at 100% fuel efficiency. With that consideration, each bucket of Ethenone corresponds to 45M EU! Quite powerful, if I do say so myself.\n\nClearly, your bottleneck will be the Biodiesel and, in turn, the Seed/Fish Oil.",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Green Ethenone",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -85,7 +61,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "dreamcraft:item.CoinChemistII"
         }
       }
     }
@@ -98,7 +74,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,

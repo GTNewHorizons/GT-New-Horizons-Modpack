@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "So if you looked in NEI and tried to figure out how to make this, you were probably confused by the fact that you use the fluid it produces to make it. This is where NEI is lying to you. Like the previous recipe, NEI doesn\u0027t show it correctly (they should be around the same page in NEI, they both also appear to produce Sterilized Petri Dishes, (even if that\u0027s not true) and both use unique Modules).\n\nIn order to make this, you\u0027ll need to make the Rotten Flesh Bacteria culture, get the DNA Sample, and then get the Data Orb. It changes its name to beta-Lactamase, that\u0027s normal.\n\nThen, do the same thing for Common Yeast (get the right Yeast!).\n\nThen you need to use the recipe to combine the information from the Data Orbs and get the Common Yeast Plasmid from that.\n\nLastly, use the Rotten Flesh Bacteria culture, the Common Yeast Plasmid, Penicillin (make it by centrifuging Common Yeast Fluid), and Distilled Water. You want the Transformation Module for this. It\u0027s a 100% chance.\n\nYou\u0027ll want to use the normal recipe to make more cultures, since it also becomes beta-Lactamase once you turn it into a DNA Sample.",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,28 +16,33 @@
         "OreDict:8": "",
         "id:8": "bartworks:BioLabParts",
         "tag:10": {
-          "Name:8": "Saccharomyces escherichia"
+          "Breedable:1": 1,
+          "Color:11": [
+            127,
+            69,
+            26
+          ],
+          "DNA:10": {
+            "Chance:3": 10000,
+            "Name:8": "beta-Lactamase",
+            "Rarity:1": 1,
+            "Tier:3": 0
+          },
+          "Fluid:8": "saccharomycesescherichiafluid",
+          "Name:8": "Saccharomyces escherichia",
+          "Plasmid:10": {
+            "Chance:3": 7500,
+            "Name:8": "Saccharomyces cerevisiae",
+            "Rarity:1": 0,
+            "Tier:3": 0
+          },
+          "Rarety:1": 2
         }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§l§nGeneral Purpose Fermenting Bacteria",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "General Purpose Fermenting Bacteria",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -68,7 +64,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -76,7 +71,27 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "Escherichia koli"
+            "Breedable:1": 1,
+            "Color:11": [
+              149,
+              132,
+              75
+            ],
+            "DNA:10": {
+              "Chance:3": 10000,
+              "Name:8": "Escherichia koli",
+              "Rarity:1": 1,
+              "Tier:3": 0
+            },
+            "Fluid:8": "escherichiakolifluid",
+            "Name:8": "Escherichia koli",
+            "Plasmid:10": {
+              "Chance:3": 10000,
+              "Name:8": "Escherichia koli",
+              "Rarity:1": 1,
+              "Tier:3": 0
+            },
+            "Rarety:1": 1
           }
         },
         "1:10": {
@@ -85,7 +100,10 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "beta-Lactamase"
+            "Chance:3": 10000,
+            "Name:8": "beta-Lactamase",
+            "Rarity:1": 1,
+            "Tier:3": 0
           }
         },
         "2:10": {
@@ -108,7 +126,6 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -116,7 +133,27 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "Saccharomyces cerevisiae"
+            "Breedable:1": 1,
+            "Color:11": [
+              255,
+              248,
+              200
+            ],
+            "DNA:10": {
+              "Chance:3": 7500,
+              "Name:8": "Saccharomyces cerevisiae",
+              "Rarity:1": 0,
+              "Tier:3": 0
+            },
+            "Fluid:8": "saccharomycescerevisiaefluid",
+            "Name:8": "Saccharomyces cerevisiae",
+            "Plasmid:10": {
+              "Chance:3": 7500,
+              "Name:8": "Saccharomyces cerevisiae",
+              "Rarity:1": 0,
+              "Tier:3": 0
+            },
+            "Rarety:1": 0
           }
         },
         "1:10": {
@@ -125,7 +162,10 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "Saccharomyces cerevisiae"
+            "Chance:3": 7500,
+            "Name:8": "Saccharomyces cerevisiae",
+            "Rarity:1": 0,
+            "Tier:3": 0
           }
         },
         "2:10": {
@@ -148,7 +188,6 @@
       "ignoreNBT:1": 0,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -198,7 +237,6 @@
       "ignoreNBT:1": 1,
       "index:3": 3,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -216,7 +254,6 @@
       "ignoreNBT:1": 0,
       "index:3": 4,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -224,7 +261,10 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "Saccharomyces cerevisiae"
+            "Chance:3": 7500,
+            "Name:8": "Saccharomyces cerevisiae",
+            "Rarity:1": 0,
+            "Tier:3": 0
           }
         }
       },
@@ -237,7 +277,6 @@
       "ignoreNBT:1": 0,
       "index:3": 5,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -245,7 +284,26 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "Escherichia cadaver"
+            "Breedable:1": 0,
+            "Color:11": [
+              110,
+              40,
+              25
+            ],
+            "DNA:10": {
+              "Chance:3": 10000,
+              "Name:8": "beta-Lactamase",
+              "Rarity:1": 1,
+              "Tier:3": 0
+            },
+            "Name:8": "Escherichia cadaver",
+            "Plasmid:10": {
+              "Chance:3": 10000,
+              "Name:8": "beta-Lactamase",
+              "Rarity:1": 1,
+              "Tier:3": 0
+            },
+            "Rarety:1": 1
           }
         },
         "1:10": {
@@ -254,7 +312,10 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "Saccharomyces cerevisiae"
+            "Chance:3": 7500,
+            "Name:8": "Saccharomyces cerevisiae",
+            "Rarity:1": 0,
+            "Tier:3": 0
           }
         },
         "2:10": {
@@ -279,7 +340,6 @@
       "ignoreNBT:1": 1,
       "index:3": 6,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -297,7 +357,6 @@
       "ignoreNBT:1": 1,
       "index:3": 7,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -305,7 +364,27 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "Saccharomyces escherichia"
+            "Breedable:1": 1,
+            "Color:11": [
+              127,
+              69,
+              26
+            ],
+            "DNA:10": {
+              "Chance:3": 10000,
+              "Name:8": "Escherichia koli",
+              "Rarity:1": 1,
+              "Tier:3": 0
+            },
+            "Fluid:8": "saccharomycesescherichiafluid",
+            "Name:8": "Saccharomyces escherichia",
+            "Plasmid:10": {
+              "Chance:3": 7500,
+              "Name:8": "Saccharomyces cerevisiae",
+              "Rarity:1": 0,
+              "Tier:3": 0
+            },
+            "Rarety:1": 2
           }
         }
       },

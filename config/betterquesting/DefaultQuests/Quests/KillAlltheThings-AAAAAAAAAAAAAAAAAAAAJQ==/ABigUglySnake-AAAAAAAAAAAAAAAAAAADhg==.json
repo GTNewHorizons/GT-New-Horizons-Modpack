@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Required for your first wand, and in general, an ugly creature.\n\n[note]To progress in TF, you need to follow the achievements. They can be finicky, so make sure to check if you got the achievement each time. If not, try to drop and pickup everything that dropped from the bosses.[/note]\n\n[note]If you have problems completing the quest, you can also use the Spawn Eggs from the Vending Machine to try again.[/note]",
+      "desc:8": "Required for your first wand, and in general, an ugly creature.\n\n[note]To progress in TF, you need to follow the achievements. They frequently bug out, so drop and pickup everything that dropped from the bosses. Yes, right after you picked it up the first time. It\u0027s dumb, we know.[/note]\n\n[note]Also, BQ3 has a tendency to bug out detecting boss kills if you don\u0027t melee them, so if you want to complete these quests, use the spawn eggs from the coins tab and melee them when they get low on health if you missed them the first time.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "A Big Ugly Snake",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": 864000,
@@ -81,19 +57,19 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinSurvivorI"
+          "id:8": "dreamcraft:item.CoinSurvivorI"
         },
         "1:10": {
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinDarkWizardI"
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         },
         "2:10": {
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinAdventureI"
+          "id:8": "dreamcraft:item.CoinAdventureI"
         }
       }
     }

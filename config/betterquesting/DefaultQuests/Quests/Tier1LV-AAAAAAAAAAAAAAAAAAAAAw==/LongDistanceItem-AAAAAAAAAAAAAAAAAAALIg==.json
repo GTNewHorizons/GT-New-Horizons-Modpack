@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Wouldn\u0027t it be great if you could transport ores from a far away ore vein by pipes to your base?\n\nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Item Pipeline block. In between use the associated pipe blocks - the total distance between endpoints must be more than 64 blocks apart (4 or more chunks). There can only be one start and end point per pipeline.\n\nTo actually connect it, you need to align the start LDIP block such that the arrows are facing inwards, and the opposite side of it has a LDIPP block. Put a conveyor on the side of the block that has the arrows and set to import. It will now attempt to import stuff to the endpoint LDIP. This will go as fast as you can put items into it.§r\n\nDo the opposite on the far side, except you don\u0027t need a conveyor.\n\nNow you only need to chunkload the start and end points and the items will be \"teleported\" to you.\n\nOf course, later on you\u0027ll probably use ender chests to §oactually§r teleport the ore, especially from other dims.\n\nThis setup is lag-free in the pipe blocks, so it\u0027s useful in your base as well if you want to reduce lag.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,22 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lLong Distance Item Pipeline",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§5§lLong Distance Item Pipeline",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -87,7 +63,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -100,7 +76,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
@@ -118,7 +93,6 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,

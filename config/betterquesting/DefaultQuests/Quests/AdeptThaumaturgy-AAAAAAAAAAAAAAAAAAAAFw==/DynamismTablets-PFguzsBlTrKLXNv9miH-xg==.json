@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "The Dynamism tablet is a block that simulates the functionality of a left and right-click autoclicker. It can be obtained fairly early in the game (early-mid MV), and is a useful tool for simple automation.\n\nUpon placing, the tablet will target the block that it\u0027s facing (the direction is indicated by a small dot on the overlay) and will start once you give it an item in its slot. If it holds a block/seed/sapling, it can also place it on the block below it.\n\nIt can be configured to either left/right click and also has an option to only be active when it receives a redstone signal. Hoppers or item pipes of any sort also allow the tablet to receive items.\n\nNote that some special mob drops or special interactions (like BM sacrificial knife) are disabled for the Dynamism tablet. However, they do work with Tinkers Tools.\n\n[note]This item has received a rework in 2.8 and has had most of its bugs fixed. If you still encounter any bugs, feel free to report it on our GitHub page or discord server.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Dynamism Tablets",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -85,7 +61,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinDarkWizardI"
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         }
       }
     }
@@ -98,7 +74,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

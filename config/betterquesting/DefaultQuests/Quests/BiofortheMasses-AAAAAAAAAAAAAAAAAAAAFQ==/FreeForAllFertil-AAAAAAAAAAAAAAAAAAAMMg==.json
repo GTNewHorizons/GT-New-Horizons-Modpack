@@ -8,42 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "You might have heard of the Fertilia crop, which can easily automate the Fertilizer input for your crops, if you\u0027re using them. Why bother, though, when you\u0027re already getting it from your DT? That\u0027s right, you will also be able to automate fertilizing alongside everything else, which is very important for high-statted crops, making all the inputs (energy, water, fertilizer) automated without any outside inputs. Pretty neat, huh?\n\nThat said, you might not be using crops at all. In that case, you can electrolyze it, and you\u0027ll get a lot of free Carbon and Calcite Dust, which you\u0027ll certainly use in future chemistry. You can also use the CO2 Gas from the DT to get Carbon, I guess? It\u0027s not very useful.",
+      "desc:8": "You might have heard of the Fertilia crop, which can easily automate the Fertilizer input for your crops, if you\u0027re using them. Why bother, though, when you\u0027re already getting it from your DT? That\u0027s right, you will also be able to automate fertilizing alongside everything else, which is very important for high-statted crops, making all the inputs (energy, water, fertilizer) automated without any outside inputs. Pretty neat, huh?\n\nThat said, you might not be using IC2 crops at all. In that case, you can electrolyze it, and you\u0027ll get a lot of free Carbon and Calcite Dust, which you\u0027ll certainly use in future chemistry. You can also use the CO2 Gas from the DT to get Carbon, I guess? It\u0027s not very useful.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "cropsnh:fertilizer"
+        "id:8": "IC2:itemFertilizer"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Free For All Fertilizer",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -78,7 +54,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "dreamcraft:item.CoinChemistII"
         }
       }
     }
@@ -91,13 +67,12 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 256,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "cropsnh:fertilizer"
+          "id:8": "IC2:itemFertilizer"
         }
       },
       "taskID:8": "bq_standard:retrieval"

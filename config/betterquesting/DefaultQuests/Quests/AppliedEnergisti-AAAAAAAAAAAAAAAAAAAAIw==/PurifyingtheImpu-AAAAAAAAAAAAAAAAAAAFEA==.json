@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.\n\nYou may need the Pure Nether Quartz later, but for now let\u0027s create some Pure Fluix Crystal and Pure Certus Quartz Crystal.\n\nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.\n\n[note]Distilled water reduces the recipe time in the Autoclave by half.[/note]",
+      "desc:8": "The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.\n\nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.\n\n[note]Distilled water reduces the recipe time in the Autoclave by half.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Purifying the Impure",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -87,7 +63,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "dreamcraft:item.CoinChemistII"
         }
       }
     }
@@ -100,28 +76,33 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 32,
+          "Count:3": 48,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:sand"
         },
         "1:10": {
           "Count:3": 16,
+          "Damage:2": 2522,
+          "OreDict:8": "dustNetherQuartz",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 16,
           "Damage:2": 2516,
           "OreDict:8": "dustCertusQuartz",
           "id:8": "gregtech:gt.metaitem.01"
         },
-        "2:10": {
+        "3:10": {
           "Count:3": 16,
           "Damage:2": 8,
           "OreDict:8": "dustFluix",
           "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -130,9 +111,17 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
+          "Count:3": 32,
+          "Damage:2": 600,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemCrystalSeed",
+          "tag:10": {
+            "progress:4": 600
+          }
+        },
+        "1:10": {
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
@@ -141,7 +130,7 @@
             "progress:4": 0
           }
         },
-        "1:10": {
+        "2:10": {
           "Count:3": 32,
           "Damage:2": 1200,
           "OreDict:8": "",
@@ -151,7 +140,7 @@
           }
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
       "autoConsume:1": 0,
@@ -160,15 +149,20 @@
       "ignoreNBT:1": 0,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
+          "Count:3": 24,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        },
+        "1:10": {
           "Count:3": 24,
           "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         },
-        "1:10": {
+        "2:10": {
           "Count:3": 24,
           "Damage:2": 12,
           "OreDict:8": "",

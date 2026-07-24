@@ -12,15 +12,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They\u0027re crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.\n\nIf placed in a machine, it will fill up if there\u0027s excess power, and drain if the machine can\u0027t get enough. Handy for high-EU machines you don\u0027t want to choke.\n\n[note]Sodium is the one that stores the least EU of the 3 rechargeable batteries, but is definitely the easiest to get.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -37,21 +28,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Reusable Battery: Sodium",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -106,13 +82,13 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemist"
+          "id:8": "dreamcraft:item.CoinChemist"
         },
         "1:10": {
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -122,19 +98,15 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32519,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01",
-          "tag:10": {
-            "GT.ItemCharge:4": 50000
-          }
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

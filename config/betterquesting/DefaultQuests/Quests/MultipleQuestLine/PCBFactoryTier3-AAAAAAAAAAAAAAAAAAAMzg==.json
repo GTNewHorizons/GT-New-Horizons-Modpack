@@ -12,16 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Why use a small nozzle to print out the conductor on the board when you can just build it using nanites? Unfortunately, the Silver Nanite isn\u0027t rigid enough for that so a §6Gold Nanite§r will be needed... and so will new casings. Celestial tungsten should be a good candidate for a frame, and Quantum can be used for the protection for all these nanites flying around inside.\n\nThe structure will need to be bigger and taller to fit this more advanced technology, hopefully you prepared enough space!\n\n[note]Works the same as the Tier 2, with the advantage of requiring less resource intensive Gold Nanites.[/note]",
+      "desc:8": "Why use a small nozzle to print out the conductor on the board when one can just build it using nanites? Well the silver nanite isn\u0027t rigid enough for that so a new nanite will be needed... and so will new casings. Heard that celestial tungsten is a good candidate for a frame. Quantum can be used for the protection as these nanites will be forever flying around inside.\n\nThe structure will need to change as it needs to be a bit bigger and taller.\n\n[note]Works the same as the Tier 2 in most cases, but allows the player to use even less resources by using a gold nanite.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -32,22 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§l§nPCB Factory Tier 3",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "PCB Factory Tier 3",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -69,7 +45,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -87,22 +62,21 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 76,
-          "Damage:2": 10,
+          "Count:3": 1,
+          "Damage:2": 13,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
         },
         "1:10": {
-          "Count:3": 286,
-          "Damage:2": 13,
+          "Count:3": 1,
+          "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Hate magic (and fluid P2P), but still want to TP fluids? TT has your back with the Ender Fluid Link Cover!\n\nPlace one on a tank and open the GUI.\nChannel: Covers with the same text will connect.\n\nPublic: Links to any of the same color not set to private. Use an internet program to find out what the numbers mean, and get colors you like.\nPrivate: Does not link to public version of that color. Meaningless in SP.\n\nExport: Fluid moves from Attached Block -\u003e Cover Network\nImport: Fluid moves from Cover Network -\u003e Attached Block\n\nYou can use multiple as inputs and/or outputs. It runs at 8000L/t.\n\nYou can send §ofrom§r an output hatch or §oto§r an input hatch for multis. Probably won\u0027t work well for anything with multiple I/O, like a singleblock Chemical Reactor.",
+      "desc:8": "Hate magic (and fluid P2P), but still want to TP fluids? TT has your back with the Ender Fluid Link Cover!\n\nPlace one on a tank and open the GUI.\nChannel: Covers with the same text will connect.\n\nPublic: Links to any of the same color not set to private. Use an internet program to find out what the numbers mean, and get colors you like.\nPrivate: Does not link to public version of that color. Meaningless in SP.\n\nImport: Exports from attached tank.\nExport: Send to attached tank.\n\nYou can use multiple as inputs and/or outputs. It runs at 8000L/t.\n\nYou can send §ofrom§r an output hatch or §oto§r an input hatch for multis. Probably won\u0027t work well for anything with multiple I/O, like a singleblock Chemical Reactor.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -29,22 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§d§lFluid TP for Magic-Haters",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§c§lFluid TP for Magic-Haters",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -67,7 +43,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,

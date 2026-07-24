@@ -1,8 +1,8 @@
 # Main Guidelines for Quests Development
 
 1. Quests should primarily provide useful information to the player and guide them through the pack progression. But feel free to develop some lore on top of that.
-2. Everybody is welcome to contribute to the questbook. But any bigger changes need to be discussed in the #quest-dev channel on discord first.
-3. You should only change quests on topics you have expertise on and have actually played around with yourself. The only exceptions to this are mechanics/items/machines that are brand-new additions, in which case you should talk to the dev responsible for the feature or study the PR that added these things. Ideally that dev should write the quest or at least help you with it.
+2. Everybody is welcome to contribute to the questbook. But any bigger changes need to be discussed in the quest-dev channel on discord first.
+3. You should only change quests on topics you have expertise on and have actually played around with yourself. The only exception to this are mechanics/items/machines that are brand-new additions, in which case you should talk to the responsible dev or study the PR that added these things. Ideally get that dev to write the quest or at least help you with it.
 
 
 # Some more Guidelines for Quests Development
@@ -112,8 +112,8 @@ https://try.github.io/
 
 # Translating the Questbook
 
-1. Whenever the questbook data is updated in GitHub, our automated workflow will update `config/txloader/forceload/betterquesting/lang/template.lang`, which is a template for translating the questbook. By itself, this file does nothing, since it just contains the default English text for the quests.
+1. Whenever the questbook data is updated in GitHub, our automated workflow will update `config/txloader/load/betterquesting/lang/template.lang`, which is a template for translating the questbook. By itself, this file does nothing, since it just contains the default English text for the quests.
 2. NOTE: `template.lang` will be regenerated automatically, so you shouldn't manually modify it, nor include it in your PRs.
-3. Translators can work off of the translation keys in `template.lang` to create a translated lang file. Such files will go in the same directory; e.g., `config/txloader/forceload/betterquesting/lang/zh_CN.lang` for Chinese translations.
+3. Translators can work off of the translation keys in `template.lang` to create a translated lang file. Such files will go in the same directory; e.g., `config/txloader/load/betterquesting/lang/zh_CN.lang` for Chinese translations.
 4. If you're modifying quests and want an updated `template.lang` without going to the trouble of pushing to GitHub, you can run `/bq_admin default exportlang` to generate a `template.lang` based on your current quest data. This file can be found in `config/betterquesting/DefaultQuests/template.lang`. Do NOT commit this file to GitHub!
 5. The command in (4) also makes it possible to perform the translation directly in the questbook in-game. Write the translated text directly into the questbook, export `template.lang`, and then extract the translated entries manually. The `diff` command would probably be helpful here, diffing against the original `template.lang`.

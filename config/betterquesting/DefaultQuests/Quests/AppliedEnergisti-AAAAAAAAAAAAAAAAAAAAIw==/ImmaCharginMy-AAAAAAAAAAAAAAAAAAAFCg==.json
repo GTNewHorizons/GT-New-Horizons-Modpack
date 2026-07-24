@@ -12,15 +12,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.\n\nUse the autoclave to make crystals. Or if you have lots of sodium, you can use the chemical reactor recipe. You can also make the charger to go directly from crystal to charged crystal, but it\u0027s not very fast. The charger can connect directly to a GT cable or a fluix cable from the bottom.\n\n[note]Note that some recipes only have a chance of producing a charged crystal, which is true of many of these.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -34,21 +25,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Imma Chargin\u0027 My...",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -69,13 +45,13 @@
           "Count:3": 8,
           "Damage:2": 1516,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "gregtech:gt.blockores"
         },
         "1:10": {
           "Count:3": 8,
           "Damage:2": 810,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "gregtech:gt.blockores"
         }
       },
       "ignoreDisabled:1": 0,
@@ -91,7 +67,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "dreamcraft:item.CoinChemistII"
         }
       }
     }
@@ -104,7 +80,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
@@ -128,13 +103,12 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:ChargedCertusQuartzDust"
+          "id:8": "dreamcraft:item.ChargedCertusQuartzDust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -146,7 +120,6 @@
       "ignoreNBT:1": 0,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,

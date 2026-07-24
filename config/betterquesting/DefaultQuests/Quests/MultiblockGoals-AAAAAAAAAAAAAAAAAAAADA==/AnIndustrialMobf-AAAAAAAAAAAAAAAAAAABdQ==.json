@@ -16,16 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "§6§lExtreme Entity Crusher§r is your newest and probably §lbest§r spawner/grinder, with this you are not only able to get drops without any §lTPS§r issues but also with style and §lextreme§r efficiency.\n\nOf course that depends on the quality of your sword; damage, looting, and durability are the only stats that will translate towards the efficacy of the machine. §3(weapon is optional however, there are spikes in it after all!)§r\n\nWill occasionally spawn infernal mobs if possible and will use §2§lx8§r power with every infernal spawn so you need to take that into account!\n\nIf you are actively using the Blood Magic \"§c§lWell of Suffering§r\" ritual to power your altar, this multi may be used in combination with it to \u0027generate\u0027 and \u0027kill\u0027 mobs automatically for life essence, so you don\u0027t need a setup involving an actual spawner!\n\n§lNotes:§r\nWill generate §2§l120L§r of liquid XP with every cycle.\nIn case of any problems with multiblock animation just use §5soldering iron§r on the machine to disable it.\nRead the tooltip! There are a few unique quality of life settings that you may find of use.\n\n[warn]Enchanting the spikes in the structure does nothing to affect the machine.[/warn]",
+      "desc:8": "§6§lExtreme Entity Crusher§r is your newest and probably §lbest§r spawner/grinder, with this you are not only able to get drops without any §lTPS§r issues but also with style and §lextreme§r efficiency.\n\nOf course that depends on the quality of your sword; damage, looting, and durability are the only stats that will translate towards the efficacy of the machine. §3(weapon is optional however, there are spikes in it after all!)§r\n\nWill ocassionally spawn infernal mobs if possible and will use §2§lx8§r power with every infernal spawn so you need to take that into account!\n\nIf you are actively using the Blood Magic \"§c§lWell of Suffering§r\" ritual to power your altar, this multi may be used in combination with it to \u0027generate\u0027 and \u0027kill\u0027 mobs automatically for life essence, so you don\u0027t need a setup involving an actual spawner!\n\n§lNotes:§r\nWill generate §2§l120L§r of liquid XP with every cycle.\nIn case of any problems with multiblock animation just use §5soldering iron§r on the machine to disable it.\nRead the tooltip! There are a few unique quality of life settings that you may find of use.\n\n[warn]Enchanting the spikes does nothing to effect the machine.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -38,21 +29,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lAn Industrial Mobfarm",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -76,13 +52,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinSurvivorII"
+          "id:8": "dreamcraft:item.CoinSurvivorII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     },
@@ -108,7 +84,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

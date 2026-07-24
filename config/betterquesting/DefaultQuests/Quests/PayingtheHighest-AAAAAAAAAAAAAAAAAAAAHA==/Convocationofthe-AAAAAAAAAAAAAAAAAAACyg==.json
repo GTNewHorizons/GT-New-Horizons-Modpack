@@ -12,15 +12,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Time to open a portal to the Demonic Realm. What could possibly go wrong? (It\u0027s recommended to do this ritual in a space dimension, as the demon city spreads up to 1000x1000 blocks)\n\n[note]You should also be starting the ritual from the ground rather than in the air for the best results![/note]\n\nRequirements:\n- 15M LP (Archmage Blood Orb and \u003e\u003d 13 Runes of the Orb)\n- 8 Crystal Belljars (one filled with each of: magicales, potentia, incendium, terrae, tenebrae, sanctus, aether, and aquasalus)\n- 1 Sacrifice (Bottle a lesser demon/elemental in a soul vial)\n- 1 Master Ritual Stone, 128 Ritual Stones, and 1 Blood Altar\n- 1 Awakened Activation Crystal\n\nSteps to the Ritual:\n1. Use a Ritual Diviner to place all the Ritual Stones.\n2. Place the Belljars atop the 8 pillars surrounding the center.\n3. Link the Belljars to the Master Ritual Stone.\n4. Place the Blood Altar on top of the Master Ritual Stone.\n5. Start the ritual with the Awakened Activation Crystal.\n6. The Belljars are drained of their reagents.\n7. Kill the lesser demon/elemental with a Dagger of Sacrifice.\n8. The Demon Portal is opened.\n\nFor more details and images, visit [url]https://wiki.gtnewhorizons.com/wiki/Convocation_of_the_Damned[/url]\n\n[warn]The OW is now blacklisted for the portal. Too many people did not follow the recommendation and servers suffered for it. It also does not work well in the Personal Dimension.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
@@ -43,21 +34,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Convocation of the Damned",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -100,7 +76,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinBloodIII"
+          "id:8": "dreamcraft:item.CoinBloodIII"
         }
       }
     }
@@ -113,7 +89,6 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -245,7 +220,6 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
@@ -263,7 +237,6 @@
       "ignoreNBT:1": 1,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

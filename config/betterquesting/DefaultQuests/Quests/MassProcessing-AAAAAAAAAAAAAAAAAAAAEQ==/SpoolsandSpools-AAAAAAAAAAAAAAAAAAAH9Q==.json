@@ -8,20 +8,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Need enough wire to go around the world? Here you go.\n\nThe §5§lIndustrial Wire Factory§r is the only Wiremill multiblock, delivering §6§l4§r parallels per voltage tier, a §3§l25%§r EU discount, and a scalable speed bonus of §2§l+50%§r per Item Pipe Casing tier, ranging from §2§l1.5x§r speed while using Tin to an impressive §2§l5x§r speed while using Black Plutonium.\n\n[note]Glass tier is irrelevant; use what works best for you![/note]",
+      "desc:8": "Need enough wire to go around the world? Here you go.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15511,
+        "Damage:2": 798,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -29,22 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lSpools and Spools",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "Spools and spools",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -81,52 +57,21 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 15511,
+          "Damage:2": 798,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 35,
+        },
+        "1:10": {
+          "Count:3": 1,
           "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "miscutils:miscutils.blockcasings"
-        },
-        "1:10": {
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "bartworks:BW_TieredGlass"
-        },
-        "2:10": {
-          "Count:3": 3,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings11"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 91,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

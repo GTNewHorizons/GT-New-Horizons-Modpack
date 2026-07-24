@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "Functional flowers are a large part of Botania. Most of them have nuances to how they operate, and these are generally best explained in the Lexica Botania: a codex of all Botania knowledge. This questline will explain the basics, but be sure to keep a copy of the Lexica Botania on hand so you can easily reference the details.\n\nBesides being a repository of useful information, the Lexica Botania has another function: if, while holding it, you look at any Botania block in the world, you can shift-right-click on that block to open up the relevant page.\n\nSomething else you\u0027ll want for functional flowers is a handful of redstone roots. Flowers which have a redstone root in their recipe have the ability to toggle whether they are active by applying a redstone signal. Make a few before you move on.",
       "globalShare:1": 0,
       "icon:10": {
@@ -30,21 +21,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "A Botanist\u0027s Best Friend",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -170,7 +146,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinFlowerI"
+          "id:8": "dreamcraft:item.CoinFlowerI"
         },
         "1:10": {
           "Count:3": 2,
@@ -189,7 +165,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -208,7 +183,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,

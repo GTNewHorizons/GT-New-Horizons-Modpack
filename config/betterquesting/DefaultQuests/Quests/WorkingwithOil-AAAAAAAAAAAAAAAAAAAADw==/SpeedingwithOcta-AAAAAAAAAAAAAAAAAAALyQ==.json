@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "One of the components of High-Octane Gasoline, as the name implies, is Octane. It is so important to improve the fuel because of something called \"octane rating\", which measures how much the fuel resists compression without detonating. The energy that vehicles get to move around comes from this detonation, but being able to apply more compression allows for engine designs that are more efficient, but need the fuel to resist that increased force without detonating. That said, any of these fuels can be run in the engines you use, so the way to represent this efficiency bonus is in the fuel value.\n\n(There is a multi in the next tier that only runs on HOG, though. Don\u0027t forget it.)\n\nHow is Octane obtained, then? In the last tier, it was explained as coming from Light Fuel, and this is still how you should, and can obtain it: lightly hydro-cracked Light Fuel gives some Octane, so put a DT for it and leave your Diesel needs behind. It\u0027s time to move on.",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Speeding with Octane",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -78,7 +54,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "dreamcraft:item.CoinChemistII"
         }
       }
     }
@@ -91,7 +67,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 20,

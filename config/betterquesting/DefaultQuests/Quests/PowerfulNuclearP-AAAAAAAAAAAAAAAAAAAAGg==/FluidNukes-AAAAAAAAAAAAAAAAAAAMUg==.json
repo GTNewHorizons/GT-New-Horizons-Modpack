@@ -8,16 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Eventually, the previous nukes will not be big enough. You can make more of them, to get more power, but it\u0027s clear that you need something bigger. Bigger, literally. The next step in nuclear fission starts with a bigger multiblock, built on top of the original nuke. By surrounding it with a 5x5x5 cube of Reactor Pressure Vessels, it will become a different type of multiblock, the fluid nuke.\n\nAfter doing this, there\u0027s no direct EU generation anymore. The main output of a working fluid nuke is Hot Coolant, a fluid that can be turned into Steam or Superheated Steam in another multi, the Large Heat Exchanger (LHE). Steam means power, as you already know, so the obvious chain of processes here is a fluid nuke into an LHE, and then into Steam Turbines. These added steps are required to make EU from a nuke of this type, for a larger than a regular nuke\u0027s output with the same amount of fuel.\n\nThe difference exists because regular nukes actually have a 50% penalty to EU/t. Additionally, for this, you have the option to use Thorium as fuel and still get a good amount of power, instead of Uranium! What you will need are the fluid nuke blocks, but there is an optional task for this setup that only needs some blocks from the setup.",
+      "desc:8": "Eventually, the previous nukes will not be big enough. You can make more of them, to get more power, but it\u0027s clear that you need something bigger. Bigger, literally. The next step in nuclear fission starts with a bigger multiblock, built on top of the original nuke. By surrounding it with a 5x5x5 cube of Reactor Pressure Vessels, it will become a different type of multiblock, the fluid nuke.\n\nAfter doing this, there\u0027s no direct EU generation anymore. The main output of a working fluid nuke is Hot Coolant, a fluid that can be turned into Steam or Superheated Steam in another multi, the Large Heat Exchanger (LHE). Steam means power, as you already know, so the obvious chain of processes here is a fluid nuke into an LHE, and then into Steam Turbines. These added steps are required to make EU from a nuke of this type (or, at least, they\u0027re the most popular way of doing it), but this work is rewarded by the final EU/t output of the setup, which is much larger than a regular nuke\u0027s output with the same amount of fuel.\n\nThe difference exists because regular nukes actually have a 50% penalty to EU/t. It\u0027s such a big step-up that, in reality, one fluid nuke is enough for IV power, if it\u0027s powerful enough. The one in this quest, though, is not that one, because fluid nukes in general have some additional complications that will be harder to deal with it. In fact, for this, you have the option to use Thorium as fuel and still get a good amount of power! What you will need are the fluid nuke blocks, but there is an optional task for this setup that only needs some blocks from the setup.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Fluid Nukes",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -65,7 +41,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -89,7 +64,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 92,
@@ -125,7 +99,6 @@
       "ignoreNBT:1": 1,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,

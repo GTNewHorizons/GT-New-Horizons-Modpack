@@ -12,43 +12,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Now you can make the bricks for your first multiblock structure. 108 bricks to be exact. Good that you just collected a lot of resources! What a coincidence...\n\nThe bricks you\u0027ll need are somewhat special. Make sure to craft the correct ones. With that done, let\u0027s build a coke oven to get some charcoal or coal coke! It may be useful to note that the oven doesn\u0027t automatically output its fluid contents. Later you will unlock a special hatch to change that.",
+      "desc:8": "Now you can make the bricks for your first multiblock structure. 104 bricks to be exact. Good that you just collected a lot of resources! What a coincidence...\n\nThe bricks you\u0027ll need are somewhat special. Make sure to craft the correct ones. With that done, let\u0027s build a coke oven to get some charcoal or coal coke! It may be useful to note that the oven doesn\u0027t automatically output its fluid contents. Faucets and pumps can help to change that.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 236,
+        "Damage:2": 7,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "Railcraft:machine.alpha"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 1,
-      "name:8": "§a§lGetting (Char)coal",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "§2§lGetting (Char)coal",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -85,7 +61,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -98,13 +74,12 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 108,
+          "Count:3": 104,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:UnfiredCokeOvenBrick"
+          "id:8": "dreamcraft:item.UnfiredCokeOvenBrick"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -116,19 +91,12 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 108,
+          "Count:3": 104,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CokeOvenBrick"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:furnace"
+          "id:8": "dreamcraft:item.CokeOvenBrick"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -143,16 +111,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 236,
+          "Count:3": 26,
+          "Damage:2": 7,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings12"
+          "id:8": "Railcraft:machine.alpha"
         }
       },
       "taskID:8": "bq_standard:crafting"

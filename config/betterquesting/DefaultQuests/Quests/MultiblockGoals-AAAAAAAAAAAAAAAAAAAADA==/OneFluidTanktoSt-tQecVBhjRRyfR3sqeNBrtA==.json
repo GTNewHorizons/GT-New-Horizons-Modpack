@@ -8,15 +8,6 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "If you ever thought that the standard super tanks or quantum tanks were still too small then the YOTTank is the next option.\n\nThe YOTTank compared to the TFFT might only be able to store one fluid instead of 25 fluids. However it makes up for this downside by not having to share any of the fluid storage space with any other fluids. It also does not require any energy input or maintenance requirements.\n\nIf all you want to do is store a large amount of one fluid type then look no further then the YOTTank. It has a special ME input hatch for ae2 connections while having expandable storage blocks. The tank can be both upgraded with the fluid storage blocks and can be increased in height to hold any more fluid.\n\nSo if you want to store your fluid in style then look no further then the YOTTank.\n\n[note]If you\u0027re having issues searching for the fluid storage blocks for the YOTTank in NEI then search for: fluid cell block[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,21 +20,6 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lOne Fluid Tank to Store it All!!",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -65,7 +41,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -83,7 +58,6 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

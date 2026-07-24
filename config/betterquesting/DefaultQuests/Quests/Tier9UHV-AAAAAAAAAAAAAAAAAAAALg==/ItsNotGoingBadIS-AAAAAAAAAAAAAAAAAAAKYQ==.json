@@ -8,42 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
       "desc:8": "To make your next tier of circuits (Bio Circuits), you need to make Raw Bio Medium. There are three ways of making it.\n\nThe first one requires Stemcells, Unknown Crystal and T-Ceti Seaweed Extract at LuV voltage and 94 Sievert (Plutonium level) in a Bacterial Vat. It makes Raw Bio Medium at 4:1 ratio.\n\nThe second one is basically the first one, but it requires Infinity Catalyst instead of Tritanium at ZPM voltage and 140 Sievert (Enriched Naquadah level) in a Bacterial Vat. It makes Raw Bio Medium at 1:1 ratio.\n\nThe third one is the most efficient, but it requires Biocells (which you don\u0027t have yet), and 4 dust of Infinity Catalyst at UV voltage and 150 Sievert (Naquadria level) in a Bacterial Vat. It makes Raw Bio Medium at 1:2 ratio.\n\n[note]The second and third ways use a different culture.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:TCetiESeaweedExtract"
+        "id:8": "dreamcraft:item.TCetiESeaweedExtract"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§4§l§nIt\u0027s Not Going Bad, I Swear!",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
+      "name:8": "It\u0027s Not Going Bad, I Swear!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -65,7 +41,6 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -83,13 +58,12 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:TCetiESeaweedExtract"
+          "id:8": "dreamcraft:item.TCetiESeaweedExtract"
         },
         "1:10": {
           "Count:3": 1,
@@ -97,7 +71,26 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Name:8": "Derivantur Cellula Evolutionis"
+            "Breedable:1": 0,
+            "Color:11": [
+              26,
+              59,
+              137
+            ],
+            "DNA:10": {
+              "Chance:3": 750,
+              "Name:8": "StemCellBac",
+              "Rarity:1": 3,
+              "Tier:3": 3
+            },
+            "Name:8": "Derivantur Cellula Evolutionis",
+            "Plasmid:10": {
+              "Chance:3": 750,
+              "Name:8": "StemCellBac",
+              "Rarity:1": 3,
+              "Tier:3": 3
+            },
+            "Rarety:1": 3
           }
         }
       },
@@ -110,7 +103,6 @@
       "ignoreNBT:1": 1,
       "index:3": 2,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

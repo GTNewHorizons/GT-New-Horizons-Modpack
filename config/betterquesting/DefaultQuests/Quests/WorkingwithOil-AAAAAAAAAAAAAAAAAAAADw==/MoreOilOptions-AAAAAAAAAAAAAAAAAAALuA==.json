@@ -8,42 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "completion_animation:8": "default",
-      "completion_particle:8": "default",
-      "confetti_icon:10": {
-        "Count:3": 0,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:stick"
-      },
-      "countAsQuest:1": 1,
-      "desc:8": "Alongside the Oil Drilling Rig, there are other sources you can explore. For Heavy Oil, a good source might be Oilsands Ore, which is found in rare veins at high altitudes. If you find one, you will have a large amount of Heavy Fuel to make Diesel with after processing.\n\nThere are also renewable sources of Oil, namely from crops and bees. The Oilberry crop can produce it indefinitely. There are also Refined Bees, but they are much harder to obtain.\n\nYou can also get more out of the Oil by cracking it in specific ways. Lightly Hydro-Cracked Heavy Fuel, for example, gives 60% of the input amount as Light Fuel, which can be helpful if you have an excess of Heavy, and not enough Light to make Diesel.",
+      "desc:8": "Alongside the Oil Drilling Rig, there are other sources you can explore. For Heavy Oil, a good source might be Oilsands Ore, which is found in rare veins at high altitudes. If you find one, you will have a large amount of Heavy Fuel to make Diesel with after processing.\n\nThere are also renewable sources of Oil, namely from IC2 crops and bees. The Oilberry crop can produce it indefinitely, but at a very slow rate, whereas bees can do it much faster, particularly Refined Bees, but they are much harder to obtain.\n\nYou can also get more out of the Oil by cracking it in specific ways. Lightly Hydro-Cracked Heavy Fuel, for example, gives 60% of the input amount as Light Fuel, which can be helpful if you have an excess of Heavy, and not enough Light to make Diesel.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 878,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "gregtech:gt.blockores"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "More Oil Options",
-      "notification_duration:5": -1.0,
-      "notification_effect:3": -1,
-      "notification_fade_in:5": -1.0,
-      "notification_fade_out:5": -1.0,
-      "notification_icon_offset_y:3": -2147483648,
-      "notification_icon_scale:5": -1.0,
-      "notification_pos_x:3": -2147483648,
-      "notification_pos_y:3": -2147483648,
-      "notification_show_icon:8": "default",
-      "notification_style:8": "default",
-      "notification_subtitle:8": "",
-      "notification_subtitle_scale:5": -1.0,
-      "notification_title:8": "",
-      "notification_title_scale:5": -1.0,
-      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -66,7 +42,7 @@
           "Count:3": 32,
           "Damage:2": 878,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "gregtech:gt.blockores"
         }
       }
     }
