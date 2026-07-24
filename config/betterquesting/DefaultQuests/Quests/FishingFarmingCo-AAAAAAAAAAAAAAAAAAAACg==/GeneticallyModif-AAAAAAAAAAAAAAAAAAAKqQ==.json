@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 721
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2415
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "There are 3 machines crucial to doing this. You\u0027ll also need bucketloads of power, and the same (literally) of UUM.\n\nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you\u0027re working with. Basically, it\u0027s (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3.\n\n[note]LV\u003dT1, MV\u003dT3, HV\u003dT5, EV\u003dT7, IV\u003dT9, LuV\u003dT11, ZPM\u003dT13, UV\u003dT15, UHV\u003dT17.[/note]\n\nFirst is the Crop Gene Extractor:\nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You\u0027ll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won\u0027t be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There\u0027s a significant number of crops, so you\u0027ll probably need a ton of Orbs too, unless you want to reuse them. [warn]Remember to keep a Data Orb or seedbag backup![/warn]\n\nSecond is the Crop Synthesizer:\nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.\n\nLastly is the Crop Replicator:\nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it\u0027s up to you whether that\u0027s worth it.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12501,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Genetically Modifying Your Plants",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2729,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3186
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3189
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "In the previous quest, Duranium was introduced as a material used to make Tritanium. While it becomes required for this reason, there is more to it than that. Another recipe that uses it is a Cyclotron recipe, which has a chance to produce a Quantum Anomaly.\n\nFirst off, what is the Cyclotron? That is a multiblock that works a bit like fusion, but only for the purpose of making new materials. It collides single particles with one another, or against fluids, to generate new items while consuming power. Most of the recipes it has won\u0027t be very useful, if at all, but it can also make Quantum Anomalies. This is a chance craft, but the Anomaly has a special property: when used to convert some blocks to others, it will not be consumed. Therefore, for that purpose, you only need to get one.\n\nIs this required? Well, yes. When you arrive at a certain stage of the game, you might find yourself needing a new kind of soldering alloy, called Mutated Living Solder. To craft this, you need a Chemical Plant made with Botmium, which is an alloy that required Advanced Nitinol. This, in turn, is one of the blocks that need a Quantum Anomaly for its conversion. Given that Duranium is the only fluid choice to make the Anomaly, then it becomes required for this as well, but only a couple tiers from ZPM.\n\nAdditionally, there are other recipes, like the Elemental Duplicator. This is a very powerful replicator that will give you a great boost in automation due to its speed and the replication recipes it can do, but the Quantum Anomaly used in this recipe will be consumed, so watch out: if you only have one, don\u0027t use it for this. Later on, however, you will encounter other recipes that consume the anomaly, namely the casings for the Quantum Force Transformer, so it will be important to automate their production by then.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 828,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Duranium and the Cyclotron",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3203,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1600
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "With higher tier crops you can even increase your ore production. Mixing some of these fibers and leaves with crushed ores can quadruple your output, and some can even be converted directly to dust. Later you can mix these materials to make purified ore with some UU matter.\n\nShow me your ability to get these metal crops and I\u0027ll give you some more fertilizer and some decent stat seedbags of rarer crops. Good source crops are essence berries or any of the oreberries.\n\nYou will need the proper oreblock beneath the crop to reach 100 percent maturity. For best growing conditions use dirt in between the ore block and the crop.\n\nFor Ferru and Aurelia you will have to use a block of metal instead of a GT ore block - a vanilla ore block automined from the Twilight Forest will however work. You can also buy some from the coins tab. WAILA will tell you if the crop will accept the block you are using.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32530,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.02"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Metals From the Earth",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1601,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 256,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemFertilizer"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCropSeed",
+          "tag:10": {
+            "gain:4": 10,
+            "growth:4": 10,
+            "name:8": "aurelia",
+            "owner:8": "IC2",
+            "resistance:4": 10,
+            "scan:4": 4
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCropSeed",
+          "tag:10": {
+            "gain:4": 10,
+            "growth:4": 10,
+            "name:8": "Argentia",
+            "owner:8": "gregtech",
+            "resistance:4": 10,
+            "scan:4": 4
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCropSeed",
+          "tag:10": {
+            "gain:4": 10,
+            "growth:4": 10,
+            "name:8": "Pyrolusium",
+            "owner:8": "gregtech",
+            "resistance:4": 10,
+            "scan:4": 4
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "Damage:2": 32530,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "1:10": {
+          "Count:3": 9,
+          "Damage:2": 32500,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "2:10": {
+          "Count:3": 9,
+          "Damage:2": 32527,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "3:10": {
+          "Count:3": 9,
+          "Damage:2": 32540,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "4:10": {
+          "Count:3": 9,
+          "Damage:2": 32528,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "5:10": {
+          "Count:3": 9,
+          "Damage:2": 32503,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
