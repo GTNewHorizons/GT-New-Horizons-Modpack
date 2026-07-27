@@ -41,6 +41,24 @@ BetterAchievements.cfg/*/*
 
 betterquesting.cfg/general/*
 
+bogosorter.cfg/general.ae2integration/*
+!bogosorter.cfg/general.ae2integration/B:enableIntegrationDebugLogging
+bogosorter.cfg/general.usageticker/*
+!bogosorter.cfg/general.usageticker.arrow/*
+bogosorter.cfg/general.dropoff/*
+!bogosorter.cfg/general.dropoff/S:dropoffTargetNames
+!bogosorter.cfg/general.dropoff/S:dropoffRenderStyle
+!bogosorter.cfg/general.dropoff/B:dropoffRenderFadeOut
+!bogosorter.cfg/general.dropoff/I:dropoffQuotaInMS
+!bogosorter.cfg/general.dropoff/I:dropoffRadius
+!bogosorter.cfg/general.dropoff/I:dropoffPacketThrottleInMS
+bogosorter.cfg/general/*
+!bogosorter.cfg/general/I:buttonColor
+!bogosorter.cfg/general/B:enableAutoRefill
+!bogosorter.cfg/general/B:enableAutoRefill_server
+!bogosorter.cfg/general/B:enableDebugTools
+!bogosorter.cfg/general/S:sortSound
+
 Botania.cfg/general/baubleRender.enabled
 Botania.cfg/general/blockBreakingParticles.enabled
 Botania.cfg/general/blockBreakingParticlesTool.enabled
