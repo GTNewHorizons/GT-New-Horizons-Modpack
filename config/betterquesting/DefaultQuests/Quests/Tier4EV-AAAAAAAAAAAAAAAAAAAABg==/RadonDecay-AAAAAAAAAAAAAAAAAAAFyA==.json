@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Radon is needed for EV Emitters and Sensors.\n\nYou can get Radium-226 from sifting Thorium, Pitchblende, Uraninite, or Uranium 238. It needs 4500 seconds, or 75 mins, to decay, and it will debuff you unless you have complete hazmat protection. It\u0027s a good idea to make a Lead-Lined Box and let the Radium decay there.\n\nThorium can be obtained from the Nether, whereas the other 3 ores are locked after the Tier 2 Rocket. However, Thorium gives a much smaller chance of getting Radium, so you\u0027ll need a good amount of it to continue.\n\nAfter it decays, you can electrolyze Radon out of it and progress into the next circuit line. However, you will not be able to do the Radon loop here, that can only be done with Plutonium 239.\n\n[note]You only need to do one task.[/note]",
+      "desc:8": "Radon is needed for EV Emitters and Sensors.\n\nYou can get Radium-226 from sifting Thorium, Pitchblende, Uraninite, or Uranium 238. It needs 4500 seconds, or 75 mins, to decay, and it will debuff you unless you have complete hazmat protection. It\u0027s a good idea to make a Lead-Lined Box and let the Radium decay there.\n\nThorium can be obtained from the Nether, whereas the other 3 ores are locked after the Tier 2 Rocket. However, Thorium gives a much smaller chance of getting Radium, so you\u0027ll need a good amount of it to continue.\n\nAfter it decays, you can electrolyze Radon out of it and progress into the next circuit line. However, you will not be able to do the Radon loop here, that can only be done with Plutonium 239.\n\n[note]You only need to fulfill one of the listed material requirements.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -52,7 +52,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -106,63 +106,27 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
           "Damage:2": 6873,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 64,
           "Damage:2": 6922,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "2:10": {
           "Count:3": 64,
           "Damage:2": 6098,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "3:10": {
           "Count:3": 128,
           "Damage:2": 6096,
           "OreDict:8": "",
