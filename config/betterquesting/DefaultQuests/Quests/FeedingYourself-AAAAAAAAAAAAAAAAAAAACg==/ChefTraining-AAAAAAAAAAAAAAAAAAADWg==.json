@@ -50,7 +50,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -79,135 +79,51 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "harvestcraft:ryeItem"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 1,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "harvestcraft:cornItem"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 1,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "2:10": {
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "harvestcraft:cucumberItem"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "autoConsume:1": 0,
-      "consume:1": 1,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "3:10": {
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "harvestcraft:turnipItem"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "4:10": {
-      "autoConsume:1": 0,
-      "consume:1": 1,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 4,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "4:10": {
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "harvestcraft:celeryItem"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "5:10": {
-      "autoConsume:1": 0,
-      "consume:1": 1,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 5,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "5:10": {
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "harvestcraft:beetItem"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "6:10": {
-      "autoConsume:1": 0,
-      "consume:1": 1,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 6,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "6:10": {
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "harvestcraft:tomatoItem"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "7:10": {
-      "autoConsume:1": 0,
-      "consume:1": 1,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 7,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "7:10": {
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
