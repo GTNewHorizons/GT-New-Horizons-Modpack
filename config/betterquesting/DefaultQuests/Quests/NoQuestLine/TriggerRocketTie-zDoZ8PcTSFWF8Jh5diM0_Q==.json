@@ -60,18 +60,21 @@
     "0:10": {
       "ignoreDisabled:1": 1,
       "index:3": 0,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAKUw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "1:10": {
       "ignoreDisabled:1": 1,
       "index:3": 1,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAKlg\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "2:10": {
       "ignoreDisabled:1": 1,
       "index:3": 2,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAKlQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     }
