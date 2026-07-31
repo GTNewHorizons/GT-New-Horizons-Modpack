@@ -60,78 +60,91 @@
     "0:10": {
       "ignoreDisabled:1": 1,
       "index:3": 0,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGoQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "1:10": {
       "ignoreDisabled:1": 1,
       "index:3": 1,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGqA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "2:10": {
       "ignoreDisabled:1": 1,
       "index:3": 2,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGpw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "3:10": {
       "ignoreDisabled:1": 1,
       "index:3": 3,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGpg\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "4:10": {
       "ignoreDisabled:1": 1,
       "index:3": 4,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGpA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "5:10": {
       "ignoreDisabled:1": 1,
       "index:3": 5,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGpQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "6:10": {
       "ignoreDisabled:1": 1,
       "index:3": 6,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGmw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "7:10": {
       "ignoreDisabled:1": 1,
       "index:3": 7,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGnA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "8:10": {
       "ignoreDisabled:1": 1,
       "index:3": 8,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGnQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "9:10": {
       "ignoreDisabled:1": 1,
       "index:3": 9,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGow\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "10:10": {
       "ignoreDisabled:1": 1,
       "index:3": 10,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGog\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "11:10": {
       "ignoreDisabled:1": 1,
       "index:3": 11,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGng\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "12:10": {
       "ignoreDisabled:1": 1,
       "index:3": 12,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGnw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     }
