@@ -4,58 +4,58 @@ Entries in this file take precedence over the values in the core file
 
 <OreDictionaryPreferences>
   <preference oreDictionary="dustGold" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2086" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="519" />
   </preference>
   <preference oreDictionary="dustCopper" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2035" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="269" />
   </preference>
   <preference oreDictionary="dustIron" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2032" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="647" />
   </preference>
   <preference oreDictionary="dustEnderPearl" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2532" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="378" />
   </preference>
   <preference oreDictionary="dustCoal" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2535" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="245" />
   </preference>
   <preference oreDictionary="dustLapis" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2526" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="684" />
   </preference>
   <preference oreDictionary="pulpWood" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2809" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1406" />
   </preference>
   <preference oreDictionary="dustAluminium" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2019" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="45" />
   </preference>
   <preference oreDictionary="dustBronze" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2300" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="168" />
   </preference>
   <preference oreDictionary="dustSilver" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2054" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1155" />
   </preference>
   <preference oreDictionary="dustLead" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2089" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="690" />
   </preference>
   <preference oreDictionary="dustTin" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2057" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1316" />
   </preference>
   <preference oreDictionary="dustSulfur" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2022" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1221" />
   </preference>
   <preference oreDictionary="dustArdite" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2382" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="86" />
   </preference>
   <preference oreDictionary="dustCobalt" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2033" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="247" />
   </preference>
   <preference oreDictionary="dustManyullyn" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2386" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="751" />
   </preference>
   <preference oreDictionary="foodFlour" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2881" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1402" />
   </preference>
   <preference oreDictionary="dustObsidian" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2804" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="885" />
   </preference>
 
 
