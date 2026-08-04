@@ -75,9 +75,9 @@
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 2000,
+          "Damage:2": 1049,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         },
         "3:10": {
           "Count:3": 1,

@@ -109,15 +109,15 @@
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 306,
+          "Damage:2": 1202,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "materiallib:sheetmetal"
         },
         "2:10": {
           "Count:3": 12,
-          "Damage:2": 306,
+          "Damage:2": 1202,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "3:10": {
           "Count:3": 1,

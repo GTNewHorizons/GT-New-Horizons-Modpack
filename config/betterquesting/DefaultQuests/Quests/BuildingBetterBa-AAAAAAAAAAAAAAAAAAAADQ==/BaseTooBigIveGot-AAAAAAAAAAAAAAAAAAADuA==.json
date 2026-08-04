@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 2845,
+          "Damage:2": 754,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -164,27 +164,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 21,
-          "Damage:2": 2823,
+          "Damage:2": 180,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 10,
-          "Damage:2": 2939,
+          "Damage:2": 1022,
           "OreDict:8": "dustQuartzSand",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 10,
-          "Damage:2": 2299,
+          "Damage:2": 1213,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "3:10": {
           "Count:3": 10,
-          "Damage:2": 2805,
+          "Damage:2": 243,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

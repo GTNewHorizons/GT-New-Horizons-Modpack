@@ -67,15 +67,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 2856,
+          "Damage:2": 1149,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 2306,
+          "Damage:2": 1202,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 1,

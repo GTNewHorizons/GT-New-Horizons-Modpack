@@ -69,15 +69,15 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 17086,
+          "Damage:2": 519,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 308,
+          "Damage:2": 1049,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "materiallib:cellMolten"
         },
         "3:10": {
           "Count:3": 1,

@@ -70,9 +70,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 5,
+          "Damage:2": 142,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockgem3"
+          "id:8": "materiallib:block"
         }
       }
     }

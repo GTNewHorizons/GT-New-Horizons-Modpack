@@ -128,15 +128,15 @@
         },
         "1:10": {
           "Count:3": 20,
-          "Damage:2": 27032,
+          "Damage:2": 646,
           "OreDict:8": "screwAnyIron",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:screw"
         },
         "2:10": {
           "Count:3": 5,
-          "Damage:2": 24032,
+          "Damage:2": 646,
           "OreDict:8": "springAnyIron",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:spring"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

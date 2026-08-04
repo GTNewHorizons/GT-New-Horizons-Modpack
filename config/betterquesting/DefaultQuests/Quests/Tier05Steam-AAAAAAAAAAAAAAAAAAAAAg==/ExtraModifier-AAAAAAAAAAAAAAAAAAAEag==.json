@@ -70,15 +70,15 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 86,
+          "Damage:2": 519,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 11300,
+          "Damage:2": 168,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         },
         "2:10": {
           "Count:3": 2,

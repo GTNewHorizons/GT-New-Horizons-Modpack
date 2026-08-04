@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30592,
+        "Damage:2": 6,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -108,15 +108,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 72,
-          "Damage:2": 30628,
+          "Damage:2": 868,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 36,
-          "Damage:2": 30605,
+          "Damage:2": 225,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -132,9 +132,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 30592,
+          "Damage:2": 6,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

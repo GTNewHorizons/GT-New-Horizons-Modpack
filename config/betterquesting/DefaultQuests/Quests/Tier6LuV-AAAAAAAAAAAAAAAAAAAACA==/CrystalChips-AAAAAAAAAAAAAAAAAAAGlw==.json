@@ -77,9 +77,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 70,
+          "Damage:2": 415,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "materiallib:cellMolten"
         },
         "2:10": {
           "Count:3": 1,
@@ -118,15 +118,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 72,
-          "Damage:2": 30501,
+          "Damage:2": 372,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:gemExquisite"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 70,
+          "Damage:2": 415,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "materiallib:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -160,9 +160,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 17501,
+          "Damage:2": 372,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "1:10": {
           "Count:3": 1,

@@ -121,13 +121,13 @@
           "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "bartworks:BW_TieredGlass"
         },
         "2:10": {
           "Count:3": 24,
-          "Damage:2": 81,
+          "Damage:2": 1344,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "materiallib:sheetmetal"
         },
         "3:10": {
           "Count:3": 10,

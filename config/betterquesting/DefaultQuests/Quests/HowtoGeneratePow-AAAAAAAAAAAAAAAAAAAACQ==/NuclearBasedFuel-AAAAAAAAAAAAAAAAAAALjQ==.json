@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 10003,
+        "Damage:2": 1368,
         "OreDict:8": "",
-        "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        "id:8": "materiallib:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -61,15 +61,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 10003,
+          "Damage:2": 1368,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 10002,
+          "Damage:2": 1366,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         }
       },
       "ignoreDisabled:1": 0,
@@ -89,9 +89,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10003,
+          "Damage:2": 1368,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

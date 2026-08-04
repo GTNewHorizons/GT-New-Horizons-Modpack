@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30693,
+        "Damage:2": 648,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -116,15 +116,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
-          "Damage:2": 30001,
+          "Damage:2": 597,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 18,
-          "Damage:2": 30023,
+          "Damage:2": 221,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -140,15 +140,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 2032,
+          "Damage:2": 646,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 18,
-          "Damage:2": 30683,
+          "Damage:2": 595,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -164,9 +164,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 30693,
+          "Damage:2": 648,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11019,
+        "Damage:2": 791,
         "OreDict:8": "",
-        "id:8": "bartworks:gt.bwMetaGenerateddust"
+        "id:8": "materiallib:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -83,9 +83,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 11015,
+          "Damage:2": 330,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -101,9 +101,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 11019,
+          "Damage:2": 791,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

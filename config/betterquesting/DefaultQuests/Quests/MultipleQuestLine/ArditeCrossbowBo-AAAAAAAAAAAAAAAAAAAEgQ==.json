@@ -104,9 +104,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 11382,
+          "Damage:2": 86,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 830,
+        "Damage:2": 497,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "materiallib:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -104,27 +104,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 830,
+          "Damage:2": 497,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 54,
+          "Damage:2": 1154,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 89,
+          "Damage:2": 689,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 699,
+          "Damage:2": 282,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -140,27 +140,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 5830,
+          "Damage:2": 497,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 5054,
+          "Damage:2": 1154,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 5089,
+          "Damage:2": 689,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 5699,
+          "Damage:2": 282,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"

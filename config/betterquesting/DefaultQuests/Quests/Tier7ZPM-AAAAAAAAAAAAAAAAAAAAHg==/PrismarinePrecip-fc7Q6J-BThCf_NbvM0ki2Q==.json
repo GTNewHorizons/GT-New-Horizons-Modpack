@@ -61,9 +61,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 44,
+          "Damage:2": 1214,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "materiallib:cellMolten"
         },
         "1:10": {
           "Count:3": 4,
@@ -108,15 +108,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 42,
-          "Damage:2": 0,
+          "Damage:2": 1215,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustStrontiumHydroxide"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 30137,
+          "Damage:2": 1465,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,9 +138,9 @@
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 30138,
+          "Damage:2": 1464,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "2:10": {
           "Count:3": 4,

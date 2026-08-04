@@ -120,9 +120,9 @@
         },
         "1:10": {
           "Count:3": 36,
-          "Damage:2": 30493,
+          "Damage:2": 703,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

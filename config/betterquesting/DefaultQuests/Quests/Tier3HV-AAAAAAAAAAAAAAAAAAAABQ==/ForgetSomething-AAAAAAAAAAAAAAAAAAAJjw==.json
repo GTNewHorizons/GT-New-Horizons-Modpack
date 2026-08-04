@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1812,
+        "Damage:2": 368,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "materiallib:ore_netherrack"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -97,27 +97,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 5836,
+          "Damage:2": 1102,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 5948,
+          "Damage:2": 320,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 5812,
+          "Damage:2": 368,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "3:10": {
           "Count:3": 32,
-          "Damage:2": 5911,
+          "Damage:2": 50,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -133,27 +133,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 1836,
+          "Damage:2": 1102,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_netherrack"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1948,
+          "Damage:2": 320,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_netherrack"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 1812,
+          "Damage:2": 368,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_netherrack"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 1911,
+          "Damage:2": 50,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_netherrack"
         }
       },
       "taskID:8": "bq_standard:retrieval"

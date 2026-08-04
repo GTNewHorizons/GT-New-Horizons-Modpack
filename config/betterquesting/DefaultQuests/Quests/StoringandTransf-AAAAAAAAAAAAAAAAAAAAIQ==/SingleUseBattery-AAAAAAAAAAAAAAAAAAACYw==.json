@@ -70,21 +70,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 30087,
+          "Damage:2": 763,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 2315,
+          "Damage:2": 111,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 1246,
+          "Damage:2": 1315,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:cableGt01"
         },
         "3:10": {
           "Count:3": 1,

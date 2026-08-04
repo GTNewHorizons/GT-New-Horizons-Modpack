@@ -110,15 +110,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 17526,
+          "Damage:2": 683,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 17500,
+          "Damage:2": 319,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "2:10": {
           "Count:3": 4,

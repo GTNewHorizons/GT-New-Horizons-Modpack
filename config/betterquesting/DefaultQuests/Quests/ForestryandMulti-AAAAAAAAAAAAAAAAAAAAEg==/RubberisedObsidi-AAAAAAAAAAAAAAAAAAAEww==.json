@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 22880,
+          "Damage:2": 1088,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:stickLong"
         },
         "1:10": {
           "Count:3": 2,
@@ -122,27 +122,27 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 22526,
+          "Damage:2": 683,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:stickLong"
         },
         "3:10": {
           "Count:3": 6,
-          "Damage:2": 26086,
+          "Damage:2": 519,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:bolt"
         },
         "4:10": {
           "Count:3": 3,
-          "Damage:2": 17308,
+          "Damage:2": 1049,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "5:10": {
           "Count:3": 6,
-          "Damage:2": 19035,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:wireFine"
         },
         "6:10": {
           "Count:3": 6,

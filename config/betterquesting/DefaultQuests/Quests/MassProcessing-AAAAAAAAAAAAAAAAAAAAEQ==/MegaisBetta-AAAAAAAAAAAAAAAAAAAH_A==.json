@@ -143,7 +143,7 @@
           "Count:3": 332,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "bartworks:BW_TieredGlass"
         },
         "6:10": {
           "Count:3": 308,
@@ -165,9 +165,9 @@
         },
         "9:10": {
           "Count:3": 56,
-          "Damage:2": 163,
+          "Damage:2": 1469,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "10:10": {
           "Count:3": 1,

@@ -102,9 +102,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 30734,
+          "Damage:2": 1225,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,9 +138,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 30735,
+          "Damage:2": 508,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 10,
@@ -162,9 +162,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 15735,
+          "Damage:2": 508,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "materiallib:cellSteamCracked3"
         }
       },
       "taskID:8": "bq_standard:retrieval"

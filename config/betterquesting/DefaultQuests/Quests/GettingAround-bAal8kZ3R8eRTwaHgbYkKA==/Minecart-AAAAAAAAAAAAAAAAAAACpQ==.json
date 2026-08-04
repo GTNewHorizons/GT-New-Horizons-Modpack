@@ -119,15 +119,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 23032,
+          "Damage:2": 646,
           "OreDict:8": "stickAnyIron",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:stick"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 28032,
+          "Damage:2": 646,
           "OreDict:8": "ringAnyIron",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ring"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -161,9 +161,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 17032,
+          "Damage:2": 646,
           "OreDict:8": "plateAnyIron",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

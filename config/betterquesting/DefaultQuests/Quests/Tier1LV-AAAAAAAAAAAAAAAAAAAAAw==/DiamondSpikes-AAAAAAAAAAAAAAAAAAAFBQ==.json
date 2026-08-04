@@ -77,9 +77,9 @@
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 17305,
+          "Damage:2": 1206,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         }
       },
       "ignoreDisabled:1": 0,
@@ -149,15 +149,15 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 27500,
+          "Damage:2": 319,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:screw"
         },
         "2:10": {
           "Count:3": 5,
-          "Damage:2": 17500,
+          "Damage:2": 319,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "3:10": {
           "Count:3": 1,

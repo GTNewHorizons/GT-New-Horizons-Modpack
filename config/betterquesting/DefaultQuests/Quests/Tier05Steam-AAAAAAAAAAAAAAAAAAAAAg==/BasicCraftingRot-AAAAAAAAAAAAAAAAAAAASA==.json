@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 21032,
+        "Damage:2": 646,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.02"
+        "id:8": "materiallib:rotor"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -98,9 +98,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 28057,
+          "Damage:2": 1315,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ring"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 21057,
+          "Damage:2": 1315,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:rotor"
         }
       },
       "taskID:8": "bq_standard:crafting"

@@ -87,9 +87,9 @@
         },
         "4:10": {
           "Count:3": 2,
-          "Damage:2": 2405,
+          "Damage:2": 1238,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt16"
         },
         "5:10": {
           "Count:3": 1,
@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 14,
-          "Damage:2": 316,
+          "Damage:2": 1346,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "1:10": {
           "Count:3": 12,

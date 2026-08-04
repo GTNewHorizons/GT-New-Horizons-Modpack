@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1246,
+        "Damage:2": 1315,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "materiallib:cableGt01"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -69,9 +69,9 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 2880,
+          "Damage:2": 1088,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "ignoreDisabled:1": 0,

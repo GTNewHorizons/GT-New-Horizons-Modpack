@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30651,
+        "Damage:2": 1057,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "materiallib:cableGt01"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -120,15 +120,15 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 2020,
+          "Damage:2": 1144,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 2535,
+          "Damage:2": 245,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 2381,
+          "Damage:2": 1057,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -162,9 +162,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 11381,
+          "Damage:2": 1057,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -180,9 +180,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 30645,
+          "Damage:2": 1057,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -198,9 +198,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 30651,
+          "Damage:2": 1057,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:cableGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

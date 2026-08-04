@@ -97,9 +97,9 @@
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 325,
+          "Damage:2": 810,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 18,

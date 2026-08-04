@@ -69,9 +69,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 23010,
+          "Damage:2": 189,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:stick"
         },
         "2:10": {
           "Count:3": 1,

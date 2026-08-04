@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30715,
+        "Damage:2": 772,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,21 +63,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1366,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:cableGt01"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 30691,
+          "Damage:2": 431,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 5132,
+          "Damage:2": 1206,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:pipeMedium"
         },
         "3:10": {
           "Count:3": 1,
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 30691,
+          "Damage:2": 431,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -134,9 +134,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 30715,
+          "Damage:2": 772,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

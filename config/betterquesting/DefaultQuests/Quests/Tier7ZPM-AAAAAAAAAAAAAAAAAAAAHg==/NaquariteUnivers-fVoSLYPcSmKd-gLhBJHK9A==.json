@@ -61,9 +61,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 29132,
+          "Damage:2": 851,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:foil"
         },
         "1:10": {
           "Count:3": 1,
@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 29132,
+          "Damage:2": 851,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:foil"
         },
         "1:10": {
           "Count:3": 16,
@@ -122,9 +122,9 @@
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 386,
+          "Damage:2": 750,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "materiallib:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

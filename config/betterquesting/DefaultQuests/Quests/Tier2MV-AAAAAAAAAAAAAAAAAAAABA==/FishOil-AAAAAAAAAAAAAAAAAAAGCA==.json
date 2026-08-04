@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 30713,
+          "Damage:2": 1127,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 64,
@@ -122,9 +122,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 30711,
+          "Damage:2": 456,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

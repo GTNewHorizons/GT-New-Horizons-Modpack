@@ -26,9 +26,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 16588,
+        "Damage:2": 1195,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.02"
+        "id:8": "materiallib:turbineBlade"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -106,13 +106,13 @@
           "Count:3": 36,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "bartworks:BW_TieredGlass"
         },
         "3:10": {
           "Count:3": 34,
-          "Damage:2": 305,
+          "Damage:2": 1206,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "4:10": {
           "Count:3": 20,

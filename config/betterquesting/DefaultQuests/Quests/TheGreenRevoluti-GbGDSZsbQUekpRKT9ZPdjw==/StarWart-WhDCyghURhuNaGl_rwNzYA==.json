@@ -84,9 +84,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2506,
+          "Damage:2": 850,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       }
     }

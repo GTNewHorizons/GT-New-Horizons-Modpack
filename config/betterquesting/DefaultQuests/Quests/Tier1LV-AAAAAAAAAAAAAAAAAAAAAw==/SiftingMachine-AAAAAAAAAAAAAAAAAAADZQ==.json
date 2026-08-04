@@ -63,27 +63,27 @@
       "choices:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 6500,
+          "Damage:2": 319,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:crushedPurified"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 6501,
+          "Damage:2": 372,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:crushedPurified"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 6502,
+          "Damage:2": 1092,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:crushedPurified"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 6535,
+          "Damage:2": 245,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:crushedPurified"
         }
       },
       "ignoreDisabled:1": 0,

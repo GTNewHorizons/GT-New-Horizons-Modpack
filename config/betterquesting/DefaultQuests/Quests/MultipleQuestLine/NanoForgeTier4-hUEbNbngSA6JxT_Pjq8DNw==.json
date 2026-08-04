@@ -115,9 +115,9 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 143,
+          "Damage:2": 736,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "5:10": {
           "Count:3": 1,
@@ -127,9 +127,9 @@
         },
         "6:10": {
           "Count:3": 1,
-          "Damage:2": 585,
+          "Damage:2": 1402,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "7:10": {
           "Count:3": 1,
@@ -139,9 +139,9 @@
         },
         "8:10": {
           "Count:3": 1,
-          "Damage:2": 586,
+          "Damage:2": 137,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "9:10": {
           "Count:3": 1,

@@ -67,15 +67,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1516,
+          "Damage:2": 208,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_netherrack"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 810,
+          "Damage:2": 1056,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         }
       },
       "ignoreDisabled:1": 0,
@@ -114,9 +114,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 2516,
+          "Damage:2": 208,
           "OreDict:8": "dustCertusQuartz",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

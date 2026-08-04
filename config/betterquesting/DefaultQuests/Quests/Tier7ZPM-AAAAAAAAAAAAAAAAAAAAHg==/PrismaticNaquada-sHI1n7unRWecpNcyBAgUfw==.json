@@ -83,21 +83,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 29370,
+          "Damage:2": 1345,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:foil"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 29089,
+          "Damage:2": 689,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:foil"
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 30164,
+          "Damage:2": 1470,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

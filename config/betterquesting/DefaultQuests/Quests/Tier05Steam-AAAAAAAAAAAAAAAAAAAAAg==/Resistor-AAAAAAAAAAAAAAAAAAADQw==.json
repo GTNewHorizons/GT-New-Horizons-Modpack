@@ -98,21 +98,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1360,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 19035,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:wireFine"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 2535,
+          "Damage:2": 245,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "3:10": {
           "Count:3": 4,

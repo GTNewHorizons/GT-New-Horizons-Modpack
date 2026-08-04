@@ -136,9 +136,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 28,
-          "Damage:2": 13,
+          "Damage:2": 603,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal8"
+          "id:8": "materiallib:block"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

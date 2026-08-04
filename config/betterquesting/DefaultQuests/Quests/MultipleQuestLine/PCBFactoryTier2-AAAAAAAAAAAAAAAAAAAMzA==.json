@@ -97,9 +97,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 34,
-          "Damage:2": 328,
+          "Damage:2": 360,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "1:10": {
           "Count:3": 158,

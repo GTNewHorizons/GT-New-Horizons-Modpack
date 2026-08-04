@@ -67,21 +67,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 11306,
+          "Damage:2": 1202,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 17874,
+          "Damage:2": 950,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 11028,
+          "Damage:2": 1318,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         },
         "3:10": {
           "Count:3": 1,

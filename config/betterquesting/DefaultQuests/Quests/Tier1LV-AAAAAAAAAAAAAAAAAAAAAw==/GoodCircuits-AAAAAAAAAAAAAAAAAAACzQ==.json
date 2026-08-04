@@ -114,9 +114,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 18305,
+          "Damage:2": 1206,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:itemCasing"
         },
         "2:10": {
           "Count:3": 4,
@@ -132,9 +132,9 @@
         },
         "4:10": {
           "Count:3": 4,
-          "Damage:2": 1360,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

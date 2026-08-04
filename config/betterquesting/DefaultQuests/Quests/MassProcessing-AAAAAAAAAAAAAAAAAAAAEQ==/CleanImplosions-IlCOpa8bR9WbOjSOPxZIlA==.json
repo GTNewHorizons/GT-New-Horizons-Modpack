@@ -115,7 +115,7 @@
           "Count:3": 22,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "bartworks:BW_TieredGlass"
         },
         "4:10": {
           "Count:3": 10,
@@ -125,9 +125,9 @@
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 324,
+          "Damage:2": 807,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

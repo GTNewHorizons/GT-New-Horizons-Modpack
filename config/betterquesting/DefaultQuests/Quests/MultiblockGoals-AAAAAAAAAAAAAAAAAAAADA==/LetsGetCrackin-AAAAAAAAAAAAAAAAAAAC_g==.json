@@ -80,9 +80,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 30001,
+          "Damage:2": 597,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 64,

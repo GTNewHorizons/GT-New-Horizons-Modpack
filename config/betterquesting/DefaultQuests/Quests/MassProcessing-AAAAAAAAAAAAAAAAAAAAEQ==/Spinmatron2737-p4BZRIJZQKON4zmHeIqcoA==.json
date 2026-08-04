@@ -81,9 +81,9 @@
         },
         "1:10": {
           "Count:3": 37,
-          "Damage:2": 2030,
+          "Damage:2": 231,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01",
+          "id:8": "materiallib:dust",
           "tag:10": {
             "RepairCost:3": 2,
             "display:10": {
@@ -172,7 +172,7 @@
           "Count:3": 81,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "bartworks:BW_TieredGlass"
         },
         "5:10": {
           "Count:3": 56,
@@ -194,9 +194,9 @@
         },
         "8:10": {
           "Count:3": 9,
-          "Damage:2": 0,
+          "Damage:2": 947,
           "OreDict:8": "",
-          "id:8": "miscutils:blockFrameGtPikyonium64B"
+          "id:8": "materiallib:frameGt"
         },
         "9:10": {
           "Count:3": 8,

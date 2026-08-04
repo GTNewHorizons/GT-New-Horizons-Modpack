@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 1034,
         "OreDict:8": "",
-        "id:8": "miscutils:itemDustRareEarthI"
+        "id:8": "materiallib:dust"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -68,15 +68,15 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 2891,
+          "Damage:2": 1033,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 0,
+          "Damage:2": 1034,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustRareEarthI"
+          "id:8": "materiallib:dust"
         }
       },
       "ignoreDisabled:1": 0,
@@ -121,57 +121,57 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 538,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustGreenockite"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 11,
-          "Damage:2": 0,
+          "Damage:2": 673,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustLanthaniteCe"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 45,
-          "Damage:2": 0,
+          "Damage:2": 32,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustAgarditeCd"
+          "id:8": "materiallib:dust"
         },
         "3:10": {
           "Count:3": 13,
-          "Damage:2": 0,
+          "Damage:2": 1422,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustYttrialite"
+          "id:8": "materiallib:dust"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 2522,
+          "Damage:2": 849,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 2830,
+          "Damage:2": 497,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "6:10": {
           "Count:3": 4,
-          "Damage:2": 2855,
+          "Damage:2": 210,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "7:10": {
           "Count:3": 10,
-          "Damage:2": 0,
+          "Damage:2": 283,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustCryoliteF"
+          "id:8": "materiallib:dust"
         },
         "8:10": {
           "Count:3": 1,
-          "Damage:2": 2045,
+          "Damage:2": 1423,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

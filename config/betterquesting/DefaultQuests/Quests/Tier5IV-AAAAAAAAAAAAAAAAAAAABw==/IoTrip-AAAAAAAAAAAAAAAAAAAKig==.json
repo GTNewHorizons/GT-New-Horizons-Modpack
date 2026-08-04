@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 16,
-        "Damage:2": 607,
+        "Damage:2": 1014,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "materiallib:ore_stone"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -69,21 +69,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 192,
-          "Damage:2": 5323,
+          "Damage:2": 632,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:crushed"
         },
         "1:10": {
           "Count:3": 20,
-          "Damage:2": 2069,
+          "Damage:2": 1105,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 20,
-          "Damage:2": 2047,
+          "Damage:2": 862,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

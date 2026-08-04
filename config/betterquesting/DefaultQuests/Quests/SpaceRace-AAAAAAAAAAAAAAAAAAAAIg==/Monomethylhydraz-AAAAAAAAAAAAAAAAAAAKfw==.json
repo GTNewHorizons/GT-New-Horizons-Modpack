@@ -83,9 +83,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 30001,
+          "Damage:2": 597,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 2,
@@ -95,9 +95,9 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 2010,
+          "Damage:2": 189,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

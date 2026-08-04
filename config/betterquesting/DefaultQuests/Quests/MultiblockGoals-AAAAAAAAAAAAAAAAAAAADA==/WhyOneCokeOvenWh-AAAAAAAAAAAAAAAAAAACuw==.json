@@ -175,15 +175,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 5590,
+          "Damage:2": 1315,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:itemPipeSmall"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 5101,
+          "Damage:2": 1405,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:pipeSmall"
         }
       },
       "taskID:8": "bq_standard:retrieval"

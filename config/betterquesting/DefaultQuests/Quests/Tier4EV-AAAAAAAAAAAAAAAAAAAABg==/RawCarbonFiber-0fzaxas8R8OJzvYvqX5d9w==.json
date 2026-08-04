@@ -91,15 +91,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 2010,
+          "Damage:2": 189,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 470,
+          "Damage:2": 397,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "materiallib:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

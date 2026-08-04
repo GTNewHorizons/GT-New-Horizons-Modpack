@@ -146,9 +146,9 @@
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 19303,
+          "Damage:2": 369,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:wireFine"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

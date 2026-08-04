@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 1309,
         "OreDict:8": "",
-        "id:8": "miscutils:itemDustThoriumTetrafluoride"
+        "id:8": "materiallib:dust"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -75,15 +75,15 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 468,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellFluorineSpargedTBSalt"
+          "id:8": "materiallib:cellMolten"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 669,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellLFTRFuelBase"
+          "id:8": "materiallib:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -99,9 +99,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 668,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellLFTRFuel3"
+          "id:8": "materiallib:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"

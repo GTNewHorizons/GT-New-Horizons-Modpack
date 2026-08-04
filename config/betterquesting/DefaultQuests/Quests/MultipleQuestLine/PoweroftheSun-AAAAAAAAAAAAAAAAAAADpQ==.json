@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 2020,
+          "Damage:2": 1144,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 2019,
+          "Damage:2": 45,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 1,
@@ -116,9 +116,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 10,
           "OreDict:8": "",
-          "id:8": "IC2:blockAlloyGlass"
+          "id:8": "gregtech:gt.blockglass1"
         },
         "2:10": {
           "Count:3": 2,
@@ -140,9 +140,9 @@
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 2000,
+          "Damage:2": 1049,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

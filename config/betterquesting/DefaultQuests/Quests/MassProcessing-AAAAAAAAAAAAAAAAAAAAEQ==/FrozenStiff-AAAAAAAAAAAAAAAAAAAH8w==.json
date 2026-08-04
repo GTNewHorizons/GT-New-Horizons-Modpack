@@ -76,9 +76,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 2898,
+          "Damage:2": 284,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       }
     }
@@ -119,9 +119,9 @@
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 0,
+          "Damage:2": 540,
           "OreDict:8": "",
-          "id:8": "miscutils:blockFrameGtGrisium"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 1,

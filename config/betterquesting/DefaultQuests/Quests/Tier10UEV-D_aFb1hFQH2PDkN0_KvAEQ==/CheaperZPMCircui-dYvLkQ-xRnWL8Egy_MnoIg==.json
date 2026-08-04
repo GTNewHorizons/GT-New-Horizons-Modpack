@@ -81,15 +81,15 @@
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 1722,
+          "Damage:2": 865,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt04"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 0,
+          "Damage:2": 230,
           "OreDict:8": "",
-          "id:8": "miscutils:itemBoltChromaticGlass"
+          "id:8": "materiallib:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

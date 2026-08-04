@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30709,
+        "Damage:2": 875,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -64,9 +64,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30639,
+          "Damage:2": 1287,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       }
     },
@@ -96,9 +96,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 30709,
+          "Damage:2": 875,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 11310,
+          "Damage:2": 291,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         },
         "1:10": {
           "Count:3": 16,
@@ -122,27 +122,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 17086,
+          "Damage:2": 519,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 17526,
+          "Damage:2": 683,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 24304,
+          "Damage:2": 194,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:spring"
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 31304,
+          "Damage:2": 194,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:gearGt"
         },
         "4:10": {
           "Count:3": 1,

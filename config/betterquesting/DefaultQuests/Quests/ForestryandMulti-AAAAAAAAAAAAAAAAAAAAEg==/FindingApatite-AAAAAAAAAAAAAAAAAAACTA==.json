@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 8530,
+        "Damage:2": 81,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:gem"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -116,21 +116,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 530,
+          "Damage:2": 81,
           "OreDict:8": "oreApatite",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 534,
+          "Damage:2": 1328,
           "OreDict:8": "orePhosphorite",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 607,
+          "Damage:2": 1014,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -146,21 +146,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 5530,
+          "Damage:2": 81,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 5534,
+          "Damage:2": 1328,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 5607,
+          "Damage:2": 1014,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"

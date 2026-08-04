@@ -98,9 +98,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31343,
+          "Damage:2": 251,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:gearGt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1500,
+          "Damage:2": 319,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dustSmall"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

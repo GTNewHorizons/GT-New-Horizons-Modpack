@@ -140,15 +140,15 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 17028,
+          "Damage:2": 1318,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "4:10": {
           "Count:3": 2,
-          "Damage:2": 1641,
+          "Damage:2": 951,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt02"
         },
         "5:10": {
           "Count:3": 1,

@@ -111,15 +111,15 @@
         },
         "1:10": {
           "Count:3": 42,
-          "Damage:2": 473,
+          "Damage:2": 975,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 42,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "bartworks:BW_TieredGlass"
         },
         "3:10": {
           "Count:3": 14,

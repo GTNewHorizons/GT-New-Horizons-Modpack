@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 2874,
+          "Damage:2": 950,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 2020,
+          "Damage:2": 1144,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 1,
@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 19035,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:wireFine"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1980,
+          "Damage:2": 500,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dustSmall"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11358,
+        "Damage:2": 1424,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -114,21 +114,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 2045,
+          "Damage:2": 1423,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 10,
-          "Damage:2": 2063,
+          "Damage:2": 104,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 15,
-          "Damage:2": 2035,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 65,
-          "Damage:2": 2358,
+          "Damage:2": 1424,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -162,9 +162,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 65,
-          "Damage:2": 11358,
+          "Damage:2": 1424,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

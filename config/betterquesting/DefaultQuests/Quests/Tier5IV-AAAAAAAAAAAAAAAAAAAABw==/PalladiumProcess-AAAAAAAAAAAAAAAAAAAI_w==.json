@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 52,
+        "Damage:2": 916,
         "OreDict:8": "cellPalladiumEnrichedAmmonia",
-        "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        "id:8": "materiallib:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -87,9 +87,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
-          "Damage:2": 52,
+          "Damage:2": 916,
           "OreDict:8": "cellPalladiumEnrichedAmmonia",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -105,9 +105,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 55,
+          "Damage:2": 918,
           "OreDict:8": "dustPalladiumSalt",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

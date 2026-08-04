@@ -69,15 +69,15 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 28613,
+          "Damage:2": 861,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ring"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 19345,
+          "Damage:2": 66,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:wireFine"
         },
         "3:10": {
           "Count:3": 1,
@@ -116,15 +116,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 28305,
+          "Damage:2": 1206,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ring"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 19035,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:wireFine"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

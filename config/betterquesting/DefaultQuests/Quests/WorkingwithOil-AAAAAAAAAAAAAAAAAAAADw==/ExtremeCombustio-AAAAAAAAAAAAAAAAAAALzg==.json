@@ -67,9 +67,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 5163,
+          "Damage:2": 1346,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:pipeLarge"
         }
       },
       "ignoreDisabled:1": 0,
@@ -108,9 +108,9 @@
         },
         "1:10": {
           "Count:3": 30,
-          "Damage:2": 30493,
+          "Damage:2": 703,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -72,9 +72,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 34,
+          "Damage:2": 858,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         }
       }
     },
@@ -128,9 +128,9 @@
         },
         "1:10": {
           "Count:3": 20,
-          "Damage:2": 348,
+          "Damage:2": 1053,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 16,
@@ -148,7 +148,7 @@
           "Count:3": 6,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "bartworks:BW_TieredGlass"
         },
         "5:10": {
           "Count:3": 4,

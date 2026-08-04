@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11343,
+        "Damage:2": 251,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -110,15 +110,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 2035,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 2036,
+          "Damage:2": 1431,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -134,9 +134,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 2301,
+          "Damage:2": 162,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -152,21 +152,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 7,
-          "Damage:2": 2301,
+          "Damage:2": 162,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2057,
+          "Damage:2": 1315,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 2033,
+          "Damage:2": 247,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -182,9 +182,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 2343,
+          "Damage:2": 251,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

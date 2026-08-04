@@ -72,9 +72,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 9649,
+          "Damage:2": 979,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:nugget"
         }
       }
     }
@@ -121,9 +121,9 @@
         },
         "2:10": {
           "Count:3": 124,
-          "Damage:2": 395,
+          "Damage:2": 115,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "3:10": {
           "Count:3": 1,

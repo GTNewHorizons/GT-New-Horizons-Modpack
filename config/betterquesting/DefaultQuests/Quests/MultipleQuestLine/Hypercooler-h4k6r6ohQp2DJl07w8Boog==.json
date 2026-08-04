@@ -101,15 +101,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 389,
+          "Damage:2": 188,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "materiallib:sheetmetal"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 394,
+          "Damage:2": 626,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 36,
@@ -137,9 +137,9 @@
         },
         "6:10": {
           "Count:3": 16,
-          "Damage:2": 985,
+          "Damage:2": 714,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "materiallib:sheetmetal"
         },
         "7:10": {
           "Count:3": 1,

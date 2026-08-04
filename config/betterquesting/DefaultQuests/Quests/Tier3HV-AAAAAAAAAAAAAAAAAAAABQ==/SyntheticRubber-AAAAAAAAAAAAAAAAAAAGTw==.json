@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 13739,
+        "Damage:2": 805,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.99"
+        "id:8": "materiallib:cellSteamCracked1"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 30707,
+          "Damage:2": 889,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -104,9 +104,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 20,
-          "Damage:2": 30739,
+          "Damage:2": 805,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 20,
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 13739,
+          "Damage:2": 805,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "materiallib:cellSteamCracked1"
         }
       },
       "taskID:8": "bq_standard:retrieval"

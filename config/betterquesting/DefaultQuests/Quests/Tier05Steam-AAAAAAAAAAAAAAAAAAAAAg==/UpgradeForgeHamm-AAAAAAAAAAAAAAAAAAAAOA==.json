@@ -73,9 +73,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 11304,
+          "Damage:2": 194,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         },
         "1:10": {
           "Count:3": 1,

@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 64,
+        "Damage:2": 1096,
         "OreDict:8": "",
-        "id:8": "bartworks:gt.bwMetaGenerateddust"
+        "id:8": "materiallib:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -84,15 +84,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 14,
-          "Damage:2": 66,
+          "Damage:2": 1097,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 84,
-          "Damage:2": 30683,
+          "Damage:2": 595,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -108,9 +108,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 14,
-          "Damage:2": 64,
+          "Damage:2": 1096,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -126,9 +126,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 84,
-          "Damage:2": 30023,
+          "Damage:2": 221,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 28,

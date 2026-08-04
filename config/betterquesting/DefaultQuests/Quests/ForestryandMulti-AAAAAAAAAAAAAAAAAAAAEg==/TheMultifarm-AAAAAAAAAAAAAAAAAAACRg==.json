@@ -73,15 +73,15 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 11305,
+          "Damage:2": 1206,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         },
         "1:10": {
           "Count:3": 9,
-          "Damage:2": 11035,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         }
       }
     },
@@ -129,15 +129,15 @@
         },
         "1:10": {
           "Count:3": 36,
-          "Damage:2": 18035,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:itemCasing"
         },
         "2:10": {
           "Count:3": 36,
-          "Damage:2": 27305,
+          "Damage:2": 1206,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:screw"
         },
         "3:10": {
           "Count:3": 9,

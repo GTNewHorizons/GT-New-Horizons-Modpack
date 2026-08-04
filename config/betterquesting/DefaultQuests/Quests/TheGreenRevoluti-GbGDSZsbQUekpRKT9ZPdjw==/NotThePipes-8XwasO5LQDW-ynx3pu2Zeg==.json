@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2945,
+        "Damage:2": 1212,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:dust"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -70,9 +70,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 689,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal4"
+          "id:8": "materiallib:block"
         }
       }
     }

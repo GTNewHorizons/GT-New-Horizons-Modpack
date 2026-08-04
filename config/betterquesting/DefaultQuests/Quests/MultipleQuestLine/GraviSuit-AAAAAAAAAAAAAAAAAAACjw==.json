@@ -177,9 +177,9 @@
         },
         "7:10": {
           "Count:3": 2,
-          "Damage:2": 22328,
+          "Damage:2": 360,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plateDense"
         },
         "8:10": {
           "Count:3": 1,
@@ -201,9 +201,9 @@
         },
         "11:10": {
           "Count:3": 4,
-          "Damage:2": 27328,
+          "Damage:2": 360,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

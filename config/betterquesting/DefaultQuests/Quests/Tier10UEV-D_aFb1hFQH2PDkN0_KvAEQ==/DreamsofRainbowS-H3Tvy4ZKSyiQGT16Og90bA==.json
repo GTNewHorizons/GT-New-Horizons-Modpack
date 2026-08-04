@@ -154,9 +154,9 @@
         },
         "11:10": {
           "Count:3": 1960,
-          "Damage:2": 9,
+          "Damage:2": 1318,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal7"
+          "id:8": "materiallib:block"
         }
       },
       "taskID:8": "bq_standard:retrieval"

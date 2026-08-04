@@ -73,27 +73,27 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 2028,
+          "Damage:2": 1318,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 0,
+          "Damage:2": 611,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustIncoloy020"
+          "id:8": "materiallib:dust"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 0,
+          "Damage:2": 613,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustIncoloyMA956"
+          "id:8": "materiallib:dust"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 0,
+          "Damage:2": 614,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustInconel625"
+          "id:8": "materiallib:dust"
         }
       },
       "ignoreDisabled:1": 0,

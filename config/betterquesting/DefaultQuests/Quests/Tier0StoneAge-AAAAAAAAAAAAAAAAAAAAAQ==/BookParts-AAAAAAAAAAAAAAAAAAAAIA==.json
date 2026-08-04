@@ -98,9 +98,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 2809,
+          "Damage:2": 1405,
           "OreDict:8": "dustWood",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:crafting"

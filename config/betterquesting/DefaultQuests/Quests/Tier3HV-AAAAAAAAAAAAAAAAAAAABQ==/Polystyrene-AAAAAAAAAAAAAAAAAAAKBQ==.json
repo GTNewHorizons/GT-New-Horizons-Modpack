@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 17636,
+        "Damage:2": 974,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:plate"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 30637,
+          "Damage:2": 1217,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -104,15 +104,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30637,
+          "Damage:2": 1217,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 7,
-          "Damage:2": 30013,
+          "Damage:2": 911,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 17636,
+          "Damage:2": 974,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

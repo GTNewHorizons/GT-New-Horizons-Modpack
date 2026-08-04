@@ -135,9 +135,9 @@
         },
         "4:10": {
           "Count:3": 146,
-          "Damage:2": 389,
+          "Damage:2": 188,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "5:10": {
           "Count:3": 135,
@@ -153,15 +153,15 @@
         },
         "7:10": {
           "Count:3": 40,
-          "Damage:2": 390,
+          "Damage:2": 691,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "materiallib:sheetmetal"
         },
         "8:10": {
           "Count:3": 18,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:BW_GlasBlocks"
+          "id:8": "bartworks:BW_TieredGlass"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

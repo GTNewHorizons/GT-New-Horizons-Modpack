@@ -81,9 +81,9 @@
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 11028,
+          "Damage:2": 1318,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         },
         "4:10": {
           "Count:3": 128,
@@ -152,9 +152,9 @@
         },
         "1:10": {
           "Count:3": 15,
-          "Damage:2": 305,
+          "Damage:2": 1206,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 1,

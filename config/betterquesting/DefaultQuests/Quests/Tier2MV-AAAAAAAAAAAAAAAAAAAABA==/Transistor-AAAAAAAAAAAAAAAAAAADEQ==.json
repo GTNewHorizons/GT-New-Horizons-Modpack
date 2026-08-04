@@ -110,15 +110,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 48,
-          "Damage:2": 19057,
+          "Damage:2": 1315,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:wireFine"
         },
         "1:10": {
           "Count:3": 6,
-          "Damage:2": 17856,
+          "Damage:2": 1149,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

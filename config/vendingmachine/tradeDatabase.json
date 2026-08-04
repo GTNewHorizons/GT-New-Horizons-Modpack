@@ -34,9 +34,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 11305,
+							"Damage:2": 1206,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:ingot"
 						}
 					]
 				}
@@ -118,15 +118,15 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 8538,
+							"Damage:2": 697,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:gem"
 						},
 						{
 							"Count:3": 64,
-							"Damage:2": 2538,
+							"Damage:2": 697,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:dust"
 						}
 					],
 					"toItems:9": [
@@ -395,9 +395,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 11306,
+							"Damage:2": 1202,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:ingot"
 						}
 					]
 				}
@@ -479,9 +479,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 50,
-							"Damage:2": 2879,
+							"Damage:2": 919,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:dust"
 						}
 					]
 				}
@@ -570,9 +570,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5535,
+							"Damage:2": 245,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -704,9 +704,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 2006,
+							"Damage:2": 1049,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:cableGt01"
 						}
 					]
 				}
@@ -971,9 +971,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30741,
+							"Damage:2": 565,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -1013,9 +1013,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 8,
-							"Damage:2": 31,
+							"Damage:2": 749,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				}
@@ -1206,9 +1206,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 607,
+							"Damage:2": 1014,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				}
@@ -1290,9 +1290,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5500,
+							"Damage:2": 319,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -1432,9 +1432,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1366,
+							"Damage:2": 269,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:cableGt01"
 						}
 					]
 				}
@@ -1524,9 +1524,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30706,
+							"Damage:2": 405,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -1840,9 +1840,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 538,
+							"Damage:2": 697,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				}
@@ -1984,9 +1984,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 23032,
+							"Damage:2": 646,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:stick"
 						}
 					]
 				}
@@ -2068,9 +2068,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 23030,
+							"Damage:2": 231,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:stick"
 						}
 					]
 				}
@@ -2152,9 +2152,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 8516,
+							"Damage:2": 208,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:gem"
 						}
 					]
 				}
@@ -2201,9 +2201,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1386,
+							"Damage:2": 66,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:cableGt01"
 						}
 					]
 				}
@@ -2285,9 +2285,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 21057,
+							"Damage:2": 1315,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.02"
+							"id:8": "materiallib:rotor"
 						}
 					]
 				}
@@ -2369,9 +2369,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 8,
-							"Damage:2": 1442,
+							"Damage:2": 369,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:wireGt04"
 						}
 					]
 				}
@@ -2411,9 +2411,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5086,
+							"Damage:2": 519,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -2553,9 +2553,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 8,
-							"Damage:2": 11305,
+							"Damage:2": 1206,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:ingot"
 						}
 					],
 					"toItems:9": [
@@ -2705,9 +2705,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5035,
+							"Damage:2": 269,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -2805,9 +2805,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30712,
+							"Damage:2": 277,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -3015,9 +3015,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 8,
-							"Damage:2": 1467,
+							"Damage:2": 1154,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:cableGt02"
 						}
 					]
 				}
@@ -3057,9 +3057,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5810,
+							"Damage:2": 1056,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -3290,9 +3290,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30739,
+							"Damage:2": 805,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -3416,9 +3416,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 32,
-							"Damage:2": 2890,
+							"Damage:2": 512,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:dust"
 						}
 					]
 				}
@@ -3518,9 +3518,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1426,
+							"Damage:2": 519,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:cableGt01"
 						}
 					]
 				}
@@ -3575,9 +3575,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 30726,
+							"Damage:2": 516,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -3707,9 +3707,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5057,
+							"Damage:2": 1315,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -3821,9 +3821,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30014,
+							"Damage:2": 466,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -3863,9 +3863,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1341,
+							"Damage:2": 291,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:wireGt02"
 						}
 					]
 				}
@@ -4019,9 +4019,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 11019,
+							"Damage:2": 45,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:ingot"
 						}
 					]
 				}
@@ -4103,9 +4103,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 11304,
+							"Damage:2": 194,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:ingot"
 						}
 					]
 				}
@@ -4145,9 +4145,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5098,
+							"Damage:2": 1362,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -4252,9 +4252,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30718,
+							"Damage:2": 1179,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -4294,9 +4294,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 23303,
+							"Damage:2": 369,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:stick"
 						}
 					]
 				}
@@ -4382,9 +4382,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 937,
+							"Damage:2": 193,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				},
@@ -4408,9 +4408,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 35,
+							"Damage:2": 269,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				},
@@ -4434,9 +4434,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 870,
+							"Damage:2": 743,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				},
@@ -4460,9 +4460,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 834,
+							"Damage:2": 1013,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				},
@@ -4486,9 +4486,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 500,
+							"Damage:2": 319,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				},
@@ -4512,9 +4512,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 810,
+							"Damage:2": 1056,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				},
@@ -4538,9 +4538,113 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 526,
+							"Damage:2": 683,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 0,
+						"OreDict:8": "",
+						"id:8": "vendingmachine:placeholder"
+					},
+					"fromCurrency:9": [
+						{
+							"type:8": "technician",
+							"value:3": 60
+						},
+						{
+							"type:8": "smith",
+							"value:3": 60
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:2": 81,
+							"OreDict:8": "",
+							"id:8": "materiallib:ore_stone"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 0,
+						"OreDict:8": "",
+						"id:8": "vendingmachine:placeholder"
+					},
+					"fromCurrency:9": [
+						{
+							"type:8": "technician",
+							"value:3": 60
+						},
+						{
+							"type:8": "smith",
+							"value:3": 60
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:2": 1023,
+							"OreDict:8": "",
+							"id:8": "materiallib:ore_stone"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 0,
+						"OreDict:8": "",
+						"id:8": "vendingmachine:placeholder"
+					},
+					"fromCurrency:9": [
+						{
+							"type:8": "technician",
+							"value:3": 60
+						},
+						{
+							"type:8": "smith",
+							"value:3": 60
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:2": 245,
+							"OreDict:8": "",
+							"id:8": "materiallib:ore_stone"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 0,
+						"OreDict:8": "",
+						"id:8": "vendingmachine:placeholder"
+					},
+					"fromCurrency:9": [
+						{
+							"type:8": "technician",
+							"value:3": 60
+						},
+						{
+							"type:8": "smith",
+							"value:3": 60
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:2": 1315,
+							"OreDict:8": "",
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				},
@@ -4566,7 +4670,7 @@
 							"Count:3": 1,
 							"Damage:2": 530,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				},
@@ -4590,9 +4694,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 523,
+							"Damage:2": 106,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				},
@@ -4616,113 +4720,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 535,
+							"Damage:2": 1196,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
-						}
-					]
-				},
-				{
-					"displayItem:10": {
-						"Count:3": 1,
-						"Damage:2": 0,
-						"OreDict:8": "",
-						"id:8": "vendingmachine:placeholder"
-					},
-					"fromCurrency:9": [
-						{
-							"type:8": "technician",
-							"value:3": 60
-						},
-						{
-							"type:8": "smith",
-							"value:3": 60
-						}
-					],
-					"toItems:9": [
-						{
-							"Count:3": 1,
-							"Damage:2": 57,
-							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
-						}
-					]
-				},
-				{
-					"displayItem:10": {
-						"Count:3": 1,
-						"Damage:2": 0,
-						"OreDict:8": "",
-						"id:8": "vendingmachine:placeholder"
-					},
-					"fromCurrency:9": [
-						{
-							"type:8": "technician",
-							"value:3": 60
-						},
-						{
-							"type:8": "smith",
-							"value:3": 60
-						}
-					],
-					"toItems:9": [
-						{
-							"Count:3": 1,
-							"Damage:2": 936,
-							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
-						}
-					]
-				},
-				{
-					"displayItem:10": {
-						"Count:3": 1,
-						"Damage:2": 0,
-						"OreDict:8": "",
-						"id:8": "vendingmachine:placeholder"
-					},
-					"fromCurrency:9": [
-						{
-							"type:8": "technician",
-							"value:3": 60
-						},
-						{
-							"type:8": "smith",
-							"value:3": 60
-						}
-					],
-					"toItems:9": [
-						{
-							"Count:3": 1,
-							"Damage:2": 935,
-							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
-						}
-					]
-				},
-				{
-					"displayItem:10": {
-						"Count:3": 1,
-						"Damage:2": 0,
-						"OreDict:8": "",
-						"id:8": "vendingmachine:placeholder"
-					},
-					"fromCurrency:9": [
-						{
-							"type:8": "technician",
-							"value:3": 60
-						},
-						{
-							"type:8": "smith",
-							"value:3": 60
-						}
-					],
-					"toItems:9": [
-						{
-							"Count:3": 1,
-							"Damage:2": 838,
-							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				}
@@ -4777,9 +4777,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30715,
+							"Damage:2": 772,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -4834,9 +4834,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30724,
+							"Damage:2": 721,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -4876,9 +4876,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5526,
+							"Damage:2": 683,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -5025,9 +5025,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30693,
+							"Damage:2": 648,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -5075,9 +5075,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 823,
+							"Damage:2": 180,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockores"
+							"id:8": "materiallib:ore_stone"
 						}
 					]
 				}
@@ -5117,9 +5117,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 23019,
+							"Damage:2": 45,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:stick"
 						}
 					]
 				}
@@ -5159,9 +5159,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 32,
-							"Damage:2": 29501,
+							"Damage:2": 372,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.02"
+							"id:8": "materiallib:gemFlawless"
 						}
 					]
 				}
@@ -5377,9 +5377,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30720,
+							"Damage:2": 1224,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -5419,9 +5419,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 21305,
+							"Damage:2": 1206,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.02"
+							"id:8": "materiallib:rotor"
 						}
 					]
 				}
@@ -5461,9 +5461,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 23306,
+							"Damage:2": 1202,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:stick"
 						}
 					]
 				}
@@ -5587,9 +5587,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 23354,
+							"Damage:2": 649,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:stick"
 						}
 					]
 				}
@@ -5629,9 +5629,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 17880,
+							"Damage:2": 1088,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:plate"
 						}
 					]
 				}
@@ -5671,9 +5671,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1246,
+							"Damage:2": 1315,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:cableGt01"
 						}
 					]
 				}
@@ -6056,9 +6056,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30001,
+							"Damage:2": 597,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -6113,9 +6113,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30707,
+							"Damage:2": 889,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -6207,9 +6207,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 11880,
+							"Damage:2": 1088,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:ingot"
 						}
 					]
 				}
@@ -6249,9 +6249,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5032,
+							"Damage:2": 646,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -6458,9 +6458,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30012,
+							"Damage:2": 876,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -6515,9 +6515,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30013,
+							"Damage:2": 911,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -6557,9 +6557,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 2056,
+							"Damage:2": 618,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:dust"
 						}
 					]
 				}
@@ -7313,9 +7313,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 23301,
+							"Damage:2": 162,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:stick"
 						}
 					]
 				}
@@ -7405,9 +7405,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 5142,
+							"Damage:2": 1202,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:pipeMedium"
 						}
 					]
 				}
@@ -7531,9 +7531,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 23356,
+							"Damage:2": 840,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:stick"
 						}
 					]
 				}
@@ -7763,9 +7763,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5522,
+							"Damage:2": 849,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -7870,9 +7870,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30740,
+							"Damage:2": 694,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -7996,9 +7996,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 23355,
+							"Damage:2": 1207,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:stick"
 						}
 					]
 				}
@@ -8038,9 +8038,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 5089,
+							"Damage:2": 689,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.03"
+							"id:8": "materiallib:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -8145,9 +8145,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 30023,
+							"Damage:2": 221,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:cell"
 						}
 					]
 				}
@@ -8187,9 +8187,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 28880,
+							"Damage:2": 1088,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:ring"
 						}
 					]
 				}
@@ -8229,9 +8229,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 5122,
+							"Damage:2": 168,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:pipeMedium"
 						}
 					]
 				}
@@ -8271,9 +8271,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 11335,
+							"Damage:2": 298,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
+							"id:8": "materiallib:ingot"
 						}
 					]
 				}
@@ -8313,9 +8313,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 32,
-							"Damage:2": 1360,
+							"Damage:2": 269,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:wireGt01"
 						}
 					]
 				}
@@ -8974,9 +8974,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 5132,
+							"Damage:2": 1206,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.blockmachines"
+							"id:8": "materiallib:pipeMedium"
 						}
 					]
 				}
@@ -9276,9 +9276,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 21300,
+							"Damage:2": 168,
 							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.02"
+							"id:8": "materiallib:rotor"
 						}
 					]
 				}

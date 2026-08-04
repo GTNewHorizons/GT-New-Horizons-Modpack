@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30993,
+        "Damage:2": 882,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -95,9 +95,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 50,
-          "Damage:2": 30993,
+          "Damage:2": 882,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

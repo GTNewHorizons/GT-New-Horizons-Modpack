@@ -93,9 +93,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 73,
+          "Damage:2": 361,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 28,
@@ -105,27 +105,27 @@
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 112,
+          "Damage:2": 1270,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "materiallib:sheetmetal"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 391,
+          "Damage:2": 1018,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "materiallib:sheetmetal"
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 69,
+          "Damage:2": 1105,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "materiallib:sheetmetal"
         },
         "6:10": {
           "Count:3": 4,
-          "Damage:2": 112,
+          "Damage:2": 1270,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "7:10": {
           "Count:3": 4,

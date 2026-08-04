@@ -118,9 +118,9 @@
         },
         "2:10": {
           "Count:3": 82,
-          "Damage:2": 2805,
+          "Damage:2": 243,
           "OreDict:8": "dustClay",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

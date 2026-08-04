@@ -61,9 +61,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1366,
+          "Damage:2": 269,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:cableGt01"
         },
         "1:10": {
           "Count:3": 2,

@@ -144,9 +144,9 @@
         },
         "2:10": {
           "Count:3": 104,
-          "Damage:2": 26329,
+          "Damage:2": 1339,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

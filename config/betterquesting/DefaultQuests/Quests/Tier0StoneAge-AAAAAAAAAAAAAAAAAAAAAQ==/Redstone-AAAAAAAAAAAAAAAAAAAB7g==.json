@@ -110,21 +110,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 5810,
+          "Damage:2": 1056,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 5502,
+          "Damage:2": 1092,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 5826,
+          "Damage:2": 239,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -140,21 +140,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 810,
+          "Damage:2": 1056,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 502,
+          "Damage:2": 1092,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 826,
+          "Damage:2": 239,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

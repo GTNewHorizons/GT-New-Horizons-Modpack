@@ -76,9 +76,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 887,
           "OreDict:8": "",
-          "id:8": "miscutils:blockFrameGtOctiron",
+          "id:8": "materiallib:frameGt",
           "tag:10": {
             "RepairCost:3": 2,
             "display:10": {

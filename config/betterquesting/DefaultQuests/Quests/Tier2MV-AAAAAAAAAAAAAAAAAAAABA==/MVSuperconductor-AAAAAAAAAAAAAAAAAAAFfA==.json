@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2320,
+        "Damage:2": 1239,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "materiallib:wireGt01"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -114,21 +114,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 2055,
+          "Damage:2": 177,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2018,
+          "Damage:2": 740,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 30013,
+          "Damage:2": 911,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 2987,
+          "Damage:2": 922,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -162,9 +162,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 11987,
+          "Damage:2": 922,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -180,9 +180,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 2200,
+          "Damage:2": 922,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -198,15 +198,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 2200,
+          "Damage:2": 922,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 5140,
+          "Damage:2": 1202,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:pipeTiny"
         },
         "2:10": {
           "Count:3": 8,
@@ -216,9 +216,9 @@
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 30004,
+          "Damage:2": 570,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -234,9 +234,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 2320,
+          "Damage:2": 1239,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

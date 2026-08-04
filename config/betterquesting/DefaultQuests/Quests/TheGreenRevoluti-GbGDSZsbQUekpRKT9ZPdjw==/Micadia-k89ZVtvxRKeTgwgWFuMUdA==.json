@@ -79,9 +79,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 901,
+          "Damage:2": 776,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         }
       }
     }

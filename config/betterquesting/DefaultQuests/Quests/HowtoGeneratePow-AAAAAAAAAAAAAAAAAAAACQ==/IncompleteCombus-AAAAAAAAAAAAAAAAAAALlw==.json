@@ -64,9 +64,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 30998,
+          "Damage:2": 581,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 32,
@@ -113,9 +113,9 @@
         },
         "1:10": {
           "Count:3": 72,
-          "Damage:2": 473,
+          "Damage:2": 975,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 39,

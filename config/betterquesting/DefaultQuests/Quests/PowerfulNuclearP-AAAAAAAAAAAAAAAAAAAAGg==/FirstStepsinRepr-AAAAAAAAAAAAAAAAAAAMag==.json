@@ -87,9 +87,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 667,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellLFTRFuel2"
+          "id:8": "materiallib:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"

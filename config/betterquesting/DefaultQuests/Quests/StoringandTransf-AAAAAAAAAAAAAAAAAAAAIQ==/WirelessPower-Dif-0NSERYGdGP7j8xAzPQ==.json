@@ -125,9 +125,9 @@
         },
         "4:10": {
           "Count:3": 12,
-          "Damage:2": 28,
+          "Damage:2": 1318,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

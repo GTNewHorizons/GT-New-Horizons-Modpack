@@ -69,15 +69,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 0,
+          "Damage:2": 845,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellPlasmaNeptunium"
+          "id:8": "materiallib:cellPlasmaLight"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 0,
+          "Damage:2": 432,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellPlasmaFermium"
+          "id:8": "materiallib:cellPlasmaLight"
         }
       },
       "taskID:8": "bq_standard:retrieval"

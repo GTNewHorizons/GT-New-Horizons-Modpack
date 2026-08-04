@@ -155,9 +155,9 @@
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 0,
+          "Damage:2": 753,
           "OreDict:8": "",
-          "id:8": "miscutils:blockFrameGtMaragingSteel350"
+          "id:8": "materiallib:frameGt"
         },
         "4:10": {
           "Count:3": 6,

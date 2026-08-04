@@ -69,9 +69,9 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 5683,
+          "Damage:2": 975,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:pipeLarge"
         },
         "2:10": {
           "Count:3": 2,

@@ -75,15 +75,15 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 2056,
+          "Damage:2": 618,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 11084,
+          "Damage:2": 641,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         }
       },
       "ignoreDisabled:1": 0,
@@ -97,33 +97,33 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 2817,
+          "Damage:2": 1100,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 20,
+          "Damage:2": 1100,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedgemExquisite"
+          "id:8": "materiallib:gemExquisite"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 2944,
+          "Damage:2": 1085,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 22,
+          "Damage:2": 1085,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedgemExquisite"
+          "id:8": "materiallib:gemExquisite"
         },
         "4:10": {
           "Count:3": 64,
-          "Damage:2": 30692,
+          "Damage:2": 1101,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "5:10": {
           "Count:3": 16,

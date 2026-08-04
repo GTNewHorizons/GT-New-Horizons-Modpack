@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 11028,
+          "Damage:2": 1318,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         },
         "1:10": {
           "Count:3": 16,
@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 6873,
+          "Damage:2": 948,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:crushedPurified"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 6922,
+          "Damage:2": 1361,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:crushedPurified"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 6098,
+          "Damage:2": 1362,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:crushedPurified"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -164,9 +164,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
-          "Damage:2": 6096,
+          "Damage:2": 1292,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:crushedPurified"
         }
       },
       "taskID:8": "bq_standard:retrieval"

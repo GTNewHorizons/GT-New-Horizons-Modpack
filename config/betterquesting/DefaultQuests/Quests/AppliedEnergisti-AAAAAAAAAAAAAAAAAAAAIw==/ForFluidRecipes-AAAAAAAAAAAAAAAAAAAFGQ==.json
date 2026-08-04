@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 17811,
+          "Damage:2": 515,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 17526,
+          "Damage:2": 683,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "2:10": {
           "Count:3": 1,

@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 19,
+          "Damage:2": 45,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "1:10": {
           "Count:3": 2,
@@ -134,9 +134,9 @@
         },
         "4:10": {
           "Count:3": 24,
-          "Damage:2": 1380,
+          "Damage:2": 66,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         },
         "5:10": {
           "Count:3": 24,

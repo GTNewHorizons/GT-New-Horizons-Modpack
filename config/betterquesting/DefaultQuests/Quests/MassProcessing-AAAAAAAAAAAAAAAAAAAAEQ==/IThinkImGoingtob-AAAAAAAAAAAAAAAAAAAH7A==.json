@@ -109,9 +109,9 @@
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 0,
+          "Damage:2": 365,
           "OreDict:8": "",
-          "id:8": "miscutils:blockFrameGtEglinSteel"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 18,

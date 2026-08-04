@@ -159,9 +159,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 28,
-          "Damage:2": 17032,
+          "Damage:2": 646,
           "OreDict:8": "plateIron",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "1:10": {
           "Count:3": 4,
@@ -201,27 +201,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 72,
-          "Damage:2": 2823,
+          "Damage:2": 180,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 144,
-          "Damage:2": 2805,
+          "Damage:2": 243,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 36,
-          "Damage:2": 2299,
+          "Damage:2": 1213,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "3:10": {
           "Count:3": 36,
-          "Damage:2": 2939,
+          "Damage:2": 1022,
           "OreDict:8": "dustQuartzSand",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -273,15 +273,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 108,
-          "Damage:2": 2625,
+          "Damage:2": 163,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 108,
-          "Damage:2": 2805,
+          "Damage:2": 243,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -333,9 +333,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 72,
-          "Damage:2": 2934,
+          "Damage:2": 545,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

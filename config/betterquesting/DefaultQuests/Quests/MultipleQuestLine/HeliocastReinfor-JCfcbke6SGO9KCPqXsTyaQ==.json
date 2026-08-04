@@ -102,15 +102,15 @@
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 147,
+          "Damage:2": 1155,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 588,
+          "Damage:2": 1195,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "materiallib:sheetmetal"
         },
         "3:10": {
           "Count:3": 16,
@@ -126,27 +126,27 @@
         },
         "5:10": {
           "Count:3": 12,
-          "Damage:2": 581,
+          "Damage:2": 1327,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "6:10": {
           "Count:3": 12,
-          "Damage:2": 149,
+          "Damage:2": 276,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "7:10": {
           "Count:3": 12,
-          "Damage:2": 148,
+          "Damage:2": 760,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "8:10": {
           "Count:3": 12,
-          "Damage:2": 588,
+          "Damage:2": 1195,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

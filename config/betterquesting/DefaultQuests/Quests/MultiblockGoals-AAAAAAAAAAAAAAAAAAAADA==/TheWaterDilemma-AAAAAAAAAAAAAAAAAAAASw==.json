@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 5101,
+          "Damage:2": 1405,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:pipeSmall"
         },
         "1:10": {
           "Count:3": 2,
@@ -158,9 +158,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 52,
-          "Damage:2": 23032,
+          "Damage:2": 646,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:stick"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -150,9 +150,9 @@
         },
         "2:10": {
           "Count:3": 52,
-          "Damage:2": 90,
+          "Damage:2": 1095,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedbolt"
+          "id:8": "materiallib:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

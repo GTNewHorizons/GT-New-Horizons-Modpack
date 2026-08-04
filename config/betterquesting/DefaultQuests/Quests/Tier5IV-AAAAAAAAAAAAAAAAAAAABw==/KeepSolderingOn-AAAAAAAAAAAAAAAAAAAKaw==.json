@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 617,
         "OreDict:8": "",
-        "id:8": "miscutils:itemCellIndalloy140"
+        "id:8": "materiallib:cellMolten"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -69,9 +69,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 617,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellIndalloy140"
+          "id:8": "materiallib:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 22132,
+        "Damage:2": 851,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:plateDense"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 22323,
+          "Damage:2": 632,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plateDense"
         },
         "1:10": {
           "Count:3": 36,
@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 22132,
+          "Damage:2": 851,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plateDense"
         }
       },
       "taskID:8": "bq_standard:retrieval"

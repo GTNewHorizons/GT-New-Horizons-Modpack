@@ -87,15 +87,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 256,
-          "Damage:2": 0,
+          "Damage:2": 852,
           "OreDict:8": "",
-          "id:8": "miscutils:milledNetherrack"
+          "id:8": "materiallib:milled"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 30122,
+          "Damage:2": 1457,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

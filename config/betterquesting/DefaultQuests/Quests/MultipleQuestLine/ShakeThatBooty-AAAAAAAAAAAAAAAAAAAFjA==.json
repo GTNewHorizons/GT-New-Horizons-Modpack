@@ -73,63 +73,63 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 502,
+          "Damage:2": 1092,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 501,
+          "Damage:2": 372,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 503,
+          "Damage:2": 1119,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "4:10": {
           "Count:3": 64,
-          "Damage:2": 514,
+          "Damage:2": 52,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "5:10": {
           "Count:3": 64,
-          "Damage:2": 542,
+          "Damage:2": 629,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "6:10": {
           "Count:3": 64,
-          "Damage:2": 543,
+          "Damage:2": 636,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "7:10": {
           "Count:3": 64,
-          "Damage:2": 541,
+          "Damage:2": 631,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "8:10": {
           "Count:3": 64,
-          "Damage:2": 540,
+          "Damage:2": 627,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "9:10": {
           "Count:3": 64,
-          "Damage:2": 545,
+          "Damage:2": 633,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "10:10": {
           "Count:3": 64,
-          "Damage:2": 544,
+          "Damage:2": 630,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_stone"
         },
         "11:10": {
           "Count:3": 2,
@@ -198,9 +198,9 @@
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 305,
+          "Damage:2": 1206,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "3:10": {
           "Count:3": 1,

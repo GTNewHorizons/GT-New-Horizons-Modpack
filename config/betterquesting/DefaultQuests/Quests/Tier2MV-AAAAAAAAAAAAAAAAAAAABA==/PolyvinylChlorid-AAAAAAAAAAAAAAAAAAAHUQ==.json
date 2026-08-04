@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 649,
+        "Damage:2": 979,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.99"
+        "id:8": "materiallib:cellMolten"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,21 +63,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1341,
+          "Damage:2": 291,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt02"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 30023,
+          "Damage:2": 221,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 30013,
+          "Damage:2": 911,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "3:10": {
           "Count:3": 1,
@@ -116,15 +116,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 30650,
+          "Damage:2": 1388,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 84,
-          "Damage:2": 30013,
+          "Damage:2": 911,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -140,9 +140,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 125,
-          "Damage:2": 649,
+          "Damage:2": 979,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "materiallib:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"

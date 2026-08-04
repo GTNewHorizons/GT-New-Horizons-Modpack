@@ -99,15 +99,15 @@
         },
         "2:10": {
           "Count:3": 12,
-          "Damage:2": 84,
+          "Damage:2": 641,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "3:10": {
           "Count:3": 12,
-          "Damage:2": 335,
+          "Damage:2": 298,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "materiallib:frameGt"
         },
         "4:10": {
           "Count:3": 3,

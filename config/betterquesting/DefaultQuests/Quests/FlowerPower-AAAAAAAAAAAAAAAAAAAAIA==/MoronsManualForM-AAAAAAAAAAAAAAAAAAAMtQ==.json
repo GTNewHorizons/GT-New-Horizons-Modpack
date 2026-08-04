@@ -64,9 +64,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 28086,
+          "Damage:2": 519,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ring"
         },
         "1:10": {
           "Count:3": 10,

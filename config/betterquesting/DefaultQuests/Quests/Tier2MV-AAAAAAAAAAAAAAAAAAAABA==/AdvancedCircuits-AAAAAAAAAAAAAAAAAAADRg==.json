@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 28308,
+          "Damage:2": 1049,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ring"
         },
         "1:10": {
           "Count:3": 2,
@@ -79,9 +79,9 @@
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 27306,
+          "Damage:2": 1202,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:screw"
         },
         "3:10": {
           "Count:3": 1,
@@ -144,15 +144,15 @@
         },
         "4:10": {
           "Count:3": 64,
-          "Damage:2": 19303,
+          "Damage:2": 369,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "materiallib:wireFine"
         },
         "5:10": {
           "Count:3": 64,
-          "Damage:2": 26345,
+          "Damage:2": 66,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -122,9 +122,9 @@
         },
         "2:10": {
           "Count:3": 256,
-          "Damage:2": 17809,
+          "Damage:2": 1405,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

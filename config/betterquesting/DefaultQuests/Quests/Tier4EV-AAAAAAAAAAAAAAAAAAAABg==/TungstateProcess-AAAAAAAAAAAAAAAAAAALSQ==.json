@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2910,
+        "Damage:2": 1123,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -85,15 +85,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 42,
-          "Damage:2": 2841,
+          "Damage:2": 1343,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 2017,
+          "Damage:2": 1163,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 24,
@@ -115,15 +115,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 2006,
+          "Damage:2": 704,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 6,
-          "Damage:2": 29904,
+          "Damage:2": 1184,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -139,15 +139,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 29904,
+          "Damage:2": 1184,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 18,
-          "Damage:2": 63,
+          "Damage:2": 183,
           "OreDict:8": "dustCalciumChloride",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -163,15 +163,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 2910,
+          "Damage:2": 1123,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 2817,
+          "Damage:2": 1100,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 4,
+          "Damage:2": 211,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockgem3"
+          "id:8": "materiallib:block"
         },
         "1:10": {
           "Count:3": 10,

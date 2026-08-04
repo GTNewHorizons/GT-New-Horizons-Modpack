@@ -120,9 +120,9 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 5122,
+          "Damage:2": 168,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:pipeMedium"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

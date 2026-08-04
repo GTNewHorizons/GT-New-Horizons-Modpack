@@ -121,21 +121,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
-          "Damage:2": 5022,
+          "Damage:2": 1220,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 5834,
+          "Damage:2": 1013,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 5839,
+          "Damage:2": 1197,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "materiallib:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -151,21 +151,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1022,
+          "Damage:2": 1220,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_netherrack"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1834,
+          "Damage:2": 1013,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_netherrack"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 1839,
+          "Damage:2": 1197,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "materiallib:ore_netherrack"
         }
       },
       "taskID:8": "bq_standard:retrieval"

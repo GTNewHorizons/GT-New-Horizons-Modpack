@@ -65,21 +65,21 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 9032,
+          "Damage:2": 646,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:nugget"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 9089,
+          "Damage:2": 689,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:nugget"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 2500,
+          "Damage:2": 319,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "3:10": {
           "Count:3": 1,

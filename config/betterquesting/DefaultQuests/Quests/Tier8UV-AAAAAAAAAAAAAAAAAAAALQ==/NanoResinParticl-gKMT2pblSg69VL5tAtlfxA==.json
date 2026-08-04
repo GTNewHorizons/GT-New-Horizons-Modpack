@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2078,
+        "Damage:2": 726,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "materiallib:dust"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -69,87 +69,87 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 11401,
+          "Damage:2": 679,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 11403,
+          "Damage:2": 996,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 11405,
+          "Damage:2": 206,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 11407,
+          "Damage:2": 839,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 11413,
+          "Damage:2": 417,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "5:10": {
           "Count:3": 1,
-          "Damage:2": 11415,
+          "Damage:2": 494,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "6:10": {
           "Count:3": 1,
-          "Damage:2": 11417,
+          "Damage:2": 1275,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "7:10": {
           "Count:3": 1,
-          "Damage:2": 11419,
+          "Damage:2": 363,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "8:10": {
           "Count:3": 1,
-          "Damage:2": 11421,
+          "Damage:2": 585,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "9:10": {
           "Count:3": 1,
-          "Damage:2": 11423,
+          "Damage:2": 401,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "10:10": {
           "Count:3": 1,
-          "Damage:2": 11425,
+          "Damage:2": 1312,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "11:10": {
           "Count:3": 1,
-          "Damage:2": 11427,
+          "Damage:2": 1419,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "12:10": {
           "Count:3": 1,
-          "Damage:2": 11429,
+          "Damage:2": 728,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         },
         "13:10": {
           "Count:3": 1,
-          "Damage:2": 11411,
+          "Damage:2": 1111,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "materiallib:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

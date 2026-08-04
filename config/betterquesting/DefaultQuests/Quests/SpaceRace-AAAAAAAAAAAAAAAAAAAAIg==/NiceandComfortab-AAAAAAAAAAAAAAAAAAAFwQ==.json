@@ -142,9 +142,9 @@
         },
         "2:10": {
           "Count:3": 192,
-          "Damage:2": 29028,
+          "Damage:2": 1318,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:foil"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

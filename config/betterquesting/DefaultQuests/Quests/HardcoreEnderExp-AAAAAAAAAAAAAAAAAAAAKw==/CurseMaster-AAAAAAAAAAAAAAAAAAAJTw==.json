@@ -259,9 +259,9 @@
         },
         "1:10": {
           "Count:3": 11,
-          "Damage:2": 2807,
+          "Damage:2": 852,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dust"
         },
         "2:10": {
           "Count:3": 11,
@@ -271,9 +271,9 @@
         },
         "3:10": {
           "Count:3": 11,
-          "Damage:2": 506,
+          "Damage:2": 850,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:dustTiny"
         }
       },
       "taskID:8": "bq_standard:retrieval"

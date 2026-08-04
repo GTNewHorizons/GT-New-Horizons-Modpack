@@ -77,9 +77,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 11318,
+          "Damage:2": 1229,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:ingot"
         },
         "2:10": {
           "Count:3": 1,
@@ -118,21 +118,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 20318,
+          "Damage:2": 1229,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plateQuadruple"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 17362,
+          "Damage:2": 662,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 17100,
+          "Damage:2": 957,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -166,15 +166,15 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 17599,
+          "Damage:2": 969,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plate"
         },
         "4:10": {
           "Count:3": 4,
-          "Damage:2": 19856,
+          "Damage:2": 1149,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "materiallib:plateTriple"
         },
         "5:10": {
           "Count:3": 4,
@@ -190,9 +190,9 @@
         },
         "7:10": {
           "Count:3": 6,
-          "Damage:2": 2380,
+          "Damage:2": 1237,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "materiallib:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
