@@ -10,7 +10,7 @@ Entries in this file take precedence over the values in the core file
     <itemStack modID="materiallib" itemName="dust" itemMeta="269" />
   </preference>
   <preference oreDictionary="dustIron" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="647" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="646" />
   </preference>
   <preference oreDictionary="dustEnderPearl" >
     <itemStack modID="materiallib" itemName="dust" itemMeta="378" />
@@ -19,10 +19,10 @@ Entries in this file take precedence over the values in the core file
     <itemStack modID="materiallib" itemName="dust" itemMeta="245" />
   </preference>
   <preference oreDictionary="dustLapis" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="684" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="683" />
   </preference>
   <preference oreDictionary="pulpWood" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1406" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1405" />
   </preference>
   <preference oreDictionary="dustAluminium" >
     <itemStack modID="materiallib" itemName="dust" itemMeta="45" />
@@ -31,16 +31,16 @@ Entries in this file take precedence over the values in the core file
     <itemStack modID="materiallib" itemName="dust" itemMeta="168" />
   </preference>
   <preference oreDictionary="dustSilver" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1155" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1154" />
   </preference>
   <preference oreDictionary="dustLead" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="690" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="689" />
   </preference>
   <preference oreDictionary="dustTin" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1316" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1315" />
   </preference>
   <preference oreDictionary="dustSulfur" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1221" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1220" />
   </preference>
   <preference oreDictionary="dustArdite" >
     <itemStack modID="materiallib" itemName="dust" itemMeta="86" />
@@ -49,13 +49,13 @@ Entries in this file take precedence over the values in the core file
     <itemStack modID="materiallib" itemName="dust" itemMeta="247" />
   </preference>
   <preference oreDictionary="dustManyullyn" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="751" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="750" />
   </preference>
   <preference oreDictionary="foodFlour" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1402" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="1401" />
   </preference>
   <preference oreDictionary="dustObsidian" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="885" />
+    <itemStack modID="materiallib" itemName="dust" itemMeta="884" />
   </preference>
 
 
