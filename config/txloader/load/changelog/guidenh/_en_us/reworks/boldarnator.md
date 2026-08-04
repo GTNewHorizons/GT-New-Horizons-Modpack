@@ -29,8 +29,8 @@ The <Color id="GREEN">Boldarnator</Color> has no tiered components. The glass ca
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15556"/><ItemImage id="gregtech:gt.blockmachines:15556"/>
 - 50-53 <ItemLink id="miscutils:gtplusplus.blockcasings.2"/><ItemImage id="miscutils:gtplusplus.blockcasings.2"/>
-- 36 <ItemLink id="gregtech:gt.blockframes:81"/><ItemImage id="gregtech:gt.blockframes:81"/>
-- 12 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 36 <ItemLink id="materiallib:frameGt:1344"/><ItemImage id="materiallib:frameGt:1344"/>
+- 12 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />

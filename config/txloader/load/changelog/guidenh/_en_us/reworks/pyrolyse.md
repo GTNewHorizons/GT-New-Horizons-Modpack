@@ -30,7 +30,7 @@ The <Color id="GREEN">Pyrolyse Oven</Color> has one tiered component. The heatin
 - 12 Heating Coil (tiered) <ItemImage id="gregtech:gt.blockcasings5:11"/>
 - 8 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 4 <ItemLink id="gregtech:gt.blockcasings3:14"/><ItemImage id="gregtech:gt.blockcasings3:14"/>
-- 2 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
+- 2 <ItemLink id="materiallib:frameGt:1206"/><ItemImage id="materiallib:frameGt:1206"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />

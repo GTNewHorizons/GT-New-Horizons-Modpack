@@ -31,8 +31,8 @@ The <Color id="GREEN">ICF</Color> has no tiered components. The glass can be any
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15540"/><ItemImage id="gregtech:gt.blockmachines:15540"/>
 - 10-30 <ItemLink id="miscutils:gtplusplus.blockcasings.2:13"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:13"/>
-- 18 <ItemLink id="miscutils:blockFrameGtTantalumCarbide"/><ItemImage id="miscutils:blockFrameGtTantalumCarbide"/>
-- <ItemLink id="gregtech:gt.sheetmetal:334"/><ItemImage id="gregtech:gt.sheetmetal:334"/>
+- 18 <ItemLink id="materiallib:frameGt:1258"/><ItemImage id="materiallib:frameGt:1258"/>
+- <ItemLink id="materiallib:sheetmetal:140"/><ItemImage id="materiallib:sheetmetal:140"/>
 - 1+ Energy Hatch (any frame, tier limited by sawblade) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any frame) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any frame) <ItemImage id="gregtech:gt.blockmachines:91" />

@@ -29,8 +29,8 @@ The <Color id="GREEN">FCR</Color> has no tiered components. Buses/hatches may re
 - 1 <ItemLink id="gregtech:gt.blockmachines:15560"/><ItemImage id="gregtech:gt.blockmachines:15560"/>
 - 90-121 <ItemLink id="miscutils:gtplusplus.blockcasings.3:1"/><ItemImage id="miscutils:gtplusplus.blockcasings.3:1"/>
 - 31 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:9"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:9"/>
-- 20 <ItemLink id="miscutils:blockFrameGtStaballoy"/><ItemImage id="miscutils:blockFrameGtStaballoy"/>
-- 8 <ItemLink id="miscutils:blockFrameGtInconel690"/><ItemImage id="miscutils:blockFrameGtInconel690"/>
+- 20 <ItemLink id="materiallib:frameGt:1199"/><ItemImage id="materiallib:frameGt:1199"/>
+- 8 <ItemLink id="materiallib:frameGt:615"/><ItemImage id="materiallib:frameGt:615"/>
 - 1+ Energy Hatch (any bottom casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any bottom casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ Input Bus (any bottom casing) <ItemImage id="gregtech:gt.blockmachines:70" />

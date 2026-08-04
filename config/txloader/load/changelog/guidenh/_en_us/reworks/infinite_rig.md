@@ -28,12 +28,12 @@ The <Color id="GREEN">IFDR</Color> has no tiered components. Insert mining pipes
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15567"/><ItemImage id="gregtech:gt.blockmachines:15567"/>
 - 90-103 <ItemLink id="gregtech:gt.blockcasings8:2"/><ItemImage id="gregtech:gt.blockcasings8:2"/>
-- 38 <ItemLink id="gregtech:gt.blockframes:129"/><ItemImage id="gregtech:gt.blockframes:129"/>
-- 20 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 38 <ItemLink id="materiallib:frameGt:855"/><ItemImage id="materiallib:frameGt:855"/>
+- 20 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings8:7"/><ItemImage id="gregtech:gt.blockcasings8:7"/>
 - 12 <ItemLink id="tectech:gt.blockcasingsTT:3"/><ItemImage id="tectech:gt.blockcasingsTT:3"/>
 - 9 <ItemLink id="gregtech:gt.blockcasings9"/><ItemImage id="gregtech:gt.blockcasings9"/>
-- 8 <ItemLink id="gregtech:gt.sheetmetal:397"/><ItemImage id="gregtech:gt.sheetmetal:397"/>
+- 8 <ItemLink id="materiallib:sheetmetal:625"/><ItemImage id="materiallib:sheetmetal:625"/>
 - 1 Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0-1 Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />

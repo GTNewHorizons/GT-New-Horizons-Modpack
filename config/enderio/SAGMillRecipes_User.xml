@@ -135,7 +135,7 @@
       </input>
       <output>
         <itemStack modID="minecraft" itemName="blaze_powder" number="4" />
-        <itemStack modID="gregtech" itemName="gt.metaitem.01" number="1" itemMeta="2022" chance="0.5" />
+        <itemStack modID="materiallib" itemName="dust" number="1" itemMeta="1220" chance="0.5" />
       </output>
     </recipe>
    <recipe name="ClayBlock" energyCost="2400" >

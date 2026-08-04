@@ -29,9 +29,9 @@ The <Color id="GREEN">Density^2</Color> has no tiered components. Buses/hatches 
 - 1 <ItemLink id="gregtech:gt.blockmachines:15547"/><ItemImage id="gregtech:gt.blockmachines:15547"/>
 - 80 <ItemLink id="gregtech:gt.blockcasings13:4"/><ItemImage id="gregtech:gt.blockcasings13:4"/>
 - 50-60 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
-- 24 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
-- 4 <ItemLink id="gregtech:gt.sheetmetal:86"/><ItemImage id="gregtech:gt.sheetmetal:86"/>
-- 4 <ItemLink id="gregtech:gt.blockframes:86"/><ItemImage id="gregtech:gt.blockframes:86"/>
+- 24 <ItemLink id="materiallib:frameGt:1346"/><ItemImage id="materiallib:frameGt:1346"/>
+- 4 <ItemLink id="materiallib:sheetmetal:519"/><ItemImage id="materiallib:sheetmetal:519"/>
+- 4 <ItemLink id="materiallib:frameGt:519"/><ItemImage id="materiallib:frameGt:519"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />

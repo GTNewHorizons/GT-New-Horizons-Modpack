@@ -14,10 +14,10 @@ navigation:
 
 ## 材料
 到达可以制造AE系统的科技水平后，你还需要以下的材料：
-- <ItemImage id="gregtech:gt.blockores2:516" label="right"/>
-  - 我们需要从中获得制作AE物品与方块的重要原料<ItemImage id="gregtech:gt.metaitem.01:2516"  label="right"/>与<ItemImage id="gregtech:gt.metaitem.01:8516" label="right"/>。
-- <ItemImage id="gregtech:gt.blockores2:28" label="right"/>
-  - 许多AE的方块都要使用<ItemImage id="gregtech:gt.metaitem.01:17028" label="right" />来制作。
+- <ItemImage id="materiallib:ore_stone:208" label="right"/>
+  - 我们需要从中获得制作AE物品与方块的重要原料<ItemImage id="materiallib:dust:208"  label="right"/>与<ItemImage id="materiallib:gem:208" label="right"/>。
+- <ItemImage id="materiallib:ore_stone:1318" label="right"/>
+  - 许多AE的方块都要使用<ItemImage id="materiallib:plate:1318" label="right" />来制作。
 - 其他基础材料如<ItemImage id="minecraft:redstone" label="right" />、<ItemImage id="minecraft:diamond" label="right"/>和<ItemImage id="dreamcraft:CircuitHV"  label="right"/>等，这些材料在来到EV阶段的路上你一定已经遇到过了，这里不再赘述。
 
 ## 搭建

@@ -35,8 +35,8 @@ Unique to large turbines is the turbine housing <ItemImage id="gregtech:gt.block
 
 ### Requires:
 - 1 Large Steam Turbine (Of relevant type) <ItemImage id="gregtech:gt.blockmachines:15524"/>
-- 14 Frame Box (By type of turbine) <ItemImage id="gregtech:gt.blockframes:32"/>
-- 8-14 Turbine Casing (By type of turbine) <ItemImage id="gregtech:gt.blockframes:32"/>
+- 14 Frame Box (By type of turbine) <ItemImage id="materiallib:frameGt:646"/>
+- 8-14 Turbine Casing (By type of turbine) <ItemImage id="materiallib:frameGt:646"/>
 - 12 Pipe Casing (By type of turbine) <ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 1 Dynamo Hatch (back center turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
 - 1 Maintenance Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />

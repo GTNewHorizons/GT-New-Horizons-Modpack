@@ -4,56 +4,56 @@
     {"level": 0, "loot_pools": [{"type": "ORE", "each": true, "quantity": 8}, {"type": "WEAPONS", "each": true, "quantity": 4}], "loot": [
         {"data": {"name": "minecraft:emerald", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         {"data": {"name": "minecraft:diamond", "meta": 0, "min": 1, "max": 3}, "weight": 10},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11305, "min": 3, "max": 4}, "weight": 10},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11304, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11036, "min": 4, "max": 10}, "weight": 15},
+        {"data": {"name": "materiallib:ingot", "meta": 1206, "min": 3, "max": 4}, "weight": 10},
+        {"data": {"name": "materiallib:ingot", "meta": 194, "min": 4, "max": 10}, "weight": 15},
+        {"data": {"name": "materiallib:ingot", "meta": 1431, "min": 4, "max": 10}, "weight": 15},
         {"data": {"name": "minecraft:gold_ingot", "meta": 0, "min": 5, "max": 8}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11035, "min": 5, "max": 15}, "weight": 30},
+        {"data": {"name": "materiallib:ingot", "meta": 269, "min": 5, "max": 15}, "weight": 30},
 	{"data": {"name": "minecraft:iron_ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30},
         {"data": {"name": "minecraft:coal", "meta": 0, "min": 5, "max": 15}, "weight": 20}
       ]
     },
     {"level": 1, "loot_pools": [{"type": "ORE", "each": true, "quantity": 9}, {"type": "WEAPONS", "each": true, "quantity": 4}], "loot": [
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11335, "min": 3, "max": 5}, "weight": 10},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11371, "min": 3, "max": 5}, "weight": 10},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11054, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11300, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11305, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11057, "min": 5, "max": 15}, "weight": 30},
-	{"data": {"name": "gregtech:gt.metaitem.01", "meta": 11304, "min": 3, "max": 8}, "weight": 30},
+        {"data": {"name": "materiallib:ingot", "meta": 298, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "materiallib:ingot", "meta": 1381, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "materiallib:ingot", "meta": 1154, "min": 4, "max": 10}, "weight": 15},
+        {"data": {"name": "materiallib:ingot", "meta": 168, "min": 4, "max": 10}, "weight": 15},
+        {"data": {"name": "materiallib:ingot", "meta": 1206, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "materiallib:ingot", "meta": 1315, "min": 5, "max": 15}, "weight": 30},
+	{"data": {"name": "materiallib:ingot", "meta": 194, "min": 3, "max": 8}, "weight": 30},
         {"data": {"name": "minecraft:iron_ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30}
     ]
     },
     {"level": 2, "loot_pools": [{"type": "ORE", "each": true, "quantity": 9}, {"type": "WEAPONS", "each": true, "quantity": 3}], "loot": [
-        {"data": {"name": "gregtech:gt.metaitem.02", "meta": 30501, "min": 1, "max": 2}, "weight": 5},
-        {"data": {"name": "gregtech:gt.metaitem.02", "meta": 30500, "min": 1, "max": 2}, "weight": 5},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 8502, "min": 2, "max": 3}, "weight": 15},
+        {"data": {"name": "materiallib:gemExquisite", "meta": 372, "min": 1, "max": 2}, "weight": 5},
+        {"data": {"name": "materiallib:gemExquisite", "meta": 319, "min": 1, "max": 2}, "weight": 5},
+        {"data": {"name": "materiallib:gem", "meta": 1092, "min": 2, "max": 3}, "weight": 15},
         {"data": {"name": "minecraft:emerald", "meta": 0, "min": 2, "max": 3}, "weight": 15},
         {"data": {"name": "minecraft:diamond", "meta": 0, "min": 2, "max": 3}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11054, "min": 3, "max": 9}, "weight": 30},
+        {"data": {"name": "materiallib:ingot", "meta": 1154, "min": 3, "max": 9}, "weight": 30},
 	{"data": {"name": "minecraft:gold_ingot", "meta": 0, "min": 3, "max": 9}, "weight": 30}
       ]
     },
     {"level": 3, "loot_pools": [{"type": "ORE", "each": true, "quantity": 10}, {"type": "WEAPONS", "each": true, "quantity": 4}], "loot": [
-        {"data": {"name": "miscutils:itemIngotTumbaga", "meta": 0, "min": 6, "max": 18}, "weight": 10},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11033, "min": 3, "max": 5}, "weight": 10},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11880, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "materiallib:ingot", "meta": 1342, "min": 6, "max": 18}, "weight": 10},
+        {"data": {"name": "materiallib:ingot", "meta": 247, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "materiallib:ingot", "meta": 1088, "min": 3, "max": 5}, "weight": 10},
         {"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11308, "min": 4, "max": 6}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11300, "min": 5, "max": 15}, "weight": 30},
+        {"data": {"name": "materiallib:ingot", "meta": 1049, "min": 4, "max": 6}, "weight": 15},
+        {"data": {"name": "materiallib:ingot", "meta": 168, "min": 5, "max": 15}, "weight": 30},
 	{"data": {"name": "minecraft:redstone", "meta": 0, "min": 3, "max": 24}, "weight": 30}
     ]
     },
     {
       "level": 4, "loot_pools": [{"type": "ORE", "each": true, "quantity": 8}, {"type": "WEAPONS", "each": true, "quantity": 3}], "loot": [
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 2347, "min": 1, "max": 2}, "weight": 9},
+        {"data": {"name": "materiallib:dust", "meta": 455, "min": 1, "max": 2}, "weight": 9},
         {"data": {"name": "etfuturum:ancient_debris", "meta": 0, "min": 1, "max": 2}, "weight": 6},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11335, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11371, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11305, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11089, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 2022, "min": 2, "max": 4}, "weight": 15},
-	{"data": {"name": "gregtech:gt.metaitem.01", "meta": 11300, "min": 5, "max": 15}, "weight": 30}
+        {"data": {"name": "materiallib:ingot", "meta": 298, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "materiallib:ingot", "meta": 1381, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "materiallib:ingot", "meta": 1206, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "materiallib:ingot", "meta": 689, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "materiallib:dust", "meta": 1220, "min": 2, "max": 4}, "weight": 15},
+	{"data": {"name": "materiallib:ingot", "meta": 168, "min": 5, "max": 15}, "weight": 30}
       ]
     }
   ]

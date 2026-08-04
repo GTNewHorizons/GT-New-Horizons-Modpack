@@ -30,8 +30,8 @@ The <Color id="GREEN">XLGT</Color> has no tiered components. The glass can be an
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15522"/><ItemImage id="gregtech:gt.blockmachines:15522"/>
 - 340-345 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:3"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:3"/>
-- 104 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 80 <ItemLink id="gregtech:gt.blockframes:306"/><ItemImage id="gregtech:gt.blockframes:306"/>
+- 104 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
+- 80 <ItemLink id="materiallib:frameGt:1202"/><ItemImage id="materiallib:frameGt:1202"/>
 - 76 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 20 <ItemLink id="gregtech:gt.blockcasings.cyclotron_coils"/><ItemImage id="gregtech:gt.blockcasings.cyclotron_coils"/>
 - 16 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>

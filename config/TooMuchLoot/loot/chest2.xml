@@ -2,15 +2,15 @@
 <LootGroup category="chest2" loading_mode="OVERRIDE" count_min="3" count_max="6">
 
 	<loot item="gregtech:gt.blockmachines" damage="1" weight="20" count_min="1" count_max="4"/>
-	<loot item="gregtech:gt.blockmachines" damage="5124" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.blockmachines" damage="5122" weight="15" count_min="4" count_max="8"/>
+	<loot item="materiallib:pipeHuge" damage="168" weight="10" count_min="1" count_max="2"/>
+	<loot item="materiallib:pipeMedium" damage="168" weight="15" count_min="4" count_max="8"/>
 	<loot item="gregtech:gt.blockmachines" damage="2" weight="15" count_min="2" count_max="4"/>
 	<loot item="gregtech:gt.blockmachines" damage="4" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17054" weight="25" count_min="10" count_max="20"/>
-	<loot item="gregtech:gt.metaitem.01" damage="11308" weight="25" count_min="8" count_max="10"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17308" weight="20" count_min="12" count_max="16"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17880" weight="25" count_min="10" count_max="20"/>
-	<loot item="gregtech:gt.metaitem.01" damage="11880" weight="25" count_min="10" count_max="20"/>
+	<loot item="materiallib:plate" damage="1154" weight="25" count_min="10" count_max="20"/>
+	<loot item="materiallib:ingot" damage="1049" weight="25" count_min="8" count_max="10"/>
+	<loot item="materiallib:plate" damage="1049" weight="20" count_min="12" count_max="16"/>
+	<loot item="materiallib:plate" damage="1088" weight="25" count_min="10" count_max="20"/>
+	<loot item="materiallib:ingot" damage="1088" weight="25" count_min="10" count_max="20"/>
 	<loot item="irontank:ironTank" damage="0" weight="20" count_min="2" count_max="4"/>
 	<loot item="Railcraft:track" damage="816" nbt="{track:&quot;railcraft:track.speed&quot;}" weight="10" count_min="12" count_max="24"/>
 	<loot item="Railcraft:track" damage="0" nbt="{track:&quot;railcraft:track.reinforced&quot;}" weight="10" count_min="12" count_max="24"/>
@@ -48,7 +48,7 @@
 	<loot item="gregtech:gt.metaitem.01" damage="32307" weight="25" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32308" weight="25" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32317" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.blockmachines" damage="5602" weight="25" count_min="8" count_max="16"/>
+	<loot item="materiallib:itemPipeMedium" damage="162" weight="25" count_min="8" count_max="16"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32721" weight="10" count_min="1" count_max="1"/>
 	<loot item="Railcraft:machine.beta" damage="0" weight="20" count_min="8" count_max="12"/>
 	<loot item="Railcraft:machine.beta" damage="1" weight="20" count_min="2" count_max="4"/>

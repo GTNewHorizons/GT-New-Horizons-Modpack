@@ -32,7 +32,7 @@ The <Color id="GREEN">IBM</Color> has no tiered components. Buses/hatches may re
 - 1 <ItemLink id="gregtech:gt.blockmachines:15553"/>
 - 4-15 <ItemLink id="miscutils:miscutils.blockcasings:4"/><ItemImage id="miscutils:miscutils.blockcasings:4"/>
 - 9 <ItemLink id="gregtech:gt.blockcasings12:14"/><ItemImage id="gregtech:gt.blockcasings12:14"/>
-- 6 <ItemLink id="gregtech:gt.blockframes:28"/><ItemImage id="gregtech:gt.blockframes:28"/>
+- 6 <ItemLink id="materiallib:frameGt:1318"/><ItemImage id="materiallib:frameGt:1318"/>
 - 3 <ItemLink id="gregtech:gt.blockcasings2:4"/><ItemImage id="gregtech:gt.blockcasings2:4"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />

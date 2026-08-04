@@ -36,7 +36,7 @@ Unique to the <Color id="GREEN">Mass Solidifier</Color> is the <Color id="BLUE">
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:368"/><ItemImage id="gregtech:gt.blockmachines:368"/>
 - 24-73 <ItemLink id="gregtech:gt.blockcasings10:13"/><ItemImage id="gregtech:gt.blockcasings10:13"/>
-- 42 Tiered Glass <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 42 Tiered Glass <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 34 <ItemLink id="gregtech:gt.blockcasings10:14"/><ItemImage id="gregtech:gt.blockcasings10:14"/>
 - 13 <ItemLink id="gregtech:gt.blockcasings:11"/><ItemImage id="gregtech:gt.blockcasings:11"/>
 - 7 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>

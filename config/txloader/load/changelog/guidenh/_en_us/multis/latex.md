@@ -24,8 +24,8 @@ The LATEX has one tiered component. The item pipe casings determine the overall 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15752" /><ItemImage id="gregtech:gt.blockmachines:15752"/>
 - 14-36 <ItemLink id="gregtech:gt.blockcasings8"/> <ItemImage id="gregtech:gt.blockcasings8"/>
-- 32 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 16 <ItemLink id="gregtech:gt.blockframes:649"/><ItemImage id="gregtech:gt.blockframes:649"/>
+- 32 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
+- 16 <ItemLink id="materiallib:frameGt:979"/><ItemImage id="materiallib:frameGt:979"/>
 - 6 Item Pipe Casing (Tiered)<ItemImage id="gregtech:gt.blockcasings11:5"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90"/>

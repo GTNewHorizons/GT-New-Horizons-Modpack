@@ -28,11 +28,11 @@ The <Color id="GREEN">ExH</Color> has two tiered components. The heating coils d
 - 860 Heating Coil (tiered) <ItemImage id="gregtech:gt.blockcasings5:11"/>
 - 780 <ItemLink id="miscutils:gtplusplus.blockcasings.2:11"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:11"/>
 - 426 <ItemLink id="gregtech:gt.blockcasings8:10"/><ItemImage id="gregtech:gt.blockcasings8:10"/>
-- 332 Tiered Glass <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 332 Tiered Glass <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 308 <ItemLink id="gregtech:gt.blockcasings11:7"/><ItemImage id="gregtech:gt.blockcasings11:7"/>
 - 280 <ItemLink id="miscutils:miscutils.blockcasings:14"/><ItemImage id="miscutils:miscutils.blockcasings:14"/>
 - 131 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 56 <ItemLink id="gregtech:gt.blockframes:163"/><ItemImage id="gregtech:gt.blockframes:163"/>
+- 56 <ItemLink id="materiallib:frameGt:1469"/><ItemImage id="materiallib:frameGt:1469"/>
 - 1+ Energy Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 <ItemLink id="gregtech:gt.blockmachines:90"/> (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:90"/>
 - 1 Muffler Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:91"/>

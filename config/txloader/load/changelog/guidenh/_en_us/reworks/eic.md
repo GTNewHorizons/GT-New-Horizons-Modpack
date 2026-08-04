@@ -31,9 +31,9 @@ The <Color id="GREEN">EIC</Color> has two tiered components. The containment blo
 - 230-247 <ItemLink id="gregtech:gt.blockreinforced:10"/><ItemImage id="gregtech:gt.blockreinforced:10"/>
 - 36 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 24 Containment Block (Tiered) <ItemImage id="gregtech:gt.blockmetal5:2"/>
-- 22 Tiered Glass <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 22 Tiered Glass <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 10 <ItemLink id="gregtech:gt.blockcasings8:1"/><ItemImage id="gregtech:gt.blockcasings8:1"/>
-- 2 <ItemLink id="gregtech:gt.blockframes:324"/><ItemImage id="gregtech:gt.blockframes:324"/>
+- 2 <ItemLink id="materiallib:frameGt:807"/><ItemImage id="materiallib:frameGt:807"/>
 - 1+ Energy Hatch (any reinforced block) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any reinforced block) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ Input Bus (any reinforced block) <ItemImage id="gregtech:gt.blockmachines:70" />

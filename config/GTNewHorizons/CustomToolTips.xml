@@ -105,7 +105,7 @@
 	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="customtooltip.deprecated_furnace" NBT=""/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="customtooltip.coolant_steam_5x" NBT=""/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1157" ToolTip="customtooltip.black_gold_rip" NBT=""/>
-	<ToolTip ItemName="gregtech:gt.metaitem.01:8150" ToolTip="customtooltip.crystallized_shards" NBT=""/>
+	<ToolTip ItemName="materiallib:gem:534" ToolTip="customtooltip.crystallized_shards" NBT=""/>
 
 //IC2
 	<ToolTip ItemName="IC2:itemNightvisionGoggles" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§7LV" NBT="" MetaStart="1" MetaEnd="27"/>
@@ -185,13 +185,13 @@
 	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="customtooltip.crops_nh_oreberries" NBT="" MetaStart="0" MetaEnd="5"/>
 
 //Cubic Zirconia
-	<ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="customtooltip.check_ebf_recipe" NBT=""/>
-	<ToolTip ItemName="bartworks:gt.bwMetaGeneratedgem:4" ToolTip="customtooltip.check_ebf_recipe" NBT=""/>
+	<ToolTip ItemName="materiallib:dust:289" ToolTip="customtooltip.check_ebf_recipe" NBT=""/>
+	<ToolTip ItemName="materiallib:gem:289" ToolTip="customtooltip.check_ebf_recipe" NBT=""/>
 
 //Orundum
-	<ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:10023" ToolTip="customtooltip.check_press_recipe" NBT=""/>
-	<ToolTip ItemName="bartworks:gt.bwMetaGeneratedgem:10023" ToolTip="customtooltip.check_press_recipe" NBT=""/>
-	<ToolTip ItemName="bartworks:bw.blockores.01:10023" ToolTip="customtooltip.check_press_recipe" NBT=""/>
+	<ToolTip ItemName="materiallib:dust:904" ToolTip="customtooltip.check_press_recipe" NBT=""/>
+	<ToolTip ItemName="materiallib:gem:904" ToolTip="customtooltip.check_press_recipe" NBT=""/>
+	<ToolTip ItemName="materiallib:ore_stone:904" ToolTip="customtooltip.check_press_recipe" NBT=""/>
 
 //Bee housings
 	<ToolTip ItemName="Forestry:apiculture" ToolTip="customtooltip.bee_apiary" NBT=""/>

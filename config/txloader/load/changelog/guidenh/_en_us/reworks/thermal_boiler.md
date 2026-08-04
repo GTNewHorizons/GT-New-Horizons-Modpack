@@ -34,7 +34,7 @@ The <Color id="GREEN">Thermal Boiler</Color> has no tiered components. The maint
 - 20-25 <ItemLink id="miscutils:gtplusplus.blockcasings.2:11"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:11"/>
 - 10-17 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 10-17 <ItemLink id="miscutils:gtplusplus.blockcasings.2"/><ItemImage id="miscutils:gtplusplus.blockcasings.2"/>
-- 16 <ItemLink id="miscutils:blockFrameGtMaragingSteel350"/><ItemImage id="miscutils:blockFrameGtMaragingSteel350"/>
+- 16 <ItemLink id="materiallib:frameGt:753"/><ItemImage id="materiallib:frameGt:753"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 1 Maintenance Hatch (any thermal containment casing) <ItemImage id="gregtech:gt.blockmachines:90" />

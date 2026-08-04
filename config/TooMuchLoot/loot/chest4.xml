@@ -32,7 +32,7 @@
 	<loot item="gregtech:gt.metaitem.01" damage="32631" weight="5" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32641" weight="5" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32529" weight="15" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="2856" weight="15" count_min="32" count_max="32"/>	
+	<loot item="materiallib:dust" damage="1149" weight="15" count_min="32" count_max="32"/>	
 	<loot item="EnderIO:itemItemConduit" damage="0" weight="20" count_min="8" count_max="16"/>
 	<loot item="EnderIO:itemLiquidConduit" damage="0" weight="20" count_min="8" count_max="16"/>
 	<loot item="EnderIO:itemMachinePart" damage="0" weight="20" count_min="3" count_max="4"/>

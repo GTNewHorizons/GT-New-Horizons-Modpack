@@ -33,7 +33,7 @@ Unique to large turbines is the turbine housing <ItemImage id="gregtech:gt.block
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15528"/><ItemImage id="gregtech:gt.blockmachines:15528"/>
-- 14 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
+- 14 <ItemLink id="materiallib:frameGt:1346"/><ItemImage id="materiallib:frameGt:1346"/>
 - 8-14 <ItemLink id="gregtech:gt.blockcasings4:12"/><ItemImage id="gregtech:gt.blockcasings4:12"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
 - 1 Dynamo Hatch (back center turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>

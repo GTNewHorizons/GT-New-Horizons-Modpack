@@ -33,7 +33,7 @@ The <Color id="GREEN">IMM</Color> has one tiered component. The item pipe casing
 - 1 <ItemLink id="gregtech:gt.blockmachines:15566" /> <ItemImage id="gregtech:gt.blockmachines:15566" />
 - 5-45 <ItemLink id="gregtech:gt.blockcasings12:13" /> <ItemImage id="gregtech:gt.blockcasings12:13" />
 - 30 Tiered Glass (any)
-- 24 <ItemLink id="gregtech:gt.sheetmetal:316" /> <ItemImage id="gregtech:gt.sheetmetal:316" />
+- 24 <ItemLink id="materiallib:sheetmetal:1346" /> <ItemImage id="materiallib:sheetmetal:1346" />
 - 10 Item Pipe Casing <ItemImage id="gregtech:gt.blockcasings11" />
 - 5 <ItemLink id="gregtech:gt.blockcasings4:11" /> <ItemImage id="gregtech:gt.blockcasings4:11" />
 - 1+ Energy Hatch (any mixer casing) <ItemImage id="gregtech:gt.blockmachines:40" />

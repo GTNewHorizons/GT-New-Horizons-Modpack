@@ -30,7 +30,7 @@ The <Color id="GREEN">MCR</Color> has one tiered component. The glass determines
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15515"/><ItemImage id="gregtech:gt.blockmachines:15515"/>
 - 0-79 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
-- 64 Tiered Glass <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 64 Tiered Glass <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 28 <ItemLink id="gregtech:gt.blockcasings8:1"/><ItemImage id="gregtech:gt.blockcasings8:1"/>
 - 7 <ItemLink id="gregtech:gt.blockcasings4:7"/><ItemImage id="gregtech:gt.blockcasings4:7"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />

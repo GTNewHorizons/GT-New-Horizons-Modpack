@@ -30,9 +30,9 @@ The <Color id="GREEN">EIG</Color> has one tiered component. The glass determines
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:12792" /> <ItemImage id="gregtech:gt.blockmachines:12792"/>
-- 102 Tiered Glass (matching voltage tier) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 102 Tiered Glass (matching voltage tier) <ItemImage id="bartworks:BW_TieredGlass:8" />
 - 70-85 <ItemLink id="miscutils:gtplusplus.blockcasings.2:15" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2:15" />
-- 33 <ItemLink id="gregtech:gt.blockframes:316" /> <ItemImage id="gregtech:gt.blockframes:316" />
+- 33 <ItemLink id="materiallib:frameGt:1346" /> <ItemImage id="materiallib:frameGt:1346" />
 - 21 <ItemLink id="RandomThings:fertilizedDirt" /> <ItemImage id="RandomThings:fertilizedDirt" />
 - 3 Purple Lamps (ProjectRed Illumination, regular or inverted)
 

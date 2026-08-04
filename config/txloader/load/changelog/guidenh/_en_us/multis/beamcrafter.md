@@ -24,7 +24,7 @@ The Beam crafter is a single multiblock unlike the Beamline. Beamline pipes are 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:3015"/><ItemImage id="gregtech:gt.blockmachines:3015"/>
 - 224-228 <ItemLink id="gtnhlanth:casing.shielded_accelerator"/><ItemImage id="gtnhlanth:casing.shielded_accelerator"/>
-- 26 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:5"/>
+- 26 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:5"/>
 - 16 <ItemLink id="gregtech:gt.blockcasings3:10"/><ItemImage id="gregtech:gt.blockcasings3:10"/>
 - 2 <ItemLink id="gregtech:gt.blockmachines:10503"/><ItemImage id="gregtech:gt.blockmachines:10503"/>
 - 1+ Energy Hatch (any collider casing) <ItemImage id="gregtech:gt.blockmachines:40"/>

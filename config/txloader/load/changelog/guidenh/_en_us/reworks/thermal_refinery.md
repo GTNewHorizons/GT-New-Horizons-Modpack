@@ -31,10 +31,10 @@ The <Color id="GREEN">LTR</Color> has two tiered components. The <Color id="RED"
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15538" /> <ItemImage id="gregtech:gt.blockmachines:15538" />
 - 85-92 <ItemLink id="miscutils:gtplusplus.blockcasings.2" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2" />
-- 20 <ItemLink id="gregtech:gt.blockframes:348" /> <ItemImage id="gregtech:gt.blockframes:348" />
+- 20 <ItemLink id="materiallib:frameGt:1053" /> <ItemImage id="materiallib:frameGt:1053" />
 - 16 Heating Coil <ItemImage id="gregtech:gt.blockcasings5:11" />
 - 6 Solenoid Superconductor Coil <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
-- 6 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 6 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8" />
 4 <ItemLink id="gregtech:gt.blockcasings:11" /> <ItemImage id="gregtech:gt.blockcasings:11" />
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />

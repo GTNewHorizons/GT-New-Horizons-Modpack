@@ -31,7 +31,7 @@ The <Color id="GREEN">Cryogenic Freezer</Color> has no tiered components. Buses/
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15565"/><ItemImage id="gregtech:gt.blockmachines:15565"/>
 - 46-56 <ItemLink id="miscutils:gtplusplus.blockcasings.3:10"/><ItemImage id="miscutils:gtplusplus.blockcasings.3:10"/>
-- 24 <ItemLink id="miscutils:blockFrameGtGrisium"/><ItemImage id="miscutils:blockFrameGtGrisium"/>
+- 24 <ItemLink id="materiallib:frameGt:540"/><ItemImage id="materiallib:frameGt:540"/>
 - 1+ <ItemLink id="gregtech:gt.blockmachines:967"/><ItemImage id="gregtech:gt.blockmachines:967"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />

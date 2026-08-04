@@ -64,8 +64,8 @@
         	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32136, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32002, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32005, "min": 1, "max": 3}, "weight": 10},
-        	{"data": {"name": "gregtech:gt.metaitem.01", "meta": 2525, "min": 1, "max": 3}, "weight": 1},
-        	{"data": {"name": "gregtech:gt.metaitem.01", "meta": 2624, "min": 1, "max": 3}, "weight": 1}
+        	{"data": {"name": "materiallib:dust", "meta": 1162, "min": 1, "max": 3}, "weight": 1},
+        	{"data": {"name": "materiallib:dust", "meta": 1161, "min": 1, "max": 3}, "weight": 1}
     ]
     },
     {"level": 2, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [

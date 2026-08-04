@@ -30,7 +30,7 @@ Modules are their own multiblocks with their own controller and construction req
 - 2,226 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8/"/>
 - 1,708-1,720 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 721 <ItemLink id="gregtech:gt.blockcasings12:3"/><ItemImage id="gregtech:gt.blockcasings12:3"/>
-- 53 <ItemLink id="gregtech:gt.blockframes:324"/><ItemImage id="gregtech:gt.blockframes:324"/>
+- 53 <ItemLink id="materiallib:frameGt:807"/><ItemImage id="materiallib:frameGt:807"/>
 - 32 <ItemLink id="gregtech:gt.blockcasings12:4"/><ItemImage id="gregtech:gt.blockcasings12:4"/>
 - 1 Energy Hatch (any side interface casing in control room) <ItemImage id="gregtech:gt.blockmachines:15065"/>
 - 0+ Input Bus (any side interface casing in control room) <ItemImage id="gregtech:gt.blockmachines:70"/>
@@ -77,9 +77,9 @@ The inputs to the <Color id="GREEN">Nanochip Assembly Matrix</Color> can be in s
 - 25 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 24 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 20 Component Assembly Line Casing (Tiered) <ItemImage id="GoodGenerator:componentAssemblylineCasing"/>
-- 12 <ItemLink id="gregtech:gt.blockframes:325"/><ItemImage id="gregtech:gt.blockframes:325"/>
+- 12 <ItemLink id="materiallib:frameGt:810"/><ItemImage id="materiallib:frameGt:810"/>
 - 8 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 3 <ItemLink id="gregtech:gt.sheetmetal:325"/><ItemImage id="gregtech:gt.sheetmetal:325"/>
+- 3 <ItemLink id="materiallib:sheetmetal:810"/><ItemImage id="materiallib:sheetmetal:810"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
@@ -108,7 +108,7 @@ The Splitter Redstone Input is an optional hatch that replaces any nanochip mesh
 - 1 <ItemLink id="gregtech:gt.blockmachines:9510"/><ItemImage id="gregtech:gt.blockmachines:9510"/>
 - 37 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 18 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 10 <ItemLink id="gregtech:gt.blockframes:765"/><ItemImage id="gregtech:gt.blockframes:765"/>
+- 10 <ItemLink id="materiallib:frameGt:661"/><ItemImage id="materiallib:frameGt:661"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9515"/> (any top interface casing) <ItemImage id="gregtech:gt.blockmachines:9515"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
@@ -124,7 +124,7 @@ The <Color id="GREEN">Part Preparation Apparatus</Color> processes SMD CCs. This
 - 1 <ItemLink id="gregtech:gt.blockmachines:9505"/><ItemImage id="gregtech:gt.blockmachines:9505"/>
 - 44 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 20 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 17 <ItemLink id="gregtech:gt.blockframes:979"/><ItemImage id="gregtech:gt.blockframes:979"/>
+- 17 <ItemLink id="materiallib:frameGt:1030"/><ItemImage id="materiallib:frameGt:1030"/>
 - 8 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 4 <ItemLink id="gregtech:gt.blockcasingsNH:10"/><ItemImage id="gregtech:gt.blockcasingsNH:10"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
@@ -142,7 +142,7 @@ The <Color id="GREEN">Nanoprecision Wire Tracer</Color> processes wire CCs. This
 - 46 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 28 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 25 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
-- 20 <ItemLink id="gregtech:gt.blockframes:985"/><ItemImage id="gregtech:gt.blockframes:985"/>
+- 20 <ItemLink id="materiallib:frameGt:714"/><ItemImage id="materiallib:frameGt:714"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
@@ -158,7 +158,7 @@ The <Color id="GREEN">Nanoprecision Cutting Chamber</Color> processes bolt, fram
 - 31 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 28 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 24 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
-- 21 <ItemLink id="gregtech:gt.blockframes:129"/><ItemImage id="gregtech:gt.blockframes:129"/>
+- 21 <ItemLink id="materiallib:frameGt:855"/><ItemImage id="materiallib:frameGt:855"/>
 - 16 <ItemLink id="gregtech:gt.blockcasings9:12"/><ItemImage id="gregtech:gt.blockcasings9:12"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
@@ -179,7 +179,7 @@ There are four immersion fluids available, but the internal tank can only hold o
 - 1 <ItemLink id="gregtech:gt.blockmachines:9506"/><ItemImage id="gregtech:gt.blockmachines:9506"/>
 - 52 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 27 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
-- 19 <ItemLink id="miscutils:blockFrameGtOctiron"/><ItemImage id="miscutils:blockFrameGtOctiron"/>
+- 19 <ItemLink id="materiallib:frameGt:887"/><ItemImage id="materiallib:frameGt:887"/>
 - 10 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
@@ -222,7 +222,7 @@ The <Color id="GREEN">Nanometer Encasement Wrapper</Color> processes sheet and f
 - 47 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 40 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 32 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
-- 32 <ItemLink id="gregtech:gt.blockframes:391"/><ItemImage id="gregtech:gt.blockframes:391"/>
+- 32 <ItemLink id="materiallib:frameGt:1018"/><ItemImage id="materiallib:frameGt:1018"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
@@ -275,7 +275,7 @@ The <Color id="GREEN">Ultra-High Energy Etching Array</Color> processes crystal 
 - 1 <ItemLink id="gregtech:gt.blockmachines:9507"/><ItemImage id="gregtech:gt.blockmachines:9507"/>
 - 28 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 24 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 17 <ItemLink id="gregtech:gt.blockframes:582"/><ItemImage id="gregtech:gt.blockframes:582"/>
+- 17 <ItemLink id="materiallib:frameGt:391"/><ItemImage id="materiallib:frameGt:391"/>
 - 13 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 9 <ItemLink id="gtnhlanth:casing.shielded_accelerator"/><ItemImage id="gtnhlanth:casing.shielded_accelerator"/>
 - 4 <ItemLink id="gregtech:gt.blockglass1:3"/><ItemImage id="gregtech:gt.blockglass1:3"/>
@@ -294,7 +294,7 @@ The <Color id="GREEN">Accelerated Biological Coordinator</Color> processes livin
 - 1 <ItemLink id="gregtech:gt.blockmachines:9514"/><ItemImage id="gregtech:gt.blockmachines:9514"/>
 - 37 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 36 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
-- 36 <ItemLink id="gregtech:gt.blockframes:329"/><ItemImage id="gregtech:gt.blockframes:329"/>
+- 36 <ItemLink id="materiallib:frameGt:1339"/><ItemImage id="materiallib:frameGt:1339"/>
 - 20 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
@@ -319,7 +319,7 @@ The <Color id="GREEN">Optically Optimized Organizer</Color> processes optical CC
 - 1 <ItemLink id="gregtech:gt.blockmachines:9512"/><ItemImage id="gregtech:gt.blockmachines:9512"/>
 - 55 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 49 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 48 <ItemLink id="gregtech:gt.blockframes:976"/><ItemImage id="gregtech:gt.blockframes:976"/>
+- 48 <ItemLink id="materiallib:frameGt:354"/><ItemImage id="materiallib:frameGt:354"/>
 - 40 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>

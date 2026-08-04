@@ -30,7 +30,7 @@ The <Color id="GREEN">Molecular Transformer</Color> has no tiered components. Th
 - 1 <ItemLink id="gregtech:gt.blockmachines:15558" /> <ItemImage id="gregtech:gt.blockmachines:15558" />
 - 95-104 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:11" /> <ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:11" />
 - 35 <ItemLink id="GoodGenerator:speedingPipe" /> <ItemImage id="GoodGenerator:speedingPipe" />
-- 30 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 30 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8" />
 - 14 <ItemLink id="gregtech:gt.blockcasings8:7" /> <ItemImage id="gregtech:gt.blockcasings8:7" />
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
