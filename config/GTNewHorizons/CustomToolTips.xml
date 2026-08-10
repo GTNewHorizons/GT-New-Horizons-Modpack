@@ -168,10 +168,10 @@
 	<ToolTip ItemName="thaumicboots:item.ItemElectricVoid" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§eHV" NBT="" MetaStart="1" MetaEnd="325"/>
 	<ToolTip ItemName="thaumicboots:item.ItemNanoVoid" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§eHV" NBT="" MetaStart="1" MetaEnd="325"/>
 	<ToolTip ItemName="thaumicboots:item.ItemQuantumVoid" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§8EV" NBT="" MetaStart="1" MetaEnd="325"/>
-	<ToolTip ItemName="thaumicboots:item.ItemElectricMeteor" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§eHV" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemElectricMeteor" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§6MV" NBT="" MetaStart="1" MetaEnd="325"/>
 	<ToolTip ItemName="thaumicboots:item.ItemNanoMeteor" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§eHV" NBT="" MetaStart="1" MetaEnd="325"/>
 	<ToolTip ItemName="thaumicboots:item.ItemQuantumMeteor" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§8EV" NBT="" MetaStart="1" MetaEnd="325"/>
-	<ToolTip ItemName="thaumicboots:item.ItemElectricComet" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§eHV" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemElectricComet" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§6MV" NBT="" MetaStart="1" MetaEnd="325"/>
 	<ToolTip ItemName="thaumicboots:item.ItemNanoComet" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§eHV" NBT="" MetaStart="1" MetaEnd="325"/>
 	<ToolTip ItemName="thaumicboots:item.ItemQuantumComet" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§8EV" NBT="" MetaStart="1" MetaEnd="325"/>
 
