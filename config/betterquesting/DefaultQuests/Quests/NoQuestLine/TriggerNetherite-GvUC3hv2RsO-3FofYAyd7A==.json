@@ -50,7 +50,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -60,90 +60,105 @@
     "0:10": {
       "ignoreDisabled:1": 1,
       "index:3": 0,
+      "isSilent:1": 0,
       "questID:8": "XDZFjGB9RlWlrW0mHFoL0g\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "1:10": {
       "ignoreDisabled:1": 1,
       "index:3": 1,
+      "isSilent:1": 0,
       "questID:8": "WNC6mX67QGG5gpjX0YkvDw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "2:10": {
       "ignoreDisabled:1": 1,
       "index:3": 2,
+      "isSilent:1": 0,
       "questID:8": "afDCORKvSI-Vk_Mh2-rnZw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "3:10": {
       "ignoreDisabled:1": 1,
       "index:3": 3,
+      "isSilent:1": 0,
       "questID:8": "KGBrxQRsSneYMzNHBll9Bg\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "4:10": {
       "ignoreDisabled:1": 1,
       "index:3": 4,
+      "isSilent:1": 0,
       "questID:8": "x79CeO4ORDWIbPLtdtp1wQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "5:10": {
       "ignoreDisabled:1": 1,
       "index:3": 5,
+      "isSilent:1": 0,
       "questID:8": "7YjYGaWnQ4uXqUOfMA0C9Q\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "6:10": {
       "ignoreDisabled:1": 1,
       "index:3": 6,
+      "isSilent:1": 0,
       "questID:8": "nx7KEyhlTc6qYVM1vImkBA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "7:10": {
       "ignoreDisabled:1": 1,
       "index:3": 7,
+      "isSilent:1": 0,
       "questID:8": "SmLW-ht6TrKSmAUDyDoNqg\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "8:10": {
       "ignoreDisabled:1": 1,
       "index:3": 8,
+      "isSilent:1": 0,
       "questID:8": "01C00SMsRUyKUD2zJht8tA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "9:10": {
       "ignoreDisabled:1": 1,
       "index:3": 9,
+      "isSilent:1": 0,
       "questID:8": "rlVdurFlSbuoWZAIUG0-aA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "10:10": {
       "ignoreDisabled:1": 1,
       "index:3": 10,
+      "isSilent:1": 0,
       "questID:8": "P_nO8frbRM2c-MLKAaJUkw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "11:10": {
       "ignoreDisabled:1": 1,
       "index:3": 11,
+      "isSilent:1": 0,
       "questID:8": "JVZjTR4hRSaeaoXPvBcG9w\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "12:10": {
       "ignoreDisabled:1": 1,
       "index:3": 12,
+      "isSilent:1": 0,
       "questID:8": "zb1nbwNuSFKuSEyW3mVj-Q\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "13:10": {
       "ignoreDisabled:1": 1,
       "index:3": 13,
+      "isSilent:1": 0,
       "questID:8": "8zpQos1hR1CbwmWldvxSpg\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "14:10": {
       "ignoreDisabled:1": 1,
       "index:3": 15,
+      "isSilent:1": 0,
       "questID:8": "4v3YtOxvT8aWIwy7NEJNhw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     }
@@ -156,45 +171,21 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 22132,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 64,
           "Damage:2": 32246,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "2:10": {
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
