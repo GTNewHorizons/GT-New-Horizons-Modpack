@@ -1,8 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -4584086443345950462,
-      "questIDLow:4": -8420616239779406480
+      "questIDHigh:4": 1162181130482500484,
+      "questIDLow:4": -8199803816494517045
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1493
     }
   },
   "properties:10": {
@@ -17,18 +21,32 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Block tall Multiblock.\n\nThis can handle up to 256 Recipes at once.",
+      "desc:8": "Well, what might happen if you combine 64 Distillation Towers in one...? You know... you get a 54-block-tall Multiblock.\n\nThis can handle up to §6§l256§r Recipes at once and provides a different set of bonuses depending on which distillation mode is active.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 12738,
+        "Damage:2": 15516,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lTower of Babylon",
+      "name:8": "§d§lTower of Babylon",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
@@ -43,7 +61,21 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2320,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -52,10 +84,11 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 12738,
+          "Damage:2": 15516,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -69,18 +102,55 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 3456,
+          "Count:3": 361,
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings4"
         },
         "1:10": {
-          "Count:3": 12,
-          "Damage:2": 60,
+          "Count:3": 215,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.2"
+        },
+        "2:10": {
+          "Count:3": 179,
+          "Damage:2": 324,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        },
+        "3:10": {
+          "Count:3": 163,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings14"
+        },
+        "4:10": {
+          "Count:3": 99,
+          "Damage:2": 306,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "5:10": {
+          "Count:3": 80,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "6:10": {
+          "Count:3": 43,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "7:10": {
+          "Count:3": 41,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

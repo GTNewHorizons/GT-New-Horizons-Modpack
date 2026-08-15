@@ -1,7 +1,7 @@
 {
   "id": "research_station",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "gregtech:gt.blockmachines",
     "meta": 15331
   },

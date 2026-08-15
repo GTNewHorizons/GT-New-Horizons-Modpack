@@ -1,7 +1,7 @@
 {
   "id": "terrasteel_ingot",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "Botania:manaResource",
     "meta": 4
   },

@@ -1,10 +1,9 @@
 {
   "id": "stargate_2.1.2.3qf",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "minecraft:paper",
-    "meta": 2,
-    "nbt": "{display:{Name:\"Pick this item up to get your trophy\"}}"
+    "meta": 2
   },
   "page": "GT New Horizons",
   "x": 15,

@@ -3,11 +3,6 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 36
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 31,
-      "type:1": 2
     }
   },
   "properties:10": {
@@ -22,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Finally, a use for all of these coins!\n\nThe §5§lVending Machine§r is a unique multiblock that allows you to exchange coins for valuable resources. You will progressively unlock new trades as you complete quests. Quests that unlock Vending Machine trades upon completion will show this information under the section labeled \"§lAssociated Vending Machine Exchanges§r\".\n\nAlternatively you can click \"§2U§r\" on the Vending Machine in NEI to see all available trades and what quests they are unlocked by. If an item can be traded for it will show up when clicking \"§2R§r\" under the Vending Machine tab.\n\nYou can put your coins directly into the input and they will appear in the internal storage. Additional inputs §3(including non-consumable)§r should be placed here as well. There is also a button for ejecting the coins if you need to reclaim them. \n\n[warn]Be aware, some trades have much longer timeout periods between claims![/warn]",
+      "desc:8": "Finally, a use for all of these coins!\n\nThe §5§lVending Machine§r is a unique multiblock that allows you to exchange coins for valuable resources. You will progressively unlock new trades as you complete quests. Quests that unlock Vending Machine trades upon completion will show this information under the section labeled \"§lAssociated Vending Machine Exchanges§r\".\n\nAlternatively you can click \"§2U§r\" on the Vending Machine in NEI to see all available trades and what quests they are unlocked by. If an item can be traded for it will show up when clicking \"§2R§r\" under the Vending Machine tab.\n\nYou can put your coins directly into the input and they will appear in the internal storage. Additional inputs §3(including non-consumable)§r should be placed here as well. There is also a button for ejecting the coins if you need to reclaim them. Breaking the Vending Machine will not cause the coins to fall out or get deleted, they will be there when you replace it.\n\nYou can also share coins between a team. Using the §3/gtnhteam§r command you can team with other players and switch at will between using either your personal wallet, or your team wallet. Additionally, while in a team you can purchase VM items on behalf of a teammate.\n\n[warn]Be aware, some trades have much longer timeout periods between claims![/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -34,6 +29,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lCoins! Coins! Coins!",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -103,6 +112,7 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

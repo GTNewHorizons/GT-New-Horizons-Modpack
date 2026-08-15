@@ -29,32 +29,27 @@
         "OreDict:8": "",
         "id:8": "bartworks:BioLabParts",
         "tag:10": {
-          "Breedable:1": 0,
-          "Color:11": [
-            54,
-            119,
-            181
-          ],
-          "DNA:10": {
-            "Chance:3": 750,
-            "Name:8": "TCetiEis Fucus Serratus",
-            "Rarity:1": 3,
-            "Tier:3": 2
-          },
-          "Name:8": "Xenoxene Xenoxsis",
-          "Plasmid:10": {
-            "Chance:3": 750,
-            "Name:8": "Barnadafis Arboriatoris",
-            "Rarity:1": 3,
-            "Tier:3": 2
-          },
-          "Rarety:1": 2
+          "Name:8": "Xenoxene Xenoxsis"
         }
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§4§l§nXenoxene Xenoxsis",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -77,6 +72,7 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -84,10 +80,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Chance:3": 750,
-            "Name:8": "Barnadafis Arboriatoris",
-            "Rarity:1": 3,
-            "Tier:3": 2
+            "Name:8": "Barnadafis Arboriatoris"
           }
         }
       },
@@ -100,6 +93,7 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -107,10 +101,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Chance:3": 750,
-            "Name:8": "Barnadafis Arboriatoris",
-            "Rarity:1": 3,
-            "Tier:3": 2
+            "Name:8": "Barnadafis Arboriatoris"
           }
         }
       },
@@ -123,6 +114,7 @@
       "ignoreNBT:1": 0,
       "index:3": 2,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -130,26 +122,7 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Breedable:1": 0,
-            "Color:11": [
-              54,
-              119,
-              181
-            ],
-            "DNA:10": {
-              "Chance:3": 750,
-              "Name:8": "TCetiEis Fucus Serratus",
-              "Rarity:1": 3,
-              "Tier:3": 2
-            },
-            "Name:8": "Xenoxene Xenoxsis",
-            "Plasmid:10": {
-              "Chance:3": 750,
-              "Name:8": "Barnadafis Arboriatoris",
-              "Rarity:1": 3,
-              "Tier:3": 2
-            },
-            "Rarety:1": 2
+            "Name:8": "Xenoxene Xenoxsis"
           }
         }
       },

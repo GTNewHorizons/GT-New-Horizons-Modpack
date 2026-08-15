@@ -25,7 +25,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The portable scanner is a tool capable of showing advanced information about almost every block in the game. In order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops by right-clicking it to fully scan it, unlike a cropnalyzer which needs a seed bag in your inventory, and takes multiple goes. Crops that were scanned in the world will drop a scanned seed bag.\n\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load - be sure to check the full chat window for additional details.\n\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value. It also gives information about pollution level in the chunk the scanned block belongs to.\n\nIn addition it shows when the cleanroom has reached its 100 percent efficiency level.",
+      "desc:8": "The portable scanner is a tool capable of showing advanced information about almost every block in the game. In order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops by right-clicking them.\n\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load - be sure to check the full chat window for additional details.\n\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value. It also gives information about pollution level in the chunk the scanned block belongs to.\n\nIn addition it shows when the cleanroom has reached its 100 percent efficiency level.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -38,6 +38,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lA Very Useful Scanner",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
@@ -94,6 +108,7 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

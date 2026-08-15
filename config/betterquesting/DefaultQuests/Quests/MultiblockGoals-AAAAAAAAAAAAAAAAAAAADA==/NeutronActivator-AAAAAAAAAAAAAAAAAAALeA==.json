@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The Neutron Activator is a unique machine that you will use for processing Naquadah, and eventually Naquadah Fuel should you choose to do so.\n\nUnlike traditional multis, instead of using a regular energy hatch, this machine relies on a Neutron Accelerator that will need to be regulated by a Sensor Hatch. §3(The Neutron Accelerator needs to be provided power just like an energy hatch)§r\n\nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn\u0027t meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.\n\nWhen all Neutron Accelerators aren\u0027t running, NKE will decrease 72keV/s.\n\nNeutron Activator will explode when NKE is over 1200MeV.\n\n§dYou can enable batch mode with wire cutters.§r\n\n[note]The more height/speed casings you have, the more inefficient the EU-\u003eeV conversion becomes, so you then need more power. The math is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.[/note]",
+      "desc:8": "The Neutron Activator is a unique machine that you will use for processing Naquadah, and eventually Naquadah Fuel should you choose to do so.\n\nUnlike traditional multis, instead of using a regular energy hatch, this machine relies on a Neutron Accelerator that will need to be regulated by a Sensor Hatch. §3(The Neutron Accelerator needs to be provided power just like an energy hatch)§r\n\nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn\u0027t meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.\n\nWhen all Neutron Accelerators aren\u0027t running, NKE will decrease 72keV/s.\n\n§dYou can enable batch mode with wire cutters.§r\n\n[note]The more height/speed casings you have, the more inefficient the EU-\u003eeV conversion becomes, so you then need more power. The math is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -29,6 +29,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lNeutron Activator",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -86,6 +100,7 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
@@ -95,9 +110,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 0,
+          "Damage:2": 10,
           "OreDict:8": "",
-          "id:8": "IC2:blockAlloyGlass"
+          "id:8": "gregtech:gt.blockglass1"
         },
         "2:10": {
           "Count:3": 16,
@@ -121,6 +136,7 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

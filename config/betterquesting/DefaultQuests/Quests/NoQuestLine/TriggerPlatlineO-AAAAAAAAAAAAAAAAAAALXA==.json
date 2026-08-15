@@ -29,6 +29,20 @@
       "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "Trigger: Platline Osmium Skip",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -46,36 +60,42 @@
     "0:10": {
       "ignoreDisabled:1": 1,
       "index:3": 0,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAJDQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "1:10": {
       "ignoreDisabled:1": 1,
       "index:3": 1,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAJAA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "2:10": {
       "ignoreDisabled:1": 1,
       "index:3": 2,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAJAQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "3:10": {
       "ignoreDisabled:1": 1,
       "index:3": 3,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAJAg\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "4:10": {
       "ignoreDisabled:1": 1,
       "index:3": 4,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAJCA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "5:10": {
       "ignoreDisabled:1": 1,
       "index:3": 5,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAJCw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     }
@@ -88,6 +108,7 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,

@@ -54,7 +54,7 @@ customtooltip.omt_hardness_resistance=Hardness: %s - Blast Resistance: %s
 
 ## Tinkers Construct
 customtooltip.smeltery_purity_warning=§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing.
-customtooltip.ic2_crop_berries=Can be placed on an empty IC2 Crop.\nRequires low light to be placed.
+customtooltip.crops_nh_oreberries=Can be placed on empty Crop Sticks. See their growth requirements in NEI.
 
 ## GG
 customtooltip.check_ebf_recipe=§3Check Flawed Crystal recipe in EBF

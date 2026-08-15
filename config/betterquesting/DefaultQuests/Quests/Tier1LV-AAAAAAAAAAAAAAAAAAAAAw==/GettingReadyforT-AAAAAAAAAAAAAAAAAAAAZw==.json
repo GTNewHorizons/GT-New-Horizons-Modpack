@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 88
+      "questIDLow:4": 77
     }
   },
   "properties:10": {
@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "In order to proceed forward, you need to get Raw Aluminum. A lot of it. But for now, 8 is enough to complete this quest.\n\nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.\n\nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest is \"Lead, Galena, Silver and Cryolite\" is the Novice Thaumaturgy tab.\n\nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker\u0027s Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF.\n\nBy the time you\u0027ve completed this, you\u0027ll probably be done with most of the tab, but you\u0027ll still need Good Circuits (MV) to actually open up the next tier if you haven\u0027t done that yet.\n\nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.",
+      "desc:8": "In order to proceed forward, you need to get Raw Aluminum. A lot of it. But for now, 8 is enough to complete this quest.\n\nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.\n\nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest \"Lead, Galena, Silver and Cryolite\" is in the Novice Thaumaturgy tab.\n\nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker\u0027s Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF.\n\nBy the time you\u0027ve completed this, you\u0027ll probably be done with most of the tab, but you\u0027ll still need Good Circuits (MV) to actually open up the next tier if you haven\u0027t done that yet.\n\nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -30,6 +30,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lGetting Ready for Tier 2, MV",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
@@ -86,6 +100,7 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 20,
@@ -109,6 +124,7 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
@@ -126,6 +142,7 @@
       "ignoreNBT:1": 1,
       "index:3": 2,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,

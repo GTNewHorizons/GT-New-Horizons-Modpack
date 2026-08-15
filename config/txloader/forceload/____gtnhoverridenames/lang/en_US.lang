@@ -671,3 +671,9 @@ fluid.alumite.molten=Molten Obzinite
 material.alumite=Obzinite
 item.universalSingularities.tinkersConstruct.alumite.name=Obzinite Singularity
 item.iguana.tcon.clayBucket.Alumite.name=Molten Obzinite Clay Bucket
+
+
+# IC2 Crops -> Crops NH since CropsNH is GTNH-only and the target mods are on passive support
+item.gendustry.GeneSample.forestry.effectFertile.tooltip=Add random ticks to plants in range\n(does not work on CropsNH crops)
+# Crops NH hijacks the circuit logic instead of adding it's own.
+for.circuit.manualIC2Crop=CropsNH Farm

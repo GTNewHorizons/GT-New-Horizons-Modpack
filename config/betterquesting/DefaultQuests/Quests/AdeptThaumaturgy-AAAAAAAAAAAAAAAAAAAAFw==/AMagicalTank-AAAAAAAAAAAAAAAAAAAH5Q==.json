@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "This tank always seems to connect to the same dimensional space. I can push fluids into the tank in one dimension, and retrieve them in a totally different dimension!\n\nI have discovered a way to assign a location to each tank using dyes applied to the top. Using a diamond makes the tank private, attuned to the user\u0027s mind, and will not share fluids with any other player\u0027s tanks.\n\nShift-right-clicking recovers the diamond and makes the tank part of the public tank network again.\n\nThe dial on front controls the input/output of the tank. When blue is up, the tank accepts fluids. When orange is up, the tank will eject fluids.\n\n§3If you get FPS problems from large numbers of them, try the setting in the config to turn off the fancy render at the bottom.",
+      "desc:8": "This tank always seems to connect to the same dimensional space. I can push fluids into the tank in one dimension, and retrieve them in a totally different dimension!\n\nI have discovered a way to assign a location to each tank using dyes applied to the top. Using a diamond makes the tank private, attuned to the user\u0027s mind, and will not share fluids with any other player\u0027s tanks.\n\nShift-right-clicking recovers the diamond and makes the tank part of the public tank network again.\n\nThe dial on the front controls the input/output of the tank. When blue is up, the tank accepts fluids. When orange is up, the tank will eject fluids.\n\n§3If you get FPS problems from large numbers of them, try the setting in the config to turn off the fancy render at the bottom.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -30,6 +30,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "A Magical Tank",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
@@ -79,6 +93,7 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

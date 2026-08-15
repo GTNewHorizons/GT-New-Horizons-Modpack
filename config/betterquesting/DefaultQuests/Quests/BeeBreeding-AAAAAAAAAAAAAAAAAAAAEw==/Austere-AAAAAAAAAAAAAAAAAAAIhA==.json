@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Another bee that requires an attentive beekeeper. Without an Apiarist suit, this bee will inflict creeper explosions on you. Watch out! It will require a hot or hellish biome with Arid humidity. Breed them from Modest and Frugal.\n\n[note]Breeder\u0027s Notes:\n\nAustere may want a hellish biome, but that doesn\u0027t mean this species wants to be in The Nether. By default, they need to see the sky. You will either have to use an alveary with climate modifications to appease them, or alter an Overworld biome to their tastes. Something like the Potion of Shifting Seasons can put a little bit of a nether biome like Boneyard in the Overworld. You could get lucky and find an Overworld biome scorching hot enough to make them happy, but that\u0027s some serious luck.\n\nThe creeper explosions are usually just a bit annoying, but we once had an apiarist in steel armor and full, §agreen§r hearts get turned into a gravestone in §oone hit.§o §rThey were prepping to gear up into their apiarist suit, but they happened to be in its territory. Don\u0027t mess around with this species![/note]\n\n",
+      "desc:8": "Another bee that requires an attentive beekeeper. Without an Apiarist suit, this bee will inflict creeper explosions on you. Watch out! It will require a hot or hellish biome with Arid humidity. Breed them from Modest and Frugal.\n\n[note]Breeder\u0027s Notes:\n\nAustere may want a hellish biome, but that doesn\u0027t mean this species wants to be in The Nether. By default, they need to see the sky. You will either have to use an alveary with climate modifications to appease them, or alter an Overworld biome to their tastes. Something like the Potion of Shifting Seasons can put a little bit of a nether biome like Boneyard in the Overworld. You could get lucky and find an Overworld biome scorching hot enough to make them happy, but that\u0027s some serious luck.\n\nThe creeper explosions are usually just a bit annoying, but we once had an apiarist in steel armor and full, §agreen§r hearts get turned into a gravestone in §oone hit.§o §rThey were prepping to gear up into their apiarist suit, but they happened to be in its territory. Don\u0027t mess around with this species![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -41,6 +41,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Austere",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
@@ -78,6 +92,7 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

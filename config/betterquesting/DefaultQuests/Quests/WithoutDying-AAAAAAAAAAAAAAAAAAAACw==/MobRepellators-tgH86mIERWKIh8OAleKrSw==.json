@@ -29,6 +29,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Mob Repellators",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
@@ -36,7 +50,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -71,127 +85,51 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1146,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 1,
           "Damage:2": 1147,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "2:10": {
           "Count:3": 1,
           "Damage:2": 1148,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 1149,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "4:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 4,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "4:10": {
           "Count:3": 1,
           "Damage:2": 1150,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "5:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 5,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 1135,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "6:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 6,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "6:10": {
           "Count:3": 1,
           "Damage:2": 1136,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "7:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 7,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "7:10": {
           "Count:3": 1,
           "Damage:2": 1137,
           "OreDict:8": "",

@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The Biome Compass is a special type of compass, which points to the nearest Biome Islands as long one exists and the player is in the End. Right-clicking will scroll through all existing biomes.\n\nHolding the compass shows all biomes of the selected type as markers on the screen. The markers are small rectangles with the color of the selected biome, the rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).",
+      "desc:8": "The Biome Compass is a special type of compass, which points to the nearest Biome Islands as long as one exists and the player is in the End. Right-clicking will scroll through all existing biomes.\n\nHolding the compass shows all biomes of the selected type as markers on the screen. The markers are small rectangles with the color of the selected biome. The rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).\n\n[note]The Fiery Island is orange, the Enchanted Island (both variants) is purple, and the Infested Island is dark red.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -35,6 +35,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "HEE Biome Compass",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
@@ -127,6 +141,7 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -174,6 +189,7 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

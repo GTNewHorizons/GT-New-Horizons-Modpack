@@ -33,7 +33,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "You\u0027ll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.\n\nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystal processor series. We\u0027re starting with 4 since you\u0027ll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.\n\nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it\u0027s only one item per CAL, it\u0027s far easier to use, and the recipe is cheaper too.\n\nThe CAL uses \u0027wraps\u0027 to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy (or Indalloy). You make the wraps in an Assembler with 16 of the item and Polyethylene.\n\n[note]BTW you can change out the Hatches and Buses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.[/note]",
+      "desc:8": "You\u0027ll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.\n\nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystal processor series. We\u0027re starting with 4 since you\u0027ll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.\n\nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it\u0027s only one item per CAL, it\u0027s far easier to use, and the recipe is cheaper too.\n\nThe CAL uses \u0027wraps\u0027 to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy (or Indalloy). You make the wraps in an Assembler with 16 of the item and Polyethylene.\n\n[note]BTW you can change out the Hatches and Buses for better ones, but you still need to keep ingredient order. Also, CAL grants 4/4 OC.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -45,6 +45,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lCircuit Assembly Line",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -58,7 +72,21 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2601,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -67,6 +95,7 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
@@ -84,6 +113,7 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 76,
@@ -99,9 +129,9 @@
         },
         "2:10": {
           "Count:3": 56,
-          "Damage:2": 0,
+          "Damage:2": 10,
           "OreDict:8": "",
-          "id:8": "IC2:blockAlloyGlass"
+          "id:8": "gregtech:gt.blockglass1"
         },
         "3:10": {
           "Count:3": 52,

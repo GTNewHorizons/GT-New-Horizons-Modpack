@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Mutandis Extremis is an upgraded version of Mutandis that is used by witches and warlocks to mutate plants into other species. Mutandis Extremis has all the same properties as basic Mutandis but it can even be used on multi-stage plants like wheat, cactus, etc. and can also mutate cooked meat.\n\nIf Mutandis Extremis is used on a Grass block there is a chance it will mutate it into Mycelium and vice versa.\n\nIf Mutandis Extremis is used on an underwater dirt block there is a chance it will mutate it (and nearby dirt) into clay blocks.\n\nMutating plants is the only way to acquire Rowan, Hawthorn and Alder saplings.\n\nSome recipes require Mutandis Extremis as an ingredient.\n\nMutandis is crafted using Mutandis and Nether Wart.\n\n[note]Some cauldron recipes require altar power. This is one of them; it requires 8000. Make sure you read the Witches\u0027 Brews book for information on Altar requirements.[/note]",
+      "desc:8": "Mutandis Extremis is an upgraded version of Mutandis that is used by witches and warlocks to mutate plants into other species. Mutandis Extremis has all the same properties as basic Mutandis but it can even be used on multi-stage plants like wheat, cactus, etc. and can also mutate cooked meat.\n\nIf Mutandis Extremis is used on a Grass block there is a chance it will mutate it into Mycelium and vice versa.\n\nIf Mutandis Extremis is used on an underwater dirt block there is a chance it will mutate it (and nearby dirt) into clay blocks.\n\nMutating plants is the only way to acquire Rowan, Hawthorn and Alder saplings.\n\nSome recipes require Mutandis Extremis as an ingredient.\n\nMutandis Extremis is crafted using Mutandis and Nether Wart.\n\n[note]Some cauldron recipes require altar power. This is one of them; it requires 8000. Make sure you read the Witches\u0027 Brews book for information on Altar requirements.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -30,6 +30,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Mutandis Extremis",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
@@ -98,6 +112,7 @@
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
@@ -121,6 +136,7 @@
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,

@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The multi block version of the naquadah reactor, but it is completely different from the single block ones.\n\nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel information in NEI.\n\nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.\n\n[warn]It will explode with more than one types of fuel in its hatches.[/warn]\n\nYou can input in coolant to increase efficiency.\nIC2 Coolant: 1.05x\nSuper Coolant: 1.5x\nCryotheum: 2.75x\nTachyon Rich Temporal Fluid: 5.00x\n\nYou can also input boosters to increase power.\nMolten Caesium: 2x\nMolten Uranium-235: 3x\nMolten Naquadah: 4x\nMolten Atomic Separation Catalyst: 16x\nSpatially Enlarged Fluid: 64x\nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The boosters work like \u0027parallels\u0027 for your reactor.\n\nIt also supports §9Tec§1Tech§r\u0027s Multi-Amp Dynamo hatches and laser hatches.\n\n[note]PS: This generator can produce up to 664 billion EU/t with the best coolant, boosters and fuel available.[/note]",
+      "desc:8": "The multi block version of the naquadah reactor, but it is completely different from the single block ones.\n\nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel information in NEI.\n\nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.\n\n[warn]It will explode with more than one type of fuel in its hatches.[/warn]\n\nYou can input in coolant to increase efficiency.\nIC2 Coolant: 1.05x\nSuper Coolant: 1.5x\nCryotheum: 2.75x\nTachyon Rich Temporal Fluid: 5.00x\n\nYou can also input boosters to increase power.\nMolten Caesium: 2x\nMolten Uranium-235: 3x\nMolten Naquadah: 4x\nMolten Atomic Separation Catalyst: 16x\nSpatially Enlarged Fluid: 64x\nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The boosters work like \u0027parallels\u0027 for your reactor.\n\nIt also supports §9Tec§1Tech§r\u0027s Multi-Amp Dynamo hatches and laser hatches.\n\n[note]PS: This generator can produce up to 664 billion EU/t with the best coolant, boosters and fuel available.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -29,6 +29,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lLarge Naquadah Reactor",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -51,6 +65,7 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -68,6 +83,7 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 140,

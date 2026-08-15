@@ -23,6 +23,54 @@ jobs:
       - name: Set release version
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
+      - name: Bundle matching GTNH-Guide-Pack release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GUIDE_REPO: GTNewHorizons/GTNH-Guide-Pack
+        run: |
+          set -euo pipefail
+          if [[ "${RELEASE_VERSION}" == *-pre ]]; then
+            # Experimental modpack release: newest guide release of any tag.
+            GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
+              --json tagName,createdAt,isDraft \
+              --jq '[.[] | select(.isDraft | not)]
+                    | select(.tagName != "guide-page-lang-dev-build")
+                    | sort_by(.createdAt) | reverse | .[0].tagName // empty')
+          else
+            # Daily modpack release: newest guide release whose tag is not -pre.
+            GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
+              --json tagName,createdAt,isDraft \
+              --jq '[.[] | select(.isDraft | not)
+                          | select(.tagName != "guide-page-lang-dev-build")
+                          | select(.tagName | endswith("-pre") | not)]
+                    | sort_by(.createdAt) | reverse | .[0].tagName // empty')
+          fi
+          if [[ -z "$GUIDE_TAG" ]]; then
+            echo "No matching GTNH-Guide-Pack release found" >&2
+            exit 1
+          fi
+          echo "Selected GTNH-Guide-Pack release: $GUIDE_TAG"
+          mkdir -p config/guidenh
+          rm -f config/guidenh/DefaultGuide.zip
+          gh release download "$GUIDE_TAG" --repo "$GUIDE_REPO" \
+            --pattern '*.zip' \
+            --dir config/guidenh
+          GUIDE_ZIP=$(find config/guidenh -maxdepth 1 -type f -name '*.zip' ! -name 'DefaultGuide.zip' | head -n 1)
+          if [[ -z "$GUIDE_ZIP" ]]; then
+            echo "Downloaded GTNH-Guide-Pack zip asset was not found" >&2
+            exit 1
+          fi
+          mv "$GUIDE_ZIP" config/guidenh/DefaultGuide.zip
+
+      - name: Stamp questbook version
+        env:
+          QB_VERSION_BASE: 2110
+          QB_VERSION_BASE_REF: f94b1919aa1dd24c113db27e9ba36d20ce92746a
+        run: |
+          python .github/scripts/stamp-qb-version.py \
+            --base-version "$QB_VERSION_BASE" \
+            --base-ref "$QB_VERSION_BASE_REF"
+
       - name: Prepare release folder
         run: |
           mkdir -p release
@@ -33,7 +81,8 @@ jobs:
               -x changelog.py \
               -x ".git/*" \
               -x ".github/*" \
-              -x "release/*"
+              -x "release/*" \
+              -x "raw/*"
 
       - name: Release under current tag
         uses: "marvinpinto/action-automatic-releases@latest"

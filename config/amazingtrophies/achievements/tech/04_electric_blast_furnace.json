@@ -1,7 +1,7 @@
 {
   "id": "electric_blast_furnace",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "gregtech:gt.blockmachines",
     "meta": 1000
   },
