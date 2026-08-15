@@ -81,7 +81,7 @@
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "cropBarley",
-          "id:8": "Natura:barleyFood"
+          "id:8": "harvestcraft:barleyItem"
         }
       },
       "taskID:8": "bq_standard:retrieval"
