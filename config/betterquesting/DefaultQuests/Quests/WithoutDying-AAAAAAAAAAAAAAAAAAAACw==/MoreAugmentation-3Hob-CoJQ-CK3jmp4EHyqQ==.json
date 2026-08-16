@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "A new energy core means more powerful augments. This quest lists all Tier 2 augments.\n\nSome standouts:\n\n-Milk Infusion (§dUtility§r, Helmet): Constantly clear negative status effects.\n-Astronaut\u0027s Equipment (§6Protection§r, Any): Gain space suit capability.\n-Adaptive Jetpack Stabilizers (§aMovement§r, Chestplate): Allow your jetpack to hover perfectly without descending.",
+      "desc:8": "A new energy core means more powerful augments. This quest lists all Tier 2 augments.\n\nSome standouts:\n\n-Milk Infusion (§dUtility§r, Helmet): Constantly clear negative status effects.\n-Adaptive Jetpack Stabilizers (§aMovement§r, Chestplate): Allow your jetpack to hover perfectly without descending.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -109,43 +109,43 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentspacesuit"
+          "id:8": "gregtech:gt.augmentspeedboost"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentspeedboost"
+          "id:8": "gregtech:gt.augmentjumpboost"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentjumpboost"
+          "id:8": "gregtech:gt.augmentstepassist"
         },
         "4:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentstepassist"
+          "id:8": "gregtech:gt.augmentomnimovement"
         },
         "5:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentomnimovement"
+          "id:8": "gregtech:gt.augmentjetpackperfecthover"
         },
         "6:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentjetpackperfecthover"
+          "id:8": "gregtech:gt.augmentmilkinfusion"
         },
         "7:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentmilkinfusion"
+          "id:8": "gregtech:gt.augmentknockbackresistance"
         }
       },
       "taskID:8": "bq_standard:retrieval"
