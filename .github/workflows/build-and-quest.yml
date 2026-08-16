@@ -1,0 +1,29 @@
+name: build-and-quest
+
+on:
+  pull_request:
+    paths:
+      - config/betterquesting/DefaultQuests/**
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-quest:
+    name: Build DefaultQuests artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout pull request
+        uses: actions/checkout@v5
+
+      - name: Stage DefaultQuests
+        run: |
+          mkdir -p artifact
+          cp -a config/betterquesting/DefaultQuests artifact/DefaultQuests
+
+      - name: Upload DefaultQuests
+        uses: actions/upload-artifact@v7
+        with:
+          name: DefaultQuests-PR-${{ github.event.pull_request.number }}
+          path: artifact
+          if-no-files-found: error
