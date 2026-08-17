@@ -41,14 +41,14 @@
 		<Drop Identifier="SkeletonDruid" ItemName="minecraft:potion:8270" Amount="1" NBTTag="" Chance="3" LimitedDropCount="0" RandomAmount="true"/>				
     </CustomDrop>
 		<CustomDrop EntityClassName="twilightforest.entity.EntityTFRedcapSapper">
-		<Drop Identifier="RedcapSapper" ItemName="materiallib:gemFlawless:319" Amount="1" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="RedcapSapper" ItemName="materiallib:gemExquisite:319" Amount="1" NBTTag="" Chance="2" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="RedcapSapper" ItemName="ml:Diamond:gemFlawless" Amount="1" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="RedcapSapper" ItemName="ml:Diamond:gemExquisite" Amount="1" NBTTag="" Chance="2" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="RedcapSapper" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="RedcapSapper" ItemName="minecraft:gold_nugget" Amount="3" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="RedcapSapper" ItemName="minecraft:golden_apple" Amount="1" NBTTag="" Chance="8" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="RedcapSapper" ItemName="minecraft:golden_apple:1" Amount="1" NBTTag="" Chance="1" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="RedcapSapper" ItemName="materiallib:dustSmall:499" Amount="2" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="RedcapSapper" ItemName="materiallib:dustTiny:499" Amount="6" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="RedcapSapper" ItemName="ml:Gallium:dustSmall" Amount="2" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="RedcapSapper" ItemName="ml:Gallium:dustTiny" Amount="6" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="RedcapSapper" ItemName="Thaumcraft:ItemShard" Amount="2" NBTTag="" Chance="25" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="RedcapSapper" ItemName="Thaumcraft:ItemShard:1" Amount="2" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="RedcapSapper" ItemName="Thaumcraft:ItemShard:2" Amount="2" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>	
@@ -58,11 +58,11 @@
 		<Drop Identifier="RedcapSapper" ItemName="Thaumcraft:ItemShard:6" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>			
     </CustomDrop>
 		<CustomDrop EntityClassName="twilightforest.entity.EntityTFRedcap">
-		<Drop Identifier="Redcap" ItemName="materiallib:gemFlawless:319" Amount="1" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="Redcap" ItemName="ml:Diamond:gemFlawless" Amount="1" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="Redcap" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="Redcap" ItemName="minecraft:gold_nugget" Amount="3" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Redcap" ItemName="minecraft:golden_apple" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="Redcap" ItemName="materiallib:dustTiny:499" Amount="6" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="Redcap" ItemName="ml:Gallium:dustTiny" Amount="6" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="Redcap" ItemName="Thaumcraft:ItemShard" Amount="2" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Redcap" ItemName="Thaumcraft:ItemShard:1" Amount="2" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Redcap" ItemName="Thaumcraft:ItemShard:2" Amount="2" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>	
@@ -74,20 +74,20 @@
 		<Drop Identifier="Kobolt" ItemName="Thaumcraft:ItemLootBag" Amount="1" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="Kobolt" ItemName="Thaumcraft:ItemLootBag" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="Kobolt" ItemName="Thaumcraft:ItemLootBag" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
-		<Drop Identifier="Kobolt" ItemName="materiallib:dust:45" Amount="4" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="Kobolt" ItemName="materiallib:ingot:45" Amount="2" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="Kobolt" ItemName="ml:Aluminium:dust" Amount="4" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="Kobolt" ItemName="ml:Aluminium:ingot" Amount="2" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="Kobolt" ItemName="dreamcraft:NagaScaleChip" Amount="4" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Kobolt" ItemName="dreamcraft:NagaScaleFragment" Amount="2" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Kobolt" ItemName="TwilightForest:item.nagaScale" Amount="1" NBTTag="" Chance="1" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Kobolt" ItemName="witchery:ingredient:148" Amount="1" NBTTag="" Chance="4" LimitedDropCount="0" RandomAmount="true"/>	
-		<Drop Identifier="Kobolt" ItemName="materiallib:dustSmall:89" Amount="2" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>	
-		<Drop Identifier="Kobolt" ItemName="materiallib:dustTiny:89" Amount="6" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="Kobolt" ItemName="ml:Arsenic:dustSmall" Amount="2" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="Kobolt" ItemName="ml:Arsenic:dustTiny" Amount="6" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="true"/>
     </CustomDrop>
 		<CustomDrop EntityClassName="twilightforest.entity.EntityTFFireBeetle">
-		<Drop Identifier="FireBeetle" ItemName="materiallib:dustTiny:438" Amount="2" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="FireBeetle" ItemName="materiallib:dustSmall:438" Amount="2" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="FireBeetle" ItemName="materiallib:dust:438" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
-		<Drop Identifier="FireBeetle" ItemName="materiallib:nugget:438" Amount="1" NBTTag="" Chance="3" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="FireBeetle" ItemName="ml:FierySteel:dustTiny" Amount="2" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="FireBeetle" ItemName="ml:FierySteel:dustSmall" Amount="2" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="FireBeetle" ItemName="ml:FierySteel:dust" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="FireBeetle" ItemName="ml:FierySteel:nugget" Amount="1" NBTTag="" Chance="3" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="FireBeetle" ItemName="TwilightForest:item.fieryIngot" Amount="1" NBTTag="" Chance="1" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="FireBeetle" ItemName="minecraft:blaze_powder" Amount="4" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="FireBeetle" ItemName="minecraft:blaze_rod" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>	
@@ -98,7 +98,7 @@
 		<Drop Identifier="SlimeBeetle" ItemName="TConstruct:slime.gel" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="SlimeBeetle" ItemName="TConstruct:slime.gel:1" Amount="1" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="SlimeBeetle" ItemName="TConstruct:slime.gel:2" Amount="1" NBTTag="" Chance="30" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="SlimeBeetle" ItemName="materiallib:ingot:45" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="SlimeBeetle" ItemName="ml:Aluminium:ingot" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="SlimeBeetle" ItemName="dreamcraft:NagaScaleChip" Amount="1" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="SlimeBeetle" ItemName="dreamcraft:NagaScaleFragment" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="SlimeBeetle" ItemName="TConstruct:strangeFood" Amount="4" NBTTag="" Chance="60" LimitedDropCount="0" RandomAmount="true"/>	
