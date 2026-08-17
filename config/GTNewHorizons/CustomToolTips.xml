@@ -189,9 +189,9 @@
 	<ToolTip ItemName="ml:CubicZirconia:gem" ToolTip="customtooltip.check_ebf_recipe" NBT=""/>
 
 //Orundum
-	<ToolTip ItemName="ml:Oriharukon:dust" ToolTip="customtooltip.check_press_recipe" NBT=""/>
-	<ToolTip ItemName="ml:Oriharukon:gem" ToolTip="customtooltip.check_press_recipe" NBT=""/>
-	<ToolTip ItemName="ml:Oriharukon:ore_stone" ToolTip="customtooltip.check_press_recipe" NBT=""/>
+	<ToolTip ItemName="ml:Orundum:dust" ToolTip="customtooltip.check_press_recipe" NBT=""/>
+	<ToolTip ItemName="ml:Orundum:gem" ToolTip="customtooltip.check_press_recipe" NBT=""/>
+	<ToolTip ItemName="ml:Orundum:ore_stone" ToolTip="customtooltip.check_press_recipe" NBT=""/>
 
 //Bee housings
 	<ToolTip ItemName="Forestry:apiculture" ToolTip="customtooltip.bee_apiary" NBT=""/>
