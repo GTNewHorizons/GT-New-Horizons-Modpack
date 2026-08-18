@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1465,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:prismarinerichnitrobenzenesolution:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -83,9 +83,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1466,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:prismarinesolution:cell"
         },
         "1:10": {
           "Count:3": 2,
@@ -107,15 +107,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1463,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:prismarinecontaminatedhydrogenperoxide:cell"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1465,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:prismarinerichnitrobenzenesolution:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

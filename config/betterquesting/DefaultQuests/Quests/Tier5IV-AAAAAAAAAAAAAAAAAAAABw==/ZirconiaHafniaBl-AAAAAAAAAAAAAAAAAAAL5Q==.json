@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 552,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:Hafnia-ZirconiaBlend:dust"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -83,9 +83,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 552,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Hafnia-ZirconiaBlend:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -101,15 +101,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 551,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Hafnia:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1438,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Zirconia:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

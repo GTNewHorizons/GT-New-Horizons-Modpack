@@ -70,21 +70,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 177,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Cadmium:dust"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 111,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:BatteryAlloy:dust"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 1315,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt01"
+          "id:8": "ml:Tin:cableGt01"
         },
         "3:10": {
           "Count:3": 1,

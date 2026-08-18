@@ -97,9 +97,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1163,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Sodium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -115,15 +115,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1163,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Sodium:cell"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RockSalt:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

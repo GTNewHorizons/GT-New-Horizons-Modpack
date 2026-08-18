@@ -175,15 +175,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1315,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:itemPipeSmall"
+          "id:8": "ml:Tin:itemPipeSmall"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1405,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeSmall"
+          "id:8": "ml:Wood:pipeSmall"
         }
       },
       "taskID:8": "bq_standard:retrieval"

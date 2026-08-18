@@ -122,27 +122,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 512,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:lens"
+          "id:8": "ml:Glass:lens"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 849,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:NetherQuartz:plate"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 1023,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Quartzite:plate"
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 208,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:CertusQuartz:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

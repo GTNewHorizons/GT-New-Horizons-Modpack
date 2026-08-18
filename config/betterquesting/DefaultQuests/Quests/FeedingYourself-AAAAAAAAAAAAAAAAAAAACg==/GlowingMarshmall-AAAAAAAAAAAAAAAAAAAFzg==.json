@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1362,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushedPurified"
+          "id:8": "ml:Uranium:crushedPurified"
         },
         "1:10": {
           "Count:3": 1,
@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1028,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Radon:cell"
         },
         "1:10": {
           "Count:3": 1,

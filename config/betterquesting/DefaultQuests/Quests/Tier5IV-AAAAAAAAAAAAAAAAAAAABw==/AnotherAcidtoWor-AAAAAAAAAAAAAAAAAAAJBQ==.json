@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 481,
+        "Damage:2": 0,
         "OreDict:8": "cellFormicAcid",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:FormicAcid:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -90,15 +90,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 191,
+          "Damage:2": 0,
           "OreDict:8": "cellCarbonMonoxide",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:CarbonMonoxide:cell"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 1173,
+          "Damage:2": 0,
           "OreDict:8": "dustSodiumHydroxide_GT5U",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SodiumHydroxide_GT5U:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -114,15 +114,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1171,
+          "Damage:2": 0,
           "OreDict:8": "cellSodiumFormate",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SodiumFormate:cell"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1224,
+          "Damage:2": 0,
           "OreDict:8": "cellSulfuricAcid",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SulfuricAcid:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,15 +138,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 481,
+          "Damage:2": 0,
           "OreDict:8": "cellFormicAcid",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FormicAcid:cell"
         },
         "1:10": {
           "Count:3": 14,
-          "Damage:2": 1182,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SodiumSulfate:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

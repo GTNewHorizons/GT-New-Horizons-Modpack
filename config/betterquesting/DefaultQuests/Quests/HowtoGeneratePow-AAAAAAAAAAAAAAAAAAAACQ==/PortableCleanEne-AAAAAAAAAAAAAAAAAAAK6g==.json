@@ -70,9 +70,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 825,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:NaquadahEnriched:bolt"
         }
       }
     },

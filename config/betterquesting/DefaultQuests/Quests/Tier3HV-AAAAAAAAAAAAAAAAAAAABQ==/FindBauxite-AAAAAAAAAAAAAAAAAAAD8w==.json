@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 112,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Bauxite:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -110,21 +110,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 112,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Bauxite:rawOre"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 604,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Ilmenite:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Aluminium:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -140,21 +140,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 112,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Bauxite:ore_stone"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 604,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Ilmenite:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Aluminium:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

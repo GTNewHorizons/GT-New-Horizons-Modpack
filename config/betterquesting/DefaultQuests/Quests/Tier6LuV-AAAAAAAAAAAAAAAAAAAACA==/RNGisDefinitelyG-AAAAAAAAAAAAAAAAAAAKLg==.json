@@ -77,33 +77,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1207,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SteelMagnetic:dust"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 289,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:CubicZirconia:dust"
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 998,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Prasiolite:dust"
         },
         "3:10": {
           "Count:3": 8,
-          "Damage:2": 130,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:BismuthTelluride:dust"
         },
         "4:10": {
           "Count:3": 18,
-          "Damage:2": 744,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:MagnetoResonatic:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -119,27 +119,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 619,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:IndiumGalliumPhosphide:dust"
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 130,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:BismuthTelluride:dust"
         },
         "2:10": {
           "Count:3": 36,
-          "Damage:2": 321,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Dibismuthhydroborat:dust"
         },
         "3:10": {
           "Count:3": 72,
-          "Damage:2": 241,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:CircuitCompoundMK3:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

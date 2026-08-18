@@ -67,9 +67,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeLarge"
+          "id:8": "ml:TungstenSteel:pipeLarge"
         }
       },
       "ignoreDisabled:1": 0,
@@ -108,9 +108,9 @@
         },
         "1:10": {
           "Count:3": 30,
-          "Damage:2": 703,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:LiquidOxygen:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

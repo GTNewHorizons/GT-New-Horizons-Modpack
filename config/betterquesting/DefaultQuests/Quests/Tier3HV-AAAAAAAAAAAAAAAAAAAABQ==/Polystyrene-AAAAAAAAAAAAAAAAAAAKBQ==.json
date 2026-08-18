@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 974,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:plate"
+        "id:8": "ml:Polystyrene:plate"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1217,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Styrene:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -104,15 +104,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1217,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Styrene:cell"
         },
         "1:10": {
           "Count:3": 7,
-          "Damage:2": 911,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Oxygen:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 974,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Polystyrene:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

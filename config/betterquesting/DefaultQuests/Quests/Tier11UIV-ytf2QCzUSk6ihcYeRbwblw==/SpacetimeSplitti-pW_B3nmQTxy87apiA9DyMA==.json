@@ -85,9 +85,9 @@
         },
         "2:10": {
           "Count:3": 20,
-          "Damage:2": 1195,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:SpaceTime:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

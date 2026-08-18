@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 1405,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeSmall"
+          "id:8": "ml:Wood:pipeSmall"
         },
         "1:10": {
           "Count:3": 2,
@@ -158,9 +158,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 52,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:Iron:stick"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

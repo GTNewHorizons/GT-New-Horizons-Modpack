@@ -69,9 +69,9 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 1023,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gem"
+          "id:8": "ml:Quartzite:gem"
         }
       },
       "ignoreDisabled:1": 0,
@@ -110,9 +110,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 208,
+          "Damage:2": 0,
           "OreDict:8": "dustCertusQuartz",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:CertusQuartz:dust"
         },
         "2:10": {
           "Count:3": 16,

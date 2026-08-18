@@ -80,15 +80,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:itemCasing"
+          "id:8": "ml:Bronze:itemCasing"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Steel:plate"
         },
         "2:10": {
           "Count:3": 1,
@@ -133,15 +133,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:itemCasing"
+          "id:8": "ml:Bronze:itemCasing"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Steel:screw"
         },
         "2:10": {
           "Count:3": 2,

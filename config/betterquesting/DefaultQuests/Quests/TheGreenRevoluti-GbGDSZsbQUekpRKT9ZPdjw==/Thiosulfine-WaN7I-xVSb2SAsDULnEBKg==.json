@@ -70,9 +70,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1220,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Sulfur:ore_stone"
         }
       }
     }

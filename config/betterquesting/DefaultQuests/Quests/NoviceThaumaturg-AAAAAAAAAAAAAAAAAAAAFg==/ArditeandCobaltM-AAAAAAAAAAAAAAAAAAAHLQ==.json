@@ -124,9 +124,9 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 650,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:IronWood:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

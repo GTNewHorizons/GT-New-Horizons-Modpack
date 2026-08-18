@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1049,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:RedAlloy:ring"
         },
         "1:10": {
           "Count:3": 2,
@@ -79,9 +79,9 @@
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:StainlessSteel:screw"
         },
         "3:10": {
           "Count:3": 1,
@@ -144,15 +144,15 @@
         },
         "4:10": {
           "Count:3": 64,
-          "Damage:2": 369,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:Electrum:wireFine"
         },
         "5:10": {
           "Count:3": 64,
-          "Damage:2": 66,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:AnnealedCopper:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

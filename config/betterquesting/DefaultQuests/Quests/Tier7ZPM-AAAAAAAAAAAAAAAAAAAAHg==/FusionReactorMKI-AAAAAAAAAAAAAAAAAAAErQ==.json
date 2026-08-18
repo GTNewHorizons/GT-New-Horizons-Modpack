@@ -109,9 +109,9 @@
         },
         "5:10": {
           "Count:3": 64,
-          "Damage:2": 1247,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:SuperconductorZPM:wireGt01"
         }
       },
       "ignoreDisabled:1": 0,

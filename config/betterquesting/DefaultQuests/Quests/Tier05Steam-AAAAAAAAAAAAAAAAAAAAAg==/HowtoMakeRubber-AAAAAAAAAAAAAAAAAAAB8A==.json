@@ -121,21 +121,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
-          "Damage:2": 1220,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Sulfur:rawOre"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 1013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Pyrite:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 1197,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Sphalerite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -151,21 +151,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1220,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_netherrack"
+          "id:8": "ml:Sulfur:ore_netherrack"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_netherrack"
+          "id:8": "ml:Pyrite:ore_netherrack"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 1197,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_netherrack"
+          "id:8": "ml:Sphalerite:ore_netherrack"
         }
       },
       "taskID:8": "bq_standard:retrieval"

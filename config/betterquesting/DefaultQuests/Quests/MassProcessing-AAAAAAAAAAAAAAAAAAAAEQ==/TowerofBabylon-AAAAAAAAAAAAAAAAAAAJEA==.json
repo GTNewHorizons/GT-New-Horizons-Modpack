@@ -118,9 +118,9 @@
         },
         "2:10": {
           "Count:3": 179,
-          "Damage:2": 807,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:sheetmetal"
+          "id:8": "ml:Naquadah:sheetmetal"
         },
         "3:10": {
           "Count:3": 163,
@@ -130,9 +130,9 @@
         },
         "4:10": {
           "Count:3": 99,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:StainlessSteel:frameGt"
         },
         "5:10": {
           "Count:3": 80,

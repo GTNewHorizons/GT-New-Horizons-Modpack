@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1010,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plateDense"
+          "id:8": "ml:PulsatingIron:plateDense"
         },
         "1:10": {
           "Count:3": 2,
@@ -170,9 +170,9 @@
         },
         "4:10": {
           "Count:3": 2,
-          "Damage:2": 367,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gearGt"
+          "id:8": "ml:ElectricalSteel:gearGt"
         },
         "5:10": {
           "Count:3": 1,

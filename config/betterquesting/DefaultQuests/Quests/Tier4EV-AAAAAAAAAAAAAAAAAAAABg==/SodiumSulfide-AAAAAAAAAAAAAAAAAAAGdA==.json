@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 64,
-        "Damage:2": 1183,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:SodiumSulfide:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -65,9 +65,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 1100,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gemExquisite"
+          "id:8": "ml:Salt:gemExquisite"
         }
       }
     },
@@ -97,15 +97,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 1163,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Sodium:dust"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 1220,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Sulfur:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -121,9 +121,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 1183,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SodiumSulfide:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

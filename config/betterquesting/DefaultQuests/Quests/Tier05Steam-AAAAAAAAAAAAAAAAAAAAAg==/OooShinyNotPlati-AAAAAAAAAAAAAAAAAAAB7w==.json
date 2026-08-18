@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 319,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Diamond:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Bronze:plate"
         },
         "1:10": {
           "Count:3": 5,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Iron:plate"
         }
       },
       "ignoreDisabled:1": 0,
@@ -135,21 +135,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 532,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Graphite:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 319,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Diamond:rawOre"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 245,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Coal:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -165,21 +165,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 532,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Graphite:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 319,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Diamond:ore_stone"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 245,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Coal:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

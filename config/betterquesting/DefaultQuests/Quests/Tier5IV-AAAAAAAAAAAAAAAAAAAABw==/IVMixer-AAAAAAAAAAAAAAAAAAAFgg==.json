@@ -63,21 +63,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:TungstenSteel:ingot"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 862,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Niobium:ingot"
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 499,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Gallium:ingot"
         },
         "3:10": {
           "Count:3": 1,

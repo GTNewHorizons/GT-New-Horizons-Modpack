@@ -79,9 +79,9 @@
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 1049,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:RedAlloy:wireGt01"
         },
         "3:10": {
           "Count:3": 1,

@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 618,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:Indium:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -110,21 +110,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 1197,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushedPurified"
+          "id:8": "ml:Sphalerite:crushedPurified"
         },
         "1:10": {
           "Count:3": 27,
-          "Damage:2": 497,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushedPurified"
+          "id:8": "ml:Galena:crushedPurified"
         },
         "2:10": {
           "Count:3": 36,
-          "Damage:2": 1224,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SulfuricAcid:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -140,9 +140,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Aluminium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -158,9 +158,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 618,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Indium:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

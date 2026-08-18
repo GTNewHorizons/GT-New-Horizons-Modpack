@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 745,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:MagnetohydrodynamicallyConstrainedStarMatter:ingot"
       },
       "isMain:1": 1,
       "isSilent:1": 0,

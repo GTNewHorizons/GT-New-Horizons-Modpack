@@ -69,9 +69,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 55,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ammonia:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -94,9 +94,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 55,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ammonia:cell"
         },
         "1:10": {
           "Count:3": 1,

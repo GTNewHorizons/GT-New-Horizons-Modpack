@@ -104,15 +104,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 132,
-          "Damage:2": 959,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Plutonium241:ingot"
         },
         "1:10": {
           "Count:3": 264,
-          "Damage:2": 597,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Hydrogen:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 132,
-          "Damage:2": 53,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Americium:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

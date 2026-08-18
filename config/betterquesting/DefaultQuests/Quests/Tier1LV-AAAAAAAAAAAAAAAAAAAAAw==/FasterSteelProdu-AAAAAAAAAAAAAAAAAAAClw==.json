@@ -73,9 +73,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 911,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Oxygen:cell"
         },
         "2:10": {
           "Count:3": 1,
@@ -138,9 +138,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 194,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:CastIron:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -156,9 +156,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Steel:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

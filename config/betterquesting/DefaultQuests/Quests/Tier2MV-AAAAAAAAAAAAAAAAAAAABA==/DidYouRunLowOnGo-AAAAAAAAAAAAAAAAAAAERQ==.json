@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt01"
+          "id:8": "ml:Copper:cableGt01"
         },
         "1:10": {
           "Count:3": 1,
@@ -140,9 +140,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 519,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Gold:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1362,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Uranium:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -108,15 +108,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1361,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Uraninite:ore_stone"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 1362,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Uranium:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -132,15 +132,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1361,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Uraninite:rawOre"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 1362,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Uranium:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -156,15 +156,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 192,
-          "Damage:2": 1361,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Uraninite:crushed"
         },
         "1:10": {
           "Count:3": 144,
-          "Damage:2": 1362,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Uranium:crushed"
         }
       },
       "taskID:8": "bq_standard:retrieval"

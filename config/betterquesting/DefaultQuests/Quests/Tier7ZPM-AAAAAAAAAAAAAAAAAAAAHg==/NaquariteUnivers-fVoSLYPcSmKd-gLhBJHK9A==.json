@@ -61,9 +61,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 851,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:foil"
+          "id:8": "ml:Netherite:foil"
         },
         "1:10": {
           "Count:3": 1,
@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 851,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:foil"
+          "id:8": "ml:Netherite:foil"
         },
         "1:10": {
           "Count:3": 16,
@@ -122,9 +122,9 @@
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 750,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Manyullyn:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 870,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:NitricAcid:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -64,9 +64,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 55,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ammonia:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -95,15 +95,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 870,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:NitricAcid:cell"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 1224,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SulfuricAcid:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -151,33 +151,33 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 569,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:HeeEndium:ring"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 569,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:HeeEndium:plate"
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 569,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:HeeEndium:screw"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 569,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:HeeEndium:bolt"
         },
         "5:10": {
           "Count:3": 1,
-          "Damage:2": 1049,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:RedAlloy:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

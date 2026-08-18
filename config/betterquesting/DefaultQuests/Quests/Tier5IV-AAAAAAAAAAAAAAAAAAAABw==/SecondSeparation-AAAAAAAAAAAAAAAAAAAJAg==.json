@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1181,
+        "Damage:2": 0,
         "OreDict:8": "dustSodiumRuthenate",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:SodiumRuthenate:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -62,9 +62,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 100,
-          "Damage:2": 1102,
+          "Damage:2": 0,
           "OreDict:8": "dustSaltpeter",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Saltpeter:dust"
         },
         "1:10": {
           "Count:3": 1,
@@ -90,21 +90,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 40,
-          "Damage:2": 688,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:LeachResidue:dust"
         },
         "1:10": {
           "Count:3": 40,
-          "Damage:2": 1102,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Saltpeter:dust"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 1101,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SaltWater:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -120,15 +120,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 1038,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RarestMetalResidue:dust"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 1181,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SodiumRuthenate:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

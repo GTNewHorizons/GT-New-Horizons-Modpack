@@ -80,9 +80,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 948,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Pitchblende:ore_stone"
         },
         "1:10": {
           "Count:3": 2,

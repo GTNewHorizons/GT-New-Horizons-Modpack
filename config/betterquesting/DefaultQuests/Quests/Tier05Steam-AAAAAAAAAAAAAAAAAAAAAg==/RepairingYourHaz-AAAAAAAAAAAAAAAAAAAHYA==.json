@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 298,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:DamascusSteel:ingot"
         },
         "1:10": {
           "Count:3": 1,
@@ -85,9 +85,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1088,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Rubber:plate"
         },
         "1:10": {
           "Count:3": 2,
@@ -129,9 +129,9 @@
         },
         "1:10": {
           "Count:3": 21,
-          "Damage:2": 1088,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Rubber:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

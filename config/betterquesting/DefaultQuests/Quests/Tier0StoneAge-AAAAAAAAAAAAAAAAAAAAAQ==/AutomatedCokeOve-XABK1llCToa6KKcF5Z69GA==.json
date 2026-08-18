@@ -120,9 +120,9 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeMedium"
+          "id:8": "ml:Bronze:pipeMedium"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

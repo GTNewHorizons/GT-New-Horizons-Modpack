@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1119,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:gem"
+        "id:8": "ml:Sapphire:gem"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -72,9 +72,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1119,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Sapphire:ore_stone"
         }
       }
     }

@@ -120,9 +120,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 1227,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SulfuricLightFuel:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

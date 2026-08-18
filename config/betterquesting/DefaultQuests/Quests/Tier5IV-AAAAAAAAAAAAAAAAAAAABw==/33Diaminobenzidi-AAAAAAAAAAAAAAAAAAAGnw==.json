@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 7,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:3,3Diaminobenzidine:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -104,21 +104,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
-          "Damage:2": 8,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:3,3Dichlorobenzidine:cell"
         },
         "1:10": {
           "Count:3": 36,
-          "Damage:2": 55,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ammonia:cell"
         },
         "2:10": {
           "Count:3": 18,
-          "Damage:2": 1431,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Zinc:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -134,9 +134,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
-          "Damage:2": 7,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:3,3Diaminobenzidine:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

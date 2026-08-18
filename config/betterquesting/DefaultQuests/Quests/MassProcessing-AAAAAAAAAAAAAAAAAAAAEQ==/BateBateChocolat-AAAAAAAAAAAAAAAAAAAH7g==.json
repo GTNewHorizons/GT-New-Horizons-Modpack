@@ -125,9 +125,9 @@
         },
         "2:10": {
           "Count:3": 24,
-          "Damage:2": 1344,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:sheetmetal"
+          "id:8": "ml:Tungsten:sheetmetal"
         },
         "3:10": {
           "Count:3": 10,

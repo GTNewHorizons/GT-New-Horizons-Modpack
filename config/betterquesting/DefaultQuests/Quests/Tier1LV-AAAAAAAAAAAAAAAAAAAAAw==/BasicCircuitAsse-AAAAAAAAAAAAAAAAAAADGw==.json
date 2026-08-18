@@ -71,15 +71,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 369,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Electrum:ingot"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 66,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:AnnealedCopper:ingot"
         },
         "2:10": {
           "Count:3": 1,

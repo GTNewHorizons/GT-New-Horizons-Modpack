@@ -110,21 +110,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1056,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Redstone:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1092,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Ruby:rawOre"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 239,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Cinnabar:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -140,21 +140,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1056,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Redstone:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1092,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Ruby:ore_stone"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 239,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Cinnabar:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

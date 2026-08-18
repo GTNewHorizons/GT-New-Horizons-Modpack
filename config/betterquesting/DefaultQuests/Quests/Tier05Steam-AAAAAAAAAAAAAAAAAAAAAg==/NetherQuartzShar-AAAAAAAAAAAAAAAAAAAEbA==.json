@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 1220,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Sulfur:dust"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Steel:ingot"
         },
         "2:10": {
           "Count:3": 1,

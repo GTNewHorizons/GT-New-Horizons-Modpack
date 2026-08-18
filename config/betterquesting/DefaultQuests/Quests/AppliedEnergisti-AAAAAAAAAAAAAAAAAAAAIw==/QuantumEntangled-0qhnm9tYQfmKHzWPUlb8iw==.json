@@ -108,9 +108,9 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 378,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:EnderPearl:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

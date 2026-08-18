@@ -68,9 +68,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 951,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:foil"
+          "id:8": "ml:Platinum:foil"
         },
         "1:10": {
           "Count:3": 4,
@@ -127,9 +127,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 915,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:foil"
+          "id:8": "ml:Palladium:foil"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -151,9 +151,9 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 951,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:foil"
+          "id:8": "ml:Platinum:foil"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

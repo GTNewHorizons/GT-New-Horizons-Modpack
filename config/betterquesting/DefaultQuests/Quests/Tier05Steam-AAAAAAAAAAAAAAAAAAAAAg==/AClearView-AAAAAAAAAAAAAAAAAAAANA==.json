@@ -123,15 +123,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 1022,
+          "Damage:2": 0,
           "OreDict:8": "dustQuartzSand",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:QuartzSand:dust"
         },
         "1:10": {
           "Count:3": 6,
-          "Damage:2": 458,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dustTiny"
+          "id:8": "ml:Flint:dustTiny"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -147,9 +147,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 512,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Glass:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 410,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cellMolten"
+        "id:8": "ml:EthylCyanoacrylateSuperGlue:cellMolten"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -112,9 +112,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 410,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:EthylCyanoacrylateSuperGlue:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"

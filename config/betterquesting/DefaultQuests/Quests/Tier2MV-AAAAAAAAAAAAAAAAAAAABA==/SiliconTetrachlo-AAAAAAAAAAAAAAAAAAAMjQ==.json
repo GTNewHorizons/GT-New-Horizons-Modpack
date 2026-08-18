@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1150,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:SiliconTetrachloride:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -96,15 +96,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 1150,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SiliconTetrachloride:cell"
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 1163,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Sodium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -120,15 +120,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 1149,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SiliconSolarGrade:dust"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 1100,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Salt:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

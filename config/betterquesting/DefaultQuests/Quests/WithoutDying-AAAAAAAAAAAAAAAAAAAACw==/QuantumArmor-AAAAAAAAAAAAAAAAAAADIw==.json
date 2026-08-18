@@ -141,9 +141,9 @@
         },
         "2:10": {
           "Count:3": 14,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt04"
+          "id:8": "ml:TungstenSteel:wireGt04"
         },
         "3:10": {
           "Count:3": 3,
@@ -177,9 +177,9 @@
         },
         "8:10": {
           "Count:3": 12,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:TungstenSteel:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

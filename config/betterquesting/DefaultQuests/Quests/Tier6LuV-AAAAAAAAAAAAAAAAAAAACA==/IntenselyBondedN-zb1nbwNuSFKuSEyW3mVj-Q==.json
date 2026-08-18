@@ -129,9 +129,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 573,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:HellishMetal:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -159,9 +159,9 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 573,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:HellishMetal:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

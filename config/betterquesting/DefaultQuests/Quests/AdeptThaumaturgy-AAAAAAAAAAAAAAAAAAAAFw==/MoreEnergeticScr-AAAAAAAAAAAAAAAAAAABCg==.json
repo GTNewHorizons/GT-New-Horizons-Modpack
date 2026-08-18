@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 382,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:screw"
+        "id:8": "ml:EnergeticAlloy:screw"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -72,9 +72,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 382,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:EnergeticAlloy:screw"
         }
       }
     },
@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 382,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:EnergeticAlloy:screw"
         }
       },
       "taskID:8": "bq_standard:retrieval"

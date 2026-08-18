@@ -98,27 +98,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1207,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:SteelMagnetic:stick"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:Aluminium:stick"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 291,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt02"
+          "id:8": "ml:Cupronickel:wireGt02"
         },
         "3:10": {
           "Count:3": 8,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt01"
+          "id:8": "ml:Copper:cableGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

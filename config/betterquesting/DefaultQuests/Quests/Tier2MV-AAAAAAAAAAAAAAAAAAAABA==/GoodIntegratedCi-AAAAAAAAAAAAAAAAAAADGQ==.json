@@ -140,15 +140,15 @@
         },
         "4:10": {
           "Count:3": 32,
-          "Damage:2": 519,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:Gold:wireFine"
         },
         "5:10": {
           "Count:3": 32,
-          "Damage:2": 1154,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:Silver:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

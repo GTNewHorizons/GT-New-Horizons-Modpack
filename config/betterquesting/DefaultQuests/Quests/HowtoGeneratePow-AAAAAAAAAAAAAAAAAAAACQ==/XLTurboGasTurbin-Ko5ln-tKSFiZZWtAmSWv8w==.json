@@ -26,9 +26,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1356,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:turbineBlade"
+        "id:8": "ml:Universium:turbineBlade"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -104,9 +104,9 @@
         },
         "2:10": {
           "Count:3": 80,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:StainlessSteel:frameGt"
         },
         "3:10": {
           "Count:3": 76,

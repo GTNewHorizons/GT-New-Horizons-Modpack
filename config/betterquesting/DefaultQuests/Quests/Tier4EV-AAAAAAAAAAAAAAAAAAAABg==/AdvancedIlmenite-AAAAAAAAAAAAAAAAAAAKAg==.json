@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 604,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:crushed"
+        "id:8": "ml:Ilmenite:crushed"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -64,9 +64,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 604,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Ilmenite:crushed"
         }
       }
     }
@@ -83,15 +83,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 604,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Ilmenite:crushed"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1224,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SulfuricAcid:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -107,15 +107,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1099,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Rutile:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 605,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:IlmeniteSlag:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -131,33 +131,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Iron:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 862,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Niobium:dust"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1257,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Tantalum:dust"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 749,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Manganese:dust"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 740,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Magnesium:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

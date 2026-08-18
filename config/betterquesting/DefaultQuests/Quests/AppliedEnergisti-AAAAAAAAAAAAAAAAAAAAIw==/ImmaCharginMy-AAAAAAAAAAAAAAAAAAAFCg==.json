@@ -67,15 +67,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 208,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_netherrack"
+          "id:8": "ml:CertusQuartz:ore_netherrack"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 1056,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Redstone:ore_stone"
         }
       },
       "ignoreDisabled:1": 0,
@@ -114,9 +114,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 208,
+          "Damage:2": 0,
           "OreDict:8": "dustCertusQuartz",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:CertusQuartz:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

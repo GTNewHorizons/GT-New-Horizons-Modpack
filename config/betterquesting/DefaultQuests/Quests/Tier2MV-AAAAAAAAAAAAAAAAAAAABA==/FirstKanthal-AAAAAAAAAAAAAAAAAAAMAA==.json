@@ -29,9 +29,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 658,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:Kanthal:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -71,9 +71,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 658,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Kanthal:dust"
         },
         "1:10": {
           "Count:3": 4,
@@ -124,9 +124,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 658,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Kanthal:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

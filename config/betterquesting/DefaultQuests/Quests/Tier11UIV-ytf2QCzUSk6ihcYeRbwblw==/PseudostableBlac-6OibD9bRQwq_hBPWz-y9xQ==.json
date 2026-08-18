@@ -114,9 +114,9 @@
         },
         "3:10": {
           "Count:3": 144,
-          "Damage:2": 810,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:NaquadahAlloy:frameGt"
         },
         "4:10": {
           "Count:3": 1,

@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 247,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:Cobalt:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -66,15 +66,15 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Steel:ingot"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Bronze:ingot"
         },
         "2:10": {
           "Count:3": 1,
@@ -116,15 +116,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 255,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Cobaltite:dust"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 911,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Oxygen:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -140,21 +140,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 1078,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RoastedCobalt:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1077,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RoastedArsenic:dust"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 189,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Carbon:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -170,15 +170,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 247,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Cobalt:ingot"
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 89,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Arsenic:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

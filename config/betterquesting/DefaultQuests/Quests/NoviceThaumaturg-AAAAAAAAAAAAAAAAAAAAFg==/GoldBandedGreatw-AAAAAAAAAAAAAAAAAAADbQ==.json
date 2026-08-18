@@ -127,9 +127,9 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:StainlessSteel:screw"
         },
         "4:10": {
           "Count:3": 3,

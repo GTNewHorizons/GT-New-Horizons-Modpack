@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1073,
+        "Damage:2": 0,
         "OreDict:8": "cellRhodiumSulfate",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:RhodiumSulfate:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -90,15 +90,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 31,
-          "Damage:2": 955,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:PlatinumResidue:dust"
         },
         "1:10": {
           "Count:3": 78,
-          "Damage:2": 985,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:PotassiumDisulfate:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -114,15 +114,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 31,
-          "Damage:2": 688,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:LeachResidue:dust"
         },
         "1:10": {
           "Count:3": 11,
-          "Damage:2": 1073,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:RhodiumSulfate:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

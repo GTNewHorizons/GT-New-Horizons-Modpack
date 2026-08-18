@@ -87,9 +87,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Titanium:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

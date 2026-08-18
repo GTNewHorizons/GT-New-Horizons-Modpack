@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 642,
+        "Damage:2": 0,
         "OreDict:8": "dustIridiumChloride",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:IridiumChloride:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -84,15 +84,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 18,
+          "Damage:2": 0,
           "OreDict:8": "cellAcidicIridiumSolution",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:AcidicIridiumSolution:cell"
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 58,
+          "Damage:2": 0,
           "OreDict:8": "cellAmmoniumChloride",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:AmmoniumChloride:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -108,15 +108,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 642,
+          "Damage:2": 0,
           "OreDict:8": "dustIridiumChloride",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:IridiumChloride:dust"
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 55,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ammonia:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

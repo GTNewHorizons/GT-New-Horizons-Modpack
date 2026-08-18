@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 411,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:EthylTertButylEther:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -95,9 +95,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 30,
-          "Damage:2": 411,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:EthylTertButylEther:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

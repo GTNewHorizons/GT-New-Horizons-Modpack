@@ -69,9 +69,9 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stickLong"
+          "id:8": "ml:Iron:stickLong"
         },
         "2:10": {
           "Count:3": 1,

@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 915,
+        "Damage:2": 0,
         "OreDict:8": "dustPalladium",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:Palladium:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -87,15 +87,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 916,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:PalladiumEnrichedAmmonia:cell"
         },
         "1:10": {
           "Count:3": 9,
-          "Damage:2": 917,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:PalladiumMetallicPowder:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -111,15 +111,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 144,
-          "Damage:2": 918,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dustTiny"
+          "id:8": "ml:PalladiumSalt:dustTiny"
         },
         "1:10": {
           "Count:3": 18,
-          "Damage:2": 1061,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dustTiny"
+          "id:8": "ml:ReprecipitatedPalladium:dustTiny"
         }
       },
       "taskID:8": "bq_standard:retrieval"

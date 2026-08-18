@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1034,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:RareEarthI:dust"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -68,15 +68,15 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 1033,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RareEarth:dust"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 1034,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RareEarthI:dust"
         }
       },
       "ignoreDisabled:1": 0,
@@ -121,57 +121,57 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 538,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Greenockite:dust"
         },
         "1:10": {
           "Count:3": 11,
-          "Damage:2": 673,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:LanthaniteCe:dust"
         },
         "2:10": {
           "Count:3": 45,
-          "Damage:2": 32,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:AgarditeCd:dust"
         },
         "3:10": {
           "Count:3": 13,
-          "Damage:2": 1422,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Yttrialite:dust"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 849,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:NetherQuartz:dust"
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 497,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Galena:dust"
         },
         "6:10": {
           "Count:3": 4,
-          "Damage:2": 210,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Chalcopyrite:dust"
         },
         "7:10": {
           "Count:3": 10,
-          "Damage:2": 283,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:CryoliteF:dust"
         },
         "8:10": {
           "Count:3": 1,
-          "Damage:2": 1423,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Yttrium:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

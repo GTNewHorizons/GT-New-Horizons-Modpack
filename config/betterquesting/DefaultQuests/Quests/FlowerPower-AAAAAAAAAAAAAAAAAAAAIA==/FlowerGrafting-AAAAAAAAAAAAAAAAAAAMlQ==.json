@@ -83,15 +83,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "plateSteel",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Steel:plate"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Steel:screw"
         },
         "2:10": {
           "Count:3": 1,
@@ -107,9 +107,9 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 1154,
+          "Damage:2": 0,
           "OreDict:8": "blockSilver",
-          "id:8": "materiallib:block"
+          "id:8": "ml:Silver:block"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

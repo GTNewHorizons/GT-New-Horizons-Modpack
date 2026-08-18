@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 631,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:InfusedFire:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -104,51 +104,51 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 636,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:InfusedWater:rawOre"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 631,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:InfusedFire:rawOre"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 627,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:InfusedAir:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 629,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:InfusedEarth:rawOre"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 633,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:InfusedOrder:rawOre"
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 630,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:InfusedEntropy:rawOre"
         },
         "6:10": {
           "Count:3": 16,
-          "Damage:2": 52,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Amber:rawOre"
         },
         "7:10": {
           "Count:3": 16,
-          "Damage:2": 239,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Cinnabar:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -164,51 +164,51 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 636,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:InfusedWater:ore_stone"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 631,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:InfusedFire:ore_stone"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 627,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:InfusedAir:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 629,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:InfusedEarth:ore_stone"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 633,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:InfusedOrder:ore_stone"
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 630,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:InfusedEntropy:ore_stone"
         },
         "6:10": {
           "Count:3": 16,
-          "Damage:2": 52,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Amber:ore_stone"
         },
         "7:10": {
           "Count:3": 16,
-          "Damage:2": 239,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Cinnabar:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

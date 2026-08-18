@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 797,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:MuddySamariumRareEarthSolution:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -83,9 +83,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 797,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:MuddySamariumRareEarthSolution:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -101,9 +101,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1115,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SamariumRareEarthMud:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -119,9 +119,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 332,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:DilutedSamariumRareEarthSolution:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

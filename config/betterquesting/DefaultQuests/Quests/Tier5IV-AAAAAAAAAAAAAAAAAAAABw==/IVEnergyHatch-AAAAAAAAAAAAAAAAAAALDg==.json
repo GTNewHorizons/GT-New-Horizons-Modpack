@@ -75,15 +75,15 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 618,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Indium:dust"
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 641,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Iridium:ingot"
         }
       },
       "ignoreDisabled:1": 0,
@@ -97,33 +97,33 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1100,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Salt:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1100,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gemExquisite"
+          "id:8": "ml:Salt:gemExquisite"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 1085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RockSalt:dust"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 1085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gemExquisite"
+          "id:8": "ml:RockSalt:gemExquisite"
         },
         "4:10": {
           "Count:3": 64,
-          "Damage:2": 1101,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SaltWater:cell"
         },
         "5:10": {
           "Count:3": 16,

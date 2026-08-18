@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 331,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:DilutedMonaziteSulfate:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -83,9 +83,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 791,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:MonaziteSulfate:dust"
         },
         "1:10": {
           "Count:3": 6,
@@ -107,9 +107,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 7,
-          "Damage:2": 331,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:DilutedMonaziteSulfate:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

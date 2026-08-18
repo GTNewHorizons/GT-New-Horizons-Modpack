@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 648,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:IronIIIChloride:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -116,15 +116,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
-          "Damage:2": 597,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Hydrogen:cell"
         },
         "1:10": {
           "Count:3": 18,
-          "Damage:2": 221,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Chlorine:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -140,15 +140,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Iron:dust"
         },
         "1:10": {
           "Count:3": 18,
-          "Damage:2": 595,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:HydrochloricAcid_GT5U:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -164,9 +164,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 648,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:IronIIIChloride:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

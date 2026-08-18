@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Aluminium:ingot"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 769,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:MeteoricIron:ingot"
         },
         "2:10": {
           "Count:3": 1,
@@ -122,9 +122,9 @@
         },
         "1:10": {
           "Count:3": 192,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:foil"
+          "id:8": "ml:Aluminium:foil"
         },
         "2:10": {
           "Count:3": 216,

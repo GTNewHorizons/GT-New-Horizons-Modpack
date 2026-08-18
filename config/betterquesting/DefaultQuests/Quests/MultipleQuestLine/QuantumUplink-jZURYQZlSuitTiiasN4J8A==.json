@@ -99,15 +99,15 @@
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 810,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:NaquadahAlloy:frameGt"
         },
         "3:10": {
           "Count:3": 20,
-          "Damage:2": 1333,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Trinium:frameGt"
         },
         "4:10": {
           "Count:3": 2,

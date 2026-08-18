@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1088,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:Rubber:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -117,15 +117,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 120,
-          "Damage:2": 1043,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RawRubber:dust"
         },
         "1:10": {
           "Count:3": 40,
-          "Damage:2": 1220,
+          "Damage:2": 0,
           "OreDict:8": "dustSulfur",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Sulfur:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -141,9 +141,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 40,
-          "Damage:2": 1088,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Rubber:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

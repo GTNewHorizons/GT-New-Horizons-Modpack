@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 117,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:Benzene:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,

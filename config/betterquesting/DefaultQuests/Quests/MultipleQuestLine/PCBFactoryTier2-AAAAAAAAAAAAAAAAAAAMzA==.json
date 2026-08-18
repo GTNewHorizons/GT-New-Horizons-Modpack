@@ -97,9 +97,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 34,
-          "Damage:2": 360,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Duranium:frameGt"
         },
         "1:10": {
           "Count:3": 158,

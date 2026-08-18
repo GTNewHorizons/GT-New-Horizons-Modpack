@@ -121,27 +121,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:Copper:wireGt01"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1049,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:RedAlloy:bolt"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:Steel:stick"
         },
         "3:10": {
           "Count:3": 4,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:Copper:wireFine"
         },
         "4:10": {
           "Count:3": 2,

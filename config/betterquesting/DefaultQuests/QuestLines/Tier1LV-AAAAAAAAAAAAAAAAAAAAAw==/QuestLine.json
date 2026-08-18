@@ -6,9 +6,9 @@
       "desc:8": "The first \"voltage\" tier of this pack. Things should be a little easier with some of the machines you can now make, and almost every type of machine is now available, try not to be overwhelmed. You can get away with using LV machines for automating processing of things like polyethylene or electrolyzing water the whole game, so consider setting that up when you need it.",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 45,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:plate"
+        "id:8": "ml:Aluminium:plate"
       },
       "name:8": "Tier 1 - LV",
       "visibility:8": "UNLOCKED"

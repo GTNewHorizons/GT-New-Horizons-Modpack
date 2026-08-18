@@ -72,9 +72,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 858,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Nickel:ore_stone"
         }
       }
     },
@@ -128,9 +128,9 @@
         },
         "1:10": {
           "Count:3": 20,
-          "Damage:2": 1053,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:RedSteel:frameGt"
         },
         "2:10": {
           "Count:3": 16,

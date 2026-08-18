@@ -81,15 +81,15 @@
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 1424,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt04"
+          "id:8": "ml:YttriumBariumCuprate:wireGt04"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 274,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:CosmicNeutronium:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

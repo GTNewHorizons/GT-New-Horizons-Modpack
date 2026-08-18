@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 201,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:gem"
+        "id:8": "ml:Cerium-dopedLutetiumAluminiumGarnet(CeLuAG):gem"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -69,15 +69,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Cerium-dopedLutetiumAluminiumOxygenBlend:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 201,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gem"
+          "id:8": "ml:Cerium-dopedLutetiumAluminiumGarnet(CeLuAG):gem"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -93,15 +93,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Cerium-dopedLutetiumAluminiumOxygenBlend:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 201,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gemExquisite"
+          "id:8": "ml:Cerium-dopedLutetiumAluminiumGarnet(CeLuAG):gemExquisite"
         }
       },
       "taskID:8": "bq_standard:retrieval"

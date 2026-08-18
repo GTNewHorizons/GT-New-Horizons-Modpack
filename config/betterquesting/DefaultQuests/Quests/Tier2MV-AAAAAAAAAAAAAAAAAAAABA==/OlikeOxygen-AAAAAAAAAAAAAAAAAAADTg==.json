@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 911,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:Oxygen:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 169,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:BrownLimonite:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1416,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:YellowLimonite:dust"
         },
         "2:10": {
           "Count:3": 16,
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 911,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Oxygen:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

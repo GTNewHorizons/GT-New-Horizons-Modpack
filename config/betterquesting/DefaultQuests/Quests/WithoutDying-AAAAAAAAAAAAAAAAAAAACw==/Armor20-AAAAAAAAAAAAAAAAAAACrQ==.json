@@ -160,9 +160,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "plateIron",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Iron:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

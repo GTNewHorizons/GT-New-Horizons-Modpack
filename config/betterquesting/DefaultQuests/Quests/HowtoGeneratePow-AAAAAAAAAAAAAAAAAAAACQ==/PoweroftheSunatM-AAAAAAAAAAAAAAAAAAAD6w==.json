@@ -114,9 +114,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 770,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:MeteoricSteel:plate"
         },
         "1:10": {
           "Count:3": 2,
@@ -156,9 +156,9 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 397,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Epoxid:plate"
         },
         "4:10": {
           "Count:3": 2,
@@ -174,9 +174,9 @@
         },
         "6:10": {
           "Count:3": 4,
-          "Damage:2": 1236,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:SuperconductorHV:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

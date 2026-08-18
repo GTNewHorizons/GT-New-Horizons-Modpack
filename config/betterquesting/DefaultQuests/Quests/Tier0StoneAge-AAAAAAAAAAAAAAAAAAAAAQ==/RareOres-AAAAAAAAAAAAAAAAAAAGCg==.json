@@ -63,27 +63,27 @@
       "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Copper:ore_stone"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1023,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Quartzite:ore_stone"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 245,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Coal:ore_stone"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 1315,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Tin:ore_stone"
         }
       },
       "ignoreDisabled:1": 0,

@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 852,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:milled"
+        "id:8": "ml:Netherrack:milled"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -184,9 +184,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 256,
-          "Damage:2": 852,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:milled"
+          "id:8": "ml:Netherrack:milled"
         }
       },
       "taskID:8": "bq_standard:retrieval"

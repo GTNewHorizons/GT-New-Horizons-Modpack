@@ -115,9 +115,9 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 736,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Magmatter:frameGt"
         },
         "5:10": {
           "Count:3": 1,
@@ -127,9 +127,9 @@
         },
         "6:10": {
           "Count:3": 1,
-          "Damage:2": 1402,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:WhiteDwarfMatter:frameGt"
         },
         "7:10": {
           "Count:3": 1,
@@ -139,9 +139,9 @@
         },
         "8:10": {
           "Count:3": 1,
-          "Damage:2": 137,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:BlackDwarfMatter:frameGt"
         },
         "9:10": {
           "Count:3": 1,

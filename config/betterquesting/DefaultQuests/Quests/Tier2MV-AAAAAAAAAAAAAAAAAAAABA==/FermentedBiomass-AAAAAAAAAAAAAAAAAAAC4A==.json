@@ -26,9 +26,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 431,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:FermentedBiomass:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -68,9 +68,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt01"
+          "id:8": "ml:Copper:cableGt01"
         },
         "1:10": {
           "Count:3": 1,
@@ -80,9 +80,9 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeMedium"
+          "id:8": "ml:Steel:pipeMedium"
         },
         "3:10": {
           "Count:3": 1,
@@ -145,9 +145,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 431,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FermentedBiomass:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

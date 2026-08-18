@@ -159,9 +159,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 28,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "plateIron",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Iron:plate"
         },
         "1:10": {
           "Count:3": 4,
@@ -201,27 +201,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 72,
-          "Damage:2": 180,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Calcite:dust"
         },
         "1:10": {
           "Count:3": 144,
-          "Damage:2": 243,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Clay:dust"
         },
         "2:10": {
           "Count:3": 36,
-          "Damage:2": 1213,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Stone:dust"
         },
         "3:10": {
           "Count:3": 36,
-          "Damage:2": 1022,
+          "Damage:2": 0,
           "OreDict:8": "dustQuartzSand",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:QuartzSand:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -273,15 +273,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 108,
-          "Damage:2": 163,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Brick:dust"
         },
         "1:10": {
           "Count:3": 108,
-          "Damage:2": 243,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Clay:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -333,9 +333,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 72,
-          "Damage:2": 545,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Gypsum:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

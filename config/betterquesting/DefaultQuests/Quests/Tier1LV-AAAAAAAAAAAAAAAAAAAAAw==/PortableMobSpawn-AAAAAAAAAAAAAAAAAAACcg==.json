@@ -122,21 +122,21 @@
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 319,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:Diamond:stick"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 950,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:round"
+          "id:8": "ml:Plastic:round"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 850,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:NetherStar:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

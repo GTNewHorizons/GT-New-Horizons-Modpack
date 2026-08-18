@@ -73,9 +73,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 769,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:MeteoricIron:plate"
         },
         "2:10": {
           "Count:3": 32,
@@ -132,15 +132,15 @@
         },
         "1:10": {
           "Count:3": 22,
-          "Damage:2": 769,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:MeteoricIron:plate"
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:TungstenSteel:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

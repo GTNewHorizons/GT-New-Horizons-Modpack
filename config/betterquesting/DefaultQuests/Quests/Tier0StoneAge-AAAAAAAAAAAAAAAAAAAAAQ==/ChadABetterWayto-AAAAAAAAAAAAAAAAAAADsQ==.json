@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 919,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:Paper:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 298,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:DamascusSteel:ingot"
         },
         "1:10": {
           "Count:3": 64,
@@ -152,9 +152,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 30,
-          "Damage:2": 919,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Paper:dust"
         }
       },
       "taskID:8": "bq_standard:crafting"

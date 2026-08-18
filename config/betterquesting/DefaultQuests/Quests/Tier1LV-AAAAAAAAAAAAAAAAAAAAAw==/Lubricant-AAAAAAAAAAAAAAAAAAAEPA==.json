@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 721,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:Lubricant:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1127,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SeedOil:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -108,9 +108,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 721,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Lubricant:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

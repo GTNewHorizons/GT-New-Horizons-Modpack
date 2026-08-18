@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 148,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:BlueSteel:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 950,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Plastic:plate"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Titanium:ingot"
         },
         "2:10": {
           "Count:3": 1,
@@ -110,27 +110,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Steel:dust"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 140,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:BlackSteel:dust"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Brass:dust"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 1087,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RoseGold:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 148,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:BlueSteel:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

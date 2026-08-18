@@ -104,15 +104,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "ringIron",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:Iron:ring"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "screwIron",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Iron:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 884,
+          "Damage:2": 0,
           "OreDict:8": "dustObsidian",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Obsidian:dust"
         },
         "1:10": {
           "Count:3": 1,

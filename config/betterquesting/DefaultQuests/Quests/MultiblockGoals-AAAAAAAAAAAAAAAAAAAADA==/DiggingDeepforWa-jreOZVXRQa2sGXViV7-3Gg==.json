@@ -68,9 +68,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeMedium"
+          "id:8": "ml:Bronze:pipeMedium"
         },
         "1:10": {
           "Count:3": 3,
@@ -112,9 +112,9 @@
         },
         "1:10": {
           "Count:3": 15,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Bronze:frameGt"
         },
         "2:10": {
           "Count:3": 1,

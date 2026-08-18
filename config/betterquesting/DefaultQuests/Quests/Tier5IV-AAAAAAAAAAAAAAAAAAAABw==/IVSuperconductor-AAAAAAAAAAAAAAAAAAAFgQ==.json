@@ -37,9 +37,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1237,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:wireGt01"
+        "id:8": "ml:SuperconductorIV:wireGt01"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -126,15 +126,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 1377,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Vanadium:dust"
         },
         "1:10": {
           "Count:3": 9,
-          "Damage:2": 618,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Indium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -150,9 +150,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 1382,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Vanadiumtriindinid:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -168,9 +168,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 1382,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Vanadiumtriindinid:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -186,9 +186,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 1382,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:Vanadiumtriindinid:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -204,15 +204,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 1382,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:Vanadiumtriindinid:wireGt01"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 865,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeTiny"
+          "id:8": "ml:NiobiumTitanium:pipeTiny"
         },
         "2:10": {
           "Count:3": 2,
@@ -222,9 +222,9 @@
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 570,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Helium:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -240,9 +240,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 1237,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:SuperconductorIV:wireGt01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

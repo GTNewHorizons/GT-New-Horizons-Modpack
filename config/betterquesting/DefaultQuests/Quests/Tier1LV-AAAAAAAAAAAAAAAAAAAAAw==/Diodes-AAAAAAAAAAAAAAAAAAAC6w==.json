@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 950,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Plastic:dust"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 1144,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Silicon:dust"
         },
         "2:10": {
           "Count:3": 1,
@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:Copper:wireFine"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 500,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dustSmall"
+          "id:8": "ml:GalliumArsenide:dustSmall"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

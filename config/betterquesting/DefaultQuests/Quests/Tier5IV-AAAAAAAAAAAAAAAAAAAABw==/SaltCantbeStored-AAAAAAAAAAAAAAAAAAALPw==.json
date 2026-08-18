@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1072,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:RhodiumSaltSolution:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -84,9 +84,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 1071,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RhodiumSalt:dust"
         },
         "1:10": {
           "Count:3": 1,
@@ -108,9 +108,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1072,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:RhodiumSaltSolution:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

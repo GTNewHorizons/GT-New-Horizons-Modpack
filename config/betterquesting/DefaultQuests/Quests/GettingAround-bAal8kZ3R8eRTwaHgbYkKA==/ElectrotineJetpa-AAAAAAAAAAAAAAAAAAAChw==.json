@@ -136,15 +136,15 @@
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 519,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt04"
+          "id:8": "ml:Gold:wireGt04"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 515,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Glowstone:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

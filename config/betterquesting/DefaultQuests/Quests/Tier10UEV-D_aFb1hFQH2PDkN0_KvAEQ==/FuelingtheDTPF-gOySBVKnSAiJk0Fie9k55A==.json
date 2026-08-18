@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 423,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:ExcitedDTEC:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -69,27 +69,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 335,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:DimensionallyTranscendentCrudeCatalyst:cell"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 337,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:DimensionallyTranscendentProsaicCatalyst:cell"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 339,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:DimensionallyTranscendentResplendentCatalyst:cell"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 336,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:DimensionallyTranscendentExoticCatalyst:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -105,27 +105,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 422,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:ExcitedDTCC:cell"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 424,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:ExcitedDTPC:cell"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 425,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:ExcitedDTRC:cell"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 423,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:ExcitedDTEC:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

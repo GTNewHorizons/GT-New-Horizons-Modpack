@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1470,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:prismaticnaquadahcompositeslurry:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -83,9 +83,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1469,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:prismaticnaquadah:cellMolten"
         },
         "1:10": {
           "Count:3": 4,
@@ -95,9 +95,9 @@
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 776,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Mica:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -113,9 +113,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1469,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:prismaticnaquadah:cellMolten"
         },
         "1:10": {
           "Count:3": 4,
@@ -125,9 +125,9 @@
         },
         "2:10": {
           "Count:3": 24,
-          "Damage:2": 1040,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RawFluorophlogopite:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -143,9 +143,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1470,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:prismaticnaquadahcompositeslurry:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

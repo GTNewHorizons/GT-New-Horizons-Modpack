@@ -116,9 +116,9 @@
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 1028,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Radon:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

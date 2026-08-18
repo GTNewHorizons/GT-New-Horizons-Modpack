@@ -73,27 +73,27 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Titanium:dust"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 611,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Incoloy020:dust"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 613,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:IncoloyMA956:dust"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 614,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Inconel625:dust"
         }
       },
       "ignoreDisabled:1": 0,

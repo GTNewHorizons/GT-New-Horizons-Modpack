@@ -63,21 +63,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:itemPipeLarge"
+          "id:8": "ml:Brass:itemPipeLarge"
         },
         "1:10": {
           "Count:3": 5,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt01"
+          "id:8": "ml:Copper:cableGt01"
         },
         "2:10": {
           "Count:3": 5,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Steel:plate"
         },
         "3:10": {
           "Count:3": 1,

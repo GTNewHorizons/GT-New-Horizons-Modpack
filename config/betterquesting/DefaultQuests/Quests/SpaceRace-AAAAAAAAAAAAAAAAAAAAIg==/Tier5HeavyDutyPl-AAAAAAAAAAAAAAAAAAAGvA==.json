@@ -146,9 +146,9 @@
         },
         "2:10": {
           "Count:3": 488,
-          "Damage:2": 415,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:Europium:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

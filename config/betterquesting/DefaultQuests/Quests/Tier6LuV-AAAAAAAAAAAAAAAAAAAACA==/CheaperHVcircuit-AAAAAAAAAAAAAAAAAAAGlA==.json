@@ -127,15 +127,15 @@
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 369,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt04"
+          "id:8": "ml:Electrum:wireGt04"
         },
         "3:10": {
           "Count:3": 256,
-          "Damage:2": 951,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:Platinum:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

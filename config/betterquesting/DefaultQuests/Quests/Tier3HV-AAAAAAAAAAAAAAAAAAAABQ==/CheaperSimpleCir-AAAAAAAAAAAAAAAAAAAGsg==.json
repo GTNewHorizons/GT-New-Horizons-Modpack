@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 52,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:lens"
+          "id:8": "ml:Amber:lens"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 627,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:lens"
+          "id:8": "ml:InfusedAir:lens"
         },
         "2:10": {
           "Count:3": 1,
@@ -122,15 +122,15 @@
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 1049,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:RedAlloy:bolt"
         },
         "3:10": {
           "Count:3": 6,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:Copper:wireFine"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

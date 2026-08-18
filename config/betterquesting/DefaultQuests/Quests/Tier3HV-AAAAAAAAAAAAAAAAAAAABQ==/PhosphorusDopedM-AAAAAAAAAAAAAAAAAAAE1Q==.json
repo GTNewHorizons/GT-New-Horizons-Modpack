@@ -71,15 +71,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1149,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SiliconSolarGrade:dust"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 941,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Phosphorus:dust"
         },
         "2:10": {
           "Count:3": 1,
@@ -118,15 +118,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1149,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SiliconSolarGrade:dust"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 941,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Phosphorus:dust"
         },
         "2:10": {
           "Count:3": 2,

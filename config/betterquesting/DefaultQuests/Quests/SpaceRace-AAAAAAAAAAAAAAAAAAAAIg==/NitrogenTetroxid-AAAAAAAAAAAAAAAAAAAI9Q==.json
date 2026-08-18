@@ -74,9 +74,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 870,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:NitricAcid:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -105,15 +105,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Copper:dust"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 870,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:NitricAcid:cell"
         },
         "2:10": {
           "Count:3": 1,

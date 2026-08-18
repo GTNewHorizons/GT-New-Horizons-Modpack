@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 330,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:DilutedMonaziteRareEarthMud:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -83,15 +83,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 796,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:MuddyMonaziteRareEarthSolution:cell"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 1102,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Saltpeter:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -107,9 +107,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 132,
-          "Damage:2": 330,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:DilutedMonaziteRareEarthMud:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

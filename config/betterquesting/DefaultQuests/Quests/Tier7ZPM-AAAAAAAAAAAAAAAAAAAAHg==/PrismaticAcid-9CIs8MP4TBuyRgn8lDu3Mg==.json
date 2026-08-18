@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1467,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:prismaticacid:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -83,15 +83,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1468,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:prismaticgas:cell"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 702,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:LiquidNitrogen:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -107,9 +107,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 1467,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:prismaticacid:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -74,21 +74,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 889,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Oil:cell"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 405,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ethanol:cell"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 488,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Fuel:cell"
         }
       },
       "ignoreDisabled:1": 0,
@@ -127,27 +127,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 637,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Invar:plate"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 683,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Lapis:plate"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 637,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:spring"
+          "id:8": "ml:Invar:spring"
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 637,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gearGt"
+          "id:8": "ml:Invar:gearGt"
         },
         "4:10": {
           "Count:3": 1,

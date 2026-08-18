@@ -116,21 +116,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1289,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:Thaumium:ring"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1289,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Thaumium:screw"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:spring"
+          "id:8": "ml:Steel:spring"
         },
         "3:10": {
           "Count:3": 2,

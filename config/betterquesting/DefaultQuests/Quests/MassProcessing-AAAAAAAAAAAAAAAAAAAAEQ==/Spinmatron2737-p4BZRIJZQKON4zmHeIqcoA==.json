@@ -81,9 +81,9 @@
         },
         "1:10": {
           "Count:3": 37,
-          "Damage:2": 231,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust",
+          "id:8": "ml:Chrome:dust",
           "tag:10": {
             "RepairCost:3": 2,
             "display:10": {
@@ -194,9 +194,9 @@
         },
         "8:10": {
           "Count:3": 9,
-          "Damage:2": 947,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Pikyonium64B:frameGt"
         },
         "9:10": {
           "Count:3": 8,

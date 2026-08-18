@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1346,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:TungstenSteel:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -114,15 +114,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 1348,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:TungstenTrioxide:dust"
         },
         "1:10": {
           "Count:3": 36,
-          "Damage:2": 597,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Hydrogen:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,9 +138,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 1344,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Tungsten:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -156,15 +156,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 1344,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Tungsten:dust"
         },
         "1:10": {
           "Count:3": 6,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Steel:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -180,15 +180,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:TungstenSteel:ingot"
         },
         "1:10": {
           "Count:3": 5,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:TungstenSteel:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

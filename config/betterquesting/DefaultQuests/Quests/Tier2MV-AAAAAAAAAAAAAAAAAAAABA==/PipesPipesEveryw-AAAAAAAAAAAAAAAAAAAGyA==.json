@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 162,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:itemPipeMedium"
+        "id:8": "ml:Brass:itemPipeMedium"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:itemPipeRestrictiveSmall"
+          "id:8": "ml:Brass:itemPipeRestrictiveSmall"
         }
       }
     },
@@ -98,9 +98,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Brass:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:itemPipeSmall"
+          "id:8": "ml:Brass:itemPipeSmall"
         }
       },
       "taskID:8": "bq_standard:retrieval"

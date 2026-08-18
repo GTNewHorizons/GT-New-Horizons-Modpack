@@ -61,9 +61,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 1289,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Thaumium:plate"
         },
         "1:10": {
           "Count:3": 1,

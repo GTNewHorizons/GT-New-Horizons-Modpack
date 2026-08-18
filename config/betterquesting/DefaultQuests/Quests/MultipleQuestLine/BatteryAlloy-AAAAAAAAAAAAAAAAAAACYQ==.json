@@ -67,27 +67,27 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 239,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Cinnabar:ore_stone"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 513,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Glauconite:ore_stone"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 693,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Lepidolite:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 1197,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Sphalerite:ore_stone"
         },
         "4:10": {
           "Count:3": 1,
@@ -132,15 +132,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 111,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:BatteryAlloy:plate"
         },
         "1:10": {
           "Count:3": 5,
-          "Damage:2": 1315,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt01"
+          "id:8": "ml:Tin:cableGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

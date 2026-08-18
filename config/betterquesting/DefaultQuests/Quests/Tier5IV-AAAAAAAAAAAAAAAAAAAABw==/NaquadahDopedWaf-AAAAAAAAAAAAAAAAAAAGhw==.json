@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1144,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Silicon:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:TungstenSteel:dust"
         },
         "2:10": {
           "Count:3": 1,

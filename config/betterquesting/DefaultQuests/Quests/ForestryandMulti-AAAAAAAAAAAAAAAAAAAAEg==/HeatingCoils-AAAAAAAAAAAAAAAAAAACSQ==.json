@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeMedium"
+          "id:8": "ml:Copper:pipeMedium"
         },
         "1:10": {
           "Count:3": 1,
@@ -75,9 +75,9 @@
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 1315,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt01"
+          "id:8": "ml:Tin:cableGt01"
         }
       },
       "ignoreDisabled:1": 0,
@@ -110,15 +110,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1207,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:SteelMagnetic:stick"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:Copper:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

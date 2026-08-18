@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1242,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:wireGt16"
+        "id:8": "ml:SuperconductorUIV:wireGt16"
       },
       "isMain:1": 0,
       "isSilent:1": 0,

@@ -64,9 +64,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 519,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:Gold:ring"
         },
         "1:10": {
           "Count:3": 10,

@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 499,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:Gallium:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 499,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Gallium:dust"
         },
         "1:10": {
           "Count:3": 1,
@@ -104,33 +104,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 499,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Gallium:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1099,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Rutile:dust"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1024,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Quicklime:dust"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 1146,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SiliconDioxide:dust"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Iron:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

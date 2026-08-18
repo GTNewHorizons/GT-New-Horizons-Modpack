@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 849,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:NetherQuartz:plate"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 208,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:CertusQuartz:plate"
         },
         "2:10": {
           "Count:3": 1,

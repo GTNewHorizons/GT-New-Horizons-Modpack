@@ -69,15 +69,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1447,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Zn-ThAlloy:ingot"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1296,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Thorium232:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -93,27 +93,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:ThoriumNitrate:cell"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1305,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:ThoriumHydroxide:dust"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1309,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:ThoriumTetrafluoride:cell"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 1293,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Thorium-232Tetrafluoride:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

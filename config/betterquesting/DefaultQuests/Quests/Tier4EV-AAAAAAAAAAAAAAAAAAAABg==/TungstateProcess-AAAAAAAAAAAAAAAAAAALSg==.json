@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1348,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:TungstenTrioxide:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -85,15 +85,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 1123,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Scheelite:dust"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 595,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:HydrochloricAcid_GT5U:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -109,15 +109,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 42,
-          "Damage:2": 1349,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:TungsticAcid:dust"
         },
         "1:10": {
           "Count:3": 18,
-          "Damage:2": 183,
+          "Damage:2": 0,
           "OreDict:8": "dustCalciumChloride",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:CalciumChloride:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -133,9 +133,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 1348,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:TungstenTrioxide:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

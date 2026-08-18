@@ -63,27 +63,27 @@
       "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Copper:ore_stone"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 193,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:CassiteriteSand:ore_stone"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 743,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Magnetite:ore_stone"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 1013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Pyrite:ore_stone"
         },
         "4:10": {
           "Count:3": 1,
@@ -134,15 +134,15 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 649,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:IronMagnetic:stick"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:Iron:stick"
         },
         "3:10": {
           "Count:3": 2,
@@ -152,9 +152,9 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 519,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:Gold:ring"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

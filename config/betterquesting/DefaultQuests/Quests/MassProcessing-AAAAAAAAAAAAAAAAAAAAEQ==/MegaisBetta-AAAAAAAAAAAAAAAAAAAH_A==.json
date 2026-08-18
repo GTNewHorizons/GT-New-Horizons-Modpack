@@ -165,9 +165,9 @@
         },
         "9:10": {
           "Count:3": 56,
-          "Damage:2": 1469,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:prismaticnaquadah:frameGt"
         },
         "10:10": {
           "Count:3": 1,

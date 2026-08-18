@@ -152,9 +152,9 @@
         },
         "6:10": {
           "Count:3": 1,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt02"
+          "id:8": "ml:Aluminium:cableGt02"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

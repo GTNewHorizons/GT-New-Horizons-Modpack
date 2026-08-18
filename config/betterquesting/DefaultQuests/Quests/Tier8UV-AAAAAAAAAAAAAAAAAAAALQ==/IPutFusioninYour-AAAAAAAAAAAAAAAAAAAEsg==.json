@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 888,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:Oganesson:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -69,15 +69,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 118,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Beryllium:cellMolten"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 957,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Plutonium:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -93,15 +93,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 187,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Californium:cellMolten"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 181,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Calcium:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -117,9 +117,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 888,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Oganesson:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 397,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:plate"
+        "id:8": "ml:Epoxid:plate"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -67,15 +67,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Titanium:ingot"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 837,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Neodymium:ingot"
         },
         "2:10": {
           "Count:3": 1,
@@ -114,21 +114,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 108,
-          "Damage:2": 1173,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SodiumHydroxide_GT5U:dust"
         },
         "1:10": {
           "Count:3": 36,
-          "Damage:2": 395,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Epichlorohydrin:cell"
         },
         "2:10": {
           "Count:3": 18,
-          "Damage:2": 133,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:BisphenolA:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 125,
-          "Damage:2": 397,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Epoxid:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

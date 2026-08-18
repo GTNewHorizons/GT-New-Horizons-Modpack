@@ -74,15 +74,15 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:TungstenSteel:ingot"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 1066,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Rhodium-PlatedPalladium:ingot"
         },
         "2:10": {
           "Count:3": 1,

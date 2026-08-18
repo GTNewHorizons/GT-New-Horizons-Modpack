@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 726,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cellMolten"
+        "id:8": "ml:Lutetium:cellMolten"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -69,87 +69,87 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 445,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledLanthanumExtractingNanoResin:cell"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 448,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledPraseodymiumExtractingNanoResin:cell"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 439,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledCeriumExtractingNanoResin:cell"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 447,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledNeodymiumExtractingNanoResin:cell"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 449,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledSamariumExtractingNanoResin:cell"
         },
         "5:10": {
           "Count:3": 1,
-          "Damage:2": 442,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledEuropiumExtractingNanoResin:cell"
         },
         "6:10": {
           "Count:3": 1,
-          "Damage:2": 443,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledGadoliniumExtractingNanoResin:cell"
         },
         "7:10": {
           "Count:3": 1,
-          "Damage:2": 450,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledTerbiumExtractingNanoResin:cell"
         },
         "8:10": {
           "Count:3": 1,
-          "Damage:2": 440,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledDysprosiumExtractingNanoResin:cell"
         },
         "9:10": {
           "Count:3": 1,
-          "Damage:2": 444,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledHolmiumExtractingNanoResin:cell"
         },
         "10:10": {
           "Count:3": 1,
-          "Damage:2": 441,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledErbiumExtractingNanoResin:cell"
         },
         "11:10": {
           "Count:3": 1,
-          "Damage:2": 451,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledThuliumExtractingNanoResin:cell"
         },
         "12:10": {
           "Count:3": 1,
-          "Damage:2": 452,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledYtterbiumExtractingNanoResin:cell"
         },
         "13:10": {
           "Count:3": 1,
-          "Damage:2": 446,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:FilledLutetiumExtractingNanoResin:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

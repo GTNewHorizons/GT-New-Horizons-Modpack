@@ -68,9 +68,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 298,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:DamascusSteel:ingot"
         },
         "1:10": {
           "Count:3": 1,
@@ -90,15 +90,15 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Steel:ingot"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Bronze:ingot"
         }
       }
     },
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Bronze:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rotor"
+          "id:8": "ml:Steel:rotor"
         },
         "1:10": {
           "Count:3": 1,

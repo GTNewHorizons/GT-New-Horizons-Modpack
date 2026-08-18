@@ -71,21 +71,21 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 831,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Naquadria:dust"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:TungstenSteel:ingot"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 951,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Platinum:ingot"
         }
       }
     },

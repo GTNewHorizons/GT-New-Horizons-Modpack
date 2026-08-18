@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 875,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:NitroFuel:cell"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 670,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:LPG:cell"
         }
       },
       "ignoreDisabled:1": 0,

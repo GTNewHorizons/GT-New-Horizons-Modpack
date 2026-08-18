@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 716,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:Low-PurityHafnium:dust"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -83,15 +83,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 558,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:HafniumTetrachlorideSolution:cell"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 740,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Magnesium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -107,15 +107,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 716,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Low-PurityHafnium:dust"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 742,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Magnesiumchloride:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

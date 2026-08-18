@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1105,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cellMolten"
+        "id:8": "ml:Samarium:cellMolten"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -87,9 +87,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1106,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Samarium(III)-Chloride:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -105,15 +105,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 608,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:ImpureLanthanumChloride:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1105,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Samarium:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"

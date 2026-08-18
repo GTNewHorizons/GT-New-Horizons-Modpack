@@ -116,9 +116,9 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:itemCasing"
+          "id:8": "ml:StainlessSteel:itemCasing"
         },
         "2:10": {
           "Count:3": 2,
@@ -152,9 +152,9 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rotor"
+          "id:8": "ml:StainlessSteel:rotor"
         },
         "2:10": {
           "Count:3": 2,
@@ -164,21 +164,21 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 951,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt01"
+          "id:8": "ml:Platinum:cableGt01"
         },
         "4:10": {
           "Count:3": 8,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plateDouble"
+          "id:8": "ml:StainlessSteel:plateDouble"
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gearGt"
+          "id:8": "ml:Titanium:gearGt"
         },
         "6:10": {
           "Count:3": 1,

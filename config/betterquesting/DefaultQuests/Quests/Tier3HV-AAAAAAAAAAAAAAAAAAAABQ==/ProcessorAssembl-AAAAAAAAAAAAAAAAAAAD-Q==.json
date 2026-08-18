@@ -140,9 +140,9 @@
         },
         "4:10": {
           "Count:3": 8,
-          "Damage:2": 1049,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:RedAlloy:wireFine"
         },
         "5:10": {
           "Count:3": 8,

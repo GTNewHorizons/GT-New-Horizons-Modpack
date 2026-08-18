@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:StainlessSteel:plate"
         },
         "1:10": {
           "Count:3": 2,
@@ -126,9 +126,9 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:itemCasing"
+          "id:8": "ml:StainlessSteel:itemCasing"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

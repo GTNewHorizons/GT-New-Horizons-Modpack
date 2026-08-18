@@ -84,9 +84,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Titanium:ore_stone"
         }
       }
     }

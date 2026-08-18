@@ -81,9 +81,9 @@
         },
         "3:10": {
           "Count:3": 8,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:StainlessSteel:ingot"
         }
       },
       "ignoreDisabled:1": 0,
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1154,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cableGt01"
+          "id:8": "ml:Silver:cableGt01"
         },
         "1:10": {
           "Count:3": 1,

@@ -84,9 +84,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 951,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Platinum:ore_stone"
         }
       }
     }

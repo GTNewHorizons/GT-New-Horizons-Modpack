@@ -73,9 +73,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:StainlessSteel:ingot"
         },
         "1:10": {
           "Count:3": 2,
@@ -126,27 +126,27 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 694,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:LightFuel:cell"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 565,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:HeavyFuel:cell"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 805,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Naphtha:cell"
         },
         "4:10": {
           "Count:3": 64,
-          "Damage:2": 508,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Gas:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

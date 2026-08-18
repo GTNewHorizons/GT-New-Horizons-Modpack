@@ -67,15 +67,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 499,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Gallium:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 89,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Arsenic:dust"
         },
         "2:10": {
           "Count:3": 1,
@@ -120,15 +120,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 499,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Gallium:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 89,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Arsenic:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

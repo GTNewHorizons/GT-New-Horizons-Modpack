@@ -164,9 +164,9 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:Iron:stick"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

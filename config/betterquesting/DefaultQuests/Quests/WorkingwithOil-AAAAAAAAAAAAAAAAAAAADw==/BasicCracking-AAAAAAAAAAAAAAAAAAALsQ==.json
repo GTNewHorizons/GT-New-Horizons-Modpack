@@ -102,9 +102,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 1225,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SulfuricGas:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,9 +138,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 508,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Gas:cell"
         },
         "1:10": {
           "Count:3": 10,
@@ -162,9 +162,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 508,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellSteamCracked3"
+          "id:8": "ml:Gas:cellSteamCracked3"
         }
       },
       "taskID:8": "bq_standard:retrieval"

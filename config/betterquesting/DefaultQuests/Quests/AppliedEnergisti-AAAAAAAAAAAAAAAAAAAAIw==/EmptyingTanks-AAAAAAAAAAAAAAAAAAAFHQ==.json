@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 515,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Glowstone:plate"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 683,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Lapis:plate"
         },
         "2:10": {
           "Count:3": 1,

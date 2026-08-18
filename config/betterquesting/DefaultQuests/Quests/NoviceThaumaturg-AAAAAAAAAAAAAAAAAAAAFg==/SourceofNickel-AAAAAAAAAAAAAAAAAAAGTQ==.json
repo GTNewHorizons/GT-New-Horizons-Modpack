@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 507,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Garnierite:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -82,15 +82,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Steel:ingot"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Bronze:ingot"
         },
         "2:10": {
           "Count:3": 1,
@@ -129,27 +129,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 507,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Garnierite:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 858,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Nickel:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 255,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Cobaltite:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 924,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Pentlandite:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -165,27 +165,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 507,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Garnierite:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 858,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Nickel:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 255,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Cobaltite:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 924,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Pentlandite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"

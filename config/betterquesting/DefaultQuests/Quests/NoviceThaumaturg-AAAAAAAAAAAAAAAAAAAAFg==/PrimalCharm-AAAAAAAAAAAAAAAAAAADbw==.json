@@ -151,9 +151,9 @@
         },
         "7:10": {
           "Count:3": 2,
-          "Damage:2": 1087,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:RoseGold:ring"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

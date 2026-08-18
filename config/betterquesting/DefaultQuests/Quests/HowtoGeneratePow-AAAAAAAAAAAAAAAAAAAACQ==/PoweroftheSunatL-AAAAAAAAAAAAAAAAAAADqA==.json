@@ -130,9 +130,9 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 975,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Polytetrafluoroethylene:plate"
         },
         "3:10": {
           "Count:3": 2,
@@ -148,9 +148,9 @@
         },
         "5:10": {
           "Count:3": 4,
-          "Damage:2": 1239,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:SuperconductorMV:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

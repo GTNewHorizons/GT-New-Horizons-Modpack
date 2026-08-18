@@ -65,9 +65,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 1188,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:SolderingAlloy:wireFine"
         },
         "1:10": {
           "Count:3": 1,
@@ -128,15 +128,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:itemCasing"
+          "id:8": "ml:Steel:itemCasing"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:Iron:stick"
         },
         "2:10": {
           "Count:3": 1,
@@ -158,9 +158,9 @@
         },
         "5:10": {
           "Count:3": 4,
-          "Damage:2": 950,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Plastic:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

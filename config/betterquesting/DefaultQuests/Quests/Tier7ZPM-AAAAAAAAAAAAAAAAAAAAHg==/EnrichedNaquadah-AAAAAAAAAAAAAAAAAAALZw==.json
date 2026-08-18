@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 825,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:NaquadahEnriched:ingot"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -104,9 +104,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 825,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:NaquadahEnriched:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -122,9 +122,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 825,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:NaquadahEnriched:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

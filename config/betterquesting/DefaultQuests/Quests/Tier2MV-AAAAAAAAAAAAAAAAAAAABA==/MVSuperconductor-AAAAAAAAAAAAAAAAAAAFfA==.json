@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1239,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:wireGt01"
+        "id:8": "ml:SuperconductorMV:wireGt01"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -114,21 +114,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 177,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Cadmium:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 740,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Magnesium:dust"
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 911,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Oxygen:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 922,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Pentacadmiummagnesiumhexaoxid:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -162,9 +162,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 922,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Pentacadmiummagnesiumhexaoxid:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -180,9 +180,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 922,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:Pentacadmiummagnesiumhexaoxid:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -198,15 +198,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 922,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:Pentacadmiummagnesiumhexaoxid:wireGt01"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeTiny"
+          "id:8": "ml:StainlessSteel:pipeTiny"
         },
         "2:10": {
           "Count:3": 8,
@@ -216,9 +216,9 @@
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 570,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Helium:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -234,9 +234,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 1239,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:SuperconductorMV:wireGt01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

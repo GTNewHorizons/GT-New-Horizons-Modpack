@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1254,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Tantalite:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -69,9 +69,9 @@
         },
         "1:10": {
           "Count:3": 128,
-          "Damage:2": 1257,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:Tantalum:bolt"
         }
       },
       "ignoreDisabled:1": 0,
@@ -117,27 +117,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1254,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Tantalite:rawOre"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 1196,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Spessartine:rawOre"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 1015,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Pyrolusite:rawOre"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 541,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Grossular:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -153,27 +153,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1254,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Tantalite:ore_stone"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 1196,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Spessartine:ore_stone"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 1015,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Pyrolusite:ore_stone"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 541,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Grossular:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -189,27 +189,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 1254,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_netherrack"
+          "id:8": "ml:Tantalite:ore_netherrack"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1196,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_netherrack"
+          "id:8": "ml:Spessartine:ore_netherrack"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 1015,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_netherrack"
+          "id:8": "ml:Pyrolusite:ore_netherrack"
         },
         "3:10": {
           "Count:3": 32,
-          "Damage:2": 541,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_netherrack"
+          "id:8": "ml:Grossular:ore_netherrack"
         }
       },
       "taskID:8": "bq_standard:retrieval"

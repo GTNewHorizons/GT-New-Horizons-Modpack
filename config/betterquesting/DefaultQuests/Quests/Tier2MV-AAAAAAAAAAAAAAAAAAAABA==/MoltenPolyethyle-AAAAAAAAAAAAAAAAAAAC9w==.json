@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 950,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cellMolten"
+        "id:8": "ml:Plastic:cellMolten"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 911,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Oxygen:cell"
         },
         "1:10": {
           "Count:3": 32,
@@ -79,9 +79,9 @@
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 412,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ethylene:cell"
         },
         "3:10": {
           "Count:3": 1,
@@ -120,15 +120,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 412,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ethylene:cell"
         },
         "1:10": {
           "Count:3": 83,
-          "Damage:2": 911,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Oxygen:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 124,
-          "Damage:2": 950,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Plastic:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -109,9 +109,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 117,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Benzene:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

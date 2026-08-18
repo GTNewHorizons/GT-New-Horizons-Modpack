@@ -69,9 +69,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 319,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gemFlawless"
+          "id:8": "ml:Diamond:gemFlawless"
         },
         "2:10": {
           "Count:3": 1,
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 319,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Diamond:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

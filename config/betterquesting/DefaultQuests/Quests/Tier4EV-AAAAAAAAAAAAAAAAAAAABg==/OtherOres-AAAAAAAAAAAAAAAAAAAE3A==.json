@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 903,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Oriharukon:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -108,39 +108,39 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 48,
-          "Damage:2": 68,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Antimony:crushed"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 89,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Arsenic:crushed"
         },
         "2:10": {
           "Count:3": 48,
-          "Damage:2": 127,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Bismuth:crushed"
         },
         "3:10": {
           "Count:3": 160,
-          "Damage:2": 368,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Electrotine:crushed"
         },
         "4:10": {
           "Count:3": 48,
-          "Damage:2": 704,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Lithium:crushed"
         },
         "5:10": {
           "Count:3": 48,
-          "Damage:2": 903,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Oriharukon:crushed"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -156,39 +156,39 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 68,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Antimony:rawOre"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 89,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Arsenic:rawOre"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 127,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Bismuth:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 368,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Electrotine:rawOre"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 704,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Lithium:rawOre"
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 903,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Oriharukon:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -204,39 +204,39 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 68,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Antimony:ore_stone"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 89,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Arsenic:ore_stone"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 127,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Bismuth:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 368,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Electrotine:ore_stone"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 704,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Lithium:ore_stone"
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 903,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Oriharukon:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

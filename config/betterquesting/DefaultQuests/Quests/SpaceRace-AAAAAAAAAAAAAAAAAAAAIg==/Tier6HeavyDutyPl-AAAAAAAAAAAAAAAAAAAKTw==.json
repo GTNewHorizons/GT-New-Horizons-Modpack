@@ -144,9 +144,9 @@
         },
         "2:10": {
           "Count:3": 104,
-          "Damage:2": 1339,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:Tritanium:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

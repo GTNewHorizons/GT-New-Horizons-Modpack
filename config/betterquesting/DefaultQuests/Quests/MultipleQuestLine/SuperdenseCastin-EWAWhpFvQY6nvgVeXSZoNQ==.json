@@ -111,33 +111,33 @@
         },
         "4:10": {
           "Count:3": 28,
-          "Damage:2": 399,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Erbium:frameGt"
         },
         "5:10": {
           "Count:3": 8,
-          "Damage:2": 1000,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:blockCasing"
+          "id:8": "ml:PreciousMetalsAlloy:blockCasing"
         },
         "6:10": {
           "Count:3": 8,
-          "Damage:2": 1000,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:sheetmetal"
+          "id:8": "ml:PreciousMetalsAlloy:sheetmetal"
         },
         "7:10": {
           "Count:3": 8,
-          "Damage:2": 399,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:sheetmetal"
+          "id:8": "ml:Erbium:sheetmetal"
         },
         "8:10": {
           "Count:3": 4,
-          "Damage:2": 1000,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:blockCasingAdvanced"
+          "id:8": "ml:PreciousMetalsAlloy:blockCasingAdvanced"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

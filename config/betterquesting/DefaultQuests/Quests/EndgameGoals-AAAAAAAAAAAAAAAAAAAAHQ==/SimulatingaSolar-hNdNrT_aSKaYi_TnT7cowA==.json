@@ -160,15 +160,15 @@
         },
         "12:10": {
           "Count:3": 8,
-          "Damage:2": 1139,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:block"
+          "id:8": "ml:Shirabon:block"
         },
         "13:10": {
           "Count:3": 4,
-          "Damage:2": 745,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plateDense"
+          "id:8": "ml:MagnetohydrodynamicallyConstrainedStarMatter:plateDense"
         },
         "14:10": {
           "Count:3": 12,

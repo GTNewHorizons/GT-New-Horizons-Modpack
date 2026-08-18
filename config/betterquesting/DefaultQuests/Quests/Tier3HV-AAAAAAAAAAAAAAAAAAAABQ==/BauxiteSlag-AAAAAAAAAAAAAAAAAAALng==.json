@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 64,
-        "Damage:2": 113,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:BauxiteSlag:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 47,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:AluminiumHydroxide:dust"
         },
         "1:10": {
           "Count:3": 1,
@@ -104,21 +104,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 47,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:AluminiumHydroxide:dust"
         },
         "1:10": {
           "Count:3": 20,
-          "Damage:2": 190,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:CarbonDioxide:cell"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 564,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:HeadedBauxiteSlurry:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -134,33 +134,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 320,
-          "Damage:2": 44,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Alumina:dust"
         },
         "1:10": {
           "Count:3": 40,
-          "Damage:2": 180,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Calcite:dust"
         },
         "2:10": {
           "Count:3": 36,
-          "Damage:2": 1167,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SodiumCarbonate:dust"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 113,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:BauxiteSlag:dust"
         },
         "4:10": {
           "Count:3": 20,
-          "Damage:2": 1157,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SluiceJuice:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

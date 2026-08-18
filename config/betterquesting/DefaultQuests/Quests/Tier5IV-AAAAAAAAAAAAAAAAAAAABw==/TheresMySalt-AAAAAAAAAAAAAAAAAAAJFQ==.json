@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1070,
+        "Damage:2": 0,
         "OreDict:8": "dustRhodiumNitrate",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:RhodiumNitrate:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -88,15 +88,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1072,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:RhodiumSaltSolution:cell"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1175,
+          "Damage:2": 0,
           "OreDict:8": "dustSodiumNitrate",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SodiumNitrate:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -112,15 +112,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1070,
+          "Damage:2": 0,
           "OreDict:8": "dustRhodiumNitrate",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RhodiumNitrate:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1100,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Salt:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

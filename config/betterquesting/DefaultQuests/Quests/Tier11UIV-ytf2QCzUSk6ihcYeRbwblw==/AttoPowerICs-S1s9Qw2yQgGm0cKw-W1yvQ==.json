@@ -81,9 +81,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 42,
-          "Damage:2": 1124,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:SeaweedAsh:dust"
         }
       }
     }
@@ -106,15 +106,15 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1263,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Tartarite:dust"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1030,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RadoxPoly:dust"
         },
         "3:10": {
           "Count:3": 1,

@@ -66,21 +66,21 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 597,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Hydrogen:cell"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 772,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Methane:cell"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 670,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:LPG:cell"
         }
       }
     },

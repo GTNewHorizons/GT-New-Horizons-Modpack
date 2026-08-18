@@ -91,9 +91,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1327,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:TranscendentMetal:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

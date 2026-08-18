@@ -89,15 +89,15 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 287,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:CrystallineAlloy:cellMolten"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 744,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:lens"
+          "id:8": "ml:MagnetoResonatic:lens"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -119,9 +119,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1214,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Strontium:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"

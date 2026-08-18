@@ -122,15 +122,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 1405,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stickLong"
+          "id:8": "ml:Wood:stickLong"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:Iron:ring"
         },
         "2:10": {
           "Count:3": 1,

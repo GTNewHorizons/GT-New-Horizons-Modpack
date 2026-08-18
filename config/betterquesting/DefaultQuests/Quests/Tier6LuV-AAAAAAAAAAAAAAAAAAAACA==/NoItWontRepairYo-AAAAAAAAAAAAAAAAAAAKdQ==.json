@@ -93,15 +93,15 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 721,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Lubricant:cell"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Steel:screw"
         },
         "3:10": {
           "Count:3": 2,

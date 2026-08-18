@@ -125,9 +125,9 @@
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 807,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Naquadah:frameGt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

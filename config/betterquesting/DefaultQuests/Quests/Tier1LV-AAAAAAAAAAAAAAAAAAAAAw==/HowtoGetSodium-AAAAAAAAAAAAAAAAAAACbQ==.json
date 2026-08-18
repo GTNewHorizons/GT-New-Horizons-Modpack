@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 513,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Glauconite:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -110,27 +110,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 1160,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Soapstone:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1251,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Talc:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 513,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Glauconite:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 924,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Pentlandite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -146,27 +146,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 1160,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Soapstone:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1251,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Talc:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 513,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Glauconite:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 924,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Pentlandite:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

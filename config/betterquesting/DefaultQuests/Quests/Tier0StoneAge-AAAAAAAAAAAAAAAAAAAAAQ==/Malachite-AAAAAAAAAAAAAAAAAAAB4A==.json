@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 746,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Malachite:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Copper:ingot"
         },
         "1:10": {
           "Count:3": 1,
@@ -110,27 +110,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 169,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:BrownLimonite:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1416,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:YellowLimonite:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 101,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:BandedIron:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 746,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Malachite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -146,27 +146,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 169,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:BrownLimonite:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1416,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:YellowLimonite:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 101,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:BandedIron:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 746,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Malachite:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

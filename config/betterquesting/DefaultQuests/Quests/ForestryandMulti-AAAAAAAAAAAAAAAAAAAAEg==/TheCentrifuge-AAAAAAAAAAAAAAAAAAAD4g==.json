@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 858,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Nickel:ingot"
         },
         "1:10": {
           "Count:3": 16,
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 291,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Cupronickel:plate"
         },
         "1:10": {
           "Count:3": 2,
@@ -146,9 +146,9 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gearGtSmall"
+          "id:8": "ml:Steel:gearGtSmall"
         },
         "4:10": {
           "Count:3": 1,

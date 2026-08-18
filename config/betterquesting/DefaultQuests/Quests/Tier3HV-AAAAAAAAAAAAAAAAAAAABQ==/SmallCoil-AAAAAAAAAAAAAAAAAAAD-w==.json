@@ -69,15 +69,15 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 861,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:NickelZincFerrite:ring"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 66,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:AnnealedCopper:wireFine"
         },
         "3:10": {
           "Count:3": 1,
@@ -116,15 +116,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:Steel:ring"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:Copper:wireFine"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -125,9 +125,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gearGt"
+          "id:8": "ml:Steel:gearGt"
         },
         "1:10": {
           "Count:3": 4,
@@ -137,9 +137,9 @@
         },
         "2:10": {
           "Count:3": 3,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Steel:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -179,9 +179,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeLarge"
+          "id:8": "ml:Steel:pipeLarge"
         },
         "2:10": {
           "Count:3": 2,
@@ -191,9 +191,9 @@
         },
         "3:10": {
           "Count:3": 5,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "plateSteel",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Steel:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -251,15 +251,15 @@
         },
         "4:10": {
           "Count:3": 3,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeTiny"
+          "id:8": "ml:Steel:pipeTiny"
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 319,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Diamond:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -114,15 +114,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plateDouble"
+          "id:8": "ml:Iron:plateDouble"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Iron:screw"
         },
         "2:10": {
           "Count:3": 2,

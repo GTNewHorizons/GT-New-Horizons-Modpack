@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1018,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Quantium:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -110,21 +110,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 192,
-          "Damage:2": 1018,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Quantium:crushed"
         },
         "1:10": {
           "Count:3": 192,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Titanium:crushed"
         },
         "2:10": {
           "Count:3": 192,
-          "Damage:2": 807,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushed"
+          "id:8": "ml:Naquadah:crushed"
         }
       },
       "taskID:8": "bq_standard:retrieval"

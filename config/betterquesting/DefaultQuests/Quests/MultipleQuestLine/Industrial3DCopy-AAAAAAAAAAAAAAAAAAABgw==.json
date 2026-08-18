@@ -113,9 +113,9 @@
         },
         "1:10": {
           "Count:3": 37,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Steel:frameGt"
         },
         "2:10": {
           "Count:3": 18,

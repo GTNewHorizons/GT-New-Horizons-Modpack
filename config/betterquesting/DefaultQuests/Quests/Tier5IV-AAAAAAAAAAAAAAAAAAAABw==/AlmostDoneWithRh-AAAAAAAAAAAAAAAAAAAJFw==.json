@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1063,
+        "Damage:2": 0,
         "OreDict:8": "dustReprecipitatedRhodium",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:ReprecipitatedRhodium:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -84,9 +84,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1069,
+          "Damage:2": 0,
           "OreDict:8": "cellRhodiumFilterCakeSolution",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:RhodiumFilterCakeSolution:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -102,9 +102,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1063,
+          "Damage:2": 0,
           "OreDict:8": "dustReprecipitatedRhodium",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:ReprecipitatedRhodium:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

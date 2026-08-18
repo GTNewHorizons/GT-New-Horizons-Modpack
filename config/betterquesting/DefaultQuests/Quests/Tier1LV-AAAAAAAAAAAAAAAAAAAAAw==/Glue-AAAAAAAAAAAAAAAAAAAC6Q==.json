@@ -26,9 +26,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 516,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:Glue:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -157,9 +157,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 516,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Glue:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

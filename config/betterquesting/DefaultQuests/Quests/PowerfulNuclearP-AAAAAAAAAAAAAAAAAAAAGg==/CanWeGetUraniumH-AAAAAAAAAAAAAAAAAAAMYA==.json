@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1362,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:Uranium:dust"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -75,15 +75,15 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1292,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_netherrack"
+          "id:8": "ml:Thorium:ore_netherrack"
         },
         "2:10": {
           "Count:3": 7,
-          "Damage:2": 1362,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Uranium:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -99,9 +99,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1362,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Uranium:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

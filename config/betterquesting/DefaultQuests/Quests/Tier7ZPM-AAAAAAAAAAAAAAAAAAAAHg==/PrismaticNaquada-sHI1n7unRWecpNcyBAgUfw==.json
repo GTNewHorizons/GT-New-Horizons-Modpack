@@ -83,21 +83,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 1345,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:foil"
+          "id:8": "ml:TungstenCarbide:foil"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 689,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:foil"
+          "id:8": "ml:Lead:foil"
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 1470,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:prismaticnaquadahcompositeslurry:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

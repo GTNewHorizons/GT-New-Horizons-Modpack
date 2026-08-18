@@ -111,21 +111,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1258,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:TantalumCarbide:plate"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:Titanium:ring"
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 519,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt08"
+          "id:8": "ml:Gold:wireGt08"
         },
         "3:10": {
           "Count:3": 4,
@@ -147,9 +147,9 @@
         },
         "6:10": {
           "Count:3": 4,
-          "Damage:2": 1258,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:TantalumCarbide:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

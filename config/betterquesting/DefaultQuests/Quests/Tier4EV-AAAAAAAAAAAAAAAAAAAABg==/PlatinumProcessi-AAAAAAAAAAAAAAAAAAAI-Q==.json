@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1062,
+        "Damage:2": 0,
         "OreDict:8": "dustReprecipitatedPlatinum",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:ReprecipitatedPlatinum:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -88,15 +88,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 952,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:PlatinumConcentrate:cell"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 58,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:AmmoniumChloride:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -112,33 +112,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 956,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:PlatinumSalt:dust"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 1062,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:ReprecipitatedPlatinum:dust"
         },
         "2:10": {
           "Count:3": 3,
-          "Damage:2": 916,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:PalladiumEnrichedAmmonia:cell"
         },
         "3:10": {
           "Count:3": 27,
-          "Damage:2": 595,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:HydrochloricAcid_GT5U:cell"
         },
         "4:10": {
           "Count:3": 9,
-          "Damage:2": 877,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:NitrogenDioxide:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

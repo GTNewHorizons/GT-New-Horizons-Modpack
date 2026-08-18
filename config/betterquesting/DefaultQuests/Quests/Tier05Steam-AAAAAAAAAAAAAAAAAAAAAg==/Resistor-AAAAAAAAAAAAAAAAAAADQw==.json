@@ -98,21 +98,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:Copper:wireGt01"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:Copper:wireFine"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 245,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Coal:dust"
         },
         "3:10": {
           "Count:3": 4,

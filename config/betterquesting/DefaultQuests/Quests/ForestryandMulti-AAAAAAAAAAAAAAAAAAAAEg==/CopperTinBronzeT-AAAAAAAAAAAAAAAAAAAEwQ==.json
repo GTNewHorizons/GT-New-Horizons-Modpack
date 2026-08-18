@@ -110,39 +110,39 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stickLong"
+          "id:8": "ml:Copper:stickLong"
         },
         "1:10": {
           "Count:3": 6,
-          "Damage:2": 1315,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stickLong"
+          "id:8": "ml:Tin:stickLong"
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stickLong"
+          "id:8": "ml:Bronze:stickLong"
         },
         "3:10": {
           "Count:3": 18,
-          "Damage:2": 519,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:Gold:bolt"
         },
         "4:10": {
           "Count:3": 9,
-          "Damage:2": 1049,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:RedAlloy:plate"
         },
         "5:10": {
           "Count:3": 18,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:Copper:wireFine"
         },
         "6:10": {
           "Count:3": 18,

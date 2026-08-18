@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Titanium:ingot"
         },
         "1:10": {
           "Count:3": 16,
@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 948,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushedPurified"
+          "id:8": "ml:Pitchblende:crushedPurified"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -128,9 +128,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1361,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushedPurified"
+          "id:8": "ml:Uraninite:crushedPurified"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1362,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushedPurified"
+          "id:8": "ml:Uranium:crushedPurified"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -164,9 +164,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
-          "Damage:2": 1292,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:crushedPurified"
+          "id:8": "ml:Thorium:crushedPurified"
         }
       },
       "taskID:8": "bq_standard:retrieval"

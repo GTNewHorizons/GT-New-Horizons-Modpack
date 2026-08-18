@@ -81,15 +81,15 @@
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 865,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt04"
+          "id:8": "ml:NiobiumTitanium:wireGt04"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 230,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:bolt"
+          "id:8": "ml:ChromaticGlass:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

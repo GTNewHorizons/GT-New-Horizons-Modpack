@@ -259,9 +259,9 @@
         },
         "1:10": {
           "Count:3": 11,
-          "Damage:2": 852,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Netherrack:dust"
         },
         "2:10": {
           "Count:3": 11,
@@ -271,9 +271,9 @@
         },
         "3:10": {
           "Count:3": 11,
-          "Damage:2": 850,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dustTiny"
+          "id:8": "ml:NetherStar:dustTiny"
         }
       },
       "taskID:8": "bq_standard:retrieval"

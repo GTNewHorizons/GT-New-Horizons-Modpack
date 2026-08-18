@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 683,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Lapis:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 180,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Calcite:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 545,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Gypsum:dust"
         }
       },
       "ignoreDisabled:1": 0,
@@ -129,27 +129,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 687,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Lazurite:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Sodalite:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 683,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Lapis:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 180,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Calcite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -165,27 +165,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 687,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Lazurite:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Sodalite:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 683,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Lapis:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 180,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Calcite:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

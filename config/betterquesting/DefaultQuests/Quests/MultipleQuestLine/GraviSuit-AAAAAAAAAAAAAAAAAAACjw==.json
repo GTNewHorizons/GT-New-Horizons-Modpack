@@ -177,9 +177,9 @@
         },
         "7:10": {
           "Count:3": 2,
-          "Damage:2": 360,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plateDense"
+          "id:8": "ml:Duranium:plateDense"
         },
         "8:10": {
           "Count:3": 1,
@@ -201,9 +201,9 @@
         },
         "11:10": {
           "Count:3": 4,
-          "Damage:2": 360,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Duranium:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

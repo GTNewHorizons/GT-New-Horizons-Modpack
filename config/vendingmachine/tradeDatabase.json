@@ -34,9 +34,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1206,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ingot"
+							"id:8": "ml:Steel:ingot"
 						}
 					]
 				}
@@ -118,15 +118,15 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 697,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:gem"
+							"id:8": "ml:Lignite:gem"
 						},
 						{
 							"Count:3": 64,
-							"Damage:2": 697,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:dust"
+							"id:8": "ml:Lignite:dust"
 						}
 					],
 					"toItems:9": [
@@ -395,9 +395,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1202,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ingot"
+							"id:8": "ml:StainlessSteel:ingot"
 						}
 					]
 				}
@@ -479,9 +479,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 50,
-							"Damage:2": 919,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:dust"
+							"id:8": "ml:Paper:dust"
 						}
 					]
 				}
@@ -570,9 +570,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 245,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Coal:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -704,9 +704,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1049,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cableGt01"
+							"id:8": "ml:RedAlloy:cableGt01"
 						}
 					]
 				}
@@ -971,9 +971,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 565,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:HeavyFuel:cell"
 						}
 					]
 				}
@@ -1013,9 +1013,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 8,
-							"Damage:2": 749,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Manganese:ore_stone"
 						}
 					]
 				}
@@ -1206,9 +1206,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 1014,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Pyrochlore:ore_stone"
 						}
 					]
 				}
@@ -1290,9 +1290,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 319,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Diamond:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -1432,9 +1432,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 269,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cableGt01"
+							"id:8": "ml:Copper:cableGt01"
 						}
 					]
 				}
@@ -1524,9 +1524,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 405,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Ethanol:cell"
 						}
 					]
 				}
@@ -1840,9 +1840,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 697,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Lignite:ore_stone"
 						}
 					]
 				}
@@ -1984,9 +1984,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 646,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:stick"
+							"id:8": "ml:Iron:stick"
 						}
 					]
 				}
@@ -2068,9 +2068,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 231,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:stick"
+							"id:8": "ml:Chrome:stick"
 						}
 					]
 				}
@@ -2152,9 +2152,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 208,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:gem"
+							"id:8": "ml:CertusQuartz:gem"
 						}
 					]
 				}
@@ -2201,9 +2201,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 66,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cableGt01"
+							"id:8": "ml:AnnealedCopper:cableGt01"
 						}
 					]
 				}
@@ -2285,9 +2285,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 1315,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rotor"
+							"id:8": "ml:Tin:rotor"
 						}
 					]
 				}
@@ -2369,9 +2369,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 8,
-							"Damage:2": 369,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:wireGt04"
+							"id:8": "ml:Electrum:wireGt04"
 						}
 					]
 				}
@@ -2411,9 +2411,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 519,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Gold:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -2553,9 +2553,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 8,
-							"Damage:2": 1206,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ingot"
+							"id:8": "ml:Steel:ingot"
 						}
 					],
 					"toItems:9": [
@@ -2705,9 +2705,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 269,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Copper:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -2805,9 +2805,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 277,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Creosote:cell"
 						}
 					]
 				}
@@ -3015,9 +3015,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 8,
-							"Damage:2": 1154,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cableGt02"
+							"id:8": "ml:Silver:cableGt02"
 						}
 					]
 				}
@@ -3057,9 +3057,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 1056,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Redstone:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -3290,9 +3290,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 805,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Naphtha:cell"
 						}
 					]
 				}
@@ -3416,9 +3416,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 32,
-							"Damage:2": 512,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:dust"
+							"id:8": "ml:Glass:dust"
 						}
 					]
 				}
@@ -3518,9 +3518,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 519,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cableGt01"
+							"id:8": "ml:Gold:cableGt01"
 						}
 					]
 				}
@@ -3575,9 +3575,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 516,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Glue:cell"
 						}
 					]
 				}
@@ -3707,9 +3707,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 1315,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Tin:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -3821,9 +3821,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 466,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Fluorine:cell"
 						}
 					]
 				}
@@ -3863,9 +3863,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 291,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:wireGt02"
+							"id:8": "ml:Cupronickel:wireGt02"
 						}
 					]
 				}
@@ -4019,9 +4019,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 45,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ingot"
+							"id:8": "ml:Aluminium:ingot"
 						}
 					]
 				}
@@ -4103,9 +4103,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 194,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ingot"
+							"id:8": "ml:CastIron:ingot"
 						}
 					]
 				}
@@ -4145,9 +4145,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 1362,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Uranium:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -4252,9 +4252,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1179,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:SodiumPersulfate:cell"
 						}
 					]
 				}
@@ -4294,9 +4294,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 369,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:stick"
+							"id:8": "ml:Electrum:stick"
 						}
 					]
 				}
@@ -4382,9 +4382,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 193,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:CassiteriteSand:ore_stone"
 						}
 					]
 				},
@@ -4408,9 +4408,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 269,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Copper:ore_stone"
 						}
 					]
 				},
@@ -4434,9 +4434,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 743,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Magnetite:ore_stone"
 						}
 					]
 				},
@@ -4460,9 +4460,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 1013,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Pyrite:ore_stone"
 						}
 					]
 				},
@@ -4486,9 +4486,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 319,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Diamond:ore_stone"
 						}
 					]
 				},
@@ -4512,9 +4512,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 1056,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Redstone:ore_stone"
 						}
 					]
 				},
@@ -4538,9 +4538,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 683,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Lapis:ore_stone"
 						}
 					]
 				},
@@ -4564,9 +4564,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 81,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Apatite:ore_stone"
 						}
 					]
 				},
@@ -4590,9 +4590,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 1023,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Quartzite:ore_stone"
 						}
 					]
 				},
@@ -4616,9 +4616,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 245,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Coal:ore_stone"
 						}
 					]
 				},
@@ -4642,9 +4642,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 1315,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Tin:ore_stone"
 						}
 					]
 				},
@@ -4668,9 +4668,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 530,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:GraniticMineralSand:ore_stone"
 						}
 					]
 				},
@@ -4694,9 +4694,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 106,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:BasalticMineralSand:ore_stone"
 						}
 					]
 				},
@@ -4720,9 +4720,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 1196,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Spessartine:ore_stone"
 						}
 					]
 				}
@@ -4777,9 +4777,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 772,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Methane:cell"
 						}
 					]
 				}
@@ -4834,9 +4834,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 721,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Lubricant:cell"
 						}
 					]
 				}
@@ -4876,9 +4876,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 683,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Lapis:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -5025,9 +5025,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 648,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:IronIIIChloride:cell"
 						}
 					]
 				}
@@ -5075,9 +5075,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 180,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ore_stone"
+							"id:8": "ml:Calcite:ore_stone"
 						}
 					]
 				}
@@ -5117,9 +5117,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 45,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:stick"
+							"id:8": "ml:Aluminium:stick"
 						}
 					]
 				}
@@ -5159,9 +5159,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 32,
-							"Damage:2": 372,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:gemFlawless"
+							"id:8": "ml:Emerald:gemFlawless"
 						}
 					]
 				}
@@ -5377,9 +5377,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1224,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:SulfuricAcid:cell"
 						}
 					]
 				}
@@ -5419,9 +5419,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 1206,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rotor"
+							"id:8": "ml:Steel:rotor"
 						}
 					]
 				}
@@ -5461,9 +5461,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1202,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:stick"
+							"id:8": "ml:StainlessSteel:stick"
 						}
 					]
 				}
@@ -5587,9 +5587,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 649,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:stick"
+							"id:8": "ml:IronMagnetic:stick"
 						}
 					]
 				}
@@ -5629,9 +5629,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1088,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:plate"
+							"id:8": "ml:Rubber:plate"
 						}
 					]
 				}
@@ -5671,9 +5671,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1315,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cableGt01"
+							"id:8": "ml:Tin:cableGt01"
 						}
 					]
 				}
@@ -6056,9 +6056,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 597,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Hydrogen:cell"
 						}
 					]
 				}
@@ -6113,9 +6113,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 889,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Oil:cell"
 						}
 					]
 				}
@@ -6207,9 +6207,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1088,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ingot"
+							"id:8": "ml:Rubber:ingot"
 						}
 					]
 				}
@@ -6249,9 +6249,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 646,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Iron:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -6458,9 +6458,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 876,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Nitrogen:cell"
 						}
 					]
 				}
@@ -6515,9 +6515,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 911,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Oxygen:cell"
 						}
 					]
 				}
@@ -6557,9 +6557,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 1,
-							"Damage:2": 618,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:dust"
+							"id:8": "ml:Indium:dust"
 						}
 					]
 				}
@@ -7313,9 +7313,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 162,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:stick"
+							"id:8": "ml:Brass:stick"
 						}
 					]
 				}
@@ -7405,9 +7405,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 1202,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:pipeMedium"
+							"id:8": "ml:StainlessSteel:pipeMedium"
 						}
 					]
 				}
@@ -7531,9 +7531,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 840,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:stick"
+							"id:8": "ml:NeodymiumMagnetic:stick"
 						}
 					]
 				}
@@ -7763,9 +7763,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 849,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:NetherQuartz:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -7870,9 +7870,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 694,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:LightFuel:cell"
 						}
 					]
 				}
@@ -7996,9 +7996,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1207,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:stick"
+							"id:8": "ml:SteelMagnetic:stick"
 						}
 					]
 				}
@@ -8038,9 +8038,9 @@
 					"fromItems:9": [
 						{
 							"Count:3": 64,
-							"Damage:2": 689,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rawOre"
+							"id:8": "ml:Lead:rawOre"
 						}
 					],
 					"toItems:9": [
@@ -8145,9 +8145,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 221,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:cell"
+							"id:8": "ml:Chlorine:cell"
 						}
 					]
 				}
@@ -8187,9 +8187,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 1088,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ring"
+							"id:8": "ml:Rubber:ring"
 						}
 					]
 				}
@@ -8229,9 +8229,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 168,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:pipeMedium"
+							"id:8": "ml:Bronze:pipeMedium"
 						}
 					]
 				}
@@ -8271,9 +8271,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 16,
-							"Damage:2": 298,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:ingot"
+							"id:8": "ml:DamascusSteel:ingot"
 						}
 					]
 				}
@@ -8313,9 +8313,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 32,
-							"Damage:2": 269,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:wireGt01"
+							"id:8": "ml:Copper:wireGt01"
 						}
 					]
 				}
@@ -8974,9 +8974,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 1206,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:pipeMedium"
+							"id:8": "ml:Steel:pipeMedium"
 						}
 					]
 				}
@@ -9276,9 +9276,9 @@
 					"toItems:9": [
 						{
 							"Count:3": 4,
-							"Damage:2": 168,
+							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "materiallib:rotor"
+							"id:8": "ml:Bronze:rotor"
 						}
 					]
 				}

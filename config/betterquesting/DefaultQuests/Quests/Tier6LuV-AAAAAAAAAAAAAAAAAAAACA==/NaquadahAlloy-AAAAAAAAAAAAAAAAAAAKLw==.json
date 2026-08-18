@@ -29,9 +29,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 810,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:NaquadahAlloy:ingot"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -77,21 +77,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
-          "Damage:2": 807,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Naquadah:dust"
         },
         "1:10": {
           "Count:3": 9,
-          "Damage:2": 1333,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Trinium:dust"
         },
         "2:10": {
           "Count:3": 9,
-          "Damage:2": 189,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Carbon:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -107,9 +107,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 810,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:NaquadahAlloy:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -125,9 +125,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 810,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:NaquadahAlloy:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -153,15 +153,15 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:TungstenSteel:plate"
         },
         "4:10": {
           "Count:3": 2,
-          "Damage:2": 951,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt12"
+          "id:8": "ml:Platinum:wireGt12"
         },
         "5:10": {
           "Count:3": 1,

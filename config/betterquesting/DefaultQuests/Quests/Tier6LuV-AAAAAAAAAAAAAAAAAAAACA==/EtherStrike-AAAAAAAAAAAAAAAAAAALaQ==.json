@@ -22,9 +22,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 408,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:Ether:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -62,15 +62,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 1224,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:SulfuricAcid:cell"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 405,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ethanol:cell"
         }
       },
       "ignoreDisabled:1": 0,
@@ -103,9 +103,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 408,
+          "Damage:2": 0,
           "OreDict:8": "cellEther",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ether:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

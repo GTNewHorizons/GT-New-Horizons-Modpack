@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1466,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:prismarinesolution:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -113,15 +113,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1466,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:prismarinesolution:cell"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 208,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:CertusQuartz:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

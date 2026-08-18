@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Aluminium:frameGt"
         },
         "1:10": {
           "Count:3": 32,
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Aluminium:frameGt"
         },
         "1:10": {
           "Count:3": 2,
@@ -146,9 +146,9 @@
         },
         "5:10": {
           "Count:3": 48,
-          "Damage:2": 66,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:AnnealedCopper:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

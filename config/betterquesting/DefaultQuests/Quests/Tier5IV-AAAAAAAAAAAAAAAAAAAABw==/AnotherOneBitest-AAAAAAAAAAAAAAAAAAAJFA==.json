@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1071,
+        "Damage:2": 0,
         "OreDict:8": "dustRhodiumSalt",
-        "id:8": "materiallib:dust"
+        "id:8": "ml:RhodiumSalt:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -84,21 +84,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 280,
+          "Damage:2": 0,
           "OreDict:8": "dustCrudeRhodiumMetal",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:CrudeRhodiumMetal:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1100,
+          "Damage:2": 0,
           "OreDict:8": "dustSalt",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Salt:dust"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 221,
+          "Damage:2": 0,
           "OreDict:8": "cellChlorine",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Chlorine:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -114,9 +114,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 1071,
+          "Damage:2": 0,
           "OreDict:8": "dustRhodiumSalt",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:RhodiumSalt:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

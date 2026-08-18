@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 127,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:Bismuth:ingot"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -69,15 +69,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 1431,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellPlasma"
+          "id:8": "ml:Zinc:cellPlasma"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1257,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Tantalum:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -93,9 +93,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 127,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellPlasma"
+          "id:8": "ml:Bismuth:cellPlasma"
         }
       },
       "taskID:8": "bq_standard:retrieval"

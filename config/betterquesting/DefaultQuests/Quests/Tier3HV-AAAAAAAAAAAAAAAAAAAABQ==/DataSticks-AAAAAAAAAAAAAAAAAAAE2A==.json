@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 950,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Plastic:plate"
         },
         "1:10": {
           "Count:3": 8,
@@ -144,15 +144,15 @@
         },
         "4:10": {
           "Count:3": 64,
-          "Damage:2": 1049,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireFine"
+          "id:8": "ml:RedAlloy:wireFine"
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 950,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Plastic:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

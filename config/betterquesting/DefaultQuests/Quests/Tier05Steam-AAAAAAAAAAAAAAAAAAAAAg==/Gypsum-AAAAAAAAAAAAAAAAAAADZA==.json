@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 545,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Gypsum:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 545,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Gypsum:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 180,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Calcite:dust"
         }
       },
       "ignoreDisabled:1": 0,
@@ -129,27 +129,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 106,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:BasalticMineralSand:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 530,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:GraniticMineralSand:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 489,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:FullersEarth:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 545,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Gypsum:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -165,27 +165,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 106,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:BasalticMineralSand:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 530,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:GraniticMineralSand:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 489,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:FullersEarth:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 545,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Gypsum:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

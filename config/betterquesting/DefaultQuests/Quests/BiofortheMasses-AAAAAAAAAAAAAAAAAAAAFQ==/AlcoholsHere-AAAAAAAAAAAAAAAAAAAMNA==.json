@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 405,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:Ethanol:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -99,15 +99,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 405,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Ethanol:cell"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 773,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Methanol:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

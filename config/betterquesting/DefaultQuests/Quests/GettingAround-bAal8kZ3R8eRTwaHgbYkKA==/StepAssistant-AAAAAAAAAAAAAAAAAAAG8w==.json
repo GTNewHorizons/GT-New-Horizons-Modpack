@@ -79,15 +79,15 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 1088,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Rubber:plate"
         },
         "3:10": {
           "Count:3": 4,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Bronze:ingot"
         },
         "4:10": {
           "Count:3": 1,
@@ -144,9 +144,9 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 1088,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Rubber:plate"
         },
         "3:10": {
           "Count:3": 2,
@@ -156,9 +156,9 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Bronze:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

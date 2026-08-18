@@ -69,15 +69,15 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 1384,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:VibrantAlloy:dust"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 382,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:EnergeticAlloy:dust"
         }
       },
       "ignoreDisabled:1": 0,

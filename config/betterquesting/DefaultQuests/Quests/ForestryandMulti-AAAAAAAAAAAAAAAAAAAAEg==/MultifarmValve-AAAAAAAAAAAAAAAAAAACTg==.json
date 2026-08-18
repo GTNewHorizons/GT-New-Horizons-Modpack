@@ -140,9 +140,9 @@
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 1088,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:Rubber:ring"
         },
         "4:10": {
           "Count:3": 4,
@@ -152,9 +152,9 @@
         },
         "5:10": {
           "Count:3": 1,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:gearGt"
+          "id:8": "ml:Steel:gearGt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

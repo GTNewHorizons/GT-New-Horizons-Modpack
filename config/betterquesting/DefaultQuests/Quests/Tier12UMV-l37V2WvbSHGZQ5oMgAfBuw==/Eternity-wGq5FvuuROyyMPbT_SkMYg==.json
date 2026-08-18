@@ -30,9 +30,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 403,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ingot"
+        "id:8": "ml:Eternity:ingot"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -90,9 +90,9 @@
         },
         "2:10": {
           "Count:3": 10,
-          "Damage:2": 745,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:MagnetohydrodynamicallyConstrainedStarMatter:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -126,9 +126,9 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1001,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:PrimordialMatter:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

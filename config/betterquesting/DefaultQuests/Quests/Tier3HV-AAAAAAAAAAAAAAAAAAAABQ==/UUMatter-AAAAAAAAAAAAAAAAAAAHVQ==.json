@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1350,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:UUAmplifier:cell"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:StainlessSteel:ingot"
         },
         "2:10": {
           "Count:3": 2,

@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 194,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:CastIron:ingot"
         },
         "1:10": {
           "Count:3": 4,
@@ -200,9 +200,9 @@
         },
         "3:10": {
           "Count:3": 4,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Iron:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

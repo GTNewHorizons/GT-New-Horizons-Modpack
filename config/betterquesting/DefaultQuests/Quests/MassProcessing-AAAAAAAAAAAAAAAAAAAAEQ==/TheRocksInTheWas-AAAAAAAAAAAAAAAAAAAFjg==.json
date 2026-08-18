@@ -69,21 +69,21 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 1085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:RockSalt:ore_stone"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 1056,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Redstone:ore_stone"
         },
         "3:10": {
           "Count:3": 64,
-          "Damage:2": 683,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Lapis:ore_stone"
         }
       },
       "ignoreDisabled:1": 0,
@@ -140,9 +140,9 @@
         },
         "1:10": {
           "Count:3": 15,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Steel:frameGt"
         },
         "2:10": {
           "Count:3": 7,

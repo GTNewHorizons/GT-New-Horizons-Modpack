@@ -93,9 +93,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 361,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Dysprosium:frameGt"
         },
         "2:10": {
           "Count:3": 28,
@@ -105,27 +105,27 @@
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 1270,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:sheetmetal"
+          "id:8": "ml:TengamAttuned:sheetmetal"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 1018,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:sheetmetal"
+          "id:8": "ml:Quantium:sheetmetal"
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 1105,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:sheetmetal"
+          "id:8": "ml:Samarium:sheetmetal"
         },
         "6:10": {
           "Count:3": 4,
-          "Damage:2": 1270,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:TengamAttuned:frameGt"
         },
         "7:10": {
           "Count:3": 4,

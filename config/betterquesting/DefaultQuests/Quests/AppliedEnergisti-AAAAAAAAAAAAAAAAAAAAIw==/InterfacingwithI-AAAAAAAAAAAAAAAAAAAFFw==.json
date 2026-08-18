@@ -63,15 +63,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Titanium:ingot"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 951,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Platinum:ingot"
         },
         "2:10": {
           "Count:3": 1,

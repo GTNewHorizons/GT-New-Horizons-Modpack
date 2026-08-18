@@ -108,9 +108,9 @@
         },
         "2:10": {
           "Count:3": 40,
-          "Damage:2": 745,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:MagnetohydrodynamicallyConstrainedStarMatter:frameGt"
         },
         "3:10": {
           "Count:3": 28,
@@ -126,21 +126,21 @@
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 1356,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:Universium:frameGt"
         },
         "6:10": {
           "Count:3": 8,
-          "Damage:2": 1402,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:WhiteDwarfMatter:frameGt"
         },
         "7:10": {
           "Count:3": 8,
-          "Damage:2": 137,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:BlackDwarfMatter:frameGt"
         },
         "8:10": {
           "Count:3": 4,

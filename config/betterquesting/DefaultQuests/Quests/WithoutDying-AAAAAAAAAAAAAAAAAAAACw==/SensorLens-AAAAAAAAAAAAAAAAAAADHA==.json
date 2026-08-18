@@ -114,9 +114,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1049,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ring"
+          "id:8": "ml:RedAlloy:ring"
         },
         "1:10": {
           "Count:3": 4,
@@ -126,15 +126,15 @@
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 1202,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:StainlessSteel:screw"
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 319,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:lens"
+          "id:8": "ml:Diamond:lens"
         },
         "4:10": {
           "Count:3": 2,

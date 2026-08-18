@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 776,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:ore_stone"
+        "id:8": "ml:Mica:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -104,27 +104,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 776,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Mica:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 665,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Kyanite:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 192,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Cassiterite:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 965,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:rawOre"
+          "id:8": "ml:Pollucite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -140,27 +140,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 776,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Mica:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 665,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Kyanite:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 192,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Cassiterite:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 965,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ore_stone"
+          "id:8": "ml:Pollucite:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

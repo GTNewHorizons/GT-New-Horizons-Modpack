@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1097,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:RutheniumTetroxide:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -84,9 +84,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
-          "Damage:2": 590,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:HotRutheniumTetroxideSolution:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -102,15 +102,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 14,
-          "Damage:2": 1097,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:RutheniumTetroxide:cell"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 1100,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:Salt:dust"
         },
         "2:10": {
           "Count:3": 3,

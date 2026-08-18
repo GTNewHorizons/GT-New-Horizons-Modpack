@@ -136,15 +136,15 @@
         },
         "1:10": {
           "Count:3": 20,
-          "Damage:2": 1405,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Wood:screw"
         },
         "2:10": {
           "Count:3": 5,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "springAnyIron",
-          "id:8": "materiallib:spring"
+          "id:8": "ml:Iron:spring"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

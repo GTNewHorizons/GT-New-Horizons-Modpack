@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 962,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:PlutoniumBasedLiquidFuel(ExcitedState):cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -61,15 +61,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 962,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:PlutoniumBasedLiquidFuel(ExcitedState):cell"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 960,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:PlutoniumBasedLiquidFuel:cell"
         }
       },
       "ignoreDisabled:1": 0,
@@ -89,9 +89,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 962,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:PlutoniumBasedLiquidFuel(ExcitedState):cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

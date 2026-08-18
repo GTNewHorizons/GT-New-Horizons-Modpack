@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 488,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:cell"
+        "id:8": "ml:Fuel:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -70,15 +70,15 @@
         },
         "1:10": {
           "Count:3": 30,
-          "Damage:2": 694,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:LightFuel:cell"
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 565,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:HeavyFuel:cell"
         },
         "3:10": {
           "Count:3": 1,
@@ -121,9 +121,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 488,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:Fuel:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

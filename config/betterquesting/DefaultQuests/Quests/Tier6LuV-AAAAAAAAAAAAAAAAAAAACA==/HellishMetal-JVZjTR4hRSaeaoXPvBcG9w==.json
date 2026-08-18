@@ -22,9 +22,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 573,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "materiallib:block"
+        "id:8": "ml:HellishMetal:block"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -90,9 +90,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1065,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:block"
+          "id:8": "ml:Rhodium:block"
         },
         "1:10": {
           "Count:3": 2,
@@ -102,9 +102,9 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 1289,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:ingot"
+          "id:8": "ml:Thaumium:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -120,9 +120,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1065,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:block"
+          "id:8": "ml:Rhodium:block"
         },
         "1:10": {
           "Count:3": 8,
@@ -132,15 +132,15 @@
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 631,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:dust"
+          "id:8": "ml:InfusedFire:dust"
         },
         "3:10": {
           "Count:3": 8,
-          "Damage:2": 1289,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cellMolten"
+          "id:8": "ml:Thaumium:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -156,9 +156,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 573,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:block"
+          "id:8": "ml:HellishMetal:block"
         }
       },
       "taskID:8": "bq_standard:retrieval"

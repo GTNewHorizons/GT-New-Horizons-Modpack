@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 875,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:cell"
+          "id:8": "ml:NitroFuel:cell"
         },
         "1:10": {
           "Count:3": 2,
@@ -134,9 +134,9 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeMedium"
+          "id:8": "ml:Steel:pipeMedium"
         },
         "5:10": {
           "Count:3": 1,

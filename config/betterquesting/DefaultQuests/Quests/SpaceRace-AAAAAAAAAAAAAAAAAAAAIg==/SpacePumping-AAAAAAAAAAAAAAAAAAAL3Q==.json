@@ -149,9 +149,9 @@
         },
         "1:10": {
           "Count:3": 93,
-          "Damage:2": 1346,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:frameGt"
+          "id:8": "ml:TungstenSteel:frameGt"
         },
         "2:10": {
           "Count:3": 12,
@@ -161,9 +161,9 @@
         },
         "3:10": {
           "Count:3": 6,
-          "Damage:2": 1066,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:blockCasingAdvanced"
+          "id:8": "ml:Rhodium-PlatedPalladium:blockCasingAdvanced"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

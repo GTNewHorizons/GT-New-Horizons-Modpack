@@ -140,21 +140,21 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 1088,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:round"
+          "id:8": "ml:Rubber:round"
         },
         "2:10": {
           "Count:3": 3,
-          "Damage:2": 646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:stick"
+          "id:8": "ml:Iron:stick"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "plateSteel",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Steel:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

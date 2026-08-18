@@ -72,9 +72,9 @@
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeTiny"
+          "id:8": "ml:Steel:pipeTiny"
         },
         "2:10": {
           "Count:3": 1,
@@ -125,21 +125,21 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:pipeTiny"
+          "id:8": "ml:Steel:pipeTiny"
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 45,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Aluminium:plate"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 1206,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:screw"
+          "id:8": "ml:Steel:screw"
         },
         "5:10": {
           "Count:3": 1,

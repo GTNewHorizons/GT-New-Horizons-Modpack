@@ -117,9 +117,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1405,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:plate"
+          "id:8": "ml:Wood:plate"
         },
         "1:10": {
           "Count:3": 2,
@@ -165,9 +165,9 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 269,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "materiallib:wireGt01"
+          "id:8": "ml:Copper:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
