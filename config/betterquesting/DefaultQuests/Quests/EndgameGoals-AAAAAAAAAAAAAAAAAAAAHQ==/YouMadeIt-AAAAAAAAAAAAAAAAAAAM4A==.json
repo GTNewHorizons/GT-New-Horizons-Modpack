@@ -21,7 +21,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32019,
+        "Damage:2": 32039,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.01"
       },
@@ -69,41 +69,35 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32019,
+          "Damage:2": 32023,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 32023,
+          "Damage:2": 32027,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 32027,
+          "Damage:2": 32031,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 32031,
+          "Damage:2": 32035,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 32035,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "5:10": {
-          "Count:3": 1,
           "Damage:2": 32039,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
-        "6:10": {
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 32043,
           "OreDict:8": "",
