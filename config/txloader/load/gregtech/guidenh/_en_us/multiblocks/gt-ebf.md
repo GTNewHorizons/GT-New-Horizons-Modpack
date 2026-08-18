@@ -102,7 +102,7 @@ To easily reach the buses and hatches without having to run your logistics under
 > * Ensure there is space for any outputs if void protection is enabled.
 
 # Usage
-The EBF is finally ready for use once the structure is formed and all maintenance issues are repaired. However, there are no [LV]() recipes despite the player only having access to LV energy hatches; processing <ItemImage id="materiallib:ingot:1206" /> steel and <ItemImage id="materiallib:ingot:45" /> aluminium requires at least [MV]() power. 
+The EBF is finally ready for use once the structure is formed and all maintenance issues are repaired. However, there are no [LV]() recipes despite the player only having access to LV energy hatches; processing <ItemImage id="ml:Steel:ingot" /> steel and <ItemImage id="ml:Aluminium:ingot" /> aluminium requires at least [MV]() power. 
 
 The solution is to build two energy hatches into the structure to [overclock]() the machine to the next voltage tier. Energy hatches normally only pull 1A of power but they are capable of pulling up to 2A for scenarios such as this. This means two energy hatches can pull 4A of power, or the equivalent of 1A of the next voltage tier.
 
@@ -136,7 +136,7 @@ Place a <ItemImage id="gregtech:gt.blockmachines:171" /> Battery Buffer with 4+ 
 ## Heat Capacity
 The [heating coils]() built into the structure determine the heat capacity of the EBF and therefore which recipes it can run. Use a <ItemImage id="gregtech:gt.metaitem.01:32762" /> [Portable Scanner]() on the controller to see its current heat capacity, and [NEI]() to see a recipe's minimum heat capacity. 
 
-For example, a cupronickel EBF has a heat capacity of 1,801K which is more than enough to smelt steel (1,000K) and aluminium (1,300K), but **NOT** <ItemImage id="materiallib:ingot:1149" /> silicon solar grade (2,273K). There is also a +100K heat bonus for every voltage tier past [MV](), as seen in the following chart:
+For example, a cupronickel EBF has a heat capacity of 1,801K which is more than enough to smelt steel (1,000K) and aluminium (1,300K), but **NOT** <ItemImage id="ml:SiliconSolarGrade:ingot" /> silicon solar grade (2,273K). There is also a +100K heat bonus for every voltage tier past [MV](), as seen in the following chart:
 
 <LineChart title="Heat Bonus" categories="LV,MV,HV,EV,IV,LuV,ZPM,UV,UHV,UEV,UIV,UMV,UXV,MAX,MAX+" yAxisUnit="K" width="600">
   <Series name="Heat" data="0,0,100,200,300,400,500,600,700,800,900,1000,1100,1200,1300" color="#E15759"/>

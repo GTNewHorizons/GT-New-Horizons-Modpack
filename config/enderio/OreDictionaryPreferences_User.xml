@@ -4,58 +4,58 @@ Entries in this file take precedence over the values in the core file
 
 <OreDictionaryPreferences>
   <preference oreDictionary="dustGold" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="519" />
+    <itemStack modID="ml" itemName="Gold:dust" />
   </preference>
   <preference oreDictionary="dustCopper" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="269" />
+    <itemStack modID="ml" itemName="Copper:dust" />
   </preference>
   <preference oreDictionary="dustIron" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="646" />
+    <itemStack modID="ml" itemName="Iron:dust" />
   </preference>
   <preference oreDictionary="dustEnderPearl" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="378" />
+    <itemStack modID="ml" itemName="EnderPearl:dust" />
   </preference>
   <preference oreDictionary="dustCoal" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="245" />
+    <itemStack modID="ml" itemName="Coal:dust" />
   </preference>
   <preference oreDictionary="dustLapis" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="683" />
+    <itemStack modID="ml" itemName="Lapis:dust" />
   </preference>
   <preference oreDictionary="pulpWood" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1405" />
+    <itemStack modID="ml" itemName="Wood:dust" />
   </preference>
   <preference oreDictionary="dustAluminium" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="45" />
+    <itemStack modID="ml" itemName="Aluminium:dust" />
   </preference>
   <preference oreDictionary="dustBronze" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="168" />
+    <itemStack modID="ml" itemName="Bronze:dust" />
   </preference>
   <preference oreDictionary="dustSilver" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1154" />
+    <itemStack modID="ml" itemName="Silver:dust" />
   </preference>
   <preference oreDictionary="dustLead" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="689" />
+    <itemStack modID="ml" itemName="Lead:dust" />
   </preference>
   <preference oreDictionary="dustTin" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1315" />
+    <itemStack modID="ml" itemName="Tin:dust" />
   </preference>
   <preference oreDictionary="dustSulfur" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1220" />
+    <itemStack modID="ml" itemName="Sulfur:dust" />
   </preference>
   <preference oreDictionary="dustArdite" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="86" />
+    <itemStack modID="ml" itemName="Ardite:dust" />
   </preference>
   <preference oreDictionary="dustCobalt" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="247" />
+    <itemStack modID="ml" itemName="Cobalt:dust" />
   </preference>
   <preference oreDictionary="dustManyullyn" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="750" />
+    <itemStack modID="ml" itemName="Manyullyn:dust" />
   </preference>
   <preference oreDictionary="foodFlour" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="1401" />
+    <itemStack modID="ml" itemName="Wheat:dust" />
   </preference>
   <preference oreDictionary="dustObsidian" >
-    <itemStack modID="materiallib" itemName="dust" itemMeta="884" />
+    <itemStack modID="ml" itemName="Obsidian:dust" />
   </preference>
 
 

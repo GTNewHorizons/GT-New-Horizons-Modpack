@@ -35,7 +35,7 @@ The <Color id="GREEN">XLST</Color> has no tiered components. The glass can be an
 - 372-439 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:1"/>
 - 100 Pipe Casing (depends on type) <ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 36 Tiered Glass (any)
-- 34 Frame Box (depends on type) <ItemImage id="materiallib:frameGt:1206"/>
+- 34 Frame Box (depends on type) <ItemImage id="ml:Steel:frameGt"/>
 - 20 <ItemLink id="gregtech:gt.blockcasings.cyclotron_coils"/><ItemImage id="gregtech:gt.blockcasings.cyclotron_coils"/>
 - 16 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
 - 1 Dynamo Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>

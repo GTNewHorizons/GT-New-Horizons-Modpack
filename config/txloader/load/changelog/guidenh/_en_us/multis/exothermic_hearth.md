@@ -32,7 +32,7 @@ The <Color id="GREEN">ExH</Color> has two tiered components. The heating coils d
 - 308 <ItemLink id="gregtech:gt.blockcasings11:7"/><ItemImage id="gregtech:gt.blockcasings11:7"/>
 - 280 <ItemLink id="miscutils:miscutils.blockcasings:14"/><ItemImage id="miscutils:miscutils.blockcasings:14"/>
 - 131 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 56 <ItemLink id="materiallib:frameGt:1469"/><ItemImage id="materiallib:frameGt:1469"/>
+- 56 <ItemLink id="ml:prismaticnaquadah:frameGt"/><ItemImage id="ml:prismaticnaquadah:frameGt"/>
 - 1+ Energy Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 <ItemLink id="gregtech:gt.blockmachines:90"/> (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:90"/>
 - 1 Muffler Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:91"/>

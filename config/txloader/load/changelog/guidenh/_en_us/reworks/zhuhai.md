@@ -28,8 +28,8 @@ The <Color id="GREEN">Zhuhai</Color> has no tiered components. Buses/hatches may
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15544"/><ItemImage id="gregtech:gt.blockmachines:15544"/>
 - 160-167 <ItemLink id="miscutils:gtplusplus.blockcasings.3"/><ItemImage id="miscutils:gtplusplus.blockcasings.3"/>
-- 12 <ItemLink id="materiallib:sheetmetal:1202"/><ItemImage id="materiallib:sheetmetal:1202"/>
-- 12 <ItemLink id="materiallib:frameGt:1202"/><ItemImage id="materiallib:frameGt:1202"/>
+- 12 <ItemLink id="ml:StainlessSteel:sheetmetal"/><ItemImage id="ml:StainlessSteel:sheetmetal"/>
+- 12 <ItemLink id="ml:StainlessSteel:frameGt"/><ItemImage id="ml:StainlessSteel:frameGt"/>
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />

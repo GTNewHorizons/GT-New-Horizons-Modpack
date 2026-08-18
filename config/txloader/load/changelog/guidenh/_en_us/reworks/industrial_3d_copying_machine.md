@@ -30,7 +30,7 @@ Unique to the <Color id="GREEN">Industrial 3D Copying Machine</Color> is the chi
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15554"/><ItemImage id="gregtech:gt.blockmachines:15554"/>
 - 40-48 <ItemLink id="miscutils:gtplusplus.blockcasings.5:5"/><ItemImage id="miscutils:gtplusplus.blockcasings.5:5"/>
-- 37 <ItemLink id="materiallib:frameGt:1206"/><ItemImage id="materiallib:frameGt:1206"/>
+- 37 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 18 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>

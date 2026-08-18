@@ -28,7 +28,7 @@ The <Color id="GREEN">LNE</Color> has one tiered component. The "main casing" us
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:31088"/> <ItemImage id="gregtech:gt.blockmachines:31088"/>
-- 34 <ItemLink id="materiallib:frameGt:975"/><ItemImage id="materiallib:frameGt:975"/>
+- 34 <ItemLink id="ml:Polytetrafluoroethylene:frameGt"/><ItemImage id="ml:Polytetrafluoroethylene:frameGt"/>
 - 30-46 Tiered "Main" Casings <ItemImage id="gregtech:gt.blockcasings12:5"/>
 - 15 <ItemLink id="gregtech:gt.blockcasings8:1"/><ItemImage id="gregtech:gt.blockcasings8:1"/>
 - 1+ Dynamo Hatch (any tiered casing) <ItemImage id="gregtech:gt.blockmachines:15230"/>
@@ -40,7 +40,7 @@ The <Color id="GREEN">LNE</Color> has one tiered component. The "main casing" us
 <Color id="GREEN">LNEs</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches.
 
 ## Usage:
-The <Color id="GREEN"></Color> generates power from acids. A wide variety of acids are available, and many of the available acids have had their EU values tweaked, so it is well worth double checking some of your old favourites. Alongside this, some new acid lines have been added, including the all-new <ItemLink id="materiallib:dust:483"/><ItemImage id="materiallib:dust:483"/>.
+The <Color id="GREEN"></Color> generates power from acids. A wide variety of acids are available, and many of the available acids have had their EU values tweaked, so it is well worth double checking some of your old favourites. Alongside this, some new acid lines have been added, including the all-new <ItemLink id="ml:FranciumHydroxide:dust"/><ItemImage id="ml:FranciumHydroxide:dust"/>.
 
 ### Base Boosting
 The <Color id="GREEN">LNE</Color> can take a base in the input bus to boost the efficiency of your acid fuels, as per the table below. These bases are consumed one by one in order of entry in the input bus.

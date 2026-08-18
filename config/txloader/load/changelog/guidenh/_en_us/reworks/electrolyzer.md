@@ -29,7 +29,7 @@ The <Color id="GREEN">Industrial Electrolyzer</Color> has no tiered components. 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15514" /> <ItemImage id="gregtech:gt.blockmachines:15514" />
 - 6-43 <ItemLink id="miscutils:miscutils.blockcasings:5" /> <ItemImage id="miscutils:miscutils.blockcasings:5" />
-- 12 <ItemLink id="materiallib:frameGt:992" /> <ItemImage id="materiallib:frameGt:992" />
+- 12 <ItemLink id="ml:Potin:frameGt" /> <ItemImage id="ml:Potin:frameGt" />
 - 4 <ItemLink id="gregtech:gt.blockcasings11" /> <ItemImage id="gregtech:gt.blockcasings11" />
 - 4 <ItemLink id="gregtech:gt.blockcasings11:1" /> <ItemImage id="gregtech:gt.blockcasings11:1" />
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />

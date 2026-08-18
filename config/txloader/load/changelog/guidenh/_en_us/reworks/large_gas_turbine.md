@@ -33,7 +33,7 @@ Unique to large turbines is the turbine housing which is effectively a ULV input
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15527"/><ItemImage id="gregtech:gt.blockmachines:15527"/>
-- 14 <ItemLink id="materiallib:frameGt:1206"/><ItemImage id="materiallib:frameGt:1206"/>
+- 14 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 8-13 <ItemLink id="gregtech:gt.blockcasings4:10"/><ItemImage id="gregtech:gt.blockcasings4:10"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings11"/><ItemImage id="gregtech:gt.blockcasings11"/>
 - 1 Dynamo Hatch (back center turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>

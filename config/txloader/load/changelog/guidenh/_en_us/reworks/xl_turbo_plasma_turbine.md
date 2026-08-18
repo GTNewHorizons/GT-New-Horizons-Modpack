@@ -34,7 +34,7 @@ The <Color id="GREEN">XLPT</Color> has no tiered components. The glass can be an
 - 100 <ItemLink id="gregtech:gt.blockcasings5:5"/><ItemImage id="gregtech:gt.blockcasings5:5"/>
 - 72 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
 - 36 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
-- 32 <ItemLink id="materiallib:frameGt:1346"/><ItemImage id="materiallib:frameGt:1346"/>
+- 32 <ItemLink id="ml:TungstenSteel:frameGt"/><ItemImage id="ml:TungstenSteel:frameGt"/>
 - 16 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
 - 7 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
 - 1+ Dynamo Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>

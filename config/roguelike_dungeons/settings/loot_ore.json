@@ -4,56 +4,56 @@
     {"level": 0, "loot_pools": [{"type": "ORE", "each": true, "quantity": 8}, {"type": "WEAPONS", "each": true, "quantity": 4}], "loot": [
         {"data": {"name": "minecraft:emerald", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         {"data": {"name": "minecraft:diamond", "meta": 0, "min": 1, "max": 3}, "weight": 10},
-        {"data": {"name": "materiallib:ingot", "meta": 1206, "min": 3, "max": 4}, "weight": 10},
-        {"data": {"name": "materiallib:ingot", "meta": 194, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 1431, "min": 4, "max": 10}, "weight": 15},
+        {"data": {"name": "ml:Steel:ingot", "meta": 0, "min": 3, "max": 4}, "weight": 10},
+        {"data": {"name": "ml:CastIron:ingot", "meta": 0, "min": 4, "max": 10}, "weight": 15},
+        {"data": {"name": "ml:Zinc:ingot", "meta": 0, "min": 4, "max": 10}, "weight": 15},
         {"data": {"name": "minecraft:gold_ingot", "meta": 0, "min": 5, "max": 8}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 269, "min": 5, "max": 15}, "weight": 30},
+        {"data": {"name": "ml:Copper:ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30},
 	{"data": {"name": "minecraft:iron_ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30},
         {"data": {"name": "minecraft:coal", "meta": 0, "min": 5, "max": 15}, "weight": 20}
       ]
     },
     {"level": 1, "loot_pools": [{"type": "ORE", "each": true, "quantity": 9}, {"type": "WEAPONS", "each": true, "quantity": 4}], "loot": [
-        {"data": {"name": "materiallib:ingot", "meta": 298, "min": 3, "max": 5}, "weight": 10},
-        {"data": {"name": "materiallib:ingot", "meta": 1381, "min": 3, "max": 5}, "weight": 10},
-        {"data": {"name": "materiallib:ingot", "meta": 1154, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 168, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 1206, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 1315, "min": 5, "max": 15}, "weight": 30},
-	{"data": {"name": "materiallib:ingot", "meta": 194, "min": 3, "max": 8}, "weight": 30},
+        {"data": {"name": "ml:DamascusSteel:ingot", "meta": 0, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "ml:VanadiumSteel:ingot", "meta": 0, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "ml:Silver:ingot", "meta": 0, "min": 4, "max": 10}, "weight": 15},
+        {"data": {"name": "ml:Bronze:ingot", "meta": 0, "min": 4, "max": 10}, "weight": 15},
+        {"data": {"name": "ml:Steel:ingot", "meta": 0, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "ml:Tin:ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30},
+	{"data": {"name": "ml:CastIron:ingot", "meta": 0, "min": 3, "max": 8}, "weight": 30},
         {"data": {"name": "minecraft:iron_ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30}
     ]
     },
     {"level": 2, "loot_pools": [{"type": "ORE", "each": true, "quantity": 9}, {"type": "WEAPONS", "each": true, "quantity": 3}], "loot": [
-        {"data": {"name": "materiallib:gemExquisite", "meta": 372, "min": 1, "max": 2}, "weight": 5},
-        {"data": {"name": "materiallib:gemExquisite", "meta": 319, "min": 1, "max": 2}, "weight": 5},
-        {"data": {"name": "materiallib:gem", "meta": 1092, "min": 2, "max": 3}, "weight": 15},
+        {"data": {"name": "ml:Emerald:gemExquisite", "meta": 0, "min": 1, "max": 2}, "weight": 5},
+        {"data": {"name": "ml:Diamond:gemExquisite", "meta": 0, "min": 1, "max": 2}, "weight": 5},
+        {"data": {"name": "ml:Ruby:gem", "meta": 0, "min": 2, "max": 3}, "weight": 15},
         {"data": {"name": "minecraft:emerald", "meta": 0, "min": 2, "max": 3}, "weight": 15},
         {"data": {"name": "minecraft:diamond", "meta": 0, "min": 2, "max": 3}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 1154, "min": 3, "max": 9}, "weight": 30},
+        {"data": {"name": "ml:Silver:ingot", "meta": 0, "min": 3, "max": 9}, "weight": 30},
 	{"data": {"name": "minecraft:gold_ingot", "meta": 0, "min": 3, "max": 9}, "weight": 30}
       ]
     },
     {"level": 3, "loot_pools": [{"type": "ORE", "each": true, "quantity": 10}, {"type": "WEAPONS", "each": true, "quantity": 4}], "loot": [
-        {"data": {"name": "materiallib:ingot", "meta": 1342, "min": 6, "max": 18}, "weight": 10},
-        {"data": {"name": "materiallib:ingot", "meta": 247, "min": 3, "max": 5}, "weight": 10},
-        {"data": {"name": "materiallib:ingot", "meta": 1088, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "ml:Tumbaga:ingot", "meta": 0, "min": 6, "max": 18}, "weight": 10},
+        {"data": {"name": "ml:Cobalt:ingot", "meta": 0, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "ml:Rubber:ingot", "meta": 0, "min": 3, "max": 5}, "weight": 10},
         {"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 1049, "min": 4, "max": 6}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 168, "min": 5, "max": 15}, "weight": 30},
+        {"data": {"name": "ml:RedAlloy:ingot", "meta": 0, "min": 4, "max": 6}, "weight": 15},
+        {"data": {"name": "ml:Bronze:ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30},
 	{"data": {"name": "minecraft:redstone", "meta": 0, "min": 3, "max": 24}, "weight": 30}
     ]
     },
     {
       "level": 4, "loot_pools": [{"type": "ORE", "each": true, "quantity": 8}, {"type": "WEAPONS", "each": true, "quantity": 3}], "loot": [
-        {"data": {"name": "materiallib:dust", "meta": 455, "min": 1, "max": 2}, "weight": 9},
+        {"data": {"name": "ml:Firestone:dust", "meta": 0, "min": 1, "max": 2}, "weight": 9},
         {"data": {"name": "etfuturum:ancient_debris", "meta": 0, "min": 1, "max": 2}, "weight": 6},
-        {"data": {"name": "materiallib:ingot", "meta": 298, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 1381, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 1206, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "materiallib:ingot", "meta": 689, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "materiallib:dust", "meta": 1220, "min": 2, "max": 4}, "weight": 15},
-	{"data": {"name": "materiallib:ingot", "meta": 168, "min": 5, "max": 15}, "weight": 30}
+        {"data": {"name": "ml:DamascusSteel:ingot", "meta": 0, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "ml:VanadiumSteel:ingot", "meta": 0, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "ml:Steel:ingot", "meta": 0, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "ml:Lead:ingot", "meta": 0, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "ml:Sulfur:dust", "meta": 0, "min": 2, "max": 4}, "weight": 15},
+	{"data": {"name": "ml:Bronze:ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30}
       ]
     }
   ]

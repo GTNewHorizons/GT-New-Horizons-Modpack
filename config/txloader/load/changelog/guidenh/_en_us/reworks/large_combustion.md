@@ -28,7 +28,7 @@ The <Color id="GREEN">LCE</Color> has no tiered components. The maintenance hatc
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15533"/><ItemImage id="gregtech:gt.blockmachines:15533"/>
-- 21 <ItemLink id="materiallib:frameGt:975"/><ItemImage id="materiallib:frameGt:975"/>
+- 21 <ItemLink id="ml:Polytetrafluoroethylene:frameGt"/><ItemImage id="ml:Polytetrafluoroethylene:frameGt"/>
 - 19 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
 - 10-15 <ItemLink id="gregtech:gt.blockcasings4:2"/><ItemImage id="gregtech:gt.blockcasings4:2"/>
 - 8 <ItemLink id="gregtech:gt.blockcasings4:14"/><ItemImage id="gregtech:gt.blockcasings4:14"/>

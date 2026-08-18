@@ -31,9 +31,9 @@ The <Color id="GREEN">PGS</Color> has one tiered component. The heating coils de
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15559"/><ItemImage id="gregtech:gt.blockmachines:15559"/>
 - 184 <ItemLink id="gtnhintergalactic:gassiphoncasing"/><ItemImage id="gtnhintergalactic:gassiphoncasing"/>
-- 93 <ItemLink id="materiallib:frameGt:1346"/><ItemImage id="materiallib:frameGt:1346"/>
+- 93 <ItemLink id="ml:TungstenSteel:frameGt"/><ItemImage id="ml:TungstenSteel:frameGt"/>
 - 12 Heating Coil (Tiered) <ItemLink id="gregtech:gt.blockcasings5:13"/><ItemImage id="gregtech:gt.blockcasings5:13"/>
-- 6 <ItemLink id="materiallib:blockCasingAdvanced:1066"/><ItemImage id="materiallib:blockCasingAdvanced:1066"/>
+- 6 <ItemLink id="ml:Rhodium-PlatedPalladium:blockCasingAdvanced"/><ItemImage id="ml:Rhodium-PlatedPalladium:blockCasingAdvanced"/>
 - 1 Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />

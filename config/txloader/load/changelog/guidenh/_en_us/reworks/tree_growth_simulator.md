@@ -28,7 +28,7 @@ The <Color id="GREEN">TGS</Color> has no tiered components. The glass can be any
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15541"/><ItemImage id="gregtech:gt.blockmachines:15541"/>
-- 60 <ItemLink id="materiallib:frameGt:1206"/><ItemImage id="materiallib:frameGt:1206"/>
+- 60 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 57 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 45-55 <ItemLink id="miscutils:gtplusplus.blockcasings.2:15"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:15"/>
 - 25 Dirt <ItemImage id="minecraft:dirt"/> / Grass <ItemImage id="minecraft:grass"/>

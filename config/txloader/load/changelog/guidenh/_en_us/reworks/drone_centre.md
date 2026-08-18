@@ -37,9 +37,9 @@ Unique to the <Color id="GREEN">Drone Centre</Color> is the <Color id="BLUE">Dro
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15568" /> <ItemImage id="gregtech:gt.blockmachines:15568" />
 - 61 <ItemLink id="gregtech:gt.blockcasings2:13" /> <ItemImage id="gregtech:gt.blockcasings2:13" />
-- 47 <ItemLink id="materiallib:frameGt:1206" /> <ItemImage id="materiallib:frameGt:1206" />
+- 47 <ItemLink id="ml:Steel:frameGt" /> <ItemImage id="ml:Steel:frameGt" />
 - 29 <ItemLink id="chisel:hempcrete" /> (any color) <ItemImage id="chisel:hempcrete" /> 
-- 28 <ItemLink id="materiallib:frameGt:646" /> <ItemImage id="materiallib:frameGt:646" />
+- 28 <ItemLink id="ml:Iron:frameGt" /> <ItemImage id="ml:Iron:frameGt" />
 - 20-26 <ItemLink id="gregtech:gt.blockcasings2" /> <ItemImage id="gregtech:gt.blockcasings2" />
 - 1+ Input Bus (any steel machine casing) <ItemImage id="gregtech:gt.blockmachines:70" />
 

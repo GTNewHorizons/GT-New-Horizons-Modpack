@@ -28,7 +28,7 @@ The length of the <Color id="GREEN">Industrial Farm</Color> ranges from 3-14 blo
 - 26-48 <ItemLink id="cropsnh:cropsnh.casings1" /> <ItemImage id="cropsnh:cropsnh.casings1" />
 - 4-48 Tiered Glass <ItemImage id="bartworks:BW_TieredGlass:8" />
 - 3-36 Seed Bed (Tiered) <ItemImage id="cropsnh:cropsnh.seedBed:2" />
-- 1-12 <ItemLink id="materiallib:frameGt:1405" /> <ItemImage id="materiallib:frameGt:1405" />
+- 1-12 <ItemLink id="ml:Wood:frameGt" /> <ItemImage id="ml:Wood:frameGt" />
 - 0-12 Upgrade Unit (any wood frame box) <ItemImage id="cropsnh:cropsnh.environmentalEnhancementUnit:2" />
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />

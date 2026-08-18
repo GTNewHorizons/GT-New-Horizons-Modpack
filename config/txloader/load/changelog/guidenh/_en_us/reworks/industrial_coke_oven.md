@@ -32,7 +32,7 @@ The <Color id="GREEN">ICO</Color> has two tiered components. The coke oven casin
 ### Base Structure Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15543"/><ItemImage id="gregtech:gt.blockmachines:15543"/>
 - 35-48 <ItemLink id="miscutils:miscutils.blockcasings:1"/><ItemImage id="miscutils:miscutils.blockcasings:1"/>
-- 10 <ItemLink id="materiallib:frameGt:1206"/><ItemImage id="materiallib:frameGt:1206"/>
+- 10 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 8 Heating Coil (Tiered) <ItemImage id="gregtech:gt.blockcasings5:3"/>
 - 8 Heat Resistant/Proof Coke Oven Casing <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
 - 1+ Energy Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:40" />
@@ -45,7 +45,7 @@ The <Color id="GREEN">ICO</Color> has two tiered components. The coke oven casin
 
 ### Each Additional Slice Requires:
 - 19 <ItemLink id="miscutils:miscutils.blockcasings:1"/><ItemImage id="miscutils:miscutils.blockcasings:1"/>
-- 10 <ItemLink id="materiallib:frameGt:1206"/><ItemImage id="materiallib:frameGt:1206"/>
+- 10 <ItemLink id="ml:Steel:frameGt"/><ItemImage id="ml:Steel:frameGt"/>
 - 8 Heating Coil (Tiered) <ItemImage id="gregtech:gt.blockcasings5:3"/>
 - 5 Heat Resistant/Proof Coke Oven Casing <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
 - 3 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>

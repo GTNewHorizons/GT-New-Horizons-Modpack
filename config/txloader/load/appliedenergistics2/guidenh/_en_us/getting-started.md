@@ -15,10 +15,10 @@ Applied Energistics 2 is actually alien technology. You can find [Meteorites]() 
 
 ## Materials
 Once you have reached the technological level required to build an AE system, you will also need the following materials:
-- <ItemImage id="materiallib:ore_stone:208" label="right"/>
-  - We need to obtain <ItemImage id="materiallib:dust:208"  label="right"/> and <ItemImage id="materiallib:gem:208" label="right"/> from this, which are important raw materials for crafting AE items and blocks.
-- <ItemImage id="materiallib:ore_stone:1318" label="right"/>
-  - Many AE blocks require <ItemImage id="materiallib:plate:1318" label="right" /> to craft.
+- <ItemImage id="ml:CertusQuartz:ore_stone" label="right"/>
+  - We need to obtain <ItemImage id="ml:CertusQuartz:dust"  label="right"/> and <ItemImage id="ml:CertusQuartz:gem" label="right"/> from this, which are important raw materials for crafting AE items and blocks.
+- <ItemImage id="ml:Titanium:ore_stone" label="right"/>
+  - Many AE blocks require <ItemImage id="ml:Titanium:plate" label="right" /> to craft.
 - Other basic materials such as <ItemImage id="minecraft:redstone" label="right" />, <ItemImage id="minecraft:diamond" label="right"/>, and <ItemImage id="dreamcraft:CircuitHV"  label="right"/>. You have certainly encountered these materials on your way to the EV tier, so they will not be elaborated on here.
 
 ## Construction

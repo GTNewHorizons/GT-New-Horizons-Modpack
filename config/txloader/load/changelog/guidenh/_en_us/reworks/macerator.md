@@ -40,7 +40,7 @@ The <Color id="GREEN">IMS</Color> is available in two tiers. The T1 structure ha
 ### T2 Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15539"/><ItemImage id="gregtech:gt.blockmachines:15539"/>
 - 69-87 <ItemLink id="miscutils:miscutils.blockcasings:7"/><ItemImage id="miscutils:miscutils.blockcasings:7"/>
-- 20 <ItemLink id="materiallib:frameGt:549"/><ItemImage id="materiallib:frameGt:549"/>
+- 20 <ItemLink id="ml:HSSG:frameGt"/><ItemImage id="ml:HSSG:frameGt"/>
 - 18 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
 - 8 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings3:10"/><ItemImage id="gregtech:gt.blockcasings3:10"/>

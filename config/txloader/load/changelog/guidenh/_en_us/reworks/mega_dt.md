@@ -34,9 +34,9 @@ The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges be
 - 1 <ItemLink id="gregtech:gt.blockmachines:15516"/><ItemImage id="gregtech:gt.blockmachines:15516"/>
 - 361 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
 - 215 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.2"/>
-- 179 <ItemLink id="materiallib:sheetmetal:807"/><ItemImage id="materiallib:sheetmetal:807"/>
+- 179 <ItemLink id="ml:Naquadah:sheetmetal"/><ItemImage id="ml:Naquadah:sheetmetal"/>
 - 100-166 <ItemLink id="gregtech:gt.blockcasings14:5"/><ItemImage id="gregtech:gt.blockcasings14:5"/>
-- 99 <ItemLink id="materiallib:frameGt:1202"/><ItemImage id="materiallib:frameGt:1202"/>
+- 99 <ItemLink id="ml:StainlessSteel:frameGt"/><ItemImage id="ml:StainlessSteel:frameGt"/>
 - 80-81 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 43-44 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 41 <ItemLink id="gregtech:gt.blockcasings2"/><ItemImage id="gregtech:gt.blockcasings2"/>
@@ -50,8 +50,8 @@ The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges be
 ## Per Slice Requires:
 - 57 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.2"/>
 - 48 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
-- 32 <ItemLink id="materiallib:sheetmetal:807"/><ItemImage id="materiallib:sheetmetal:807"/>
-- 27 <ItemLink id="materiallib:frameGt:1202"/><ItemImage id="materiallib:frameGt:1202"/>
+- 32 <ItemLink id="ml:Naquadah:sheetmetal"/><ItemImage id="ml:Naquadah:sheetmetal"/>
+- 27 <ItemLink id="ml:StainlessSteel:frameGt"/><ItemImage id="ml:StainlessSteel:frameGt"/>
 - 16 <ItemLink id="gregtech:gt.blockcasings14:5"/><ItemImage id="gregtech:gt.blockcasings14:5"/>
 - 16 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
@@ -61,9 +61,9 @@ The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges be
 - 1 <ItemLink id="gregtech:gt.blockmachines:15516"/><ItemImage id="gregtech:gt.blockmachines:15516"/>
 - 553 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
 - 443 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.2"/>
-- 307 <ItemLink id="materiallib:sheetmetal:807"/><ItemImage id="materiallib:sheetmetal:807"/>
+- 307 <ItemLink id="ml:Naquadah:sheetmetal"/><ItemImage id="ml:Naquadah:sheetmetal"/>
 - 164-230 <ItemLink id="gregtech:gt.blockcasings14:5"/><ItemImage id="gregtech:gt.blockcasings14:5"/>
-- 207 <ItemLink id="materiallib:frameGt:1202"/><ItemImage id="materiallib:frameGt:1202"/>
+- 207 <ItemLink id="ml:StainlessSteel:frameGt"/><ItemImage id="ml:StainlessSteel:frameGt"/>
 - 135-136 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 66-67 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 41 <ItemLink id="gregtech:gt.blockcasings2"/><ItemImage id="gregtech:gt.blockcasings2"/>

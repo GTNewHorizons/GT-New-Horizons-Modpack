@@ -35,9 +35,9 @@ Assuming the <ItemLink id="gregtech:gt.blockmachines:32026" /> is __NOT__ used f
 - 1 <ItemLink id="gregtech:gt.blockmachines:15564" /> <ItemImage id="gregtech:gt.blockmachines:15564" />
 - 462 <ItemLink id="gregtech:gt.blockcasings8:7" /> <ItemImage id="gregtech:gt.blockcasings8:7" />
 - 0-163 <ItemLink id="gregtech:gt.blockcasings4:1" /> <ItemImage id="gregtech:gt.blockcasings8:7" />
-- 96 <ItemLink id="materiallib:sheetmetal:641" /> <ItemImage id="materiallib:sheetmetal:641" />
+- 96 <ItemLink id="ml:Iridium:sheetmetal" /> <ItemImage id="ml:Iridium:sheetmetal" />
 - 90 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8" />
-- 23 <ItemLink id="materiallib:frameGt:1202" /> <ItemImage id="materiallib:frameGt:1202" />
+- 23 <ItemLink id="ml:StainlessSteel:frameGt" /> <ItemImage id="ml:StainlessSteel:frameGt" />
 - 7 <ItemLink id="gregtech:gt.blockcasings5:8" /> <ItemImage id="gregtech:gt.blockcasings5:8" />
 - 7 <ItemLink id="miscutils:gtplusplus.blockcasings.2:6" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2:6" />
 - 7 <ItemLink id="gregtech:gt.blockcasings3:10" /> <ItemImage id="gregtech:gt.blockcasings3:10" />

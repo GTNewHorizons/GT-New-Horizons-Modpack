@@ -30,10 +30,10 @@ The 208 infinity cooled casings require 255k (L) infinity, 240k (L) spacetime, a
 - 351 <ItemLink id="gregtech:gt.blockcasings2:1"/><ItemImage id="gregtech:gt.blockcasings2:1"/>
 - 148 <ItemLink id="gregtech:gt.blockreinforced:3"/><ItemImage id="gregtech:gt.blockreinforced:3"/>
 - 148 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 146 <ItemLink id="materiallib:frameGt:188"/><ItemImage id="materiallib:frameGt:188"/>
+- 146 <ItemLink id="ml:CallistoIce:frameGt"/><ItemImage id="ml:CallistoIce:frameGt"/>
 - 135 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 51 <ItemLink id="gregtech:gt.blockcasings10:9"/><ItemImage id="gregtech:gt.blockcasings10:9"/>
-- 40 <ItemLink id="materiallib:sheetmetal:691"/><ItemImage id="materiallib:sheetmetal:691"/>
+- 40 <ItemLink id="ml:Ledox:sheetmetal"/><ItemImage id="ml:Ledox:sheetmetal"/>
 - 18 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 1+ Energy Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 Maintenance Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:90"/>
@@ -49,11 +49,11 @@ The 208 infinity cooled casings require 255k (L) infinity, 240k (L) spacetime, a
 - 208 <ItemLink id="gregtech:gt.blockcasings8:14"/><ItemImage id="gregtech:gt.blockcasings8:14"/>
 - 148 <ItemLink id="gregtech:gt.blockreinforced:3"/><ItemImage id="gregtech:gt.blockreinforced:3"/>
 - 148 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 146 <ItemLink id="materiallib:frameGt:188"/><ItemImage id="materiallib:frameGt:188"/>
+- 146 <ItemLink id="ml:CallistoIce:frameGt"/><ItemImage id="ml:CallistoIce:frameGt"/>
 - 143 <ItemLink id="gregtech:gt.blockcasings2:1"/><ItemImage id="gregtech:gt.blockcasings2:1"/>
 - 135 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 51 <ItemLink id="gregtech:gt.blockcasings10:9"/><ItemImage id="gregtech:gt.blockcasings10:9"/>
-- 40 <ItemLink id="materiallib:sheetmetal:691"/><ItemImage id="materiallib:sheetmetal:691"/>
+- 40 <ItemLink id="ml:Ledox:sheetmetal"/><ItemImage id="ml:Ledox:sheetmetal"/>
 - 18 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8"/>
 - 1+ Energy Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
 - 1 Maintenance Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:90"/>

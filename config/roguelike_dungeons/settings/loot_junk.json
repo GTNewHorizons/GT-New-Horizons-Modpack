@@ -59,7 +59,7 @@
 		{"data": {"name": "minecraft:redstone", "meta": 0, "min": 3, "max": 24}, "weight": 20},
 		{"data": {"name": "minecraft:string", "meta": 0, "min": 1, "max": 7}, "weight": 60},
 		{"data": {"name": "minecraft:bone", "meta": 0, "min": 1, "max": 12}, "weight": 60},
-		{"data": {"name": "materiallib:gemExquisite", "meta": 1119}, "weight": 2},
+		{"data": {"name": "ml:Sapphire:gemExquisite", "meta": 0}, "weight": 2},
 		{"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
 		{"data": {"name": "gregtech:gt.blockreinforced", "meta": 5, "min": 2, "max": 4}, "weight": 10},
 		{"data": {"name": "enhancedlootbags:lootbag", "meta": 1}, "weight": 1},

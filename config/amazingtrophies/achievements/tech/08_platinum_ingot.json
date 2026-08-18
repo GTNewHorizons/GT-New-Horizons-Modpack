@@ -2,14 +2,14 @@
   "id": "platinum_ingot",
   "condition": {
     "type": "item.pickup",
-    "item": "materiallib:ingot",
-    "meta": 951
+    "item": "ml:Platinum:ingot",
+    "meta": 0
   },
   "page": "GT New Horizons",
   "x": 8,
   "y": -5,
   "icon": {
-    "registryName": "materiallib:ingot",
-    "meta": 951
+    "registryName": "ml:Platinum:ingot",
+    "meta": 0
   }
 }

@@ -34,7 +34,7 @@ The <Color id="GREEN">AWD</Color> has one tiered component. The item pipe casing
 - 4-15 <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" /> <ItemImage id="miscutils:gtplusplus.blockcasings.3:9" />
 - 3 Item Pipe Casing <ItemImage id="gregtech:gt.blockcasings11:5" />
 - 3 Tiered Glass (any) <ItemImage id="bartworks:BW_TieredGlass:8" />
-- 2 <ItemLink id="materiallib:frameGt:646" /> <ItemImage id="materiallib:frameGt:646" />
+- 2 <ItemLink id="ml:Iron:frameGt" /> <ItemImage id="ml:Iron:frameGt" />
 - 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
