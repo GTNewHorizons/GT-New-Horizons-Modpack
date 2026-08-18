@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 563
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1927
     }
   },
   "properties:10": {
@@ -46,7 +50,7 @@
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": 1728000,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
