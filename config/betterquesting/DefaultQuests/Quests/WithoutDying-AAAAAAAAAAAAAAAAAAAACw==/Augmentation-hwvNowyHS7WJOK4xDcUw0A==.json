@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Now that you have a frame and a core, you can get to work adding new features to your Mechanical Armor. This quest lists all Tier 1 augments.\n\nSome standouts:\n\n-Optical Brightness Adjuster (§dUtility§r, Helmet): Enable toggleable night vision.\n-Protective Lining (§6Protection§r, Any): Gain full hazmat protection.\n-Electric Jetpack (§aMovement§r, Chestplate): Jetpack!",
+      "desc:8": "Now that you have a frame and a core, you can get to work adding new features to your Mechanical Armor. This quest lists all Tier 1 augments.\n\nSome standouts:\n\n-Optical Brightness Adjuster (§dUtility§r, Helmet): Enable toggleable night vision.\n-Protective Lining (§6Protection§r, Any): Gain full hazmat protection.\n-Electric Jetpack (§aMovement§r, Chestplate): Jetpack!\n-Astronaut\u0027s Equipment (§6Protection§r, Any): Gain space suit capability.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -109,55 +109,55 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentknockbackresistance"
+          "id:8": "gregtech:gt.augmentwaterbreathing"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentwaterbreathing"
+          "id:8": "gregtech:gt.augmentfallprotection"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentfallprotection"
+          "id:8": "gregtech:gt.augmentswimspeed"
         },
         "4:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentswimspeed"
+          "id:8": "gregtech:gt.augmentjetpack"
         },
         "5:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentjetpack"
+          "id:8": "gregtech:gt.augmentnightvision"
         },
         "6:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentnightvision"
+          "id:8": "gregtech:gt.augmentgogglesofrevealing"
         },
         "7:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentgogglesofrevealing"
+          "id:8": "gregtech:gt.augmentholoinventory"
         },
         "8:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentholoinventory"
+          "id:8": "gregtech:gt.augmentapiarist"
         },
         "9:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentapiarist"
+          "id:8": "gregtech:gt.augmentspacesuit"
         }
       },
       "taskID:8": "bq_standard:retrieval"
