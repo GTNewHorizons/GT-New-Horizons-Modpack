@@ -23,7 +23,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:Ethenone:cell"
+        "id:8": "ml:Ethenone:cellGas"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -104,7 +104,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Ethenone:cell"
+          "id:8": "ml:Ethenone:cellGas"
         }
       },
       "taskID:8": "bq_standard:retrieval"

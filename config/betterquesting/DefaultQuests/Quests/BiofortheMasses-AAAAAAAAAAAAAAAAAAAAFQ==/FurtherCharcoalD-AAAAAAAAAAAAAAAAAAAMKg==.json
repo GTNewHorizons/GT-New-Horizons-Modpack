@@ -23,7 +23,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:CharcoalByproducts:cell"
+        "id:8": "ml:CharcoalByproducts:cellGas"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -111,7 +111,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:CharcoalByproducts:cell"
+          "id:8": "ml:CharcoalByproducts:cellGas"
         },
         "1:10": {
           "Count:3": 3,

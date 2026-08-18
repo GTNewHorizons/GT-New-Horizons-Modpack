@@ -130,13 +130,13 @@
           "Count:3": 12,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Tetrafluoroethylene:cell"
+          "id:8": "ml:Tetrafluoroethylene:cellGas"
         },
         "1:10": {
           "Count:3": 83,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Oxygen:cell"
+          "id:8": "ml:Oxygen:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -38,7 +38,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:Butane:cell"
+        "id:8": "ml:Butane:cellGas"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -121,13 +121,13 @@
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Propane:cell"
+          "id:8": "ml:Propane:cellGas"
         },
         "1:10": {
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Butane:cell"
+          "id:8": "ml:Butane:cellGas"
         }
       },
       "taskID:8": "bq_standard:retrieval"

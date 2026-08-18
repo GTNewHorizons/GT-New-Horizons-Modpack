@@ -104,7 +104,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:SulfuricGas:cell"
+          "id:8": "ml:SulfuricGas:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -140,7 +140,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Gas:cell"
+          "id:8": "ml:Gas:cellGas"
         },
         "1:10": {
           "Count:3": 10,

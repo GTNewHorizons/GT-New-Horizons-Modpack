@@ -27,7 +27,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:Ethylene:cell"
+        "id:8": "ml:Ethylene:cellGas"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -122,7 +122,7 @@
           "Count:3": 12,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Ethylene:cell"
+          "id:8": "ml:Ethylene:cellGas"
         }
       },
       "taskID:8": "bq_standard:retrieval"

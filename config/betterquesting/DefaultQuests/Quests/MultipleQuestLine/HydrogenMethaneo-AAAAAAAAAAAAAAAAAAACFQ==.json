@@ -68,13 +68,13 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Hydrogen:cell"
+          "id:8": "ml:Hydrogen:cellGas"
         },
         "1:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Methane:cell"
+          "id:8": "ml:Methane:cellGas"
         },
         "2:10": {
           "Count:3": 2,

@@ -23,7 +23,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:NitrousOxide:cell"
+        "id:8": "ml:NitrousOxide:cellGas"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -97,7 +97,7 @@
           "Count:3": 50,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:NitrousOxide:cell"
+          "id:8": "ml:NitrousOxide:cellGas"
         }
       },
       "taskID:8": "bq_standard:retrieval"

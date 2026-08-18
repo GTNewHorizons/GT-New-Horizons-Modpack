@@ -81,7 +81,7 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Oxygen:cell"
+          "id:8": "ml:Oxygen:cellGas"
         }
       },
       "ignoreDisabled:1": 0,
@@ -122,13 +122,13 @@
           "Count:3": 12,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Oxygen:cell"
+          "id:8": "ml:Oxygen:cellGas"
         },
         "2:10": {
           "Count:3": 24,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:NitrogenDioxide:cell"
+          "id:8": "ml:NitrogenDioxide:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

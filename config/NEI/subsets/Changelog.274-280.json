@@ -6354,7 +6354,7 @@
 {"Damage":"0S","strId":"ml:Coal:dust"}
 {"Damage":"0S","strId":"ml:Wood:dust"}
 {"Damage":"0S","strId":"ml:BasalticMineralSand:dust"}
-{"Damage":"0S","strId":"ml:Oxygen:cell"}
+{"Damage":"0S","strId":"ml:Oxygen:cellGas"}
 {"Damage":"0S","strId":"ml:Thorium232:dust"}
 {"Damage":"0S","strId":"ml:Zirconium:dust"}
 {"Damage":"0S","strId":"ml:PlatinumSalt:dustTiny"}
@@ -6532,7 +6532,7 @@
 {"Damage":"0S","strId":"ml:Aluminium:dust"}
 {"Damage":"0S","strId":"ml:Phosphorus:dust"}
 {"Damage":"0S","strId":"ml:Nickel:dust"}
-{"Damage":"0S","strId":"ml:Hydrogen:cell"}
+{"Damage":"0S","strId":"ml:Hydrogen:cellGas"}
 ; gt.recipe.extruder
 {"Damage":"0S","strId":"minecraft:obsidian"}
 {"Damage":"0S","strId":"miscutils:blockBlockTeflon"}
@@ -8927,8 +8927,8 @@
 {"Damage":"0S","strId":"ml:Titanium:dust"}
 {"Damage":"0S","strId":"ml:Gypsum:dust"}
 {"Damage":"0S","strId":"ml:Styrene:cell"}
-{"Damage":"0S","strId":"ml:Ammonia:cell"}
-{"Damage":"0S","strId":"ml:Ethylene:cell"}
+{"Damage":"0S","strId":"ml:Ammonia:cellGas"}
+{"Damage":"0S","strId":"ml:Ethylene:cellGas"}
 {"Damage":"0S","strId":"ml:Copper:crushedCentrifuged"}
 {"Damage":"0S","strId":"ml:Tetrahedrite:crushedCentrifuged"}
 {"Damage":"0S","strId":"ml:Chalcopyrite:crushedCentrifuged"}
@@ -8948,7 +8948,7 @@
 {"gtFluidName":"molten.seleniumdioxide"}
 {"gtFluidName":"oil"}
 ; gtpp.recipe.coldtrap
-{"Damage":"0S","strId":"ml:Fluorine:cell"}
+{"Damage":"0S","strId":"ml:Fluorine:cellGas"}
 ; gtpp.recipe.cryogenicfreezer
 {"Damage":"0S","strId":"ml:Mellion:ingot"}
 {"Damage":"0S","strId":"ml:protohalkonite:screw"}

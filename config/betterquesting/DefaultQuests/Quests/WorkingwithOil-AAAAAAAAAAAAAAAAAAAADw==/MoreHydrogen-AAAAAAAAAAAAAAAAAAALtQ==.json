@@ -23,7 +23,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:Hydrogen:cell"
+        "id:8": "ml:Hydrogen:cellGas"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -116,7 +116,7 @@
           "Count:3": 40,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Hydrogen:cell"
+          "id:8": "ml:Hydrogen:cellGas"
         }
       },
       "taskID:8": "bq_standard:retrieval"

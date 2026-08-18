@@ -23,7 +23,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:Argon:cell"
+        "id:8": "ml:Argon:cellGas"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -106,7 +106,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Argon:cell"
+          "id:8": "ml:Argon:cellGas"
         }
       },
       "taskID:8": "bq_standard:retrieval"

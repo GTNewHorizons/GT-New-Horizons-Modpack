@@ -31,7 +31,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:Ammonia:cell"
+        "id:8": "ml:Ammonia:cellGas"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -85,7 +85,7 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Oxygen:cell"
+          "id:8": "ml:Oxygen:cellGas"
         }
       },
       "ignoreDisabled:1": 0,
@@ -120,13 +120,13 @@
           "Count:3": 78,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Hydrogen:cell"
+          "id:8": "ml:Hydrogen:cellGas"
         },
         "1:10": {
           "Count:3": 26,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Nitrogen:cell"
+          "id:8": "ml:Nitrogen:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,7 +144,7 @@
           "Count:3": 26,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Ammonia:cell"
+          "id:8": "ml:Ammonia:cellGas"
         }
       },
       "taskID:8": "bq_standard:retrieval"

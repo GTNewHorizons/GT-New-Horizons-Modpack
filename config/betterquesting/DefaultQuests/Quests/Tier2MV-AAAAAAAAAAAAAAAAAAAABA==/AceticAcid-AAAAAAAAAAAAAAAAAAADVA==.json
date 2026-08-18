@@ -82,7 +82,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Ethylene:cell"
+          "id:8": "ml:Ethylene:cellGas"
         },
         "3:10": {
           "Count:3": 1,
@@ -123,13 +123,13 @@
           "Count:3": 6,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Oxygen:cell"
+          "id:8": "ml:Oxygen:cellGas"
         },
         "1:10": {
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Ethylene:cell"
+          "id:8": "ml:Ethylene:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

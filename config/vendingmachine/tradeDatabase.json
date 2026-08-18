@@ -3823,7 +3823,7 @@
 							"Count:3": 16,
 							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "ml:Fluorine:cell"
+							"id:8": "ml:Fluorine:cellGas"
 						}
 					]
 				}
@@ -4779,7 +4779,7 @@
 							"Count:3": 16,
 							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "ml:Methane:cell"
+							"id:8": "ml:Methane:cellGas"
 						}
 					]
 				}
@@ -6058,7 +6058,7 @@
 							"Count:3": 16,
 							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "ml:Hydrogen:cell"
+							"id:8": "ml:Hydrogen:cellGas"
 						}
 					]
 				}
@@ -6460,7 +6460,7 @@
 							"Count:3": 16,
 							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "ml:Nitrogen:cell"
+							"id:8": "ml:Nitrogen:cellGas"
 						}
 					]
 				}
@@ -6517,7 +6517,7 @@
 							"Count:3": 16,
 							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "ml:Oxygen:cell"
+							"id:8": "ml:Oxygen:cellGas"
 						}
 					]
 				}
@@ -8147,7 +8147,7 @@
 							"Count:3": 16,
 							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "ml:Chlorine:cell"
+							"id:8": "ml:Chlorine:cellGas"
 						}
 					]
 				}
