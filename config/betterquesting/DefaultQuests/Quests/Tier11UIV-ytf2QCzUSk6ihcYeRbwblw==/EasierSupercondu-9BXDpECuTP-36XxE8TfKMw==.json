@@ -2,7 +2,12 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2598
+      "questIDLow:4": 3218,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": -7855776231559838029,
+      "questIDLow:4": -6806178318679823136
     }
   },
   "properties:10": {
@@ -17,18 +22,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "Using the DTPF, you can now craft Superconductor Base directly in its molten form, without having to mix, blast, cool, and extract the fluid. \n\nThis process can be done for every superconductor past LuV, and is very worth it.\n\n[note]Take note of the circuit used in LuV Superconductor, as there may be conflicts if you dump these recipes all together.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 131,
         "OreDict:8": "",
-        "id:8": "minecraft:nether_star"
+        "id:8": "gregtech:gt.metaitem.99"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Test3",
+      "name:8": "§9§l§nEasier Superconductor",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -54,8 +59,23 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 8711853154227671029,
-  "questIDLow:4": -7070671769314188358,
+  "questIDHigh:4": -858565043716993793,
+  "questIDLow:4": -5194484059648570829,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 36000,
+          "FluidName:8": "molten.superconductoruivbase"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
 }

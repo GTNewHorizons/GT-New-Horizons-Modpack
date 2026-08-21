@@ -1,13 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 3218,
-      "type:1": 1
-    },
-    "1:10": {
-      "questIDHigh:4": -2214821378463936942,
-      "questIDLow:4": -6770209432224401378
+      "questIDHigh:4": 808198500067723906,
+      "questIDLow:4": -7556137922659020256
     }
   },
   "properties:10": {
@@ -22,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "Tairitsu, Shijima, and Churitsu are sister materials, all requiring similarly colored materials to make. A hidden conection between all of them allow some strong protective forces to appear.\n\nTry putting their bond to good use.\n\r\n[note]Technetium dust is needed Shijima, which can be fused with Fluorine and Selenium. The latter can be obtained with the Selenium line, by processing Platinum Froth, or from Miessite in the Toxic Everglades.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15754,
+        "Damage:2": 17189,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "gregtech:gt.metaitem.01"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§l§nAssembly To The MAX+",
+      "name:8": "§9§l§nSisters In Arms",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -59,8 +54,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 5372458478398622035,
-  "questIDLow:4": -5189103930243078016,
+  "questIDHigh:4": 8242853802130687180,
+  "questIDLow:4": -7538478274087890802,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -73,10 +68,22 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 15754,
+          "Count:3": 27,
+          "Damage:2": 10106,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "bartworks:gt.bwMetaGeneratedingot"
+        },
+        "1:10": {
+          "Count:3": 27,
+          "Damage:2": 11189,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 27,
+          "Damage:2": 11190,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

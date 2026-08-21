@@ -1,8 +1,16 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2214821378463936942,
-      "questIDLow:4": -6770209432224401378
+      "questIDHigh:4": 2980661414635064767,
+      "questIDLow:4": -8464387737179131129
+    },
+    "1:10": {
+      "questIDHigh:4": 5372458478398622035,
+      "questIDLow:4": -5189103930243078016
+    },
+    "2:10": {
+      "questIDHigh:4": -1773451088971216160,
+      "questIDLow:4": -6207630791095472892
     }
   },
   "properties:10": {
@@ -17,7 +25,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "Condensate is no joke, that stuff can mess you up big time. Your puny assembly lines do not meet the requirements to assemble with it.\n\nPrimitive Components allow you to assemble complex parts using condensate, at much better prices.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -117,10 +125,6 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "taskID:8": "bq_standard:checkbox"
     }
   }
 }

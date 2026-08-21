@@ -1,16 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 2232475807097766914,
-      "questIDLow:4": -6646732400330274064
-    },
-    "1:10": {
       "questIDHigh:4": 5372458478398622035,
       "questIDLow:4": -5189103930243078016
-    },
-    "2:10": {
-      "questIDHigh:4": -3364225446253343579,
-      "questIDLow:4": -8792952447363574599
     }
   },
   "properties:10": {
@@ -36,7 +28,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§l§nCondensate Assembly",
+      "name:8": "§9§l§nAssembly To The MAX+",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -83,12 +75,78 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 15757,
+          "Damage:2": 15476,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 15481,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1700,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "1:10": {
+          "Count:3": 1515,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "2:10": {
+          "Count:3": 1457,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "3:10": {
+          "Count:3": 838,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "4:10": {
+          "Count:3": 790,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "5:10": {
+          "Count:3": 664,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockglass1"
+        },
+        "6:10": {
+          "Count:3": 560,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "7:10": {
+          "Count:3": 464,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

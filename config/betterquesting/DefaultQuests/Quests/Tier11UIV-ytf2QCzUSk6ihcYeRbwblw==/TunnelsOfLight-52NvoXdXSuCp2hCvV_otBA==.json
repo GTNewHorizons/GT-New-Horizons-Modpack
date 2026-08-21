@@ -1,12 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2214821378463936942,
-      "questIDLow:4": -6770209432224401378
-    },
-    "1:10": {
-      "questIDHigh:4": 2345791078736349427,
-      "questIDLow:4": -8332322836118716550
+      "questIDHigh:4": 5372458478398622035,
+      "questIDLow:4": -5189103930243078016
     }
   },
   "properties:10": {
@@ -21,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "With your research now complete, you have finally constructed it - the Forge of the Gods.\n\nThe Forge of the Gods is an immensely powerful structure constructed around a stabilized neutron star - it is so advanced that its full capabilities are not yet understood. However, through continued use, one can slowly upgrade and expand the range of abilities of the Forge, and learn the power hidden in the most extreme parts of the universe: [note]Graviton Shards[/note].\n\nThis esoteric material can only be found where conventional matter and degenerate neutronium crust matter on the surface of a neutron star meet. At this point in space, gravitons are far more common and irradiate this material mixture to create highly unstable graviton shards, which can be used to internally upgrade the Forge. While these shards cannot yet exist outside the extreme conditions of the Forge, with continued research and utilization it may be possible to eventually isolate and extract them outside the Forge - but for what purpose?\n\n[note]Click on the logo in the UI to read more on how to operate the Godforge.[/note]",
+      "desc:8": "No Description",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15411,
+        "Damage:2": 15757,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§l§nProject Godforge",
+      "name:8": "§9§l§nTunnels Of Light",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -58,8 +54,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -6962518690474080185,
-  "questIDLow:4": -6893323685044150631,
+  "questIDHigh:4": -1773451088971216160,
+  "questIDLow:4": -6207630791095472892,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -73,7 +69,25 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 15411,
+          "Damage:2": 15757,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 15481,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 15758,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 15759,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -90,46 +104,52 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 3943,
-          "Damage:2": 3,
+          "Count:3": 94,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "tectech:gt.godforgecasing"
+          "id:8": "gregtech:gt.blockcasings.bec"
         },
         "1:10": {
-          "Count:3": 2819,
-          "Damage:2": 0,
+          "Count:3": 88,
+          "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "tectech:gt.godforgecasing"
+          "id:8": "gregtech:gt.blockcasings.bec"
         },
         "2:10": {
-          "Count:3": 272,
-          "Damage:2": 1,
+          "Count:3": 56,
+          "Damage:2": 9,
           "OreDict:8": "",
-          "id:8": "tectech:gt.godforgecasing"
+          "id:8": "gregtech:gt.blockglass1"
         },
         "3:10": {
-          "Count:3": 130,
-          "Damage:2": 2,
+          "Count:3": 46,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "tectech:gt.godforgecasing"
+          "id:8": "gregtech:gt.blockcasings.bec"
         },
         "4:10": {
-          "Count:3": 9,
-          "Damage:2": 0,
+          "Count:3": 44,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "tectech:tile.spatiallyTranscendentGravitationalLens"
+          "id:8": "gregtech:gt.blockcasings.bec"
         },
         "5:10": {
-          "Count:3": 345,
+          "Count:3": 44,
           "Damage:2": 5,
           "OreDict:8": "",
-          "id:8": "tectech:gt.godforgecasing"
+          "id:8": "gregtech:gt.blockcasings.bec"
         },
         "6:10": {
-          "Count:3": 36,
+          "Count:3": 32,
           "Damage:2": 4,
           "OreDict:8": "",
-          "id:8": "tectech:gt.godforgecasing"
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "7:10": {
+          "Count:3": 20,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
