@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The Ender IO mod adds one of the handiest enchantments in the game: Soulbound. An item enchanted with it stays in your inventory when you die, while everything else drops into your grave.\n\nThe best part: it works on almost anything, even items that normally reject enchantments:\n\n- Backpacks (both normal and adventure backpacks) - including everything inside them\n- The Mantle of the Raven and the Rod of the Skies\n- Even Tinkers\u0027 Construct tools, which normally ignore vanilla enchantments completely\n\nHow to get it:\n\n1. The Ender IO Enchanter crafts soulbound books from a Book and Quill and an Ender Crystal. See the \"Specific Enchantments\" quest.\n2. Loot bags regularly drop enchanted books, soulbound among them - higher tiers give better chances. See the \"Do You Feel Unlucky?\" quest.\n3. Found an item that already has soulbound? Strip it off with the Draconic Evolution Disenchanter to get the book. See the \"Disenchanted\" quest - surrounding the Disenchanter with bookcases reduces the damage it deals.\n\nApplying it is easy: use a vanilla anvil, just like any other enchantment.\n\n[note]PS: Put soulbound on your backpack itself - the backpack and everything inside it stays with you on death.[/note]",
+      "desc:8": "The Ender IO mod adds one of the handiest enchantments in the game: Soulbound. An item enchanted with it stays in your inventory when you die, while everything else drops into your grave.\n\nThe best part: it works on almost anything, even items that normally reject enchantments:\n\n- Backpacks (both normal and adventure backpacks) - including everything inside them\n- The Mantle of the Raven and the Rod of the Skies\n- Even Tinkers\u0027 Construct tools, which normally ignore vanilla enchantments completely\n\nHow to get it:\n\n1. The Ender IO Enchanter crafts soulbound books from a Book and Quill and an Ender Crystal. See the [questlink]AAAAAAAAAAAAAAAAAAAAqg\u003d\u003d[/questlink] quest.\n\n2. Loot bags regularly drop enchanted books, soulbound among them - higher tiers give better chances. See the \"Do You Feel Unlucky?\" quest.\n\n3. Found an item that already has soulbound? Strip it off with the Draconic Evolution Disenchanter to get the book. See the [questlink]AAAAAAAAAAAAAAAAAAAIFA\u003d\u003d[/questlink]quest - surrounding the Disenchanter with bookcases reduces the damage it deals.\n\nApplying it is easy: use a vanilla anvil, just like any other enchantment.\n\n[note]PS: Put soulbound on your backpack itself - the backpack and everything inside it stays with you on death.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -29,7 +29,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Build Your Own Keep Inventory",
+      "name:8": "§5§lBuild Your Own Keep Inventory",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -45,7 +45,7 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -59,23 +59,51 @@
   "questIDLow:4": -6057528648465876031,
   "rewards:9": {
     "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemMaterial"
+        }
+      },
       "ignoreDisabled:1": 0,
       "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 8,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "EnderIO:itemFrankenSkull"
-        }
-      }
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:enchanted_book",
+          "tag:10": {
+            "StoredEnchantments:9": {
+              "0:10": {
+                "id:2": 8,
+                "lvl:2": 1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
