@@ -14,7 +14,7 @@
 	<loot item="adventurebackpack:coalJetpack" damage="0" nbt="{jetpackData:{}}" weight="5" count_min="1" count_max="1"/>
 	<loot item="adventurebackpack:copterPack" damage="0" nbt="{}"  weight="5" count_min="1" count_max="1"/>
 	<loot item="IC2:blockMiningPipe" damage="0" weight="25" count_min="16" count_max="32"/>
-	<loot item="IC2:itemPartCarbonPlate" damage="0" weight="25" count_min="4" count_max="8"/>
+	<loot item="gregtech:gt.metaitem.03" damage="32344" weight="25" count_min="4" count_max="8"/>
 	<loot item="IC2:itemBoat" damage="0" weight="15" count_min="1" count_max="2"/>
 	<loot item="TConstruct:materials" damage="6" weight="15" count_min="1" count_max="1"/>
 	<loot item="Avaritia:Cosmic_Meatballs" damage="0" weight="15" count_min="1" count_max="1"/>
