@@ -1,8 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 313300031016551961,
-      "questIDLow:4": -7964363962430297176
+      "questIDHigh:4": -131871118535211501,
+      "questIDLow:4": -8356368985822588714
+    },
+    "1:10": {
+      "questIDHigh:4": 2213079297014121652,
+      "questIDLow:4": -5191995791715302243
     }
   },
   "properties:10": {
@@ -17,18 +21,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "There are currently only a few augments available in Tier 3, but they are very powerful.\n\n-Energy Grid Defense (§6Protection§r, Chestplate): Gain a forcefield that can completely block most damage at the cost of a huge amount of EU.\n-Gravitational Control Module (§aMovement§r, Chestplate): Creative flight.",
+      "desc:8": "A little faster couldn\u0027t hurt, right? This is the final version of the striders augment.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32258,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.03"
+        "id:8": "gregtech:gt.augmenteldritchstriders"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Even More Augmentation",
+      "name:8": "Eldritch Striders",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -54,8 +58,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 2213079297014121652,
-  "questIDLow:4": -5191995791715302243,
+  "questIDHigh:4": 1061172869645287917,
+  "questIDLow:4": -5042745972489073782,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -64,7 +68,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 42,
+          "Damage:2": 12,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -83,33 +87,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32258,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentforcefield"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentcreativeflight"
+          "id:8": "gregtech:gt.augmenteldritchstriders"
         }
       },
       "taskID:8": "bq_standard:retrieval"
