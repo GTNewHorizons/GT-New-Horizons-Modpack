@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "Despite its name, the §5§lTeleportation Node§r does not send your components elsewhere to be assembled. The entire recipe is processed inside the Node; power, condensate, and nanites are brought to it remotely by the Observation Array.\n\r\nOnce the solid inputs arrive, the Node begins processing immediately, even if the required condensate has not yet been provided. The Observation Array must deliver everything before the recipe completes, or the process fails and the inputs are lost. There is no energy hatch on the Node; its full power cost is paid through the linked Observation Array.\r\n\r\nThe Line-Of-Sight hatches on the Node and Observation Array must face one another, share the same Y-level, and be no more than 128 blocks apart. No cable is required between them\n\r\n[note]Increasing parallels only allows larger batches. Processing speed falls proportionally, so total throughput does not increase. Scale the line by building additional Teleportation Nodes instead.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

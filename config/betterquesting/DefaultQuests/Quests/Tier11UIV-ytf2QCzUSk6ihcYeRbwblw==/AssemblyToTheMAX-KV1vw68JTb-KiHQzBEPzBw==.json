@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "The §5§lObservation Array§r is less an assembler than an enormous quantum router. It draws condensate from every Containment Field visible to its network, supplies power to its linked Teleportation Nodes, and presents those Nodes with the nanites demanded by each stage of their recipes. Up to sixteen Nodes may be linked to one Array, with their combined energy cost paid here.\r\n\r\nThe nanites are never consumed, but they must be exchanged constantly. Providing a higher tier than requested actually slows processing, while mixing nanite types causes the entire collection to behave as the lowest tier present. Precision, not brute force, is the key.\r\n\r\n[warn]More than three unrequested condensates on the network will immediately fail every active recipe. Even fewer contaminants significantly reduce processing speed.[/warn]\r\n\r\n[note]Running the same recipe across synchronized Nodes is strongly recommended. Different recipes may request incompatible nanites and contaminate one another\u0027s condensate network.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

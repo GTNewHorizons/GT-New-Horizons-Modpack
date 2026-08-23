@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "No Description",
+      "desc:8": "A Bose-Einstein condensate cannot simply be poured into a larger tank. Its particles have surrendered their individual identities, behaving as a single coherent quantum state. Storing it requires continuously forcing that state to remain confined and the moment that force disappears, so does everything you stored.\r\n\r\nThe §5§lContainment Field§r holds every variety of entangled condensate on its network. Its field strength determines both its capacity and its appetite for power: every unit of strength provides another litre of storage while consuming another EU/t. The contents cannot be partitioned or filtered, so careful monitoring will be essential.\r\n\r\nExceeding the configured capacity does not stop more condensate from entering. Instead, the unstable field begins destroying 11% of every stored condensate each second until it returns below the limit.\r\n\r\n[warn]A power failure or manually disabling the machine immediately voids the entire contents of the Containment Field. Keep its power supply exceptionally reliable.[/warn]\r\n\r\n[note]A BEC Detector Hatch can monitor total or filtered condensate levels and disable the Entanglement Apparatus before the field overflows.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
