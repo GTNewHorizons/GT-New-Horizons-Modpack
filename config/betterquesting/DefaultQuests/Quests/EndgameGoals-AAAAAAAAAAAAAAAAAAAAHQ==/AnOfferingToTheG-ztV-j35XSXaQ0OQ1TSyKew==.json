@@ -1,0 +1,279 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5593318159939778068,
+      "questIDLow:4": -8646551172440344443
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Another Stargate recipe, another trophy. You know the drill by now: submit one legacy Stargates\u0027 worth of materials and receive one cute little trophy.\n\n[note]Our journey reaches its latest stop, entering the era of refinement.\n\nThe year is 2025, and the game has become more refined than ever before. So refined, in fact, that we may have added a little too much quality of life and accidentally earned this Stargate the nickname \"EZ Gate.\" Easy is relative, of course; it was still a Stargate, after all.\n\nThe Matter Manipulator has transformed base building and infrastructure expansion, allowing entire structures to be planned, copied, and moved, while NEI autocrafting has made early progression considerably faster. The Spinmatron has added a new late-midgame processing centrifuge upgrade, and Et Futurum has brought Netherite and Prismarine to the pack alongside their new processing lines. At the end of progression, the T4 Nano Forge has provided a much needed alternative to endless T3 spam, while the EoH pity system has made its worst streaks of RNG more manageable.\n\nAutomation has continued to improve, and years of accumulated knowledge have transformed problems that once took entire teams months to solve into well-understood production challenges. Outside the pack, the community has created countless calculators, planners, visualizers, and specialized programs for automation, base design, optimization, or simply for fun.\n\nThe results have been difficult to ignore. More Stargates have been completed during this period than in any previous era, with the recorded gate count on Discord passing 1,000 before the release of 2.9.\n\nA team composed of some of the pack\u0027s most talented and experienced players completed a full Stargate run in only 22 days, 16 hours, and 45 minutes on January 26, 2026, setting a new speedrun record.\n\n§aPxx500§r and §aAdam§r achieved the first documented Gatelympics (quintuple) gate during that very same speedrun, while §aSintken§r and §aLordPeverell§r became the first players with documented triple solo gates on their own.\n\nP.S.: Here\u0027s the list as usual:\n-Matter Manipulator\n-Spinmatron\n-Solar Factory\n-Nano Forge T4\n-NEI autocrafting\n-Netherite and Prismarine processing lines\n-EoH pity system\n-Numerous automation, AE2, and general QoL improvements[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "dreamcraft:MedalDerp"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§4§l§nAn Offering To The Gods",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3542786377091954314,
+  "questIDLow:4": -8011652819512948101,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "minecraft:paper",
+          "tag:10": {
+            "display:10": {
+              "Name:8": "Pick this item up to get your trophy"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 1,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 338,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:HeavenlyGatePlate"
+        },
+        "1:10": {
+          "Count:3": 319,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:HeavenlyChevron"
+        },
+        "2:10": {
+          "Count:3": 1326,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:HeavenlyFramePart"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:sgCoreCrystal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:sgControllerCrystal"
+        },
+        "5:10": {
+          "Count:3": 462,
+          "Damage:2": 32023,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "6:10": {
+          "Count:3": 124,
+          "Damage:2": 32043,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "7:10": {
+          "Count:3": 140,
+          "Damage:2": 32039,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "8:10": {
+          "Count:3": 561,
+          "Damage:2": 32047,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "9:10": {
+          "Count:3": 44,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:compactFusionCoil"
+        },
+        "10:10": {
+          "Count:3": 741,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmetal9"
+        },
+        "11:10": {
+          "Count:3": 445,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "GalacticraftAmunRa:tile.baseBlockRock"
+        },
+        "12:10": {
+          "Count:3": 461,
+          "Damage:2": 6143,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "13:10": {
+          "Count:3": 624,
+          "Damage:2": 6585,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "14:10": {
+          "Count:3": 28,
+          "Damage:2": 4143,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "15:10": {
+          "Count:3": 4,
+          "Damage:2": 15410,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "16:10": {
+          "Count:3": 2,
+          "Damage:2": 14006,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "17:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemExtremeStorageCell.Universe",
+          "tag:10": {}
+        },
+        "18:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ae2fc:fluid_storage.Universe",
+          "tag:10": {}
+        },
+        "19:10": {
+          "Count:3": 2,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gtnhintergalactic:item.MiningDrone"
+        },
+        "20:10": {
+          "Count:3": 16,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
+        },
+        "21:10": {
+          "Count:3": 68,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
+        },
+        "22:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:tile.BlockSingularityCraftingStorage"
+        },
+        "23:10": {
+          "Count:3": 4,
+          "Damage:2": 15445,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "24:10": {
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "tectech:item.tm.itemAstralArrayFabricator"
+        },
+        "25:10": {
+          "Count:3": 4,
+          "Damage:2": 32758,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "26:10": {
+          "Count:3": 45,
+          "Damage:2": 32146,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "27:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:blockCapBank",
+          "tag:10": {
+            "storedEnergyRF:3": 2500000,
+            "type:8": "CREATIVE"
+          }
+        },
+        "28:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "OpenComputers:keyboard"
+        },
+        "29:10": {
+          "Count:3": 4,
+          "Damage:2": 32416,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

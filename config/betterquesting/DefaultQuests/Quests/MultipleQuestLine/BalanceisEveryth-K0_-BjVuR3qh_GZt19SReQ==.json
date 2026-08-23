@@ -1,8 +1,18 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -1663909569982545142,
-      "questIDLow:4": -4646567102207181371
+      "questIDHigh:4": -2214821378463936942,
+      "questIDLow:4": -6770209432224401378
+    },
+    "1:10": {
+      "questIDHigh:4": -4847611916767573432,
+      "questIDLow:4": -5258609888143859259,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": 808198500067723906,
+      "questIDLow:4": -7556137922659020256,
+      "type:1": 1
     }
   },
   "properties:10": {
@@ -25,7 +35,7 @@
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§l§nBalance is Everything",
