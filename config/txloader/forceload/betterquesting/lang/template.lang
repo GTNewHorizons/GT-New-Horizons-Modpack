@@ -4419,9 +4419,21 @@ betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.desc=Enjoying the pack so far?%n
 betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.name=§9§l§nBending Space and Time
 betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.desc=So far, cutting Atto Power ICs in the HILE is really terrible, the lasers are just way too powerful to cut them effectively. Fortunately for you, you have the insane crushing power of black holes!%n%nBy compressing a Spatially Transcendent Gravitational Lens Block with some Spatially Enlarged Fluid, you can forge a very powerful lens. A lens so effective, it can bend light and even space.%n%nMaybe don't put your eyes up to the glass.%n%n[note]This lens unlocks a 1-2 recipe for Atto Power ICs, don't forget to repattern![/note]
 
+# Quest: Quantum Tank X
+betterquesting.quest.0U_ex_O9TKWF-ShWD_4UuQ.name=§9§l§nQuantum Tank X
+betterquesting.quest.0U_ex_O9TKWF-ShWD_4UuQ.desc=A Bose-Einstein condensate cannot simply be poured into a larger tank. Its particles have surrendered their individual identities, behaving as a single coherent quantum state. Storing it requires continuously forcing that state to remain confined and the moment that force disappears, so does everything you stored.%n%nThe §5§lContainment Field§r holds every variety of entangled condensate on its network. Its field strength determines both its capacity and its appetite for power: every unit of strength provides another litre of storage while consuming another EU/t. The contents cannot be partitioned or filtered, so careful monitoring will be essential.%n%nExceeding the configured capacity does not stop more condensate from entering. Instead, the unstable field begins destroying 11%% of every stored condensate each second until it returns below the limit.%n%n[warn]A power failure or manually disabling the machine immediately voids the entire contents of the Containment Field. Keep its power supply exceptionally reliable.[/warn]%n%n[note]A BEC Detector Hatch can monitor total or filtered condensate levels and disable the Entanglement Apparatus before the field overflows.[/note]
+
 # Quest: Heliofusion Exoticizer
 betterquesting.quest.0YrjX7i4QfeSo98gSE0SWg.name=§9§l§nHeliofusion Exoticizer
 betterquesting.quest.0YrjX7i4QfeSo98gSE0SWg.desc=Using large quantities of graviton shards creates regions of space so extreme that exotic forms of matter can exist with far greater stability than usual. Unfortunately, this region is so extreme that it is essentially spatially disconnected from the rest of the Forge, unable to utilize existing upgrades to the structure and its other modules.%n%n[note]The fourth and final module of the Godforge, Heliofusion Exoticizer allows for the production of Quark Gluon Plasma and Magmatter. Initially only Quark Gluon Plasma is possible, with Magmatter requiring a much later upgrade. Consult the Godforge Information section of the UI to read how to produce these materials.[/note]%n%n[note]Usage of this module requires the QGPIU upgrade.[/note]
+
+# Quest: A Fork in The Road
+betterquesting.quest.4UNfsN-3TlKiC2JkOUP4Hg.name=§9§l§nA Fork in The Road
+betterquesting.quest.4UNfsN-3TlKiC2JkOUP4Hg.desc=With the creation of the Black Hole Compressor, three different paths have opened up.%n%nThe Top Path: The Bose-Einstein Multiblocks%nA suite of multiblocks for late game assembly.%n%n[note]This path makes the other two paths faster and cheaper.[/note]%n%nThe Middle Path: Antimatter%nA fancy new power generation method to keep up with rising EU costs.%n%n[note]This path makes the other two paths easier to scale by giving you more power to burn.[/note]%n%nThe Bottom Path: The Forge of the Gods%nThe largest multiblock, capable of smelting everything you could ever want.%n%n[note]This path makes the other two paths faster by speeding up ingot smelting.[/note]
+
+# Quest: Tunnels Of Light
+betterquesting.quest.52NvoXdXSuCp2hCvV_otBA.name=§9§l§nTunnels Of Light
+betterquesting.quest.52NvoXdXSuCp2hCvV_otBA.desc=Despite its name, the §5§lTeleportation Node§r does not send your components elsewhere to be assembled. The entire recipe is processed inside the Node; power, condensate, and nanites are brought to it remotely by the Observation Array.%n%nOnce the solid inputs arrive, the Node begins processing immediately, even if the required condensate has not yet been provided. The Observation Array must deliver everything before the recipe completes, or the process fails and the inputs are lost. There is no energy hatch on the Node; its full power cost is paid through the linked Observation Array.%n%nThe Line-of-Sight Hatches on the Node and Observation Array must face one another, share the same Y-level, and be no more than 128 blocks apart. No cable is required between them.%n%n[note]Increasing parallels only allows larger batches. Processing speed falls proportionally, so total throughput does not increase. Scale the line by building additional Teleportation Nodes instead.[/note]
 
 # Quest: A Better Coolant for Your Superconductors
 betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.name=§9§l§nA Better Coolant for Your Superconductors
@@ -4438,6 +4450,10 @@ betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.desc=For your UIV components to work
 # Quest: Another Type of Steel
 betterquesting.quest.8OMu4RdgQhyZqXRid6n-Wg.name=§9§l§nAnother Type of Steel
 betterquesting.quest.8OMu4RdgQhyZqXRid6n-Wg.desc=Proto-Halkonite Steel is a super stable material, completely indestructible once formed.%n%nYou first have to make Proto-Halkonite base, which then you pour into components made out of infinity.%n%nAfter getting Creon and Mellion, you can make Proto-Halkonite materials cheaper.
+
+# Quest: Easier Superconductor
+betterquesting.quest.9BXDpECuTP-36XxE8TfKMw.name=§9§l§nEasier Superconductor
+betterquesting.quest.9BXDpECuTP-36XxE8TfKMw.desc=Using the DTPF, you can now craft Superconductor Base directly in molten form without having to mix, blast, cool, and extract the fluid.%n%nThis process works for every superconductor past LuV and is well worth it.%n%n[note]Pay attention to the circuit used for LuV Superconductor, as recipe conflicts may occur if you process all of these together.[/note]
 
 # Quest: Chaotic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.name=§9§l§nChaotic Core
@@ -4459,6 +4475,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=Hope you have loads of transcen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=§9§l§nUMV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.%n%n[note]You will need a NAC to get started.[/note]%n%n[warn]Rumor has it these circuits may not be around for much longer...[/warn]
 
+# Quest: Six-Phased Copper
+betterquesting.quest.CzdMQPiKSoKXIzSX7g0SIA.name=§9§l§nSix-Phased Copper
+betterquesting.quest.CzdMQPiKSoKXIzSX7g0SIA.desc=Copper has managed to stay relevant into UIV by refusing to remain in one phase at a time.%n%nYou can hold the plates, but be warned: they may not stay in the same phase for long.
+
 # Quest: The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.name=§9§l§nThe Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=It has 8 parallels and supports higher tiers of drones.%n%n[note]You can obtain pure platinum group metals with this. It would be a nice boost if you haven't made the QFT for it yet.[/note]
@@ -4466,6 +4486,10 @@ betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=It has 8 parallels and supports
 # Quest: Helioflux Melting Core my Beloved
 betterquesting.quest.GslQBIW9QKaCz7FFpkrv6g.name=§9§l§nHelioflux Melting Core my Beloved
 betterquesting.quest.GslQBIW9QKaCz7FFpkrv6g.desc=As usage of the Forge continues, more data on graviton shards is gathered. It has been found that they can stabilize the outputs of the Forge, allowing for the direct extraction of molten material while it is still close to the heart of the star.%n%n[note]The second module of the Godforge, Helioflux Melting Core allows processing EBF recipes by directly outputting molten metal when possible. This may not always be as efficient as other methods, but the time and scaling saved from Vacuum Freezer steps often more than makes up for this.[/note]%n%n[note]Usage of this module requires the FDIM upgrade.[/note]%n%n[warn]Helioflux Melting Core <3[/warn]
+
+# Quest: A Diode, But For Condensate
+betterquesting.quest.HvtY6xu3RAKjwhAZCTwK8A.name=§9§l§nA Diode, But For Condensate
+betterquesting.quest.HvtY6xu3RAKjwhAZCTwK8A.desc=At this scale, moving condensate is no longer a matter of pressure or pipe capacity. Every connected conduit becomes part of the same quantum network, allowing its contents to be observed and extracted from anywhere. What you need is a way to impose direction upon something that does not particularly care which way it travels.%n%nLike the theoretical demon whose name it bears, the §5§lMaxwell Gate§r separates one state from another. Networks connected to its output may observe and pull condensate from the input, while the input remains blind to everything beyond the gate. A filter in the controller can further restrict this passage to a single type of condensate.%n%nThere is one exception: the Entanglement Apparatus sees the gate backwards. It may only push condensate from the output network toward the input network.%n%n[note]The Maxwell Gate is optional. It does not move condensate by itself; it only controls which side may access it.[/note]%n%n[note]The Gate consumes a constant 1A of UIV power whenever active, even when no condensate is passing through it.[/note]
 
 # Quest: Star Fuel and Dark Matter
 betterquesting.quest.II3sjr1cSPOMXaSG70S_eg.name=§9§l§nStar Fuel and Dark Matter
@@ -4479,6 +4503,10 @@ betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.desc=Transcendent Metal is the prima
 betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.name=§9§l§nTranscendent Plasma Mixer
 betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.desc=Definitely consider making one.%n%nThe Transcendent Plasma Mixer is a powerful asset for all your DTPF catalyst needs.%n%nThe base processing time is always 5 seconds. You can specify the number of parallels the machine can run in the GUI.%n%nEach parallel additively increases the power requirement, so you don't lose any efficiency while increasing production!%n%n[note]Most of your power will go here. Consider upgrading your naquadah fuel or creating the Dyson Swarm.[/note]
 
+# Quest: Assembly To The MAX+
+betterquesting.quest.KV1vw68JTb-KiHQzBEPzBw.name=§9§l§nAssembly To The MAX+
+betterquesting.quest.KV1vw68JTb-KiHQzBEPzBw.desc=The §5§lObservation Array§r is less an assembler than an enormous quantum router. It draws condensate from every Containment Field visible to its network, supplies power to its linked Teleportation Nodes, and presents those Nodes with the nanites demanded by each stage of their recipes. Up to sixteen Nodes may be linked to one Array, with their combined energy cost paid here.%n%nThe nanites are never consumed, but they must be exchanged constantly. Providing a higher tier than requested actually slows processing, while mixing nanite types causes the entire collection to behave as the lowest tier present. Precision, not brute force, is the key.%n%n[warn]More than three unrequested condensates on the network will immediately fail every active recipe. Even fewer contaminants significantly reduce processing speed.[/warn]%n%n[note]Running the same recipe across synchronized Nodes is strongly recommended. Different recipes may request incompatible nanites and contaminate one another's condensate network.[/note]
+
 # Quest: The Cat is Out of the Box
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.name=§9§l§nThe Cat is Out of the Box
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, blood, sweat, tears, and a little bit of transcendent metal...%nYou are now finally able to solve mankind's hardest puzzle ever: clicking boxes randomly.%n%nThe §cUncertainty Resolution§r, §oa Dyson user's wet dream§r, will allow you to completely skip that annoying puzzle when you need to set some (probably many) Quantum Computers up.
@@ -4486,6 +4514,10 @@ betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, bloo
 # Quest: Atto Power ICs
 betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.name=§9§l§nAtto Power ICs
 betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.desc=You need Atto Power ICs for Dyson, UMV -> UXV transformers, UIV Energy/Dynamo Hatches, and Pico Circuits.%n%n[note]You'll need a UIV Cutting Mac- Wait what?[/note]%n%nFrom now on, your Cutting Machine is not going to cut it, §l§oliterally. §rThose giant sawblades cannot cut up wafers this complex.%n%nUsing your HILE is the next best thing, however you seem to burn most of the biological parts off of the wafer, causing you to gain less chips.%n%n[note]Perhaps we could focus these lasers with a new powerful lens.[/note]
+
+# Quest: Fluid^2 Extractor
+betterquesting.quest.So7OhYd8SVO3_Jl370cogA.name=§9§l§nFluid^2 Extractor
+betterquesting.quest.So7OhYd8SVO3_Jl370cogA.desc=Welcome to the BEC Line! It's recommended you read the wiki for full context on these machines: [url]https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Line[/url]%n%nUntil now, manufacturing has been a matter of imposing order upon matter: heat it, compress it, shape it, and force its atoms into the arrangement you require. But the materials ahead of you have become too complex for such crude methods. No amount of mechanical precision can control every particle individually.%n%nAt temperatures approaching absolute zero, another possibility emerges. As a cloud of bosons loses its thermal motion, the quantum waves describing its particles spread and begin to overlap. Enough of them eventually occupy the same low energy state that the cloud ceases to behave like a collection of independent particles. Instead, it acts as a single coherent quantum system: a Bose-Einstein condensate.%n%nThe first step is using the §5§lEntanglement Apparatus§r to convert ordinary fluids into entangled condensate by brute-forcing this delicate state on an industrial scale. It cannot overclock; instead, it expands the experiment across unlimited parallels, processing as much material as the supplied power can sustain. Multi-amp and laser energy hatches will be necessary if you intend to feed the rest of the BEC Line at any meaningful rate.%n%nDifferent fluids may be entangled simultaneously, although the entire batch runs for the duration of the slowest active conversion.%n%n[note]Insert ordinary fluids through the input hatch at the front. Entangled condensate leaves through the BEC Hatch at the rear and is pushed into the connected Containment Field network.[/note]%n%n[note]The Apparatus does not check whether sufficient storage is available before processing. Use a BEC Detector Hatch to disable it before your Containment Fields overflow and begin voiding condensate.[/note]
 
 # Quest: Getting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.name=§9§l§nGetting More Out of Your Hypogen
@@ -4506,6 +4538,14 @@ betterquesting.quest.WJ-SykCeTr2B-3SHz0mXZg.desc=It has 16 parallels and can uti
 # Quest: Crayon and Melon
 betterquesting.quest.WLuCkspyTZqFuqlVVxgyzQ.name=§9§l§nCrayon and Melon
 betterquesting.quest.WLuCkspyTZqFuqlVVxgyzQ.desc=The Godforge will require new materials with the correct properties to stabilize a neutron star. With your new Transcendent Plasma Mixer and MK5 Fusion Reactor, you learn of a new material which may be suitable, which you name [note]Creon[/note].%n%nThis material is made as a plasma, and must be cooled alongside an extremely sturdy material. You try a curious mixture of dusts, which you decide to name [note]Mellion[/note].%n%n[note]These materials may also be suitable for components you need many of, you may realize UIV components seem to handle these two materials quite well...[/note]
+
+# Quest: Primitive Components
+betterquesting.quest._U63kXS8QNqZZCgZSYYrKw.name=§9§l§nPrimitive Components
+betterquesting.quest._U63kXS8QNqZZCgZSYYrKw.desc=Condensate is no joke; that stuff can mess you up big time. Your puny Assembly Lines do not meet the requirements to assemble with it.%n%nPrimitive Components allow you to assemble complex parts using condensate at much better prices.
+
+# Quest: Sisters In Arms
+betterquesting.quest.cmR_3Et6RMyXYfHzRf3Qjg.name=§9§l§nSisters In Arms
+betterquesting.quest.cmR_3Et6RMyXYfHzRf3Qjg.desc=Tairitsu, Shijima, and Churitsu are sister materials, all requiring similarly colored materials to make. A hidden conection between all of them allow some strong protective forces to appear.%n%nTry putting their bond to good use.%n%n[note]Technetium dust is needed Shijima, which can be fused with Fluorine and Selenium. The latter can be obtained with the Selenium line, by processing Platinum Froth, or from Miessite in the Toxic Everglades.[/note]
 
 # Quest: UIV Energy Hatch
 betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.name=§9§l§nUIV Energy Hatch
@@ -4551,9 +4591,9 @@ betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.desc=Now that you've enjoyed your ex
 betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.name=§9§l§nFuwusion MK5
 betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=After seeing how slow Shirabon is to make, you might want to upgrade your Fusion setup.%n%nLike its predecessor, the MK4, this version also supports 4/4 OC. Hopefully, this will make your Metastable Oganesson issues a bit more manageable.%n%n[note]You can specify the batch amount in the GUI if you don't want it to handle one-tick recipes.[/note]
 
-# Quest: Do I Really Need These?
-betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.name=§9§l§nDo I Really Need These?
-betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.desc=Yes, actually, but not until UMV.%n%nOnce upon a time these were optional and commonly skipped by players, but now you will need at least 20 of them for use in the Nanochip Assembly Matrix if you want to craft any Quantum Circuits later on.%n%nAs for upgrading your CoAL to use them in UIV... that's your choice.
+# Quest: Maybe I Do Need These
+betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.name=§9§l§nMaybe I Do Need These
+betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.desc=Once upon a time, these were optional and commonly skipped. Now that UMV CoAL is gated behind BEC, however, it may be worth making a set for cheaper UIV components.%n%nYou will also need 20 of them to craft Quantum Circuits in the NAC at UMV.%n%n...or you could just make extra UMV ones.%n%n[note]The UIV CoAL requires Superdense Transcendent Metal Plates, which can only be crafted in the BHC.[/note]
 
 
 ## Quest Line: Tier 12 - UMV
@@ -4616,6 +4656,10 @@ betterquesting.quest.HFpuUdRKS--dsQzGEvjW2w.desc=The §eExotic§r§r Spacetime C
 betterquesting.quest.Hgj4aBbmQUCkp325rL-McQ.name=§c§l§nT3: Stable
 betterquesting.quest.Hgj4aBbmQUCkp325rL-McQ.desc=The §9Stable§r Spacetime Compression Field Generator allows for up to §lT3§r recipes which produce §l18432L§r of White Dwarf Matter per successful batch.%n%nThe §9Stable§r Time Dilation Field Generator grants a §275%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c18.5%%§r.%n%nThe §9Stable§r Stabilisation Field Generator will boost the success chance of the EoH by §210%%§r, but will decrease the yield by §c10%%§r and increase the power cost by §c30%%§r.
 
+# Quest: Resplendent Components
+betterquesting.quest.LxgRRQ25SE2IQOCMxZa8ug.name=§c§l§nResplendent Components
+betterquesting.quest.LxgRRQ25SE2IQOCMxZa8ug.desc=Even Refined Components begin to fail near the final tiers of the EoH. Only something far greater than stellar matter will suffice.%n%nBy incorporating MHDCSM into their structure, Resplendent Components can withstand the most extreme conditions your EoH can create.
+
 # Quest: Yet Another Space Elevator Upgrade
 betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.name=§c§l§nYet Another Space Elevator Upgrade
 betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.desc=This bad boi can handle 18 modules at once.
@@ -4628,9 +4672,17 @@ betterquesting.quest.QO1gudFvTtKgWe9942dW3Q.desc=Eternal coils? Perfect time for
 betterquesting.quest.Qjg1J4kuS-6937dCEUqHUw.name=§c§l§nA Second Ring has Hit the Godforge
 betterquesting.quest.Qjg1J4kuS-6937dCEUqHUw.desc=As additional rings are placed closer to the star at the center of the Forge, the gravitational stress drastically increases on the structure. Graviton shards alleviate these stresses while also creating localized spacetime bridges to link the two rings and their modules' respective upgrades.%n%n[note]Adding a second ring to your Godforge allows for 4 additional modules, as well as allowing you to pick a second path in the split paths part of the upgrade tree.[/note]%n%n[note]Usage of a second ring requires the CD upgrade.[/note]
 
+# Quest: Reinforced Components
+betterquesting.quest.RTzMnAU8SvC0mzrDPHDbPg.name=§c§l§nReinforced Components
+betterquesting.quest.RTzMnAU8SvC0mzrDPHDbPg.desc=Primitive Components are no longer strong enough to make the parts needed for a better EoH. Time for an upgrade!%n%nBy incorporating White Dwarf Matter into their structure, Reinforced Components can maintain their shape beneath far stronger spacetime compression fields.
+
 # Quest: Magnetic Monopole Matter
 betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.name=§c§l§nMagnetic Monopole Matter
 betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavors; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realize that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.%n%n[note]Required for UXV components, Magmatter is the second material the Heliofusion Exoticizer can create, and will require a second module. Read the Godforge Information in the UI for more information on how to automate this.[/note]%n%n[note]The creation of Magmatter requires the EE upgrade.[/note]%n%n[note]Congrats! You can now move on to the UXV tier![/note]
+
+# Quest: Perfected Components
+betterquesting.quest.VYn4yi1TSiqJRhtK8YOjjQ.name=§c§l§nPerfected Components
+betterquesting.quest.VYn4yi1TSiqJRhtK8YOjjQ.desc=Your EoH may not need anything beyond Resplendent Components, but the rest of your factory soon will.%n%nPerfected Components require exceptionally expensive materials, including Magmatter. You do not need them immediately, but future UXV CoAL Casings, Astral Arrays, and Stargate parts will demand plenty.
 
 # Quest: Convergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=§c§l§nConvergence
@@ -4643,6 +4695,10 @@ betterquesting.quest.bKW2YJfES6yvbes8JQRb0g.desc=The §6Perfect§r Spacetime Com
 # Quest: Black Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.name=§c§l§nBlack Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.desc=Reinforcing your casings with matter from white dwarfs was a good idea.%n%nYou can now accelerate a solar system until a black dwarf forms. This material will likely be key to observing and understanding what happens next.%n%nThis is the second of your three EOH materials. Use it to upgrade your casings to T7.%n%n[note]The EOH becomes power positive once all the casings are Tier 7.[/note]
+
+# Quest: A Solder Singularity
+betterquesting.quest.cEX6SRxLTnSHOyvKPkBybw.name=§c§l§nA Solder Singularity
+betterquesting.quest.cEX6SRxLTnSHOyvKPkBybw.desc=Mutated Living Solder has become far too weak for your assembly needs. You need something more... cosmic.%n%nBoundless Cosmic Solder is the final tier of soldering alloy, and you will need it in large quantities.%n%n[note]Hopefully your Beamcrafter can keep up...[/note]
 
 # Quest: T2: Primitive
 betterquesting.quest.cO67NYK2QsyDlcvFGkk43A.name=§c§l§nT2: Primitive
@@ -4696,6 +4752,10 @@ betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.desc=Another Field Generator... you 
 betterquesting.quest.sKLPeimGTFS6_hIyc-SOXA.name=§c§l§nUMV Superconductors
 betterquesting.quest.sKLPeimGTFS6_hIyc-SOXA.desc=One of the last wires you have to make for now.%n%n[note]Hope you're not using these for hooking up power to your pre-existing machines. Consider the Infinity Wire.[/note]
 
+# Quest: Refined Components
+betterquesting.quest.teFEMExsSEWHYV79M8gpHw.name=§c§l§nRefined Components
+betterquesting.quest.teFEMExsSEWHYV79M8gpHw.desc=Reinforced Components can only take your EoH so far. Another upgrade is needed to assemble its stronger parts.%n%nBy incorporating Black Dwarf Matter into their structure, Refined Components remain stable beneath even greater spacetime distortions.
+
 # Quest: Tier 4 QFT Catalysts
 betterquesting.quest.u-2IsyxKTLiZuTY417qWKw.name=§c§l§nTier 4 QFT Catalysts
 betterquesting.quest.u-2IsyxKTLiZuTY417qWKw.desc=With Shirabon now acquired, you can finally create catalysts to use in your Tier 4 QFT.%n%n[note]These are extremely expensive, you may want to look into DTPF convergence, and faster means of creating Metastable Oganesson before you can make many of these.[/note]
@@ -4720,6 +4780,10 @@ betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for th
 ## Quest Line: Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
+
+# Quest: A Universe In Your Drives
+betterquesting.quest.2QVk9gqBSWKWZQ2T0rXh8A.name=§c§l§n§4§l§nA Universe In Your Drives
+betterquesting.quest.2QVk9gqBSWKWZQ2T0rXh8A.desc=AE storage has finally caught up with the materials you are throwing at it. These cells are much more practical than their cheaper single item or single fluid counterparts, though they are also much more expensive.%n%n[note]You will need them for upcoming crafts, too![/note]
 
 # Quest: MAX Circuits
 betterquesting.quest.2rrP1wt_Qt2LlOqDppdjLQ.name=§4§l§nMAX Circuits
@@ -4753,9 +4817,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDw.desc=You'll need 7 of these to const
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.name=§6§l§nStargate Chevron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.desc=This is required in order to make the stargate work between dimensions, provided you get a second stargate to dial...
 
-# Quest: You'll Probably Need Quite a Few of These
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.name=§6§l§nYou'll Probably Need Quite a Few of These
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.desc=It may not actually store any energy but it'll still be useful for some other endgame items.
+# Quest: You'll Only Need a Few of These
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.name=§6§l§nYou'll Only Need a Few of These
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.desc=It may not actually store any energy, but you still need to make them, okay?
 
 # Quest: Stargate Command
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.name=§6§l§nStargate Command
@@ -4797,9 +4861,17 @@ betterquesting.quest.UVG21mYSQJex90gQWdkpIw.desc=Has 64 parallels and consumes ~
 betterquesting.quest.Uj0PvsNCQw-aWaEOvlFpow.name=§4§l§nHumongous Hatch
 betterquesting.quest.Uj0PvsNCQw-aWaEOvlFpow.desc=At last... salvation from the egregious EoH hatch input limitations!%n%nThis will reduce the waiting time between cycles to a fraction of what it was before. 
 
+# Quest: Maybe Change Your Mind
+betterquesting.quest.W5cccuPzQGqJzhYW_kBMcQ.name=§6§l§nMaybe Change Your Mind
+betterquesting.quest.W5cccuPzQGqJzhYW_kBMcQ.desc=Has gem progression gone too far?
+
 # Quest: Rule of Threes
 betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.name=§4§l§nRule of Threes
 betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.desc=The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.%n%n[note]Adding a third and final ring to your Godforge allows for 4 additional modules, as well as allowing you to pick all three paths in the split paths part of the upgrade tree, allowing for a fully upgraded Godforge.[/note]%n%n[note]Usage of a third ring requires the END upgrade.[/note]
+
+# Quest: Stargate Frame Part
+betterquesting.quest.fTEQD_w8TTerm_ETSVcBmA.name=§6§l§nStargate Frame Part
+betterquesting.quest.fTEQD_w8TTerm_ETSVcBmA.desc=The framework of the Stargate. You wouldn't want it held together with glue, would you?%n%nRight, maybe you would...
 
 # Quest: Simulating a Solar System
 betterquesting.quest.hNdNrT_aSKaYi_TnT7cowA.name=§4§l§nSimulating a Solar System
@@ -4813,9 +4885,17 @@ betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.desc=Now that you have your hands on
 betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.name=§4§l§nA Minor Roadblock
 betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.desc=MAX circuits huh... Is it really almost over?
 
+# Quest: UNLIMITED COMPUTATION
+betterquesting.quest.iu0rzCLcR_K7Oc2EDtQqgg.name=§6§l§nUNLIMITED COMPUTATION
+betterquesting.quest.iu0rzCLcR_K7Oc2EDtQqgg.desc=So many circuits. Maybe that Assembly Complex should have stayed in the drafts...
+
 # Quest: Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=§4§l§nYour Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.desc=You want to rush this as soon as possible.%n%nEvery L of Universium matters.
+
+# Quest: An Offering To The Gods
+betterquesting.quest.ztV-j35XSXaQ0OQ1TSyKew.name=§4§l§nAn Offering To The Gods
+betterquesting.quest.ztV-j35XSXaQ0OQ1TSyKew.desc=Another Stargate recipe, another trophy. You know the drill by now: submit one legacy Stargates' worth of materials and receive one cute little trophy.%n%n[note]Our journey reaches its latest stop, entering the era of refinement.%n%nThe year is 2025, and the game has become more refined than ever before. So refined, in fact, that we may have added a little too much quality of life and accidentally earned this Stargate the nickname "EZ Gate." Easy is relative, of course; it was still a Stargate, after all.%n%nThe Matter Manipulator has transformed base building and infrastructure expansion, allowing entire structures to be planned, copied, and moved, while NEI autocrafting has made early progression considerably faster. The Spinmatron has added a new late-midgame processing centrifuge upgrade, and Et Futurum has brought Netherite and Prismarine to the pack alongside their new processing lines. At the end of progression, the T4 Nano Forge has provided a much needed alternative to endless T3 spam, while the EoH pity system has made its worst streaks of RNG more manageable.%n%nAutomation has continued to improve, and years of accumulated knowledge have transformed problems that once took entire teams months to solve into well-understood production challenges. Outside the pack, the community has created countless calculators, planners, visualizers, and specialized programs for automation, base design, optimization, or simply for fun.%n%nThe results have been difficult to ignore. More Stargates have been completed during this period than in any previous era, with the recorded gate count on Discord passing 1,000 before the release of 2.9.%n%nA team composed of some of the pack's most talented and experienced players completed a full Stargate run in only 22 days, 16 hours, and 45 minutes on January 26, 2026, setting a new speedrun record.%n%n§aPxx500§r and §aAdam§r achieved the first documented Gatelympics (quintuple) gate during that very same speedrun, while §aSintken§r and §aLordPeverell§r became the first players with documented triple solo gates on their own.%n%nP.S.: Here's the list as usual:%n-Matter Manipulator%n-Spinmatron%n-Solar Factory%n-Nano Forge T4%n-NEI autocrafting%n-Netherite and Prismarine processing lines%n-EoH pity system%n-Numerous automation, AE2, and general QoL improvements[/note]
 
 
 ## Quest Line: Feeding Yourself
@@ -8121,10 +8201,6 @@ betterquesting.quest.Hn_igsosSbKsnATeYgvPgw.desc=TL;DR: The casing amount in thi
 # Quest: Turbine Housing
 betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.name=§2§l§nTurbine Housing
 betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.desc=At UV you unlock the ability to automatically refill turbines with rotors.%n%nXL turbines do it by default much earlier...
-
-# Quest: Balance is Everything
-betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=§9§l§nBalance is Everything
-betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=You already transcended dimensions, but as your power demands spike to absurd levels, maybe it's time to transcend matter!%n%nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The  Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.%n%nBut it's a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.%n%nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in its 16 Antimatter Hatches and consumes equal amounts of Proto Matter.%n%nEach cycle, the base production of antimatter per hatch is:%n(1/16)*(§3Antimatter§r)^(0.5 + §6§nC§r).%nThen each hatch will pull a random number from a normal distribution of 0.2 + §b§nA§r and a variance of 1, multiplying the base production with it, meaning the total antimatter change may be negative.%n%nThis causes an imbalance between the hatches. To properly automate the antimatter production, it's vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!%n%nProper use of stabilization fluids can significantly reduce energy usage and boost production:%n%nIt consumes 10,000,000 + (§3Antimatter§r * 1000)^(1.5 - §2§nM§r) EU/t passively%nMagnetic Stabilization Fluids can mitigate the passive instability and have its §2exponent§r reduced:%nMolten Purified Tengam Exponent = §2§n0.1§r%nTachyon-Rich Fluid Exponent = §2§n0.2§r%nMolten Magmatter Exponent = §2§n0.3§r%n%nFor each cycle, the SSASS uses (§3Antimatter§r * 10000)^(1.5 - §5§nG§r) EU%nBy regulating the gravity containment of the forge, this §5exponent§r can also be reduced:%nMolten Spacetime Exponent = §5§n0.05§r%nSpatially Enlarged Fluid Exponent = §5§n0.10§r%nMolten Eternity Exponent = §5§n0.15§r%n%nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the §6exponent§r in the production formula:%nMolten Shirabon Exponent = §6§n0.05§r%nMolten MHDCSM Exponent = §6§n0.10§r%n%nBy inserting fluids with high energy potential, it's possible to alter antimatter's flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the §baverage§r of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.%nDepleted Naquadah Fuel Mk V average = §b§n0.05§r%nDepleted Naquadah Fuel Mk VI average = §b§n0.10§r
 
 # Quest: Naquadah Based Fuel MkVI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.name=Naquadah Based Fuel MkVI
@@ -14936,6 +15012,10 @@ betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=The Gold barrel has 81 slots.
 # Quest: Heliocast Reinforcement
 betterquesting.quest.JCfcbke6SGO9KCPqXsTyaQ.name=§9§l§nHeliocast Reinforcement
 betterquesting.quest.JCfcbke6SGO9KCPqXsTyaQ.desc=The §5§lHeliocast Reinforcement§r (HR) module is the final §nExo-Foundry§r module unlocked in §9§lUIV§r. %n%nThe HR module finally allows you access to §9§lUIV+§r Fluid Solidifier recipes. Now you can cool higher tier materials or create advanced reinforced glass types using the Foundry.%n%nThe HR module is also unique in being able to pair with itself. Having two or more §5HR§r modules on your Foundry will unlock "§6Superstable Core§r" and give these bonuses:%n%n- Two or more HR modules grant §2+75%%§r speed & §c-10%%§r EU per HR%n- Three or more HR modules grant §3+6§r Parallels per voltage tier & §2+0.1§r overclock factor per HR%n- Four total HR modules grant §2+2§r full overclocks%n%n[note]Note these are compounding effects; e.g. having three HR modules will grant those listed bonuses in addition to the bonuses attained from two HR modules.[/note]
+
+# Quest: Balance is Everything
+betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=§9§l§nBalance is Everything
+betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=You already transcended dimensions, but as your power demands spike to absurd levels, maybe it's time to transcend matter!%n%nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The  Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.%n%nBut it's a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.%n%nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in its 16 Antimatter Hatches and consumes equal amounts of Proto Matter.%n%nEach cycle, the base production of antimatter per hatch is:%n(1/16)*(§3Antimatter§r)^(0.5 + §6§nC§r).%nThen each hatch will pull a random number from a normal distribution of 0.2 + §b§nA§r and a variance of 1, multiplying the base production with it, meaning the total antimatter change may be negative.%n%nThis causes an imbalance between the hatches. To properly automate the antimatter production, it's vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!%n%nProper use of stabilization fluids can significantly reduce energy usage and boost production:%n%nIt consumes 10,000,000 + (§3Antimatter§r * 1000)^(1.5 - §2§nM§r) EU/t passively%nMagnetic Stabilization Fluids can mitigate the passive instability and have its §2exponent§r reduced:%nMolten Purified Tengam Exponent = §2§n0.1§r%nTachyon-Rich Fluid Exponent = §2§n0.2§r%nMolten Magmatter Exponent = §2§n0.3§r%n%nFor each cycle, the SSASS uses (§3Antimatter§r * 10000)^(1.5 - §5§nG§r) EU%nBy regulating the gravity containment of the forge, this §5exponent§r can also be reduced:%nMolten Spacetime Exponent = §5§n0.05§r%nSpatially Enlarged Fluid Exponent = §5§n0.10§r%nMolten Eternity Exponent = §5§n0.15§r%n%nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the §6exponent§r in the production formula:%nMolten Shirabon Exponent = §6§n0.05§r%nMolten MHDCSM Exponent = §6§n0.10§r%n%nBy inserting fluids with high energy potential, it's possible to alter antimatter's flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the §baverage§r of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.%nDepleted Naquadah Fuel Mk V average = §b§n0.05§r%nDepleted Naquadah Fuel Mk VI average = §b§n0.10§r
 
 # Quest: Celestial Gateways
 betterquesting.quest.OWIeO5C1RheNGaVsrwmPJg.name=Celestial Gateways
