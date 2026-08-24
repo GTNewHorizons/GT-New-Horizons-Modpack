@@ -6011,7 +6011,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.desc=In order to not die constan
 
 # Quest: More Augmentation
 betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.name=More Augmentation
-betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.desc=A new energy core means more powerful augments. This quest lists all Tier 2 augments.%n%nSome standouts:%n%n-Milk Infusion (§dUtility§r, Helmet): Constantly clear negative status effects.%n-Adaptive Jetpack Stabilizers (§aMovement§r, Chestplate): Allow your jetpack to hover perfectly without descending.
+betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.desc=A new energy core means more powerful augments. This quest lists all Tier 2 augments.%n%nSome standouts:%n%n-Milk Infusion (§dUtility§r, Helmet): Constantly clear negative status effects.%n-Vectored Jetpack (§aMovement§r, Chestplate): An upgraded version of the electric jetpack with better flight stats and perfect hover stability.%n-Heat Dispersion System (§6Protection§r, Leggings): Permanent fire resistance.
 
 # Quest: Protect Your Base: Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0A.name=§a§lProtect Your Base: Tier 4
@@ -6361,9 +6361,17 @@ betterquesting.quest.BFkQt-DcRhmReOUsVWtrqA.desc=At ZPM, you've almost reached t
 betterquesting.quest.CQnbvvAiRY2e7CsShsCe1A.name=Modular Meddling
 betterquesting.quest.CQnbvvAiRY2e7CsShsCe1A.desc=Interested in powerful, customizable armor that you can modify as you advance? Look no further than §6§r§l&z&zMechanical Armor§r!%n%nIn order to begin tinkering, you'll need a workspace for modifying modular equipment along with a set of Mechanical Armor. The armor is essentially useless on its own, but gains additional features through modification. Each piece of armor is composed of three parts:%n%n§nAugments: §rAugments add a wide variety of useful features to the armor. Augments are categorized into one of three types: §6Protection§r, §aMovement§r, and §dUtility§r. Augments can only be inserted into slots corresponding to their category.%n%n§nFrames:§r The armor's frame determines the protection value of the armor along with how many slots it contains for augments.%n%n§nEnergy Cores:§r The energy core determines how much energy the armor stores, its charging tier, and which augments can be equipped.
 
+# Quest: Eldritch Striders
+betterquesting.quest.DroLGkR9Qe26BJFBcUHLig.name=Eldritch Striders
+betterquesting.quest.DroLGkR9Qe26BJFBcUHLig.desc=A little faster couldn't hurt, right? This is the final version of the Striders augment.
+
 # Quest: Even More Augmentation
 betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.name=Even More Augmentation
-betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.desc=There are currently only three new augments available in Tier 3, but they are very powerful.%n%n-Energy Grid Defense (§6Protection§r, Chestplate): Gain a forcefield that can completely block most damage at the cost of a huge amount of EU.%n-Gravitational Control Module (§aMovement§r, Chestplate): Creative flight.%n-Inertial Dampeners (§aMovement§r, Chestplate): Enable inertia canceling, allowing you to stop instantly while flying.
+betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.desc=There are currently only a few augments available in Tier 3, but they are very powerful.%n%n-Energy Grid Defense (§6Protection§r, Chestplate): Gain a forcefield that can completely block most damage at the cost of a huge amount of EU.%n-Gravitational Control Module (§aMovement§r, Chestplate): Creative flight.
+
+# Quest: Apprentice Striders
+betterquesting.quest.RfnfUKHhQkK5225EbXV6bA.name=Apprentice Striders
+betterquesting.quest.RfnfUKHhQkK5225EbXV6bA.desc=This extremely powerful magical combination augment will grant you increased speed, jump boost, and built-in step assist - normally only accessible in IV. A must-have for any aspiring technomancer.
 
 # Quest: Basic Mechanical Armor
 betterquesting.quest.Ta-VKcQFSpejtRIkB650qg.name=Basic Mechanical Armor
@@ -6372,6 +6380,10 @@ betterquesting.quest.Ta-VKcQFSpejtRIkB650qg.desc=To turn your mechanical exoskel
 # Quest: Perfected Energy Core
 betterquesting.quest.YXYbS-DuTuK7ISAjGV874A.name=Perfected Energy Core
 betterquesting.quest.YXYbS-DuTuK7ISAjGV874A.desc=Sick of your Mechanical Armor running out of batteries? Try strapping a miniaturized singularity to your chest! It's entirely safe.%n%nThis final energy core will provide infinite energy to the Mechanical Armor and allow any augment to be equipped.
+
+# Quest: Archmage Striders
+betterquesting.quest._it_6peTRhOMCDaua_QQ1g.name=Archmage Striders
+betterquesting.quest._it_6peTRhOMCDaua_QQ1g.desc=The Apprentice Striders are good, but as the name implies, you can do better...
 
 # Quest: Augmentation
 betterquesting.quest.hwvNowyHS7WJOK4xDcUw0A.name=Augmentation
