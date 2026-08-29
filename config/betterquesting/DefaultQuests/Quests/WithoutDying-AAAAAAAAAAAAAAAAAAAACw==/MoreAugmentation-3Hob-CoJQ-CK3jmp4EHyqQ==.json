@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "A new energy core means more powerful augments. This quest lists all Tier 2 augments.\n\nSome standouts:\n\n-Milk Infusion (§dUtility§r, Helmet): Constantly clear negative status effects.\n-Adaptive Jetpack Stabilizers (§aMovement§r, Chestplate): Allow your jetpack to hover perfectly without descending.",
+      "desc:8": "A new energy core means more powerful augments. This quest lists all Tier 2 augments.\n\nSome standouts:\n\n-Milk Infusion (§dUtility§r, Helmet): Constantly clear negative status effects.\n-Vectored Jetpack (§aMovement§r, Chestplate): An upgraded version of the electric jetpack with better flight stats and perfect hover stability.\n-Heat Dispersion System (§6Protection§r, Leggings): Permanent fire resistance.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -133,7 +133,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentjetpackperfecthover"
+          "id:8": "gregtech:gt.augmentvectoredjetpack"
         },
         "6:10": {
           "Count:3": 1,
@@ -146,6 +146,12 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "gregtech:gt.augmentknockbackresistance"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.augmentinertiacanceling"
         }
       },
       "taskID:8": "bq_standard:retrieval"

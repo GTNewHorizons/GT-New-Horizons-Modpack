@@ -1,0 +1,152 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5372458478398622035,
+      "questIDLow:4": -5189103930243078016
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "The §5§lObservation Array§r is less an assembler than an enormous quantum router. It draws condensate from every Containment Field visible to its network, supplies power to its linked Teleportation Nodes, and presents those Nodes with the nanites demanded by each stage of their recipes. Up to sixteen Nodes may be linked to one Array, with their combined energy cost paid here.\n\nThe nanites are never consumed, but they must be exchanged constantly. Providing a higher tier than requested actually slows processing, while mixing nanite types causes the entire collection to behave as the lowest tier present. Precision, not brute force, is the key.\n\n[warn]More than three unrequested condensates on the network will immediately fail every active recipe. Even fewer contaminants significantly reduce processing speed.[/warn]\n\n[note]Running the same recipe across synchronized Nodes is strongly recommended. Different recipes may request incompatible nanites and contaminate one another\u0027s condensate network.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15756,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§9§l§nAssembly To The MAX+",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2980661414635064767,
+  "questIDLow:4": -8464387737179131129,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15756,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 15476,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 15481,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1700,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "1:10": {
+          "Count:3": 1515,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "2:10": {
+          "Count:3": 1457,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "3:10": {
+          "Count:3": 838,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "4:10": {
+          "Count:3": 790,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "5:10": {
+          "Count:3": 664,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockglass1"
+        },
+        "6:10": {
+          "Count:3": 560,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "7:10": {
+          "Count:3": 464,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}
