@@ -64,9 +64,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 3,
+          "Damage:2": 32700,
           "OreDict:8": "",
-          "id:8": "minecraft:stone_slab"
+          "id:8": "gregtech:gt.metaitem.02"
         }
       }
     }
