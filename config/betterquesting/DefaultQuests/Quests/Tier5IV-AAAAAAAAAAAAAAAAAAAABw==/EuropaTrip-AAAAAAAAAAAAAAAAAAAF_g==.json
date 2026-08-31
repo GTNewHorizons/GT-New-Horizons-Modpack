@@ -125,6 +125,12 @@
           "Damage:2": 390,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockores2"
+        },
+        "3:10": {
+          "Count:3": 192,
+          "Damage:2": 2390,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
