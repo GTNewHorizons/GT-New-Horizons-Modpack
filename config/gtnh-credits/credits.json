@@ -72,6 +72,705 @@
       "category": {
         "build_infrastructure": "systems_administrator"
       }
+    },
+    {
+      "name": "AlexIIL",
+      "category": {
+        "original_mod_authors": "mod_betterloadingscreen"
+      }
+    },
+    {
+      "name": "AlgorithmX2",
+      "category": {
+        "original_mod_authors": "mod_ae2"
+      }
+    },
+    {
+      "name": "Arcaratus",
+      "category": {
+        "original_mod_authors": "mod_bloodarsenal"
+      }
+    },
+    {
+      "name": "asiekierka",
+      "category": {
+        "original_mod_authors": [
+          "mod_computronics",
+          "mod_asielib",
+          "mod_foamfix"
+        ]
+      }
+    },
+    {
+      "name": "AstroTibs",
+      "category": {
+        "original_mod_authors": "mod_villagenames"
+      }
+    },
+    {
+      "name": "AtomicStryker",
+      "category": {
+        "original_mod_authors": "mod_infernalmobs"
+      }
+    },
+    {
+      "name": "Azanor",
+      "category": {
+        "original_mod_authors": "mod_baubles"
+      }
+    },
+    {
+      "name": "bdew",
+      "category": {
+        "original_mod_authors": [
+          "mod_ae2stuff",
+          "mod_bdlib",
+          "mod_gendustry",
+          "mod_neiaddons"
+        ]
+      }
+    },
+    {
+      "name": "Benimatic",
+      "category": {
+        "original_mod_authors": "mod_twilightforest"
+      }
+    },
+    {
+      "name": "BlayTheNinth",
+      "category": {
+        "original_mod_authors": "mod_cookingforblockheads"
+      }
+    },
+    {
+      "name": "BlesseNtumble",
+      "category": {
+        "original_mod_authors": "mod_galaxyspace"
+      }
+    },
+    {
+      "name": "BluSunrize",
+      "category": {
+        "original_mod_authors": "mod_witchinggadgets"
+      }
+    },
+    {
+      "name": "boni",
+      "category": {
+        "original_mod_authors": "mod_tconstruct"
+      }
+    },
+    {
+      "name": "boq",
+      "category": {
+        "original_mod_authors": [
+          "mod_openblocks",
+          "mod_openmodslib"
+        ]
+      }
+    },
+    {
+      "name": "brandon3055",
+      "category": {
+        "original_mod_authors": "mod_draconicevolution"
+      }
+    },
+    {
+      "name": "ChickenBones",
+      "category": {
+        "original_mod_authors": [
+          "mod_codechickencore",
+          "mod_forgemultipart",
+          "mod_nei",
+          "mod_translocators",
+          "mod_wrcbe"
+        ]
+      }
+    },
+    {
+      "name": "chylex",
+      "category": {
+        "original_mod_authors": "mod_hee"
+      }
+    },
+    {
+      "name": "Combuster",
+      "category": {
+        "original_mod_authors": "mod_botanichorizons"
+      }
+    },
+    {
+      "name": "CovertJaguar",
+      "category": {
+        "original_mod_authors": "mod_railcraft"
+      }
+    },
+    {
+      "name": "cpw",
+      "category": {
+        "original_mod_authors": "mod_ironchest"
+      }
+    },
+    {
+      "name": "CrazyPants",
+      "category": {
+        "original_mod_authors": [
+          "mod_endercore",
+          "mod_enderio",
+          "mod_enderzoo"
+        ]
+      }
+    },
+    {
+      "name": "CreativeMD",
+      "category": {
+        "original_mod_authors": "mod_littletiles"
+      }
+    },
+    {
+      "name": "Darkhax",
+      "category": {
+        "original_mod_authors": "mod_wawla"
+      }
+    },
+    {
+      "name": "Darkona",
+      "category": {
+        "original_mod_authors": "mod_adventurebackpack"
+      }
+    },
+    {
+      "name": "dmillerw",
+      "category": {
+        "original_mod_authors": [
+          "mod_remoteio",
+          "mod_toomuchloot"
+        ]
+      }
+    },
+    {
+      "name": "Dries007",
+      "category": {
+        "original_mod_authors": "mod_holoinventory"
+      }
+    },
+    {
+      "name": "Ethryan",
+      "category": {
+        "original_mod_authors": "mod_betterstorage"
+      }
+    },
+    {
+      "name": "Eydamos",
+      "category": {
+        "original_mod_authors": "mod_backpack"
+      }
+    },
+    {
+      "name": "FatherToast",
+      "category": {
+        "original_mod_authors": [
+          "mod_specialai",
+          "mod_specialmobs"
+        ]
+      }
+    },
+    {
+      "name": "Flaxbeard",
+      "category": {
+        "original_mod_authors": "mod_thaumicexploration"
+      }
+    },
+    {
+      "name": "fuj1n",
+      "category": {
+        "original_mod_authors": [
+          "mod_tconstruct",
+          "mod_tinkersmechworks"
+        ]
+      }
+    },
+    {
+      "name": "Funwayguy",
+      "category": {
+        "original_mod_authors": "mod_betterquesting"
+      }
+    },
+    {
+      "name": "ganymedes01",
+      "category": {
+        "original_mod_authors": "mod_etfuturum"
+      }
+    },
+    {
+      "name": "Greg Ewing",
+      "category": {
+        "original_mod_authors": [
+          "mod_architecturecraft",
+          "mod_projectblue",
+          "mod_sgcraft"
+        ]
+      }
+    },
+    {
+      "name": "Gregorius Techneticies",
+      "category": {
+        "original_mod_authors": "mod_gregtech"
+      }
+    },
+    {
+      "name": "Greymerk",
+      "category": {
+        "original_mod_authors": "mod_roguelikedungeons"
+      }
+    },
+    {
+      "name": "HellFirePvP",
+      "category": {
+        "original_mod_authors": "mod_beebetteratbees"
+      }
+    },
+    {
+      "name": "hilburn",
+      "category": {
+        "original_mod_authors": [
+          "mod_advancedsystemsmanager",
+          "mod_stevesaddons"
+        ]
+      }
+    },
+    {
+      "name": "jaquadro",
+      "category": {
+        "original_mod_authors": "mod_storagedrawers"
+      }
+    },
+    {
+      "name": "jaredlll08",
+      "category": {
+        "original_mod_authors": [
+          "mod_controlling",
+          "mod_crafttweaker",
+          "mod_modtweaker"
+        ]
+      }
+    },
+    {
+      "name": "John Yorke",
+      "category": {
+        "original_mod_authors": "mod_taintedmagic"
+      }
+    },
+    {
+      "name": "jss2a98aj",
+      "category": {
+        "original_mod_authors": [
+          "mod_baublesexpanded",
+          "mod_bugtorch"
+        ]
+      }
+    },
+    {
+      "name": "Kentington",
+      "category": {
+        "original_mod_authors": "mod_thaumichorizons"
+      }
+    },
+    {
+      "name": "Keridos",
+      "category": {
+        "original_mod_authors": [
+          "mod_floodlights",
+          "mod_openmodularturrets"
+        ]
+      }
+    },
+    {
+      "name": "KryptonCaptain",
+      "category": {
+        "original_mod_authors": "mod_thaumicexploration"
+      }
+    },
+    {
+      "name": "lumien",
+      "category": {
+        "original_mod_authors": "mod_custommainmenu"
+      }
+    },
+    {
+      "name": "Lunatrius",
+      "category": {
+        "original_mod_authors": [
+          "mod_ingameinfoxml",
+          "mod_lunatriuscore",
+          "mod_schematica"
+        ]
+      }
+    },
+    {
+      "name": "MattCzyr",
+      "category": {
+        "original_mod_authors": "mod_naturescompass"
+      }
+    },
+    {
+      "name": "mDiyo",
+      "category": {
+        "original_mod_authors": [
+          "mod_mantle",
+          "mod_natura",
+          "mod_tconstruct",
+          "mod_tinkersmechworks"
+        ]
+      }
+    },
+    {
+      "name": "micdoodle8",
+      "category": {
+        "original_mod_authors": "mod_galacticraft"
+      }
+    },
+    {
+      "name": "Mikee",
+      "category": {
+        "original_mod_authors": [
+          "mod_openblocks",
+          "mod_openmodslib"
+        ]
+      }
+    },
+    {
+      "name": "Mineshopper",
+      "category": {
+        "original_mod_authors": "mod_carpentersblocks"
+      }
+    },
+    {
+      "name": "MrTJP",
+      "category": {
+        "original_mod_authors": [
+          "mod_forgerelocation",
+          "mod_mrtjpcore",
+          "mod_projectred"
+        ]
+      }
+    },
+    {
+      "name": "MysteriousAges",
+      "category": {
+        "original_mod_authors": "mod_magicbees"
+      }
+    },
+    {
+      "name": "nekosune",
+      "category": {
+        "original_mod_authors": "mod_thaumictinkerer"
+      }
+    },
+    {
+      "name": "Nividica",
+      "category": {
+        "original_mod_authors": "mod_thaumicenergistics"
+      }
+    },
+    {
+      "name": "Ordinastie",
+      "category": {
+        "original_mod_authors": "mod_malisisdoors"
+      }
+    },
+    {
+      "name": "p455w0rd",
+      "category": {
+        "original_mod_authors": "mod_wirelesscraftingterm"
+      }
+    },
+    {
+      "name": "Pamela Collins",
+      "category": {
+        "original_mod_authors": "mod_harvestcraft"
+      }
+    },
+    {
+      "name": "Pillbox",
+      "category": {
+        "original_mod_authors": [
+          "mod_tconstruct",
+          "mod_tinkersmechworks"
+        ]
+      }
+    },
+    {
+      "name": "pixlepix",
+      "category": {
+        "original_mod_authors": "mod_thaumictinkerer"
+      }
+    },
+    {
+      "name": "Poenjabiesous",
+      "category": {
+        "original_mod_authors": "mod_openmodularturrets"
+      }
+    },
+    {
+      "name": "Portablejim",
+      "category": {
+        "original_mod_authors": "mod_betterbuilderswands"
+      }
+    },
+    {
+      "name": "praecipitator",
+      "category": {
+        "original_mod_authors": "mod_amunra"
+      }
+    },
+    {
+      "name": "ProfMobius",
+      "category": {
+        "original_mod_authors": [
+          "mod_opis",
+          "mod_waila"
+        ]
+      }
+    },
+    {
+      "name": "progWML6",
+      "category": {
+        "original_mod_authors": [
+          "mod_mantle",
+          "mod_natura",
+          "mod_tconstruct"
+        ]
+      }
+    },
+    {
+      "name": "radfast",
+      "category": {
+        "original_mod_authors": "mod_galacticraft"
+      }
+    },
+    {
+      "name": "Roadhog360",
+      "category": {
+        "original_mod_authors": "mod_etfuturum"
+      }
+    },
+    {
+      "name": "RoyCurtis",
+      "category": {
+        "original_mod_authors": "mod_opis"
+      }
+    },
+    {
+      "name": "RS485",
+      "category": {
+        "original_mod_authors": "mod_logisticspipes"
+      }
+    },
+    {
+      "name": "runescapejon",
+      "category": {
+        "original_mod_authors": "mod_adventurebackpack"
+      }
+    },
+    {
+      "name": "Sangar",
+      "category": {
+        "original_mod_authors": "mod_opencomputers"
+      }
+    },
+    {
+      "name": "shadowfacts",
+      "category": {
+        "original_mod_authors": "mod_forgelin"
+      }
+    },
+    {
+      "name": "Shukaro",
+      "category": {
+        "original_mod_authors": [
+          "mod_nodalmechanics",
+          "mod_warptheory"
+        ]
+      }
+    },
+    {
+      "name": "SirSengir",
+      "category": {
+        "original_mod_authors": "mod_forestry"
+      }
+    },
+    {
+      "name": "SpaceToad",
+      "category": {
+        "original_mod_authors": "mod_buildcraft"
+      }
+    },
+    {
+      "name": "SpitefulFox",
+      "category": {
+        "original_mod_authors": [
+          "mod_avaritia",
+          "mod_forbiddenmagic"
+        ]
+      }
+    },
+    {
+      "name": "squeek",
+      "category": {
+        "original_mod_authors": [
+          "mod_applecore",
+          "mod_spiceoflife",
+          "mod_tictooltips",
+          "mod_wailaharvestability"
+        ]
+      }
+    },
+    {
+      "name": "Sunstrike",
+      "category": {
+        "original_mod_authors": [
+          "mod_mantle",
+          "mod_tconstruct",
+          "mod_tinkersmechworks"
+        ]
+      }
+    },
+    {
+      "name": "TechnicianLP",
+      "category": {
+        "original_mod_authors": "mod_alchemygrate"
+      }
+    },
+    {
+      "name": "TehNut",
+      "category": {
+        "original_mod_authors": "mod_chiseltones"
+      }
+    },
+    {
+      "name": "TheCodeWarrior",
+      "category": {
+        "original_mod_authors": "mod_catwalks"
+      }
+    },
+    {
+      "name": "thegreatunclean",
+      "category": {
+        "original_mod_authors": "mod_warptheory"
+      }
+    },
+    {
+      "name": "Tonius",
+      "category": {
+        "original_mod_authors": "mod_neiintegration"
+      }
+    },
+    {
+      "name": "tterrag",
+      "category": {
+        "original_mod_authors": "mod_wailaplugins"
+      }
+    },
+    {
+      "name": "Tuhljin",
+      "category": {
+        "original_mod_authors": "mod_automagy"
+      }
+    },
+    {
+      "name": "UntouchedWagons",
+      "category": {
+        "original_mod_authors": "mod_openmodularturrets"
+      }
+    },
+    {
+      "name": "Uristqwerty",
+      "category": {
+        "original_mod_authors": "mod_craftguide"
+      }
+    },
+    {
+      "name": "Vazkii",
+      "category": {
+        "original_mod_authors": "mod_botania"
+      }
+    },
+    {
+      "name": "Vexatos",
+      "category": {
+        "original_mod_authors": "mod_tinkersgregworks"
+      }
+    },
+    {
+      "name": "Vswe",
+      "category": {
+        "original_mod_authors": [
+          "mod_stevescarts",
+          "mod_stevesfactorymanager"
+        ]
+      }
+    },
+    {
+      "name": "WanionCane",
+      "category": {
+        "original_mod_authors": [
+          "mod_avaritiaddons",
+          "mod_universalsingularities",
+          "mod_wanionlib"
+        ]
+      }
+    },
+    {
+      "name": "way2muchnoise",
+      "category": {
+        "original_mod_authors": "mod_betterachievements"
+      }
+    },
+    {
+      "name": "WayofTime",
+      "category": {
+        "original_mod_authors": "mod_bloodmagic"
+      }
+    },
+    {
+      "name": "Wealthyturtle",
+      "category": {
+        "original_mod_authors": "mod_universalsingularities"
+      }
+    },
+    {
+      "name": "Wes Cook",
+      "category": {
+        "original_mod_authors": "mod_nutrition"
+      }
+    },
+    {
+      "name": "xbony2",
+      "category": {
+        "original_mod_authors": [
+          "mod_afsu",
+          "mod_nuclearcontrol"
+        ]
+      }
+    },
+    {
+      "name": "YaLTeR",
+      "category": {
+        "original_mod_authors": "mod_mousetweaks"
+      }
+    },
+    {
+      "name": "Zeno410",
+      "category": {
+        "original_mod_authors": "mod_climatecontrol"
+      }
+    },
+    {
+      "name": "zlainsama",
+      "category": {
+        "original_mod_authors": "mod_cosmeticarmor"
+      }
     }
   ]
 }
