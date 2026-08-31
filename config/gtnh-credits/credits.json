@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "category": [
+    {
+      "id": "project_leadership",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "original_mod_authors",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "mod_development",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "pack_development",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "quests",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "gt_multiblocks",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "testing_qa",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "build_infrastructure",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "wiki_documentation",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "localization",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "art_media",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "community",
+      "class": ["detail", "person", "role"]
+    },
+    {
+      "id": "donators",
+      "class": ["detail", "person", "role"]
+    }
+  ],
+  "person": [
+    {
+      "name": "§cDreamMaster§f§lXXL",
+      "category": {
+        "project_leadership": ["founder", "project_lead"]
+      }
+    },
+    {
+      "name": "Boubou_19",
+      "category": {
+        "project_leadership": "project_coordinator"
+      }
+    },
+    {
+      "name": "Namikon",
+      "category": {
+        "build_infrastructure": "systems_administrator"
+      }
+    }
+  ]
+}
