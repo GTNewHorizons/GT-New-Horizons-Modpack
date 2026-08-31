@@ -56,9 +56,11 @@
   ],
   "person": [
     {
+      "username": "Dream-Master",
       "name": "§cDreamMaster§f§lXXL",
       "category": {
-        "project_leadership": ["founder", "project_lead"]
+        "project_leadership": ["founder", "project_lead"],
+        "quests": "quest_editor"
       }
     },
     {
@@ -66,6 +68,94 @@
       "category": {
         "project_leadership": "project_coordinator"
       }
+    },
+    {
+      "name": "Prometheus0000",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "richardhendricks",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "bombcar",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "Baerschen",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "miozune",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "Giovanni-NL",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "D-Cysteine",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "Reflex18",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "Kiwi233",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "FourIsTheNumber",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "shpaass",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "Technus",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "serenibyss",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "YannickMG",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "HFPTetraUro",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "KraVoid",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "yukieiji",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "Yoshy2002",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "Eldrinn-Elantey",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "koolkrafter5",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "GDCloudstrike",
+      "category": { "quests": "quest_editor" }
+    },
+    {
+      "name": "Elisis",
+      "category": { "quests": "quest_editor" }
     },
     {
       "name": "Namikon",
@@ -258,7 +348,8 @@
     {
       "name": "Ethryan",
       "category": {
-        "original_mod_authors": "mod_betterstorage"
+        "original_mod_authors": "mod_betterstorage",
+        "quests": "quest_editor"
       }
     },
     {
@@ -936,9 +1027,11 @@
       }
     },
     {
+      "username": "AdityaVG13",
       "name": "AdityaG13",
       "category": {
-        "donators": "stargate"
+        "donators": "stargate",
+        "quests": "quest_editor"
       }
     },
     {
@@ -1496,7 +1589,8 @@
     {
       "name": "chochem",
       "category": {
-        "donators": "ultimate_voltage"
+        "donators": "ultimate_voltage",
+        "quests": "quest_editor"
       }
     },
     {
@@ -3858,12 +3952,6 @@
       }
     },
     {
-      "name": "Ollie_de_Leeuw",
-      "category": {
-        "donators": "stargate"
-      }
-    },
-    {
       "name": "Omeganeth",
       "category": {
         "donators": "stargate"
@@ -4584,9 +4672,11 @@
       }
     },
     {
+      "username": "srdr2k3",
       "name": "Srdra",
       "category": {
-        "donators": "stone_age"
+        "donators": "stone_age",
+        "quests": "quest_editor"
       }
     },
     {
@@ -4986,9 +5076,11 @@
       }
     },
     {
+      "username": "UltraProdigy",
       "name": "Ultra_Prodigy",
       "category": {
-        "donators": "stargate"
+        "donators": "stargate",
+        "quests": ["quest_lead", "quest_editor"]
       }
     },
     {
@@ -5568,9 +5660,11 @@
       }
     },
     {
+      "username": "kuba6000",
       "name": "§4§lk§c§lu§6§lb§e§la§2§l6§a§l0§b§l0§3§l0",
       "category": {
-        "gt_multiblocks": ["extreme_entity_crusher", "extreme_industrial_greenhouse", "high_temp_gas_cooled_reactor"]
+        "gt_multiblocks": ["extreme_entity_crusher", "extreme_industrial_greenhouse", "high_temp_gas_cooled_reactor"],
+        "quests": "quest_editor"
       }
     },
     {
@@ -5616,9 +5710,12 @@
       }
     },
     {
+      "username": "OlliedeLeeuw",
       "name": "§a§lOllie",
       "category": {
-        "gt_multiblocks": ["hip_compressor", "industrial_compressor", "neutronium_compressor"]
+        "gt_multiblocks": ["hip_compressor", "industrial_compressor", "neutronium_compressor"],
+        "quests": "quest_editor",
+        "donators": "stargate"
       }
     },
     {
@@ -5658,9 +5755,11 @@
       }
     },
     {
+      "username": "Pxx500",
       "name": "§1§lPxx500",
       "category": {
-        "gt_multiblocks": "high_temp_gas_cooled_reactor"
+        "gt_multiblocks": "high_temp_gas_cooled_reactor",
+        "quests": "quest_editor"
       }
     },
     {
@@ -5688,9 +5787,11 @@
       }
     },
     {
+      "username": "Steelux8",
       "name": "Steelux",
       "category": {
-        "gt_multiblocks": "quantum_force_transformer"
+        "gt_multiblocks": "quantum_force_transformer",
+        "quests": "quest_editor"
       }
     },
     {
@@ -5736,9 +5837,11 @@
       }
     },
     {
+      "username": "bartimaeusnek",
       "name": "§abartimaeusnek§7",
       "category": {
-        "gt_multiblocks": "deep_earth_heating_pump"
+        "gt_multiblocks": "deep_earth_heating_pump",
+        "quests": "quest_editor"
       }
     },
     {
@@ -5748,9 +5851,11 @@
       }
     },
     {
+      "username": "NotAPenguin0",
       "name": "§fNot§bAPenguin",
       "category": {
-        "gt_multiblocks": ["absolute_baryonic_perfection", "accelerated_bio_coordinator", "clarifier_purification_unit", "extreme_temp_fluctuation_unit", "flocculation_purification_unit", "high_energy_laser_purification", "nanochip_assembly_complex", "nanochip_assembly_matrix", "nanometer_encasement_wrapper", "nanopart_splitter", "nanoprecision_cutting_chamber", "nanoprecision_wire_tracer", "ozonation_purification_unit", "part_preparation_apparatus", "ph_neutralization_unit", "residual_decontaminant_degasser", "superconductive_strand_splitter", "ultra_high_energy_etching_array", "water_purification_plant"]
+        "gt_multiblocks": ["absolute_baryonic_perfection", "accelerated_bio_coordinator", "clarifier_purification_unit", "extreme_temp_fluctuation_unit", "flocculation_purification_unit", "high_energy_laser_purification", "nanochip_assembly_complex", "nanochip_assembly_matrix", "nanometer_encasement_wrapper", "nanopart_splitter", "nanoprecision_cutting_chamber", "nanoprecision_wire_tracer", "ozonation_purification_unit", "part_preparation_apparatus", "ph_neutralization_unit", "residual_decontaminant_degasser", "superconductive_strand_splitter", "ultra_high_energy_etching_array", "water_purification_plant"],
+        "quests": "quest_editor"
       }
     },
     {
