@@ -309,7 +309,11 @@
           }
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "8:10": {
+      "index:3": 8,
+      "taskID:8": "bq_standard:checkbox"
     }
   }
 }
