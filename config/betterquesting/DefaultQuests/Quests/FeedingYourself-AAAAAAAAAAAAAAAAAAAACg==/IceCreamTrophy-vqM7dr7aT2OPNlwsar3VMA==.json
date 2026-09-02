@@ -1,0 +1,490 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5117883093414819933,
+      "questIDLow:4": -7205325599072663407
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 1,
+      "completion_animation:8": "tada",
+      "completion_particle:8": "firework",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Ice Cream Trophy",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32602,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.02"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Ice Cream Trophy",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": 3,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "no",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "§6Special gift received!§r",
+      "notification_subtitle_scale:5": 1.0,
+      "notification_title:8": "\u0026z\u0026qAll Ice Creams collected!§r",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "HIDDEN"
+    }
+  },
+  "questIDHigh:4": -4709855404105248925,
+  "questIDLow:4": -8127207131704339152,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32700,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32589,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32590,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32591,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32592,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 32593,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 32594,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 32595,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 32596,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 32597,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 32598,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 32599,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 32600,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "Damage:2": 32601,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "Damage:2": 32602,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "Damage:2": 32603,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "Damage:2": 32604,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "16:10": {
+          "Count:3": 1,
+          "Damage:2": 32605,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "17:10": {
+          "Count:3": 1,
+          "Damage:2": 32606,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "18:10": {
+          "Count:3": 1,
+          "Damage:2": 32607,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "19:10": {
+          "Count:3": 1,
+          "Damage:2": 32608,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "20:10": {
+          "Count:3": 1,
+          "Damage:2": 32609,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "21:10": {
+          "Count:3": 1,
+          "Damage:2": 32610,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "22:10": {
+          "Count:3": 1,
+          "Damage:2": 32611,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "23:10": {
+          "Count:3": 1,
+          "Damage:2": 32612,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "24:10": {
+          "Count:3": 1,
+          "Damage:2": 32613,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "25:10": {
+          "Count:3": 1,
+          "Damage:2": 32614,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "26:10": {
+          "Count:3": 1,
+          "Damage:2": 32615,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "27:10": {
+          "Count:3": 1,
+          "Damage:2": 32616,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "28:10": {
+          "Count:3": 1,
+          "Damage:2": 32617,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "29:10": {
+          "Count:3": 1,
+          "Damage:2": 32618,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "30:10": {
+          "Count:3": 1,
+          "Damage:2": 32619,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "31:10": {
+          "Count:3": 1,
+          "Damage:2": 32620,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "32:10": {
+          "Count:3": 1,
+          "Damage:2": 32621,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "33:10": {
+          "Count:3": 1,
+          "Damage:2": 32622,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "34:10": {
+          "Count:3": 1,
+          "Damage:2": 32623,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "35:10": {
+          "Count:3": 1,
+          "Damage:2": 32624,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "36:10": {
+          "Count:3": 1,
+          "Damage:2": 32625,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "37:10": {
+          "Count:3": 1,
+          "Damage:2": 32626,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "38:10": {
+          "Count:3": 1,
+          "Damage:2": 32627,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "39:10": {
+          "Count:3": 1,
+          "Damage:2": 32628,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "40:10": {
+          "Count:3": 1,
+          "Damage:2": 32629,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "41:10": {
+          "Count:3": 1,
+          "Damage:2": 32630,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "42:10": {
+          "Count:3": 1,
+          "Damage:2": 32631,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "43:10": {
+          "Count:3": 1,
+          "Damage:2": 32632,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "44:10": {
+          "Count:3": 1,
+          "Damage:2": 32633,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "45:10": {
+          "Count:3": 1,
+          "Damage:2": 32634,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "46:10": {
+          "Count:3": 1,
+          "Damage:2": 32635,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "47:10": {
+          "Count:3": 1,
+          "Damage:2": 32636,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "48:10": {
+          "Count:3": 1,
+          "Damage:2": 32637,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "49:10": {
+          "Count:3": 1,
+          "Damage:2": 32638,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "50:10": {
+          "Count:3": 1,
+          "Damage:2": 32639,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "51:10": {
+          "Count:3": 1,
+          "Damage:2": 32640,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "52:10": {
+          "Count:3": 1,
+          "Damage:2": 32641,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "53:10": {
+          "Count:3": 1,
+          "Damage:2": 32642,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "54:10": {
+          "Count:3": 1,
+          "Damage:2": 32643,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "55:10": {
+          "Count:3": 1,
+          "Damage:2": 32644,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "56:10": {
+          "Count:3": 1,
+          "Damage:2": 32645,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "57:10": {
+          "Count:3": 1,
+          "Damage:2": 32646,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "58:10": {
+          "Count:3": 1,
+          "Damage:2": 32647,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "59:10": {
+          "Count:3": 1,
+          "Damage:2": 32648,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "60:10": {
+          "Count:3": 1,
+          "Damage:2": 32649,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "61:10": {
+          "Count:3": 1,
+          "Damage:2": 32650,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "62:10": {
+          "Count:3": 1,
+          "Damage:2": 32651,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "63:10": {
+          "Count:3": 1,
+          "Damage:2": 32652,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "64:10": {
+          "Count:3": 1,
+          "Damage:2": 32653,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "65:10": {
+          "Count:3": 1,
+          "Damage:2": 32654,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "66:10": {
+          "Count:3": 1,
+          "Damage:2": 32655,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

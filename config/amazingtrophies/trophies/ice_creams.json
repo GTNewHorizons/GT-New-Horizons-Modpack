@@ -1,0 +1,13 @@
+{
+  "id": "ice_creams",
+  "condition": {
+    "type": "item.use.finish",
+    "item": "gregtech:gt.metaitem.02",
+    "meta": 32700
+  },
+  "model": {
+    "type": "basic",
+    "model": "ice_creams.obj",
+    "texture": "ice_creams.png"
+  }
+}

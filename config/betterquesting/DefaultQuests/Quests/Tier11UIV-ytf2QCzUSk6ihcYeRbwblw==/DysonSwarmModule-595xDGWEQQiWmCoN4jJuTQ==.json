@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1555
+      "questIDLow:4": 3039
     }
   },
   "properties:10": {
@@ -17,19 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Mutandis Extremis is an upgraded version of Mutandis that is used by witches and warlocks to mutate plants into other species. Mutandis Extremis has all the same properties as basic Mutandis but it can even be used on multi-stage plants like wheat, cactus, etc. and can also mutate cooked meat.\n\nIf Mutandis Extremis is used on a Grass block there is a chance it will mutate it into Mycelium and vice versa.\n\nIf Mutandis Extremis is used on an underwater dirt block there is a chance it will mutate it (and nearby dirt) into clay blocks.\n\nMutating plants is the only way to acquire Rowan, Hawthorn and Alder saplings.\n\nSome recipes require Mutandis Extremis as an ingredient.\n\nMutandis Extremis is crafted using Mutandis and Nether Wart.\n\n[note]Some cauldron recipes require altar power. This is one of them. Make sure you read the Witches\u0027 Brews book for information on Altar requirements.[/note]",
-      "globalShare:1": 1,
+      "desc:8": "To generate power with your Dyson Swarm Ground Unit, you will need some Dyson Swarm Modules- 10,000, to be exact. The upfront cost of a Dyson Swarm is quite daunting, but the power output is grand.\n\n[note]Once you craft 64, here\u0027s a small bonus. Happy crafting![/note]",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "witchery:ingredient"
+        "id:8": "gtnhintergalactic:item.DysonSwarmParts"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Mutandis Extremis",
+      "name:8": "§9§l§nDyson Swarm Modules",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -45,7 +44,6 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
-      "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -56,8 +54,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2336,
+  "questIDHigh:4": -1738828108061720312,
+  "questIDLow:4": -7595274532442444211,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -65,41 +63,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 16,
-          "Damage:2": 14,
-          "OreDict:8": "",
-          "id:8": "witchery:ingredient"
-        },
-        "1:10": {
-          "Count:3": 32,
-          "Damage:2": 27,
-          "OreDict:8": "",
-          "id:8": "witchery:ingredient"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 5,
+          "Count:3": 256,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinCookI"
-        },
-        "1:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:CoinWitchI"
-        },
-        "2:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:CoinDarkWizardI"
+          "id:8": "gtnhintergalactic:item.DysonSwarmParts"
         }
       }
     }
@@ -109,22 +76,34 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 16,
-          "Damage:2": 0,
+          "Count:3": 4,
+          "Damage:2": 9,
           "OreDict:8": "",
-          "id:8": "minecraft:nether_wart"
+          "id:8": "gtnhintergalactic:item.DysonSwarmParts"
         },
         "1:10": {
-          "Count:3": 16,
-          "Damage:2": 14,
+          "Count:3": 1,
+          "Damage:2": 6,
           "OreDict:8": "",
-          "id:8": "witchery:ingredient"
+          "id:8": "gtnhintergalactic:item.DysonSwarmParts"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gtnhintergalactic:item.DysonSwarmParts"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "gtnhintergalactic:item.DysonSwarmParts"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -133,16 +112,16 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 16,
-          "Damage:2": 15,
+          "Count:3": 64,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "witchery:ingredient"
+          "id:8": "gtnhintergalactic:item.DysonSwarmParts"
         }
       },
       "taskID:8": "bq_standard:retrieval"
