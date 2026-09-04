@@ -1,0 +1,32 @@
+name: Transfer Label Specific Issues
+
+on:
+  issues:
+    types:
+      - opened
+
+concurrency:
+  group: transfer-exploits-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  transfer:
+    name: Transfer Label Specific Issues
+    runs-on: ubuntu-latest
+
+    if: >
+      contains(github.event.issue.labels.*.name, 'Exploit') ||
+      contains(github.event.issue.labels.*.name, 'Mobile')
+
+    steps:
+      - name: Transfer Issue
+        env:
+          GH_TOKEN: ${{ secrets.ISSUE_TRANSFER_TOKEN }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          DESTINATION_REPO: ${{ contains(github.event.issue.labels.*.name, 'Exploit') && 'GTNewHorizons/Dupes-Exploits-GTNH' || 'GTNewHorizons/Mobile-Issues-Tracker' }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Setup the ISSUE_TRANSFER_TOKEN Actions secret."
+            exit 1
+          fi
+          gh issue transfer "$ISSUE_URL" "$DESTINATION_REPO"
