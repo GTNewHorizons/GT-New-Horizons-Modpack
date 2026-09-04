@@ -19,22 +19,14 @@ jobs:
       contains(github.event.issue.labels.*.name, 'Mobile')
 
     steps:
-      - name: Create GitHub App Token
-        id: app-token
-        uses: actions/create-github-app-token@v3
-        with:
-          client-id: ${{ vars.ISSUE_TRANSFER_APP_CLIENT_ID }}
-          private-key: ${{ secrets.ISSUE_TRANSFER_APP_PRIVATE_KEY }}
-          repositories: |
-            GT-New-Horizons-Modpack
-            Dupes-Exploits-GTNH
-            Mobile-Issues-Tracker
-          permission-issues: write
-
       - name: Transfer Issue
         env:
-          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          GH_TOKEN: ${{ secrets.ISSUE_TRANSFER_TOKEN }}
           ISSUE_URL: ${{ github.event.issue.html_url }}
           DESTINATION_REPO: ${{ contains(github.event.issue.labels.*.name, 'Exploit') && 'GTNewHorizons/Dupes-Exploits-GTNH' || 'GTNewHorizons/Mobile-Issues-Tracker' }}
         run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Setup the ISSUE_TRANSFER_TOKEN Actions secret."
+            exit 1
+          fi
           gh issue transfer "$ISSUE_URL" "$DESTINATION_REPO"
