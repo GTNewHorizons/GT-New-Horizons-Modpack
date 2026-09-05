@@ -4280,7 +4280,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=So you finally did it... but th
 
 # Quest: Tesseract
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.name=§5§l§nTesseract
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=Engineering beyond your comprehension. Destroying this strange higher dimensional object in a macerator is very easy though.%n%n[note]You may proceed to UIV now. Best of luck.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=Engineering beyond your comprehension. Destroying this strange higher dimensional object in a macerator is very easy though.
 
 # Quest: Dragonblood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.name=§5§l§nDragonblood
@@ -4316,7 +4316,7 @@ betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.desc=This new Space Elevator module 
 
 # Quest: Haha, Spinny Ingot
 betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.name=§5§l§nHaha, Spinny Ingot
-betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.desc=Transcendent Metal is the primary metal used in UIV components.%n%nThis metal is a bit different from the ones you have been processing so far. You need to macerate your tesseracts to get the dust and then blast it at such high temperatures that you'll need a coolant to help manage the heat.%n%nDue to the impossible nature of the tesseract particles, you'll need a medium to enable them to form 3D shapes. Tungsten, for some reason, works very well for this purpose.%n%nThe ingot itself is also not very stable; therefore, a coating of titansteel must be applied during the cooling process.%n%n[note]Consider passively generating it. This process is slow.[/note]
+betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.desc=Transcendent Metal is the primary metal used in UIV components.%n%nThis metal is a bit different from the ones you have been processing so far. You need to macerate your tesseracts to get the dust and then blast it at such high temperatures that you'll need a coolant to help manage the heat.%n%nDue to the impossible nature of the tesseract particles, you'll need a medium to enable them to form 3D shapes. Tungsten, for some reason, works very well for this purpose.%n%nThe ingot itself is also not very stable; therefore, a coating of titansteel must be applied during the cooling process.%n%n[note]Consider passively generating it. This process is slow.[/note]%n%n[note]You may proceed to UIV now. Best of luck.[/note]
 
 # Quest: Using Light to Compute
 betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.name=§5§l§nUsing Light to Compute
