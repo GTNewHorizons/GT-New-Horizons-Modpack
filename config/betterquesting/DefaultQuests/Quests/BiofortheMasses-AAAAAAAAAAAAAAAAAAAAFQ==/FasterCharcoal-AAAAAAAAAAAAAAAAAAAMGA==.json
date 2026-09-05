@@ -104,12 +104,6 @@
           "Damage:2": 236,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 265,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings12"
         }
       },
       "taskID:8": "bq_standard:retrieval"

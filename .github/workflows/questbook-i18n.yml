@@ -31,5 +31,6 @@ jobs:
           title: Update Quest Book I18N
           body: Automated changes by Quest Book I18N workflow.
           commit-message: Update Quest Book I18N
+          labels: Chore
           delete-branch: true
           branch: quest-book-i18n/patch
