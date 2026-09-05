@@ -1,0 +1,246 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 260
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "§5§lInfused Seeds§r are very slow growing magical crops. Each seed is associated with a Thaumcraft aspect, and a fully grown plant can produce resources related to that aspect. Some of these drops are surprisingly useful. For example, a fully grown Venenum Infused Seed will drop 16 Quicksilver, an Iter Infused Seed will drop Arcane Bricks, and a Herba Infused Seed will give you random saplings.\n\nYou can see the products of different seeds using NEI.\n\nThere is a catch: the Infusion Altar can only directly create seeds for the six primal aspects. To create seeds for compound aspects, you\u0027ll need to combine their component aspects through the farmland itself.\n\nLet\u0027s make a §cVenenum Infused Seed§r as an example. §cVenenum§r is composed of §3Aqua§r + §dPerditio§r, so begin by crafting both an §3Aqua Infused Seed§r and a §dPerditio Infused Seed§r.\n\nPlant the §3Aqua Infused Seed§r on ordinary vanilla farmland and allow it to grow. As the seed grows, it leaves some of its aspect behind in the farmland. Once the farmland has been infused with §3Aqua§r, remove the §3Aqua§r seed and plant your §dPerditio Infused Seed§r on the same block.\n\nThe §dPerditio§r from the seed will combine with the §3Aqua§r already stored in the farmland, producing §cVenenum§r. The farmland and seed will become infused with the new aspect, and once the §cVenenum§r seed reaches maturity, it can be harvested.\n\nNaturally, waiting for these things to grow isn\u0027t particularly exciting. The Hoe of Growth works on Infused Seeds and can greatly speed up the process, although each use consumes 25 durability. With a sufficiently durable or repairable Hoe of Growth, you may even find some interesting ways to automate the process.\n\n[warn]One warning before you dive too deeply into magical agriculture: reaching and researching Infused Seeds involves a lot of Warp. Consider yourself warned before deciding that unlimited magical wheat sounds harmless.[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "ThaumicTinkerer:infusedSeeds",
+        "tag:10": {
+          "aspectTendencies:10": {
+            "Aspects:9": {}
+          },
+          "mainAspect:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "aqua"
+              }
+            }
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Infused Seeds",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2781105070300810296,
+  "questIDLow:4": -6965457288577780294,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedPotion"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedPotion"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedPotion"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedPotion"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinDarkWizardI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedSeeds",
+          "tag:10": {
+            "aspectTendencies:10": {
+              "Aspects:9": {}
+            },
+            "mainAspect:10": {
+              "Aspects:9": {
+                "0:10": {
+                  "amount:3": 1,
+                  "key:8": "aqua"
+                }
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedSeeds",
+          "tag:10": {
+            "aspectTendencies:10": {
+              "Aspects:9": {}
+            },
+            "mainAspect:10": {
+              "Aspects:9": {
+                "0:10": {
+                  "amount:3": 1,
+                  "key:8": "perditio"
+                }
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedSeeds",
+          "tag:10": {
+            "aspectTendencies:10": {
+              "Aspects:9": {}
+            },
+            "mainAspect:10": {
+              "Aspects:9": {
+                "0:10": {
+                  "amount:3": 1,
+                  "key:8": "ordo"
+                }
+              }
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedSeeds",
+          "tag:10": {
+            "aspectTendencies:10": {
+              "Aspects:9": {}
+            },
+            "mainAspect:10": {
+              "Aspects:9": {
+                "0:10": {
+                  "amount:3": 1,
+                  "key:8": "terra"
+                }
+              }
+            }
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedSeeds",
+          "tag:10": {
+            "aspectTendencies:10": {
+              "Aspects:9": {}
+            },
+            "mainAspect:10": {
+              "Aspects:9": {
+                "0:10": {
+                  "amount:3": 1,
+                  "key:8": "ignis"
+                }
+              }
+            }
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:infusedSeeds",
+          "tag:10": {
+            "aspectTendencies:10": {
+              "Aspects:9": {}
+            },
+            "mainAspect:10": {
+              "Aspects:9": {
+                "0:10": {
+                  "amount:3": 1,
+                  "key:8": "aer"
+                }
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

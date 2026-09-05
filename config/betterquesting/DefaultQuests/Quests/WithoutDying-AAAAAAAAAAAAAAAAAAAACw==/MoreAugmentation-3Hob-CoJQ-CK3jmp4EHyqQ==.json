@@ -139,15 +139,21 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentmilkinfusion"
+          "id:8": "gregtech:gt.augmentterrasteel"
         },
         "7:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.augmentknockbackresistance"
+          "id:8": "gregtech:gt.augmentmilkinfusion"
         },
         "8:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.augmentknockbackresistance"
+        },
+        "9:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
