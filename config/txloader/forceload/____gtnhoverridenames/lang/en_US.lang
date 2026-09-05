@@ -671,6 +671,45 @@ fluid.alumite.molten=Molten Obzinite
 material.alumite=Obzinite
 item.universalSingularities.tinkersConstruct.alumite.name=Obzinite Singularity
 item.iguana.tcon.clayBucket.Alumite.name=Molten Obzinite Clay Bucket
+material.alumite.display=Obzinite
+
+tool.hatchet.alumite=Obzinite Hatchet
+tool.broadsword.alumite=Obzinite Broadsword
+tool.longsword.alumite=Obzinite Longsword
+tool.dagger.alumite=Obzinite Dagger
+tool.mattock.alumite=Obzinite Mattock
+tool.lumberaxe.alumite=Obzinite Lumber Axe
+tool.cleaver.alumite=Obzinite Cleaver
+tool.hammer.alumite=Obzinite Hammer
+tool.battleaxe.alumite=Obzinite Battleaxe
+tool.shortbow.alumite=Obzinite Shortbow
+tool.longbow.alumite=Obzinite Longbow
+tool.crossbow.alumite=Obzinite Crossbow
+tool.arrowammo.alumite=Obzinite Arrow
+tool.boltammo.alumite=Obzinite Bolt
+tool.shuriken.alumite=Obzinite Shuriken
+tool.throwingknife.alumite=Obzinite Throwing Knife
+tool.javelin.alumite=Obzinite Javelin
+
+toolpart.material.alumite=Obzinite
+toolpart.Binding.alumite=Obzinite Binding
+toolpart.ToughBinding.alumite=Obzinite Tough Binding
+toolpart.SwordBlade.alumite=Obzinite Sword Blade
+toolpart.ChiselHead.alumite=Obzinite Chisel Head
+toolpart.ScytheHead.alumite=Obzinite Scythe Head
+toolpart.LargeSwordBlade.alumite=Obzinite Large Sword Blade
+toolpart.KnifeBlade.alumite=Obzinite Knife Blade
+toolpart.LargePlate.alumite=Obzinite Large Plate
+toolpart.LargeGuard.alumite=Obzinite Wide Guard
+toolpart.MediumGuard.alumite=Obzinite Hand Guard
+toolpart.Crossbar.alumite=Obzinite Crossbar
+toolpart.FullGuard.alumite=Obzinite Full Guard
+toolpart.FrypanHead.alumite=Obzinite Pan
+toolpart.SignHead.alumite=Obzinite Sign Plate
+toolpart.ExcavatorHead.alumite=Obzinite Excavator Head
+toolpart.CrossbowBody.alumite=Obzinite Crossbow Body
+toolpart.CrossbowLimb.alumite=Obzinite Crossbow Limb
+toolpart.BowLimb.alumite=Obzinite Bow Limb
 
 
 # IC2 Crops -> Crops NH since CropsNH is GTNH-only and the target mods are on passive support
