@@ -120,7 +120,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 1,
@@ -233,7 +233,7 @@
               "Aspects:9": {
                 "0:10": {
                   "amount:3": 1,
-                  "key:8": "ignis"
+                  "key:8": "aer"
                 }
               }
             }
