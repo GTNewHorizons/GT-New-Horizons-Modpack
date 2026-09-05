@@ -2,11 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 3239
-    },
-    "1:10": {
-      "questIDHigh:4": -4905166588837212996,
-      "questIDLow:4": -5694412901591210156
+      "questIDLow:4": 2849
     }
   },
   "properties:10": {
@@ -21,18 +17,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Transcendent Metal is the primary metal used in UIV components.\n\nThis metal is a bit different from the ones you have been processing so far. You need to macerate your tesseracts to get the dust and then blast it at such high temperatures that you\u0027ll need a coolant to help manage the heat.\n\nDue to the impossible nature of the tesseract particles, you\u0027ll need a medium to enable them to form 3D shapes. Tungsten, for some reason, works very well for this purpose.\n\nThe ingot itself is also not very stable; therefore, a coating of titansteel must be applied during the cooling process.\n\n[note]Consider passively generating it. This process is slow.[/note]",
+      "desc:8": "Being able to pump steam with twice the throughput is great, but what if you also want to regulate it with that same 32x range? Well look no further than the Steam Regulator.\n\nUsing this allows you to set the precise L/t that can be moved through the regulator.\n\n[note]Just like the valves, there are also MV, HV, EV, and IV versions.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11581,
+        "Damage:2": 32332,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.01"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§l§nHaha, Spinny Ingot",
+      "name:8": "§2§lSteam Regulator",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -58,22 +54,55 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 2760534389945944436,
-  "questIDLow:4": -8415680337631262256,
-  "rewards:9": {},
+  "questIDHigh:4": 2141386346078617807,
+  "questIDLow:4": -5697891407172248425,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 31305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnicianI"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 2,
+      "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 11581,
+          "Damage:2": 32332,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         }

@@ -2,7 +2,15 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2627
+      "questIDLow:4": 3239
+    },
+    "1:10": {
+      "questIDHigh:4": -4905166588837212996,
+      "questIDLow:4": -5694412901591210156
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 458
     }
   },
   "properties:10": {
@@ -17,18 +25,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "You\u0027ll need Neutronium for UV and the T7 rocket, so let\u0027s make some.\n\nTo get Neutronium, go to one of the planets that has the small ores. Then mix it with Helium Plasma to make Raw Neutronium Dust. It can be smelted in a Blast Furnace at 9000K and 491,520 EU/t. This recipe takes a long time and a lot of power. Better make another EBF or Volcanus. Or a few. Or upgrade to an Exothermic Hearth.",
+      "desc:8": "Using high amounts of energy and the strange properties of a Quantum Anomaly, Tesseracts can become energised, unlocking hidden potential.\n\n[note]You better love crafting these...[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11129,
+        "Damage:2": 32417,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.01"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lWasn\u0027t This Only Found in the Center of Neutron Stars?",
+      "name:8": "§9§l§nEnergised Tesseract",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -54,8 +62,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2669,
+  "questIDHigh:4": -8103588346506098671,
+  "questIDLow:4": -7372044556205145504,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -68,8 +76,26 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 16,
-          "Damage:2": 11129,
+          "Count:3": 1,
+          "Damage:2": 32415,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32417,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         }
