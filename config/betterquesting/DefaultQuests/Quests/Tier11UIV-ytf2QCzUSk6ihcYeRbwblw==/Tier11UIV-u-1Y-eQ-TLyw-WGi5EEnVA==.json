@@ -7,6 +7,10 @@
     "1:10": {
       "questIDHigh:4": -199482370913580560,
       "questIDLow:4": -9064439369025459403
+    },
+    "2:10": {
+      "questIDHigh:4": 2760534389945944436,
+      "questIDLow:4": -8415680337631262256
     }
   },
   "properties:10": {
@@ -21,7 +25,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Now that you\u0027ve enjoyed your exotic cookies, let\u0027s keep going, shall we?\n\nWelcome to Insanely Ultimate Voltage! One of the shortest tiers in NH for now. This tier is mainly about solving your DTPF catalyst problems and getting to Eternal Coils.\n\nThere are a few QoL additions introduced, like the Uncertainty Resolver and the Thaumometric Essentia Cell.\n\nYou also gain access to the Dyson Swarm, an incredibly powerful power generation option.\n\n[warn]This tier is not fully complete. Expect changes.[/warn]",
+      "desc:8": "Now that you\u0027ve enjoyed your exotic cookies, let\u0027s keep going, shall we?\n\nWelcome to Insanely Ultimate Voltage, a very fun tier with many new large multiblocks to play with! At first, this tier is mainly about solving your DTPF catalyst problems and getting to Eternal Coils. Afterward, you are introduced to late game content like the Forge of the Gods, the Bose-Einstein Condensate Apparatus, and the Black Hole Compressor that you will use until the end of the modpack!\n\nThis tier also introduces a few QoL additions, like the Crafting Input Proxy, Uncertainty Resolver, and the Thaumometric Essentia Cell.\n\nYou also gain access to the Dyson Swarm and the Semi-Stable Antimatter Stabilization Sequencer, two incredibly powerful ways to generate power.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -63,22 +67,8 @@
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 11231,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
     }
   }
 }
