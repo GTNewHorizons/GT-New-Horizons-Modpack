@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Being able to pump steam with twice the throughput is great, but what if you also want to regulate it with that same 32x range? Well look no further than the Steam Regulator.\n\nUsing this allows you to set the precise L/t that can be moved through the regulator.\n\n[note]Just like the valves, there are also MV, HV, EV, and IV versions.[/note]",
+      "desc:8": "Being able to pump steam with twice the throughput is great, but what if you also want to regulate it with that same 32x range? Well, look no further than the Steam Regulator.\n\nThis allows you to set the regulator\u0027s precise transfer rate in L/t.\n\n[note]Like the valves, Steam Regulators also have MV, HV, EV, and IV versions.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
