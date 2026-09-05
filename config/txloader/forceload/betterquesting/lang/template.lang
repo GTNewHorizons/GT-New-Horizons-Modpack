@@ -684,6 +684,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADrg.desc=The Plunger is used to clear li
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.name=§c§lBetter Than Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make Cast Iron, you either need to use a Tinkers' Smeltery to melt some Iron Ingots down and cast them into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Then put these in a furnace to get Cast Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite; look for Iron Ore in Chalcopyrite veins) can be smelted directly into iron nuggets. %n%nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. %n%nLater on, you can use an Arc Furnace to make Cast Iron Ingots directly.
 
+# Quest: Be Sure to Get Your Armpits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.name=§c§lBe Sure to Get Your Armpits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.desc=Want to use all that delicious XP to raise your levels? Move the tank with XP above you and attach this convenient shower head to take the XP from the tank.%n%nThis thing can be laggy, so be careful about letting too many XP orbs out of the tank. Apply a redstone signal to turn it off.
+
 # Quest: New Source of Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.name=§c§lNew Source of Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.desc=Find some Glow Flowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest Glowstone again.%n%n[note]These must be planted on Soul Sand in order to grow![/note]
@@ -1209,10 +1213,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-Q.desc=If you want brews or alcohol, I
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-g.name=§2§lFerment Your Brew!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-g.desc=What's better than lame brews? Alcoholic brews! Get one of these to make beer, rum or even vodka.
 
-# Quest: Be Sure to Get Your Armpits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.name=§2§lBe Sure to Get Your Armpits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.desc=Want to use all that delicious XP to raise your levels? Move the tank with XP above you and attach this convenient shower head to take the XP from the tank.%n%nThis thing can be laggy, so be careful about letting too many XP orbs out of the tank. Apply a redstone signal to turn it off.
-
 # Quest: Lubricant
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPA.name=§2§lLubricant
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPA.desc=Using lubricant instead of water or distilled water in your cutting machines will increase their speed.%n%nYou can make lubricant out of oil, seed oil, fish oil or creosote in a distillery (or distillation tower later on). If you're able to craft a brewery you can use talc or soapstone to get much more lubricant each cycle.%n%nLube cells are required to make low tier energy hatches, so stockpile a few cells and use the rest to make your cutting machine faster.
@@ -1333,6 +1333,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSQ.desc=Need enderpearls? Getting them 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXw.name=§2§lElectric Furnace
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXw.desc=It's, like, faster than a normal one I guess? But uses power.%n%nIf you would prefer to use steam instead, then the multiblock is also a good option.
 
+# Quest: A Better Fluid Pipe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.name=§2§lA Better Fluid Pipe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.desc=Now that you have lead you can convert your bronze pipes to potin pipes with higher capacities.
+
 # Quest: One in a Million
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcw.name=§2§lOne in a Million
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcw.desc=Or 4? Need to store ludicrous amounts of cobble? Stone dust? Saplings? Super chests are the thing to use. A Super Chest I can store 4 million items, worry free. You will need to take items out manually 64 at a time, or use conveyors etc. to extract them.
@@ -1371,7 +1375,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiQ.desc=Chlorine is a fluid that is use
 
 # Quest: Faster Steam Transportation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIQ.name=§2§lFaster Steam Transportation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALIQ.desc=Do you think that steam fluid transport is far too slow? Your LV pumps got you down, doing only 640L/s? Then it's time to make the 32 times faster LV steam valves!%n%nThey only work with steam and are just as fast as the valve on a Railcraft tank (if you put it on the bottom side).%n%nThere are also MV, HV, EV, and IV versions.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALIQ.desc=Do you think that steam fluid transport is far too slow? Your LV pumps got you down, doing only 640L/s? Then it's time to make the 32 times faster LV steam valves!%n%nThey only work with steam and are just as fast as the valve on a Railcraft tank (if you put it on the bottom side).%n%n[note]There are also MV, HV, EV, and IV versions.[/note]
 
 # Quest: Long Distance Item Pipeline
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIg.name=§2§lLong Distance Item Pipeline
@@ -1400,6 +1404,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALow.desc=If you make some Double Alumini
 # Quest: Mica Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.name=§2§lMica Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=Mica is a very rare but useful ore. You need it in order to craft your coils for the Electric Blast Furnace. Only for cupronickel coils there is a replacement recipe. If you have no luck in finding this vein yet try to look for it with a Prospector once you get them.
+
+# Quest: Steam Regulator
+betterquesting.quest.Hbe7iUTjQM-w7QX0Mr9clw.name=§2§lSteam Regulator
+betterquesting.quest.Hbe7iUTjQM-w7QX0Mr9clw.desc=Being able to pump steam with twice the throughput is great, but what if you also want to regulate it with that same 32x range? Well, look no further than the Steam Regulator.%n%nThis allows you to set the regulator's precise transfer rate in L/t.%n%n[note]Like the valves, Steam Regulators also have MV, HV, EV, and IV versions.[/note]
 
 # Quest: Handle Resources Like a Bo$$ #2
 betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.name=§2§lHandle Resources Like a Bo$$ #2
@@ -1978,6 +1986,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=If you are salty about the ingr
 betterquesting.quest.Bgu0MatiTJae3tNwj5FS1w.name=§6§lMV Wiremill
 betterquesting.quest.Bgu0MatiTJae3tNwj5FS1w.desc=The MV Wiremill is twice as fast as the LV one but uses 4x the power.
 
+# Quest: MV Cutting Machine
+betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.name=§6§lMV Cutting Machine
+betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.desc=As I'm sure you've figured out by now, some of the Cutting Machine recipes take quite a long time to complete. Fortunately, the MV Cutting Machine should help speed that process along nicely compared to the LV version.%n%n[note]This will also be required later in the questline for cutting up ULPICs![/note]
+
 # Quest: Dislocator Inhibitor
 betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.name=§6§lDislocator Inhibitor
 betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.desc=Tired of your magnet picking up everything? Fortunately, with the advent of Dark Steel this no longer needs to be an issue.%n%nThe Dislocator Inhibitor will restrict the function of the Draconic Evolution Item Dislocator within a customizable range of up to 16 blocks. You can stop it from picking up items entirely, or configure a whitelist or blacklist of your choosing. Additionally, you can choose whether it is always active or only enabled by a redstone signal.
@@ -2181,7 +2193,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1A.desc=NOR, NAND and other high tier c
 
 # Quest: Phosphorus Doped Monocrystalline Silicon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1Q.name=§5§lPhosphorus Doped Monocrystalline Silicon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1Q.desc=To make more advanced wafers, you need to make phosphorus doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.%n%nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.%n%nThere are many different ways to source Phosphorus, you can process ores like Apatite or Tricalcium Phosphate. You may also consider centrifuging ashes if you use a benzene setup, or extracting it from combs if you use bees. Remember to be prudent when searching through NEI!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1Q.desc=To make more advanced wafers, you need to make phosphorus doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.%n%nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.%n%nThere are many different ways to source Phosphorus, you can process ores like Apatite or Tricalcium Phosphate. You may also consider centrifuging ashes if you use a benzene setup, extracting it from combs if you use bees, or obtaining it from the Fertilia crop. Remember to be prudent when searching through NEI!
 
 # Quest: Phosphorus Doped Wafer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1g.name=§5§lPhosphorus Doped Wafer
@@ -3031,7 +3043,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJDw.desc=By combining your Acidic Iridiu
 
 # Quest: Iridium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEQ.name=§9§lIridium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEQ.desc=Add Calcium to Iridium Chloride to finally get pure Iridium.%n%nYou can run the Metallic Sludge through a centrifuge to get nickel and copper, while the Calcium Chloride needs to be solidified in a fluid solidifier before it can be electrolyzed for calcium and chlorine.%n%nBTW, this step is only EV, the only part that is, so you could do it earlier if you really wanted to.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEQ.desc=Add Calcium to Iridium Chloride to finally get pure Iridium.%n%nYou can run the Metallic Sludge through a centrifuge to get nickel and copper, while the Calcium Chloride needs to be electrolyzed for calcium and chlorine.%n%nBTW, this step is only EV, the only part that is, so you could do it earlier if you really wanted to.
 
 # Quest: Fluid From Sulfur Gas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEg.name=§9§lFluid From Sulfur Gas
@@ -3127,7 +3139,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6Q.desc=For the next step in the proces
 
 # Quest: Zirconium Ingots
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.name=§9§lZirconium Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.desc=Just EBF your zirconium tetrachloride with some magnesium and you're done!%n%nZirconium is used in many different multiblock machines such as the Industrial mixer and the Alloy blast smelter that you might have already built. It's also used in the creation of High Density rods for an extra boost to your nuclear reactors.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.desc=Just EBF your zirconium tetrachloride with some magnesium and you're done!%n%nZirconium is used in many different multiblock machines such as the Alloy blast smelter that you might have already built. It's also used in the creation of High Density rods for an extra boost to your nuclear reactors.
 
 # Quest: We Ain't Running a Farm!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6w.name=§9§lWe Ain't Running a Farm!
@@ -3135,7 +3147,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6w.desc=...What's this low-purity hafni
 
 # Quest: Finally, Actual Hafnium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.name=§9§lFinally, Actual Hafnium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.desc=Now that wasn't so hard, was it?%n%nHafnium is used as a component in making the Sparge tower which is useful if you ventured into the Liquid Fluorine Thorium Fluid Nuclear reactor.%n%nYou also get half of your Iodine back with this. Also, keep the runoff. It might become useful later, especially if stuff's suggested §owink wink nudge nudge§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.desc=Now that wasn't so hard, was it?%n%nHafnium is used as a component in making the Sparge tower which is useful if you ventured into the Liquid Fluorine Thorium Fluid Nuclear reactor.%n%nYou also get all of your Iodine back with this. Also, keep the runoff. It might become useful later, especially if stuff's suggested §owink wink nudge nudge§r
 
 # Quest: Dilution, Yet Again
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7Q.name=§9§lDilution, Yet Again
@@ -3749,7 +3761,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYg.desc=In order to make Tritanium, fir
 
 # Quest: Wasn't This Only Found in the Center of Neutron Stars?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbQ.name=§b§lWasn't This Only Found in the Center of Neutron Stars?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbQ.desc=You'll need Neutronium for UV and the T7 rocket, so let's make some.%n%nTo get Neutronium, go to one of the planets that has the small ores. Then mix it with Helium Plasma to make Raw Neutronium Dust. It can be smelted in a Blast Furnace at 9000K and 491,520 EU/t. This recipe takes a long time and a lot of power. Better make another EBF or Volcanus. Or a few. Or upgrade your Mega Blast Furnace.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbQ.desc=You'll need Neutronium for UV and the T7 rocket, so let's make some.%n%nTo get Neutronium, go to one of the planets that has the small ores. Then mix it with Helium Plasma to make Raw Neutronium Dust. It can be smelted in a Blast Furnace at 9000K and 491,520 EU/t. This recipe takes a long time and a lot of power. Better make another EBF or Volcanus. Or a few. Or upgrade to an Exothermic Hearth.
 
 # Quest: Data Bank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbw.name=§b§lData Bank
@@ -3998,7 +4010,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.desc=The QC has 2-24 computer racks 
 
 # Quest: Fluids for Copying Cultures
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKlw.name=§2§l§nFluids for Copying Cultures
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKlw.desc=Ok, so let's say you've made some kind of culture, but you want more of it? You only need one per Vat, but they're consumed when making DNA Samples, so you should probably learn how.%n%nTo start off, you'll need to get an eColi Culture.%n%nUse that to make the eColi Bacteria Fluid. [note](I know the name is completely different, deal with it)[/note]%n%nCentrifuge that to make Liquid DNA.%n%nAnd combine it with Radon in the Mixer to make FluorecentdDNA.%n%neColi Bacteria Fluid can also be Centrifuged for Plasma Membranes (10%% chance) and EnzymesSollution, so do that as well.%n%nAnd then Centrifuge the EnzymesSollution again for Polymerase.%n%nYou should expect to need a significant amount of eColi Bacteria Fluid if you plan on copying a lot of cultures, or making the hard to make ones.%n%n[note]To search for items related to copying cultures, search for 'culture', 'dna sample', or 'plasmid'. You can't do this for the Data Orbs, you have to check the uses of DNA Samples.[/note]%n%n§5A bunch of the fluids have incorrect spelling, don't blame me for it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKlw.desc=Ok, so let's say you've made some kind of culture, but you want more of it? You only need one per Vat, but they're consumed when making DNA Samples, so you should probably learn how.%n%nTo start off, you'll need to get an eColi Culture.%n%nUse that to make the eColi Bacteria Fluid. [note](I know the name is completely different, deal with it)[/note]%n%nCentrifuge that to make Liquid DNA.%n%nAnd combine it with Radon in the Mixer to make FluorecentdDNA.%n%neColi Bacteria Fluid can also be Centrifuged for Plasma Membranes and EnzymesSollution, so do that as well.%n%nAnd then Centrifuge the EnzymesSollution again for Polymerase.%n%nYou should expect to need a significant amount of eColi Bacteria Fluid if you plan on copying a lot of cultures, or making the hard to make ones.%n%n[note]To search for items related to copying cultures, search for 'culture', 'dna sample', or 'plasmid'. You can't do this for the Data Orbs, you have to check the uses of DNA Samples.[/note]%n%n§5A bunch of the fluids have incorrect spelling, don't blame me for it.
 
 # Quest: DNA Samples for Copying Cultures
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmA.name=§2§l§nDNA Samples for Copying Cultures
@@ -4051,7 +4063,7 @@ betterquesting.quest.zmLCpjodTjOklgwPb5bGSA.desc=Now that you've created the Neu
 
 ## Quest Line: Tier 9 - UHV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.name=Tier 9 - UHV
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.desc=Uhh... hi? You really aren't supposed to be here, you know? We're still, you know, making this tier, right?
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.desc=Uhh... hi? You really aren't supposed to be here, you know? For a long time, this tier was the Endgame, though at this point it's arguably the late-midgame. Congrats on making it; it only gets more fun from here!
 
 # Quest: Draconic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0A.name=§4§l§nDraconic Core
@@ -4302,6 +4314,10 @@ betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.desc=UEV energy hatches? Great! Time
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.name=§5§l§nAssembling in Space
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.desc=This new Space Elevator module can be used to make lapotron orbs more easily, and to make the raw components for optical circuits.
 
+# Quest: Haha, Spinny Ingot
+betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.name=§5§l§nHaha, Spinny Ingot
+betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.desc=Transcendent Metal is the primary metal used in UIV components.%n%nThis metal is a bit different from the ones you have been processing so far. You need to macerate your tesseracts to get the dust and then blast it at such high temperatures that you'll need a coolant to help manage the heat.%n%nDue to the impossible nature of the tesseract particles, you'll need a medium to enable them to form 3D shapes. Tungsten, for some reason, works very well for this purpose.%n%nThe ingot itself is also not very stable; therefore, a coating of titansteel must be applied during the cooling process.%n%n[note]Consider passively generating it. This process is slow.[/note]
+
 # Quest: Using Light to Compute
 betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.name=§5§l§nUsing Light to Compute
 betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.desc=Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn't imagine. Making them is quite an involved process however.
@@ -4353,10 +4369,6 @@ betterquesting.quest.gOySBVKnSAiJk0Fie9k55A.desc=To run the DTPF, you will need 
 # Quest: The Perfect CPU?
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.name=§5§l§nThe Perfect CPU?
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.desc=Using your new optically enhanced boards and chips, you've managed to create what looks like the perfect CPU! Surely this will be able to handle even the advanced computations you need to perform to breach dimensional boundaries.
-
-# Quest: Energised Tesseract
-betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§5§l§nEnergised Tesseract
-betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=Using high amounts of energy and the strange properties of a Quantum Anomaly, Tesseracts can become energised, unlocking hidden potential.%n%n[note]You better love crafting these...[/note]
 
 # Quest: Tier 10 (UEV)
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.name=§5§l§nTier 10 (UEV)
@@ -4439,10 +4451,6 @@ betterquesting.quest.52NvoXdXSuCp2hCvV_otBA.desc=Despite its name, the §5§lTel
 betterquesting.quest.595xDGWEQQiWmCoN4jJuTQ.name=§9§l§nDyson Swarm Modules
 betterquesting.quest.595xDGWEQQiWmCoN4jJuTQ.desc=To generate power with your Dyson Swarm Ground Unit, you will need some Dyson Swarm Modules- 10,000, to be exact. The upfront cost of a Dyson Swarm is quite daunting, but the power output is grand.%n%n[note]Once you craft 64, here's a small bonus. Happy crafting![/note]
 
-# Quest: A Better Coolant for Your Superconductors
-betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.name=§9§l§nA Better Coolant for Your Superconductors
-betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.desc=The subzero temperatures of SpaceTime make it an ideal substitute in all of your superconductor crafts.%n%nYou won't need billions of Liquid Helium anymore!%n%n[note]The earlier tiers of superconductors are also faster to craft with this.[/note]
-
 # Quest: Pseudostable Black Hole Containment Field
 betterquesting.quest.6OibD9bRQwq_hBPWz-y9xQ.name=§9§l§nPseudostable Black Hole Containment Field
 betterquesting.quest.6OibD9bRQwq_hBPWz-y9xQ.desc=As the materials around you achieve transcendental properties, you have found that traditional modes of compression like pistons or gases will not be enough to compact them as densely as you require.%n%nThe solution? Using the sheer force of gravity. By using extreme amounts of explosive force on your fourth-dimensionally engineered tesseracts, you can tear tiny rifts in the fabric of space, enough to create a seed which can birth a black hole. If you can build a machine which can harness it, it will be able to compress even the strongest materials to the most dense states possible.%n%nTaming a black hole is no easy task - even with all of your precautions, it defies your efforts to stabilize it and attempts to collapse itself constantly. Meaningfully extending the lifespan of the black hole will be extremely difficult. By bending spacetime through carefully aligned glass, you can reverse the flow of hawking radiation back into the black hole and keep it completely stable - problematically, however, the amount of spacetime required to maintain this process increases at an exponential rate.%n%nAs the black hole decays, it becomes even more powerful - but be wary, as it will eventually become unstable and you will no longer be able to recover your items from the edge of the event horizon. To safely close the black hole and restart this process, you have engineered a collapser out of the same fourth-dimensional materials.%n%n[note]The Pseudostable Black Hole Containment Field is the most powerful compressor in the game, capable of creating superdense plates out of any material, as well as being able to perform more advanced neutronium compressor recipes that will save incredible amounts of resources.[/note]%n%n[note]You must use programmed circuits in the input buses to determine if the machine will act as a Compressor or Neutronium Compressor![/note]
@@ -4498,10 +4506,6 @@ betterquesting.quest.HvtY6xu3RAKjwhAZCTwK8A.desc=At this scale, moving condensat
 # Quest: Star Fuel and Dark Matter
 betterquesting.quest.II3sjr1cSPOMXaSG70S_eg.name=§9§l§nStar Fuel and Dark Matter
 betterquesting.quest.II3sjr1cSPOMXaSG70S_eg.desc=In your research on §b§lProject Godforge§r, you determine that you need a new type of fuel to create a neutron star. Naquadah Fuel possesses some of the properties needed, but isn't enough. Stabilizing this fuel with Exotic Catalyst, and drastically increasing the density of the fuel with other things leads you to something that may just work.%n%nDuring this synthesis, you realize that this fuel could be used to make [note]Dark Matter[/note], something you previously had only seen on the Mehen Belt in the Amun-Ra System.%n%n[note]Dark Matter Shards can be found in the Mehen Belt and mined manually, if you don't want to synthesize it.[/note]
-
-# Quest: Haha, Spinny Ingot
-betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.name=§9§l§nHaha, Spinny Ingot
-betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.desc=Transcendent Metal is the primary metal used in UIV components.%n%nThis metal is a bit different from the ones you have been processing so far. You need to macerate your tesseracts to get the dust and then blast it at such high temperatures that you'll need a coolant to help manage the heat.%n%nDue to the impossible nature of the tesseract particles, you'll need a medium to enable them to form 3D shapes. Tungsten, for some reason, works very well for this purpose.%n%nThe ingot itself is also not very stable; therefore, a coating of titansteel must be applied during the cooling process.%n%n[note]Consider passively generating it. This process is slow.[/note]
 
 # Quest: Transcendent Plasma Mixer
 betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.name=§9§l§nTranscendent Plasma Mixer
@@ -4559,6 +4563,10 @@ betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.desc=Woah, another Energy Hatch.%n%n
 betterquesting.quest.g0oiNbRuQpWrzFOS8l-DtA.name=§9§l§nAn Even More Mega EBF
 betterquesting.quest.g0oiNbRuQpWrzFOS8l-DtA.desc=With the project finally completed, and a new material capable of harnessing the power of a neutron star, you decide the natural first application of this immense power could be used for a far superior Blast Furnace. With a little tinkering, you decide a second may be necessary, since this module could easily be retrofitted into an ordinary Furnace as well.%n%n[note]The first module of the Godforge, Helioflare Power Forge can perform EBF recipes and Furnace recipes in separate running modes, toggleable in the UI. Note that the Furnace mode does NOT contribute towards the Conversion milestone![/note]%n%n[note]Usage of this module requires the START upgrade.[/note]
 
+# Quest: Energised Tesseract
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§9§l§nEnergised Tesseract
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=Using high amounts of energy and the strange properties of a Quantum Anomaly, Tesseracts can become energised, unlocking hidden potential.%n%n[note]You better love crafting these...[/note]
+
 # Quest: UIV Superconductors
 betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.name=§9§l§nUIV Superconductors
 betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.desc=Didn't expect the Rhugnor, did you?%n%nAs usual, mix your exotic dusts, blast them, form into wires, and superconduct.
@@ -4581,7 +4589,7 @@ betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=Spacetime... separates?? Crazy 
 
 # Quest: Your First SpaceTime
 betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.name=§9§l§nYour First SpaceTime
-betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.desc=[note]Hurrah, you can finally move on to the UMV tier![/note]%n%nThe residue produced from the DTPFs seems to have an interesting interaction with reality, as if it bends the universe to its will.%n%nWhat if you combined it with some infinity and hypogen to excite it, and an energized tesseract as a way to fling it back and forth to the 4th Dimension?%n%nMaybe then you could achieve the unachievable, a building block of the entire universe.%n%n[note]The base recipe is horrible, so definitely make the Eternal Coils for your DTPF first.%n%nCongrats on making it this far![/note]
+betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.desc=[note]§lHurrah, you can finally move on to the UMV tier!§r[/note]%n%nThe residue produced from the DTPFs seems to have an interesting interaction with reality, as if it bends the universe to its will.%n%nWhat if you combined it with some infinity and hypogen to excite it, and an energized tesseract as a way to fling it back and forth to the 4th Dimension?%n%nMaybe then you could achieve the unachievable, a building block of the entire universe.%n%nThe base recipe is horrible, so definitely make the Eternal Coils for your DTPF first.%n%n&g&#008CFF&#FF00E5Congrats on making it this far!§r%n%n[note]P.S. Spacetime can be used as a substitute in all superconductor crafts and cut down on craft times substantially.[/note]
 
 # Quest: UIV Field Generator
 betterquesting.quest.q6WN7XY8Qf6PNgWTy7RrBA.name=§9§l§nUIV Field Generator
@@ -4589,7 +4597,7 @@ betterquesting.quest.q6WN7XY8Qf6PNgWTy7RrBA.desc=A bit expensive, but worth the 
 
 # Quest: Tier 11 (UIV)
 betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.name=§9§l§nTier 11 (UIV)
-betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.desc=Now that you've enjoyed your exotic cookies, let's keep going, shall we?%n%nWelcome to Insanely Ultimate Voltage! One of the shortest tiers in NH for now. This tier is mainly about solving your DTPF catalyst problems and getting to Eternal Coils.%n%nThere are a few QoL additions introduced, like the Uncertainty Resolver and the Thaumometric Essentia Cell.%n%nYou also gain access to the Dyson Swarm, an incredibly powerful power generation option.%n%n[warn]This tier is not fully complete. Expect changes.[/warn]
+betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.desc=Now that you've enjoyed your exotic cookies, let's keep going, shall we?%n%nWelcome to Insanely Ultimate Voltage, a very fun tier with many new large multiblocks to play with! At first, this tier is mainly about solving your DTPF catalyst problems and getting to Eternal Coils. Afterward, you are introduced to late game content like the Forge of the Gods, the Bose-Einstein Condensate Apparatus, and the Black Hole Compressor that you will use until the end of the modpack!%n%nThis tier also introduces a few QoL additions, like the Crafting Input Proxy, Uncertainty Resolver, and the Thaumometric Essentia Cell.%n%nYou also gain access to the Dyson Swarm and the Semi-Stable Antimatter Stabilization Sequencer, two incredibly powerful ways to generate power.
 
 # Quest: Fuwusion MK5
 betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.name=§9§l§nFuwusion MK5
@@ -5469,7 +5477,7 @@ betterquesting.quest.RNs9o33VRcSIxlGcQnApfA.desc=Easy dark oak wood!
 
 # Quest: Keeping The Sprouts Healthy
 betterquesting.quest.SeFoun3ZTYuJ16YNy-Bq3g.name=Keeping The Sprouts Healthy
-betterquesting.quest.SeFoun3ZTYuJ16YNy-Bq3g.desc=Weeds are a constant threat, whether in large automated fields or small crossbreeding plots.%n%nLets deal with them.
+betterquesting.quest.SeFoun3ZTYuJ16YNy-Bq3g.desc=Weeds are a constant threat, whether in large automated fields or small crossbreeding plots.%n%nLet's deal with them.
 
 # Quest: Breeding With Technology
 betterquesting.quest.Sel7hC1hT9ij2KcPa2g5ow.name=Breeding With Technology
@@ -6941,7 +6949,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIVw.desc=The Blue Mahoe has the most sap
 
 # Quest: U-238 Tu-Wait, Seriously?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.name=U-238 Tu-Wait, Seriously?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.desc=If you want CropsNH crops to work with the multifarm, you now need this. Get the U-238 from thorium, and the endereyes from either your crops, villagers, or the normal way in HV. It also only searches 6 blocks above the farm structure block to prevent lag. So goodbye MF stacking, you always looked dumb, and didn't make any sense.%n%nThe largest size supports ~1100 crops, while the smallest supports ~600 depending on your layout if you use it for crops. This is because it will look for crops up to 5 blocks out further than normal in this mode (In the cardinal directions, it's further out in the corners. Just try it out, it's hard to describe). They're the same size as in previous versions, so you don't need to rejigger them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.desc=If you want CropsNH crops to work with the multifarm, you now need this. You can get the U-238 from thorium. It also only searches 6 blocks above the farm structure block to prevent lag. So goodbye MF stacking, you always looked dumb, and didn't make any sense.%n%nThe largest size supports ~1100 crops, while the smallest supports ~600 depending on your layout if you use it for crops. This is because it will look for crops up to 5 blocks out further than normal in this mode (In the cardinal directions, it's further out in the corners. Just try it out, it's hard to describe). They're the same size as in previous versions, so you don't need to rejigger them.
 
 # Quest: Papaya
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIA.name=Papaya
@@ -7162,7 +7170,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.desc=This oven is the best way to ge
 
 # Quest: It's Time to Get More Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.name=§6§lIt's Time to Get More Steam
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800L of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 160L of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.%n%n§cWarning: Different from other boilers, Large Boilers must contain water at all times while active. If at any point the Boiler runs out of water while it is active, it will explode.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800L of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 160L of steam.%n%nTo make a large boiler you must make a 3x3x6 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 input hatch, 1 output hatch, 5 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks.%n%n§cWarning: Different from other boilers, Large Boilers must contain water at all times while active. If at any point the Boiler runs out of water while it is active, it will explode.
 
 # Quest: Steam is Never Enough
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEg.name=§6§lSteam is Never Enough
@@ -7543,7 +7551,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The §5§lIndustrial Centrifuge
 
 # Quest: Bask In The Currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=§9§lBask In The Currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=§r[warn]This multiblock always runs recipes at the same tier as the energy hatches in the structure. If the machine does not have enough power supplied, it won't turn on.[/warn]%n%nAlthough this multiblock is available in IV, we recommend building one §nafter finishing the Naqline§r.%n%n%nThis multiblock has 3 different modes: §3Normal§r, §4EBF§r, and §6Ore§r.%n%n%nIn §3Normal§r mode, this multiblock §3processes normal arc furnace recipes§r.%n%nIn §4EBF§r mode, this multiblock can process §4every EBF recipe regardless of coil tier requirement§r. This feature comes at the cost of §lbase recipe voltage being increased by 2 tiers§r.%n%nIn §6Ore§r mode, this machine can only process ores and raw ores that can be smelted in a normal furnace, giving molten metal directly.%n%n%nIn addition to the modes, this machine has 3 different processing phases.%n%n§lStartup:§r The machine ignites its arc for 6 seconds before it can process recipes. Startup power depends on the installed electrode's stats: §6maximum parallels§r * §2EU Modifier§r * (1 + §4Startup Penalty§r). The required amperage is shown as §lStartup Amperage§r in the electrode tooltip.%n%n§lProcessing:§r During this phase, the machine processes recipes using the Speed, Parallels, OC, and EU Modifier statistics of the installed electrode. If the machine fails to find a recipe that it can use, it goes into the shutdown phase.%n%n§lShutdown:§r The machine enters a 6-second phase during which it does not process any recipes and does not use any power. After the shutdown phase, it needs to go through startup again before processing recipes.%n%n%nElectrodes also have durability and may provide unique special effects. Some electrodes can modify the normal Startup, Processing, or Shutdown behavior, so always check the electrode's tooltip.%n%nBelow §c25%% remaining durability§r, every processing attempt has a §c5%% chance§r to cause a random arc surge, forcing the machine to go through Startup again.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=§r[warn]This multiblock always runs recipes at the same tier as the energy hatches in the structure. If the machine does not have enough power supplied, it won't turn on.[/warn]%n%nAlthough this multiblock is available in IV, we recommend building one §nafter finishing the Naqline§r.%n%n%nThis multiblock has 3 different modes: §3Normal§r, §4EBF§r, and §6Ore§r.%n%n%nIn §3Normal§r mode, this multiblock §3processes normal arc furnace recipes§r.%n%nIn §4EBF§r mode, this multiblock can process §4every EBF recipe regardless of coil tier requirement§r. This feature comes at the cost of §lbase recipe voltage being increased by 2 tiers§r. The available recipes are limited to the energy hatch tier.%n%nIn §6Ore§r mode, this machine can only process ores and raw ores that can be smelted in a normal furnace, giving molten metal directly.%n%n%nIn addition to the modes, this machine has 3 different processing phases.%n%n§lStartup:§r The machine ignites its arc for 6 seconds before it can process recipes. Startup power depends on the installed electrode's stats: §6maximum parallels§r * §2EU Modifier§r * (1 + §4Startup Penalty§r). The required amperage is shown as §lStartup Amperage§r in the electrode tooltip.%n%n§lProcessing:§r During this phase, the machine processes recipes using the Speed, Parallels, OC, and EU Modifier statistics of the installed electrode. If the machine fails to find a recipe that it can use, it goes into the shutdown phase.%n%n§lShutdown:§r The machine enters a 6-second phase during which it does not process any recipes and does not use any power. After the shutdown phase, it needs to go through startup again before processing recipes.%n%n%nElectrodes also have durability and may provide unique special effects. Some electrodes can modify the normal Startup, Processing, or Shutdown behavior, so always check the electrode's tooltip.%n%nBelow §c25%% remaining durability§r, every processing attempt has a §c5%% chance§r to cause a random arc surge, forcing the machine to go through Startup again.
 
 # Quest: Bate Bate Chocolate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=§9§lBate Bate Chocolate
@@ -7675,7 +7683,7 @@ betterquesting.quest.XA467S8MQtCEPy6L23eEEA.desc=You probably haven't thought ab
 
 # Quest: Advanced Assembly Line
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=§d§lAdvanced Assembly Line
-betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=This is the advanced assembly line from §6GigaGram§rFab.%n%nIt supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item inputs this recipe requires. You can think of an advanced assembly line as a collection of slices which are capable of processing each step independently from other slices. It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice's work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.%n%nThe terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded its work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in [warn]STUCK[/warn] state and hang the assembly line. To help locate these [warn]STUCK[/warn] assembly lines, the controller's front face will have its status light turned orange.%n%nThe EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. [warn]STUCK[/warn] slices do not consume power. It will use the worst energy supplying hatch's input voltage for recipe tier calculation and normal 2/4 OC. With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual 2/4 OC. Every §2laser overclock§r will add 0.3 to the power exponent. 1 §2laser overclock§r will have 50%% recipe time and use 430%% power. 2 §2laser overclocks§r will have 25%% recipe time and use 1978%% power. Will not overclock beyond 1 tick. Machine first tries to parallelize, then normal 2/4 OC, then §2laser overclock§r.
+betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=This is the advanced assembly line from §6GigaGram§rFab.%n%nIt supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item inputs this recipe requires. You can think of an advanced assembly line as a collection of slices which are capable of processing each step independently from other slices. It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice's work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.%n%nThe terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded its work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in [warn]STUCK[/warn] state and hang the assembly line. To help locate these [warn]STUCK[/warn] assembly lines, the controller's front face will have its status light turned orange.%n%nThe EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. [warn]STUCK[/warn] slices do not consume power. It will use the worst energy supplying hatch's input voltage for recipe tier calculation and normal 2/4 OC. With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual 2/4 OC. Every §2laser overclock§r will add 0.3 to the power exponent. 1 §2laser overclock§r will have 50%% recipe time and use 430%% power. 2 §2laser overclocks§r will have 25%% recipe time and use 1978%% power. Machine first tries to parallelize, then normal 2/4 OC, then §2laser overclock§r.
 
 # Quest: Advanced Autoclaving
 betterquesting.quest._dFgSThoQTWgM696ykr2Gw.name=§d§lAdvanced Autoclaving
@@ -8575,6 +8583,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL1Q.desc=This is the most powerful combu
 # Quest: Simple Distillation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALqA.name=Simple Distillation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALqA.desc=As rich as Oil is, it's hardly useful for anything in this state. One of the most important parts in the processing chain is distillation, which separates the components of this black mixture by the difference in their boiling points. You can do this in a Distillery, starting in LV, but for now only one of the fractions can be obtained at a time: you must choose which one you want.%n%nLighter fractions are generally more useful than heavier ones, but that doesn't mean that lightest is best. For now, going for Sulfuric Light Fuel is the best option, since it will become a good source of power after being treated. Don't use unprocessed oil to power these machines, stick to Steam until you can use something better.%n%n[note]You can find info about the other fractions in the LV tab![/note]
+
+# Quest: Here's Some Oil
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALqg.name=§2§lHere's Some Oil
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALqg.desc=[note]Here the oil questlines diverge into two tabs - part about getting every possible output is in the LV tab, part about the usefulness of oil is in the Working with Oil tab, this quest is part of the latter.[/note]%n%nWelcome! This is the questline that shows the path through oil processing towards all the useful items and fluids that can be obtained from it. Working with this black liquid involves a lot of steps that range from LV (Low Voltage), all the way to IV (Insane Voltage), and outputs that are useful at those tiers and beyond.%n%nOil is useful both for generating power, and to automate a lot of chemicals that are important for progression. As you progress, you will be able to get more of it, and get it faster, as well as process it in new ways that improve on the setup that you were using before. It is not a required path for progression in the pack, but it is a very useful one, should you choose to follow it.%n%nThe best way to start working with oil is to extract it from the surface. Oil spouts are visible without having to dig down, and they can be interacted with by using a Pump placed above them, alongside a generator that feeds it some power. You can use some of the Oil to generate this power for now.
 
 # Quest: Oil Drilling Rig
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALqw.name=Oil Drilling Rig
@@ -10445,7 +10457,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=Wireless Connectors are a close
 
 # Quest: Ore Dictionary Output
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.name=Ore Dictionary Output
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.desc=The ME ore dictionary export card will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item's name [e.g. if you want to export all ores put "ore*"]. The rate of export is very fast.%n%n[note]PS: Use crushed* & !crushedPurified* & !crushedCentrifuged* to get any crushed ore, but not ore that has been washed, then crushed (to get purified) or run through the thermal centrifuge.[/note]%n%nThe card can be used in more devices, and causes less lag, but works in a similar way. Put it inside a bus and set the filter using the T looking button that appears. The standalone bus is no longer craftable.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.desc=The ME ore dictionary export card will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item's name [e.g. if you want to export all ores put "ore*"]. The rate of export is very fast.%n%n[note]PS: Use crushed* & !crushedPurified* & !crushedCentrifuged* to get any crushed ore, but not ore that has been washed, then crushed (to get purified) or run through the thermal centrifuge.[/note]%n%nThe card can be used in more devices, and causes less lag, but works in a similar way. Put it inside a bus and set the filter using the T looking button that appears.
 
 # Quest: To Link P2P Buses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.name=To Link P2P Buses
@@ -10533,7 +10545,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6A.desc=A Quantum Network Bridge allows
 
 # Quest: Tools of the Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6Q.name=Tools of the Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6Q.desc=The Network Tool is AE2's main utility tool.%n%nRight-click on a network to see the power usage, and what makes up the network.%nRight-click on air to interact with its inventory to store cards or turn facades transparent.%nShift-right-click to remove fixtures (import bus, interface, etc.) that don't take up a full block without removing the cable, or remove any AE block immediately the same way.%n%nThe Network Visualizer does exactly what it says, it allows you to visualize the channels of your network. First, right-click a network to select it. At first you'll see everything, but you can change the modes by holding shift and scrolling the mouse wheel up or down to see different things. Remember that if you have a subnetwork, like one that P2P tunnels go through for example, those nodes won't show up since it's a different network, but the P2P tunnels entrances and exits will. This goes through solid objects, so you can look at your whole base.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6Q.desc=The Network Tool is AE2's main utility tool.%n%nRight-click on a network to see the power usage, and what makes up the network.%nRight-click on air to interact with its inventory to store cards or turn facades transparent.%nShift-right-click to remove fixtures (import bus, interface, etc.) that don't take up a full block without removing the cable, or remove any AE block immediately the same way.%n%nThe Network Visualizer does exactly what it says, it allows you to visualize the channels of your network. First, right-click a network to select it. At first you'll see everything, but you can change the modes by holding sneak and right-clicking to see different things. Remember that if you have a subnetwork, like one that P2P tunnels go through for example, those nodes won't show up since it's a different network, but the P2P tunnels entrances and exits will. This goes through solid objects, so you can look at your whole base.
 
 # Quest: Portable Digital Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6g.name=Portable Digital Storage
@@ -10801,7 +10813,7 @@ betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=Same as 1k.
 
 # Quest: Hyper Acceleration!
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.name=Hyper Acceleration!
-betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=Hyper-Acceleration cards are a faster version of the basic acceleration cards. %n%n[note]Hyper-Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%nME Fluid Import Bus (4)%nME Fluid Export Bus (4)%n%n§rIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 4,096 items/tick%n2x Cards: 32,768 items/tick%n3x Cards: 262,144 items/tick%n%n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 4,096,000 mb/tick%n2x Cards: 32,768,000 mb/tick%n3x Cards: 262,144,000 mb/tick
+betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=Hyper-Acceleration cards are a faster version of the basic acceleration cards. %n%n[note]Hyper-Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%nME Fluid Import Bus (4)%nME Fluid Export Bus (4)%nME Import/Export Bus (4)%n%n§rIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 4,096 items/tick%n2x Cards: 32,768 items/tick%n3x Cards: 262,144 items/tick%n%n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 4,096,000 mb/tick%n2x Cards: 32,768,000 mb/tick%n3x Cards: 262,144,000 mb/tick
 
 # Quest: Advanced Neutronium Tech
 betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.name=Advanced Neutronium Tech
@@ -10845,7 +10857,7 @@ betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.desc=Same as 1k.
 
 # Quest: Vending Uplink Hatch
 betterquesting.quest._Hu6__h5TDazRXcEeZvyUg.name=Vending Uplink Hatch
-betterquesting.quest._Hu6__h5TDazRXcEeZvyUg.desc=Now that you've unlocked ME interfaces you can use this new technology to uplink with your Vending Machine!%n%nThe §5Vending Uplink Hatch§r can replace any of the pipe casing blocks and be connected directly to your AE network for automatically pulling required items.%n%nIt will also allow the Vending Machine access to coins in your AE network. When purchasing, it will prioritize using the coins in the wallet first, but then it will pull from AE. The number of coins in the UI is representative of both the coins in your wallet and the coins in your ME system when this hatch is installed.%n%n[note]Will work for both consumable and non-consumable items.[/note]
+betterquesting.quest._Hu6__h5TDazRXcEeZvyUg.desc=Now that you've unlocked ME interfaces you can use this new technology to uplink with your Vending Machine!%n%nThe §5Vending Uplink Hatch§r can replace any of the casing blocks and be connected directly to your AE network for automatically pulling required items.%n%nIt will also allow the Vending Machine access to coins in your AE network. When purchasing, it will prioritize using the coins in the wallet first, but then it will pull from AE. The number of coins in the UI is representative of both the coins in your wallet and the coins in your ME system when this hatch is installed.%n%n[note]Will work for both consumable and non-consumable items.[/note]
 
 # Quest: Ultimate Parallelization...
 betterquesting.quest._bEWg1FHSmKu9MNhlbDlwA.name=§6§lUltimate Parallelization...
@@ -10858,6 +10870,10 @@ betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.desc=You need to use this for the hi
 # Quest: Level Maintainer
 betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.name=Level Maintainer
 betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.desc=The ME Level Maintainer is another cool addition of AE2FC. Choose an item or fluid and an amount to maintain, and the Level Maintainer will attempt to call patterns to keep crafting the item until it reaches the threshold you configured. You can also configure the crafting batch size.
+
+# Quest: Advanced Level Emitter
+betterquesting.quest.f6IigSUqTbCofTaJXLnLRg.name=Advanced Level Emitter
+betterquesting.quest.f6IigSUqTbCofTaJXLnLRg.desc=The Advanced Level Emitter is a valuable upgrade to the traditional Level Emitter. It allows for up to 6 types of items to be monitored at once.%n%nThe redstone signal will output depending on which item slots are toggled on, whether inverted mode is triggered, and which logic mode it's in. It can toggle between using both AND & OR.
 
 # Quest: 16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k Essentia Storage Cell
@@ -12447,10 +12463,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ.desc=Ironwood is a much harder and d
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.name=Low on Sticks?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.desc=If you stay in the Twilight Forest for more than a few minutes you'll find Canopy Trees. This big tree generates a lot of logs for your Coke Ovens and some roots when planted which give sticks. Be careful that no building or chest right beside or above the tree otherwise the tree replaces it. You might find a use for this, to sinfully get above a ceiling you really shouldn't.
 
-# Quest: A Better Fluid Pipe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.name=A Better Fluid Pipe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.desc=Now that you have lead you can convert your bronze pipes to potin pipes with higher capacities.
-
 # Quest: 3 Plus 4, Carry the 2...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.name=3 Plus 4, Carry the 2...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.desc=When doing infusions, it's always good to know how close you are in stability. The Arcane Abacus will tell you at a quick glance how stable your infusion altar is, and any asymmetries present. %n%nFor now, you can have one in exchange for a few types of common infusion stabilization blocks- but if you need to replace it, it will cost you some circuits!
@@ -12887,6 +12899,10 @@ betterquesting.quest.IU6FR1ikR2iDES8JOyklMg.desc=The §5§lPrimordial Armor§r i
 # Quest: The BEST Soap!
 betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.name=The BEST Soap!
 betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.desc=Finally, you can now reduce your permanent warp.%n%nThe chance to reduce your permanent warp is 10%%, increased to 25%% if you have the Warp Ward effect and further increased to 40%% if you're standing in Purifying Liquid. %n%n[warn]This soap has some side effects. Make sure you have a way to remove your normal (and temporary) warp.[/warn]
+
+# Quest: Infused Seeds
+betterquesting.quest.Jph4U5ZRTDifVbmAKCp1ug.name=Infused Seeds
+betterquesting.quest.Jph4U5ZRTDifVbmAKCp1ug.desc=§5§lInfused Seeds§r are very slow growing magical crops. Each seed is associated with a Thaumcraft aspect, and a fully grown plant can produce resources related to that aspect. Some of these drops are surprisingly useful. For example, a fully grown Venenum Infused Seed will drop 16 Quicksilver, an Iter Infused Seed will drop Arcane Bricks, and a Herba Infused Seed will give you random saplings.%n%nYou can see the products of different seeds using NEI.%n%nThere is a catch: the Infusion Altar can only directly create seeds for the six primal aspects. To create seeds for compound aspects, you'll need to combine their component aspects through the farmland itself.%n%nLet's make a §cVenenum Infused Seed§r as an example. §cVenenum§r is composed of §3Aqua§r + §dPerditio§r, so begin by crafting both an §3Aqua Infused Seed§r and a §dPerditio Infused Seed§r.%n%nPlant the §3Aqua Infused Seed§r on ordinary vanilla farmland and allow it to grow. As the seed grows, it leaves some of its aspect behind in the farmland. Once the farmland has been infused with §3Aqua§r, remove the §3Aqua§r seed and plant your §dPerditio Infused Seed§r on the same block.%n%nThe §dPerditio§r from the seed will combine with the §3Aqua§r already stored in the farmland, producing §cVenenum§r. The farmland and seed will become infused with the new aspect, and once the §cVenenum§r seed reaches maturity, it can be harvested.%n%nNaturally, waiting for these things to grow isn't particularly exciting. The Hoe of Growth works on Infused Seeds and can greatly speed up the process, although each use consumes 25 durability. With a sufficiently durable or repairable Hoe of Growth, you may even find some interesting ways to automate the process.%n%n[warn]One warning before you dive too deeply into magical agriculture: reaching and researching Infused Seeds involves a lot of Warp. Consider yourself warned before deciding that unlimited magical wheat sounds harmless.[/warn]
 
 # Quest: ...or are they?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.name=...or are they?
@@ -14909,10 +14925,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALSA.desc=If you somehow manage to connec
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUQ.name=§a§lMaking a Rapier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUQ.desc=Problems killing armored enemies? Just use a Rapier that ignores armor, but doesn't do a lot of damage.
 
-# Quest: Here's Some Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALqg.name=§2§lHere's Some Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALqg.desc=[note]Here the oil questlines diverge into two tabs - part about getting every possible output is in the LV tab, part about the usefulness of oil is in the Working with Oil tab, this quest is part of the latter.[/note]%n%nWelcome! This is the questline that shows the path through oil processing towards all the useful items and fluids that can be obtained from it. Working with this black liquid involves a lot of steps that range from LV (Low Voltage), all the way to IV (Insane Voltage), and outputs that are useful at those tiers and beyond.%n%nOil is useful both for generating power, and to automate a lot of chemicals that are important for progression. As you progress, you will be able to get more of it, and get it faster, as well as process it in new ways that improve on the setup that you were using before. It is not a required path for progression in the pack, but it is a very useful one, should you choose to follow it.%n%nThe best way to start working with oil is to extract it from the surface. Oil spouts are visible without having to dig down, and they can be interacted with by using a Pump placed above them, alongside a generator that feeds it some power. You can use some of the Oil to generate this power for now.
-
 # Quest: Nano Forge Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0A.name=§4§l§nNano Forge Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0A.desc=Carbon Nanites are good first workers, but they don't have much in the way of working with more complex systems as they have a very basic nanite network. So a new more advanced nanite will be needed to produce complex nanites.%n%nThe neutronium nanite is an in-between of the two tiers able to produce tier 2 nanites, which have other uses.%n%n[note]When putting the neutronium nanite in the controller, you will need to wait for the structure check to happen again or break and replace the controller with a neutronium nanite inside. Allows the Nano Forge to make tier 2 nanites.[/note]
@@ -15059,7 +15071,7 @@ betterquesting.quest.Rg0l66VnRsKlUZ0VTO3ilA.desc=The §5§lSentient Overclocker�
 
 # Quest: Large Hadron Collider
 betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.name=§2§l§nLarge Hadron Collider
-betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.desc=In order to obtain more exotic particles than simple protons, neutrons, and electrons, you will need the Large Hadron Collider. You can use any charged particle as input, sourced from any other beam-like multiblock such as the Source Chamber.%n%nThe LHC's four modules can each produce a different set of particles. For a specific particle to start appearing in the outputs, the §bCollision Energy§r must be greater than the particle's §dRest Mass§r, shown on its tooltip in NEI.%n%nThe LHC has two modes: §lAccelerator§r and §lCollider§r. %n%nFirst, in §lAccelerator§r mode, it accelerates the input beam to a higher energy. It does this in 1-second cycles, with the beam energy increasing once per cycle by a fixed amount based on how much EU is consumed that cycle. The power draw increases quadratically as the §9Number of Completed Cycles§r increases, and linearly if the §cAmount§r increases. %n%nYou can set a target §6Beam Energy§r and a maximum §9Number of Cycles§r in the UI. If your beam reaches the target §6Beam Energy§r before reaching the maximum cycle count, further completed cycles will repeatedly multiply the beam's current §cAmount§r by 1.1, which also increases your power draw. Once the maximum §9Number of Cycles§r is reached, the LHC automatically switches to §lCollider§r mode.%n%n%nIn §lCollider§r mode, the beam is collided with itself to generate all kinds of particles. Each LHC Module is able to detect and capture a certain subset of particles, depending on which Fundamental Force the particle can interact with. This also means some particles appear in multiple modules. You can blacklist particles from appearing by using the Filtered Beamline Output Hatch.%n%n§l[note]§lThe §b§lCollision Energy§r §lis §l2x§l§ the accelerated §6§lBeam Energy§r.[/note]
+betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.desc=In order to obtain more exotic particles than simple protons, neutrons, and electrons, you will need the Large Hadron Collider. You can use any charged particle as input, sourced from any other beam-like multiblock such as the Source Chamber.%n%nThe LHC's four modules can each produce a different set of particles. For a specific particle to start appearing in the outputs, the §bCollision Energy§r must be greater than the particle's §dRest Mass§r, shown on its tooltip in NEI.%n%nThe LHC has two modes: §lAccelerator§r and §lCollider§r. %n%nFirst, in §lAccelerator§r mode, it accelerates the input beam to a higher energy. It does this in 1-second cycles, with the beam energy increasing once per cycle by a fixed amount based on how much EU is consumed that cycle. The power draw increases quadratically as the §9Number of Completed Cycles§r increases, and linearly if the §cAmount§r increases. %n%nYou can set a target §6Beam Energy§r and a maximum §9Number of Cycles§r in the UI. If your beam reaches the target §6Beam Energy§r before reaching the maximum cycle count, further completed cycles will repeatedly multiply the beam's current §cAmount§r by 1.1, which also increases your power draw. Once the maximum §9Number of Cycles§r is reached, the LHC automatically switches to §lCollider§r mode.%n%n%nIn §lCollider§r mode, the beam is collided with itself to generate all kinds of particles. Each LHC Module is able to detect and capture a certain subset of particles, depending on which Fundamental Force the particle can interact with. This also means some particles appear in multiple modules. You can blacklist particles from appearing by using the Filtered Beamline Output Hatch.%n%n§l[note]§lThe §b§lCollision Energy§r §lis §l2x§l§  the accelerated §6§lBeam Energy§r.[/note]
 
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§c§lSteel Chest?
@@ -15443,6 +15455,10 @@ betterquesting.quest.v-EF1CLsQt-AlNOHrXUP6w.desc=No Description
 # Quest: Trigger: CN3H7O3 (Purple) Rocket Fuel Skip
 betterquesting.quest.vP1W1MPQTOa4kzbCpQJzOQ.name=Trigger: CN3H7O3 (Purple) Rocket Fuel Skip
 betterquesting.quest.vP1W1MPQTOa4kzbCpQJzOQ.desc=No Description
+
+# Quest: Ice Cream Trophy
+betterquesting.quest.vqM7dr7aT2OPNlwsar3VMA.name=Ice Cream Trophy
+betterquesting.quest.vqM7dr7aT2OPNlwsar3VMA.desc=Ice Cream Trophy
 
 # Quest: Trigger: Oblivion Frame
 betterquesting.quest.xV1gLYpLSoaTs-Fg-3jmdw.name=Trigger: Oblivion Frame
