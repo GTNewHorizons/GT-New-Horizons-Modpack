@@ -1,0 +1,11 @@
+{
+  "id": "stargate_2.7",
+  "condition": {
+    "type": "achievement",
+    "id": "stargate_2.7"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "dreamcraft:HeavenlyGatePlate"
+  }
+}
