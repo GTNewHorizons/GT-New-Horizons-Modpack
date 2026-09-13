@@ -147,9 +147,9 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 0,
+          "Damage:2": 32341,
           "OreDict:8": "",
-          "id:8": "IC2:itemPartAlloy"
+          "id:8": "gregtech:gt.metaitem.03"
         },
         "3:10": {
           "Count:3": 2,

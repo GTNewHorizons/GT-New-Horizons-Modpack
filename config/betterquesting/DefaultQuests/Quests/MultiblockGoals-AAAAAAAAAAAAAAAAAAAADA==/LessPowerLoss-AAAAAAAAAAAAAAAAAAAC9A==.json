@@ -73,9 +73,9 @@
         },
         "1:10": {
           "Count:3": 9,
-          "Damage:2": 0,
+          "Damage:2": 32343,
           "OreDict:8": "",
-          "id:8": "IC2:itemPartCarbonMesh"
+          "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
           "Count:3": 4,
@@ -120,9 +120,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 0,
+          "Damage:2": 32343,
           "OreDict:8": "",
-          "id:8": "IC2:itemPartCarbonMesh"
+          "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
           "Count:3": 9,

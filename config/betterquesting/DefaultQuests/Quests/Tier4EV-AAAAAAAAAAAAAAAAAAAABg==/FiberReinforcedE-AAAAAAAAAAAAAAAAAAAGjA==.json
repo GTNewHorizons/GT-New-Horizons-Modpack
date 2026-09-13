@@ -138,9 +138,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 15,
-          "Damage:2": 0,
+          "Damage:2": 32342,
           "OreDict:8": "",
-          "id:8": "IC2:itemPartCarbonFibre"
+          "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
           "Count:3": 15,

@@ -464,7 +464,7 @@
         <Loot Identifier="73bfd6de-0e57-4abf-a474-369eae6fce45" ItemName="gregtech:gt.metaitem.01:32711" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="1acaf3da-fbce-4bfe-ae6d-bb88dfc4653c" ItemName="gregtech:gt.metaitem.01:32715" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="091a0a7f-6ad2-4864-bde2-1afafff9ef2c" ItemName="IC2:itemPartCircuitAdv" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="5ea54379-369b-4b27-828d-433453193f60" ItemName="IC2:itemPartCarbonPlate" Amount="8" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5ea54379-369b-4b27-828d-433453193f60" ItemName="gregtech:gt.metaitem.03:32344" Amount="8" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="4becd113-597a-49c4-b4e0-7d8cd9b3754d" ItemName="IC2:itemDust2:2" Amount="9" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9eacbbea-0fe6-4e22-a952-6090bf03044a" ItemName="dreamcraft:CarbonPartBoots" Amount="1" NBTTag="" Chance="10" ItemGroup="carbonarmor" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="908a3de8-3f67-423c-8cb0-642f28f00f64" ItemName="dreamcraft:CarbonPartChestplate" Amount="1" NBTTag="" Chance="10" ItemGroup="carbonarmor" LimitedDropCount="0" RandomAmount="false"/>
