@@ -1,12 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2616
+      "questIDHigh:4": 4673371915106402541,
+      "questIDLow:4": -6848797731239430532
     },
     "1:10": {
-      "questIDHigh:4": -4235320931467572647,
-      "questIDLow:4": -7957341863368182993
+      "questIDHigh:4": -855892024644843576,
+      "questIDLow:4": -8376729936404801255
     }
   },
   "properties:10": {
@@ -21,19 +21,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "All your theoretical knowledge tells you this can\u0027t possibly exist. But there it is. Maybe you can find some use for it?\n\n[warn]You will need a Beam Crafter for this if you haven\u0027t made one yet.[/warn]",
-      "globalShare:1": 1,
+      "desc:8": "Cooper\u0027s Mallet is a very handy tool for upgrading chests \u0026 barrels without needing to empty them.\n\nRight click a chest or a barrel with the mallet while having a replacement chest or barrel either in your offhand or in an adjacent slot to swap the two. This item can swap between chests and barrels of the same tier or higher- it cannot go lower.\n\n[note]This will only work using Vanilla chests, Iron Chests chests, and EFR barrels.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32105,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "miscutils:MU-metaitem.01"
+        "id:8": "etfuturum:coopers_mallet"
       },
-      "isGlobal:1": 0,
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§4§l§nQuantum Anomaly",
+      "name:8": "Cooper\u0027s Mallet",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -49,7 +48,6 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
-      "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -60,8 +58,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 458,
+  "questIDHigh:4": -9110421702041321083,
+  "questIDLow:4": -7044589630669700764,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -75,9 +73,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32105,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:MU-metaitem.01"
+          "id:8": "etfuturum:coopers_mallet"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -2,7 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 213
+      "questIDLow:4": 65
+    },
+    "1:10": {
+      "questIDHigh:4": 6327679129227052174,
+      "questIDLow:4": -7973202373084553817
     }
   },
   "properties:10": {
@@ -17,19 +21,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "An IV mixer is required for example to mix HSS-S dust or to make IV superconductors.\n\nYou can also check out the Mass Processing tab and make a multiblock mixer out of this one.",
-      "globalShare:1": 1,
+      "desc:8": "The Steel barrel also has 72 slots.",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 585,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "etfuturum:steel_barrel"
       },
-      "isGlobal:1": 0,
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lIV Mixer",
+      "name:8": "§c§lSteel Barrel",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -45,7 +48,6 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
-      "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -56,32 +58,20 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1410,
+  "questIDHigh:4": -2622069172186757009,
+  "questIDLow:4": -8752523978928826755,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 8,
-          "Damage:2": 11316,
+          "Count:3": 16,
+          "Damage:2": 17305,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 8,
-          "Damage:2": 11047,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "2:10": {
-          "Count:3": 8,
-          "Damage:2": 11037,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "3:10": {
           "Count:3": 1,
-          "Damage:2": 8,
+          "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -96,10 +86,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -112,19 +102,13 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 1,
+      "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 585,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 15566,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "etfuturum:steel_barrel"
         }
       },
       "taskID:8": "bq_standard:retrieval"

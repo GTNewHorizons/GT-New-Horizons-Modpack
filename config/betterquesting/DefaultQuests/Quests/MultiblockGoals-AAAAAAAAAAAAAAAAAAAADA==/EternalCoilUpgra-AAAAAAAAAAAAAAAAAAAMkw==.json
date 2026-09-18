@@ -2,7 +2,15 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 3231
+      "questIDLow:4": 3218
+    },
+    "1:10": {
+      "questIDHigh:4": -6083888391161033107,
+      "questIDLow:4": -6861911456329097050
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2588
     }
   },
   "properties:10": {
@@ -17,21 +25,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "A passive mana generating flower that can produce a never-ending torrent of mana.",
+      "desc:8": "Beyond spacetime, beyond reality. You have peered into what never existed and brought into a fluid, and then a solid. It has been stabilized, against all odds. When you look at it, you think that you could hold the entire universe in your hand.\n\nIn the past, you were able to combine almost all materials into one, through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous, which would have stopped your progress altogether if not for the discovery of the Energized Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension, and that is what the Tesseract is: a 4-dimensional cube.\n\nCubes! Almost everything around you is made out of cubes. You have only glimpsed at the reality of the 4-dimensional world, but you have successfully used it to condensate spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multi-dimensional material.\n\nCurrently, the final upgrade with 13501K. This really makes your DTPF shine!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 13,
         "OreDict:8": "",
-        "id:8": "Botania:specialFlower",
-        "tag:10": {
-          "type:8": "asgardandelion"
-        }
+        "id:8": "gregtech:gt.blockcasings5"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Asgardandelion",
+      "name:8": "§9§l§nEternal Coil Upgrade",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -57,47 +62,24 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 3724622962283661540,
-  "questIDLow:4": -7392996829794634546,
-  "rewards:9": {
-    "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "Botania:tinyPotato"
-        },
-        "1:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:CoinFlowerIV"
-        }
-      }
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3219,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
+          "Count:3": 16,
+          "Damage:2": 13,
           "OreDict:8": "",
-          "id:8": "Botania:specialFlower",
-          "tag:10": {
-            "type:8": "asgardandelion"
-          }
+          "id:8": "gregtech:gt.blockcasings5"
         }
       },
       "taskID:8": "bq_standard:retrieval"

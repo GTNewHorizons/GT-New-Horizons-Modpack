@@ -86,28 +86,14 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinTechnicianII"
-        }
-      }
-    },
-    "2:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 2,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinDarkWizardII"
-        }
-      }
-    },
-    "3:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 3,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
+        },
+        "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",

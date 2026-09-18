@@ -2,12 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 65
+      "questIDLow:4": 2595
     },
     "1:10": {
-      "questIDHigh:4": 6327679129227052174,
-      "questIDLow:4": -7973202373084553817,
-      "type:1": 1
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3231
     }
   },
   "properties:10": {
@@ -22,18 +21,21 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The Steel barrel also has 72 slots.",
+      "desc:8": "A passive mana generating flower that can produce a never-ending torrent of mana.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "etfuturum:steel_barrel"
+        "id:8": "Botania:specialFlower",
+        "tag:10": {
+          "type:8": "asgardandelion"
+        }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lSteel Barrel",
+      "name:8": "§4§l§nAsgardandelion",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -59,38 +61,25 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -2622069172186757009,
-  "questIDLow:4": -8752523978928826755,
+  "questIDHigh:4": 3724622962283661540,
+  "questIDLow:4": -7392996829794634546,
   "rewards:9": {
     "0:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 16,
-          "Damage:2": 17305,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      },
       "ignoreDisabled:1": 0,
       "index:3": 0,
-      "rewardID:8": "bq_standard:choice"
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 10,
+          "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "Botania:tinyPotato"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinFlowerIV"
         }
       }
     }
@@ -100,7 +89,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
@@ -109,7 +98,10 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "etfuturum:steel_barrel"
+          "id:8": "Botania:specialFlower",
+          "tag:10": {
+            "type:8": "asgardandelion"
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
