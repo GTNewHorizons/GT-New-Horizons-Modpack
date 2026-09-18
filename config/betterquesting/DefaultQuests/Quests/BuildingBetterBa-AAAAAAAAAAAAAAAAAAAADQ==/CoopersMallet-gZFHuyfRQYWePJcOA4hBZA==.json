@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Cooper\u0027s Mallet is a very handy tool for upgrading chests \u0026 barrels without needing to empty them.\n\nRight click a chest or a barrel with the mallet while having a replacement chest or barrel either in your offhand or in an adjacent slot to swap the two. This item can swap between chests and barrels of the same tier or higher- it cannot go lower.\n\n[note]This will only work using Vanilla chests, Iron Chests chests, and EFR barrels.[/note]",
+      "desc:8": "Cooper\u0027s Mallet is a very handy tool for upgrading chests and barrels without needing to empty them.\n\nRight click a chest or barrel with the mallet while holding a replacement chest or barrel in your offhand or in a hotbar slot adjacent to the mallet. The replacement must have at least as much capacity as the original container.\n\n[note]This works only with vanilla chests, chests from the Iron Chests mod, and EFR barrels.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
