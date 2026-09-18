@@ -21,7 +21,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 12738,
+        "Damage:2": 15516,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -69,29 +69,23 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 12738,
+          "Damage:2": 15516,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "Count:3": 2000,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "2:10": {
           "Count:3": 1,
           "Damage:2": 15102,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "3:10": {
+        "2:10": {
           "Count:3": 11,
           "Damage:2": 67,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "4:10": {
+        "3:10": {
           "Count:3": 11,
           "Damage:2": 122,
           "OreDict:8": "",

@@ -2,11 +2,15 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2616
+      "questIDLow:4": 3218
     },
     "1:10": {
-      "questIDHigh:4": -4235320931467572647,
-      "questIDLow:4": -7957341863368182993
+      "questIDHigh:4": -6083888391161033107,
+      "questIDLow:4": -6861911456329097050
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2588
     }
   },
   "properties:10": {
@@ -21,19 +25,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "All your theoretical knowledge tells you this can\u0027t possibly exist. But there it is. Maybe you can find some use for it?\n\n[warn]You will need a Beam Crafter for this if you haven\u0027t made one yet.[/warn]",
-      "globalShare:1": 1,
+      "desc:8": "Beyond spacetime, beyond reality. You have peered into what never existed and brought it first into a fluid, then into a solid. It has been stabilized against all odds. When you look at it, you feel as though you could hold the entire universe in your hand.\n\nIn the past, you were able to combine almost all materials into one through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous and would have stopped your progress altogether if not for the discovery of the Energised Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension. That is what the Tesseract is: a 4-dimensional cube.\n\nCubes! Almost everything around you is made of cubes. You have only glimpsed the reality of the 4-dimensional world, but you have successfully used it to condense spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multidimensional material.\n\nThe Eternal Coil is currently the final upgrade, reaching 13,501 K. This really makes your DTPF shine!",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32105,
+        "Damage:2": 13,
         "OreDict:8": "",
-        "id:8": "miscutils:MU-metaitem.01"
+        "id:8": "gregtech:gt.blockcasings5"
       },
-      "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§4§l§nQuantum Anomaly",
+      "name:8": "§9§l§nEternal Coil Upgrade",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -49,7 +52,6 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
-      "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -61,7 +63,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 458,
+  "questIDLow:4": 3219,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -74,10 +76,10 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 32105,
+          "Count:3": 16,
+          "Damage:2": 13,
           "OreDict:8": "",
-          "id:8": "miscutils:MU-metaitem.01"
+          "id:8": "gregtech:gt.blockcasings5"
         }
       },
       "taskID:8": "bq_standard:retrieval"
