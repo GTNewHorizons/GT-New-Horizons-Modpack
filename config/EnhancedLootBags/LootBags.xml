@@ -83,7 +83,7 @@
         <Loot Identifier="1ce78971-c458-4ba3-901a-c0cbcfbd9f36" ItemName="minecraft:dye:15" Amount="8" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b3ed2473-8686-4b9d-975c-2d504ae3ace2" ItemName="TConstruct:materials:8" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="bc8c87d6-0116-4e95-a93b-1762013f83fb" ItemName="Natura:florasapling:1" Amount="1" NBTTag="" Chance="12" ItemGroup="saplings_natura" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="9860c060-6f78-4eeb-81c7-91bcedc73f86" ItemName="IC2:blockRubSapling" Amount="1" NBTTag="" Chance="12" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9860c060-6f78-4eeb-81c7-91bcedc73f86" ItemName="gregtech:gt.block_rubber_sapling" Amount="1" NBTTag="" Chance="12" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="bdcf48c0-0a4a-4d5c-80f8-5d3005f1bcaf" ItemName="Ztones:tile.iszmBlock" Amount="32" NBTTag="" Chance="6" ItemGroup="ztonebuilding" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="6a20c9f3-b406-42d0-ae15-251848ad454a" ItemName="Ztones:tile.fortBlock" Amount="32" NBTTag="" Chance="6" ItemGroup="ztonebuilding" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="5a68859e-f94d-481f-83d0-440772174e5d" ItemName="minecraft:obsidian" Amount="10" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -177,7 +177,7 @@
     </LootGroup>
     <LootGroup GroupMetaID="2" GroupName="dreamcraft.lootbag.group.steam_age" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true" TrashGroup="1" LootbagIcon="enhancedlootbags:steam_age">
         <Loot Identifier="0af8494c-84ee-4da2-9183-caac33026400" ItemName="gregtech:gt.blockmachines:1" Amount="1" NBTTag="" Chance="50" LimitedDropCount="8" RandomAmount="false"/>
-        <Loot Identifier="d408b251-f7ed-4826-af9a-faf46216b6a6" ItemName="IC2:itemHarz" Amount="16" NBTTag="" Chance="60" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="d408b251-f7ed-4826-af9a-faf46216b6a6" ItemName="gregtech:gt.item_sticky_resin" Amount="16" NBTTag="" Chance="60" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="df4b97a8-7f10-4f30-8ece-c833d5ac3fb4" ItemName="gregtech:gt.blockores2:817" Amount="16" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="7bbfd16f-ee63-4d00-a036-b6f53ec0db10" ItemName="gregtech:gt.blockores2:57" Amount="16" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="43f85d9c-678e-4fbf-bdc1-3904a1c21a83" ItemName="gregtech:gt.blockores2:32" Amount="16" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
