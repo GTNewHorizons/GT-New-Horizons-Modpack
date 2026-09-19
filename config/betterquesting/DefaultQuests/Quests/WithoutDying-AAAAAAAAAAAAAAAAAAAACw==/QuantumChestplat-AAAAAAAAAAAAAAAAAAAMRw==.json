@@ -70,9 +70,9 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 0,
+          "Damage:2": 32345,
           "OreDict:8": "",
-          "id:8": "IC2:itemPartIridium"
+          "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
           "Count:3": 1,
