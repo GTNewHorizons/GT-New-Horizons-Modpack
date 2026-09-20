@@ -12,7 +12,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "If you\u0027re familiar with Botania, you will notice that the overworld is noticeably void of magical flowers and mushrooms. Such pretty expressions of magic sadly require you to have leveled up on your magical skills. For now you will have to make do with what the world has to offer.\n\nLook in deep caves in the Twilight Forest at low Y-levels for glimmering mushrooms. These are your starting ingredient and can be used instead of flower petals. Beware, unlike flowers you can\u0027t grow more just yet, so be careful what you use them for.\n\nIf you have developed witchery or found a way to draconium, use floral fertilizer to skip the task.",
+      "desc:8": "If you\u0027re familiar with Botania, you will notice that the overworld is noticeably void of magical flowers and mushrooms. Such pretty expressions of magic sadly require you to have leveled up on your magical skills. For now you will have to make do with what the world has to offer.\n\nLook in deep caves in the Twilight Forest at low Y-levels for glimmering mushrooms. These are your starting ingredient and can be used instead of flower petals. Beware, unlike flowers you can\u0027t grow more just yet, so be careful what you use them for.\n\n[note]If you have developed witchery or found a way to draconium, grow some real mystical flowers with floral fertilizers. This task needs white ones sinces they can be used later for Pure Daisy.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -111,7 +111,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Botania:fertilizer"
+          "id:8": "Botania:flower"
         }
       },
       "taskID:8": "bq_standard:retrieval"
