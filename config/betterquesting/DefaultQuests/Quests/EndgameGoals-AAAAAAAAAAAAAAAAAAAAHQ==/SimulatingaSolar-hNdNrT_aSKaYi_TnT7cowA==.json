@@ -172,15 +172,15 @@
         },
         "14:10": {
           "Count:3": 12,
-          "Damage:2": 4586,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:BlackDwarfMatter:nanite"
         },
         "15:10": {
           "Count:3": 8,
-          "Damage:2": 4139,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Universium:nanite"
         },
         "16:10": {
           "Count:3": 12,
