@@ -2,6 +2,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 2595
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 3231
     }
   },
@@ -31,7 +35,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Asgardandelion",
+      "name:8": "§4§l§nAsgardandelion",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,

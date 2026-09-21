@@ -1,13 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 65
+      "questIDHigh:4": 4673371915106402541,
+      "questIDLow:4": -6848797731239430532
     },
     "1:10": {
-      "questIDHigh:4": 6327679129227052174,
-      "questIDLow:4": -7973202373084553817,
-      "type:1": 1
+      "questIDHigh:4": -855892024644843576,
+      "questIDLow:4": -8376729936404801255
     }
   },
   "properties:10": {
@@ -22,18 +21,18 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The Steel barrel also has 72 slots.",
+      "desc:8": "Cooper\u0027s Mallet is a very handy tool for upgrading chests and barrels without needing to empty them.\n\nRight click a chest or barrel with the mallet while holding a replacement chest or barrel in your offhand or in a hotbar slot adjacent to the mallet. The replacement must have at least as much capacity as the original container.\n\n[note]This works only with vanilla chests, chests from the Iron Chests mod, and EFR barrels.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "etfuturum:steel_barrel"
+        "id:8": "etfuturum:coopers_mallet"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lSteel Barrel",
+      "name:8": "Cooper\u0027s Mallet",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -59,42 +58,9 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -2622069172186757009,
-  "questIDLow:4": -8752523978928826755,
-  "rewards:9": {
-    "0:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 16,
-          "Damage:2": 17305,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      },
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:choice"
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
-        }
-      }
-    }
-  },
+  "questIDHigh:4": -9110421702041321083,
+  "questIDLow:4": -7044589630669700764,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -109,7 +75,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "etfuturum:steel_barrel"
+          "id:8": "etfuturum:coopers_mallet"
         }
       },
       "taskID:8": "bq_standard:retrieval"
