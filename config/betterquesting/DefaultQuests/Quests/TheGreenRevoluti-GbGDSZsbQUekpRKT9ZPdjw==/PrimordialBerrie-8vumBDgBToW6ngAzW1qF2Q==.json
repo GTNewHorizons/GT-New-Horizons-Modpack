@@ -1,25 +1,10 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -8750494836126169572,
-      "questIDLow:4": -7739393154643532398,
-      "type:1": 2
-    },
-    "1:10": {
-      "questIDHigh:4": 5325923841969573848,
-      "questIDLow:4": -6640373965889455709,
-      "type:1": 2
-    },
-    "2:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 284
     },
-    "3:10": {
-      "questIDHigh:4": -7041606314816813953,
-      "questIDLow:4": -4988597485722821620,
-      "type:1": 2
-    },
-    "4:10": {
+    "1:10": {
       "questIDHigh:4": 6981140034253507097,
       "questIDLow:4": -7574096466507254892
     }
@@ -36,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "These bad boys are the most advanced species you can imagine. They will require extensive technological investment to breed, and take extremely long to produce their harvest.\n\nThey will require an Industrial Farm to grow.\n\n[warn]Water, fertilizer and sky access alone won\u0027t cut it for this crop, you\u0027ll need at least 1 biome tag or a high humidity biome or else your crop will get sick.[/warn]",
+      "desc:8": "These bad boys are the most advanced species you can imagine. Improving its stats requires extensive technological investments, and they take extremely long to produce their harvest.\n\n[note]Since the primordial berry cannot be bred from other crops, you\u0027ll need to use a primordial pearl as a seed to get your first seedling.[/note]\n\n[warn]Water, fertilizer and sky access alone won\u0027t cut it for this crop, you\u0027ll need at least 1 biome tag or a high humidity biome or else your crop will get sick.[/warn]\n\n[warn]This crop cannot spread or breed with other crops, so if you want to stat it up, you\u0027ll need to use a Crop Gene Extractor and a Crop Synthesizer.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
