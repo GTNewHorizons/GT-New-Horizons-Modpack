@@ -5048,7 +5048,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAw.desc=Since honey contains a lot of s
 
 # Quest: Wasps honey
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBA.name=Wasps honey
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBA.desc=Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!%n%n[note]Just having the fluid in cells or buckets in your inventory lets the quest detect it.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBA.desc=Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!%n%nThe giant hives hang from the Nether ceiling. Only about half of them contain honey, which pools in the lower half of the hive underneath a layer of honey blocks. If you break into an empty one, keep looking for another hive.%n%n[note]Just having the fluid in cells or buckets in your inventory lets the quest detect it.[/note]
 
 # Quest: Really OP Food
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyw.name=Really OP Food
