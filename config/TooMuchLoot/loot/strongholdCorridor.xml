@@ -51,7 +51,7 @@
     <loot item="openmodularturrets:leverBlock" damage="0" weight="15" count_min="1" count_max="1"/>
     <loot item="Thaumcraft:ItemLootBag" damage="0" weight="4" count_min="1" count_max="3"/>
     <loot item="Thaumcraft:ItemResource" damage="2" weight="4" count_min="1" count_max="3"/>
-    <loot item="Thaumcraft:ItemResource" damage="6" weight="4" count_min="1" count_max="3"/>
+    <loot item="ml:Amber:gem" damage="0" weight="4" count_min="1" count_max="3"/>
     <loot item="Thaumcraft:ItemLootBag" damage="1" weight="3" count_min="1" count_max="2"/>
     <loot item="Thaumcraft:ItemBaubleBlanks" damage="0" weight="3" count_min="1" count_max="2"/>
     <loot item="Thaumcraft:ItemBaubleBlanks" damage="1" weight="3" count_min="1" count_max="2"/>
