@@ -8695,6 +8695,50 @@
 		},
 		{
 			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 7618052970877108735,
+				"tradeGroupIDLow:4": -9132218913478035191
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 44
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 2,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 1,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 2,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
 			"cooldown:3": 300,
 			"id:10": {
 				"tradeGroupIDHigh:4": 7961956447783177634,
