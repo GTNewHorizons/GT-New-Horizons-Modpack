@@ -57,6 +57,45 @@ Entries in this file take precedence over the values in the core file
   <preference oreDictionary="dustObsidian" >
     <itemStack modID="ml" itemName="Obsidian:dust" />
   </preference>
+  <preference oreDictionary="dustStone" >
+    <itemStack modID="ml" itemName="Stone:dust" />
+  </preference>
+  <preference oreDictionary="crushedIron" >
+    <itemStack modID="ml" itemName="Iron:crushed" />
+  </preference>
+  <preference oreDictionary="crushedGold" >
+    <itemStack modID="ml" itemName="Gold:crushed" />
+  </preference>
+  <preference oreDictionary="crushedCopper" >
+    <itemStack modID="ml" itemName="Copper:crushed" />
+  </preference>
+  <preference oreDictionary="crushedTin" >
+    <itemStack modID="ml" itemName="Tin:crushed" />
+  </preference>
+  <preference oreDictionary="crushedSilver" >
+    <itemStack modID="ml" itemName="Silver:crushed" />
+  </preference>
+  <preference oreDictionary="crushedLead" >
+    <itemStack modID="ml" itemName="Lead:crushed" />
+  </preference>
+  <preference oreDictionary="crushedUranium" >
+    <itemStack modID="ml" itemName="Uranium:crushed" />
+  </preference>
+  <preference oreDictionary="gemRuby" >
+    <itemStack modID="ml" itemName="Ruby:gem" />
+  </preference>
+  <preference oreDictionary="gemSapphire" >
+    <itemStack modID="ml" itemName="Sapphire:gem" />
+  </preference>
+  <preference oreDictionary="gemTopaz" >
+    <itemStack modID="ml" itemName="Topaz:gem" />
+  </preference>
+  <preference oreDictionary="gemTanzanite" >
+    <itemStack modID="ml" itemName="Tanzanite:gem" />
+  </preference>
+  <preference oreDictionary="gemAmber" >
+    <itemStack modID="ml" itemName="Amber:gem" />
+  </preference>
 
 
 </OreDictionaryPreferences>
