@@ -1894,7 +1894,7 @@
         <Loot Identifier="0cfd6add-0cc0-433a-aa8b-81f4cc6a948a" ItemName="cropsnh:fertilizer" Amount="64" NBTTag="" Chance="300" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="490994f6-ef2a-4070-b49b-84d45462ffbb" ItemName="cropsnh:plantCure" Amount="1" NBTTag="" Chance="300" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="e08e4b8d-a34b-47ea-b597-8a06b42c8d1e" ItemName="cropsnh:weedEX" Amount="1" NBTTag="" Chance="300" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
-        <Loot Identifier="cb04848a-6c2d-4ee5-86d7-e460c8dcddbd" ItemName="RandomThings:fertilizedDirt_tilled" Amount="8" NBTTag="" Chance="180" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cb04848a-6c2d-4ee5-86d7-e460c8dcddbd" ItemName="RandomThings:fertilizedDirt" Amount="8" NBTTag="" Chance="180" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="eadd48cd-306f-462e-aa58-99d046471bc4" ItemName="TConstruct:materials:26" Amount="1" NBTTag="" Chance="180" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="3062e3e5-820e-473d-9e1c-9d8945fff3f9" ItemName="cropsnh:spade" Amount="1" NBTTag="" Chance="130" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="66be798f-c599-4db9-8624-ce9c349c0510" ItemName="ExtraUtilities:watering_can:1" Amount="1" NBTTag="" Chance="130" ItemGroup="" LimitedDropCount="3" RandomAmount="false"/>
