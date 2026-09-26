@@ -1,5 +1,14 @@
 {
-  "preRequisites:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 225
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 230
+    }
+  },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
@@ -39,7 +48,7 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -109,7 +118,7 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 32767,
           "OreDict:8": "",
           "id:8": "Botania:flower"
         }
