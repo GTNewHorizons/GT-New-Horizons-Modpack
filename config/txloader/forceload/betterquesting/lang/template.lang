@@ -596,10 +596,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8A.desc=Making rubber is now more compl
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.name=§c§lLit Way to Get Charred
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.desc=The "Charcoal Pile Igniter" is an alternative option for mass-producing charcoal. It does not consume any power or steam, but generates a lot of pollution. Follow the steps below to get it working.%n%n1. Build a brick floor no bigger than 11x11 in size.%n2. Place 1-5 layers of logs atop the brick floor. No air gaps allowed.%n3. Place the Charcoal Pile Igniter above the top-center log.%n4. Surround the remaining logs in dirt or grass.%n5. The Charcoal Pile Igniter immediately starts processing%n6. After some time, the logs are converted to brittle charcoal blocks.%n7. Break the blocks with an axe for the charcoal (Luck/Fortune has NO effect on the drop rates).%n%nIf this is your first multiblock, read the extended tooltip (hold shift) for construction requirements, or visit [url]https://wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter[/url] for more information and step-by-step images.
 
-# Quest: Basic > Steam Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.name=§c§lBasic > Steam Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=Trade three Basic lootbags to get a better one: Steam.%n%nAfter you've completed the Steam tab and head into LV you will unlock recipes to uptier your lootbags in the assembler, but for now here is a quest to do so! (Repeatable)
-
 # Quest: Tool Forge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.name=§c§lTool Forge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.desc=After getting obzinite, it's time to craft a tool forge for making bigger (and better) Tinkers tools.%n%n§3You do not have to use iron to create the forge; you can also use other materials like tin or copper, among others.
