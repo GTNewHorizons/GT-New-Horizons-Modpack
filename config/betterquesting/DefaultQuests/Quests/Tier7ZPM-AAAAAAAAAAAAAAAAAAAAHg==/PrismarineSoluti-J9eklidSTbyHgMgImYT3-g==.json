@@ -89,9 +89,9 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 15,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:HydrofluoricAcid_GT5U:cell"
         },
         "2:10": {
           "Count:3": 4,

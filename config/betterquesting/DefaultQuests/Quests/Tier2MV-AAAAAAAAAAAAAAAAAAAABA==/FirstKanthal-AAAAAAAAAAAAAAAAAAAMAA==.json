@@ -77,9 +77,9 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 9,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:Coolant:cell"
         },
         "2:10": {
           "Count:3": 1,

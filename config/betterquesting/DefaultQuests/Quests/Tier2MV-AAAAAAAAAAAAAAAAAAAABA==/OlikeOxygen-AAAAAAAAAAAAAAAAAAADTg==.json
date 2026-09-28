@@ -75,9 +75,9 @@
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:Water:cell"
         },
         "3:10": {
           "Count:3": 1,
