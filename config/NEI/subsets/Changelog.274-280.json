@@ -8780,8 +8780,8 @@
 {"Damage":"0S","strId":"Forestry:soil"}
 {"Damage":"0S","strId":"dreamcraft:LapotronDust"}
 {"Damage":"0S","strId":"gregtech:gt.glowstoneCell"}
-{"Damage":"0S","strId":"ml:HydrogenChlorideMix:cellMolten"}
-{"Damage":"0S","strId":"ml:SolarSaltCold:cellMolten"}
+{"Damage":"0S","strId":"ml:HydrogenChlorideMix:cell"}
+{"Damage":"0S","strId":"ml:SolarSaltCold:cell"}
 {"Damage":"0S","strId":"ml:Grisium:dust"}
 {"Damage":"0S","strId":"ml:MaragingSteel250:dust"}
 {"Damage":"0S","strId":"miscutils:itemDustTeflon"}
@@ -9100,8 +9100,8 @@
 {"Damage":"0S","strId":"ml:Phosphorus:dust"}
 {"gtFluidName":"molten.phosphorousuraniumhexafluoridepuf6"}
 ; gtpp.recipe.reactorprocessingunit
-{"Damage":"0S","strId":"ml:LithiumFluoride:cellMolten"}
-{"Damage":"0S","strId":"ml:PhosphorousUraniumHexafluoridePUF6:cellMolten"}
+{"Damage":"0S","strId":"ml:LithiumFluoride:cell"}
+{"Damage":"0S","strId":"ml:PhosphorousUraniumHexafluoridePUF6:cell"}
 ; gtpp.recipe.treefarm
 {"Damage":"0S","strId":"GalaxySpace:barnardaClog"}
 {"Damage":"0S","strId":"minecraft:brown_mushroom_block"}

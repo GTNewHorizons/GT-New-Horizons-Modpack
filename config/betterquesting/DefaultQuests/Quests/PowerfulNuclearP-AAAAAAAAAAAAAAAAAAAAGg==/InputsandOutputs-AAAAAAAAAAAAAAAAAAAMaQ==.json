@@ -71,19 +71,19 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:UraniumDepletedMoltenSaltUSalt:cellMolten"
+          "id:8": "ml:UraniumDepletedMoltenSaltUSalt:cell"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:ThoriumDepletedMoltenSaltTSalt:cellMolten"
+          "id:8": "ml:ThoriumDepletedMoltenSaltTSalt:cell"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:UraniumHexafluoride:cellMolten"
+          "id:8": "ml:UraniumHexafluoride:cell"
         },
         "3:10": {
           "Count:3": 1,
@@ -107,7 +107,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:UraniumDepletedMoltenSaltUSalt:cellMolten"
+          "id:8": "ml:UraniumDepletedMoltenSaltUSalt:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
