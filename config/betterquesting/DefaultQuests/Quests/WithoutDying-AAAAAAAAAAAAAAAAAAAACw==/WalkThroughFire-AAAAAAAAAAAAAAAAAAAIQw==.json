@@ -90,11 +90,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 53,
+          "Damage:2": 51,
           "OreDict:8": "",
           "id:8": "adventurebackpack:adventureBackpack",
           "tag:10": {
             "wearableData:10": {
+              "inventory:9": {},
               "type:1": 51
             }
           }

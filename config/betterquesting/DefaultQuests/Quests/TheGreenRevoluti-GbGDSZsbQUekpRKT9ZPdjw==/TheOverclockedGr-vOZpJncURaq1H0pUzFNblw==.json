@@ -91,11 +91,41 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.overclockedGrowthAccelerationUnit"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.overclockedGrowthAccelerationUnit"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.overclockedGrowthAccelerationUnit"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.overclockedGrowthAccelerationUnit"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.overclockedGrowthAccelerationUnit"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
           "OreDict:8": "",
           "id:8": "cropsnh:cropsnh.overclockedGrowthAccelerationUnit"
         }

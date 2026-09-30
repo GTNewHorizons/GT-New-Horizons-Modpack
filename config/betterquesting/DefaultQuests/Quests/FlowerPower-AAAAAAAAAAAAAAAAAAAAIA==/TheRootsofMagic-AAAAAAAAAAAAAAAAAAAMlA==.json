@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 225
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 230
     }
   },
   "properties:10": {
@@ -17,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "If you\u0027re familiar with Botania, you will notice that the overworld is noticeably void of magical flowers and mushrooms. Such pretty expressions of magic sadly require you to have leveled up on your magical skills. For now you will have to make do with what the world has to offer.\n\nLook in deep caves in the Twilight Forest at low Y-levels for glimmering mushrooms. These are your starting ingredient and can be used instead of flower petals. Beware, unlike flowers you can\u0027t grow more just yet, so be careful what you use them for.",
+      "desc:8": "If you\u0027re familiar with Botania, you will notice that the overworld is noticeably void of magical flowers and mushrooms. Such pretty expressions of magic sadly require you to have leveled up on your magical skills. For now you will have to make do with what the world has to offer.\n\nLook in deep caves in the Twilight Forest at low Y-levels for glimmering mushrooms. These are your starting ingredient and can be used instead of flower petals. Beware, unlike flowers you can\u0027t grow more just yet, so be careful what you use them for.\n\n[note]If you have developed witchery or found a way to draconium, grow some real mystical flowers with floral fertilizers. This task needs white ones sinces they can be used later for Pure Daisy.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -44,7 +48,7 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -104,13 +108,19 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "listMagicMushroom",
           "id:8": "Botania:mushroom"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "Botania:flower"
         }
       },
       "taskID:8": "bq_standard:retrieval"

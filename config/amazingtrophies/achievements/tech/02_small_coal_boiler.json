@@ -1,7 +1,7 @@
 {
   "id": "small_coal_boiler",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "gregtech:gt.blockmachines",
     "meta": 100
   },

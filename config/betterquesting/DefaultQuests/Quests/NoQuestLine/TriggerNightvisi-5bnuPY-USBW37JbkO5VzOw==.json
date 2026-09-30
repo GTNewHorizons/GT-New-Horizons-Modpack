@@ -68,12 +68,14 @@
     "0:10": {
       "ignoreDisabled:1": 1,
       "index:3": 0,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAADHA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "1:10": {
       "ignoreDisabled:1": 1,
       "index:3": 1,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAADHQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     }

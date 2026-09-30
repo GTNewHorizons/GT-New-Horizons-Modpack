@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": 6981140034253507097,
       "questIDLow:4": -7574096466507254892
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 479
     }
   },
   "properties:10": {
@@ -66,11 +70,24 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:gaiaWart",
+            "ga:1": 1,
+            "gr:1": 1,
+            "re:1": 1,
+            "scan:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
           "Damage:2": 51,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         },
-        "1:10": {
+        "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",

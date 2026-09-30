@@ -1,7 +1,7 @@
 {
   "id": "me_controller",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "appliedenergistics2:tile.BlockController"
   },
   "page": "GT New Horizons",

@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 563
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1927
     }
   },
   "properties:10": {
@@ -46,7 +50,7 @@
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": 1728000,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -82,28 +86,14 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinTechnicianII"
-        }
-      }
-    },
-    "2:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 2,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinDarkWizardII"
-        }
-      }
-    },
-    "3:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 3,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
+        },
+        "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",

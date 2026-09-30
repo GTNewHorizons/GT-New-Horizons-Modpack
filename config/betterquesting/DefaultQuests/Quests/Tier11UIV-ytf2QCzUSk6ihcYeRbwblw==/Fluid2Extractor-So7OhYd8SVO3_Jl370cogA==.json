@@ -1,0 +1,144 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2214821378463936942,
+      "questIDLow:4": -6770209432224401378
+    },
+    "1:10": {
+      "questIDHigh:4": 8242853802130687180,
+      "questIDLow:4": -7538478274087890802
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Welcome to the BEC Line! It\u0027s recommended you read the wiki for full context on these machines: [url]https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Line[/url]\n\nUntil now, manufacturing has been a matter of imposing order upon matter: heat it, compress it, shape it, and force its atoms into the arrangement you require. But the materials ahead of you have become too complex for such crude methods. No amount of mechanical precision can control every particle individually.\n\nAt temperatures approaching absolute zero, another possibility emerges. As a cloud of bosons loses its thermal motion, the quantum waves describing its particles spread and begin to overlap. Enough of them eventually occupy the same low energy state that the cloud ceases to behave like a collection of independent particles. Instead, it acts as a single coherent quantum system: a Bose-Einstein condensate.\n\nThe first step is using the §5§lEntanglement Apparatus§r to convert ordinary fluids into entangled condensate by brute-forcing this delicate state on an industrial scale. It cannot overclock; instead, it expands the experiment across unlimited parallels, processing as much material as the supplied power can sustain. Multi-amp and laser energy hatches will be necessary if you intend to feed the rest of the BEC Line at any meaningful rate.\n\nDifferent fluids may be entangled simultaneously, although the entire batch runs for the duration of the slowest active conversion.\n\n[note]Insert ordinary fluids through the input hatch at the front. Entangled condensate leaves through the BEC Hatch at the rear and is pushed into the connected Containment Field network.[/note]\n\n[note]The Apparatus does not check whether sufficient storage is available before processing. Use a BEC Detector Hatch to disable it before your Containment Fields overflow and begin voiding condensate.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15754,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§9§l§nFluid^2 Extractor",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5372458478398622035,
+  "questIDLow:4": -5189103930243078016,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15754,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 15476,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 236,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "1:10": {
+          "Count:3": 232,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "2:10": {
+          "Count:3": 216,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "3:10": {
+          "Count:3": 184,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "4:10": {
+          "Count:3": 156,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        },
+        "5:10": {
+          "Count:3": 148,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockglass1"
+        },
+        "6:10": {
+          "Count:3": 101,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.bec"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

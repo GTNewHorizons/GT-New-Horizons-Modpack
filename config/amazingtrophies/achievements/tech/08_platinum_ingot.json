@@ -1,7 +1,7 @@
 {
   "id": "platinum_ingot",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "ml:Platinum:ingot",
     "meta": 0
   },

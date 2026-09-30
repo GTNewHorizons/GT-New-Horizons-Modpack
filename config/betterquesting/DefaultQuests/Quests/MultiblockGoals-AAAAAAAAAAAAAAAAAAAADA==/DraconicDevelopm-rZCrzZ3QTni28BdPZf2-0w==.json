@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The Draconic Fusion Crafted has 5 tier of casings, each an upgrade of the previous tier.\n\nEach new tier of casings allows you to make better Cores, eventually ending at the Chaotic Core.\n\n[note]Recipe time is divided by number of tiers above recipe tier![/note]",
+      "desc:8": "The Draconic Fusion Crafted has 5 tier of casings, each an upgrade of the previous tier.\n\nEach new tier of casings allows you to make better Cores, eventually ending at the Chaotic Core.\n\n[note]Each casing tier above recipe tier grants one perfect (4/4) overclock![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 32,

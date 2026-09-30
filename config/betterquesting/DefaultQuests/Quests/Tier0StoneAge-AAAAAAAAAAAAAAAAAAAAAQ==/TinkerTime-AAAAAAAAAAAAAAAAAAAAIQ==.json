@@ -105,25 +105,25 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": "",
+          "OreDict:8": "tconstructPartBuilder",
           "id:8": "TConstruct:ToolStationBlock"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 10,
-          "OreDict:8": "",
+          "OreDict:8": "tconstructStencilTable",
           "id:8": "TConstruct:ToolStationBlock"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": "",
+          "OreDict:8": "tconstructToolStation",
           "id:8": "TConstruct:ToolStationBlock"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 5,
-          "OreDict:8": "",
+          "OreDict:8": "tconstructPatternChest",
           "id:8": "TConstruct:ToolStationBlock"
         }
       },

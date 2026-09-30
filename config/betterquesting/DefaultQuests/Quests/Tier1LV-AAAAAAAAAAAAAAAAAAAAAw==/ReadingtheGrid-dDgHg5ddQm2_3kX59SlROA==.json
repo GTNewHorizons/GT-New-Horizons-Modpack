@@ -1,0 +1,131 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 529
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 530
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "While the GT EU Meter can inspect one cable or machine at a time, troubleshooting a large power network that way quickly becomes rather tedious. If only there was a dedicated tool for that...\n\nThe Network Analyzer displays the entire connected EU network directly in the world, allowing you to follow power from generators to machines and identify dangerous sections before they become craters.\n\nRight-click a GT cable to bind the Analyzer to its network, then keep it in your hand to display the overlay. You can also use it on a multiblock controller to inspect the networks connected to all of its Energy and Dynamo Hatches.\n\nYou can shift-right-click to cycle through its five modes:\n- §9Topology§r displays the complete network and its worst case condition.\n- §cCritical§r displays only overloaded or otherwise dangerous sections.\n- §2Active§r displays cables that are currently carrying amperage.\n- §6Amperage§r compares the expected load with each cable’s capacity.\n- §5Voltage§r displays expected cable loss and warns about cables or machines receiving excessive voltage.\n\nOrange nodes are power sources, cyan nodes are consumers, and green nodes are forks in the network. Gray indicates an idle or unknown section, green is safe, yellow warns of significant voltage loss, and red indicates an overload, a cable that may burn, or a machine that may explode.\n\nLook directly at a node to see more detailed information about amperage, voltage loss, and any detected problems.\n\n[note]Amperage mode displays the potential load of the connected machines, while Active mode shows what is actually carrying power at that moment.[/note]\n\n[warn]Machines from other mods cannot always report their real amperage requirements. The Analyzer must estimate their consumption, so readings for IC2 machines, reactors, and other non-GT consumers may be inaccurate.[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.NetworkAnalyzer"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§2§lReading the Grid",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 8374451768857018989,
+  "questIDLow:4": -4621179227773251272,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32680,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32690,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnicianI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.NetworkAnalyzer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

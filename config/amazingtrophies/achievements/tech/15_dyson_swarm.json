@@ -1,7 +1,7 @@
 {
   "id": "dyson_swarm",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "gregtech:gt.blockmachines",
     "meta": 14001
   },

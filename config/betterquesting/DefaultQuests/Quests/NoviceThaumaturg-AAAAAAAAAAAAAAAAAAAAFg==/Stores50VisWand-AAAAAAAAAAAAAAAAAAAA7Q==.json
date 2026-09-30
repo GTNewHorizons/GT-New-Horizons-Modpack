@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "With gold caps you avoid the downsides of iron. So best to upgrade to a Gold Banded Greatwood Wand!\n\nYou could also consider making your Greatwood Wand with enchanted cloth caps instead. That gives you an extra 5% discount!\n\nWith this Greatwood Wand you are more powerful than ever!\n\n[note]You only need one of the tasks to complete the quest.[/note]",
+      "desc:8": "With gold caps you avoid the downsides of iron. So best to upgrade to a Gold Banded Greatwood Wand!\n\nYou could also consider making your Greatwood Wand with enchanted cloth caps instead. That gives you an extra 5% discount!\n\nWith this Greatwood Wand you are more powerful than ever!\n\n[note]You only need two caps of one listed type to complete the quest.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -62,7 +62,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -110,27 +110,15 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "Thaumcraft:WandCap"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 2,
           "Damage:2": 1,
           "OreDict:8": "",

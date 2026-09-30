@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Well this is a bad idea, but since when has that stopped you before, golems with brains, what could go wrong?\n\n§3You only need to complete one task.",
+      "desc:8": "Well this is a bad idea, but since when has that stopped you before, golems with brains, what could go wrong?\n\n§3You only need to make one of these golems.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -56,7 +56,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -142,7 +142,7 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -153,20 +153,8 @@
             "advanced:1": 1,
             "gadomancy:10": {}
           }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": "",
@@ -175,20 +163,8 @@
             "advanced:1": 1,
             "gadomancy:10": {}
           }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "2:10": {
           "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
@@ -197,20 +173,8 @@
             "advanced:1": 1,
             "gadomancy:10": {}
           }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 3,
           "OreDict:8": "",
@@ -219,20 +183,8 @@
             "advanced:1": 1,
             "gadomancy:10": {}
           }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "4:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 4,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "4:10": {
           "Count:3": 1,
           "Damage:2": 4,
           "OreDict:8": "",
@@ -241,20 +193,8 @@
             "advanced:1": 1,
             "gadomancy:10": {}
           }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "5:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 5,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 5,
           "OreDict:8": "",
@@ -263,20 +203,8 @@
             "advanced:1": 1,
             "gadomancy:10": {}
           }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "6:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 6,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "6:10": {
           "Count:3": 1,
           "Damage:2": 6,
           "OreDict:8": "",
@@ -285,20 +213,8 @@
             "advanced:1": 1,
             "gadomancy:10": {}
           }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "7:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 7,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "7:10": {
           "Count:3": 1,
           "Damage:2": 7,
           "OreDict:8": "",

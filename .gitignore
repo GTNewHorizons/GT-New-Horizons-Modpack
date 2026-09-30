@@ -14,6 +14,7 @@
 !resources/*
 !.github/*
 !journeymap/*
+!raw/*
 
 ##################################################################
 ##Blacklist all folders not modified by GT:NH team either at all

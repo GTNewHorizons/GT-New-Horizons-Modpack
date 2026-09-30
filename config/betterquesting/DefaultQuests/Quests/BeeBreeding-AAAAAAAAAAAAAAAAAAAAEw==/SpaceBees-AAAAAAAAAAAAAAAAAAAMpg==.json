@@ -3,6 +3,11 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2243
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2164,
+      "type:1": 1
     }
   },
   "properties:10": {
@@ -17,7 +22,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Breed an industrious with a heroic bee to obtain a space bee. You need the temperature to be icy for that.\n\nJust one small step for you, but a giant leap for beekind.\n\n[note]This is the starting point for many space related bees. Maybe check out NEI to see what you can aim for.[/note]",
+      "desc:8": "Breed an Industrious bee with a Heroic bee to obtain a Space bee. The temperature must be Icy.\n\nJust one small step for you, but a giant leap for beekind.\n\n[note]This is the starting point for many space-related bees. Check NEI to see what you can aim for.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

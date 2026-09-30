@@ -1,7 +1,7 @@
 {
   "id": "stargate",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "SGCraft:stargateBase"
   },
   "page": "GT New Horizons",

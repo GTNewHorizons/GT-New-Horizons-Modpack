@@ -1,7 +1,7 @@
 {
   "id": "infusion",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "Thaumcraft:blockStoneDevice",
     "meta": 2
   },

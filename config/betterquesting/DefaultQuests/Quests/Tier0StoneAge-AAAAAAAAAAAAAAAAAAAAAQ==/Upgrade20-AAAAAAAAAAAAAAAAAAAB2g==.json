@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Find iron, copper and tin ore. Very funny... How can you mine these with just a flint pickaxe?\n\nI have an idea; bring me some of the stone you mined with your flint pickaxe and I will give you a better tool head in exchange.\n\nRemember to level it up again either with monster heads or by mining.",
+      "desc:8": "Find iron, copper and tin ore. Very funny... How can you mine these with just a flint pickaxe?\n\nI have an idea; bring me some of the stone you mined with your flint pickaxe and I will give you a better tool head in exchange.\n\nRemember that you can level it up again either with monster heads or by mining.\n\n§3In the future, you can also level up the mining level on your tool by adding either a diamond or emerald to it in exchange for a modifier slot:\n- Diamonds will give +500 durability (on the first addition) and +1 mining level (Lvl 5 max)\n- Emeralds will give +50% durability (on the first addition) and +1 mining level (Lvl 4 max).§r\n[warn]Replacing the tool head will reset the mining level bonuses attained from these gems.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

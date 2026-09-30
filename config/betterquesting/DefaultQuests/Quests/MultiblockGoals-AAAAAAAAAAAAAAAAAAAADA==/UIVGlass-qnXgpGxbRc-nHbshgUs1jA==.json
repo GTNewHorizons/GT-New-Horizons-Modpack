@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The next tier of Borosilicate glass is Infinity (11).",
+      "desc:8": "The next tier of Borosilicate glass is Transcendent.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -28,7 +28,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lUIV Glass",
+      "name:8": "§9§l§nUIV Glass",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,

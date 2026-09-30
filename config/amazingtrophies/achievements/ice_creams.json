@@ -1,0 +1,15 @@
+{
+  "id": "ice_creams",
+  "condition": {
+    "type": "item.use.finish",
+    "item": "gregtech:gt.metaitem.02",
+    "meta": 32700
+  },
+  "page": "GT New Horizons",
+  "x": 5,
+  "y": 8,
+  "icon": {
+    "registryName": "gregtech:gt.metaitem.02",
+    "meta": 32700
+  }
+}

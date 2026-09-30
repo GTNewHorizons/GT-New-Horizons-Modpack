@@ -1,11 +1,15 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": -4905166588837212996,
+      "questIDLow:4": -5694412901591210156
+    },
+    "1:10": {
       "questIDHigh:4": -1110411240280604338,
       "questIDLow:4": -4677630017092864794,
       "type:1": 1
     },
-    "1:10": {
+    "2:10": {
       "questIDHigh:4": 2760534389945944436,
       "questIDLow:4": -8415680337631262256
     }
@@ -30,7 +34,7 @@
         "OreDict:8": "",
         "id:8": "gtnhintergalactic:gt.blockcasingsSEMotor"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§l§nSpace Modules Galore",

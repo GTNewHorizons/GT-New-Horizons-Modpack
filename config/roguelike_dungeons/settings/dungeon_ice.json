@@ -1,6 +1,6 @@
 {
 	"name": "dungeon_ice",
-  	"criteria": {"biomeTypes": ["SNOWY"]},
+  	"criteria": {"biomeTypes": ["SNOWY"], "biomes": ["Tundra"]},
   	"inherit": [
 		"loot_all",
 		"loot_ice",

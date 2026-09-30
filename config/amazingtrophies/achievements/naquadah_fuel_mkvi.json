@@ -1,7 +1,7 @@
 {
   "id": "naquadah_fuel_mkvi",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "ml:NaquadahBasedLiquidFuelMkVI:cell",
     "meta": 0
   },

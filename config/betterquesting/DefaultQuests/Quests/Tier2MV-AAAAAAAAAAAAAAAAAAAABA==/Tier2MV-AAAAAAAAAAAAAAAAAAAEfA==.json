@@ -15,17 +15,13 @@
     "3:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 717
-    },
-    "4:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 543
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
       "completion_animation:8": "default",
-      "completion_particle:8": "default",
+      "completion_particle:8": "confetti",
       "confetti_icon:10": {
         "Count:3": 0,
         "Damage:2": 0,

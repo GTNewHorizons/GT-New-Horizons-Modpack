@@ -1,6 +1,10 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 225
+    },
+    "1:10": {
       "questIDHigh:4": 1725195196562031028,
       "questIDLow:4": -8748016081769452107
     }
@@ -66,7 +70,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 51,
+          "Damage:2": 59,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         },

@@ -1,7 +1,7 @@
 {
   "id": "mana_pool",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "Botania:pool"
   },
   "page": "GT New Horizons",

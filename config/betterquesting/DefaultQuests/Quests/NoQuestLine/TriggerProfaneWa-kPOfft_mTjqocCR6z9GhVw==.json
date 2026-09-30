@@ -55,12 +55,14 @@
     "0:10": {
       "ignoreDisabled:1": 1,
       "index:3": 0,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAA5g\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "1:10": {
       "ignoreDisabled:1": 1,
       "index:3": 1,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAA7Q\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     }
@@ -77,13 +79,14 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 36,
+          "Damage:2": 12,
           "OreDict:8": "",
           "id:8": "Thaumcraft:WandCasting",
           "tag:10": {
             "aer:3": 5000,
             "aqua:3": 5000,
             "cap:8": "iron",
+            "contract:3": 25000,
             "ignis:3": 5000,
             "ordo:3": 5000,
             "perditio:3": 5000,

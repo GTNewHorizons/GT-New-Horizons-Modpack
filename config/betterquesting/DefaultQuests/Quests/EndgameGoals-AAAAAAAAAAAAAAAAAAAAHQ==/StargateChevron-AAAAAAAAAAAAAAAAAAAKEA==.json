@@ -1,6 +1,11 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 6599775058710970474,
+      "questIDLow:4": -8516845557300310927,
+      "type:1": 1
+    },
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2572
     }
@@ -64,6 +69,24 @@
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:StargateChevron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {

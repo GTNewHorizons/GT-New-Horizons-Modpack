@@ -86,6 +86,7 @@
     "2:10": {
       "ignoreDisabled:1": 1,
       "index:3": 2,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAAWg\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     }

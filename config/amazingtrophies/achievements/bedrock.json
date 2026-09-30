@@ -1,7 +1,7 @@
 {
   "id": "bedrock",
   "condition": {
-    "type": "item.pickup",
+    "type": "inventory.add",
     "item": "minecraft:bedrock"
   },
   "page": "GT New Horizons",

@@ -108,6 +108,16 @@
             "crop:8": "cropsnh:glowflower",
             "scan:1": 1
           }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:glowheat",
+            "scan:1": 1
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

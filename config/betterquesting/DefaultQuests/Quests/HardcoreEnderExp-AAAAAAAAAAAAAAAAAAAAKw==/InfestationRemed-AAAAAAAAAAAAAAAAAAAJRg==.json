@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Infestation Remedy is a drinkable item used to shorten effects of the Infestation.\n\nObtaining:\nThe Infestation Remedy is brewed in an Enhanced Brewing Stand, using Silverfish Blood as the brewing ingredient and an Awkward Potion.\n\nUsage:\nWhen drank, the remedy will shorten each of the Infestation effects by 150 to 180 seconds.\n\nYou can make splash potions with gunpowder and 3 more End Powder as well.",
+      "desc:8": "Infestation Remedy is a drinkable (or throwable) item used to shorten effects of the Infestation.\n\nObtaining:\nThe Infestation Remedy is brewed in an Enhanced Brewing Stand, using Silverfish Blood as the brewing ingredient and an Awkward Potion.\n\nUsage:\nWhen drunk, the remedy will shorten each of the Infestation effects by 150 to 180 seconds.\n\nYou can make splash potions with gunpowder and 3 more End Powder as well.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

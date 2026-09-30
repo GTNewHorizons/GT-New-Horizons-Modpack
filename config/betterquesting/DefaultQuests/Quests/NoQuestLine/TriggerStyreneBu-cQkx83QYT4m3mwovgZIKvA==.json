@@ -60,30 +60,35 @@
     "0:10": {
       "ignoreDisabled:1": 1,
       "index:3": 0,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGTw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "1:10": {
       "ignoreDisabled:1": 1,
       "index:3": 1,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGUQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "2:10": {
       "ignoreDisabled:1": 1,
       "index:3": 2,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGVA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "3:10": {
       "ignoreDisabled:1": 1,
       "index:3": 3,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGVg\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "4:10": {
       "ignoreDisabled:1": 1,
       "index:3": 4,
+      "isSilent:1": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAAGfA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     }

@@ -7,7 +7,7 @@
   "model": {
     "type": "complex",
     "keys": {
-      "A": "IC2:blockAlloyGlass",
+      "A": "gregtech:gt.blockglass1",
       "B": "gregtech:gt.blockcasings3",
       "C": "gregtech:gt.blockreinforced",
       "D": "gregtech:gt.blockmachines",
@@ -15,7 +15,7 @@
       "~": "gregtech:gt.blockmachines"
     },
     "metadata": {
-      "A": 0,
+      "A": 10,
       "B": 11,
       "C": 2,
       "D": 4127,

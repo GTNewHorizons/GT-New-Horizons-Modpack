@@ -95,7 +95,8 @@
           "id:8": "adventurebackpack:adventureBackpack",
           "tag:10": {
             "wearableData:10": {
-              "type:4": 22
+              "inventory:9": {},
+              "type:1": 22
             }
           }
         }
