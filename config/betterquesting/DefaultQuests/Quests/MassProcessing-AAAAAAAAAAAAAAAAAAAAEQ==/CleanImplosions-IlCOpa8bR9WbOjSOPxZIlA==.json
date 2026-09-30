@@ -107,9 +107,9 @@
         },
         "2:10": {
           "Count:3": 24,
-          "Damage:2": 2,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal5"
+          "id:8": "ml:Neutronium:block"
         },
         "3:10": {
           "Count:3": 22,

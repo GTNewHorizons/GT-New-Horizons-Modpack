@@ -116,9 +116,9 @@
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 829,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:DeepIron:ore_stone"
         },
         "3:10": {
           "Count:3": 192,

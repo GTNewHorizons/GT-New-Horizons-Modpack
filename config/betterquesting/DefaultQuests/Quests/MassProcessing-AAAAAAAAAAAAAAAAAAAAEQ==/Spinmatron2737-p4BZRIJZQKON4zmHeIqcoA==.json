@@ -172,9 +172,9 @@
         },
         "5:10": {
           "Count:3": 56,
-          "Damage:2": 13,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal4"
+          "id:8": "ml:NaquadahAlloy:block"
         },
         "6:10": {
           "Count:3": 54,
