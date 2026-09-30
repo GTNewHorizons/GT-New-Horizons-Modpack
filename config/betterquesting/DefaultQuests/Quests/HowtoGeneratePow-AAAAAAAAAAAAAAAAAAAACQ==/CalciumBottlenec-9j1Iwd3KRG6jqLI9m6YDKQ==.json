@@ -23,7 +23,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:Calcium:cellPlasma"
+        "id:8": "ml:Calcium:cellPlasmaLight"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -71,7 +71,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:Calcium:cellPlasma"
+          "id:8": "ml:Calcium:cellPlasmaLight"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -6742,8 +6742,8 @@
 {"Damage":"30601S","strId":"gregtech:gt.metaitem.01"}
 {"Damage":"308S","strId":"bartworks:gt.bwMetaGeneratedGTEnhancementcapsule"}
 {"Damage":"310S","strId":"bartworks:gt.bwMetaGeneratedGTEnhancementcapsule"}
-{"Damage":"0S","strId":"ml:Ichorium:cellPlasma"}
-{"Damage":"0S","strId":"ml:CosmicNeutronium:cellPlasma"}
+{"Damage":"0S","strId":"ml:Ichorium:cellPlasmaLight"}
+{"Damage":"0S","strId":"ml:CosmicNeutronium:cellPlasmaLight"}
 {"Damage":"324S","strId":"bartworks:gt.bwMetaGeneratedGTEnhancementcapsuleMolten"}
 {"Damage":"339S","strId":"bartworks:gt.bwMetaGeneratedGTEnhancementcapsuleMolten"}
 {"Damage":"340S","strId":"bartworks:gt.bwMetaGeneratedGTEnhancementcapsuleMolten"}
