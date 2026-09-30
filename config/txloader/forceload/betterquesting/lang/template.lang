@@ -915,7 +915,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZg.desc=An absolutely mandatory machine
 
 # Quest: Getting Ready for Tier 2, MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.name=§2§lGetting Ready for Tier 2, MV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, you need to get Raw Aluminum. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest "Lead, Galena, Silver and Cryolite" is in the Novice Thaumaturgy tab.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF.%n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, you need to get Raw Aluminum. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or terracotta from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest "Lead, Galena, Silver and Cryolite" is in the Novice Thaumaturgy tab.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF.%n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.
 
 # Quest: Your Magic Progression
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAaA.name=§2§lYour Magic Progression
@@ -1255,7 +1255,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjg.desc=The Nether is full of different
 
 # Quest: Lithium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjw.name=§2§lLithium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjw.desc=Lithium can be washed out of Lepidolite Ore or centrifuged out of either Lepidolite Ore or Spodumene Ore. At MV you can electrolyze clay dust for it. Look for canyons to find hardened clay and macerate it for dust.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjw.desc=Lithium can be washed out of Lepidolite Ore or centrifuged out of either Lepidolite Ore or Spodumene Ore. At MV you can electrolyze clay dust for it. Look for canyons to find terracotta and macerate it for dust.
 
 # Quest: Sodium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkA.name=§2§lSodium
@@ -1436,7 +1436,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABA.desc=Your second voltage tier. D
 
 # Quest: Electrolyzing All the Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAfg.name=§6§lElectrolyzing All the Things
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAfg.desc=Collected a lot of dusts you can't do anything with since you started with macerating, washing and centrifuging ores? It's finally time to get all the useful materials out of them.%n%nThis machine is §overy§r important for your MV progression. If you find a biome with tons of Stained or Hardened Clay, you can process it here, plus some other machines, into Sodium, Lithium, Silicon, Aluminium and Oxygen!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAfg.desc=Collected a lot of dusts you can't do anything with since you started with macerating, washing and centrifuging ores? It's finally time to get all the useful materials out of them.%n%nThis machine is §overy§r important for your MV progression. If you find a biome with tons of Terracotta, you can process it here, plus some other machines, into Sodium, Lithium, Silicon, Aluminium and Oxygen!
 
 # Quest: IO, IO, It's Off to EnderIO We Go
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAgA.name=§6§lIO, IO, It's Off to EnderIO We Go
@@ -1524,7 +1524,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAzg.desc=A low-tech method to cool down 
 
 # Quest: Clay Electrolyzing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.name=§6§lClay Electrolyzing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon Dioxide, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There are plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere are more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon Dioxide, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There are plenty of terracotta blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere are more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
 
 # Quest: Bio Fuels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.name=§6§lBio Fuels
@@ -1764,7 +1764,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1A.desc=Keep the hydrogen and continue 
 
 # Quest: Stainless Taking Too Long?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.name=§6§lStainless Taking Too Long?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.desc=Time for a second EBF!%n%nYou can make ingots faster in 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It's probably time to add a second EBF to your base.%n%nMultiblock machines can share casings, mufflers, and input/output hatches/buses, but not maintenance hatches (you can share the auto ones though). You can share energy hatches, but only if you can supply enough power to all machines it's a part of.%n%nRemember, pollution will be very high with two EBFs active at once! Watch out for high pollution effects. Use the best mufflers available and don't place the EBFs in the same chunk as farmland or other high pollution machines like Pyrolyse Ovens and Large Boilers. Maybe it is time to do something more active?%n%nYou can use whatever coils you have lying around, but you certainly want to start searching for Mica if you haven't found any yet.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.desc=Time for a second EBF!%n%nYou can make ingots faster in 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It's probably time to add a second EBF to your base.%n%nMultiblock machines can share casings, mufflers, input/output hatches/buses, and maintenance hatches. You can share energy hatches, but only if you can supply enough power to all machines it's a part of.%n%nRemember, pollution will be very high with two EBFs active at once! Watch out for high pollution effects. Use the best mufflers available and don't place the EBFs in the same chunk as farmland or other high pollution machines like Pyrolyse Ovens and Large Boilers. Maybe it is time to do something more active?%n%nYou can use whatever coils you have lying around, but you certainly want to start searching for Mica if you haven't found any yet.
 
 # Quest: All the Crops You Could Want
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.name=§6§lAll the Crops You Could Want
@@ -7054,7 +7054,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAASw.desc=Finite water is a problem. But 
 
 # Quest: Time to Get Some Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.name=§6§lTime to Get Some Steel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.desc=You need steel? Uhh... fine. Let's get busy...%n%nThe Bricked Blast Furnace (BBF) can share walls with other ones, just like most GT multiblocks. How will this affect the air quality though...%n%nIf you are short on Stone Dust, you can get more by macerating cobblestone.%n%nIf you spawn near a biome with Hardened Clay you can macerate it to get the clay dust you need. You can also use brick blocks from Villages to get brick dust in the macerator.%n%nCrafting the Worktable from Forestry can make it easier as you can use all the buckets for crafting in one click.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.desc=You need steel? Uhh... fine. Let's get busy...%n%nThe Bricked Blast Furnace (BBF) can share walls with other ones, just like most GT multiblocks. How will this affect the air quality though...%n%nIf you are short on Stone Dust, you can get more by macerating cobblestone.%n%nIf you spawn near a biome with Terracotta you can macerate it to get the clay dust you need. You can also use brick blocks from Villages to get brick dust in the macerator.%n%nCrafting the Worktable from Forestry can make it easier as you can use all the buckets for crafting in one click.
 
 # Quest: More Heat - Kanthal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.name=§6§lMore Heat - Kanthal Coil Upgrade
