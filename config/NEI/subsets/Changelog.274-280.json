@@ -6474,7 +6474,7 @@
 {"Damage":"0S","strId":"ml:ShadowIron:bolt"}
 {"Damage":"0S","strId":"ml:ShadowSteel:bolt"}
 ; gt.recipe.dieselgeneratorfuel
-{"Damage":"0S","strId":"IC2:itemCellEmpty"}
+{"Damage":"0S","strId":"materiallib:cellEmpty"}
 ; gt.recipe.distillery
 {"Damage":"0S","strId":"ml:Enriched-NaquadahOxideMixture:dustSmall"}
 {"Damage":"0S","strId":"ml:Salt:dust"}
@@ -7489,7 +7489,7 @@
 ; gt.recipe.implosioncompressor
 {"Damage":"0S","strId":"ml:Amethyst:gemFlawless"}
 ; gt.recipe.largeboilerfakefuels
-{"Damage":"0S","strId":"IC2:itemCellEmpty"}
+{"Damage":"0S","strId":"materiallib:cellEmpty"}
 ; gt.recipe.largechemicalreactor
 {"Damage":"0S","strId":"ml:BerylliumFluoride:dust"}
 {"Damage":"0S","strId":"ml:SodiumFluoride:dust"}
@@ -8800,7 +8800,7 @@
 {"gtFluidName":"reactive-ion etching mixture"}
 {"gtFluidName":"saltwater"}
 ; gt.recipe.nanoforge
-{"Damage":"4147S","strId":"gregtech:gt.metaitem.03"}
+{"Damage":"0S","strId":"ml:SixPhasedCopper:nanite"}
 ; gt.recipe.neutroniumcompressor
 {"Damage":"0S","strId":"universalsingularities:universal.tinkersConstruct.singularity"}
 {"Damage":"3S","strId":"universalsingularities:universal.tinkersConstruct.singularity"}
@@ -8922,7 +8922,7 @@
 {"Damage":"0S","strId":"miscutils:itemDustLithiumHydroxide"}
 {"Damage":"0S","strId":"miscutils:itemDustPhthalicAnhydride"}
 {"Damage":"0S","strId":"ml:ZirconiumTetrafluoride:dust"}
-{"Damage":"1S","strId":"IC2:itemCellEmpty"}
+{"Damage":"0S","strId":"ml:Water:cell"}
 {"Damage":"0S","strId":"ml:Sulfur:dust"}
 {"Damage":"0S","strId":"ml:Titanium:dust"}
 {"Damage":"0S","strId":"ml:Gypsum:dust"}
