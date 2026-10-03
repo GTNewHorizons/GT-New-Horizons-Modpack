@@ -71,7 +71,10 @@
     },
     {
       "name": "Prometheus0000",
-      "category": { "quests": "quest_editor" }
+      "category": {
+        "quests": "quest_editor",
+        "gt_multiblocks": "de_fusion_crafter"
+      }
     },
     {
       "name": "richardhendricks",
@@ -151,7 +154,16 @@
     },
     {
       "name": "GDCloudstrike",
-      "category": { "quests": "quest_editor" }
+      "category": {
+        "quests": "quest_editor",
+        "gt_multiblocks": [
+          "forge_of_gods",
+          "helioflare_power_forge",
+          "helioflux_melting_core",
+          "heliofusion_exoticizer",
+          "heliothermal_plasma_fabricator"
+        ]
+      }
     },
     {
       "name": "Elisis",
@@ -2394,7 +2406,11 @@
     {
       "name": "glowredman",
       "category": {
-        "donators": "stone_age"
+        "donators": "stone_age",
+        "gt_multiblocks": [
+          "dyson_swarm",
+          "planetary_gas_siphon"
+        ]
       }
     },
     {
@@ -5578,7 +5594,10 @@
     {
       "name": "§fBucketBrigade",
       "category": {
-        "gt_multiblocks": "wormhole_generator"
+        "gt_multiblocks": [
+          "black_hole_compressor",
+          "wormhole_generator"
+        ]
       }
     },
     {
@@ -5663,7 +5682,15 @@
       "username": "kuba6000",
       "name": "§4§lk§c§lu§6§lb§e§la§2§l6§a§l0§b§l0§3§l0",
       "category": {
-        "gt_multiblocks": ["extreme_entity_crusher", "extreme_industrial_greenhouse", "high_temp_gas_cooled_reactor"],
+        "gt_multiblocks": [
+          "de_fusion_crafter",
+          "extreme_entity_crusher",
+          "extreme_industrial_greenhouse",
+          "high_temp_gas_cooled_reactor",
+          "industrial_apiary",
+          "industrial_arc_furnace",
+          "mega_industrial_apiary"
+        ],
         "quests": "quest_editor"
       }
     },
@@ -5700,7 +5727,12 @@
     {
       "name": "§6§lNoc",
       "category": {
-        "gt_multiblocks": ["flotation_cell_regulator", "full_board_immersion_device", "spinmatron_2737"]
+        "gt_multiblocks": [
+          "atmospheric_air_intake_hatch",
+          "flotation_cell_regulator",
+          "full_board_immersion_device",
+          "spinmatron_2737"
+        ]
       }
     },
     {
@@ -5713,7 +5745,12 @@
       "username": "OlliedeLeeuw",
       "name": "§a§lOllie",
       "category": {
-        "gt_multiblocks": ["hip_compressor", "industrial_compressor", "neutronium_compressor"],
+        "gt_multiblocks": [
+          "black_hole_compressor",
+          "hip_compressor",
+          "industrial_compressor",
+          "neutronium_compressor"
+        ],
         "quests": "quest_editor",
         "donators": "stargate"
       }
@@ -5758,7 +5795,10 @@
       "username": "Pxx500",
       "name": "§1§lPxx500",
       "category": {
-        "gt_multiblocks": "high_temp_gas_cooled_reactor",
+        "gt_multiblocks": [
+          "high_temp_gas_cooled_reactor",
+          "industrial_arc_furnace"
+        ],
         "quests": "quest_editor"
       }
     },
@@ -5809,7 +5849,18 @@
     {
       "name": "§6VorTex",
       "category": {
-        "gt_multiblocks": ["boldarnator", "industrial_macerator", "industrial_sifter", "xl_turbine_gas", "xl_turbine_hpsteam", "xl_turbine_plasma", "xl_turbine_scsteam", "xl_turbine_steam", "zhuhai_fishing_port"]
+        "gt_multiblocks": [
+          "boldarnator",
+          "extrusion_hatch",
+          "industrial_macerator",
+          "industrial_sifter",
+          "xl_turbine_gas",
+          "xl_turbine_hpsteam",
+          "xl_turbine_plasma",
+          "xl_turbine_scsteam",
+          "xl_turbine_steam",
+          "zhuhai_fishing_port"
+        ]
       }
     },
     {
@@ -5840,14 +5891,24 @@
       "username": "bartimaeusnek",
       "name": "§abartimaeusnek§7",
       "category": {
-        "gt_multiblocks": "deep_earth_heating_pump",
+        "gt_multiblocks": ["acid_generator", "bio_lab", "creative_scanner", "deep_earth_heating_pump", "large_energy_storage_unit", "radio_hatch"],
         "quests": "quest_editor"
       }
     },
     {
       "name": "§a§lChrom",
       "category": {
-        "gt_multiblocks": ["exo_foundry", "optically_optimized_organizer", "spinmatron_2737"]
+        "gt_multiblocks": [
+          "debug_energy_hatch",
+          "debug_fluid_input_hatch",
+          "debug_input_bus",
+          "debug_input_hatch",
+          "exo_foundry",
+          "optically_optimized_organizer",
+          "spinmatron_2737",
+          "steam_furnace",
+          "wireless_dynamo_hatch"
+        ]
       }
     },
     {
@@ -5862,6 +5923,87 @@
       "name": "§9§lThree",
       "category": {
         "gt_multiblocks": "latex"
+      }
+    },
+    {
+      "name": "Runakai",
+      "category": {
+        "gt_multiblocks": "mega_industrial_apiary"
+      }
+    },
+    {
+      "name": "Sol_IX",
+      "category": {
+        "gt_multiblocks": "industrial_arc_furnace"
+      }
+    },
+    {
+      "name": "§bQuetz4l",
+      "category": {
+        "gt_multiblocks": [
+          "chisel_input_bus",
+          "solidifier_input_hatch"
+        ]
+      }
+    },
+    {
+      "name": "§cQuerns",
+      "category": {
+        "gt_multiblocks": "infinite_spray_can"
+      }
+    },
+    {
+      "name": "§5EigenRaven",
+      "category": {
+        "gt_multiblocks": "better_jukebox"
+      }
+    },
+    {
+      "name": "Jude",
+      "category": {
+        "gt_multiblocks": "magical_maintenance_hatch"
+      }
+    },
+    {
+      "name": "§9Frosty§4Fire1",
+      "category": {
+        "gt_multiblocks": "redstone_sniffer"
+      }
+    },
+    {
+      "name": "§2Alkalus",
+      "category": {
+        "gt_multiblocks": [
+          "air_intake_hatch",
+          "battery_input_bus",
+          "battery_output_bus",
+          "catalyst_hatch",
+          "electric_boiler",
+          "elemental_orb_holder",
+          "infinite_chest",
+          "milling_ball_hatch",
+          "pollution_creator",
+          "pollution_detector",
+          "redstone_lamp",
+          "rtg_generator",
+          "solar_reflector",
+          "tesseract_generator",
+          "tesseract_terminal",
+          "xl_turbine_hatch"
+        ]
+      }
+    },
+    {
+      "name": "§6GigaGram§rFab",
+      "username": "GigaGramFab",
+      "category": {
+        "gt_multiblocks": "linked_input_bus"
+      }
+    },
+    {
+      "name": "GTNH: Lanthanides",
+      "category": {
+        "gt_multiblocks": "beamline_pipe"
       }
     }
   ]
