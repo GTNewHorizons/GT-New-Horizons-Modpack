@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "MV Energy hatches need ultra low power ICs. Go and craft some.",
+      "desc:8": "MV energy hatches need Ultra Low Power ICs. Go and craft some.\n\nYou don\u0027t need an MV Laser Engraver for this, but you will need one later anyway.\n\n[note]This quest unlocks when you complete either the LV or MV Laser Engraver quest.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -50,7 +50,7 @@
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
