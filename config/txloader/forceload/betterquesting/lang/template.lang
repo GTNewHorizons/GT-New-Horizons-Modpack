@@ -1129,9 +1129,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAChA.desc=Distilling some "refinery gases
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAChg.name=§2§lElectrotine Battery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAChg.desc=The electrotine battery is exclusively used in project red machines and the jetpack. Electrotine is made by mixing redstone and electrum dust in a mixer, or mined from the Nether.
 
-# Quest: Basic Arc Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.name=§2§lBasic Arc Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=The arc furnace is an alternative to macerating stuff back into dusts and for making Cast Iron, Annealed Copper, and Glass (in MV). You get ingots, and sometimes different materials back from recycling than with a Macerator. You also have both slots at LV.%n%n[note]You can also use certain gases to boost your Arc Furnace processing speed.[/note]
+# Quest: Arc Furnace
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.name=§2§lArc Furnace
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=The Arc Furnace is an alternative to macerating items back into dusts. It can also make Cast Iron, Annealed Copper, and Glass (at MV). Recycling produces ingots, sometimes of different materials than you would get from a Macerator. You also have both slots at LV.%n%n[note]You can also use certain gases to boost your Arc Furnace processing speed.[/note]
 
 # Quest: Faster Steel Production
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.name=§2§lFaster Steel Production
@@ -1880,7 +1880,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSw.desc=Most machines in MV need a moto
 
 # Quest: Ultra Low Power IC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTA.name=§6§lUltra Low Power IC
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTA.desc=MV Energy hatches need ultra low power ICs. Go and craft some.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTA.desc=MV energy hatches need Ultra Low Power ICs. Go and craft some.%n%nYou don't need an MV Laser Engraver for this, but you will need one later anyway.%n%n[note]This quest unlocks when you complete either the LV or MV Laser Engraver quest.[/note]
 
 # Quest: Vinyl Chloride
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHUA.name=§6§lVinyl Chloride
@@ -4252,7 +4252,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=Good luck with this one, it is 
 
 # Quest: Hypogen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.name=§5§l§nHypogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the most high tier GT++ material. You will need UIV to process it. Your Fluid Shaper will do that job just fine for you.%n%n[note]With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.[/note]%n%n[note]You can also have this cake as a reward for coming this far.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the highest tier GT++ material. You will need UIV to process it.%n%n[note]With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.[/note]%n%n[note]You can also have this cake as a reward for coming this far.[/note]
 
 # Quest: Well This Looks... Shiny?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.name=§5§l§nWell This Looks... Shiny?
@@ -4489,7 +4489,7 @@ betterquesting.quest.CzdMQPiKSoKXIzSX7g0SIA.desc=Copper has managed to stay rele
 
 # Quest: The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.name=§9§l§nThe Real Planet Eater
-betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=It has 8 parallels and supports higher tiers of drones.%n%n[note]You can obtain pure platinum group metals with this. It would be a nice boost if you haven't made the QFT for it yet.[/note]
+betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=It has 8 parallels and supports higher tiers of drones.%n%n[note]You can obtain Tengam and Americium ores with this.[/note]
 
 # Quest: Helioflux Melting Core my Beloved
 betterquesting.quest.GslQBIW9QKaCz7FFpkrv6g.name=§9§l§nHelioflux Melting Core my Beloved
@@ -4581,7 +4581,7 @@ betterquesting.quest.n2AqI9hGSEegVf6hfygemQ.desc=With your research now complete
 
 # Quest: Space Modules Galore
 betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.name=§9§l§nSpace Modules Galore
-betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.desc=Better modules will require a more advanced Space Elevator motor to function.%n%nThis upgrade will allow you to access 15 modules on your Space Elevator. If you haven't built the expansion yet, now might be a good time.%n%n[note]You can enable the Space Elevator expansion in the GUI.[/note]
+betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.desc=Better modules will require a more advanced Space Elevator motor to function.%n%nThis upgrade will allow you to access T9 planets as well as 15 module slots on your Space Elevator. If you haven't built the expansion yet, now might be a good time.%n%n[note]You can enable the Space Elevator expansion in the GUI.[/note]
 
 # Quest: Spacetime Splitting
 betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§9§l§nSpacetime Splitting
@@ -4730,7 +4730,7 @@ betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.desc=SpaceTime is quite a challenge,
 
 # Quest: Subspace Cooling
 betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.name=§c§l§nSubspace Cooling
-betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to be a much bigger challenge than smelting them.%n%nFortunately, reinforcing some of the casings with your new materials allows you to inject exotic coolants that capture extreme heat in miniature tears of spacetime, helping to cool your ingots a bit faster.%n%nWith Subspace Cooling, you can enable the Vacuum Freezer to achieve Perfect Overclocks… at a cost.%n%nTier 1 will consume SpaceTime in liquid form at [warn]75 L/s[/warn] and allow for 1 Perfect Overclock.%n%n[note]This cost is very high but static, remaining the same for each recipe being run. So, be selective about cooling your ingots.%n%nThe faster the recipes, the more efficient the cost, so find your optimal balance.[/note]%n%nThe Infinity Cooled Casings replace the frost proof casings, so you don't need to worry about damaging your setups.
+betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to be a much bigger challenge than smelting them.%n%nFortunately, reinforcing some of the casings with your new materials allows you to inject exotic coolants that capture extreme heat in miniature tears of spacetime, helping to cool your ingots a bit faster.%n%nWith Subspace Cooling, you can enable the Vacuum Freezer to achieve Perfect Overclocks… at a cost.%n%nTier 1 will consume Infinity in liquid form at [warn]20 L/s[/warn] and allow for 1 Perfect Overclock. If you have the means to provide [warn]20 L/s[/warn] of Spacetime, you can jump right to Tier 2 for 2 Perfect overclocks.%n%n[note]This cost is static, remaining the same for each recipe being run. So, be selective about cooling your ingots.%n%nThe faster the recipes, the more efficient the cost, so find your optimal balance.[/note]%n%nThe Infinity Cooled Casings replace the frost proof casings, so you don't need to worry about damaging your setups.
 
 # Quest: Tier 12 (UMV)
 betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.name=§c§l§nTier 12 (UMV)
@@ -6173,9 +6173,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACrQ.desc=Iron armor is much better than 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACrg.name=Leather Armor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACrg.desc=Killing some cows will give you enough leather to craft a complete set of leather armor.%n%nHint: You are able to dye this armor.
 
-# Quest: Bronze armor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACrw.name=Bronze armor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACrw.desc=Bronze armor has the same abilities as iron armor. Same durability, same protection and same enchantment capability.
+# Quest: Bronze Armor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACrw.name=Bronze Armor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACrw.desc=Bronze armor has the same durability, protection, and enchantability as iron armor.
 
 # Quest: "Nice to Have" Armor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACsA.name="Nice to Have" Armor
@@ -7691,7 +7691,7 @@ betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=Why use fancy wiring and circui
 
 # Quest: Steam Fusing?
 betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=§c§lSteam Fusing?
-betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%nWhile the NEI requirements show borosilicate glass, you can substitute any HV tier glass in its place like warded glass, quite clear glass, or fused quartz. If you end up using borosilicate; boron can be obtained from electrolyzing borax.%n%n[note]Will only process up to LV tier recipes[/note]
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed.%n(Check out the tooltip for more info!)%n%nWhile the NEI requirements show borosilicate glass, you can substitute any HV tier glass, such as regular glass, quite clear glass, or fused quartz. If you use borosilicate glass, you can obtain boron by electrolyzing borax.%n%n[note]It only processes recipes up to LV tier.[/note]
 
 # Quest: Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=§5§lTaking Things Apart
@@ -7828,7 +7828,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDw.desc=All your little turbines take u
 
 # Quest: Power of the Sun at LV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.name=§6§lPower of the Sun at LV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.desc=The next solar panel you can make is the LV one. It generates 32 EU/t.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.desc=The next solar panel you can make is the LV one. It generates 32 EU/t.%n%n[warn]As you may expect, these will react poorly to being placed on machines of lower voltage![/warn]
 
 # Quest: Power of the Sun 1x1 LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADqQ.name=§6§lPower of the Sun 1x1 LV
@@ -8180,7 +8180,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.desc=Fluid Nukes, Vac Nukes and Wren
 
 # Quest: Large Naquadah Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.name=§b§lLarge Naquadah Reactor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel information in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.%n%n[warn]It will explode with more than one type of fuel in its hatches.[/warn]%n%nYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%nTachyon Rich Temporal Fluid: 5.00x%n%nYou can also input boosters to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nSpatially Enlarged Fluid: 64x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The boosters work like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n[note]PS: This generator can produce up to 664 billion EU/t with the best coolant, boosters and fuel available.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.desc=The multiblock version of the Naquadah Reactor works very differently from the singleblock versions.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel and outputs the depleted fuel. You can see the liquid fuel information in NEI.%n%nIt consumes 2400 L/s of liquid air while running. Without liquid air, it will keep consuming your fuel without outputting power.%n%nYou can add coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%nTachyon Rich Temporal Fluid: 5.00x%n%nYou can also input boosters to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nSpatially Enlarged Fluid: 64x%nNote: It will consume more fuel to match the output power, unlike coolant, which directly increases the power. The boosters work like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n[note]PS: This generator can produce up to 664 billion EU/t with the best coolant, boosters and fuel available.[/note]
 
 # Quest: Nuclear Based Fuel (Th)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALjA.name=Nuclear Based Fuel (Th)
@@ -8425,7 +8425,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig.desc=...in my dreams. What if instea
 
 # Quest: Who Cares About a Little Cancer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.name=Who Cares About a Little Cancer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.desc=...when it means you don't have to strip naked to recharge your nanosuit?%nThe Wireless Charger will keep your armor and tools charged up without having to put them into a battery buffer.%n%nIt will charge armor and tools at the tier and below.%n%nYou didn't want kids anyways...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.desc=...when it means you don't have to strip naked to recharge your nanosuit?%nThe Wireless Charger will keep your armor and tools charged up without having to put them into a battery buffer.%n%nIt will charge armor and tools at the tier and below.%n%nYou didn't want kids anyway...
 
 # Quest: Lapotronic Energy Storage Unit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHA.name=Lapotronic Energy Storage Unit
@@ -9951,7 +9951,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG3w.desc=Congratulations, we have the pa
 
 # Quest: Intelligence is the Ability to Adapt to Change
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG4A.name=Intelligence is the Ability to Adapt to Change
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG4A.desc=This block allows our computer to interact with GT machines and everything else. A must have!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG4A.desc=This block allows your computer to interact with GT machines and everything else. A must-have!
 
 # Quest: Hello World!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG4Q.name=Hello World!
@@ -10083,7 +10083,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxg.desc=Ever finished a wonderful progr
 
 # Quest: Naming Names
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxw.name=Naming Names
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxw.desc=The Factory Labeler allows you to assign unique names to anything that can be connected to a Manager - making it easy to identify when you are setting up commands.%n%nType in the text box to set a label or to searched stored labels - click any stored entry to select it, double-click to edit it. Closing the GUI will set the Labeler to whatever was in the text box at that time.%n%nLeft-click to set labels, right-click to open the gui. Setting a blank label will remove any existing labels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxw.desc=The Factory Labeler allows you to assign unique names to anything that can be connected to a Manager, making it easy to identify when you are setting up commands.%n%nType in the text box to set a label or search stored labels. Click any stored entry to select it; double-click to edit it. Closing the GUI will set the Labeler to whatever was in the text box at that time.%n%nLeft-click to set labels; right-click to open the GUI. Setting a blank label will remove any existing labels.%n%n[note]The Labeler loses its label when you log back in on multiplayer servers, but it works fine in single player. It'll still work until you need to change the label, though. Have fun![/note]
 
 # Quest: Redstone Emitter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzw.name=Redstone Emitter
@@ -10479,13 +10479,13 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.desc=The ME ore dictionary export ca
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.name=To Link P2P Buses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.desc=A small item that can be used to store, copy, and paste settings. Shift-right-click on a configurable object to save the settings onto the memory card, then right-click on any other block of the same type to paste the settings. Shift-right-click on a non-configurable object (or the air) to clear. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels. They can also link Vis Relays to compatible devices.%n%nIf you're doing more advanced operations in a large network of P2Ps, it's recommended you use the advanced memory card. It has a helpful UI that allows you to visualize and set names, inputs, and outputs of P2P tunnels. %n%n[note]Remember P2Ps can only have 1 input! The only exception being fluid P2Ps whose input can function as an output and whose outputs can function as an input.[/note]%n%n[warn]Make sure there aren't any cards in your network tool when you craft the Advanced Memory Card, they will be deleted![/warn]
 
-# Quest: Smart cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.name=Smart cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.desc=Smart cables are better than glass or covered cables because you can visually see many channels are in use.
+# Quest: Smart Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.name=Smart Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.desc=Smart cables let you see how many channels are in use, which can make them more useful than covered cables.%n%nThey come at a cost, though!
 
-# Quest: Dense cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISA.name=Dense cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISA.desc=Dense cables are going to be your network backbones. They can transfer 32 channels and display the number of channels in use. Buses and flat interfaces cannot be placed directly on them.
+# Quest: Dense Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAISA.name=Dense Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAISA.desc=Dense cables are going to be your network backbones. They can transfer 32 channels at a time.%n%nBuses and flat interfaces cannot be placed directly on them.
 
 # Quest: Energy Acceptor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWA.name=Energy Acceptor
@@ -10725,7 +10725,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvg.desc=It holds over 8GL.
 
 # Quest: AE Essentia Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.name=AE Essentia Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.desc=The main processor for 1K, 4K, 16k, and 64k essentia cells.%n%nUse your AE network to store all that nasty essentia! Remember, you need to do the research first.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.desc=The main processor for essentia cells.%n%nUse your AE network to store all that nasty essentia! Remember, you need to do the research first.
 
 # Quest: Essentia Storage Housing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwA.name=Essentia Storage Housing
@@ -14459,7 +14459,7 @@ betterquesting.quest.4EIiMvbnT4S7X8CC4X4Clw.desc=The §5§lProto-Volt Stabilizer
 
 # Quest: Streamlined Casters
 betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.name=§5§l§nStreamlined Casters
-betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.desc=The §5§lStreamlined Casters§r (SC) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SC module functions as a powerful §2150%%§r speed bonus for the Foundry. If that's not enough for you, you can further amplify by another §2150%%§r for every SC module you install.%n%nIf this module paired with §5Superdense Casting Basins§r (SCB) module, you will unlock the "§6Optimum Production§r" bonus for §36§r extra parallels per voltage tier and a further §275%%§r speed increase.%n%n[note]This bonus is stackable with bonuses obtained from other modules you will unlock in the future![/note]
+betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.desc=The §5§lStreamlined Casters§r (SC) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SC module functions as a powerful §2150%%§r speed bonus for the Foundry. If that's not enough for you, you can further amplify by another §2150%%§r for every SC module you install.%n%nIf this module paired with §5Superdense Casting Basins§r (SCB) module, you will unlock the "§6Optimum Production§r" bonus for §38§r extra parallels per voltage tier and a further §280%%§r speed increase.%n%n[note]This bonus is stackable with bonuses obtained from other modules you will unlock in the future![/note]
 
 # Quest: Copper Barrel
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§c§lCopper Barrel
@@ -14694,7 +14694,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfg.name=§2§lMagnalium Crossbow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfg.desc=It's time to craft a Crossbow Limb and the Crossbow Body to upgrade your old Wooden Crossbow.
 
 # Quest: Wooden Crossbow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfw.name=§3§lWooden Crossbow
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfw.name=§c§lWooden Crossbow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfw.desc=Now you are able to make a better long range weapon - a crossbow. Use wood for the crossbow limb and the body and use obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.%n%nAssemble the bow yourself on your tool forge.%n%n[warn]For upgrades:[/warn]%n[note]Redstone - Speed on the draw%nLapis - Fortune on kills%nMoss - Self-repair[/note]%n%n§6NOTE: Some mobs require damage from specific tools. IF YOU ARE SHOOTING AT SOMETHING AND IT IS NOT GETTING HURT, *RUN*. And then figure out what weapon might be best to kill it.
 
 # Quest: Fiery Bowstring
@@ -15035,7 +15035,7 @@ betterquesting.quest.EUgSnkUkT-6CHxpWCNWrbg.desc=The Infinity Egg is the best po
 
 # Quest: Superdense Casting Basins
 betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.name=§5§l§nSuperdense Casting Basins
-betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.desc=The §5§lSuperdense Casting Basin§r (SCB) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SCB adds §312§r parallels per voltage tier and reduces the minimum number of Foundry casings by §236§r, giving you space for more inputs. %n%nIf this module is paired with the §5Streamlined Casters§r (SC) module, you will unlock "§6Optimum Production§r", a bonus giving §36§r extra parallels per voltage tier and a §275%%§r speed increase.
+betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.desc=The §5§lSuperdense Casting Basins§r (SCB) module is one of the first three modules available for use in the §nExo-Foundry§r.%n%nThe SCB adds §312§r parallels per voltage tier and reduces the minimum number of Foundry casings by §236§r, giving you space for more inputs.%n%nIf this module is paired with the §5Streamlined Casters§r (SC) module, you will unlock "§6Optimum Production§r", a bonus giving §38§r extra parallels per voltage tier and a §280%%§r speed increase.
 
 # Quest: Infinite Water Cell
 betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=§2§l§nInfinite Water Cell
