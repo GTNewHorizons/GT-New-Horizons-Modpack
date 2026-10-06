@@ -1,8 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 4300463009256719073,
+      "questIDLow:4": -7881005862838025770
+    },
+    "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 718
+      "questIDLow:4": 536
     }
   },
   "properties:10": {
@@ -17,18 +21,19 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Empty crop sticks can be doubled by right-clicking another crop stick onto them. These double-crop sticks allow you to breed any adjacent mature crops.\n\nAs new species grow on your crop sticks, you can harvest them by right-clicking, which won\u0027t remove the seed. Left-clicking harvests the crop and removes it, potentially dropping a seed depending on the resistance. Spades will help you improve your chances of obtaining seeds when you do this, as will the Resistance trait.\n\n§r§r[note]§l§r§lThe chance to drop a seed from any crop §nwithout a spade§r§l is measured\nas resistance/31. §rSo crops with a maxed resistance stat will always drop a seed when broken.§r[/note]\n\n[warn]Don\u0027t forget to check the seed tooltips for the varying types of soil, sub-soil, and other environmental requirements![/warn]\n\n§oIf you\u0027re already an experienced farmhand, collect a single stonelily seed and I\u0027ll let you skip subsequent introductory trainings for now.",
-      "globalShare:1": 0,
+      "desc:8": "As some of you may have discovered, some crops do not perticularly enjoy being stepped on, and will damage or even poison you if you dare to walk over them. While sneaking may prevent this, wearing proper protective gear is the better solution.\n\nWearing boots that provide hazmat protection prevents you from taking damage while walking though crops, though they will be taking a bit of damage as you walk though your crops. Rechargable hazmat-providing boots (such as nano boots) and those that offer spacesuit protection do not take any damage while walking though your crops.\n\nThe first pair of protective boots you can get your hands on is the humble rubber boots.\n\n[note]Leather boots (and its variants) can also help by reducing incomming damage by 75%, but they will rapidly take damage while protecting you.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "cropsnh:cropSticks"
+        "id:8": "IC2:itemArmorRubBoots"
       },
+      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Crop Sticks",
+      "name:8": "Tools of the Trade 4 - Minimizing Crop-Related Injurines",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -44,6 +49,7 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
+      "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -54,22 +60,22 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 4300463009256719073,
-  "questIDLow:4": -7881005862838025770,
+  "questIDHigh:4": -2028582204513040610,
+  "questIDLow:4": -4707011357735640112,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
+          "Count:3": 1,
+          "Damage:2": 51,
           "OreDict:8": "",
-          "id:8": "cropsnh:fertilizer"
+          "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
-          "Count:3": 32,
+          "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "cropsnh:cropSticks"
+          "id:8": "IC2:itemHarz"
         }
       },
       "ignoreDisabled:1": 0,
@@ -88,10 +94,16 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 32,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "cropsnh:cropSticks"
+          "id:8": "dreamcraft:MoldBoots"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "IC2:itemArmorRubBoots"
         }
       },
       "taskID:8": "bq_standard:retrieval"
