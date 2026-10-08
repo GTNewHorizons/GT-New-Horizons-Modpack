@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "As some of you may have discovered, some crops do not perticularly enjoy being stepped on, and will damage or even poison you if you dare to walk over them. While sneaking may prevent this, wearing proper protective gear is the better solution.\n\nWearing boots that provide hazmat protection prevents you from taking damage while walking though crops, though they will be taking a bit of damage as you walk though your crops. Rechargable hazmat-providing boots (such as nano boots) and those that offer spacesuit protection do not take any damage while walking though your crops.\n\nThe first pair of protective boots you can get your hands on is the humble rubber boots.\n\n[note]Leather boots (and its variants) can also help by reducing incomming damage by 75%, but they will rapidly take damage while protecting you.[/note]",
+      "desc:8": "As some of you may have discovered, some crops don\u0027t particularly enjoy being stepped on and will damage or even poison you if you dare walk over them. While sneaking may prevent this, wearing proper protective gear is the better solution.\n\nWearing boots that provide hazmat protection prevents you from taking damage while walking through crops, though you will still take a bit of damage as you walk through your crops. Rechargeable hazmat-providing boots (such as nano boots) and those that offer spacesuit protection take no damage while walking through your crops.\n\nThe first pair of protective boots you can get your hands on is the humble rubber boots.\n\n[note]Leather boots (and their variants) can also help by reducing incoming damage by 75%, but they will rapidly take damage while protecting you.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -33,7 +33,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tools of the Trade 4 - Minimizing Crop-Related Injurines",
+      "name:8": "Tools of the Trade 4 - Minimizing Crop-Related Injuries",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
