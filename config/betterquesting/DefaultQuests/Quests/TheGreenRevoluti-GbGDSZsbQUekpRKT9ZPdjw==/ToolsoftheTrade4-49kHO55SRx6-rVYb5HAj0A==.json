@@ -1,12 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1920
+      "questIDHigh:4": 4300463009256719073,
+      "questIDLow:4": -7881005862838025770
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 160
+      "questIDLow:4": 536
     }
   },
   "properties:10": {
@@ -21,22 +21,19 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The portable scanner is a direct upgrade to the plant lens.\n\nJust like the lens, the scanner can tell you all the information about a crop growing inside of a crop stick, but unlike the plant lens it also displays the exact Nutrient Score provided by the crop stick.\n\n[note]The portable scanner isn\u0027t just for crops, it can tell you a lot of information about basically everything! Look for the Portable Scanner quest after the EBF quest in Multiblock Goals tab for more information![/note]",
+      "desc:8": "As some of you may have discovered, some crops don\u0027t particularly enjoy being stepped on and will damage or even poison you if you dare walk over them. While sneaking may prevent this, wearing proper protective gear is the better solution.\n\nBoots that provide hazmat protection prevent damage while walking through these dangerous crops, though you will still take a bit of damage as you walk through your crops. Rechargeable hazmat-providing boots (such as nano boots) and those that offer spacesuit protection take no damage while walking through your crops.\n\nThe first pair of protective boots you can get your hands on is the humble rubber boots.\n\n[note]Leather boots (and their variants) can also help by reducing incoming damage by 75%, but they will rapidly take damage while protecting you.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32762,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01",
-        "tag:10": {
-          "GT.ItemCharge:4": 400000
-        }
+        "id:8": "IC2:itemArmorRubBoots"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tools Of The Trade 5 - Electronic Scanning",
+      "name:8": "Tools of the Trade 4 - Minimizing Crop-Related Injuries",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -63,39 +60,27 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1794,
+  "questIDHigh:4": -2028582204513040610,
+  "questIDLow:4": -4707011357735640112,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 51,
           "OreDict:8": "",
-          "id:8": "cropsnh:genericSeed",
-          "tag:10": {
-            "crop:8": "cropsnh:nickelback",
-            "scan:1": 1
-          }
+          "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
-          "Count:3": 2,
-          "Damage:2": 59,
+          "Count:3": 16,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag",
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "id:2": 35,
-                "lvl:2": 3
-              }
-            }
-          }
+          "id:8": "IC2:itemHarz"
         }
-      }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
@@ -110,12 +95,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32762,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01",
-          "tag:10": {
-            "GT.ItemCharge:4": 400000
-          }
+          "id:8": "dreamcraft:MoldBoots"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "IC2:itemArmorRubBoots"
         }
       },
       "taskID:8": "bq_standard:retrieval"
