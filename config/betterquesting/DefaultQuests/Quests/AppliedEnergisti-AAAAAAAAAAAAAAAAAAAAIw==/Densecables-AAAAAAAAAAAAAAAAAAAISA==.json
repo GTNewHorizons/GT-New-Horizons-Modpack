@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2119
+      "questIDLow:4": 184
     }
   },
   "properties:10": {
@@ -17,11 +17,11 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Dense cables are going to be your network backbones. They can transfer 32 channels and display the number of channels in use. Buses and flat interfaces cannot be placed directly on them.",
+      "desc:8": "Dense cables are going to be your network backbones. They can transfer 32 channels at a time.\n\nBuses and flat interfaces cannot be placed directly on them.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 76,
+        "Damage:2": 536,
         "OreDict:8": "",
         "id:8": "appliedenergistics2:item.ItemMultiPart"
       },
@@ -29,7 +29,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Dense cables",
+      "name:8": "Dense Cables",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -91,7 +91,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 76,
+          "Damage:2": 536,
           "OreDict:8": "",
           "id:8": "appliedenergistics2:item.ItemMultiPart"
         }

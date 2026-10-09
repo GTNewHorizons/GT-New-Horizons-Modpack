@@ -2,7 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 725
+      "questIDLow:4": 1920
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 160
     }
   },
   "properties:10": {
@@ -17,19 +21,22 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Here are a few crops to spice up your solarpunk base, or help you climb up a treehouse.\n\nNo thousand block trek to the nearest Temperate Rainforest required here!",
+      "desc:8": "The portable scanner is a direct upgrade to the plant lens.\n\nJust like the lens, the scanner can tell you all the information about a crop growing inside of a crop stick, but unlike the plant lens it also displays the exact Nutrient Score provided by the crop stick.\n\n[note]The portable scanner isn\u0027t just for crops, it can tell you a lot of information about basically everything! Look for the Portable Scanner quest after the EBF quest in Multiblock Goals tab for more information![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 32762,
         "OreDict:8": "",
-        "id:8": "BiomesOPlenty:ivy"
+        "id:8": "gregtech:gt.metaitem.01",
+        "tag:10": {
+          "GT.ItemCharge:4": 400000
+        }
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Creeping Climbers",
+      "name:8": "Tools Of The Trade 6 - Electronic Scanning",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -57,7 +64,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 2048,
+  "questIDLow:4": 1794,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -66,9 +73,27 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 51,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:nickelback",
+            "scan:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 59,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
         }
       }
     }
@@ -85,52 +110,11 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 32762,
           "OreDict:8": "",
-          "id:8": "cropsnh:genericSeed",
+          "id:8": "gregtech:gt.metaitem.01",
           "tag:10": {
-            "crop:8": "cropsnh:vine",
-            "scan:1": 1
-          }
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "cropsnh:genericSeed",
-          "tag:10": {
-            "crop:8": "cropsnh:floweringVine",
-            "scan:1": 1
-          }
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "cropsnh:genericSeed",
-          "tag:10": {
-            "crop:8": "cropsnh:thornvine",
-            "scan:1": 1
-          }
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "cropsnh:genericSeed",
-          "tag:10": {
-            "crop:8": "cropsnh:ivy",
-            "scan:1": 1
-          }
-        },
-        "4:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "cropsnh:genericSeed",
-          "tag:10": {
-            "crop:8": "cropsnh:moss",
-            "scan:1": 1
+            "GT.ItemCharge:4": 400000
           }
         }
       },

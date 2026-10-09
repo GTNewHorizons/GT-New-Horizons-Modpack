@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1081
+      "questIDLow:4": 624
     }
   },
   "properties:10": {
@@ -17,18 +17,19 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Too many items getting you down? Just slap this badboy on a drawer, and any items you put in over the maximum will be automatically voided for you! More useful in combination with a Drawer Controller admittedly.",
-      "globalShare:1": 0,
+      "desc:8": "The Arc Furnace is an alternative to macerating items back into dusts. It can also make Cast Iron, Annealed Copper, and Glass (at MV). Recycling produces ingots, sometimes of different materials than you would get from a Macerator. You also have both slots at LV.\n\n[note]You can also use certain gases to boost your Arc Furnace processing speed.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 651,
         "OreDict:8": "",
-        "id:8": "StorageDrawers:upgradeVoid"
+        "id:8": "gregtech:gt.blockmachines"
       },
+      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lToo Many Items? Unpossible!",
+      "name:8": "§2§lArc Furnace",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -56,7 +57,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 2414,
+  "questIDLow:4": 662,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -65,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 4,
           "OreDict:8": "",
-          "id:8": "StorageDrawers:upgradeVoid"
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
@@ -77,10 +78,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 25,
+          "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }
@@ -90,16 +91,22 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
+      "requireOnlyOneItem:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 651,
           "OreDict:8": "",
-          "id:8": "StorageDrawers:upgradeVoid"
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 652,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
