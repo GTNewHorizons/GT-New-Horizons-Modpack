@@ -97,7 +97,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 1,
@@ -114,8 +114,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:belladonna",
-            "scan:1": 1
+            "crop:8": "cropsnh:belladonna"
           }
         }
       },
@@ -125,7 +124,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 1,
@@ -142,8 +141,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:mandrake",
-            "scan:1": 1
+            "crop:8": "cropsnh:mandrake"
           }
         }
       },
@@ -153,7 +151,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 2,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 1,
@@ -170,8 +168,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:snowbell",
-            "scan:1": 1
+            "crop:8": "cropsnh:snowbell"
           }
         }
       },
@@ -181,7 +178,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 3,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 1,
@@ -198,8 +195,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:waterArtichoke",
-            "scan:1": 1
+            "crop:8": "cropsnh:waterArtichoke"
           }
         }
       },
@@ -209,7 +205,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 4,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 1,
@@ -226,8 +222,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:wolfsbane",
-            "scan:1": 1
+            "crop:8": "cropsnh:wolfsbane"
           }
         }
       },
@@ -237,7 +232,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 5,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 1,
@@ -254,8 +249,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:garlic",
-            "scan:1": 1
+            "crop:8": "cropsnh:garlic"
           }
         }
       },
