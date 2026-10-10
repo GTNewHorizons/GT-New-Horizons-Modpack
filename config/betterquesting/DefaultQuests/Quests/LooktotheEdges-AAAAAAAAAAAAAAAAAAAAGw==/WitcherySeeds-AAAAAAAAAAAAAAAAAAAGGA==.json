@@ -114,7 +114,8 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:belladonna"
+            "crop:8": "cropsnh:belladonna",
+            "scan:1": 1
           }
         }
       },
@@ -141,7 +142,8 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:mandrake"
+            "crop:8": "cropsnh:mandrake",
+            "scan:1": 1
           }
         }
       },
@@ -168,7 +170,8 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:snowbell"
+            "crop:8": "cropsnh:snowbell",
+            "scan:1": 1
           }
         }
       },
@@ -195,7 +198,8 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:waterArtichoke"
+            "crop:8": "cropsnh:waterArtichoke",
+            "scan:1": 1
           }
         }
       },
@@ -222,7 +226,8 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:wolfsbane"
+            "crop:8": "cropsnh:wolfsbane",
+            "scan:1": 1
           }
         }
       },
@@ -249,7 +254,8 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:garlic"
+            "crop:8": "cropsnh:garlic",
+            "scan:1": 1
           }
         }
       },
