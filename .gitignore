@@ -53,7 +53,6 @@ config/warptheory/
 config/WitcheryExtras
 
 #Whitelist files modified by GT:NH from above list
-!config/AppliedEnergistics2/extracells.cfg
 !config/biomesoplenty/biomeweights.cfg
 !config/biomesoplenty/ids.cfg
 !config/biomesoplenty/terraingen.cfg
@@ -125,7 +124,6 @@ config/gtnhlib.cfg
 config/HardcoreEnderExpansion.clientsave.cfg
 config/hodgepodgeEarly.properties
 config/IC2NuclearControl.cfg
-config/IGWMod.cfg
 config/InvTweaks.cfg
 config/InvTweaksRules.txt
 config/InvTweaksTree.txt
@@ -177,7 +175,6 @@ config/structurelib.cfg
 config/tc4tweak.cfg
 config/tcnodetracker.cfg
 config/TConstruct_AOEExclusions.cfg
-config/thaumcraftneiplugin.cfg
 config/Thaumic\ Bases.cfg
 config/thaumicboots.cfg
 config/thaumicenergistics.cfg
