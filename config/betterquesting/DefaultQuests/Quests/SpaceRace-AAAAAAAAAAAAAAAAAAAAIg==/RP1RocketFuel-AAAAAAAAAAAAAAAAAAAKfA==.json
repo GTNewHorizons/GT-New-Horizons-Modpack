@@ -122,7 +122,7 @@
           "Count:3": 36,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:LiquidOxygen:cellGas"
+          "id:8": "ml:LiquidOxygen:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
