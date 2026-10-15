@@ -111,6 +111,13 @@
           "id:8": "dreamcraft:CoinTechnician"
         }
       }
+    },
+    "3:10": {
+      "amount:3": 20,
+      "ignoreDisabled:1": 0,
+      "index:3": 3,
+      "isLevels:1": 1,
+      "rewardID:8": "bq_standard:xp"
     }
   },
   "tasks:9": {
