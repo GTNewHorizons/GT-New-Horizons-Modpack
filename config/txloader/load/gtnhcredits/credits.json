@@ -220,6 +220,10 @@
       }
     },
     {
+      "name": "ABKQPO",
+      "category": "development"
+    },
+    {
       "name": "abouttabs",
       "category": {
         "donators": "stone_age"
@@ -295,6 +299,10 @@
       }
     },
     {
+      "name": "ah-OOG-ah",
+      "category": "development"
+    },
+    {
       "name": "Aiseus",
       "category": {
         "donators": "extreme_voltage"
@@ -337,6 +345,10 @@
       }
     },
     {
+      "name": "Alexdoru",
+      "category": "development"
+    },
+    {
       "name": "AlexIIL",
       "category": {
         "original_mod_authors": "mod_betterloadingscreen"
@@ -344,9 +356,12 @@
     },
     {
       "name": "algent",
-      "category": {
-        "donators": "stargate"
-      }
+      "category": [
+        "development",
+        {
+          "donators": "stargate"
+        }
+      ]
     },
     {
       "name": "AlgorithmX2",
@@ -359,6 +374,10 @@
       "category": {
         "donators": "stargate"
       }
+    },
+    {
+      "name": "alppp",
+      "category": "development"
     },
     {
       "name": "Alrightsc",
@@ -379,6 +398,10 @@
       }
     },
     {
+      "name": "Angry3vilbot",
+      "category": "development"
+    },
+    {
       "name": "Anima",
       "category": {
         "donators": "stone_age"
@@ -397,6 +420,10 @@
       }
     },
     {
+      "name": "AnsonYeung",
+      "category": "development"
+    },
+    {
       "name": "Apocal_Hyps",
       "category": {
         "donators": "steam_age"
@@ -413,6 +440,10 @@
       "category": {
         "original_mod_authors": "mod_bloodarsenal"
       }
+    },
+    {
+      "name": "Armisael5",
+      "category": "development"
     },
     {
       "name": "§6ArsinXArscosX",
@@ -494,16 +525,19 @@
     },
     {
       "name": "§dAuynonymous",
-      "category": {
-        "gt_multiblocks": [
-          {
-            "translationKey": "gt.blockmachines.multimachine.exofoundry.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.industrialcuttingmachine.controller.tier.01.name"
-          }
-        ]
-      }
+      "category": [
+        "development",
+        {
+          "gt_multiblocks": [
+            {
+              "translationKey": "gt.blockmachines.multimachine.exofoundry.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.industrialcuttingmachine.controller.tier.01.name"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Axlegear",
@@ -522,6 +556,10 @@
       "category": {
         "donators": "extreme_voltage"
       }
+    },
+    {
+      "name": "Azusfin",
+      "category": "development"
     },
     {
       "name": "Azuxul",
@@ -823,6 +861,7 @@
         {
           "project_leadership": "project_administrator"
         },
+        "development",
         {
           "donators": "stargate"
         }
@@ -920,6 +959,10 @@
       }
     },
     {
+      "name": "C0bra5",
+      "category": "development"
+    },
+    {
       "name": "C_A_T_T_",
       "category": {
         "donators": "stargate"
@@ -936,6 +979,10 @@
       "category": {
         "donators": "stargate"
       }
+    },
+    {
+      "name": "Caedis",
+      "category": "development"
     },
     {
       "name": "CaeruleusBlue",
@@ -1059,6 +1106,10 @@
       }
     },
     {
+      "name": "Chitak985",
+      "category": "development"
+    },
+    {
       "name": "chochem",
       "category": [
         "quests",
@@ -1075,19 +1126,22 @@
     },
     {
       "name": "§a§lChrom",
-      "category": {
-        "gt_multiblocks": [
-          {
-            "translationKey": "gt.blockmachines.multimachine.exofoundry.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.nanochipmodule.opticalorganizer.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.spinmatron.name"
-          }
-        ]
-      }
+      "category": [
+        "development",
+        {
+          "gt_multiblocks": [
+            {
+              "translationKey": "gt.blockmachines.multimachine.exofoundry.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.nanochipmodule.opticalorganizer.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.spinmatron.name"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "CHuDO_LD",
@@ -1177,6 +1231,10 @@
           "donators": "stone_age"
         }
       ]
+    },
+    {
+      "name": "Connor-Colenso",
+      "category": "development"
     },
     {
       "name": "Cordo52",
@@ -1285,6 +1343,10 @@
       }
     },
     {
+      "name": "cubefury",
+      "category": "development"
+    },
+    {
       "name": "cublikefoot",
       "category": {
         "donators": "stone_age"
@@ -1315,6 +1377,10 @@
       }
     },
     {
+      "name": "czqwq",
+      "category": "development"
+    },
+    {
       "name": "Daarkenis",
       "category": {
         "donators": "steam_age"
@@ -1337,6 +1403,10 @@
       "category": {
         "donators": "stone_age"
       }
+    },
+    {
+      "name": "danyadev",
+      "category": "development"
     },
     {
       "name": "Darkhax",
@@ -1364,9 +1434,12 @@
     },
     {
       "name": "DarkShadow44",
-      "category": {
-        "donators": "steam_age"
-      }
+      "category": [
+        "development",
+        {
+          "donators": "steam_age"
+        }
+      ]
     },
     {
       "name": "Darkstar1712",
@@ -1631,6 +1704,10 @@
       ]
     },
     {
+      "name": "DreamYao520",
+      "category": "development"
+    },
+    {
       "name": "Dries007",
       "category": {
         "original_mod_authors": "mod_holoinventory"
@@ -1681,6 +1758,10 @@
       }
     },
     {
+      "name": "DylanTaylor1",
+      "category": "development"
+    },
+    {
       "name": "DZCreeper",
       "category": {
         "donators": "stone_age"
@@ -1711,6 +1792,10 @@
       }
     },
     {
+      "name": "Eclipse-Sol",
+      "category": "development"
+    },
+    {
       "name": "EGERTRONx",
       "category": {
         "donators": "stone_age"
@@ -1723,8 +1808,17 @@
       }
     },
     {
+      "name": "EkVitki",
+      "category": {
+        "art_media": "visual_artist"
+      }
+    },
+    {
       "name": "Eldrinn-Elantey",
-      "category": "quests"
+      "category": [
+        "development",
+        "quests"
+      ]
     },
     {
       "name": "ElectroBot",
@@ -1752,6 +1846,12 @@
       "name": "ElNounch",
       "category": {
         "donators": "stone_age"
+      }
+    },
+    {
+      "name": "Embri",
+      "category": {
+        "wiki_documentation": "coordinator"
       }
     },
     {
@@ -1813,28 +1913,31 @@
     },
     {
       "name": "§6EvgenWarGold",
-      "category": {
-        "gt_multiblocks": [
-          {
-            "translationKey": "gt.blockmachines.treefarm.controller.tier.single.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.gtpp.multimachine.steam.mixer.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.gtpp.multimachine.steam.centrifuge.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.gtpp.multimachine.steam.forge.hammer.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.gtpp.multimachine.steam.washer.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.waterpump.controller.tier.single.name"
-          }
-        ]
-      }
+      "category": [
+        "development",
+        {
+          "gt_multiblocks": [
+            {
+              "translationKey": "gt.blockmachines.treefarm.controller.tier.single.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.gtpp.multimachine.steam.mixer.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.gtpp.multimachine.steam.centrifuge.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.gtpp.multimachine.steam.forge.hammer.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.gtpp.multimachine.steam.washer.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.waterpump.controller.tier.single.name"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Excruciation",
@@ -1886,6 +1989,14 @@
       "category": {
         "donators": "stargate"
       }
+    },
+    {
+      "name": "fehling135",
+      "category": "development"
+    },
+    {
+      "name": "felixfour",
+      "category": "development"
     },
     {
       "name": "FenixElite",
@@ -1961,7 +2072,10 @@
     },
     {
       "name": "FourIsTheNumber",
-      "category": "quests"
+      "category": [
+        "development",
+        "quests"
+      ]
     },
     {
       "name": "§6Fox",
@@ -1969,6 +2083,12 @@
         "gt_multiblocks": {
           "translationKey": "gt.blockmachines.moleculartransformer.controller.tier.single.name"
         }
+      }
+    },
+    {
+      "name": "Fox73",
+      "category": {
+        "wiki_documentation": "coordinator"
       }
     },
     {
@@ -2067,6 +2187,7 @@
     {
       "name": "GDCloudstrike",
       "category": [
+        "development",
         "quests",
         {
           "gt_multiblocks": [
@@ -2126,6 +2247,7 @@
     {
       "name": "glowredman",
       "category": [
+        "development",
         {
           "donators": "stone_age"
         },
@@ -2353,25 +2475,28 @@
     },
     {
       "name": "§6Ham§fCorp",
-      "category": {
-        "gt_multiblocks": [
-          {
-            "translationKey": "gt.blockmachines.multimachine.beam-crafter.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.beam-mirror.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.beam-splitter.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.beam-stabilizer.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.large-hadron-collider.name"
-          }
-        ]
-      }
+      "category": [
+        "development",
+        {
+          "gt_multiblocks": [
+            {
+              "translationKey": "gt.blockmachines.multimachine.beam-crafter.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.beam-mirror.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.beam-splitter.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.beam-stabilizer.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.large-hadron-collider.name"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Hamster420",
@@ -2445,6 +2570,10 @@
       "category": {
         "donators": "steam_age"
       }
+    },
+    {
+      "name": "hinyb",
+      "category": "development"
     },
     {
       "name": "Hiriko",
@@ -2630,6 +2759,10 @@
       }
     },
     {
+      "name": "iouter",
+      "category": "development"
+    },
+    {
       "name": "IrisMoonglow",
       "category": {
         "donators": "stargate"
@@ -2686,6 +2819,10 @@
       "category": {
         "donators": "stone_age"
       }
+    },
+    {
+      "name": "Jakfut",
+      "category": "development"
     },
     {
       "name": "JamesArhy",
@@ -2803,6 +2940,10 @@
       "category": {
         "donators": "stargate"
       }
+    },
+    {
+      "name": "jude123412",
+      "category": "development"
     },
     {
       "name": "jurrejelle",
@@ -3010,6 +3151,10 @@
       "category": "quests"
     },
     {
+      "name": "Kogepan229",
+      "category": "development"
+    },
+    {
       "name": "kolatra",
       "category": {
         "donators": "stargate"
@@ -3017,7 +3162,10 @@
     },
     {
       "name": "koolkrafter5",
-      "category": "quests"
+      "category": [
+        "development",
+        "quests"
+      ]
     },
     {
       "name": "Kozaczek",
@@ -3033,7 +3181,10 @@
     },
     {
       "name": "KraVoid",
-      "category": "quests"
+      "category": [
+        "development",
+        "quests"
+      ]
     },
     {
       "name": "Kremnari",
@@ -3068,6 +3219,7 @@
     {
       "name": "§4§lk§c§lu§6§lb§e§la§2§l6§a§l0§b§l0§3§l0",
       "category": [
+        "development",
         "quests",
         {
           "gt_multiblocks": [
@@ -3142,6 +3294,14 @@
       }
     },
     {
+      "name": "LazyFlesh",
+      "category": "development"
+    },
+    {
+      "name": "lc-1337",
+      "category": "development"
+    },
+    {
       "name": "leagris",
       "category": {
         "donators": "steam_age"
@@ -3214,6 +3374,10 @@
       }
     },
     {
+      "name": "loenaaaa",
+      "category": "development"
+    },
+    {
       "name": "logiando",
       "category": {
         "donators": "extreme_voltage"
@@ -3266,6 +3430,10 @@
       "category": {
         "donators": "extreme_voltage"
       }
+    },
+    {
+      "name": "Luca-Guettinger",
+      "category": "development"
     },
     {
       "name": "LucyPoindexter",
@@ -3356,6 +3524,10 @@
       }
     },
     {
+      "name": "Lyfts",
+      "category": "development"
+    },
+    {
       "name": "Lynx1311",
       "category": {
         "donators": "stargate"
@@ -3407,6 +3579,10 @@
       }
     },
     {
+      "name": "MalTeeez",
+      "category": "development"
+    },
+    {
       "name": "Mamizoi",
       "category": {
         "donators": "stargate"
@@ -3443,10 +3619,18 @@
       }
     },
     {
+      "name": "MarloGr",
+      "category": "development"
+    },
+    {
       "name": "Martebur",
       "category": {
         "donators": "extreme_voltage"
       }
+    },
+    {
+      "name": "MassAnarchyy",
+      "category": "development"
     },
     {
       "name": "Mastermind1919",
@@ -3465,6 +3649,10 @@
       "category": {
         "donators": "stone_age"
       }
+    },
+    {
+      "name": "mattiasploesch-cpu",
+      "category": "development"
     },
     {
       "name": "MattyGroGy",
@@ -3580,6 +3768,10 @@
       }
     },
     {
+      "name": "micvog",
+      "category": "development"
+    },
+    {
       "name": "Mikee",
       "category": {
         "original_mod_authors": [
@@ -3649,10 +3841,22 @@
       }
     },
     {
+      "name": "mitchej123",
+      "category": "development"
+    },
+    {
       "name": "Mivhs",
       "category": {
         "donators": "stone_age"
       }
+    },
+    {
+      "name": "MLGfruitshoot",
+      "category": "development"
+    },
+    {
+      "name": "mllfjn",
+      "category": "development"
     },
     {
       "name": "MomoNasty",
@@ -3860,6 +4064,10 @@
       ]
     },
     {
+      "name": "Nana-Sakura",
+      "category": "development"
+    },
+    {
       "name": "Naomuh",
       "category": {
         "donators": "stone_age"
@@ -3987,6 +4195,10 @@
       }
     },
     {
+      "name": "Nikolay-Sitnikov",
+      "category": "development"
+    },
+    {
       "name": "Nividica",
       "category": {
         "original_mod_authors": "mod_thaumicenergistics"
@@ -4100,6 +4312,10 @@
       ]
     },
     {
+      "name": "NotKaizul",
+      "category": "development"
+    },
+    {
       "name": "Novhex",
       "category": {
         "donators": "stone_age"
@@ -4199,6 +4415,9 @@
           ]
         },
         {
+          "wiki_documentation": "coordinator"
+        },
+        {
           "donators": "stargate"
         }
       ]
@@ -4279,9 +4498,12 @@
     },
     {
       "name": "OTPANNIEXD",
-      "category": {
-        "donators": "steam_age"
-      }
+      "category": [
+        "development",
+        {
+          "donators": "steam_age"
+        }
+      ]
     },
     {
       "name": "Ourten",
@@ -4425,6 +4647,10 @@
       "category": {
         "original_mod_authors": "mod_thaumictinkerer"
       }
+    },
+    {
+      "name": "PLASMAchicken",
+      "category": "development"
     },
     {
       "name": "Plem",
@@ -4574,6 +4800,7 @@
     {
       "name": "§1§lPxx500",
       "category": [
+        "development",
         "quests",
         {
           "gt_multiblocks": [
@@ -4610,6 +4837,10 @@
       "category": {
         "donators": "stargate"
       }
+    },
+    {
+      "name": "querns",
+      "category": "development"
     },
     {
       "name": "Quintine",
@@ -4666,6 +4897,10 @@
       }
     },
     {
+      "name": "Ranzuu",
+      "category": "development"
+    },
+    {
       "name": "Ray_CZ",
       "category": {
         "donators": "stone_age"
@@ -4691,28 +4926,31 @@
     },
     {
       "name": "§9Recursive Pineapple",
-      "category": {
-        "gt_multiblocks": [
-          {
-            "translationKey": "gt.blockmachines.multi.bec.assembler.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multi.bec.diode.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multi.bec.generator.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multi.bec.io-node.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multi.bec.storage.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.wormhole.name"
-          }
-        ]
-      }
+      "category": [
+        "development",
+        {
+          "gt_multiblocks": [
+            {
+              "translationKey": "gt.blockmachines.multi.bec.assembler.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multi.bec.diode.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multi.bec.generator.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multi.bec.io-node.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multi.bec.storage.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.wormhole.name"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "RedNicStone",
@@ -4764,9 +5002,12 @@
     },
     {
       "name": "Ressed450",
-      "category": {
-        "donators": "stone_age"
-      }
+      "category": [
+        "development",
+        {
+          "donators": "stone_age"
+        }
+      ]
     },
     {
       "name": "resursator",
@@ -4845,6 +5086,10 @@
       }
     },
     {
+      "name": "Ruling-0",
+      "category": "development"
+    },
+    {
       "name": "Runakai",
       "category": {
         "gt_multiblocks": {
@@ -4889,6 +5134,10 @@
       }
     },
     {
+      "name": "Sanduhr32",
+      "category": "development"
+    },
+    {
       "name": "Sangar",
       "category": {
         "original_mod_authors": "mod_opencomputers"
@@ -4899,6 +5148,10 @@
       "category": {
         "donators": "stone_age"
       }
+    },
+    {
+      "name": "sbancuz",
+      "category": "development"
     },
     {
       "name": "Schlaibi",
@@ -4956,13 +5209,20 @@
     },
     {
       "name": "serenibyss",
-      "category": "quests"
+      "category": [
+        "development",
+        "quests"
+      ]
     },
     {
       "name": "serguzzle",
       "category": {
         "donators": "stargate"
       }
+    },
+    {
+      "name": "seventh-june",
+      "category": "development"
     },
     {
       "name": "shadowfacts",
@@ -5009,6 +5269,10 @@
       }
     },
     {
+      "name": "shironakoushi",
+      "category": "development"
+    },
+    {
       "name": "shpaass",
       "category": "quests"
     },
@@ -5053,11 +5317,14 @@
     },
     {
       "name": "§bSilverMoon",
-      "category": {
-        "gt_multiblocks": {
-          "translationKey": "gt.blockmachines.multimachine_dronecentre.name"
+      "category": [
+        "development",
+        {
+          "gt_multiblocks": {
+            "translationKey": "gt.blockmachines.multimachine_dronecentre.name"
+          }
         }
-      }
+      ]
     },
     {
       "name": "Simon6689",
@@ -5096,6 +5363,14 @@
       }
     },
     {
+      "name": "sisyphussy",
+      "category": "development"
+    },
+    {
+      "name": "SkorchedEU",
+      "category": "development"
+    },
+    {
       "name": "SlavetotheMetal",
       "category": {
         "donators": "stargate"
@@ -5106,6 +5381,10 @@
       "category": {
         "donators": "stargate"
       }
+    },
+    {
+      "name": "slprime",
+      "category": "development"
     },
     {
       "name": "slyd0x",
@@ -5205,9 +5484,12 @@
     },
     {
       "name": "Spagheetti",
-      "category": {
-        "donators": "stone_age"
-      }
+      "category": [
+        "development",
+        {
+          "donators": "stone_age"
+        }
+      ]
     },
     {
       "name": "SPARKPLUGx44",
@@ -5380,6 +5662,10 @@
       }
     },
     {
+      "name": "SuperSoupr",
+      "category": "development"
+    },
+    {
       "name": "SvenVanSnooze",
       "category": {
         "donators": "steam_age"
@@ -5516,6 +5802,10 @@
       }
     },
     {
+      "name": "thehoblit",
+      "category": "development"
+    },
+    {
       "name": "TheKawaiiLeafeon",
       "category": {
         "donators": "extreme_voltage"
@@ -5570,6 +5860,10 @@
       }
     },
     {
+      "name": "TheYoingLad",
+      "category": "development"
+    },
+    {
       "name": "Thokert",
       "category": {
         "donators": "extreme_voltage"
@@ -5588,6 +5882,10 @@
           "translationKey": "gt.blockmachines.multimachine.latex.name"
         }
       }
+    },
+    {
+      "name": "tiffit",
+      "category": "development"
     },
     {
       "name": "TigersFangs",
@@ -5638,6 +5936,10 @@
       "category": {
         "donators": "steam_age"
       }
+    },
+    {
+      "name": "TotallyNotOndre",
+      "category": "development"
     },
     {
       "name": "TotegeReplica",
@@ -5744,6 +6046,7 @@
     {
       "name": "Ultra_Prodigy",
       "category": [
+        "development",
         {
           "quests": "coordinator"
         },
@@ -5829,6 +6132,10 @@
       "category": {
         "donators": "steam_age"
       }
+    },
+    {
+      "name": "vermz99",
+      "category": "development"
     },
     {
       "name": "Vernyro",
@@ -5929,40 +6236,43 @@
     },
     {
       "name": "§6VorTex",
-      "category": {
-        "gt_multiblocks": [
-          {
-            "translationKey": "gt.blockmachines.industrialrockcrusher.controller.tier.single.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.industrialmacerator.controller.tier.single.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.industrialsifter.controller.tier.single.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.largergasturbine.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.largerhpturbine.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.largerplasmaturbine.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.largerscturbine.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.multimachine.largerturbine.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.industrial.fishpond.controller.tier.single.name"
-          },
-          {
-            "translationKey": "gt.blockmachines.industrialelectrolyzer.controller.tier.single.name"
-          }
-        ]
-      }
+      "category": [
+        "development",
+        {
+          "gt_multiblocks": [
+            {
+              "translationKey": "gt.blockmachines.industrialrockcrusher.controller.tier.single.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.industrialmacerator.controller.tier.single.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.industrialsifter.controller.tier.single.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.largergasturbine.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.largerhpturbine.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.largerplasmaturbine.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.largerscturbine.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.multimachine.largerturbine.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.industrial.fishpond.controller.tier.single.name"
+            },
+            {
+              "translationKey": "gt.blockmachines.industrialelectrolyzer.controller.tier.single.name"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "VovAksenov",
@@ -6048,6 +6358,10 @@
       "category": {
         "donators": "stone_age"
       }
+    },
+    {
+      "name": "wlhlm",
+      "category": "development"
     },
     {
       "name": "wnoa",
@@ -6206,7 +6520,10 @@
     },
     {
       "name": "YannickMG",
-      "category": "quests"
+      "category": [
+        "development",
+        "quests"
+      ]
     },
     {
       "name": "Yarntheory",
@@ -6228,7 +6545,10 @@
     },
     {
       "name": "Yoshy2002",
-      "category": "quests"
+      "category": [
+        "development",
+        "quests"
+      ]
     },
     {
       "name": "YoungOnion",
@@ -6287,6 +6607,10 @@
       "category": {
         "donators": "stone_age"
       }
+    },
+    {
+      "name": "zaru-noodles",
+      "category": "development"
     },
     {
       "name": "zedle",
