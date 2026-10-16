@@ -36,8 +36,6 @@
     <loot item="Railcraft:cube" damage="2" weight="5" count_min="1" count_max="1"/>
     <loot item="Thaumcraft:ItemResource" damage="2" weight="10" count_min="1" count_max="3"/>
     <loot item="gregtech:gt.metaitem.01" damage="32765" weight="1" count_min="1" count_max="1"/>
-    <loot item="gregtech:gt.metaitem.01" damage="2030" weight="6" count_min="1" count_max="4"/>
-    <loot item="gregtech:gt.metaitem.01" damage="2067" weight="6" count_min="2" count_max="8"/>
     <loot item="gregtech:gt.metaitem.01" damage="11031" weight="12" count_min="2" count_max="8"/>
     <loot item="gregtech:gt.metaitem.01" damage="11305" weight="12" count_min="4" count_max="12"/>
     <loot item="gregtech:gt.metaitem.01" damage="11300" weight="12" count_min="4" count_max="12"/>
@@ -94,5 +92,4 @@
 	<loot item="gregtech:gt.blockmachines" damage="1360" weight="6" count_min="4" count_max="8"/>
 	<loot item="gregtech:gt.blockmachines" damage="1240" weight="6" count_min="4" count_max="8"/>
 	<loot item="gregtech:gt.metaitem.02" damage="19035" weight="5" count_min="4" count_max="8"/>	
-	<loot item="TConstruct:scythe" damage="0" nbt="{InfiTool:{HarvestLevel:4,Diamond:1b,BaseDurability:2137,BonusDurability:500,Effect2:1,Tooltip3:&quot;&quot;,Broken:0b,ToolEXP:0L,Shoddy:0.0f,Attack:7,Accessory:14,Head:14,ModDurability:0.5f,Lapis:[450,4,],MiningSpeed:1050,RenderAccessory:14,Tooltip4:&quot;§9Luck&quot;,Modifiers:0,ModifierTip5:&quot;§4Redstone (50/50)&quot;,TotalDurability:3955,Tooltip2:&quot;§2Durability +50%&quot;,Tooltip1:&quot;§bDurability +500&quot;,RenderHead:14,Reinforced:1,ModifierTip3:&quot;§5Reinforced I&quot;,ModifierTip2:&quot;§2Emerald&quot;,ModifierTip1:&quot;§bDiamond&quot;,Emerald:1b,Tooltip5:&quot;§4Haste&quot;,Handle:14,Damage:0,BaseAttack:7,Extra:14,RenderHandle:14,Unbreaking:2,RenderExtra:14,Effect1:0,Redstone:[50,50,5,],Effect3:16,Effect4:10,Effect5:2,ToolLevel:1,ModifierTip4:&quot;§9Lapis (450/450)&quot;},ench:[0:{id:21s,lvl:3s},1:{id:35s,lvl:3s}]}" weight="1" count_min="1" count_max="1"/>	
 	</LootGroup>
