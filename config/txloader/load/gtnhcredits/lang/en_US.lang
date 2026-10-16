@@ -1,0 +1,181 @@
+# Credit categories
+credits.category.project_leadership=Project Leadership
+credits.category.project_leadership.detail=The founder and project administrators who shaped, organized and guided GT New Horizons.
+
+credits.category.original_mod_authors=Original Mod Authors
+credits.category.original_mod_authors.detail=The original and joint creators of mods continued or maintained by GT New Horizons.
+
+credits.category.development=Development
+credits.category.development.detail=The people who contributed mod code, recipes, configuration, scripts, progression, balance, integrations and performance improvements to GT New Horizons.
+
+credits.category.quests=Quests
+credits.category.quests.detail=The people who designed, wrote, implemented, reviewed and maintained the GTNH quest book.
+
+credits.category.gt_multiblocks=GT Multiblocks
+credits.category.gt_multiblocks.detail=The original and joint creators of the named GregTech multiblock machines.
+
+credits.category.testing_qa=Testing & Quality Assurance
+credits.category.testing_qa.detail=The people who contributed testing, useful reproductions, regression coverage and issue triage.
+
+credits.category.build_infrastructure=Build & Infrastructure
+credits.category.build_infrastructure.detail=The people who operated official systems and contributed hosting, build tooling, continuous integration, packaging and release automation.
+
+credits.category.wiki_documentation=Documentation
+credits.category.wiki_documentation.detail=The people who contributed wiki content, guides, references and technical or contributor documentation.
+
+credits.category.localization=Localization
+credits.category.localization.detail=The people who translated, reviewed and adapted GTNH's text for players across languages and locales.
+
+credits.category.art_media=Art & Media
+credits.category.art_media.detail=The people who created GTNH's visual and audio assets, models, interface art, branding and media.
+
+credits.category.community=Community
+credits.category.community.detail=The people who supported players, moderated official community spaces and organized community activity.
+
+credits.category.donators=Donors
+credits.category.donators.detail=The people who financially supported GT New Horizons through the official GTNH Shop. Each label records the documented donation tier.
+
+# Contribution labels
+credits.person.role.founder=Founder
+credits.person.role.project_administrator=Project Administrator
+credits.person.role.coordinator=Coordinator
+credits.person.role.ticket_triager=Issue Triager
+credits.person.role.test_automation=Test Automation
+credits.person.role.systems_administrator=System Administrator
+credits.person.role.build_automation=Build & Release Automation
+credits.person.role.translation_reviewer=Translation Reviewer
+credits.person.role.visual_artist=Visual Artist
+credits.person.role.sound_designer=Sound Designer
+credits.person.role.moderator=Moderator
+credits.person.role.player_support=Player Support
+
+# Original mod names
+credits.person.role.mod_advancedsystemsmanager=Advanced Systems Manager
+credits.person.role.mod_adventurebackpack=Adventure Backpack
+credits.person.role.mod_ae2=Applied Energistics 2
+credits.person.role.mod_ae2stuff=AE2 Stuff
+credits.person.role.mod_afsu=AFSU
+credits.person.role.mod_alchemygrate=Alchemical Grate
+credits.person.role.mod_amunra=Amun-Ra
+credits.person.role.mod_applecore=AppleCore
+credits.person.role.mod_architecturecraft=ArchitectureCraft
+credits.person.role.mod_asielib=AsieLib
+credits.person.role.mod_automagy=Automagy
+credits.person.role.mod_avaritia=Avaritia
+credits.person.role.mod_avaritiaddons=Avaritiaddons
+credits.person.role.mod_backpack=Backpack
+credits.person.role.mod_baubles=Baubles
+credits.person.role.mod_baublesexpanded=Baubles Expanded
+credits.person.role.mod_bdlib=BdLib
+credits.person.role.mod_beebetteratbees=BeeBetterAtBees
+credits.person.role.mod_betterachievements=Better Achievements
+credits.person.role.mod_betterbuilderswands=Better Builder's Wands
+credits.person.role.mod_betterloadingscreen=Better Loading Screen
+credits.person.role.mod_betterquesting=Better Questing
+credits.person.role.mod_betterstorage=BetterStorage
+credits.person.role.mod_bloodarsenal=Blood Arsenal
+credits.person.role.mod_bloodmagic=Blood Magic: Alchemical Wizardry
+credits.person.role.mod_botania=Botania
+credits.person.role.mod_botanichorizons=Botanic Horizons
+credits.person.role.mod_bugtorch=BugTorch
+credits.person.role.mod_buildcraft=BuildCraft
+credits.person.role.mod_carpentersblocks=Carpenter's Blocks
+credits.person.role.mod_catwalks=Catwalks
+credits.person.role.mod_chiseltones=Chisel Tones
+credits.person.role.mod_climatecontrol=Climate Control
+credits.person.role.mod_codechickencore=CodeChicken Core
+credits.person.role.mod_computronics=Computronics
+credits.person.role.mod_controlling=Controlling
+credits.person.role.mod_cookingforblockheads=Cooking for Blockheads
+credits.person.role.mod_cosmeticarmor=Cosmetic Armor
+credits.person.role.mod_craftguide=CraftGuide
+credits.person.role.mod_crafttweaker=CraftTweaker
+credits.person.role.mod_custommainmenu=Custom Main Menu
+credits.person.role.mod_draconicevolution=Draconic Evolution
+credits.person.role.mod_endercore=EnderCore
+credits.person.role.mod_enderio=Ender IO
+credits.person.role.mod_enderzoo=Ender Zoo
+credits.person.role.mod_etfuturum=Et Futurum Requiem
+credits.person.role.mod_floodlights=Flood Lights
+credits.person.role.mod_foamfix=FoamFix
+credits.person.role.mod_forbiddenmagic=Forbidden Magic
+credits.person.role.mod_forestry=Forestry
+credits.person.role.mod_forgelin=Forgelin
+credits.person.role.mod_forgemultipart=Forge Multipart
+credits.person.role.mod_forgerelocation=Forge Relocation
+credits.person.role.mod_galacticraft=Galacticraft
+credits.person.role.mod_galaxyspace=GalaxySpace
+credits.person.role.mod_gendustry=Gendustry
+credits.person.role.mod_gregtech=GregTech
+credits.person.role.mod_harvestcraft=Pam's HarvestCraft
+credits.person.role.mod_hee=Hardcore Ender Expansion
+credits.person.role.mod_holoinventory=Holo Inventory
+credits.person.role.mod_infernalmobs=Infernal Mobs
+credits.person.role.mod_ingameinfoxml=InGame Info XML
+credits.person.role.mod_ironchest=Iron Chest
+credits.person.role.mod_littletiles=LittleTiles
+credits.person.role.mod_logisticspipes=Logistics Pipes
+credits.person.role.mod_lunatriuscore=LunatriusCore
+credits.person.role.mod_magicbees=Magic Bees
+credits.person.role.mod_malisisdoors=Malisis' Doors
+credits.person.role.mod_mantle=Mantle
+credits.person.role.mod_modtweaker=ModTweaker
+credits.person.role.mod_mousetweaks=Mouse Tweaks
+credits.person.role.mod_mrtjpcore=MrTJPCore
+credits.person.role.mod_natura=Natura
+credits.person.role.mod_naturescompass=Nature's Compass
+credits.person.role.mod_nei=Not Enough Items
+credits.person.role.mod_neiaddons=NEI Addons
+credits.person.role.mod_neiintegration=NEI Integration
+credits.person.role.mod_nodalmechanics=Nodal Mechanics
+credits.person.role.mod_nuclearcontrol=Nuclear Control 2
+credits.person.role.mod_nutrition=Nutrition
+credits.person.role.mod_openblocks=OpenBlocks
+credits.person.role.mod_opencomputers=OpenComputers
+credits.person.role.mod_openmodslib=OpenModsLib
+credits.person.role.mod_openmodularturrets=Open Modular Turrets
+credits.person.role.mod_opis=Opis
+credits.person.role.mod_projectblue=Project Blue
+credits.person.role.mod_projectred=ProjectRed
+credits.person.role.mod_railcraft=Railcraft
+credits.person.role.mod_remoteio=RemoteIO
+credits.person.role.mod_roguelikedungeons=Roguelike Dungeons
+credits.person.role.mod_schematica=Schematica
+credits.person.role.mod_sgcraft=SG Craft
+credits.person.role.mod_specialai=Special AI
+credits.person.role.mod_specialmobs=Special Mobs
+credits.person.role.mod_spiceoflife=The Spice of Life
+credits.person.role.mod_stevesaddons=Steve's Addons
+credits.person.role.mod_stevescarts=Steve's Carts 2
+credits.person.role.mod_stevesfactorymanager=Steve's Factory Manager
+credits.person.role.mod_storagedrawers=Storage Drawers
+credits.person.role.mod_taintedmagic=Tainted Magic
+credits.person.role.mod_tconstruct=Tinkers' Construct
+credits.person.role.mod_thaumicenergistics=Thaumic Energistics
+credits.person.role.mod_thaumicexploration=Thaumic Exploration
+credits.person.role.mod_thaumichorizons=Thaumic Horizons
+credits.person.role.mod_thaumictinkerer=Thaumic Tinkerer
+credits.person.role.mod_tictooltips=TiC Tooltips
+credits.person.role.mod_tinkersgregworks=Tinkers' Gregworks
+credits.person.role.mod_tinkersmechworks=Tinkers Mechworks
+credits.person.role.mod_toomuchloot=TooMuchLoot
+credits.person.role.mod_translocators=Translocators
+credits.person.role.mod_twilightforest=The Twilight Forest
+credits.person.role.mod_universalsingularities=Universal Singularities
+credits.person.role.mod_villagenames=Village Names
+credits.person.role.mod_waila=Waila
+credits.person.role.mod_wailaharvestability=Waila Harvestability
+credits.person.role.mod_wailaplugins=WAILA Plugins
+credits.person.role.mod_wanionlib=WanionLib
+credits.person.role.mod_warptheory=WarpTheory
+credits.person.role.mod_wawla=What Are We Looking At
+credits.person.role.mod_wirelesscraftingterm=Wireless Crafting Terminal
+credits.person.role.mod_witchinggadgets=Witching Gadgets
+credits.person.role.mod_wrcbe=Wireless Redstone CBE
+
+# Donation tiers
+credits.person.role.stargate=Stargate
+credits.person.role.ultimate_voltage=Ultimate Voltage
+credits.person.role.extreme_voltage=Extreme Voltage
+credits.person.role.steam_age=Steam Age
+credits.person.role.stone_age=Stone Age
