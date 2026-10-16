@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_desert_house" loading_mode="OVERRIDE" count_min="3" count_max="9">
+    <loot item="minecraft:clay_ball" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:dye" damage="2" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:cactus" damage="0" weight="10" count_min="1" count_max="4"/>
+    <loot item="minecraft:wheat" damage="0" weight="10" count_min="1" count_max="7"/>
+    <loot item="minecraft:bread" damage="0" weight="10" count_min="1" count_max="4"/>
+    <loot item="minecraft:book" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:deadbush" damage="0" weight="2" count_min="1" count_max="3"/>
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="3"/>
+</LootGroup>

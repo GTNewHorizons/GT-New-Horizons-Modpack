@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="TinkerPatterns" loading_mode="OVERRIDE" count_min="5" count_max="30">
+    <loot item="TConstruct:woodPattern" damage="1" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="2" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="3" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="4" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="5" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="6" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="7" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="8" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="9" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="10" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="11" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="12" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="13" weight="20" count_min="1" count_max="3"/>
+    <loot item="TConstruct:woodPattern" damage="22" weight="40" count_min="1" count_max="3"/>
+</LootGroup>

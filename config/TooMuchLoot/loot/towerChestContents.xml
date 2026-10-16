@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="towerChestContents" loading_mode="OVERRIDE" count_min="0" count_max="0">
+    <loot item="WitchingGadgets:item.WG_Material" damage="8" weight="8" count_min="1" count_max="1"/>
+</LootGroup>

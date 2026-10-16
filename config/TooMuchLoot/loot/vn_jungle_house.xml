@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_jungle_house" loading_mode="OVERRIDE" count_min="3" count_max="9">
+    <loot item="minecraft:bread" damage="0" weight="10" count_min="1" count_max="4"/>
+    <loot item="minecraft:emerald" damage="0" weight="2" count_min="1" count_max="4"/>
+    <loot item="TConstruct:materials" damage="19" weight="1" count_min="1" count_max="5"/>
+    <loot item="minecraft:sapling" damage="3" weight="3" count_min="1" count_max="5"/>
+    <loot item="minecraft:log" damage="3" weight="10" count_min="1" count_max="5"/>
+    <loot item="minecraft:sign" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:vine" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="minecraft:torch" damage="0" weight="1" count_min="1" count_max="2"/>
+    <loot item="minecraft:feather" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:chicken" damage="0" weight="3" count_min="1" count_max="2"/>
+</LootGroup>

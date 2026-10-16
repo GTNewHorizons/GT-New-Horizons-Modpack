@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_toolsmith" loading_mode="OVERRIDE" count_min="3" count_max="9">
+    <loot item="VillageNames:codex" damage="0" weight="3" count_min="1" count_max="1"/>
+    <loot item="minecraft:diamond" damage="0" weight="1" count_min="1" count_max="3"/>
+    <loot item="minecraft:iron_ingot" damage="0" weight="5" count_min="1" count_max="5"/>
+    <loot item="minecraft:gold_ingot" damage="0" weight="1" count_min="1" count_max="3"/>
+    <loot item="minecraft:bread" damage="0" weight="15" count_min="1" count_max="3"/>
+    <loot item="minecraft:iron_pickaxe" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="minecraft:coal" damage="0" weight="1" count_min="1" count_max="3"/>
+    <loot item="minecraft:stick" damage="0" weight="20" count_min="1" count_max="3"/>
+    <loot item="minecraft:iron_shovel" damage="0" weight="5" count_min="1" count_max="1"/>
+</LootGroup>

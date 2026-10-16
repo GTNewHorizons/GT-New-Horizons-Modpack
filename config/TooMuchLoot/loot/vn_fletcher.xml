@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_fletcher" loading_mode="OVERRIDE" count_min="1" count_max="6">
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:arrow" damage="0" weight="2" count_min="1" count_max="3"/>
+    <loot item="minecraft:feather" damage="0" weight="6" count_min="1" count_max="3"/>
+    <loot item="minecraft:egg" damage="0" weight="2" count_min="1" count_max="3"/>
+    <loot item="minecraft:flint" damage="0" weight="6" count_min="1" count_max="3"/>
+    <loot item="minecraft:stick" damage="0" weight="6" count_min="1" count_max="3"/>
+</LootGroup>

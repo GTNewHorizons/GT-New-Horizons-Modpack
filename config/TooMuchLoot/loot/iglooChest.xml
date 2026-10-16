@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="iglooChest" loading_mode="OVERRIDE" count_min="2" count_max="9">
+    <loot item="minecraft:apple" damage="0" weight="15" count_min="1" count_max="3"/>
+    <loot item="minecraft:coal" damage="0" weight="15" count_min="1" count_max="4"/>
+    <loot item="minecraft:gold_nugget" damage="0" weight="10" count_min="1" count_max="3"/>
+    <loot item="minecraft:stone_axe" damage="0" weight="2" count_min="1" count_max="1"/>
+    <loot item="minecraft:rotten_flesh" damage="0" weight="10" count_min="1" count_max="1"/>
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:wheat" damage="0" weight="10" count_min="2" count_max="3"/>
+    <loot item="VillageNames:codex" damage="0" weight="8" count_min="1" count_max="1"/>
+</LootGroup>

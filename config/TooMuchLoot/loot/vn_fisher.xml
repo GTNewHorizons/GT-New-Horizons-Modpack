@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_fisher" loading_mode="OVERRIDE" count_min="1" count_max="6">
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:fish" damage="0" weight="2" count_min="1" count_max="3"/>
+    <loot item="minecraft:fish" damage="1" weight="1" count_min="1" count_max="3"/>
+    <loot item="minecraft:water_bucket" damage="0" weight="1" count_min="1" count_max="3"/>
+    <loot item="etfuturum:barrel" damage="0" weight="1" count_min="1" count_max="3"/>
+    <loot item="minecraft:clay_ball" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:wheat_seeds" damage="0" weight="3" count_min="1" count_max="3"/>
+    <loot item="minecraft:coal" damage="0" weight="2" count_min="1" count_max="3"/>
+</LootGroup>

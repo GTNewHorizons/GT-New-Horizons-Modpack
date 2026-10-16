@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_mason" loading_mode="OVERRIDE" count_min="1" count_max="6">
+    <loot item="VillageNames:codex" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:clay_ball" damage="0" weight="1" count_min="1" count_max="3"/>
+    <loot item="minecraft:flower_pot" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:stone" damage="0" weight="2" count_min="1" count_max="1"/>
+    <loot item="minecraft:stonebrick" damage="0" weight="2" count_min="1" count_max="1"/>
+    <loot item="minecraft:bread" damage="0" weight="4" count_min="1" count_max="4"/>
+    <loot item="minecraft:dye" damage="11" weight="1" count_min="1" count_max="1"/>
+    <loot item="etfuturum:smooth_stone" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="1"/>
+</LootGroup>

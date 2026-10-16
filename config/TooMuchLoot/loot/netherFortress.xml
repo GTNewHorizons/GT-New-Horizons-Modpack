@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="netherFortress" loading_mode="OVERRIDE" count_min="2" count_max="5">
+    <loot item="minecraft:diamond" damage="0" weight="5" count_min="1" count_max="3"/>
+    <loot item="minecraft:iron_ingot" damage="0" weight="5" count_min="1" count_max="5"/>
+    <loot item="minecraft:gold_ingot" damage="0" weight="15" count_min="1" count_max="3"/>
+    <loot item="minecraft:golden_sword" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="minecraft:golden_chestplate" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="minecraft:flint_and_steel" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="minecraft:nether_wart" damage="0" weight="5" count_min="3" count_max="7"/>
+    <loot item="minecraft:saddle" damage="0" weight="10" count_min="1" count_max="1"/>
+    <loot item="minecraft:golden_horse_armor" damage="0" weight="8" count_min="1" count_max="1"/>
+    <loot item="minecraft:iron_horse_armor" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="minecraft:diamond_horse_armor" damage="0" weight="3" count_min="1" count_max="1"/>
+    <loot item="etfuturum:pigstep_record" damage="0" weight="5" count_min="1" count_max="1"/>
+</LootGroup>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="iglooChestGoldapple" loading_mode="OVERRIDE" count_min="1" count_max="1">
+    <loot item="minecraft:golden_apple" damage="0" weight="1" count_min="1" count_max="1"/>
+</LootGroup>

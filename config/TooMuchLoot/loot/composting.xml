@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="composting" loading_mode="OVERRIDE" count_min="1" count_max="1">
+    <loot item="minecraft:dye" damage="15" weight="10" count_min="5" count_max="10"/>
+    <loot item="Forestry:fertilizerBio" damage="0" weight="5" count_min="2" count_max="5"/>
+    <loot item="Forestry:fertilizerCompound" damage="0" weight="10" count_min="2" count_max="5"/>
+    <loot item="cropsnh:fertilizer" damage="0" weight="10" count_min="2" count_max="5"/>
+    <loot item="cropsnh:fertilizerCell" damage="0" weight="5" count_min="1" count_max="
+    <loot item="cropsnh:cropSticks" damage="0" weight="15" count_min="10" count_max="20"/>
+</LootGroup>

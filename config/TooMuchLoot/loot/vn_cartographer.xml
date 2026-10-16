@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_cartographer" loading_mode="OVERRIDE" count_min="1" count_max="6">
+    <loot item="VillageNames:codex" damage="0" weight="4" count_min="1" count_max="2"/>
+    <loot item="minecraft:map" damage="0" weight="10" count_min="1" count_max="3"/>
+    <loot item="minecraft:paper" damage="0" weight="15" count_min="1" count_max="5"/>
+    <loot item="minecraft:compass" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="minecraft:bread" damage="0" weight="15" count_min="1" count_max="4"/>
+    <loot item="minecraft:stick" damage="0" weight="5" count_min="1" count_max="2"/>
+</LootGroup>
