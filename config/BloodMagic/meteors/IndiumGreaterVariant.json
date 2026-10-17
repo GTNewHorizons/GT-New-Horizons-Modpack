@@ -4,9 +4,13 @@
     "OREDICT:oreEndstoneGalena:1600",
     "OREDICT:oreEndstoneSilver:800",
     "OREDICT:oreEndstoneSphalerite:800",
-    "OREDICT:oreEndstoneIndium:1"
+    "OREDICT:oreEndstoneIndium:10"
+  ],
+  "filler": [
+    "OREDICT:endstone:200"
   ],
   "radius": 14,
   "cost": 50000000,
-  "focusItem": "gregtech:gt.metaitem.03:32094"
+  "focusItem": "gregtech:gt.metaitem.03:32094",
+  "fillerChance": 70
 }
