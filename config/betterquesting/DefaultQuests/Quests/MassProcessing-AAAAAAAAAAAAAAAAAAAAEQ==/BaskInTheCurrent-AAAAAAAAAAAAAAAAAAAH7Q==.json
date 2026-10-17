@@ -107,9 +107,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 175,
-          "Damage:2": 305,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Steel:frameGt"
         },
         "1:10": {
           "Count:3": 168,
@@ -125,9 +125,9 @@
         },
         "3:10": {
           "Count:3": 72,
-          "Damage:2": 32090,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:bw.werkstoffblockscasing.01"
+          "id:8": "ml:Naquadah:blockCasing"
         },
         "4:10": {
           "Count:3": 30,

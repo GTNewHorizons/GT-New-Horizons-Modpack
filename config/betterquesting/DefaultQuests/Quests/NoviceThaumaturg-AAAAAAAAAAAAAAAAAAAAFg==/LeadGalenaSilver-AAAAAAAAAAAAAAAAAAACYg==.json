@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 830,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "ml:Galena:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -104,27 +104,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 830,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Galena:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 54,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Silver:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 89,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Lead:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 699,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Cryolite:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -140,27 +140,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 5830,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Galena:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 5054,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Silver:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 5089,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Lead:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 5699,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Cryolite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"

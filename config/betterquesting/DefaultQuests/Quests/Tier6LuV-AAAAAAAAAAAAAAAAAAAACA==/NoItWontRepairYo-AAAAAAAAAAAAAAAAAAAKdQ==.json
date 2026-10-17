@@ -93,15 +93,15 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 30724,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Lubricant:cell"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 27305,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Steel:screw"
         },
         "3:10": {
           "Count:3": 2,

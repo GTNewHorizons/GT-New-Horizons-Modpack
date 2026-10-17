@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "bartworks:gt.bwMetaGeneratedingot"
+        "id:8": "ml:Zirconium:ingot"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -67,9 +67,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 3,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedingot"
+          "id:8": "ml:Zirconium:ingot"
         }
       },
       "ignoreDisabled:1": 0,
@@ -89,15 +89,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 11010,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:ZirconiumTetrachlorideSolution:cell"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 2018,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Magnesium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -113,9 +113,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 3,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedingot"
+          "id:8": "ml:Zirconium:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

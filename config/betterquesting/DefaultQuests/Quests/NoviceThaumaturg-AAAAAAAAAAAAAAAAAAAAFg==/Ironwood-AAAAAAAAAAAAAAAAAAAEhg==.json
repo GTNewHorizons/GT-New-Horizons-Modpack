@@ -134,21 +134,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 2832,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:LiveRoot:dust"
         },
         "1:10": {
           "Count:3": 9,
-          "Damage:2": 2032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:dust"
         },
         "2:10": {
           "Count:3": 9,
-          "Damage:2": 86,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Gold:dustTiny"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -164,9 +164,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
-          "Damage:2": 2338,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:IronWood:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

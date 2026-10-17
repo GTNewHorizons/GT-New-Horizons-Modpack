@@ -92,9 +92,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 17500,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Diamond:plate"
         },
         "2:10": {
           "Count:3": 2,
@@ -145,27 +145,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 24500,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Diamond:lens"
         },
         "1:10": {
           "Count:3": 6,
-          "Damage:2": 17500,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Diamond:plate"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 28303,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Electrum:ring"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 26303,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Electrum:bolt"
         },
         "4:10": {
           "Count:3": 17,
@@ -175,9 +175,9 @@
         },
         "5:10": {
           "Count:3": 3,
-          "Damage:2": 17804,
+          "Damage:2": 0,
           "OreDict:8": "plateObsidian",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Obsidian:plate"
         },
         "6:10": {
           "Count:3": 1,

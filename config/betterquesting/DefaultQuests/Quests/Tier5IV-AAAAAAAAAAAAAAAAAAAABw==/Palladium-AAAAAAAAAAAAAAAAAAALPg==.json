@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2052,
+        "Damage:2": 0,
         "OreDict:8": "dustPalladium",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Palladium:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -91,15 +91,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 54,
+          "Damage:2": 0,
           "OreDict:8": "dustReprecipitatedPalladium",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:ReprecipitatedPalladium:dust"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 58,
+          "Damage:2": 0,
           "OreDict:8": "cellFormicAcid",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:FormicAcid:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -115,9 +115,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 2052,
+          "Damage:2": 0,
           "OreDict:8": "dustPalladium",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Palladium:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -133,21 +133,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 30659,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ammonia:cellGas"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 30677,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ethylene:cellGas"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:Water:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

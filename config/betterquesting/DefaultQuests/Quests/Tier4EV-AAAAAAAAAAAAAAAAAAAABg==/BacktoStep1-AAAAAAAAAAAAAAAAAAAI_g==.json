@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 46,
+        "Damage:2": 0,
         "OreDict:8": "dustRefinedPlatinumSalt",
-        "id:8": "bartworks:gt.bwMetaGenerateddust"
+        "id:8": "ml:RefinedPlatinumSalt:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -88,9 +88,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 46,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:RefinedPlatinumSalt:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -106,9 +106,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 47,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:PlatinumMetallicPowder:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

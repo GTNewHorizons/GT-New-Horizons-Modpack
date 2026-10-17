@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2241,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:PlatinumGroupSludge:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 30659,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ammonia:cellGas"
         },
         "1:10": {
           "Count:3": 1,
@@ -79,9 +79,9 @@
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 6855,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Chalcopyrite:crushedPurified"
         }
       },
       "ignoreDisabled:1": 0,
@@ -114,21 +114,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 108,
-          "Damage:2": 30720,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SulfuricAcid:cell"
         },
         "1:10": {
           "Count:3": 54,
-          "Damage:2": 6855,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Chalcopyrite:crushedPurified"
         },
         "2:10": {
           "Count:3": 54,
-          "Damage:2": 6909,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Pentlandite:crushedPurified"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 2241,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:PlatinumGroupSludge:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -162,39 +162,39 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 2837,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SiliconDioxide:dust"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 2086,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Gold:dust"
         },
         "2:10": {
           "Count:3": 24,
-          "Damage:2": 47,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:PlatinumMetallicPowder:dust"
         },
         "3:10": {
           "Count:3": 8,
-          "Damage:2": 53,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:PalladiumMetallicPowder:dust"
         },
         "4:10": {
           "Count:3": 2,
-          "Damage:2": 70,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:IridiumMetalResidue:dust"
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 69,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:RarestMetalResidue:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 84,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "ml:Iridium:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -104,27 +104,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 192,
-          "Damage:2": 5829,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:DeepIron:crushed"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 5829,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:DeepIron:rawOre"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 829,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:DeepIron:ore_stone"
         },
         "3:10": {
           "Count:3": 192,
-          "Damage:2": 2829,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:DeepIron:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -140,9 +140,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 20,
-          "Damage:2": 2868,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Trinium:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

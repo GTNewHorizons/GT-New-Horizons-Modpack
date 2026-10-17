@@ -4,58 +4,97 @@ Entries in this file take precedence over the values in the core file
 
 <OreDictionaryPreferences>
   <preference oreDictionary="dustGold" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2086" />
+    <itemStack modID="ml" itemName="Gold:dust" />
   </preference>
   <preference oreDictionary="dustCopper" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2035" />
+    <itemStack modID="ml" itemName="Copper:dust" />
   </preference>
   <preference oreDictionary="dustIron" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2032" />
+    <itemStack modID="ml" itemName="Iron:dust" />
   </preference>
   <preference oreDictionary="dustEnderPearl" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2532" />
+    <itemStack modID="ml" itemName="EnderPearl:dust" />
   </preference>
   <preference oreDictionary="dustCoal" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2535" />
+    <itemStack modID="ml" itemName="Coal:dust" />
   </preference>
   <preference oreDictionary="dustLapis" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2526" />
+    <itemStack modID="ml" itemName="Lapis:dust" />
   </preference>
   <preference oreDictionary="pulpWood" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2809" />
+    <itemStack modID="ml" itemName="Wood:dust" />
   </preference>
   <preference oreDictionary="dustAluminium" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2019" />
+    <itemStack modID="ml" itemName="Aluminium:dust" />
   </preference>
   <preference oreDictionary="dustBronze" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2300" />
+    <itemStack modID="ml" itemName="Bronze:dust" />
   </preference>
   <preference oreDictionary="dustSilver" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2054" />
+    <itemStack modID="ml" itemName="Silver:dust" />
   </preference>
   <preference oreDictionary="dustLead" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2089" />
+    <itemStack modID="ml" itemName="Lead:dust" />
   </preference>
   <preference oreDictionary="dustTin" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2057" />
+    <itemStack modID="ml" itemName="Tin:dust" />
   </preference>
   <preference oreDictionary="dustSulfur" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2022" />
+    <itemStack modID="ml" itemName="Sulfur:dust" />
   </preference>
   <preference oreDictionary="dustArdite" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2382" />
+    <itemStack modID="ml" itemName="Ardite:dust" />
   </preference>
   <preference oreDictionary="dustCobalt" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2033" />
+    <itemStack modID="ml" itemName="Cobalt:dust" />
   </preference>
   <preference oreDictionary="dustManyullyn" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2386" />
+    <itemStack modID="ml" itemName="Manyullyn:dust" />
   </preference>
   <preference oreDictionary="foodFlour" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2881" />
+    <itemStack modID="ml" itemName="Wheat:dust" />
   </preference>
   <preference oreDictionary="dustObsidian" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2804" />
+    <itemStack modID="ml" itemName="Obsidian:dust" />
+  </preference>
+  <preference oreDictionary="dustStone" >
+    <itemStack modID="ml" itemName="Stone:dust" />
+  </preference>
+  <preference oreDictionary="crushedIron" >
+    <itemStack modID="ml" itemName="Iron:crushed" />
+  </preference>
+  <preference oreDictionary="crushedGold" >
+    <itemStack modID="ml" itemName="Gold:crushed" />
+  </preference>
+  <preference oreDictionary="crushedCopper" >
+    <itemStack modID="ml" itemName="Copper:crushed" />
+  </preference>
+  <preference oreDictionary="crushedTin" >
+    <itemStack modID="ml" itemName="Tin:crushed" />
+  </preference>
+  <preference oreDictionary="crushedSilver" >
+    <itemStack modID="ml" itemName="Silver:crushed" />
+  </preference>
+  <preference oreDictionary="crushedLead" >
+    <itemStack modID="ml" itemName="Lead:crushed" />
+  </preference>
+  <preference oreDictionary="crushedUranium" >
+    <itemStack modID="ml" itemName="Uranium:crushed" />
+  </preference>
+  <preference oreDictionary="gemRuby" >
+    <itemStack modID="ml" itemName="Ruby:gem" />
+  </preference>
+  <preference oreDictionary="gemSapphire" >
+    <itemStack modID="ml" itemName="Sapphire:gem" />
+  </preference>
+  <preference oreDictionary="gemTopaz" >
+    <itemStack modID="ml" itemName="Topaz:gem" />
+  </preference>
+  <preference oreDictionary="gemTanzanite" >
+    <itemStack modID="ml" itemName="Tanzanite:gem" />
+  </preference>
+  <preference oreDictionary="gemAmber" >
+    <itemStack modID="ml" itemName="Amber:gem" />
   </preference>
 
 

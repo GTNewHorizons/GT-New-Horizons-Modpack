@@ -76,9 +76,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 2898,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Cryotheum:dust"
         }
       }
     }
@@ -121,7 +121,7 @@
           "Count:3": 24,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:blockFrameGtGrisium"
+          "id:8": "ml:Grisium:frameGt"
         },
         "2:10": {
           "Count:3": 1,

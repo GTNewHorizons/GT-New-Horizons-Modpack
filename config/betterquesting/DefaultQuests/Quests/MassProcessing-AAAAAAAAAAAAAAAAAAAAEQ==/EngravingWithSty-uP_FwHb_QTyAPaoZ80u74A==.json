@@ -107,9 +107,9 @@
         },
         "1:10": {
           "Count:3": 9,
-          "Damage:2": 316,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:TungstenSteel:frameGt"
         },
         "2:10": {
           "Count:3": 3,

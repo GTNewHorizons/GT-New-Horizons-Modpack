@@ -81,15 +81,15 @@
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 2817,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Salt:dust"
         },
         "4:10": {
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "foodFlour",
-          "id:8": "harvestcraft:flourItem"
+          "id:8": "ml:Wheat:dust"
         },
         "5:10": {
           "Count:3": 1,

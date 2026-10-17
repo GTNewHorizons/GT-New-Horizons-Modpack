@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30162,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:prismaticacid:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -83,15 +83,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 30161,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismaticgas:cell"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 30494,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:LiquidNitrogen:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -107,9 +107,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 30162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismaticacid:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

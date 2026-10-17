@@ -63,27 +63,27 @@
       "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 35,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Copper:ore_stone"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 523,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Quartzite:ore_stone"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 535,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Coal:ore_stone"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 57,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Tin:ore_stone"
         }
       },
       "ignoreDisabled:1": 0,

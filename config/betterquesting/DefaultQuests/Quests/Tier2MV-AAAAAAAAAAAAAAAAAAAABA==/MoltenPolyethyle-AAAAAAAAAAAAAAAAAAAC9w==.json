@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 874,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.99"
+        "id:8": "ml:Plastic:cellMolten"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -67,21 +67,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 30013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Oxygen:cellGas"
         },
         "1:10": {
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "materiallib:cellEmpty"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 30677,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ethylene:cellGas"
         },
         "3:10": {
           "Count:3": 1,
@@ -120,15 +120,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 30677,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ethylene:cellGas"
         },
         "1:10": {
           "Count:3": 83,
-          "Damage:2": 30013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Oxygen:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 124,
-          "Damage:2": 874,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:Plastic:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"
