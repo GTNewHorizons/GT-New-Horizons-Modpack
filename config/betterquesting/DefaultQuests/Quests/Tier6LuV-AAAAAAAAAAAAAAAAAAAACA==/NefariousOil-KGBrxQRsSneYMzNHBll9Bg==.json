@@ -26,9 +26,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30122,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:nefariousoil:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -88,15 +88,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30555,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Grade2PurifiedWater:cell"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 30120,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:nefariousgas:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -112,15 +112,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 30554,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Grade1PurifiedWater:cell"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 30120,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:nefariousgas:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -136,9 +136,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 30122,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:nefariousoil:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

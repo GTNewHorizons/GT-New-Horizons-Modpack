@@ -63,27 +63,27 @@
       "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 35,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Copper:ore_stone"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 937,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:CassiteriteSand:ore_stone"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 870,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Magnetite:ore_stone"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 834,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Pyrite:ore_stone"
         },
         "4:10": {
           "Count:3": 1,
@@ -134,15 +134,15 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 23354,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:IronMagnetic:stick"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 23032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:stick"
         },
         "3:10": {
           "Count:3": 2,
@@ -152,9 +152,9 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 28086,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Gold:ring"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

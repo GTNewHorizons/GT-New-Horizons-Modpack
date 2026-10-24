@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 11304,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:CastIron:ingot"
         },
         "1:10": {
           "Count:3": 4,
@@ -200,9 +200,9 @@
         },
         "3:10": {
           "Count:3": 4,
-          "Damage:2": 27032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

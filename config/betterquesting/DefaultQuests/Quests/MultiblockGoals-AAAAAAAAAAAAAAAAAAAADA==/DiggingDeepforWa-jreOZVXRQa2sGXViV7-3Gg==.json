@@ -68,9 +68,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 5122,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Bronze:pipeMedium"
         },
         "1:10": {
           "Count:3": 3,
@@ -112,9 +112,9 @@
         },
         "1:10": {
           "Count:3": 15,
-          "Damage:2": 300,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Bronze:frameGt"
         },
         "2:10": {
           "Count:3": 1,

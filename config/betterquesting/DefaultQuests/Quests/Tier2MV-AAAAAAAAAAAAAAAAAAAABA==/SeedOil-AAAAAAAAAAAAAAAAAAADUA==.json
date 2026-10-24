@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 30711,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:FishOil:cell"
         },
         "1:10": {
           "Count:3": 64,
@@ -77,7 +77,7 @@
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "materiallib:cellEmpty"
         },
         "3:10": {
           "Count:3": 1,
@@ -122,9 +122,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 30713,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SeedOil:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

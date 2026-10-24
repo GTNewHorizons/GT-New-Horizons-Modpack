@@ -120,9 +120,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2881,
+          "Damage:2": 0,
           "OreDict:8": "foodFlour",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Wheat:dust"
         },
         "1:10": {
           "Count:3": 1,

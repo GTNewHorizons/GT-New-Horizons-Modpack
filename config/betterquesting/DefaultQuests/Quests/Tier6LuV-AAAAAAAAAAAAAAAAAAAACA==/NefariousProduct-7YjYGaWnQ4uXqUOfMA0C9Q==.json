@@ -96,9 +96,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 100,
-          "Damage:2": 30119,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:nethersemifluid:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -120,9 +120,9 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 30120,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:nefariousgas:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

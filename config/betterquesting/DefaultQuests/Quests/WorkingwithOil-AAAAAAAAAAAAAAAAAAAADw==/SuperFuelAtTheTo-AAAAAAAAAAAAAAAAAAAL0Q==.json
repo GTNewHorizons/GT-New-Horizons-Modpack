@@ -70,9 +70,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 5162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:TungstenSteel:pipeMedium"
         },
         "2:10": {
           "Count:3": 2,

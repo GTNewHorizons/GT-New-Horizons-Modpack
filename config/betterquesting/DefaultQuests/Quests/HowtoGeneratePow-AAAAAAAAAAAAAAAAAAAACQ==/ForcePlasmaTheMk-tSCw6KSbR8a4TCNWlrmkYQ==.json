@@ -27,7 +27,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "miscutils:itemCellPlasmaForce"
+        "id:8": "ml:Force:cellPlasmaLight"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -75,7 +75,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellPlasmaNeon"
+          "id:8": "ml:Neon:cellPlasmaLight"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -93,7 +93,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellPlasmaForce"
+          "id:8": "ml:Force:cellPlasmaLight"
         }
       },
       "taskID:8": "bq_standard:retrieval"

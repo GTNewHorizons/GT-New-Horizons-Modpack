@@ -102,15 +102,15 @@
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 147,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:SixPhasedCopper:frameGt"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 588,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "ml:SpaceTime:sheetmetal"
         },
         "3:10": {
           "Count:3": 16,
@@ -126,27 +126,27 @@
         },
         "5:10": {
           "Count:3": 12,
-          "Damage:2": 581,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:TranscendentMetal:frameGt"
         },
         "6:10": {
           "Count:3": 12,
-          "Damage:2": 149,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Creon:frameGt"
         },
         "7:10": {
           "Count:3": 12,
-          "Damage:2": 148,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Mellion:frameGt"
         },
         "8:10": {
           "Count:3": 12,
-          "Damage:2": 588,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:SpaceTime:frameGt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

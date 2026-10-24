@@ -128,15 +128,15 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 17339,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Steeleaf:plate"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 17098,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Uranium:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -170,9 +170,9 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 17981,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:IndiumGalliumPhosphide:plate"
         },
         "4:10": {
           "Count:3": 4,
@@ -188,9 +188,9 @@
         },
         "6:10": {
           "Count:3": 4,
-          "Damage:2": 2360,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:SuperconductorEV:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -69,15 +69,15 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 2367,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:VibrantAlloy:dust"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 2366,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:EnergeticAlloy:dust"
         }
       },
       "ignoreDisabled:1": 0,

@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11372,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:HSSG:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -102,27 +102,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 2316,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:TungstenSteel:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2030,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Chrome:dust"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 2048,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Molybdenum:dust"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 2029,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Vanadium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,9 +138,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 2372,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:HSSG:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -156,9 +156,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 11372,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:HSSG:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

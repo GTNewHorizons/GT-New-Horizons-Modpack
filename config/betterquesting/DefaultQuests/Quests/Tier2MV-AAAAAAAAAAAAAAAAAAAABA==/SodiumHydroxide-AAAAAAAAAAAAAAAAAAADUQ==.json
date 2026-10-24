@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2685,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:SodiumHydroxide_GT5U:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,9 +63,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 2017,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Sodium:dust"
         },
         "1:10": {
           "Count:3": 64,
@@ -77,7 +77,7 @@
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "materiallib:cellEmpty"
         },
         "3:10": {
           "Count:3": 1,
@@ -116,15 +116,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 2017,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Sodium:dust"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:Water:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -140,9 +140,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 2685,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SodiumHydroxide_GT5U:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -65,7 +65,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "materiallib:cellEmpty"
         },
         "1:10": {
           "Count:3": 1,
@@ -75,9 +75,9 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 5132,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Steel:pipeMedium"
         },
         "3:10": {
           "Count:3": 1,

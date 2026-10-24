@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 58,
+        "Damage:2": 0,
         "OreDict:8": "cellFormicAcid",
-        "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        "id:8": "ml:FormicAcid:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -73,7 +73,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "cellEmpty",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "materiallib:cellEmpty"
         }
       }
     }
@@ -90,15 +90,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 30674,
+          "Damage:2": 0,
           "OreDict:8": "cellCarbonMonoxide",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:CarbonMonoxide:cellGas"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 2685,
+          "Damage:2": 0,
           "OreDict:8": "dustSodiumHydroxide_GT5U",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SodiumHydroxide_GT5U:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -114,15 +114,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 56,
+          "Damage:2": 0,
           "OreDict:8": "cellSodiumFormate",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:SodiumFormate:cell"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 30720,
+          "Damage:2": 0,
           "OreDict:8": "cellSulfuricAcid",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SulfuricAcid:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,15 +138,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 58,
+          "Damage:2": 0,
           "OreDict:8": "cellFormicAcid",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:FormicAcid:cell"
         },
         "1:10": {
           "Count:3": 14,
-          "Damage:2": 57,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:SodiumSulfate:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

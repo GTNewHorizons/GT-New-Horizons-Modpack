@@ -75,15 +75,15 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 2981,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:IndiumGalliumPhosphide:dust"
         },
         "2:10": {
           "Count:3": 10,
-          "Damage:2": 318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:Sunnarium:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

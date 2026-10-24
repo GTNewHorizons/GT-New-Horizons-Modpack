@@ -72,9 +72,9 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 17306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:StainlessSteel:plate"
         },
         "2:10": {
           "Count:3": 1,
@@ -119,27 +119,27 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 21019,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Aluminium:rotor"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 17306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:StainlessSteel:plate"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 27306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:StainlessSteel:screw"
         },
         "4:10": {
           "Count:3": 2,
-          "Damage:2": 20306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:StainlessSteel:gearGtSmall"
         },
         "5:10": {
           "Count:3": 1,

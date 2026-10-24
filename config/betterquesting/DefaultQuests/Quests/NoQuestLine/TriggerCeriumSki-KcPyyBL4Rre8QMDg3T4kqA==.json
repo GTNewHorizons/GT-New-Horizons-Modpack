@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11065,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Cerium:ingot"
       },
       "isMain:1": 0,
       "isSilent:1": 1,
@@ -207,15 +207,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 2065,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Cerium:dust"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 11065,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Cerium:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

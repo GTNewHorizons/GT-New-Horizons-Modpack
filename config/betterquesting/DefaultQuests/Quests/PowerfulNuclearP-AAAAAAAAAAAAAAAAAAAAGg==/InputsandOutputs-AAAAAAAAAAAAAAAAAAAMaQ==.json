@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30014,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Fluorine:cellGas"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -71,25 +71,25 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellUraniumDepletedMoltenSaltUSalt"
+          "id:8": "ml:UraniumDepletedMoltenSaltUSalt:cell"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellThoriumDepletedMoltenSaltTSalt"
+          "id:8": "ml:ThoriumDepletedMoltenSaltTSalt:cell"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellUraniumHexafluoride"
+          "id:8": "ml:UraniumHexafluoride:cell"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustUranium233"
+          "id:8": "ml:Uranium233:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -107,7 +107,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellUraniumDepletedMoltenSaltUSalt"
+          "id:8": "ml:UraniumDepletedMoltenSaltUSalt:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

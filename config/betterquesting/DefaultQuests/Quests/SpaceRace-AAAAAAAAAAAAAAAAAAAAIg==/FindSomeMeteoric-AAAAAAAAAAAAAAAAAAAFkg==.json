@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 340,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "ml:MeteoricIron:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -110,27 +110,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 5340,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:MeteoricIron:crushed"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 3340,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:MeteoricIron:dustImpure"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 5340,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:MeteoricIron:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 2340,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:MeteoricIron:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

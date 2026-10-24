@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 828,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "ml:Cooperite:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -104,27 +104,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 192,
-          "Damage:2": 5324,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Naquadah:crushed"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 5324,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Naquadah:rawOre"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 324,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Naquadah:ore_stone"
         },
         "3:10": {
           "Count:3": 384,
-          "Damage:2": 10054,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:NaquadahOxideMixture:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

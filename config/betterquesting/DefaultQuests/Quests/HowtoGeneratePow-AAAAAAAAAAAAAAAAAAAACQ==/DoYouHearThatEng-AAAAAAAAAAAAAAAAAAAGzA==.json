@@ -74,9 +74,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 11028,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Titanium:ingot"
         },
         "1:10": {
           "Count:3": 3,
@@ -86,9 +86,9 @@
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 30998,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:HighOctaneGasoline:cell"
         }
       }
     },
@@ -136,9 +136,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 21,
-          "Damage:2": 473,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Polytetrafluoroethylene:frameGt"
         },
         "1:10": {
           "Count:3": 19,

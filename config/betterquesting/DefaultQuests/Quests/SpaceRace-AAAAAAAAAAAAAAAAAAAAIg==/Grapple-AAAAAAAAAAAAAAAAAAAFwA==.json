@@ -75,9 +75,9 @@
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 11341,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:MeteoricSteel:ingot"
         },
         "3:10": {
           "Count:3": 1,
@@ -131,9 +131,9 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 24341,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:MeteoricSteel:spring"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

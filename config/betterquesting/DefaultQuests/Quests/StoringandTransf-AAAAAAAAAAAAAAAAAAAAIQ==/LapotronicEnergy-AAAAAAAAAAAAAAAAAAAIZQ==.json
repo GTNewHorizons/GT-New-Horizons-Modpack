@@ -113,15 +113,15 @@
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 19085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Platinum:wireFine"
         },
         "5:10": {
           "Count:3": 8,
-          "Damage:2": 17085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Platinum:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
