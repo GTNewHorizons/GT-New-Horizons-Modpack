@@ -24,7 +24,11 @@
     "OREDICT:oreBlackgraniteRuby:80",
     "OREDICT:oreBlackgraniteSilver:80"
   ],
+  "filler": [
+    "OREDICT:stoneGraniteBlack:200"
+  ],
   "radius": 20,
   "cost": 600000,
-  "focusItem": "gregtech:gt.metaitem.01:32670"
+  "focusItem": "gregtech:gt.metaitem.01:32670",
+  "fillerChance": 70
 }

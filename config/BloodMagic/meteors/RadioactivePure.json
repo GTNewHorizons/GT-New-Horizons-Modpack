@@ -8,7 +8,11 @@
     "OREDICT:oreEndstonePlutonium:25",
     "OREDICT:oreEndstonePlutonium241:1"
   ],
+  "filler": [
+    "OREDICT:endstone:200"
+  ],
   "radius": 12,
   "cost": 2500000,
-  "focusItem": "gregtech:gt.blockmachines:465"
+  "focusItem": "gregtech:gt.blockmachines:465",
+  "fillerChance": 70
 }
