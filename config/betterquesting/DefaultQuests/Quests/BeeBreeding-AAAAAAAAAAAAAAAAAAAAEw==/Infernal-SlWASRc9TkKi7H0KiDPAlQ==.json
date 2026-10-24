@@ -108,23 +108,6 @@
               }
             }
           }
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "Forestry:beeDroneGE",
-          "tag:10": {
-            "Genome:10": {
-              "Chromosomes:9": {
-                "0:10": {
-                  "Slot:1": 0,
-                  "UID0:8": "magicbees.speciesInfernal",
-                  "UID1:8": "magicbees.speciesInfernal"
-                }
-              }
-            }
-          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

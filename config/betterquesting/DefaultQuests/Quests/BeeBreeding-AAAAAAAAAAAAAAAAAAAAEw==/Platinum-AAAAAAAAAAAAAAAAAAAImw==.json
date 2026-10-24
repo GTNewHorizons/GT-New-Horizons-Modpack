@@ -35,72 +35,9 @@
                 "Slot:4": 0,
                 "UID0:8": "gregtech.bee.speciesPlatinum",
                 "UID1:8": "gregtech.bee.speciesPlatinum"
-              },
-              "1:10": {
-                "Slot:4": 1,
-                "UID0:8": "forestry.speedSlower",
-                "UID1:8": "forestry.speedSlower"
-              },
-              "2:10": {
-                "Slot:4": 2,
-                "UID0:8": "forestry.lifespanShorter",
-                "UID1:8": "forestry.lifespanShorter"
-              },
-              "3:10": {
-                "Slot:4": 3,
-                "UID0:8": "forestry.fertilityNormal",
-                "UID1:8": "forestry.fertilityNormal"
-              },
-              "4:10": {
-                "Slot:4": 4,
-                "UID0:8": "forestry.toleranceDown1",
-                "UID1:8": "forestry.toleranceDown1"
-              },
-              "5:10": {
-                "Slot:4": 5,
-                "UID0:8": "forestry.boolFalse",
-                "UID1:8": "forestry.boolFalse"
-              },
-              "6:10": {
-                "Slot:4": 7,
-                "UID0:8": "forestry.toleranceNone",
-                "UID1:8": "forestry.toleranceNone"
-              },
-              "7:10": {
-                "Slot:4": 8,
-                "UID0:8": "forestry.boolFalse",
-                "UID1:8": "forestry.boolFalse"
-              },
-              "8:10": {
-                "Slot:4": 9,
-                "UID0:8": "forestry.boolFalse",
-                "UID1:8": "forestry.boolFalse"
-              },
-              "9:10": {
-                "Slot:4": 10,
-                "UID0:8": "forestry.flowersCacti",
-                "UID1:8": "forestry.flowersCacti"
-              },
-              "10:10": {
-                "Slot:4": 11,
-                "UID0:8": "forestry.floweringFast",
-                "UID1:8": "forestry.floweringFast"
-              },
-              "11:10": {
-                "Slot:4": 12,
-                "UID0:8": "forestry.territoryAverage",
-                "UID1:8": "forestry.territoryAverage"
-              },
-              "12:10": {
-                "Slot:4": 13,
-                "UID0:8": "forestry.effectNone",
-                "UID1:8": "forestry.effectNone"
               }
             }
-          },
-          "Health:4": 20,
-          "IsAnalyzed:4": 1,
-          "MaxH:4": 20
+          }
         }
       },
       "isGlobal:1": 0,
