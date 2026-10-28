@@ -373,7 +373,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.desc=Tired of your stuff falling out
 
 # Quest: All the Finest Cuts of Meat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxA.name=§a§lAll the Finest Cuts of Meat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxA.desc=This knife is not going to work for slaughtering the hundreds of animals you will need for food and materials. Make yourself a GregTech Butchery Knife. It stops the explosions, and kills the cows much faster, not to mention has Looting on it. Later when you get Stainless Steel, you can make a new one that will kill cows in one hit.%n%nNote that the GT Tool damage is based on tinkers mining level.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxA.desc=A regular knife isn't going to cut it when you've got hundreds of animals to slaughter for food and materials. It's time for an upgrade!%n%nMake yourself a GregTech Butchery Knife. It prevents explosions, kills cows much faster, and even comes with §lLooting§r. Once you have access to Stainless Steel, you can craft an even better one that'll kill cows in a single hit.%n%n[note]Note: GregTech tool damage is based on the mining level of the material in Tinkers' Construct.[/note]
 
 # Quest: Rare Ores
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCg.name=§a§lRare Ores
@@ -14715,7 +14715,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEgg.desc=Magnalium bolts are much better
 
 # Quest: Wooden Bolts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhA.name=§c§lWooden Bolts
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhA.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, obzinite, or steel on the tip of your bolts using the Smeltery. For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.%n%n[warn]For upgrades:[/warn]%n§lNether Quartz§r - More damage%n§lMoss§r - Self-Repair (unlock in GTNH Thaumcraft tab)%n%n[note]You can store these in a bauble slot to save on inventory space![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhA.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, obzinite, or steel on the tip of your bolts using the Smeltery by coating a wooden tool rod with your desired material. For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.%n%n[warn]For upgrades:[/warn]%n§lNether Quartz§r - More damage%n§lMoss§r - Self-Repair (unlock in GTNH Thaumcraft tab)%n%n[note]You can store these in a bauble slot to save on inventory space![/note]
 
 # Quest: Making Power With Your Plasma
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsA.name=§d§lMaking Power With Your Plasma
