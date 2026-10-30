@@ -39,7 +39,14 @@ beebetteratbees.cfg/*/*
 
 BetterAchievements.cfg/*/*
 
-betterquesting.cfg/general/*
+betterquesting.cfg/general/"Always draw implicit dependency"
+betterquesting.cfg/general/"Force Monochrome Text"
+betterquesting.cfg/general/"Lock tray"
+betterquesting.cfg/general/"Show dependency arrows"
+betterquesting.cfg/general/"Skip home"
+betterquesting.cfg/general/Theme
+betterquesting.cfg/general/"View mode"
+betterquesting.cfg/notifications/*
 
 bogosorter.cfg/general.ae2integration/*
 !bogosorter.cfg/general.ae2integration/B:enableIntegrationDebugLogging
@@ -126,8 +133,6 @@ EnderStorage.cfg//disableFXTank $format=simple
 
 ExtraUtilities.cfg/client_options/*
 
-fastcraft.ini/*/* $format=ini
-
 [forestry/apiculture.conf]//render.bees.fancy $format=simple
 [forestry/common.conf]//performance.particleFX.enabled $format=simple
 
@@ -187,9 +192,6 @@ IC2.ini/misc/hideSecretRecipes $format=ini
 InGameInfoXML.cfg/*/*
 
 [INpureProjects/custom_nei_filters/custom_nei_filters.cfg]/scripting/*
-
-InvTweaks.cfg//* $format=simple
-!InvTweaks.cfg//enableServerItemSwap $format=simple
 
 IronChest.cfg/general/cacheRenderingInformation
 IronChest.cfg/general/transparentRenderDistance
