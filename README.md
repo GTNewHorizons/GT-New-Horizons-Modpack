@@ -447,7 +447,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [SC2](https://github.com/GTNewHorizons/SC2) | 2.3.15 |
 | [Schematica](https://github.com/GTNewHorizons/Schematica) | 1.12.6-GTNH |
 | [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.4.22 |
-| [SGCraft](https://github.com/GTNewHorizons/SGCraft) | 1.4.13-GTNH |
+| [SGCraft](https://github.com/GTNewHorizons/SGCraft) | 1.4.14-GTNH |
 | [Share-Where-I-am](https://github.com/GTNewHorizons/Share-Where-I-am) | 2.1.11 |
 | [SimpleSkinBackport](https://github.com/GTNewHorizons/SimpleSkinBackport) | 1.0.5-GTNH |
 | [SleepingBags](https://github.com/GTNewHorizons/SleepingBags) | 0.3.1 |
