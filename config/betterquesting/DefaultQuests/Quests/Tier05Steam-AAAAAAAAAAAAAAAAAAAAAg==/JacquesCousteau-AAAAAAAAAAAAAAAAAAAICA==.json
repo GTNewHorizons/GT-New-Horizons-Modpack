@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 5,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:Air:cellGas"
         }
       }
     }
@@ -103,9 +103,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 11057,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Tin:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

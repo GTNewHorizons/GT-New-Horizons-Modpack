@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11358,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:YttriumBariumCuprate:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -114,21 +114,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 2045,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Yttrium:dust"
         },
         "1:10": {
           "Count:3": 10,
-          "Damage:2": 2063,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Barium:dust"
         },
         "2:10": {
           "Count:3": 15,
-          "Damage:2": 2035,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Copper:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 65,
-          "Damage:2": 2358,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:YttriumBariumCuprate:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -162,9 +162,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 65,
-          "Damage:2": 11358,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:YttriumBariumCuprate:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

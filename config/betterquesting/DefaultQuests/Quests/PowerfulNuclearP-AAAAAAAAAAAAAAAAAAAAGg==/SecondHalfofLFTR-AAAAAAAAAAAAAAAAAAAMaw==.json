@@ -27,7 +27,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "miscutils:itemCellPlasmaXenon"
+        "id:8": "ml:Xenon:cellPlasmaLight"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -105,7 +105,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "cellXenon",
-          "id:8": "miscutils:itemCellXenon"
+          "id:8": "ml:Xenon:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -29,9 +29,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 4581,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.03"
+        "id:8": "ml:TranscendentMetal:nanite"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -77,9 +77,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 4581,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:TranscendentMetal:nanite"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -101,9 +101,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 405,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:StellarAlloy:frameGt"
         },
         "2:10": {
           "Count:3": 1,

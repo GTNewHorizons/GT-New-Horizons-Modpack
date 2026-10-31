@@ -77,33 +77,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2355,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SteelMagnetic:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 4,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:CubicZirconia:dust"
         },
         "2:10": {
           "Count:3": 3,
-          "Damage:2": 35,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:Prasiolite:dust"
         },
         "3:10": {
           "Count:3": 4,
-          "Damage:2": 31,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:BismuthTelluride:dust"
         },
         "4:10": {
           "Count:3": 8,
-          "Damage:2": 36,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:MagnetoResonatic:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -119,27 +119,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 2981,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:IndiumGalliumPhosphide:dust"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 31,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:BismuthTelluride:dust"
         },
         "2:10": {
           "Count:3": 18,
-          "Damage:2": 33,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:Dibismuthhydroborat:dust"
         },
         "3:10": {
           "Count:3": 32,
-          "Damage:2": 34,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:CircuitCompoundMK3:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

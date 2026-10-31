@@ -132,9 +132,9 @@
         },
         "3:10": {
           "Count:3": 224,
-          "Damage:2": 132,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Netherite:frameGt"
         },
         "4:10": {
           "Count:3": 196,

@@ -74,9 +74,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 30013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Oxygen:cellGas"
         },
         "2:10": {
           "Count:3": 1,
@@ -139,9 +139,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 11304,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:CastIron:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -157,9 +157,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 11305,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Steel:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -71,9 +71,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 5173,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Plastic:pipeLarge"
         },
         "1:10": {
           "Count:3": 1,

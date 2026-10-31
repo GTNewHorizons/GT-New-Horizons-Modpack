@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30138,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:prismarinecontaminatednitrobenzenesolution:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -83,15 +83,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30135,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismarinesolution:cell"
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 30138,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismarinecontaminatednitrobenzenesolution:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -107,15 +107,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30136,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismarinecontaminatedhydrogenperoxide:cell"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 30137,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismarinerichnitrobenzenesolution:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

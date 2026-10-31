@@ -122,15 +122,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 23305,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Steel:stick"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 26305,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Steel:bolt"
         },
         "2:10": {
           "Count:3": 1,

@@ -27,7 +27,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "miscutils:itemCellThoriumBerylliumDepletedMoltenSaltTBSalt"
+        "id:8": "ml:ThoriumBerylliumDepletedMoltenSaltTBSalt:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -117,7 +117,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustUranium233"
+          "id:8": "ml:Uranium233:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

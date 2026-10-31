@@ -77,9 +77,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 30,
-          "Damage:2": 7,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:Biogas:cellGas"
         },
         "1:10": {
           "Count:3": 1,
@@ -118,9 +118,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 18306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:StainlessSteel:itemCasing"
         },
         "1:10": {
           "Count:3": 2,

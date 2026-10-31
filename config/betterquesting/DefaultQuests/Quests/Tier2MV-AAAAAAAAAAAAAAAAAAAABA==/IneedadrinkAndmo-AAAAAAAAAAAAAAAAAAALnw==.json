@@ -78,9 +78,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 30417,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:RubyJuice:cell"
         },
         "2:10": {
           "Count:3": 1,
@@ -119,27 +119,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 5502,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ruby:crushed"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 3502,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ruby:dustImpure"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 6502,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ruby:crushedPurified"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 4502,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ruby:dustPure"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -155,15 +155,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 685,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SodiumHydroxide_GT5U:dustTiny"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 30683,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:HydrochloricAcid_GT5U:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -179,9 +179,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30417,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:RubyJuice:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -197,15 +197,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 2698,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:AluminiumHydroxide:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2030,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Chrome:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

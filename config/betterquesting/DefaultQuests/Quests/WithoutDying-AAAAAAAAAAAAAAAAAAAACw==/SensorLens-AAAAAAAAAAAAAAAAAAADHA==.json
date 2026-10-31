@@ -114,9 +114,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 28308,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:RedAlloy:ring"
         },
         "1:10": {
           "Count:3": 4,
@@ -126,15 +126,15 @@
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 27306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:StainlessSteel:screw"
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 24500,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Diamond:lens"
         },
         "4:10": {
           "Count:3": 2,

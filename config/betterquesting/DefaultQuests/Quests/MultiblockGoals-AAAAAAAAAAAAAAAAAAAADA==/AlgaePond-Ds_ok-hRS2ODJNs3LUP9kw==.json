@@ -150,9 +150,9 @@
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:StainlessSteel:frameGt"
         },
         "3:10": {
           "Count:3": 5,

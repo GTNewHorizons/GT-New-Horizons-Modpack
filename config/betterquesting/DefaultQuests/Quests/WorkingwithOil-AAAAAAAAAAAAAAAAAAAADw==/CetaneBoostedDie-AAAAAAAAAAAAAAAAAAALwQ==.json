@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30709,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:NitroFuel:cell"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -78,15 +78,15 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 11306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:StainlessSteel:ingot"
         },
         "2:10": {
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "materiallib:cellEmpty"
         },
         "3:10": {
           "Count:3": 20,
@@ -115,9 +115,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
-          "Damage:2": 30709,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:NitroFuel:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
