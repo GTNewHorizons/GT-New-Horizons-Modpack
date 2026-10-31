@@ -19,7 +19,11 @@
     "OREDICT:oreEndstoneNiobium:75",
     "OREDICT:oreEndstoneBorax:75"
   ],
+  "filler": [
+    "OREDICT:endstone:200"
+  ],
   "radius": 22,
   "cost": 100000000,
-  "focusItem": "gregtech:gt.blockmachines:10951"
+  "focusItem": "gregtech:gt.blockmachines:10951",
+  "fillerChance": 70
 }
