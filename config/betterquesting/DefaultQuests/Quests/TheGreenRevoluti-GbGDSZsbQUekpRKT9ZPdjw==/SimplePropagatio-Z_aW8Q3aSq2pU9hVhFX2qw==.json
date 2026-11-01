@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. \n\nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.\n\n[note]Just like crossbreeding, spreading also applies the usual stat variation to new offsprings. This can be especially useful when statting up crops.[/note]",
+      "desc:8": "Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. \n\nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.\n\n[warn]Ensure you fertilize your crops (50+ fertilizer) while doing this, or else you stats might go down.[/warn]\n\n[note]Just any other type of breeding, your crops will need to reach at least 80% maturity before they can propagate themselves[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

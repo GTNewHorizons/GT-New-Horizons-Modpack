@@ -327,7 +327,7 @@ ic2.blockRubWood.name=Rubber Wood
 ic2.blockScaffold.name=Scaffold
 ic2.blockWall.name=Construction Foam
 ic2.fluidBiogas.name=Biogas
-ic2.fluidBiomass.name=Biomass
+ic2.fluidBiomass.name=Industrial Biomass
 ic2.fluidConstructionFoam.name=Construction Foam
 ic2.fluidCoolant.name=IC2 Coolant
 ic2.fluidDistilledWater.name=Distilled Water
@@ -716,3 +716,6 @@ toolpart.BowLimb.alumite=Obzinite Bow Limb
 item.gendustry.GeneSample.forestry.effectFertile.tooltip=Add random ticks to plants in range\n(does not work on CropsNH crops)
 # Crops NH hijacks the circuit logic instead of adding it's own.
 for.circuit.manualIC2Crop=CropsNH Farm
+
+item.for.fertilizerCompound.name=Diluted Fertilizer
+item.BasicAgrichemItem.8.name=Heavy Compost

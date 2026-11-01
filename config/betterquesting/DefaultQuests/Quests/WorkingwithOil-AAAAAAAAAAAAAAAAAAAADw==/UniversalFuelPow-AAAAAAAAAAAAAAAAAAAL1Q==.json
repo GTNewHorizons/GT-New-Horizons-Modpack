@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "This is the most powerful combustion engine that has ever been built. In fact, it\u0027s not only that, but also a Gas Turbine and a Rocket Fuel Generator!\n\nThe Universal Chemical Fuel Engine burns fuel with some additives, as did its predecessors, but it runs at a lower efficiency. The 150% value is a mathematical limit, you cannot reach it without supplying infinite fuel, but this engine compensates by running as fast as fuel is input into it, without the maximum EU/t limitation the others had. The only two things you have to make sure of are that you supply enough Combustion Promoter to keep efficiency up (I\u0027ll let you figure the best ratio on your own, but 1:4 promoter:fuel is decent), and that the dynamo can support the EU/t that the generator is outputting.\n\n[warn]You will need an Assembly Line to craft the dynamo needed to complete this quest. You better burn enough HOG to make it worth![/warn]",
+      "desc:8": "This is the most powerful combustion engine that has ever been built. In fact, it\u0027s not only that, but also a Gas Turbine and a Rocket Fuel Generator!\n\nThe Universal Chemical Fuel Engine burns fuel with some additives, as did its predecessors, but it runs at a lower efficiency. The 150% value is a mathematical limit, you cannot reach it without supplying infinite fuel, but this engine compensates by running as fast as fuel is input into it, without the maximum EU/t limitation the others had. The only two things you have to make sure of are that you supply enough Combustion Promoter to keep efficiency up (I\u0027ll let you figure the best ratio on your own, but 1:4 promoter:fuel is decent), and that the dynamo can support the EU/t that the generator is outputting.\n\n\r\n[warn]You will need an Assembly Line to craft the dynamo needed to complete this quest.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -78,6 +78,12 @@
           "Damage:2": 14,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.98"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 15201,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"

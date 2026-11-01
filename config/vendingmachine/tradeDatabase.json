@@ -8695,6 +8695,50 @@
 		},
 		{
 			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 7618052970877108735,
+				"tradeGroupIDLow:4": -9132218913478035191
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 44
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 2,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 1,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 2,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
 			"cooldown:3": 300,
 			"id:10": {
 				"tradeGroupIDHigh:4": 7961956447783177634,
@@ -9279,6 +9323,1294 @@
 							"Damage:2": 21300,
 							"OreDict:8": "",
 							"id:8": "gregtech:gt.metaitem.02"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 3825746779152861780,
+				"tradeGroupIDLow:4": -6638678113949707171
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 97
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 4,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 2,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 4,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 3828570500867836353,
+				"tradeGroupIDLow:4": -4624573203829449647
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 1598
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 5,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 4,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 5,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -6959997464195282086,
+				"tradeGroupIDLow:4": -8294316815160253761
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 770
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 6,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 5,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 6,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 4779103626283011180,
+				"tradeGroupIDLow:4": -5866086685626496369
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 1406
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 7,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 6,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 7,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -4098242851773660472,
+				"tradeGroupIDLow:4": -7403429187140294568
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 1890
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 8,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 7,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 8,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 5634777651328141792,
+				"tradeGroupIDLow:4": -5832403777792626529
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 1722
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 41,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 8,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 41,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -5940412569925171287,
+				"tradeGroupIDLow:4": -6287492521373583938
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 2625
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 42,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 41,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 42,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 8342858293442790432,
+				"tradeGroupIDLow:4": -5861632258331180892
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 2626
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 43,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 42,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 43,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 610238911595956878,
+				"tradeGroupIDLow:4": -6517952986755329413
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 577
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 20,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 19,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 20,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 21,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 20,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 21,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 365456963419914269,
+				"tradeGroupIDLow:4": -7342784200529755147
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 926
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 17,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 16,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 17,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -2545449887484588683,
+				"tradeGroupIDLow:4": -6934198812864507749
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 928
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 18,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 17,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 18,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -47610774935942043,
+				"tradeGroupIDLow:4": -8761138525783959399
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 502
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 26,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 25,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 26,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 2430899010122042329,
+				"tradeGroupIDLow:4": -8895522426262893789
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 506
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 27,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 26,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 27,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -56750125340802538,
+				"tradeGroupIDLow:4": -5798887770173907350
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 1302
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 38,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 37,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 38,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 1180370100922501630,
+				"tradeGroupIDLow:4": -5336189287147873895
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 1429
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 23,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 22,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 23,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -5463662593298249249,
+				"tradeGroupIDLow:4": -7169129897138528442
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 1454
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 24,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 23,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 24,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 2364389991750388786,
+				"tradeGroupIDLow:4": -4848346404588523405
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 665
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 29,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 28,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 29,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 30,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 29,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 30,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 31,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 30,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 31,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 2005714664170475497,
+				"tradeGroupIDLow:4": -7308673764378653464
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 677
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 33,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 32,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 33,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 34,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 33,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 34,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -1061414627303996352,
+				"tradeGroupIDLow:4": -6841179365417215978
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 260
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 10,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 9,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 10,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 11,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 10,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 11,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -7251667595459215327,
+				"tradeGroupIDLow:4": -6932061840713124686
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 285
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 12,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 11,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 12,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 4062013201554885754,
+				"tradeGroupIDLow:4": -6293096503065134893
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 307
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 13,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 16,
+							"Damage:3": 12,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 13,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 7843467969181599618,
+				"tradeGroupIDLow:4": -7280666888823988631
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 334
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 53,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 52,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 53,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -3008782555728362565,
+				"tradeGroupIDLow:4": -6390592498038914597
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 1571
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 54,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 53,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 54,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": -7866121628551853394,
+				"tradeGroupIDLow:4": -7688058237410208942
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 1592
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 55,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 54,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 55,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				},
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 56,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 55,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 56,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 7713250471966755111,
+				"tradeGroupIDLow:4": -5736283748796276673
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 2350
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 58,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 57,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 58,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category:8": "misc",
+			"cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 9063203140740006258,
+				"tradeGroupIDLow:4": -8337644937347356160
+			},
+			"maxTrades:3": -1,
+			"requirements:9": [
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 3958176424477410122,
+						"questIDLow:4": -8623991914351216440
+					}
+				}
+			],
+			"trades:9": [
+				{
+					"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 59,
+						"OreDict:8": "",
+						"id:8": "enhancedlootbags:lootbag"
+					},
+					"fromItems:9": [
+						{
+							"Count:3": 3,
+							"Damage:3": 51,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
+						}
+					],
+					"toItems:9": [
+						{
+							"Count:3": 1,
+							"Damage:3": 59,
+							"OreDict:8": "",
+							"id:8": "enhancedlootbags:lootbag"
 						}
 					]
 				}

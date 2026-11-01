@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 3231
+      "questIDHigh:4": 1061314381668699413,
+      "questIDLow:4": -5583348153901815662
     }
   },
   "properties:10": {
@@ -17,21 +17,26 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "A passive mana generating flower that can produce a never-ending torrent of mana.",
+      "desc:8": "The Decorator\u0027s Trowel will place a random block from your hotbar. This can be very useful for more detailed landscaping and building.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 194,
         "OreDict:8": "",
-        "id:8": "Botania:specialFlower",
+        "id:8": "gregtech:gt.metatool.01",
         "tag:10": {
-          "type:8": "asgardandelion"
+          "GT.ToolStats:10": {
+            "MaxDamage:4": 65536000,
+            "Mode:1": 0,
+            "PrimaryMaterial:8": "Neutronium",
+            "SecondaryMaterial:8": "Neutronium"
+          }
         }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Asgardandelion",
+      "name:8": "Texturing made easy",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -57,25 +62,38 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 3724622962283661540,
-  "questIDLow:4": -7392996829794634546,
+  "questIDHigh:4": 272983421701210382,
+  "questIDLow:4": -5682520290686116870,
   "rewards:9": {
     "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:iron_ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
       "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 64,
+          "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Botania:tinyPotato"
-        },
-        "1:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:CoinFlowerIV"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -85,18 +103,23 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 194,
           "OreDict:8": "",
-          "id:8": "Botania:specialFlower",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "type:8": "asgardandelion"
+            "GT.ToolStats:10": {
+              "MaxDamage:4": 25600,
+              "Mode:1": 0,
+              "PrimaryMaterial:8": "Iron",
+              "SecondaryMaterial:8": "Iron"
+            }
           }
         }
       },

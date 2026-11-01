@@ -2,7 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1081
+      "questIDLow:4": 2595
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3231
     }
   },
   "properties:10": {
@@ -17,18 +21,21 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Too many items getting you down? Just slap this badboy on a drawer, and any items you put in over the maximum will be automatically voided for you! More useful in combination with a Drawer Controller admittedly.",
+      "desc:8": "A passive mana generating flower that can produce a never-ending torrent of mana.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "StorageDrawers:upgradeVoid"
+        "id:8": "Botania:specialFlower",
+        "tag:10": {
+          "type:8": "asgardandelion"
+        }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lToo Many Items? Unpossible!",
+      "name:8": "§4§l§nAsgardandelion",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -44,7 +51,6 @@
       "notification_title:8": "",
       "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
-      "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -55,8 +61,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2414,
+  "questIDHigh:4": 3724622962283661540,
+  "questIDLow:4": -7392996829794634546,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -64,23 +70,16 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "StorageDrawers:upgradeVoid"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 25,
+          "id:8": "Botania:tinyPotato"
+        },
+        "1:10": {
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:CoinFlowerIV"
         }
       }
     }
@@ -99,7 +98,10 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "StorageDrawers:upgradeVoid"
+          "id:8": "Botania:specialFlower",
+          "tag:10": {
+            "type:8": "asgardandelion"
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

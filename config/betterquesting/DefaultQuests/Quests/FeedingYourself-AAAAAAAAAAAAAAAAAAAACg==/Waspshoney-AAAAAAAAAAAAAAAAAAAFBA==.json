@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!\n\n[note]Just having the fluid in cells or buckets in your inventory lets the quest detect it.[/note]",
+      "desc:8": "Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!\n\nThe giant hives hang from the Nether ceiling. Only about half of them contain honey, which pools in the lower half of the hive underneath a layer of honey blocks. If you break into an empty one, keep looking for another hive.\n\n[note]Just having the fluid in cells or buckets in your inventory lets the quest detect it.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

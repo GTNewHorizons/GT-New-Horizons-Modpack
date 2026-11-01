@@ -4,8 +4,7 @@
     "sounds": [
       {
         "name": "dreamcraft:music/flora_sol_ix",
-        "stream": true,
-        "weight": 3
+        "stream": true
       }
     ]
   },
