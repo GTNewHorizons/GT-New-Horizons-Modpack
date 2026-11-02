@@ -96,7 +96,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustHypogen"
+          "id:8": "ml:Hypogen:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -110,33 +110,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 5917,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:BandedIron:rawOre"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 5032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Iron:rawOre"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 5870,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Magnetite:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 5931,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:YellowLimonite:rawOre"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 5930,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:BrownLimonite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -152,33 +152,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 917,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:BandedIron:ore_stone"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 32,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Iron:ore_stone"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 870,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Magnetite:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 931,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:YellowLimonite:ore_stone"
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 930,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:BrownLimonite:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

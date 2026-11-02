@@ -71,21 +71,21 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 2327,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Naquadria:dust"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 11316,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:TungstenSteel:ingot"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 11085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Platinum:ingot"
         }
       }
     },

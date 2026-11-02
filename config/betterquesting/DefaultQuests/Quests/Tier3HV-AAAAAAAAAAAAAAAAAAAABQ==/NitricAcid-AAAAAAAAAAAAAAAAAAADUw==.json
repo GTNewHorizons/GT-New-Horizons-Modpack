@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30653,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:NitricAcid:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:Water:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -79,9 +79,9 @@
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 30013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Oxygen:cellGas"
         }
       },
       "ignoreDisabled:1": 0,
@@ -114,21 +114,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:Water:cell"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 30013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Oxygen:cellGas"
         },
         "2:10": {
           "Count:3": 24,
-          "Damage:2": 30717,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:NitrogenDioxide:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 30653,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:NitricAcid:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

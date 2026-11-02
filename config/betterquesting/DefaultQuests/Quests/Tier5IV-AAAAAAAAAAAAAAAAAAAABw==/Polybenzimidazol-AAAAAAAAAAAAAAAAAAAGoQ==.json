@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 17599,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Polybenzimidazole:plate"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -108,15 +108,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 18,
-          "Damage:2": 30597,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:3,3Diaminobenzidine:cell"
         },
         "1:10": {
           "Count:3": 18,
-          "Damage:2": 30598,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:DiphenylIsophtalate:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -132,9 +132,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 125,
-          "Damage:2": 17599,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Polybenzimidazole:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -77,9 +77,9 @@
         },
         "1:10": {
           "Count:3": 37,
-          "Damage:2": 2030,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01",
+          "id:8": "ml:Chrome:dust",
           "tag:10": {
             "RepairCost:3": 2,
             "display:10": {
@@ -172,9 +172,9 @@
         },
         "5:10": {
           "Count:3": 56,
-          "Damage:2": 13,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal4"
+          "id:8": "ml:NaquadahAlloy:block"
         },
         "6:10": {
           "Count:3": 54,
@@ -192,7 +192,7 @@
           "Count:3": 9,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:blockFrameGtPikyonium64B"
+          "id:8": "ml:Pikyonium64B:frameGt"
         },
         "9:10": {
           "Count:3": 8,

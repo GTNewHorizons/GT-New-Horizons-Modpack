@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30706,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Ethanol:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,21 +63,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 30691,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:FermentedBiomass:cell"
         },
         "1:10": {
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "materiallib:cellEmpty"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 5132,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Steel:pipeMedium"
         },
         "3:10": {
           "Count:3": 1,
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 30706,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ethanol:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

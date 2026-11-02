@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30727,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "ml:Potin:pipeMedium"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -89,33 +89,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30725,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Potin:pipeTiny"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 30726,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Potin:pipeSmall"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 30727,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Potin:pipeMedium"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 30728,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Potin:pipeLarge"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 30729,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Potin:pipeHuge"
         }
       },
       "taskID:8": "bq_standard:retrieval"

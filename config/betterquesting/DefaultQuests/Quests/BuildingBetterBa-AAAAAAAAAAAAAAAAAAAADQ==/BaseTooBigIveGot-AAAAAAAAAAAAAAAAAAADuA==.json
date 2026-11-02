@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 2845,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Marble:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -164,27 +164,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 21,
-          "Damage:2": 2823,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Calcite:dust"
         },
         "1:10": {
           "Count:3": 10,
-          "Damage:2": 2939,
+          "Damage:2": 0,
           "OreDict:8": "dustQuartzSand",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:QuartzSand:dust"
         },
         "2:10": {
           "Count:3": 10,
-          "Damage:2": 2299,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Stone:dust"
         },
         "3:10": {
           "Count:3": 10,
-          "Damage:2": 2805,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Clay:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

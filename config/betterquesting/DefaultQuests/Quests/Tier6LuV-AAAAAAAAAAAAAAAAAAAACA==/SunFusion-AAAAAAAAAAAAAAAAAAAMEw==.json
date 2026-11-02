@@ -69,15 +69,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31004,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Helium:cellPlasmaLight"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 811,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:Glowstone:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -93,9 +93,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 318,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:Sunnarium:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"

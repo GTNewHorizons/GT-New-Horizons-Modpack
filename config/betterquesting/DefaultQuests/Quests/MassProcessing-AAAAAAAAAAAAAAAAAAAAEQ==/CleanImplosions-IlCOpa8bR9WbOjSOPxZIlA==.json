@@ -107,9 +107,9 @@
         },
         "2:10": {
           "Count:3": 24,
-          "Damage:2": 2,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal5"
+          "id:8": "ml:Neutronium:block"
         },
         "3:10": {
           "Count:3": 22,
@@ -125,9 +125,9 @@
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 324,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Naquadah:frameGt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

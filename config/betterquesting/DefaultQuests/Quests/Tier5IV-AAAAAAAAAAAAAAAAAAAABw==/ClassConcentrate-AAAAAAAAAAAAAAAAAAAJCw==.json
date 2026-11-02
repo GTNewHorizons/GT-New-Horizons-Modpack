@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 74,
+        "Damage:2": 0,
         "OreDict:8": "cellOsmiumSolution",
-        "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        "id:8": "ml:OsmiumSolution:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -84,9 +84,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 72,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:AcidicOsmiumSolution:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -102,9 +102,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 74,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:OsmiumSolution:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -26,9 +26,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 16588,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.02"
+        "id:8": "ml:SpaceTime:turbineBlade"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -110,9 +110,9 @@
         },
         "3:10": {
           "Count:3": 34,
-          "Damage:2": 305,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Steel:frameGt"
         },
         "4:10": {
           "Count:3": 20,

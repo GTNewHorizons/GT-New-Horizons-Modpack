@@ -112,21 +112,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 17305,
+          "Damage:2": 0,
           "OreDict:8": "plateSteel",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Steel:plate"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 28341,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:MeteoricSteel:ring"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 5134,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Steel:pipeHuge"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

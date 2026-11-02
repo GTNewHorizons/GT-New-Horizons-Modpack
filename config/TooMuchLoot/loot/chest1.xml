@@ -24,18 +24,18 @@
 	<loot item="IC2:itemTreetap" damage="0" weight="30" count_min="1" count_max="2"/>
 	<loot item="etfuturum:blast_furnace" damage="0" weight="20" count_min="1" count_max="2"/>
 	<loot item="BuildCraft|Factory:tankBlock" damage="0" weight="20" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.metaitem.02" damage="18035" weight="20" count_min="4" count_max="6"/>
-	<loot item="gregtech:gt.metaitem.02" damage="18057" weight="20" count_min="4" count_max="6"/>
-	<loot item="gregtech:gt.metaitem.02" damage="18300" weight="20" count_min="4" count_max="6"/>
-	<loot item="gregtech:gt.metaitem.02" damage="18086" weight="20" count_min="4" count_max="6"/>
-	<loot item="gregtech:gt.metaitem.02" damage="18032" weight="20" count_min="4" count_max="6"/>
-	<loot item="gregtech:gt.metaitem.02" damage="18305" weight="20" count_min="4" count_max="6"/>
-	<loot item="gregtech:gt.metaitem.02" damage="18089" weight="20" count_min="4" count_max="6"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17300" weight="25" count_min="5" count_max="10"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17032" weight="25" count_min="5" count_max="10"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17035" weight="25" count_min="5" count_max="10"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17057" weight="25" count_min="5" count_max="10"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17304" weight="25" count_min="5" count_max="10"/>
+	<loot item="ml:Copper:itemCasing" damage="0" weight="20" count_min="4" count_max="6"/>
+	<loot item="ml:Tin:itemCasing" damage="0" weight="20" count_min="4" count_max="6"/>
+	<loot item="ml:Bronze:itemCasing" damage="0" weight="20" count_min="4" count_max="6"/>
+	<loot item="ml:Gold:itemCasing" damage="0" weight="20" count_min="4" count_max="6"/>
+	<loot item="ml:Iron:itemCasing" damage="0" weight="20" count_min="4" count_max="6"/>
+	<loot item="ml:Steel:itemCasing" damage="0" weight="20" count_min="4" count_max="6"/>
+	<loot item="ml:Lead:itemCasing" damage="0" weight="20" count_min="4" count_max="6"/>
+	<loot item="ml:Bronze:plate" damage="0" weight="25" count_min="5" count_max="10"/>
+	<loot item="ml:Iron:plate" damage="0" weight="25" count_min="5" count_max="10"/>
+	<loot item="ml:Copper:plate" damage="0" weight="25" count_min="5" count_max="10"/>
+	<loot item="ml:Tin:plate" damage="0" weight="25" count_min="5" count_max="10"/>
+	<loot item="ml:CastIron:plate" damage="0" weight="25" count_min="5" count_max="10"/>
 	<loot item="harvestcraft:pamlemonSapling" damage="0" weight="20" count_min="1" count_max="2"/>
 	<loot item="harvestcraft:pammapleSapling" damage="0" weight="20" count_min="1" count_max="2"/>
 	<loot item="harvestcraft:pamoliveSapling" damage="0" weight="20" count_min="1" count_max="2"/>

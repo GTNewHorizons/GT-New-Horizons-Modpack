@@ -23,7 +23,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "IC2:itemCellEmpty"
+        "id:8": "materiallib:cellEmpty"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 11880,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Rubber:ingot"
         }
       }
     },
@@ -98,9 +98,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 17057,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Tin:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -118,7 +118,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "materiallib:cellEmpty"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -148,15 +148,15 @@
         },
         "10:10": {
           "Count:3": 1590,
-          "Damage:2": 13,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal4"
+          "id:8": "ml:NaquadahAlloy:block"
         },
         "11:10": {
           "Count:3": 1960,
-          "Damage:2": 9,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal7"
+          "id:8": "ml:Titanium:block"
         }
       },
       "taskID:8": "bq_standard:retrieval"

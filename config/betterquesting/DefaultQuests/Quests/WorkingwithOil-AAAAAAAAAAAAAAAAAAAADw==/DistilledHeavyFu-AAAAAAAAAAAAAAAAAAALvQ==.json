@@ -64,9 +64,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 20,
-          "Damage:2": 30741,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:HeavyFuel:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -95,21 +95,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 20,
-          "Damage:2": 30647,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Toluene:cell"
         },
         "1:10": {
           "Count:3": 20,
-          "Damage:2": 30687,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Phenol:cell"
         },
         "2:10": {
           "Count:3": 20,
-          "Damage:2": 30686,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Benzene:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

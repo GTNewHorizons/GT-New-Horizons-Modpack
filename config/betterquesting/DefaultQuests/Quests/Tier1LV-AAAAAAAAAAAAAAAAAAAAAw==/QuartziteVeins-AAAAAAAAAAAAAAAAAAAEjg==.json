@@ -135,21 +135,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 5523,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Quartzite:rawOre"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 5904,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Barite:rawOre"
         },
         "2:10": {
           "Count:3": 96,
-          "Damage:2": 5516,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:CertusQuartz:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -165,21 +165,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 1523,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Quartzite:ore_netherrack"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1904,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Barite:ore_netherrack"
         },
         "2:10": {
           "Count:3": 48,
-          "Damage:2": 1516,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:CertusQuartz:ore_netherrack"
         }
       },
       "taskID:8": "bq_standard:retrieval"

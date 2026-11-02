@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmetal3"
+        "id:8": "ml:Europium:block"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -112,15 +112,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 30001,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Hydrogen:cellGas"
         },
         "1:10": {
           "Count:3": 13,
-          "Damage:2": 11067,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Neodymium:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -136,15 +136,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 3,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal3"
+          "id:8": "ml:Europium:block"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 17070,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Europium:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

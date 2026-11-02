@@ -76,9 +76,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 31032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Iron:gearGt"
         }
       }
     },
@@ -162,9 +162,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 31032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Iron:gearGt"
         },
         "1:10": {
           "Count:3": 1,
@@ -174,9 +174,9 @@
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 28032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:ring"
         },
         "3:10": {
           "Count:3": 1,

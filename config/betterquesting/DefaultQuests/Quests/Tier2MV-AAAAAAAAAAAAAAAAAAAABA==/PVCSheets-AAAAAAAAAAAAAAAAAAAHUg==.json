@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 17649,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:PolyvinylChloride:plate"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,21 +63,21 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1366,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Copper:cableGt01"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 5692,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:PolyvinylChloride:itemPipeHuge"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 649,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:PolyvinylChloride:cellMolten"
         },
         "3:10": {
           "Count:3": 1,
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 124,
-          "Damage:2": 17649,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:PolyvinylChloride:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

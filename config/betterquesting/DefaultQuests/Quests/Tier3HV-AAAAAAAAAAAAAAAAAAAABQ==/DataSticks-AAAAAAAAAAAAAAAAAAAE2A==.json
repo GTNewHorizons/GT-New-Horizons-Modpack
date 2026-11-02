@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 17874,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Plastic:plate"
         },
         "1:10": {
           "Count:3": 8,
@@ -144,15 +144,15 @@
         },
         "4:10": {
           "Count:3": 64,
-          "Damage:2": 19308,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:RedAlloy:wireFine"
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 17874,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Plastic:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -98,9 +98,9 @@
         },
         "4:10": {
           "Count:3": 32,
-          "Damage:2": 2078,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Lutetium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -116,9 +116,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 2078,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Lutetium:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

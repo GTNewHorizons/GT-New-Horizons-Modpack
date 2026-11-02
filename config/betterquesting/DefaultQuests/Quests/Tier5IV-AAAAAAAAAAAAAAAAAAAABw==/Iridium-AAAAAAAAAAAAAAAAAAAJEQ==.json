@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2084,
+        "Damage:2": 0,
         "OreDict:8": "dustIridium",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Iridium:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -65,9 +65,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2084,
+          "Damage:2": 0,
           "OreDict:8": "dustIridium",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iridium:dust"
         }
       }
     }
@@ -84,15 +84,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 76,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:IridiumChloride:dust"
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 2026,
+          "Damage:2": 0,
           "OreDict:8": "dustCalcium",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Calcium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -108,9 +108,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2084,
+          "Damage:2": 0,
           "OreDict:8": "dustIridium",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iridium:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -126,15 +126,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 77,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:MetallicSludgeDustResidue:dust"
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 63,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:CalciumChloride:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

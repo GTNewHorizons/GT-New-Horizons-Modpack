@@ -134,15 +134,15 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 27032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:screw"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 28032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:ring"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

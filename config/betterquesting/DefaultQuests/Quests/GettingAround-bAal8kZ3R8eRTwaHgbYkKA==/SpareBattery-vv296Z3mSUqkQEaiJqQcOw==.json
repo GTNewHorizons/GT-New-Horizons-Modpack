@@ -113,19 +113,19 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemPlateTantalumCarbide"
+          "id:8": "ml:TantalumCarbide:plate"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 28028,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Titanium:ring"
         },
         "2:10": {
           "Count:3": 6,
-          "Damage:2": 1423,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Gold:wireGt08"
         },
         "3:10": {
           "Count:3": 4,
@@ -149,7 +149,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellTantalumCarbide"
+          "id:8": "ml:TantalumCarbide:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

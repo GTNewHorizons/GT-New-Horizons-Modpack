@@ -112,9 +112,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 30,
-          "Damage:2": 30720,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SulfuricAcid:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

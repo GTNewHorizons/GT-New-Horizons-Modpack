@@ -91,9 +91,9 @@
         },
         "1:10": {
           "Count:3": 140,
-          "Damage:2": 2098,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Uranium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -115,9 +115,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 2398,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:MysteriousCrystal:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

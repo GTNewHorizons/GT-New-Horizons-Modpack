@@ -148,9 +148,9 @@
         },
         "10:10": {
           "Count:3": 1482,
-          "Damage:2": 10,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal9"
+          "id:8": "ml:Magmatter:block"
         },
         "11:10": {
           "Count:3": 890,
@@ -160,21 +160,21 @@
         },
         "12:10": {
           "Count:3": 922,
-          "Damage:2": 6143,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Magmatter:plateSuperdense"
         },
         "13:10": {
           "Count:3": 1248,
-          "Damage:2": 6585,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:WhiteDwarfMatter:plateSuperdense"
         },
         "14:10": {
           "Count:3": 56,
-          "Damage:2": 4143,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Magmatter:nanite"
         },
         "15:10": {
           "Count:3": 8,

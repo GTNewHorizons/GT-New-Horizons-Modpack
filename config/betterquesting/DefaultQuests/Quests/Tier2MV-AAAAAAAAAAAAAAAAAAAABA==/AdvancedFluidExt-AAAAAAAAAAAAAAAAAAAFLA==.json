@@ -64,9 +64,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 1366,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Copper:cableGt01"
         },
         "1:10": {
           "Count:3": 2,
@@ -76,9 +76,9 @@
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 17019,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Aluminium:plate"
         },
         "3:10": {
           "Count:3": 1,

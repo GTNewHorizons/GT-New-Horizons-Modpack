@@ -75,9 +75,9 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 21306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:StainlessSteel:rotor"
         }
       },
       "ignoreDisabled:1": 0,
@@ -116,15 +116,15 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 18306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:StainlessSteel:itemCasing"
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 20028,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Titanium:gearGtSmall"
         },
         "3:10": {
           "Count:3": 4,
@@ -140,15 +140,15 @@
         },
         "5:10": {
           "Count:3": 8,
-          "Damage:2": 18306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:StainlessSteel:plateDouble"
         },
         "6:10": {
           "Count:3": 2,
-          "Damage:2": 1646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Platinum:cableGt01"
         },
         "7:10": {
           "Count:3": 2,

@@ -145,21 +145,21 @@
         },
         "12:10": {
           "Count:3": 16,
-          "Damage:2": 28,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Titanium:frameGt"
         },
         "13:10": {
           "Count:3": 23,
-          "Damage:2": 374,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:HSSS:frameGt"
         },
         "14:10": {
           "Count:3": 64,
-          "Damage:2": 985,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Longasssuperconductornameforuhvwire:frameGt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11339,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Steeleaf:ingot"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -74,9 +74,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 12,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal8"
+          "id:8": "ml:Steeleaf:block"
         }
       }
     }

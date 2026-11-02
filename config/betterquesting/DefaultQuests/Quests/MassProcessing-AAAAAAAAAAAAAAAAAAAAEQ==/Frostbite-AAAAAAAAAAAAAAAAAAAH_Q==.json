@@ -131,9 +131,9 @@
         },
         "4:10": {
           "Count:3": 146,
-          "Damage:2": 389,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:CallistoIce:frameGt"
         },
         "5:10": {
           "Count:3": 135,
@@ -149,9 +149,9 @@
         },
         "7:10": {
           "Count:3": 40,
-          "Damage:2": 390,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "ml:Ledox:sheetmetal"
         },
         "8:10": {
           "Count:3": 18,

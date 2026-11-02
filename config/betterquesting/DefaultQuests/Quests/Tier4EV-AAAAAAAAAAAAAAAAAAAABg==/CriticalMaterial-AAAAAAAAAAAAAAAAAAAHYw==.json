@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 4841,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "ml:Tungstate:ore_redgranite"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -104,21 +104,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 192,
-          "Damage:2": 5884,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Desh:crushed"
         },
         "1:10": {
           "Count:3": 96,
-          "Damage:2": 5910,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Scheelite:crushed"
         },
         "2:10": {
           "Count:3": 48,
-          "Damage:2": 5841,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Tungstate:crushed"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -134,21 +134,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 5884,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Desh:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 5910,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Scheelite:rawOre"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 5841,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Tungstate:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -164,21 +164,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 4884,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Desh:ore_redgranite"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 4910,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Scheelite:ore_redgranite"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 4841,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Tungstate:ore_redgranite"
         }
       },
       "taskID:8": "bq_standard:retrieval"

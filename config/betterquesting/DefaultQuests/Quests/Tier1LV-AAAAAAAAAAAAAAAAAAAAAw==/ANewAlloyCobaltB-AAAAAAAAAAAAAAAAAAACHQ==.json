@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11343,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:CobaltBrass:ingot"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -110,15 +110,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 2035,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Copper:dust"
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 2036,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Zinc:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -134,9 +134,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "Damage:2": 2301,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Brass:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -152,21 +152,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 7,
-          "Damage:2": 2301,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Brass:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2057,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Tin:dust"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 2033,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Cobalt:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -182,9 +182,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 2343,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:CobaltBrass:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

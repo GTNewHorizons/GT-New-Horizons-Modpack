@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2910,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Scheelite:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -85,21 +85,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 42,
-          "Damage:2": 2841,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Tungstate:dust"
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 2017,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Sodium:dust"
         },
         "2:10": {
           "Count:3": 24,
-          "Damage:2": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "ml:Water:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -115,15 +115,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 2006,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Lithium:dust"
         },
         "1:10": {
           "Count:3": 6,
-          "Damage:2": 29904,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:SodiumTungstate:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -139,15 +139,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 29904,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:SodiumTungstate:cell"
         },
         "1:10": {
           "Count:3": 18,
-          "Damage:2": 63,
+          "Damage:2": 0,
           "OreDict:8": "dustCalciumChloride",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:CalciumChloride:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -163,15 +163,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 2910,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Scheelite:dust"
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 2817,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Salt:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
