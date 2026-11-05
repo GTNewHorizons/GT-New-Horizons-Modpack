@@ -5,7 +5,11 @@
     "OREDICT:oreEndstoneNaquadria:15",
     "OREDICT:oreTiberium:100"
   ],
+  "filler": [
+    "OREDICT:endstone:200"
+  ],
   "radius": 16,
   "cost": 25000000,
-  "focusItem": "gregtech:gt.metaitem.03:32091"
+  "focusItem": "gregtech:gt.metaitem.03:32091",
+  "fillerChance": 70
 }

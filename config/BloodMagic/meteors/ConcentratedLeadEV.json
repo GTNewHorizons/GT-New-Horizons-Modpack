@@ -5,7 +5,11 @@
     "OREDICT:oreEndstoneSilver:100",
     "OREDICT:oreEndstoneCryolite:100"
   ],
+  "filler": [
+    "OREDICT:endstone:200"
+  ],
   "radius": 9,
   "cost": 2000000,
-  "focusItem": "gregtech:gt.blockmachines:214"
+  "focusItem": "gregtech:gt.blockmachines:214",
+  "fillerChance": 70
 }

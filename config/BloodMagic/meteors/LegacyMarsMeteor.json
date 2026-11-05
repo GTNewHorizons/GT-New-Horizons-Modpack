@@ -21,7 +21,11 @@
     "OREDICT:oreBlackgraniteBismuth:50",
     "OREDICT:oreBlackgraniteAntimony:50"
   ],
+  "filler": [
+    "OREDICT:stoneGraniteBlack:200"
+  ],
   "radius": 13,
   "cost": 500000,
-  "focusItem": "gregtech:gt.metaitem.01:32692"
+  "focusItem": "gregtech:gt.metaitem.01:32692",
+  "fillerChance": 70
 }
