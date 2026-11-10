@@ -17,7 +17,7 @@
     "betterquesting:10": {
       "autoClaim:1": 0,
       "completion_animation:8": "default",
-      "completion_particle:8": "default",
+      "completion_particle:8": "confetti",
       "confetti_icon:10": {
         "Count:3": 0,
         "Damage:2": 0,
@@ -67,8 +67,22 @@
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "index:3": 1,
-      "taskID:8": "bq_standard:checkbox"
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11231,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

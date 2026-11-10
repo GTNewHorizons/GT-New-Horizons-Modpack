@@ -25,7 +25,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The next solar panel you can make is the LV one. It generates 32 EU/t.",
+      "desc:8": "The next solar panel you can make is the LV one. It generates 32 EU/t.\n\n[warn]As you may expect, these will react poorly to being placed on machines of lower voltage![/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

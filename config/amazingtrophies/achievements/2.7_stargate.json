@@ -1,0 +1,14 @@
+{
+  "id": "stargate_2.7",
+  "condition": {
+    "type": "inventory.add",
+    "item": "minecraft:paper",
+    "meta": 5
+  },
+  "page": "GT New Horizons",
+  "x": 15,
+  "y": 8,
+  "icon": {
+    "registryName": "dreamcraft:HeavenlyGatePlate"
+  }
+}
