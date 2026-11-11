@@ -11,7 +11,6 @@
   },
   "properties:10": {
     "betterquesting:10": {
-      ":8": "With the MV fermenter you can produce fermented biomass. This is the base product to make methane, ethanol and methanol.\nWhen you reach HV tier there\u0027s a more efficient way to process it - the distillation tower multiblock.",
       "autoClaim:1": 0,
       "completion_animation:8": "default",
       "completion_particle:8": "default",
@@ -22,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Fermenting your Biomass allows you to get more products out of it like Methanol, Ethanol, Ammonia, etc.",
+      "desc:8": "Use the MV Fermenter to turn Biomass into Fermented Biomass, which can be processed into Methane, Ethanol, Methanol, Ammonia and other products.\n\nAt HV, the Distillation Tower multiblock offers a more efficient way to process Fermented Biomass.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1658
+      "questIDLow:4": 2112
     }
   },
   "properties:10": {
@@ -17,19 +17,24 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The last step to create a dragon egg is to add enderium using a dragon heart as a catalyst. It\u0027s not used up.",
+      "desc:8": "An ocelot backpack will get those creepers running away from you. Nice protection against those drowning creepers! Don\u0027t get too close to them or else their repulsion will be overridden and they\u0027ll blow up!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 29,
         "OreDict:8": "",
-        "id:8": "minecraft:dragon_egg"
+        "id:8": "adventurebackpack:adventureBackpack",
+        "tag:10": {
+          "wearableData:10": {
+            "type:4": 29
+          }
+        }
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§8§lDragon Egg Omlet",
+      "name:8": "Creeper Repellent",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -57,7 +62,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1659,
+  "questIDLow:4": 2116,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -68,38 +73,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:essence"
-        },
-        "1:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "DraconicEvolution:draconiumDust"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 7,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemistII"
+          "id:8": "harvestcraft:fishandchipsItem"
         }
       }
     }
@@ -116,39 +90,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 29,
           "OreDict:8": "",
-          "id:8": "dreamcraft:DraconiumEgg"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "DraconicEvolution:dragonHeart"
-        },
-        "2:10": {
-          "Count:3": 7,
-          "Damage:2": 321,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:dragon_egg"
+          "id:8": "adventurebackpack:adventureBackpack",
+          "tag:10": {
+            "wearableData:10": {
+              "inventory:9": {},
+              "type:1": 29
+            }
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
