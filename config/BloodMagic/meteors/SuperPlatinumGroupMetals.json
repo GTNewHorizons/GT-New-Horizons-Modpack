@@ -8,7 +8,12 @@
     "OREDICT:oreLeachResidue:200",
     "OREDICT:oreRarestMetalResidue:100"
   ],
+  "filler": [
+    "minecraft:stone:0:200",
+    "OREDICT:endstone:200"
+  ],
   "radius": 14,
   "cost": 12500000,
-  "focusItem": "gregtech:gt.blockmachines:345"
+  "focusItem": "gregtech:gt.blockmachines:345",
+  "fillerChance": 70
 }

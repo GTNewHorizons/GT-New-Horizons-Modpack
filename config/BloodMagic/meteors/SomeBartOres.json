@@ -19,7 +19,11 @@
     "OREDICT:oreHedenbergite:1",
     "OREDICT:orePrasiolite:1"
   ],
+  "filler": [
+    "minecraft:stone:0:200"
+  ],
   "radius": 18,
   "cost": 10000000,
-  "focusItem": "gregtech:gt.blockmachines:406"
+  "focusItem": "gregtech:gt.blockmachines:406",
+  "fillerChance": 70
 }

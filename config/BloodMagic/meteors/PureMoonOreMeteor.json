@@ -11,7 +11,11 @@
     "OREDICT:oreMarbleMonazite:75",
     "OREDICT:oreMarbleMeteoricIron:75"
   ],
+  "filler": [
+    "gregtech:gt.blockstones:0:200"
+  ],
   "radius": 16,
   "cost": 2000000,
-  "focusItem": "gregtech:gt.metaitem.01:32682"
+  "focusItem": "gregtech:gt.metaitem.01:32682",
+  "fillerChance": 70
 }

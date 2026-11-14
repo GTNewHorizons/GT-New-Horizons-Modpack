@@ -26,7 +26,12 @@
     "OREDICT:oreBasaltOriharukon:35",
     "OREDICT:oreEndstoneMeteoricIron:75"
   ],
+  "filler": [
+    "gregtech:gt.blockstones:8:200",
+    "gregtech:gt.blockstones:0:200"
+  ],
   "radius": 24,
   "cost": 6000000,
-  "focusItem": "gregtech:gt.blockmachines:463"
+  "focusItem": "gregtech:gt.blockmachines:463",
+  "fillerChance": 70
 }
