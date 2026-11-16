@@ -157,6 +157,7 @@ def get_github_issue_title(issue):
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Please provide at least a starting version or commit hash.")
+        sys.exit(2)
     from_commit = sys.argv[1]
     to_commit = "HEAD"
     if len(sys.argv) == 3:
