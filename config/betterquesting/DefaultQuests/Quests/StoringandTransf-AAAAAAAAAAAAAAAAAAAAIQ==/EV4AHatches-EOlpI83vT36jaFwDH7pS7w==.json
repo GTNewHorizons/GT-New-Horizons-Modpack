@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "To insert and extract many amps from your LSC, make these special hatches.\n\nSome multiblocks can also accept multi-amp hatches.",
+"desc:8": "To insert and extract many amps from your LSC, make these special hatches.\n\nAll multiblocks that accept regular Dynamo Hatches also accept 4A Dynamo Hatches.\n\nSome multiblocks, like the LSC, support multi-amp hatches above 4A and laser hatches.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

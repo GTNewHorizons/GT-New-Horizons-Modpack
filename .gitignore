@@ -235,6 +235,8 @@ GregTech*.lang
 InGameInfo_*.xml
 
 # txloader based localization
+config/txloader/load/gtnhcredits/lang/*.lang
+!config/txloader/load/gtnhcredits/lang/en_US.lang
 config/txloader/load/betterquesting/lang/*.lang
 !config/txloader/load/betterquesting/lang/template.lang
 config/txloader/load/custommainmenu/lang/*.lang
