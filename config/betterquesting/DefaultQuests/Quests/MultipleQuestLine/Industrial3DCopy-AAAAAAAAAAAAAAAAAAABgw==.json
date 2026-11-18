@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Need large amounts of chiseled blocks? \n\nThe §5§lIndustrial 3D Copy Machine§r is just the thing for you. It boasts a generous §6§l16§r parallels per voltage tier, operating at §2§l3x§r recipe speed and at §3§l75%§r of EU cost.\n\nThe Chisel Bus allows you to set up to 9 target blocks per bus, but only one per block group.\nThe standard Input Bus determines the output with a ghost circuit.\n If no target block or circuit are used, the machine will default to the next block in the chisel group after the input.",
+      "desc:8": "Need large amounts of chiseled blocks? \n\nThe §5§lIndustrial 3D Copy Machine§r is just the thing for you. It boasts a generous §6§l16§r parallels per voltage tier, operating at §2§l3x§r recipe speed and at §3§l75%§r of EU cost.\n\nThe Chisel Bus allows you to set up to 9 target blocks per bus, one per block chiseling group.\nThe standard Input Bus determines the output with a ghost circuit.\n If no target block or circuit are used, the machine will default to the next block in the chisel group after the input.\nWhen using CRIBs the machine will create outputs according to the inserted patterns, as long as the input and output are in the same chisel group.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
