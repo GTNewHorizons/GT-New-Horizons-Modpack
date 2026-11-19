@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 32011,
         "OreDict:8": "",
-        "id:8": "IC2:itemDynamite"
+        "id:8": "gregtech:gt.metaitem.02"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -75,9 +75,9 @@
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 0,
+          "Damage:2": 32011,
           "OreDict:8": "",
-          "id:8": "IC2:itemDynamite"
+          "id:8": "gregtech:gt.metaitem.02"
         }
       },
       "ignoreDisabled:1": 0,
@@ -152,9 +152,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 0,
+          "Damage:2": 32011,
           "OreDict:8": "",
-          "id:8": "IC2:itemDynamite"
+          "id:8": "gregtech:gt.metaitem.02"
         }
       },
       "taskID:8": "bq_standard:retrieval"
