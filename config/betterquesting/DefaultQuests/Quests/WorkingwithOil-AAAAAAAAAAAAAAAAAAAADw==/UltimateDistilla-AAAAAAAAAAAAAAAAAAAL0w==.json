@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The Dangote Distillus is not enough for the goals of an oil baron. You might have heard about \"mega\" multiblocks, namely the Mega EBF, but did you know that a Distillation Tower equivalent exists?\n\nIt does the same thing as the Dangote, parallels, but it does 256 at a time, and is much, much bigger than anything you\u0027ve built so far. My challenge to you is to build a max-height, full-sized Mega Distillation Tower, and come out of your efforts with the biggest multiblock that the pack has to offer. You will need more, much more casings than what the quest asks for, but your inventory is not big enough to hold the full amount that will need to build this monstrosity.",
+      "desc:8": "The Dangote Distillus is not enough for the goals of an oil baron. You might have heard about \"mega\" multiblocks, namely the Mega EBF, but did you know that a Distillation Tower equivalent exists?\n\nLike the Dangote, it processes recipes in parallel, but it can handle 256 at a time and is much, much bigger than anything you\u0027ve built so far. My challenge to you is to build a max-height, full-sized Mega Distillation Tower!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -93,6 +93,66 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 553,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "1:10": {
+          "Count:3": 442,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.2"
+        },
+        "2:10": {
+          "Count:3": 307,
+          "Damage:2": 324,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        },
+        "3:10": {
+          "Count:3": 227,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings14"
+        },
+        "4:10": {
+          "Count:3": 207,
+          "Damage:2": 306,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "5:10": {
+          "Count:3": 137,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "6:10": {
+          "Count:3": 67,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "7:10": {
+          "Count:3": 41,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
