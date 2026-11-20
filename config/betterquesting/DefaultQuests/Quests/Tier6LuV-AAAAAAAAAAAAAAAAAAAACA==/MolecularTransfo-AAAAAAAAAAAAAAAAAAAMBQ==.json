@@ -28,7 +28,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§d§lMolecular Transformer, finally!",
+      "name:8": "§d§lMolecular Transformer, Finally!",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -114,9 +114,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 104,
-          "Damage:2": 10,
+          "Damage:2": 11,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
         },
         "1:10": {
           "Count:3": 35,
