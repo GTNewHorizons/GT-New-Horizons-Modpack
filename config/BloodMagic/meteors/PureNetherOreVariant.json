@@ -24,7 +24,11 @@
     "OREDICT:oreNetherrackCertusQuartz:100",
     "OREDICT:oreNetherrackFirestone:20"
   ],
+  "filler": [
+    "minecraft:netherrack:0:200"
+  ],
   "radius": 18,
   "cost": 1200000,
-  "focusItem": "gregtech:gt.blockmachines:482"
+  "focusItem": "gregtech:gt.blockmachines:482",
+  "fillerChance": 60
 }
