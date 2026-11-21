@@ -29,22 +29,22 @@ jobs:
           GUIDE_REPO: GTNewHorizons/GTNH-Guide-Pack
         run: |
           set -euo pipefail
-          if [[ "${RELEASE_VERSION}" == *-pre ]]; then
-            # Experimental modpack release: newest guide release of any tag.
-            GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
-              --json tagName,createdAt,isDraft \
-              --jq '[.[] | select(.isDraft | not)]
-                    | select(.tagName != "guide-page-lang-dev-build")
-                    | sort_by(.createdAt) | reverse | .[0].tagName // empty')
-          else
-            # Daily modpack release: newest guide release whose tag is not -pre.
-            GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
-              --json tagName,createdAt,isDraft \
-              --jq '[.[] | select(.isDraft | not)
-                          | select(.tagName != "guide-page-lang-dev-build")
-                          | select(.tagName | endswith("-pre") | not)]
-                    | sort_by(.createdAt) | reverse | .[0].tagName // empty')
-          fi
+          GUIDE_TAG=
+          GUIDE_RELEASES=$(gh api --paginate "repos/$GUIDE_REPO/releases?per_page=100" \
+            --jq '.[] | select(.draft == false and .prerelease == false and .published_at != null)
+                      | select(.tag_name != "guide-page-lang-dev-build" and (.tag_name | endswith("-pre") | not))
+                      | select(any(.assets[]; .name == "gtnh-pack-update.json"))
+                      | [.published_at, .tag_name] | @tsv' | sort -r)
+
+          while IFS=$'\t' read -r _ CANDIDATE_TAG; do
+            [[ -n "$CANDIDATE_TAG" ]] || continue
+            PACK_GAME_VERSION=$(gh release download "$CANDIDATE_TAG" --repo "$GUIDE_REPO" \
+              --pattern gtnh-pack-update.json --output - | jq -er '.pack_game_version | ascii_downcase')
+            if [[ "$PACK_GAME_VERSION" == '2.9.x' ]]; then
+              GUIDE_TAG=$CANDIDATE_TAG
+              break
+            fi
+          done <<< "$GUIDE_RELEASES"
           if [[ -z "$GUIDE_TAG" ]]; then
             echo "No matching GTNH-Guide-Pack release found" >&2
             exit 1
