@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.\n\nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:\n\n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r\n§r\n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave\n§r\n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.\n§r\nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.\n\n[warn]Hold 64 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]",
+      "desc:8": "§5§lPrismarine§r is an ancient material long rumored to have originated in structures deep underwater. Learning how to make it is important and may lead to technological advances as you explore its properties.\n\nYou can get Prismarine in two ways.\n\n§31. Use Botania\u0027s Alchemical Catalyst or Fountain of Alchemy to turn Nether Quartz directly into §lPrismarine.§r\n\n§22. Combine Red Algae Biomass with either Certus Quartz Dust or Prismarine Crystals to make Dim Prismarine. Then process it in a Laser Engraver to get Prismarine.§r\n\nIf you\u0027re using the Laser Engraver route and have gone the extra mile to breed Prismatic Bees, add their combs to the recipe to double your Prismarine output.\n\nChoose the method that fits the infrastructure you\u0027ve set up so far. Either way, plan for a steady supply of Prismarine. You\u0027ll need plenty later.\n\n[warn]Hold 64 pieces of Naquarite Insulator Foil to skip the Prismarine questline.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -119,14 +119,26 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 256,
+          "Count:3": 128,
+          "Damage:2": 2516,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 128,
           "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "miscutils:item.BasicAgrichemItem"
         },
-        "1:10": {
-          "Count:3": 256,
-          "Damage:2": 2516,
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 32265,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 24543,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         }
@@ -144,15 +156,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "VillageNames:prismarine_crystals"
+        },
+        "1:10": {
+          "Count:3": 64,
           "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "miscutils:item.BasicAgrichemItem"
         },
-        "1:10": {
-          "Count:3": 128,
-          "Damage:2": 170,
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 32265,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.comb"
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 24543,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
