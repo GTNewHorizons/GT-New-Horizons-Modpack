@@ -622,7 +622,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACGA.desc=Let's make a mold for the rubbe
 
 # Quest: How Can I Carry All These Items?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.name=§c§lHow Can I Carry All These Items?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.desc=After you made your first steel, you are able to craft a small backpack. It has 36 slots, which is a bit more than a small chest. Later you can make it even larger.%n%nYou can have at most four of these backpacks in your inventory.%n%nYou can put one on your back and set it to automatically pick up stuff. In your controls, check that the command "Open Backpacks" has a key and doesn't have conflicts. The key only works after the backpack is added to the back slot, which can be done by using Shift+<Open Backpacks Key>.%n§r%nYou can rename your backpack by pressing Shift+RMB when holding it in your hand.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.desc=Once you have made your first steel, you can craft a small backpack. It has 36 slots, nine more than a small chest. You can upgrade it later.%n%nYou can carry up to four of these backpacks in your inventory.%n%nYou can wear a backpack and set it to pick up items automatically. In Controls, assign a key to "Open Backpack" and check for conflicts. Hold Sneak and press that key to open the back-slot screen and equip your backpack. Once it is equipped, press Open Backpack on its own to open it.%n%nTo rename a backpack, hold it in your hand, hold Sneak, and right-click.
 
 # Quest: Upgrade of the Upgrade of the...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACVA.name=§c§lUpgrade of the Upgrade of the...
@@ -798,7 +798,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHA.desc=Your iron doors make your Machi
 
 # Quest: How to Open Your Wooden Doors?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.name=§a§lHow to Open Your Wooden Doors?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.desc=Wooden doors make your House safer. Let's craft some wooden Pressure plates and Buttons to open these Doors.%n%nDoors will open when they receive a redstone signal, and close again after it stops. If you place the plates on either side of a door, it will open when you step on it. Or a monster does. Double doors will open together.%n%nYou'll need to use Oak for this quest. Purchase some saplings from the Vending Machine if you don't have any nearby.%n%nPressure plates will send a redstone signal when an entity is on top of them. There are different types, like items or not, or mobs/player/any entity/etc.%n%nButtons will emit one for about 2 seconds before resetting.%n%nLevers will emit a signal until switched back off.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.desc=Wooden doors make your House safer. Let's craft some wooden Pressure plates and Buttons to open these Doors.%n%nDoors will open when they receive a redstone signal, and close again after it stops. If you place the plates on either side of a door, it will open when you step on it. Or a monster does. Double doors will open together.%n%nPressure plates will send a redstone signal when an entity is on top of them. There are different types, like items or not, or mobs/player/any entity/etc.%n%nButtons will emit one for about 2 seconds before resetting.%n%nLevers will emit a signal until switched back off.
 
 # Quest: Tame an Ocelot to Get a Friend
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKg.name=§c§lTame an Ocelot to Get a Friend
@@ -1399,7 +1399,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALow.desc=If you make some Double Alumini
 
 # Quest: Mica Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.name=§2§lMica Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=Mica is a very rare but useful ore. You need it in order to craft your coils for the Electric Blast Furnace. Only for cupronickel coils there is a replacement recipe. If you have no luck in finding this vein yet try to look for it with a Prospector once you get them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=Mica is a rare ore used to make heating coils for the Electric Blast Furnace. Cupronickel coils also have an alternate recipe.%n%nIf you are having trouble finding a Mica vein, try using a Prospector once you have one.%n%nIf you have unlocked the Twilight Forest, look for tin and cassiterite veins around Y 20-32. Save a piece of Cassiterite Ore and use it in an Ore Finder Wand to locate a Mica vein in the Overworld.
 
 # Quest: Steam Regulator
 betterquesting.quest.Hbe7iUTjQM-w7QX0Mr9clw.name=§2§lSteam Regulator
@@ -3562,8 +3562,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALfw.desc=If you want ingots, you can sme
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgA.name=§d§lSilicon Boule
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgA.desc=You can also use naquadahine dust directly to make a Silicon Boule in the EBF. It takes less time than with naquadah ingots.
 
-# Quest: Molecular Transformer, finally!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBQ.name=§d§lMolecular Transformer, finally!
+# Quest: Molecular Transformer, Finally!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBQ.name=§d§lMolecular Transformer, Finally!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBQ.desc=If you're reading this before LuV and want to know how to make Sunnarium, check out EV or IV quests.%n%n[note]Yes, this multi is somewhat buggy.[/note]
 
 # Quest: Sun Fusion
@@ -3845,7 +3845,7 @@ betterquesting.quest.J9eklidSTbyHgMgImYT3-g.desc=After you've managed to grab so
 
 # Quest: Prismarine!? What Do I Need That For?
 betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.name=§b§lPrismarine!? What Do I Need That For?
-betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 64 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
+betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated in structures deep underwater. Learning how to make it is important and may lead to technological advances as you explore its properties.%n%nYou can get Prismarine in two ways.%n%n§31. Use Botania's Alchemical Catalyst or Fountain of Alchemy to turn Nether Quartz directly into §lPrismarine.§r%n%n§22. Combine Red Algae Biomass with either Certus Quartz Dust or Prismarine Crystals to make Dim Prismarine. Then process it in a Laser Engraver to get Prismarine.§r%n%nIf you're using the Laser Engraver route and have gone the extra mile to breed Prismatic Bees, add their combs to the recipe to double your Prismarine output.%n%nChoose the method that fits the infrastructure you've set up so far. Either way, plan for a steady supply of Prismarine. You'll need plenty later.%n%n[warn]Hold 64 pieces of Naquarite Insulator Foil to skip the Prismarine questline.[/warn]
 
 # Quest: Prismatic Gas
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=§b§lPrismatic Gas
@@ -4565,7 +4565,7 @@ betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=Using high amounts of energy an
 
 # Quest: Eternal Coil Upgrade
 betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.name=§9§l§nEternal Coil Upgrade
-betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought it first into a fluid, then into a solid. It has been stabilized against all odds. When you look at it, you feel as though you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous and would have stopped your progress altogether if not for the discovery of the Energised Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension. That is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made of cubes. You have only glimpsed the reality of the 4-dimensional world, but you have successfully used it to condense spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multidimensional material.%n%nThe Eternal Coil is currently the final upgrade, reaching 13,501 K. This really makes your DTPF shine!
+betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought it first into a fluid, then into a solid. It has been stabilized against all odds. When you look at it, you feel as though you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous and would have stopped your progress altogether if not for the discovery of the Energised Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension. That is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made of cubes. You have only glimpsed the reality of the 4-dimensional world, but you have successfully used it to condense spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multidimensional material.%n%nThe Eternal Coil is currently the final upgrade, reaching 13,501K. This really makes your DTPF shine!
 
 # Quest: UIV Superconductors
 betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.name=§9§l§nUIV Superconductors
@@ -5401,7 +5401,7 @@ betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.desc=While it can't produce certus q
 
 # Quest: A Summary of Crossbreeding
 betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.name=A Summary of Crossbreeding
-betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=There are two things you must always remember when breeding anything:%n%n- [note]Parents must be at least 80%% mature§r[/note] in order to cross-breed, regardless of its ability to keep growing.%n- [note]Offsprings cannot appear without meeting all their growth requirements.[/note]%n%nWhen breeding, the resulting stats are based on the rounded-down average of the §oparticipating§r parents' stats plus or minus a random value.%n%nThe range of this random value depends on 2 factors: The number of parents and the amount of fertilizer stored within them.%n%n- Early on, breeding with multiple parents is the only way to attempt to improve your stats, but it's very slow.%n- Applying fertilizer widens the range of values for multi-parent breeding and stabilizes stats during simple propagation.%n- Using a Crop Manager to apply fertilizer allows you to rapidly improve the stats of your crops.%n%nMultiple parent:%n- 0 to 49 fertilizer: -1 -> +1 (higher chance for -1 and 1)%n- 50-100 fertilizer: -2 -> +2%n- 101+ fertilizer: 0 -> +4 (40%% chance for 0)%n%nSingle parent:%n- 0-49 fertilizer: -1 -> 0 (higher chance for 0)%n- 50-100 fertilizer: no variation%n- 100+ fertilizer: 0 -> +4 (40%% chance for 0)%n%nWhen breeding crops, there is a 50%% chance for the offspring to be of the same species as one of the parents. When this happens, all the parents matching the species of the offspring are used to compute the rounded-down average.%n%nThere are 2 ways to obtain new species: Random Mutations and Deterministic Mutations.%n%nMost crops have access to something called Mutation Pools. These pools are like a set of tags associated with each crop. When breeding, if of the parents some share one or more mutation pools, a Random mutation may occur. The resulting offspring will always be another species tagged with one of those shared pools.%n%n[note]Once you've obtained your first 31/31/31 seed, it can be helpful to use these random pool mutations to collect many different types of crops.[/note]%n%nDeterministic breeding is similar to how bees work, where you must bring the right species together. Some situations require more than two parents, and all parents must be adjacent to the double crop stick. During the early stages, you can often emulate deterministic breeding by tailoring the soil, sub-soil and environment of a double cropstick to control the outcome of a random mutation. This process is usually much slower than deterministic mutations, and might require a lot of baby sitting if the crop you wan\u0027t can be singled out/%n%n[note]Deterministic Mutations always take priority over Random Mutations.§r[/note]%n%n[note]Advanced crops (§5MV§r and above materials) will require the breeding machine.[/note]%n%n
+betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=There are two things you must always remember when breeding anything:%n%n- [note]Parents must be at least 80%% mature§r[/note] to crossbreed, even if they can still grow.%n- [note]Offspring can appear only if their growth requirements are met.[/note]%n%nWhen breeding, the resulting stats are based on the rounded-down average of the §oparticipating§r parents' stats plus or minus a random value.%n%nThe range of this random value depends on the number of parents and the lowest amount of fertilizer stored in any participating parent.%n%n- Early on, breeding with multiple parents is the only way to attempt to improve your stats, but it's very slow.%n- Applying fertilizer widens the range of values for multi-parent breeding and stabilizes stats during simple propagation.%n- Using a Crop Manager to apply fertilizer allows you to rapidly improve the stats of your crops.%n%nMultiple parents:%n- 0-49 fertilizer: -1 -> +1 (higher chance for -1 and 1)%n- 50-100 fertilizer: -2 -> +2%n- 101+ fertilizer: 0 -> +4 (about a 43%% chance of rolling 0 per stat)%n%nSingle parent:%n- 0-49 fertilizer: -1 -> 0 (higher chance for 0)%n- 50-100 fertilizer: no variation%n- 101+ fertilizer: 0 -> +4 (about a 43%% chance of rolling 0 per stat)%n%nWhen breeding crops, there is a 50%% chance for the offspring to be of the same species as one of the parents. When this happens, all the parents matching the species of the offspring are used to compute the rounded-down average.%n%nThere are 2 ways to obtain new species: Random Mutations and Deterministic Mutations.%n%nMost crops have access to something called Mutation Pools. These pools are like a set of tags associated with each crop. A random mutation can occur when some of the parents share one or more mutation pools. The resulting offspring will always be another species tagged with one of those shared pools.%n%n[note]Once you've obtained your first 31/31/31 seed, it can be helpful to use these random pool mutations to collect many different types of crops.[/note]%n%nDeterministic breeding is similar to how bees work, where you must bring the right species together. Some situations require more than two parents, and all parents must be adjacent to the double crop stick. During the early stages, you can often emulate deterministic breeding by tailoring the soil, sub-soil and environment of a double cropstick to control the outcome of a random mutation. Even if you can narrow the pool to the crop you want, this approach is usually much slower than deterministic breeding and can require more babysitting.%n%n[note]Deterministic Mutations always take priority over Random Mutations.§r[/note]%n%n[note]Advanced crops (§5MV§r and above materials) will require the breeding machine.[/note]%n%n
 
 # Quest: Thauminite Berries
 betterquesting.quest.J04fEo0DTReAF9BJlQZ9RA.name=Thauminite Berries
@@ -5541,7 +5541,7 @@ betterquesting.quest.Z4d2MWOOTyuBxdWVoaOMkQ.desc=A great source of tungsten.%n%n
 
 # Quest: Simple Propagation
 betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.name=Simple Propagation
-betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. %n%nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.%n%n[warn]Ensure you fertilize your crops (50+ fertilizer) while doing this, or else you stats might go down.[/warn]%n%n[note]Just like any other type of breeding, your crops will need to reach at least 80%% maturity before they can propagate themselves[/note]
+betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. %n%nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.%n%nFor an exact copy of your crop’s stats, keep 50–100 fertilizer points stored in the parent. Below 50, the offspring can lose stats.%n%nBefore LV, breed with two or more parents if you want to improve your crops’ stats. Fertilizing by hand caps out at 100 points. Once you have an LV Crop Manager, use it to bring the parent to 101 points or more. At that level, even a single parent can produce offspring with better stats.%n%n[note]Just like any other type of breeding, your crops will need to reach at least 80%% maturity before they can propagate themselves[/note]
 
 # Quest: Flower Power!
 betterquesting.quest._D2Fw1VcSoqeHHMb8aK5DA.name=Flower Power!
@@ -7306,7 +7306,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL1g.desc=Right-click the controller whil
 
 # Quest: You Are Not Prepared!!!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL1w.name=§6§lYou Are Not Prepared!!!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL1w.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources... or you could go try complete this with the help of some unhappy NPC friends, but that would void your quest rewards.%n%n[note]Note: This quest is mutually exclusive with the other smeltery quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL1w.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources... or you could try to complete this with the help of some unhappy NPC friends, but that would void your quest rewards.%n%n[note]Note: This quest is mutually exclusive with the other smeltery quest.[/note]
 
 # Quest: Getting Muddy With Monazite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4Q.name=§6§lGetting Muddy With Monazite
@@ -7386,7 +7386,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Smelting with the ferocity of t
 
 # Quest: Eternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§9§l§nEternal Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought it first into a fluid, then into a solid. It has been stabilized against all odds. When you look at it, you feel as though you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous and would have stopped your progress altogether if not for the discovery of the Energised Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension. That is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made of cubes. You have only glimpsed the reality of the 4-dimensional world, but you have successfully used it to condense spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multidimensional material.%n%nThe Eternal Coil is currently the final upgrade, reaching 13,501 K. This really makes your DTPF shine!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought it first into a fluid, then into a solid. It has been stabilized against all odds. When you look at it, you feel as though you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous and would have stopped your progress altogether if not for the discovery of the Energised Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension. That is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made of cubes. You have only glimpsed the reality of the 4-dimensional world, but you have successfully used it to condense spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multidimensional material.%n%nThe Eternal Coil is currently the final upgrade, reaching 13,501K. This really makes your DTPF shine!
 
 # Quest: Algae Pond
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=§6§lAlgae Pond
@@ -11110,7 +11110,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.desc=Centrifuge your silky propoli t
 
 # Quest: Apiarist's Cloth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.name=Apiarist's Cloth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.desc=If you have collected 24 woven silk you can make a complete Apiarist's suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your EnderIO Dark Steel Armor to have the same effect.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.desc=If you have collected 24 woven silk you can make a complete Apiarist's suit to be protected from bee stings and other bad bee effects. %n%nYou can also use the suit parts to upgrade your Modular Armor or your EnderIO Dark Steel Armor to have the same effect.
 
 # Quest: A Chest for Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.name=A Chest for Bees
@@ -14563,7 +14563,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.desc=You can't make a vanilla bow or
 
 # Quest: Better Than Barrels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.name=§a§lBetter Than Barrels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each, holding 16 stacks per slot.%n%nHowever, they do come with some downsides. You won't be able to make them point up or down, and you can only access the contents from the front. The automation can use any side.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each, holding 16 stacks per slot.%n%nHowever, they do come with one downside: you can only access the contents from the front. I/O automation can use any side.
 
 # Quest: Framing Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.name=§a§lFraming Drawers
@@ -14851,7 +14851,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.desc=If you want to pass multiple am
 
 # Quest: E_TOO_MANY_KEYS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§9§lE_TOO_MANY_KEYS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=ERROR: Too many keys to fit a 104 key keyboard.%n%nThere are many keybinds in this modpack. To avoid conflicts, most of them are unbound by default. Only the ones available from the start are bound. Note that NEI keybinds are found in the NEI menu and not with the rest of the keybinds.%n%nHere is the list of what some of them do :%n%nBetterQuesting%nGRAVE - Open Questbook%n%nDraconic Evolution%nV - Place the item you are holding on the block you are looking at%n%nJourneymap%nB - Create a Waypoint%nCtrl+B - Open the Waypoint Manager%nJ - Open Fullscreen Map%n= - Zoom In (works on minimap too)%n- - Zoom out%n%nShare Where I am%nINSERT - Places a temporary beam where you are looking at that will be seen by you and other players%nSHIFT + INSERT - Places a temporary beam where §oyou§r are that will be seen by you and other players%nCTRL + INSERT - Shares the position you are looking at with other players%nCTRL + SHIFT + INSERT - Shares your position with other players%n%nWaila - Shows information about what you are looking at%nNUMPAD1 - show/hide the Waila HUD%nNUMPAD3 - shows how to craft what you are looking at%nNUMPAD4 - shows the crafting usages of the thing you are looking at%n%n[note]If you have a non-standard keyboard layout, using the Java 17-25 version of GTNH §omight§r help you in being able to use certain keys for keybinds.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=ERROR: Too many keys to fit a 104 key keyboard.%n%nThere are many keybinds in this modpack. To avoid conflicts, most of them are unbound by default. Only the ones available from the start are bound.%n%nHere is the list of what some of them do :%n%nBetterQuesting%nGRAVE - Open Questbook%n%nDraconic Evolution%nV - Place the item you are holding on the block you are looking at%n%nJourneymap%nB - Create a Waypoint%nCtrl+B - Open the Waypoint Manager%nJ - Open Fullscreen Map%n= - Zoom In (works on minimap too)%n- - Zoom out%n%nShare Where I am%nINSERT - Places a temporary beam where you are looking at that will be seen by you and other players%nSHIFT + INSERT - Places a temporary beam where §oyou§r are that will be seen by you and other players%nCTRL + INSERT - Shares the position you are looking at with other players%nCTRL + SHIFT + INSERT - Shares your position with other players%n%nWaila - Shows information about what you are looking at%nNUMPAD1 - show/hide the Waila HUD%nNUMPAD3 - shows how to craft what you are looking at%nNUMPAD4 - shows the crafting usages of the thing you are looking at%n%n[note]If you have a non-standard keyboard layout, using the Java 17-25 version of GTNH §omight§r help you in being able to use certain keys for keybinds.[/note]
 
 # Quest: Safety First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.name=§c§lSafety First
@@ -15240,6 +15240,10 @@ betterquesting.quest.5pXaevjTR-atLo3tdEZMEw.desc=No Description
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=Trigger: Rocket Shuttle Skip
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.desc=No Description
 
+# Quest: Trigger: The Roots of Magic
+betterquesting.quest.89FPlXAUS1iUHJlEg0iK7Q.name=Trigger: The Roots of Magic
+betterquesting.quest.89FPlXAUS1iUHJlEg0iK7Q.desc=No Description
+
 # Quest: Trigger: Naquadria Skip
 betterquesting.quest.8EErMy6nSaORxRLGLEKZMQ.name=Trigger: Naquadria Skip
 betterquesting.quest.8EErMy6nSaORxRLGLEKZMQ.desc=No Description
@@ -15487,6 +15491,10 @@ betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.desc=No Description
 # Quest: Trigger: Stonelily Tutorial Skip
 betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.name=Trigger: Stonelily Tutorial Skip
 betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.desc=
+
+# Quest: Trigger: Twilight Portal Skip
+betterquesting.quest.yNfD7gXVSraw9bWbtfPzIw.name=Trigger: Twilight Portal Skip
+betterquesting.quest.yNfD7gXVSraw9bWbtfPzIw.desc=
 
 # Quest: Trigger: Rocket Tier 8 Skip
 betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.name=Trigger: Rocket Tier 8 Skip
