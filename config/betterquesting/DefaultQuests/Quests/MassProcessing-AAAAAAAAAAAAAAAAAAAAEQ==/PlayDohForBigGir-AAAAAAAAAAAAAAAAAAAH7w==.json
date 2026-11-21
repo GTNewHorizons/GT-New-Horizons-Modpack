@@ -103,15 +103,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 33,
-          "Damage:2": 3,
+          "Damage:2": 7,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings10"
+          "id:8": "gregtech:gt.blockcasings14"
         },
         "1:10": {
           "Count:3": 24,
-          "Damage:2": 0,
+          "Damage:2": 81,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
+          "id:8": "gregtech:gt.sheetmetal"
         },
         "2:10": {
           "Count:3": 20,
@@ -121,9 +121,9 @@
         },
         "3:10": {
           "Count:3": 4,
-          "Damage:2": 1,
+          "Damage:2": 6,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
+          "id:8": "gregtech:gt.blockcasings14"
         },
         "4:10": {
           "Count:3": 1,
