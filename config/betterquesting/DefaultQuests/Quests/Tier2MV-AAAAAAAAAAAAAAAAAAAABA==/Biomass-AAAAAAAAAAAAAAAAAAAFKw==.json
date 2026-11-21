@@ -27,7 +27,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ml:IC2Biomass:cell"
+        "id:8": "ml:Biomass:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -128,7 +128,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ml:IC2Biomass:cell"
+          "id:8": "ml:Biomass:cell"
         },
         "1:10": {
           "Count:3": 64,

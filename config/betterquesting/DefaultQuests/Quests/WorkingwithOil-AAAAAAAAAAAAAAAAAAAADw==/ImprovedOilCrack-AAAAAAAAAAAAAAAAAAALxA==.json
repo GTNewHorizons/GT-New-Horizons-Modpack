@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Have you built an Oil Cracker? Have you checked its coils? This multi gets a significant discount to EU/t when upgrading the coils, but it caps at TPV, at a maximum of 50% discount. If you are still using low-tier coils, this is a great time to upgrade them to Nichrome and enjoy a 40% discount. You could also do TPV directly.\n\nBy the way, you can wall-share Oil Crackers, just like DTs, LCRs and many other multis, and doing this will save on the amount of coils you need!\n\n[note]You only need to make one of the two coil types.[/note]",
+      "desc:8": "Have you built an Oil Cracker? Have you checked its coils? This multi gets a significant discount to EU/t when upgrading the coils, but the discount caps at 50% with HSS-G coils. If you are still using low-tier coils, this is a great time to upgrade them to TPV and enjoy a 40% discount. Nichrome coils offer a 30% discount.\n\nBy the way, you can wall-share Oil Crackers, just like DTs, LCRs and many other multis, and doing this will save on the amount of coils you need!\n\n[note]You only need to make one of the three coil types.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -114,6 +114,12 @@
         "1:10": {
           "Count:3": 16,
           "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings5"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings5"
         }

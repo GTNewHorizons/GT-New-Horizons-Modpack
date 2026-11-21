@@ -133,16 +133,10 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 30,
+          "Count:3": 60,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "ml:Tin:cableGt01"
-        },
-        "1:10": {
-          "Count:3": 30,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "ml:Copper:cableGt01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

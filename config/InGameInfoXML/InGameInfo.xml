@@ -196,12 +196,20 @@
         </line>
         <line>
             <if>
-                <not>
-                <equal>
-                    <var>nextrain</var>
-                    <str>?</str>
-                </equal>
-                </not>
+                <and>
+                    <not>
+                    <equal>
+                        <var>nextrain</var>
+                        <str>?</str>
+                    </equal>
+                    </not>
+                    <not>
+                    <equal>
+                        <var>nextrain</var>
+                        <str>none</str>
+                    </equal>
+                    </not>
+                </and>
                 <if>
                     <or>
                         <equal>
@@ -312,12 +320,20 @@
                 </if>
             </if>
             <if>
-                <not>
-                <equal>
-                    <var>nextrain</var>
-                    <str>?</str>
-                </equal>
-                </not>
+                <and>
+                    <not>
+                    <equal>
+                        <var>nextrain</var>
+                        <str>?</str>
+                    </equal>
+                    </not>
+                    <not>
+                    <equal>
+                        <var>nextrain</var>
+                        <str>none</str>
+                    </equal>
+                    </not>
+                </and>
                 <if>
                     <or>
                         <equal>
@@ -599,6 +615,12 @@
                             <str>false</str>
                         </equal>
                         <not>
+                            <equal>
+                                <var>nextrain</var>
+                                <str>none</str>
+                            </equal>
+                        </not>
+                        <not>
                             <or>
                                 <equal>
                                     <var>biome</var>
@@ -760,6 +782,194 @@
                             <str>thaumcraft:textures/aspects/tempestas.png</str>
                         </icon>
                         <str> {darkgreen}{nextrain}{reset} until the next {aqua}storm{reset}.</str>
+                    </concat>
+                </if>
+            </if>
+            <if>
+                <equal>
+                    <var>nextrain</var>
+                    <str>none</str>
+                </equal>
+                <if>
+                    <and>
+                        <equal>
+                            <var>raining</var>
+                            <str>false</str>
+                        </equal>
+                        <equal>
+                            <var>snowing</var>
+                            <str>false</str>
+                        </equal>
+                        <equal>
+                            <var>thundering</var>
+                            <str>false</str>
+                        </equal>
+                        <not>
+                            <or>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Storage Cell</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Ocean</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert Oil Field</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Sky</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Forest</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pocket Plane</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Desert</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot River</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Plains</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna Plateau</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna Plateau M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa (Bryce)</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Space</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Venus</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>moon</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>marsFlat</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>asteroids</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Io</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>IoAsh</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Titan</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto2</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto3</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto4</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCFlowers</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCHills</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCLowPlains</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCOceans</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCShores</str>
+                                </equal>
+                            </or>
+                        </not>
+                    </and>
+                    <concat>
+                        <icon>
+                            <str>thaumcraft:textures/aspects/tempestas.png</str>
+                        </icon>
+                        <str> </str>
+                        <trans>
+                            <str>ingameinfoxml.tag.nextrain.disabled</str>
+                        </trans>
+                        <str>.</str>
                     </concat>
                 </if>
             </if>
