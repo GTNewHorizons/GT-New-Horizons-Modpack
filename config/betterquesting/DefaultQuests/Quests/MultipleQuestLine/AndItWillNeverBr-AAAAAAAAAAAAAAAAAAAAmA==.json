@@ -2,11 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 151
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1101
+      "questIDLow:4": 36
     }
   },
   "properties:10": {
@@ -21,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "By using an etheric sword, your killer joe will run...forever. Proper enchantments are a requirement for it to be efficient, but that shouldn\u0027t be a problem.",
+      "desc:8": "The Etheric Sword is fairly easy to obtain if you find the Sigil from Extra Utilities 2, which can also be obtained by killing the Wither. You also need a vanilla Enchantment Table to activate it. You can find one in the Wizard Tower from the Roguelike Dungeons mod.\n\n[note]By using an Etheric Sword, your killer joe and EEC will run...forever. Proper enchantments are a requirement for it to be efficient, but that shouldn\u0027t be a problem.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -70,9 +66,17 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 5,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
         }
       }
     },
@@ -101,7 +105,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
@@ -114,6 +118,30 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:divisionSigil"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:enchanting_table"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
