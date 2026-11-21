@@ -105,93 +105,93 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32351,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.rod"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 32350,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.plate"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 32352,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.bolt"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 32353,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.ring"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 32358,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.pipe_tiny"
         },
         "5:10": {
           "Count:3": 1,
-          "Damage:2": 32359,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.pipe_small"
         },
         "6:10": {
           "Count:3": 1,
-          "Damage:2": 32360,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.pipe_medium"
         },
         "7:10": {
           "Count:3": 1,
-          "Damage:2": 32361,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.pipe_large"
         },
         "8:10": {
           "Count:3": 1,
-          "Damage:2": 32362,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.pipe_huge"
         },
         "9:10": {
           "Count:3": 1,
-          "Damage:2": 32357,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.casing"
         },
         "10:10": {
           "Count:3": 1,
-          "Damage:2": 32354,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.cell"
         },
         "11:10": {
           "Count:3": 1,
-          "Damage:2": 32372,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.gear"
         },
         "12:10": {
           "Count:3": 1,
-          "Damage:2": 32375,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.small_gear"
         },
         "13:10": {
           "Count:3": 1,
-          "Damage:2": 32374,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.rotor"
         },
         "14:10": {
           "Count:3": 1,
-          "Damage:2": 32376,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.shape_extruder.turbine_blade"
         }
       },
       "taskID:8": "bq_standard:retrieval"
