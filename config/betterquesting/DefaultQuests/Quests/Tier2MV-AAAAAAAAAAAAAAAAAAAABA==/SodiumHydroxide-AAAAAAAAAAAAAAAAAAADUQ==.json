@@ -69,9 +69,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 0,
+          "Damage:2": 32020,
           "OreDict:8": "",
-          "id:8": "IC2:itemFuelPlantBall"
+          "id:8": "gregtech:gt.metaitem.02"
         },
         "2:10": {
           "Count:3": 32,
