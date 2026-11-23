@@ -24,10 +24,16 @@ def reject_nonfinite(value):
 
 
 def read_id(compound, prefix, path):
-    parts = (compound.get(f"{prefix}High:4"), compound.get(f"{prefix}Low:4"))
-    if any(type(part) is not int or not -(2**63) <= part < 2**63 for part in parts):
-        raise ValueError(f"{path}: invalid {prefix}")
-    return parts
+    parts = []
+    for suffix in ("High:4", "Low:4"):
+        field = f"{prefix}{suffix}"
+        if field not in compound:
+            raise ValueError(f"{path}: missing {field}, expected a signed 64-bit integer")
+        value = compound[field]
+        if type(value) is not int or not -(2**63) <= value < 2**63:
+            raise ValueError(f"{path}: invalid {field} value {value!r}, expected a signed 64-bit integer")
+        parts.append(value)
+    return tuple(parts)
 
 
 def add_unique(records, record_id, record, path):
