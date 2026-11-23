@@ -1,0 +1,22 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "QoL Never Hurts!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "EnderIO:itemTeleportStaff",
+        "tag:10": {
+          "Energy:3": 250000
+        }
+      },
+      "name:8": "Quality Of Life",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": -7445550750519965092,
+  "questLineIDLow:4": -7436403034441366745
+}

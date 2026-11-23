@@ -1,12 +1,22 @@
 {
   "preRequisites:9": {
     "0:10": {
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/WithoutDying-AAAAAAAAAAAAAAAAAAAACw==/ArchmageStriders-_it_6peTRhOMCDaua_QQ1g==.json
       "questIDHigh:4": -2559702685535616032,
       "questIDLow:4": -8440245249871056215
     },
     "1:10": {
       "questIDHigh:4": 5042306795224252994,
       "questIDLow:4": -5054324916620002708
+========
+      "questIDHigh:4": 0,
+      "questIDLow:4": 227
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 88,
+      "type:1": 1
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/SoThirsty-AAAAAAAAAAAAAAAAAAAH-g==.json
     }
   },
   "properties:10": {
@@ -21,18 +31,31 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/WithoutDying-AAAAAAAAAAAAAAAAAAAACw==/ArchmageStriders-_it_6peTRhOMCDaua_QQ1g==.json
       "desc:8": "The Apprentice Striders are good, but as the name implies, you can do better...",
       "globalShare:1": 0,
+========
+      "desc:8": "Just listening to this tank gulp water makes me thirsty. If placed next to a water source block, it is a decent water source. It also supports several upgrades to speed and capacity. Try out this glyph near your cows, and get a tank full of milk for all your cheese and butter needs.",
+      "globalShare:1": 1,
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/SoThirsty-AAAAAAAAAAAAAAAAAAAH-g==.json
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/WithoutDying-AAAAAAAAAAAAAAAAAAAACw==/ArchmageStriders-_it_6peTRhOMCDaua_QQ1g==.json
         "id:8": "gregtech:gt.augmentarchmagestriders"
+========
+        "id:8": "Automagy:blockThirstyTank"
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/SoThirsty-AAAAAAAAAAAAAAAAAAAH-g==.json
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/WithoutDying-AAAAAAAAAAAAAAAAAAAACw==/ArchmageStriders-_it_6peTRhOMCDaua_QQ1g==.json
       "name:8": "Archmage Striders",
+========
+      "name:8": "So Thirsty ",
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/SoThirsty-AAAAAAAAAAAAAAAAAAAH-g==.json
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -58,8 +81,13 @@
       "visibility:8": "NORMAL"
     }
   },
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/WithoutDying-AAAAAAAAAAAAAAAAAAAACw==/ArchmageStriders-_it_6peTRhOMCDaua_QQ1g==.json
   "questIDHigh:4": -131871118535211501,
   "questIDLow:4": -8356368985822588714,
+========
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2042,
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/SoThirsty-AAAAAAAAAAAAAAAAAAAH-g==.json
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -68,9 +96,13 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/WithoutDying-AAAAAAAAAAAAAAAAAAAACw==/ArchmageStriders-_it_6peTRhOMCDaua_QQ1g==.json
           "Damage:2": 11,
+========
+          "Damage:2": 9,
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/SoThirsty-AAAAAAAAAAAAAAAAAAAH-g==.json
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "Automagy:glyph"
         }
       }
     }
@@ -89,7 +121,11 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/WithoutDying-AAAAAAAAAAAAAAAAAAAACw==/ArchmageStriders-_it_6peTRhOMCDaua_QQ1g==.json
           "id:8": "gregtech:gt.augmentarchmagestriders"
+========
+          "id:8": "Automagy:blockThirstyTank"
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/SoThirsty-AAAAAAAAAAAAAAAAAAAH-g==.json
         }
       },
       "taskID:8": "bq_standard:retrieval"
