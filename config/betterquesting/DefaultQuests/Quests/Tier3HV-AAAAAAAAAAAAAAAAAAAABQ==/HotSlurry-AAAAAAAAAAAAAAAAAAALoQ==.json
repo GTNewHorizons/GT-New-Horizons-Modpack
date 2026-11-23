@@ -26,9 +26,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 8,
-        "Damage:2": 30410,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:HeadedBauxiteSlurry:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -74,9 +74,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 5822,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Bauxite:crushed"
         }
       },
       "ignoreDisabled:1": 0,
@@ -109,9 +109,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 30410,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:HeadedBauxiteSlurry:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

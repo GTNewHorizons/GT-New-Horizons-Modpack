@@ -76,9 +76,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 2843,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Pyrotheum:dust"
         }
       }
     }

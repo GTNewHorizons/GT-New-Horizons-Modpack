@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30692,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:SaltWater:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -87,9 +87,9 @@
         },
         "4:10": {
           "Count:3": 16,
-          "Damage:2": 17028,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Titanium:plate"
         }
       },
       "ignoreDisabled:1": 0,
@@ -134,15 +134,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 30692,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SaltWater:cell"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 30605,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Chlorobenzene:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

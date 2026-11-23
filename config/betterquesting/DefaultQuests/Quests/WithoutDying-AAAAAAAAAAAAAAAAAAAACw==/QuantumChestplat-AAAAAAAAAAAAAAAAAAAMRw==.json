@@ -158,9 +158,9 @@
         },
         "3:10": {
           "Count:3": 6,
-          "Damage:2": 1662,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:TungstenSteel:wireGt04"
         },
         "4:10": {
           "Count:3": 1,
@@ -182,9 +182,9 @@
         },
         "7:10": {
           "Count:3": 4,
-          "Damage:2": 27316,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:TungstenSteel:screw"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -2,14 +2,14 @@
   "id": "naquadah_fuel_mkvi",
   "condition": {
     "type": "inventory.add",
-    "item": "bartworks:gt.bwMetaGeneratedcell",
-    "meta": 10116
+    "item": "ml:NaquadahBasedLiquidFuelMkVI:cell",
+    "meta": 0
   },
   "page": "GT New Horizons",
   "x": 11,
   "y": 6,
   "icon": {
-    "registryName": "bartworks:gt.bwMetaGeneratedcell",
-    "meta": 10116
+    "registryName": "ml:NaquadahBasedLiquidFuelMkVI:cell",
+    "meta": 0
   }
 }

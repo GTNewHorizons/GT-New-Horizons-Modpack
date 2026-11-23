@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11017,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        "id:8": "ml:NitrogenatedMonaziteRareEarthConcentrate:cell"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -83,15 +83,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 11024,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:DriedMonaziteRareEarthConcentrate:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 30653,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:NitricAcid:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -107,9 +107,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 11017,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "ml:NitrogenatedMonaziteRareEarthConcentrate:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

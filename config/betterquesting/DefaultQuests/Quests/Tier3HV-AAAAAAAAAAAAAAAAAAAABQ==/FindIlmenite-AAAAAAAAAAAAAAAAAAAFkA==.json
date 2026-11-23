@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 28,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "ml:Titanium:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -110,27 +110,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 5918,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Ilmenite:rawOre"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 5825,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Chromite:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 5842,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Uvarovite:rawOre"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 5925,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Perlite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -146,27 +146,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 918,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Ilmenite:ore_stone"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 825,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Chromite:ore_stone"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 842,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Uvarovite:ore_stone"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 925,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Perlite:ore_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

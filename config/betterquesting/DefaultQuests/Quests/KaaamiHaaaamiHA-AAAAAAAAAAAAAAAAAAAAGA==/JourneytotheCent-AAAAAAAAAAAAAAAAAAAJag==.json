@@ -65,21 +65,21 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 9032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:nugget"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 9089,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Lead:nugget"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 2500,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Diamond:dust"
         },
         "3:10": {
           "Count:3": 1,
@@ -100,7 +100,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "GalacticraftMars:item.null"
+          "id:8": "ml:Desh:ore_stone"
         },
         "6:10": {
           "Count:3": 1,

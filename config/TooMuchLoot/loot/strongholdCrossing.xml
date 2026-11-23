@@ -32,7 +32,7 @@
 	<loot item="HardcoreEnderExpansion:knowledge_note" damage="0" nbt="{pts:10b}" weight="18" count_min="1" count_max="1"/>
     <loot item="Thaumcraft:ItemLootBag" damage="0" weight="4" count_min="1" count_max="3"/>
     <loot item="Thaumcraft:ItemResource" damage="2" weight="4" count_min="1" count_max="3"/>
-    <loot item="Thaumcraft:ItemResource" damage="6" weight="4" count_min="1" count_max="3"/>
+    <loot item="ml:Amber:gem" damage="0" weight="4" count_min="1" count_max="3"/>
     <loot item="Thaumcraft:ItemLootBag" damage="1" weight="3" count_min="1" count_max="2"/>
     <loot item="Thaumcraft:ItemBaubleBlanks" damage="0" weight="3" count_min="1" count_max="2"/>
     <loot item="Thaumcraft:ItemBaubleBlanks" damage="1" weight="3" count_min="1" count_max="2"/>
@@ -57,8 +57,8 @@
     <loot item="ExtraUtilities:divisionSigil" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="gregtech:gt.metaitem.02" damage="32137" weight="6" count_min="4" count_max="8"/>
     <loot item="gregtech:gt.metaitem.01" damage="32765" weight="10" count_min="1" count_max="1"/>
-    <loot item="gregtech:gt.metaitem.01" damage="11335" weight="6" count_min="15" count_max="25"/>
-    <loot item="gregtech:gt.metaitem.01" damage="11305" weight="12" count_min="25" count_max="45"/>
-    <loot item="gregtech:gt.metaitem.01" damage="11300" weight="12" count_min="25" count_max="45"/>
-    <loot item="gregtech:gt.metaitem.01" damage="11031" weight="6" count_min="15" count_max="25"/>
+    <loot item="ml:DamascusSteel:ingot" damage="0" weight="6" count_min="15" count_max="25"/>
+    <loot item="ml:Steel:ingot" damage="0" weight="12" count_min="25" count_max="45"/>
+    <loot item="ml:Bronze:ingot" damage="0" weight="12" count_min="25" count_max="45"/>
+    <loot item="ml:Manganese:ingot" damage="0" weight="6" count_min="15" count_max="25"/>
 </LootGroup>

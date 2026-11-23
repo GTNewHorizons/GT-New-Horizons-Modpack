@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 432,
-          "Damage:2": 19086,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Gold:wireFine"
         },
         "1:10": {
           "Count:3": 216,
@@ -152,9 +152,9 @@
         },
         "2:10": {
           "Count:3": 216,
-          "Damage:2": 30725,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Honey:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -194,9 +194,9 @@
         },
         "1:10": {
           "Count:3": 7,
-          "Damage:2": 30713,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SeedOil:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

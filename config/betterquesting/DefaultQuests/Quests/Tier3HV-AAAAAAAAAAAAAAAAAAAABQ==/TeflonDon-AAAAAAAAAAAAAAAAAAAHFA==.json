@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30667,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:HydrofluoricAcid_GT5U:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 110,
-          "Damage:2": 2848,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Biotite:dust"
         }
       }
     },
@@ -98,15 +98,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 48,
-          "Damage:2": 30001,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Hydrogen:cellGas"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 30014,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Fluorine:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -122,9 +122,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 48,
-          "Damage:2": 30667,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:HydrofluoricAcid_GT5U:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 17189,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Shijima:plate"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -69,21 +69,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 27,
-          "Damage:2": 10106,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedingot"
+          "id:8": "ml:Tairitsu:ingot"
         },
         "1:10": {
           "Count:3": 27,
-          "Damage:2": 11189,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Shijima:ingot"
         },
         "2:10": {
           "Count:3": 27,
-          "Damage:2": 11190,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Churitsu:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

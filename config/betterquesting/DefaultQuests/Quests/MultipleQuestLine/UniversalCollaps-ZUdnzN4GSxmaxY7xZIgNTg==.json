@@ -108,39 +108,39 @@
         },
         "2:10": {
           "Count:3": 40,
-          "Damage:2": 583,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:MagnetohydrodynamicallyConstrainedStarMatter:frameGt"
         },
         "3:10": {
           "Count:3": 28,
-          "Damage:2": 6,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal9"
+          "id:8": "ml:WhiteDwarfMatter:block"
         },
         "4:10": {
           "Count:3": 28,
-          "Damage:2": 7,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal9"
+          "id:8": "ml:BlackDwarfMatter:block"
         },
         "5:10": {
           "Count:3": 16,
-          "Damage:2": 139,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Universium:frameGt"
         },
         "6:10": {
           "Count:3": 8,
-          "Damage:2": 585,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:WhiteDwarfMatter:frameGt"
         },
         "7:10": {
           "Count:3": 8,
-          "Damage:2": 586,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:BlackDwarfMatter:frameGt"
         },
         "8:10": {
           "Count:3": 4,
@@ -150,9 +150,9 @@
         },
         "9:10": {
           "Count:3": 4,
-          "Damage:2": 13,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal9"
+          "id:8": "ml:MagnetohydrodynamicallyConstrainedStarMatter:block"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

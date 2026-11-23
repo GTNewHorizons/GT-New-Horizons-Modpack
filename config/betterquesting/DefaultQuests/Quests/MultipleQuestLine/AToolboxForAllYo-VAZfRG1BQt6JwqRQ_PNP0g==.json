@@ -65,9 +65,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 19314,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:SolderingAlloy:wireFine"
         },
         "1:10": {
           "Count:3": 1,
@@ -128,15 +128,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "Damage:2": 18305,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Steel:itemCasing"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 23032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:stick"
         },
         "2:10": {
           "Count:3": 1,
@@ -158,9 +158,9 @@
         },
         "5:10": {
           "Count:3": 4,
-          "Damage:2": 874,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:Plastic:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

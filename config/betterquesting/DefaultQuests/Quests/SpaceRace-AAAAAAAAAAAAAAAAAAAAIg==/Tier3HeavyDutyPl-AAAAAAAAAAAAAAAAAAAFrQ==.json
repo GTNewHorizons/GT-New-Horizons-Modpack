@@ -69,9 +69,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 17884,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Desh:plate"
         },
         "2:10": {
           "Count:3": 64,
@@ -128,15 +128,15 @@
         },
         "1:10": {
           "Count:3": 152,
-          "Damage:2": 17884,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Desh:plate"
         },
         "2:10": {
           "Count:3": 19,
-          "Damage:2": 11085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Platinum:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

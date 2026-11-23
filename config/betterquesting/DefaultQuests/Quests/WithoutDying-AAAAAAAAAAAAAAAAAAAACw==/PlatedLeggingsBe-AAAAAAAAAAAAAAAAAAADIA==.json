@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 17306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:StainlessSteel:plate"
         },
         "1:10": {
           "Count:3": 2,
@@ -126,9 +126,9 @@
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 18306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:StainlessSteel:itemCasing"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

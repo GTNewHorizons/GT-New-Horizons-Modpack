@@ -93,21 +93,21 @@
         },
         "1:10": {
           "Count:3": 28,
-          "Damage:2": 974,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:SuperconductorUEVBase:frameGt"
         },
         "2:10": {
           "Count:3": 24,
-          "Damage:2": 329,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Tritanium:frameGt"
         },
         "3:10": {
           "Count:3": 16,
-          "Damage:2": 974,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "ml:SuperconductorUEVBase:sheetmetal"
         },
         "4:10": {
           "Count:3": 12,

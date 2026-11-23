@@ -148,39 +148,39 @@
         },
         "10:10": {
           "Count:3": 1196,
-          "Damage:2": 7,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal9"
+          "id:8": "ml:BlackDwarfMatter:block"
         },
         "11:10": {
           "Count:3": 456,
-          "Damage:2": 4,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal9"
+          "id:8": "ml:TranscendentMetal:block"
         },
         "12:10": {
           "Count:3": 8,
-          "Damage:2": 10112,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:bw.werkstoffblocks.01"
+          "id:8": "ml:Shirabon:block"
         },
         "13:10": {
           "Count:3": 4,
-          "Damage:2": 22583,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:MagnetohydrodynamicallyConstrainedStarMatter:plateDense"
         },
         "14:10": {
           "Count:3": 12,
-          "Damage:2": 4586,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:BlackDwarfMatter:nanite"
         },
         "15:10": {
           "Count:3": 8,
-          "Damage:2": 4139,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Universium:nanite"
         },
         "16:10": {
           "Count:3": 12,

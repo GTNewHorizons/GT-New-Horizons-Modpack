@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2340,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "ml:SuperconductorHV:wireGt01"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -114,27 +114,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2028,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Titanium:dust"
         },
         "1:10": {
           "Count:3": 9,
-          "Damage:2": 2063,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Barium:dust"
         },
         "2:10": {
           "Count:3": 10,
-          "Damage:2": 2035,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Copper:dust"
         },
         "3:10": {
           "Count:3": 20,
-          "Damage:2": 30013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Oxygen:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -150,9 +150,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 40,
-          "Damage:2": 2988,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Titaniumonabariumdecacoppereikosaoxid:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -168,9 +168,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 11988,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Titaniumonabariumdecacoppereikosaoxid:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -186,9 +186,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 48,
-          "Damage:2": 2220,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Titaniumonabariumdecacoppereikosaoxid:wireGt01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -204,15 +204,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 48,
-          "Damage:2": 2220,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Titaniumonabariumdecacoppereikosaoxid:wireGt01"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 5150,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Titanium:pipeTiny"
         },
         "2:10": {
           "Count:3": 8,
@@ -222,9 +222,9 @@
         },
         "3:10": {
           "Count:3": 32,
-          "Damage:2": 30004,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Helium:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -240,9 +240,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 48,
-          "Damage:2": 2340,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:SuperconductorHV:wireGt01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -117,15 +117,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 23032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:stick"
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 17032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -141,9 +141,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 20032,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Iron:gearGtSmall"
         },
         "1:10": {
           "Count:3": 3,
@@ -165,9 +165,9 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 17308,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:RedAlloy:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

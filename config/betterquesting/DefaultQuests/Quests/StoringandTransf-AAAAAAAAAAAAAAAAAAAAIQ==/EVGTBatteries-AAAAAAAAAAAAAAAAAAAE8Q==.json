@@ -66,15 +66,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 2006,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Lithium:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 1426,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Gold:cableGt01"
         },
         "2:10": {
           "Count:3": 1,
@@ -131,9 +131,9 @@
         },
         "3:10": {
           "Count:3": 2,
-          "Damage:2": 1428,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Gold:cableGt04"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

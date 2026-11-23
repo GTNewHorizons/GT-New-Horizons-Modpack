@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 13,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "IC2:itemDust"
+        "id:8": "ml:Sulfur:dust"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -121,21 +121,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
-          "Damage:2": 5022,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Sulfur:rawOre"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 5834,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Pyrite:rawOre"
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 5839,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Sphalerite:rawOre"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -151,21 +151,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 1022,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Sulfur:ore_netherrack"
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 1834,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Pyrite:ore_netherrack"
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 1839,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Sphalerite:ore_netherrack"
         }
       },
       "taskID:8": "bq_standard:retrieval"

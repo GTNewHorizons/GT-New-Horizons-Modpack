@@ -71,9 +71,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 5121,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Bronze:pipeSmall"
         },
         "1:10": {
           "Count:3": 1,
@@ -125,9 +125,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 17300,
+          "Damage:2": 0,
           "OreDict:8": "plateBronze",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Bronze:plate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -215,9 +215,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 7,
-          "Damage:2": 17032,
+          "Damage:2": 0,
           "OreDict:8": "plateIron",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Iron:plate"
         },
         "1:10": {
           "Count:3": 1,

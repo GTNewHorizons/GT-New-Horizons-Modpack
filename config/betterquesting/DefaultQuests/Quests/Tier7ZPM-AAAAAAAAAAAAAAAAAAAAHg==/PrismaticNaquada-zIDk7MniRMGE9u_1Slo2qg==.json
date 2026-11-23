@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11163,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:prismaticnaquadah:ingot"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -65,15 +65,15 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 2326,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:NaquadahEnriched:dust"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 30162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismaticacid:cell"
         },
         "2:10": {
           "Count:3": 1,
@@ -120,15 +120,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 2326,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:NaquadahEnriched:dust"
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 30162,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismaticacid:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -144,9 +144,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 163,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:prismaticnaquadah:cellMolten"
         }
       },
       "taskID:8": "bq_standard:retrieval"

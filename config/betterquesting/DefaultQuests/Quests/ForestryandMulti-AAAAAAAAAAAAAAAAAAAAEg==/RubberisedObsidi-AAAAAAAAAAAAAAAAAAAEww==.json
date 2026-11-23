@@ -110,9 +110,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 22880,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Rubber:stickLong"
         },
         "1:10": {
           "Count:3": 2,
@@ -122,27 +122,27 @@
         },
         "2:10": {
           "Count:3": 2,
-          "Damage:2": 22526,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Lapis:stickLong"
         },
         "3:10": {
           "Count:3": 6,
-          "Damage:2": 26086,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Gold:bolt"
         },
         "4:10": {
           "Count:3": 3,
-          "Damage:2": 17308,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:RedAlloy:plate"
         },
         "5:10": {
           "Count:3": 6,
-          "Damage:2": 19035,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Copper:wireFine"
         },
         "6:10": {
           "Count:3": 6,

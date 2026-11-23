@@ -93,9 +93,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 28,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Titanium:ore_stone"
         }
       }
     }

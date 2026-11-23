@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 635,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockframes"
+        "id:8": "ml:StyreneButadieneRubber:frameGt"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -67,9 +67,9 @@
         },
         "1:10": {
           "Count:3": 5,
-          "Damage:2": 30637,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Styrene:cell"
         }
       },
       "ignoreDisabled:1": 0,
@@ -102,9 +102,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 30,
-          "Damage:2": 30646,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Butadiene:cellGas"
         }
       },
       "taskID:8": "bq_standard:retrieval"

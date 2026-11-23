@@ -93,9 +93,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 30123,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:poornetherwaste:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -104,9 +104,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 23,
-          "Damage:2": 2941,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Borax:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -122,15 +122,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2009,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Boron:dust"
         },
         "1:10": {
           "Count:3": 7,
-          "Damage:2": 2890,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Glass:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -146,9 +146,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 2611,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:BorosilicateGlass:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -164,9 +164,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 11611,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:BorosilicateGlass:ingot"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -25,9 +25,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30639,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Tetranitromethane:cell"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -67,9 +67,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 30629,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Glycerol:cell"
         },
         "1:10": {
           "Count:3": 1,
@@ -114,15 +114,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 30653,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:NitricAcid:cell"
         },
         "1:10": {
           "Count:3": 3,
-          "Damage:2": 30641,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ethenone:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,9 +138,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 6,
-          "Damage:2": 30639,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Tetranitromethane:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

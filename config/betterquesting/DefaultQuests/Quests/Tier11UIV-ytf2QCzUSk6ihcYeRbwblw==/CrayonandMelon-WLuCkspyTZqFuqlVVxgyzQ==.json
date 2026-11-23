@@ -25,9 +25,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 17148,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Mellion:plate"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -73,15 +73,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 149,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:Creon:cellMolten"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 148,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:Mellion:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

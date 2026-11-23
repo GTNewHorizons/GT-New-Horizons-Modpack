@@ -110,9 +110,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 17019,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Aluminium:plate"
         },
         "2:10": {
           "Count:3": 1,
@@ -128,15 +128,15 @@
         },
         "4:10": {
           "Count:3": 2,
-          "Damage:2": 21019,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Aluminium:rotor"
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 18019,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Aluminium:itemCasing"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -176,15 +176,15 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 24890,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Glass:lens"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 23354,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:IronMagnetic:stick"
         },
         "3:10": {
           "Count:3": 1,
@@ -194,9 +194,9 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 23035,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Copper:springSmall"
         },
         "5:10": {
           "Count:3": 3,
@@ -242,9 +242,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 17019,
+          "Damage:2": 0,
           "OreDict:8": "plateAluminium",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Aluminium:plate"
         },
         "2:10": {
           "Count:3": 2,

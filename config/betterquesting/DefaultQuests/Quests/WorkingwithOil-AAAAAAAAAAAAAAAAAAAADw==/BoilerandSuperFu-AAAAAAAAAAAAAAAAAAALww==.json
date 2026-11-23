@@ -67,9 +67,9 @@
         },
         "1:10": {
           "Count:3": 6,
-          "Damage:2": 5152,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Titanium:pipeMedium"
         }
       },
       "ignoreDisabled:1": 0,

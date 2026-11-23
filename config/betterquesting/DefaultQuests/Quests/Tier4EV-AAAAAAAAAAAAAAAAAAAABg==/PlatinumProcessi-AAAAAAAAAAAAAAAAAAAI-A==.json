@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2085,
+        "Damage:2": 0,
         "OreDict:8": "dustPlatinum",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Platinum:dust"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -111,15 +111,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 51,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:ReprecipitatedPlatinum:dust"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2026,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Calcium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -135,9 +135,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 2085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Platinum:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -153,9 +153,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 63,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:CalciumChloride:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

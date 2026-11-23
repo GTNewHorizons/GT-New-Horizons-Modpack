@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 390,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores2"
+        "id:8": "ml:Ledox:ore_stone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -104,27 +104,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 192,
-          "Damage:2": 5390,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ledox:crushed"
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 5390,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Ledox:rawOre"
         },
         "2:10": {
           "Count:3": 64,
-          "Damage:2": 390,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Ledox:ore_stone"
         },
         "3:10": {
           "Count:3": 192,
-          "Damage:2": 2390,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Ledox:dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

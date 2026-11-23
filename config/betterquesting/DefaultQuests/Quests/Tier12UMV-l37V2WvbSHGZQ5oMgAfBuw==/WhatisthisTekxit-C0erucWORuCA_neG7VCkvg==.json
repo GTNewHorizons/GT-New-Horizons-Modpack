@@ -29,9 +29,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 17174,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Hexanite:plate"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -77,15 +77,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 31810,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Redstone:cellPlasma"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 978,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:Ichorium:cellMolten"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -101,9 +101,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30173,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:UnformedHexanite:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -119,9 +119,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 17174,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Hexanite:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -8,11 +8,10 @@
     "type": "complex",
     "keys": {
       "A": "minecraft:beacon",
-      "B": "gregtech:gt.blockmetal9"
+      "B": "ml:Eternity:block"
     },
     "metadata": {
-      "A": 0,
-      "B": 9
+      "A": 0
     },
     "transpose": true,
     "structure": [

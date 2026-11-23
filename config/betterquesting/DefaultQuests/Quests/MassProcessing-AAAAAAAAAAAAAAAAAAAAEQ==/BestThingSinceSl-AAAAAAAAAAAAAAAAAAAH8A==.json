@@ -117,7 +117,7 @@
           "Count:3": 18,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:blockFrameGtTantalumCarbide"
+          "id:8": "ml:TantalumCarbide:frameGt"
         },
         "2:10": {
           "Count:3": 16,
@@ -127,9 +127,9 @@
         },
         "3:10": {
           "Count:3": 13,
-          "Damage:2": 334,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "ml:BlackSteel:sheetmetal"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

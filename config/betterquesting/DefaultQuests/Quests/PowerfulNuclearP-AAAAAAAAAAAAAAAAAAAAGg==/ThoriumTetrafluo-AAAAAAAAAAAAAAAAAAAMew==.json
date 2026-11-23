@@ -23,7 +23,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "miscutils:itemDustThoriumTetrafluoride"
+        "id:8": "ml:ThoriumTetrafluoride:dust"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -77,13 +77,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellFluorineSpargedTBSalt"
+          "id:8": "ml:FluorineSpargedTBSalt:cell"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellLFTRFuelBase"
+          "id:8": "ml:LFTRFuelBase:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -101,7 +101,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemCellLFTRFuel3"
+          "id:8": "ml:LFTRFuel3:cell"
         }
       },
       "taskID:8": "bq_standard:retrieval"

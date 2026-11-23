@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11000,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "bartworks:gt.bwMetaGeneratedingot"
+        "id:8": "ml:Hafnium:ingot"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -67,9 +67,9 @@
         },
         "1:10": {
           "Count:3": 32,
-          "Damage:2": 11000,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedingot"
+          "id:8": "ml:Hafnium:ingot"
         }
       },
       "ignoreDisabled:1": 0,
@@ -89,9 +89,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 11005,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddust"
+          "id:8": "ml:HafniumIodide:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -107,9 +107,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 11000,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedingot"
+          "id:8": "ml:Hafnium:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

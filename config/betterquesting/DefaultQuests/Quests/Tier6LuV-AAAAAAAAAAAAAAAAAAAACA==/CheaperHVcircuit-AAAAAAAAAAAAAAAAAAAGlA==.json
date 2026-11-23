@@ -127,15 +127,15 @@
         },
         "2:10": {
           "Count:3": 32,
-          "Damage:2": 1442,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ml:Electrum:wireGt04"
         },
         "3:10": {
           "Count:3": 256,
-          "Damage:2": 26085,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Platinum:bolt"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

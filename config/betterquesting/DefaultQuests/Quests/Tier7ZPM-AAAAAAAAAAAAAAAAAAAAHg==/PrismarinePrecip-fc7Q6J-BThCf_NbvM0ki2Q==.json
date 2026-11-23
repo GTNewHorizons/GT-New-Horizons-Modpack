@@ -61,9 +61,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 44,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "id:8": "ml:Strontium:cellMolten"
         },
         "1:10": {
           "Count:3": 4,
@@ -110,13 +110,13 @@
           "Count:3": 42,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustStrontiumHydroxide"
+          "id:8": "ml:StrontiumHydroxide:dust"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 30137,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismarinerichnitrobenzenesolution:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,9 +138,9 @@
         },
         "1:10": {
           "Count:3": 12,
-          "Damage:2": 30138,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:prismarinecontaminatednitrobenzenesolution:cell"
         },
         "2:10": {
           "Count:3": 4,

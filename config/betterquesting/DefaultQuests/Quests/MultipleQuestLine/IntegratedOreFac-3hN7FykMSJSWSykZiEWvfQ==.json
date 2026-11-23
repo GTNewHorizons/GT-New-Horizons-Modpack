@@ -107,9 +107,9 @@
         },
         "2:10": {
           "Count:3": 96,
-          "Damage:2": 84,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sheetmetal"
+          "id:8": "ml:Iridium:sheetmetal"
         },
         "3:10": {
           "Count:3": 90,
@@ -119,9 +119,9 @@
         },
         "4:10": {
           "Count:3": 23,
-          "Damage:2": 306,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:StainlessSteel:frameGt"
         },
         "5:10": {
           "Count:3": 7,

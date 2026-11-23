@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 29501,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:Emerald:gemFlawless"
         },
         "1:10": {
           "Count:3": 1,
@@ -87,9 +87,9 @@
         },
         "2:10": {
           "Count:3": 16,
-          "Damage:2": 501,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Emerald:ore_stone"
         }
       }
     }

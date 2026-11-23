@@ -33,9 +33,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 19154,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.02"
+        "id:8": "ml:protohalkonite:wireFine"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -81,9 +81,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30152,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:protohalkonitebase:cell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -99,9 +99,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 19154,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "ml:protohalkonite:wireFine"
         }
       },
       "taskID:8": "bq_standard:retrieval"

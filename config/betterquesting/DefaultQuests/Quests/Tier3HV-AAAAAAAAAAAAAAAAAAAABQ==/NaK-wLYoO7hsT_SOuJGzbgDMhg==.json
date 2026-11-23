@@ -67,7 +67,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "materiallib:cellEmpty"
         }
       }
     },
@@ -97,9 +97,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2017,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Sodium:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -115,15 +115,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30017,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Sodium:cell"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2944,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:RockSalt:dust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

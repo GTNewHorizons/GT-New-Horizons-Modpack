@@ -30,9 +30,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 8505,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Olivine:gem"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -79,9 +79,9 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 505,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "ml:Olivine:ore_stone"
         }
       }
     }

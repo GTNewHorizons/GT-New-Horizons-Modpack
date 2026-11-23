@@ -29,9 +29,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11143,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:Magmatter:ingot"
       },
       "isMain:1": 1,
       "isSilent:1": 0,

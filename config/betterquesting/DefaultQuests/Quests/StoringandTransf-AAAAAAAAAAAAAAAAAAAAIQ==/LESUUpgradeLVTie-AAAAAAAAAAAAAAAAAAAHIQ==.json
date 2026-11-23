@@ -21,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 9,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "IC2:itemDustSmall"
+        "id:8": "ml:Lapis:dustTiny"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -66,9 +66,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 9,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemDustSmall"
+          "id:8": "ml:Lapis:dustTiny"
         },
         "1:10": {
           "Count:3": 1,

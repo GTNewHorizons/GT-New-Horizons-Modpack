@@ -79,9 +79,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 4054,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "ml:Silver:nanite"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -97,9 +97,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 34,
-          "Damage:2": 328,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "ml:Duranium:frameGt"
         },
         "1:10": {
           "Count:3": 158,

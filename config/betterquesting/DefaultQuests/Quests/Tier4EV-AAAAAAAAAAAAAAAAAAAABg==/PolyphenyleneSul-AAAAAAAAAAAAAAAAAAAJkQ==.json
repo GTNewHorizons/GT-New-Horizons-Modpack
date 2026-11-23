@@ -21,9 +21,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 17631,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ml:PolyphenyleneSulfide:plate"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -97,21 +97,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 30632,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Dichlorobenzene:cell"
         },
         "1:10": {
           "Count:3": 36,
-          "Damage:2": 2719,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:SodiumSulfide:dust"
         },
         "2:10": {
           "Count:3": 96,
-          "Damage:2": 30013,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:Oxygen:cellGas"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -127,9 +127,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 125,
-          "Damage:2": 17631,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "ml:PolyphenyleneSulfide:plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"
