@@ -1633,7 +1633,7 @@
         <Loot Identifier="e00a0767-aa04-4dfd-bc8c-c954231303a1" ItemName="Railcraft:part.railbed:1" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="2ef954f4-ca25-4e11-92bb-fadcbdd305e7" ItemName="Railcraft:part.railbed" Amount="8" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="970690d4-d230-414b-8cf4-0283ca39a376" ItemName="dreamcraft:ShapeBoat" Amount="1" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="75f8f55e-08b7-497e-9420-6da21481f1fa" ItemName="dreamcraft:ExtruderShapeBoat" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="75f8f55e-08b7-497e-9420-6da21481f1fa" ItemName="gregtech:shape_extruder.boat" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="e1777414-8cfd-4e00-9aeb-19236400757e" ItemName="Railcraft:cart.tank" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="79de7b6a-1724-4972-a6e1-aecb61af2a52" ItemName="Railcraft:cart.work" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c579a412-8a88-466f-affe-e49a27cd28d6" ItemName="Railcraft:cart.tnt.wood" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
