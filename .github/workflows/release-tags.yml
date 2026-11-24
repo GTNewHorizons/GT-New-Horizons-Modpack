@@ -29,23 +29,30 @@ jobs:
           GUIDE_REPO: GTNewHorizons/GTNH-Guide-Pack
         run: |
           set -euo pipefail
+          LATEST_GUIDE=$(gh release view --repo "$GUIDE_REPO" --json tagName,publishedAt \
+            --jq '[.tagName, .publishedAt] | @tsv')
+          IFS=$'\t' read -r GUIDE_TAG GUIDE_PUBLISHED_AT <<< "$LATEST_GUIDE"
+
           if [[ "${RELEASE_VERSION}" == *-pre ]]; then
-            # Experimental modpack release: newest guide release of any tag.
-            GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
-              --json tagName,createdAt,isDraft \
-              --jq '[.[] | select(.isDraft | not)]
-                    | select(.tagName != "guide-page-lang-dev-build")
-                    | sort_by(.createdAt) | reverse | .[0].tagName // empty')
-          else
-            # Daily modpack release: newest guide release whose tag is not -pre.
-            GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
-              --json tagName,createdAt,isDraft \
-              --jq '[.[] | select(.isDraft | not)
+            PRE_GUIDE=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
+              --json tagName,publishedAt,isDraft,isPrerelease \
+              --jq '[.[] | select((.isDraft | not) and .publishedAt != null)
                           | select(.tagName != "guide-page-lang-dev-build")
+                          | select(.isPrerelease or (.tagName | endswith("-pre")))]
+                    | max_by(.publishedAt) | select(. != null)
+                    | [.tagName, .publishedAt] | @tsv')
+            IFS=$'\t' read -r PRE_GUIDE_TAG PRE_GUIDE_PUBLISHED_AT <<< "$PRE_GUIDE"
+            if [[ -n "$PRE_GUIDE_TAG" && "$PRE_GUIDE_PUBLISHED_AT" > "$GUIDE_PUBLISHED_AT" ]]; then
+              GUIDE_TAG=$PRE_GUIDE_TAG
+            fi
+          elif [[ "$GUIDE_TAG" == *-pre ]]; then
+            GUIDE_TAG=$(gh release list --repo "$GUIDE_REPO" --limit 100 \
+              --exclude-drafts --exclude-pre-releases --json tagName,publishedAt \
+              --jq '[.[] | select(.publishedAt != null and .tagName != "guide-page-lang-dev-build")
                           | select(.tagName | endswith("-pre") | not)]
-                    | sort_by(.createdAt) | reverse | .[0].tagName // empty')
+                    | max_by(.publishedAt).tagName // empty')
           fi
-          if [[ -z "$GUIDE_TAG" ]]; then
+          if [[ -z "$GUIDE_TAG" || "$GUIDE_TAG" == guide-page-lang-dev-build ]]; then
             echo "No matching GTNH-Guide-Pack release found" >&2
             exit 1
           fi

@@ -133,14 +133,8 @@
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 30,
+          "Count:3": 60,
           "Damage:2": 1246,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 30,
-          "Damage:2": 1366,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
