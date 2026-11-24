@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 5,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -283,8 +283,7 @@
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false,
-    "useClassLoader": false
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "languageId": "en_US",
@@ -299,29 +298,28 @@
       "useAsMain": false,
       "isInstance": false,
       "activityType": 0,
+      "statusDisplayType": 0,
       "partyPrivacy": 1,
       "details": "{menu.message}{dimension.message}",
+      "detailsUrl": "",
       "gameState": "{server.message} {custom.pack}",
+      "gameStateUrl": "",
+      "appName": "",
       "largeImageKey": "{menu.icon}{dimension.icon}",
       "largeImageText": "{menu.message}{dimension.message}",
+      "largeImageUrl": "",
       "smallImageKey": "{server.icon}{pack.icon}",
       "smallImageText": "{server.message} {custom.pack}",
+      "smallImageUrl": "",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
       "boubou_19": "https://mc-heads.net/avatar/d28e5f134b8444ce9d3251f1b569adda",
-      "zeta.gtnewhorizons.com": "https://api.mcsrvstat.us/icon/zeta.gtnewhorizons.com",
-      "default": "https://via.placeholder.com/256.png"
+      "zeta.gtnewhorizons.com": "https://api.mcsrvstat.us/icon/zeta.gtnewhorizons.com"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",

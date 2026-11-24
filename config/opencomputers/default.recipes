@@ -249,6 +249,10 @@ beekeeperUpgrade {
           ["oc:circuitChip3", {item="Forestry:beealyzer"}, "oc:circuitChip3"]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
+arcaneCraftingUpgrade {
+  type: shapeless
+  input: ["oc:craftingUpgrade", {item="Thaumcraft:blockTable", subID=15}, "oc:circuitChip2"]
+}
 
 configuratorUpgrade {
   input: [[ingotIron, "", ingotIron]
