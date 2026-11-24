@@ -8431,37 +8431,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig.desc=...in my dreams. What if instea
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.name=Who Cares About a Little Cancer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.desc=...when it means you don't have to strip naked to recharge your nanosuit?%nThe Wireless Charger will keep your armor and tools charged up without having to put them into a battery buffer.%n%nIt will charge armor and tools at the tier and below.%n%nYou didn't want kids anyway...
 
-# Quest: Lapotronic Energy Storage Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHA.name=Lapotronic Energy Storage Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHA.desc=The L.E.S.U. is one of the oldest machines still available in GregTech. Its origins are in Minecraft 1.3.X but has been redone to fit into this modpack. You can add a nearly infinite number of LESU casings to it and you'll have a huge Energy Storage. You might also live inside your Battery.%n%n[note]PS: It sucks, don't make it. Maybe somebody will rework or buff it some day.[/note]
-
 # Quest: Manual Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHg.name=Manual Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHg.desc=Annoyed by building chains of transformers? Don't want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!%n%nHatches placed must be touching a Transformer-Winding block, with dynamo hatches being on the top and energy hatches being on the bottom. The height of the Transformer-Winding blocks can be optionally extended up to 8 blocks.%n%n[note]Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.[/note]
-
-# Quest: L.E.S.U. Upgrade - LV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHIQ.name=L.E.S.U. Upgrade - LV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHIQ.desc=Adding this many Cells anywhere to your LESU will upgrade it from ULV to LV.
-
-# Quest: L.E.S.U. Upgrade - MV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHIg.name=L.E.S.U. Upgrade - MV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHIg.desc=Adding an additional amount of Cells will not only cause your storage capacity to rise, but also will enable MV Voltage.
-
-# Quest: L.E.S.U. Upgrade - HV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHIw.name=L.E.S.U. Upgrade - HV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHIw.desc=The HV Tier upgrade first needs over a Stack of Casings. More Casings, more Energy, more Capacity.
-
-# Quest: L.E.S.U. Upgrade - EV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJA.name=L.E.S.U. Upgrade - EV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJA.desc=Close to 8 Stacks of LESU Casings, this upgrade enables EV Voltage on your LESU. It's easy until now.
-
-# Quest: L.E.S.U. Upgrade - IV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJQ.name=L.E.S.U. Upgrade - IV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJQ.desc=24 Stacks of LESU Casings. These do fit in your Inventory, but crafting them is another problem.%n%n[note]If you don't want to clear out your inventory, just check the box when you have enough.[/note]
-
-# Quest: L.E.S.U. Upgrade - LuV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJg.name=L.E.S.U. Upgrade - LuV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJg.desc=To reach the highest Voltage Tier the LESU can offer, you need to add an additional amount of LESU Casings. 8193 Casings in total (all upgrades below and these additional) enable the LuV Input Voltage.%n%n[note]I mean you could do that, but maybe just check the box once your autocrafting is done.[/note]
 
 # Quest: Transformers, Roll Out!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg.name=Transformers, Roll Out!
