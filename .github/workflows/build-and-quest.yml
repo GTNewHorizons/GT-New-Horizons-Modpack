@@ -4,24 +4,62 @@ on:
   pull_request:
     paths:
       - config/betterquesting/DefaultQuests/**
+  merge_group:
 
 permissions:
   contents: read
 
 jobs:
-  build-and-quest:
-    name: Build DefaultQuests artifact
+  validate-questbook:
+    name: Validate BetterQuesting exports
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout pull request
+      - name: Checkout prospective merge
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+
+      - name: Validate questbook
+        id: questbook
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.merge_group.base_sha }}
+        run: |
+          set -euo pipefail
+          questbook=config/betterquesting/DefaultQuests
+          registry=.github/questbook-item-registry.txt
+          if ! git cat-file -e "$BASE_SHA^{commit}"; then
+            git fetch --no-tags --depth=1 origin "$BASE_SHA"
+          fi
+          if git diff --quiet "$BASE_SHA" HEAD -- "$questbook" "$registry" \
+              .github/scripts/validate-questbook.py .github/scripts/tests/test_validate_questbook.py \
+              .github/workflows/build-and-quest.yml; then
+            exit 0
+          fi
+
+          base_dir=$(mktemp -d)
+          git archive "$BASE_SHA" "$questbook" | tar -x -C "$base_dir"
+          args=("$questbook" --baseline "$base_dir/$questbook")
+          if git cat-file -e "$BASE_SHA:$registry" 2>/dev/null; then
+            git show "$BASE_SHA:$registry" > "$base_dir/items.txt"
+            args+=(--item-registry "$base_dir/items.txt")
+          else
+            echo '::notice::Target-pack item registry unavailable. Checking export format, quest references and missing-item placeholders.'
+          fi
+          python3 -m unittest discover -s .github/scripts/tests
+          python3 .github/scripts/validate-questbook.py "${args[@]}"
+          if ! git diff --quiet "$BASE_SHA" HEAD -- "$questbook"; then
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Stage DefaultQuests
+        if: github.event_name == 'pull_request' && steps.questbook.outputs.changed == 'true'
         run: |
           mkdir -p artifact
           cp -a config/betterquesting/DefaultQuests artifact/DefaultQuests
 
       - name: Upload DefaultQuests
+        if: github.event_name == 'pull_request' && steps.questbook.outputs.changed == 'true'
         uses: actions/upload-artifact@v7
         with:
           name: DefaultQuests-PR-${{ github.event.pull_request.number }}
