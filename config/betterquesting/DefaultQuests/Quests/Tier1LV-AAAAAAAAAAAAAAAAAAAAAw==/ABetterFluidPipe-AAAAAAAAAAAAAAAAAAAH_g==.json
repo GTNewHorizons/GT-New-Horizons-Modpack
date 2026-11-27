@@ -2,11 +2,20 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/Tier1LV-AAAAAAAAAAAAAAAAAAAAAw==/ABetterFluidPipe-AAAAAAAAAAAAAAAAAAAH_g==.json
       "questIDLow:4": 608
     },
     "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 610
+========
+      "questIDLow:4": 1148,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 238
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/FlyingLikeMaryPo-AAAAAAAAAAAAAAAAAAAIDA==.json
     }
   },
   "properties:10": {
@@ -21,19 +30,23 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Now that you have lead you can convert your bronze pipes to potin pipes with higher capacities.",
+      "desc:8": "The Thaumostatic Harness grants you flight, using up Potentia from a jar. The speed isn\u0027t great though, so perhaps further research will yield some results.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30727,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "Thaumcraft:HoverHarness"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/Tier1LV-AAAAAAAAAAAAAAAAAAAAAw==/ABetterFluidPipe-AAAAAAAAAAAAAAAAAAAH_g==.json
       "name:8": "§2§lA Better Fluid Pipe",
+========
+      "name:8": "Flying Like....Mary Poppins?",
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/FlyingLikeMaryPo-AAAAAAAAAAAAAAAAAAAIDA==.json
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -61,7 +74,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 2046,
+  "questIDLow:4": 2060,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -69,8 +82,8 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 3,
-          "Damage:2": 4,
+          "Count:3": 1,
+          "Damage:2": 9,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -89,6 +102,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/Tier1LV-AAAAAAAAAAAAAAAAAAAAAw==/ABetterFluidPipe-AAAAAAAAAAAAAAAAAAAH_g==.json
           "Damage:2": 30725,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
@@ -116,6 +130,11 @@
           "Damage:2": 30729,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
+========
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:HoverHarness"
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/FlyingLikeMaryPo-AAAAAAAAAAAAAAAAAAAIDA==.json
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -1,5 +1,18 @@
 {
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/NoQuestLine/TriggerTwilightP-yNfD7gXVSraw9bWbtfPzIw==.json
   "preRequisites:9": {},
+========
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2675
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2616
+    }
+  },
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/MiscEndgameGoals-AAAAAAAAAAAAAAAAAAAKIw==.json
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 1,
@@ -12,19 +25,34 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/NoQuestLine/TriggerTwilightP-yNfD7gXVSraw9bWbtfPzIw==.json
       "desc:8": "",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
+========
+      "desc:8": "With infinity unlocked, you can start making the first creative items.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15300,
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/MiscEndgameGoals-AAAAAAAAAAAAAAAAAAAKIw==.json
         "OreDict:8": "",
         "id:8": "TwilightForest:tile.TFPortal"
       },
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/NoQuestLine/TriggerTwilightP-yNfD7gXVSraw9bWbtfPzIw==.json
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "Trigger: Twilight Portal Skip",
+========
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§4§l§nMisc Endgame Goals",
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/MiscEndgameGoals-AAAAAAAAAAAAAAAAAAAKIw==.json
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -51,6 +79,7 @@
       "visibility:8": "NORMAL"
     }
   },
+<<<<<<<< Updated upstream:config/betterquesting/DefaultQuests/Quests/NoQuestLine/TriggerTwilightP-yNfD7gXVSraw9bWbtfPzIw==.json
   "questIDHigh:4": -3974492719063676234,
   "questIDLow:4": -5695446473362902237,
   "rewards:9": {
@@ -62,6 +91,11 @@
       "rewardID:8": "bq_standard:questcompletion"
     }
   },
+========
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2595,
+  "rewards:9": {},
+>>>>>>>> Stashed changes:config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/MiscEndgameGoals-AAAAAAAAAAAAAAAAAAAKIw==.json
   "tasks:9": {
     "0:10": {
       "biome:3": -1,

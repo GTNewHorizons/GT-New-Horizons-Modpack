@@ -100,7 +100,8 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ForbiddenMagic:EldritchOrb"
+          "id:8": "ForbiddenMagic:EldritchOrb",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"
