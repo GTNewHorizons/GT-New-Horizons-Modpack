@@ -142,8 +142,6 @@
 	<ToolTip ItemName="IC2:itemBatChargeAdv" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§6MV" NBT="" MetaStart="1" MetaEnd="26"/>
 	<ToolTip ItemName="IC2:itemBatChargeCrystal" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§eHV" NBT="" MetaStart="1" MetaEnd="26"/>
 	<ToolTip ItemName="IC2:itemBatChargeLamaCrystal" ToolTip="customtooltip.recharge_tier_machine" FormatArgs="§8EV" NBT="" MetaStart="1" MetaEnd="26"/>
-	<ToolTip ItemName="IC2:itemPartCircuit" ToolTip="customtooltip.battery_tier" FormatArgs="§7LV" NBT=""/>
-	<ToolTip ItemName="IC2:itemPartCircuitAdv" ToolTip="customtooltip.battery_tier" FormatArgs="§eHV" NBT=""/>
 
 //OMT - AddOns
 	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="customtooltip.disabled_item" NBT=""/>
