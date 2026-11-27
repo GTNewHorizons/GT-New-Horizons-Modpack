@@ -27,7 +27,11 @@
     "OREDICT:oreEndstoneInfusedEntropy:5",
     "OREDICT:oreEndstoneNetherStar:5"
   ],
+  "filler": [
+    "OREDICT:endstone:200"
+  ],
   "radius": 32,
   "cost": 90000000,
-  "focusItem": "kubatech:defc.casing:8"
+  "focusItem": "kubatech:defc.casing:8",
+  "fillerChance": 70
 }

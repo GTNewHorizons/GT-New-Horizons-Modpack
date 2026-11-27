@@ -9,7 +9,11 @@
     "OREDICT:oreBlackgraniteAsbestos:20",
     "OREDICT:oreBlackgraniteSoapstone:20"
   ],
+  "filler": [
+    "OREDICT:stoneGraniteBlack:200"
+  ],
   "radius": 9,
   "cost": 750000,
-  "focusItem": "minecraft:nether_star"
+  "focusItem": "minecraft:nether_star",
+  "fillerChance": 50
 }

@@ -13,7 +13,11 @@
     "OREDICT:oreEndstoneLutetium:50",
     "OREDICT:oreEndstoneInfinityCatalyst:50"
   ],
+  "filler": [
+    "OREDICT:endstone:200"
+  ],
   "radius": 18,
   "cost": 125000000,
-  "focusItem": "gregtech:gt.blockmachines:28050"
+  "focusItem": "gregtech:gt.blockmachines:28050",
+  "fillerChance": 70
 }
