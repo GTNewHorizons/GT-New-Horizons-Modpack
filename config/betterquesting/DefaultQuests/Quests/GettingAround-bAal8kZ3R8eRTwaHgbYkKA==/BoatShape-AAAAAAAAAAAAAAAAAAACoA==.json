@@ -23,7 +23,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:ExtruderShapeBoat"
+        "id:8": "gregtech:gt.shape_extruder.boat"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -130,7 +130,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:ExtruderShapeBoat"
+          "id:8": "gregtech:gt.shape_extruder.boat"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -265,9 +265,9 @@
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 12,
+          "Damage:2": 30705,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

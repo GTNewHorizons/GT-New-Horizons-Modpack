@@ -115,9 +115,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 12,
+          "Damage:2": 30705,
           "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
           "Count:3": 8,
