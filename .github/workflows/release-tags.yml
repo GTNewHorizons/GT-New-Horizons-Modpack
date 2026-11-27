@@ -78,6 +78,11 @@ jobs:
             --base-version "$QB_VERSION_BASE" \
             --base-ref "$QB_VERSION_BASE_REF"
 
+      - name: Pack default quest definitions
+        run: |
+          python .github/scripts/pack-default-quests.py \
+            config/betterquesting/DefaultQuests config/betterquesting/DefaultQuests.json.gz
+
       - name: Prepare release folder
         run: |
           mkdir -p release
@@ -89,6 +94,7 @@ jobs:
               -x ".git/*" \
               -x ".github/*" \
               -x "release/*" \
+              -x "config/betterquesting/DefaultQuests/" "config/betterquesting/DefaultQuests/*" \
               -x "raw/*"
 
       - name: Release under current tag

@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - config/betterquesting/DefaultQuests/**
+      - .github/scripts/pack-default-quests.py
+      - .github/workflows/build-and-quest.yml
+      - .github/workflows/release-tags.yml
 
 permissions:
   contents: read
@@ -15,6 +18,11 @@ jobs:
     steps:
       - name: Checkout pull request
         uses: actions/checkout@v5
+
+      - name: Validate packed default quest definitions
+        run: |
+          python .github/scripts/pack-default-quests.py \
+            config/betterquesting/DefaultQuests "$RUNNER_TEMP/DefaultQuests.json.gz"
 
       - name: Stage DefaultQuests
         run: |
