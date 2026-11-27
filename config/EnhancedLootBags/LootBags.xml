@@ -278,7 +278,7 @@
         <Loot Identifier="c6a8c7c3-74fb-4e42-b039-a3a9a73dbd44" ItemName="StevesCarts:CartModule:44" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="e28d55a5-be0a-42ed-ab33-4f64ed3665a9" ItemName="Forestry:apiculture" Amount="1" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="4ed29425-5823-4c31-93d4-403068481c39" ItemName="StevesCarts:CartModule:16" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="bb06a045-aa9c-45a5-b95b-f4f8d3bcfc4c" ItemName="IC2:itemPartCircuit" Amount="8" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="bb06a045-aa9c-45a5-b95b-f4f8d3bcfc4c" ItemName="gregtech:gt.metaitem.03:32305" Amount="8" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="8284ad93-4385-47db-8396-c8cfc2966a02" ItemName="gregtech:gt.metaitem.01:32700" Amount="8" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="3d0b9e5c-3359-4b51-9f36-dd75479694e5" ItemName="ml:RedAlloy:wireGt01" Amount="8" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="3e24925e-cda2-44f9-8fff-e80022584261" ItemName="gregtech:gt.metaitem.01:32600" Amount="8" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="true"/>
@@ -390,7 +390,7 @@
         <Loot Identifier="6adfd6e8-9eda-441f-b747-6c670c6798fa" ItemName="ml:SolderingAlloy:ingot" Amount="1" NBTTag="" Chance="60" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="58d19eb2-91b2-449f-a117-e3213f1d5300" ItemName="gregtech:gt.metaitem.01:32700" Amount="32" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="e5f5b19c-ae3f-4a01-9d19-627874129d26" ItemName="gregtech:gt.metaitem.01:32702" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="e932398d-1643-462c-b9dd-bae9b658b3c2" ItemName="IC2:itemPartCircuit" Amount="8" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e932398d-1643-462c-b9dd-bae9b658b3c2" ItemName="gregtech:gt.metaitem.03:32305" Amount="8" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="346b9934-7074-4bce-8fdd-e21d14abc522" ItemName="ml:Lithium:dust" Amount="8" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="93684d12-830b-4c28-9618-1439da7fa163" ItemName="IC2:itemPartIndustrialDiamond" Amount="1" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="bc0d5690-dccc-4cc4-8b01-372a25a81623" ItemName="TConstruct:materials:6" Amount="1" NBTTag="" Chance="20" LimitedDropCount="4" RandomAmount="false"/>
@@ -463,7 +463,7 @@
         <Loot Identifier="210cb2be-c7a0-4912-8dd5-1087741bbf30" ItemName="ml:SolderingAlloy:ingot" Amount="16" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="73bfd6de-0e57-4abf-a474-369eae6fce45" ItemName="gregtech:gt.metaitem.01:32711" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="1acaf3da-fbce-4bfe-ae6d-bb88dfc4653c" ItemName="gregtech:gt.metaitem.01:32715" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="091a0a7f-6ad2-4864-bde2-1afafff9ef2c" ItemName="IC2:itemPartCircuitAdv" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="091a0a7f-6ad2-4864-bde2-1afafff9ef2c" ItemName="gregtech:gt.metaitem.03:32306" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="5ea54379-369b-4b27-828d-433453193f60" ItemName="IC2:itemPartCarbonPlate" Amount="8" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="4becd113-597a-49c4-b4e0-7d8cd9b3754d" ItemName="IC2:itemDust2:2" Amount="9" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9eacbbea-0fe6-4e22-a952-6090bf03044a" ItemName="dreamcraft:CarbonPartBoots" Amount="1" NBTTag="" Chance="10" ItemGroup="carbonarmor" LimitedDropCount="0" RandomAmount="false"/>
